@@ -1,8 +1,8 @@
 // @r_peredelkino · sales pavilion and forest-side approach reconstructed from references 1–3.
 import * as THREE from './vendor/three.module.js';
-import {batchStatic} from './scene-batches.js?v=publication371';
-import {crownGeometry,branchingTrunk} from './botanical-geometry.js?v=publication371';
-import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
+import {batchStatic} from './scene-batches.js?v=community38';
+import {crownGeometry,branchingTrunk} from './botanical-geometry.js?v=community38';
+import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=community38';
 
 const P=[-40.5713,52.8479],T=[.8199,.5725],N=[-.5725,.8199];
 export function salesOfficePoint(u,v){return[P[0]+T[0]*u+N[0]*v,P[1]+T[1]*u+N[1]*v]}

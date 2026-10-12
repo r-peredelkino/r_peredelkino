@@ -2,13 +2,13 @@
 // The architectural slab is retained; furniture/plant sizes are visual estimates.
 import * as T from './vendor/three.module.js';
 import polygonClipping from './vendor/polygon-clipping.module.js';
-import {complexFootprints as f} from './complex-footprints.js?v=publication371';
-import {retailLevels} from './frontage-zones.js?v=publication371';
-import {createWalkWorld,solidContains,segmentDistance} from './walk-physics.js?v=publication371';
-import {batchStatic} from './scene-batches.js?v=publication371';
-import {crownGeometry} from './botanical-geometry.js?v=publication371';
-import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
-import {applyPaving} from './paving-material.js?v=publication371';
+import {complexFootprints as f} from './complex-footprints.js?v=community38';
+import {retailLevels} from './frontage-zones.js?v=community38';
+import {createWalkWorld,solidContains,segmentDistance} from './walk-physics.js?v=community38';
+import {batchStatic} from './scene-batches.js?v=community38';
+import {crownGeometry} from './botanical-geometry.js?v=community38';
+import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=community38';
+import {applyPaving} from './paving-material.js?v=community38';
 
 const office=f.buildings.find(b=>b.id===0),officeRing=office.shape.map(([x,z])=>[office.x+x,office.z+z]);
 // Register the observed occupied wing to the unchanged architectural contours.

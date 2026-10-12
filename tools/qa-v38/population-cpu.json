@@ -1,0 +1,461 @@
+{
+  "revision": 38,
+  "pass": true,
+  "checkCount": 27,
+  "checks": [
+    {
+      "name": "All seven roles are alive on verified ground routes or real benches",
+      "pass": true,
+      "stats": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 2,
+        "routes": 5,
+        "skyVisible": true,
+        "seatingVisible": true
+      },
+      "planningMs": 4999.56177
+    },
+    {
+      "name": "Dogs, couriers, bicycles and six-wheel robots are articulated original meshes",
+      "pass": true
+    },
+    {
+      "name": "Cyclists and couriers physically grip their actual handlebars",
+      "pass": true,
+      "maxHandGap": 0.017563833068623462
+    },
+    {
+      "name": "A complete pedal revolution retains flat platforms and exact shoe-sole contact",
+      "pass": true,
+      "maxSoleHeightGap": 2.983724378680108e-16,
+      "maxSoleForeGap": 2.842170943040401e-14,
+      "maxPedalTilt": 0,
+      "phases": 49,
+      "bicycles": 10
+    },
+    {
+      "name": "Only safe polyline routes are used for all moving roles",
+      "pass": true
+    },
+    {
+      "name": "Cyclists retain a 0.95 m envelope and dogs/robots a 0.75 m envelope",
+      "pass": true
+    },
+    {
+      "name": "Seated conversations follow actual bench surfaces and clear visitor centres",
+      "pass": true
+    },
+    {
+      "name": "Rendered pelvis rests on the timber and rendered seated soles meet paving",
+      "pass": true,
+      "seatContactGap": 3.7550926201834756e-8,
+      "seatedSoleGap": 2.5033952341657617e-9
+    },
+    {
+      "name": "Fifty-two actors use at most 18 opaque draw batches",
+      "pass": true,
+      "drawBatches": 16
+    },
+    {
+      "name": "Forty seconds of real actor movement never crosses shrubs, furnishings or source architecture",
+      "pass": true,
+      "samples": 55200,
+      "collisions": 0,
+      "dogCollisions": 0,
+      "unsafeSteps": 0,
+      "wrongHeight": 0
+    },
+    {
+      "name": "Every moving role advances continuously rather than freezing on a rejected route",
+      "pass": true,
+      "blocked": []
+    },
+    {
+      "name": "All articulated batch matrices remain finite",
+      "pass": true
+    },
+    {
+      "name": "Pause freezes route positions, all limbs/wheels, sky clock and uploaded matrices",
+      "pass": true
+    },
+    {
+      "name": "A tab gap is capped to 80 ms and cannot teleport a running resident",
+      "pass": true
+    },
+    {
+      "name": "fast preserves every role and route state while choosing a bounded population",
+      "pass": true,
+      "roles": {
+        "walker": {
+          "total": 20,
+          "active": 20,
+          "visible": 9,
+          "blocked": 0
+        },
+        "runner": {
+          "total": 6,
+          "active": 6,
+          "visible": 3,
+          "blocked": 0
+        },
+        "dogwalker": {
+          "total": 6,
+          "active": 6,
+          "visible": 3,
+          "blocked": 0
+        },
+        "cyclist": {
+          "total": 6,
+          "active": 6,
+          "visible": 3,
+          "blocked": 0
+        },
+        "courier": {
+          "total": 4,
+          "active": 4,
+          "visible": 2,
+          "blocked": 0
+        },
+        "robot": {
+          "total": 4,
+          "active": 4,
+          "visible": 2,
+          "blocked": 0
+        },
+        "seated": {
+          "total": 6,
+          "active": 6,
+          "visible": 3,
+          "blocked": 0
+        }
+      },
+      "quality": {
+        "id": "fast",
+        "population": 0.45,
+        "updateHz": 15,
+        "reducedMotion": false
+      }
+    },
+    {
+      "name": "balanced preserves every role and route state while choosing a bounded population",
+      "pass": true,
+      "roles": {
+        "walker": {
+          "total": 20,
+          "active": 20,
+          "visible": 14,
+          "blocked": 0
+        },
+        "runner": {
+          "total": 6,
+          "active": 6,
+          "visible": 5,
+          "blocked": 0
+        },
+        "dogwalker": {
+          "total": 6,
+          "active": 6,
+          "visible": 5,
+          "blocked": 0
+        },
+        "cyclist": {
+          "total": 6,
+          "active": 6,
+          "visible": 5,
+          "blocked": 0
+        },
+        "courier": {
+          "total": 4,
+          "active": 4,
+          "visible": 3,
+          "blocked": 0
+        },
+        "robot": {
+          "total": 4,
+          "active": 4,
+          "visible": 3,
+          "blocked": 0
+        },
+        "seated": {
+          "total": 6,
+          "active": 6,
+          "visible": 5,
+          "blocked": 0
+        }
+      },
+      "quality": {
+        "id": "balanced",
+        "population": 0.7,
+        "updateHz": 24,
+        "reducedMotion": false
+      }
+    },
+    {
+      "name": "full preserves every role and route state while choosing a bounded population",
+      "pass": true,
+      "roles": {
+        "walker": {
+          "total": 20,
+          "active": 20,
+          "visible": 20,
+          "blocked": 0
+        },
+        "runner": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        },
+        "dogwalker": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        },
+        "cyclist": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        },
+        "courier": {
+          "total": 4,
+          "active": 4,
+          "visible": 4,
+          "blocked": 0
+        },
+        "robot": {
+          "total": 4,
+          "active": 4,
+          "visible": 4,
+          "blocked": 0
+        },
+        "seated": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        }
+      },
+      "quality": {
+        "id": "full",
+        "population": 1,
+        "updateHz": 30,
+        "reducedMotion": false
+      }
+    },
+    {
+      "name": "max preserves every role and route state while choosing a bounded population",
+      "pass": true,
+      "roles": {
+        "walker": {
+          "total": 20,
+          "active": 20,
+          "visible": 20,
+          "blocked": 0
+        },
+        "runner": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        },
+        "dogwalker": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        },
+        "cyclist": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        },
+        "courier": {
+          "total": 4,
+          "active": 4,
+          "visible": 4,
+          "blocked": 0
+        },
+        "robot": {
+          "total": 4,
+          "active": 4,
+          "visible": 4,
+          "blocked": 0
+        },
+        "seated": {
+          "total": 6,
+          "active": 6,
+          "visible": 6,
+          "blocked": 0
+        }
+      },
+      "quality": {
+        "id": "max",
+        "population": 1,
+        "updateHz": 40,
+        "reducedMotion": false
+      }
+    },
+    {
+      "name": "Economy and balanced profiles submit fewer real GPU instances",
+      "pass": true,
+      "submittedInstances": [
+        {
+          "id": "fast",
+          "count": 989
+        },
+        {
+          "id": "balanced",
+          "count": 1592
+        },
+        {
+          "id": "full",
+          "count": 2042
+        },
+        {
+          "id": "max",
+          "count": 2042
+        }
+      ]
+    },
+    {
+      "name": "Malformed quality numbers fall back to the preset",
+      "pass": true
+    },
+    {
+      "name": "Walking past a paused landscape still hides nearby figures from the camera",
+      "pass": true
+    },
+    {
+      "name": "Turning off the authored bench layer hides its seated occupants",
+      "pass": true
+    },
+    {
+      "name": "The courtyard seating switch removes only real seated GPU parts immediately while paused",
+      "pass": true,
+      "profiles": [
+        {
+          "profile": "fast",
+          "offPass": true,
+          "onPass": true,
+          "beforeCount": 989,
+          "offCount": 901,
+          "onCount": 989,
+          "seatedParts": 88,
+          "visibleSeats": 3,
+          "clock": 40.08833333333321
+        },
+        {
+          "profile": "full",
+          "offPass": true,
+          "onPass": true,
+          "beforeCount": 2042,
+          "offCount": 1864,
+          "onCount": 2042,
+          "seatedParts": 178,
+          "visibleSeats": 6,
+          "clock": 40.09666666666642
+        }
+      ]
+    },
+    {
+      "name": "Restoring seating retains exact poses, quality budgets, buffers and existing draw batches",
+      "pass": true,
+      "profiles": [
+        {
+          "profile": "fast",
+          "offPass": true,
+          "onPass": true,
+          "beforeCount": 989,
+          "offCount": 901,
+          "onCount": 989,
+          "seatedParts": 88,
+          "visibleSeats": 3,
+          "clock": 40.08833333333321
+        },
+        {
+          "profile": "full",
+          "offPass": true,
+          "onPass": true,
+          "beforeCount": 2042,
+          "offCount": 1864,
+          "onCount": 2042,
+          "seatedParts": 178,
+          "visibleSeats": 6,
+          "clock": 40.09666666666642
+        }
+      ]
+    },
+    {
+      "name": "Life never changes a tower, source contour or facade pane matrix",
+      "pass": true
+    },
+    {
+      "name": "Owned geometry and materials dispose exactly once and leave no root objects",
+      "pass": true,
+      "resources": 69,
+      "bad": []
+    },
+    {
+      "name": "A disconnected scene never renders unvalidated fallback actors",
+      "pass": true
+    }
+  ],
+  "samples": 55200,
+  "planningMs": 4999.56177
+}

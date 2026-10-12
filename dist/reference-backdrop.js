@@ -1,8 +1,8 @@
-import {registeredContextFootprints} from './context-services.js?v=publication371';
+import {registeredContextFootprints} from './context-services.js?v=community38';
 // @r_peredelkino · low commercial backdrop visible behind the courtyard in references 4–8.
 import * as THREE from './vendor/three.module.js';
-import {mapPoint,location} from './solar.js?v=publication371';
-import {createMineralMaterial} from './landscape-materials.js?v=publication371';
+import {mapPoint,location} from './solar.js?v=community38';
+import {createMineralMaterial} from './landscape-materials.js?v=community38';
 
 const anchors={shopping:{e:-73,n:38,w:47,d:46,h:9},medical:{e:-92,n:92,w:27,d:21,h:8},utility:{e:-43,n:38,w:8,d:38,h:3}};
 const heading=Math.atan2(location.north[0],location.north[1]);

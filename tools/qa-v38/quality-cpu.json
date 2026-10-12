@@ -1,0 +1,176 @@
+{
+  "revision": 38,
+  "pass": true,
+  "checks": [
+    {
+      "name": "Auto begins with a bounded balanced profile without changing architecture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "An unsupported choice leaves existing render state intact",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Sustained 50 ms frames reduce auto quality one step",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Sustained recovery restores one balanced step with hysteresis",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A genuinely heavy device rendering at 5 FPS still adapts automatically",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A tab/dialog gap clears sampling instead of being treated as a slow frame",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Manual detail stays manual even on slow hardware",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Maximum preserves full population and detailed crowns while capping DPR",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Disposed quality controller ignores future settings",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A saved manual choice survives reload and respects device pixel ratio",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Privacy-mode storage failure still provides economical touch-device rendering",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Quality changes preserve the user preference for reduced motion",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Audio follows the model forest edge and retains sound inside the woodland",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Audio fades on the building side and is silent at distant/high viewpoints",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Invalid forest or camera coordinates cannot produce audible gain",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Future car route positions are conservatively included in the cached caster envelope",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "An unchanged paused scene fits and renders its sunlight shadow only once",
+      "pass": true,
+      "details": {
+        "fitCount": 1,
+        "redrawCount": 1
+      }
+    },
+    {
+      "name": "Moving residents redraw shadows at the budgeted cadence without refitting static bounds",
+      "pass": true,
+      "details": {
+        "redraws": 9
+      }
+    },
+    {
+      "name": "Changing a camera invalidates the shadow fit",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Changing camera projection invalidates the shadow fit",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Repeated identical solar selections do not invalidate the fit",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A new geographic solar direction refits the actual shadow camera",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Changing shadow resolution releases the obsolete GPU targets and refits once",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A receiver region change refits while retaining finite shadow coverage",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Lighting releases the analytic environment once and removes the rig",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A saved sound preference creates no audio context before a user gesture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "An explicit user action starts one context at the forest",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Volume changes affect and persist only the local audio setting",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A hidden tab suspends audio immediately even when rendering is paused",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A room/dialog keeps woodland sound muted after returning to the tab",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Closing the room restores the already authorised context",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Disabling sound suspends the same context and saves the off choice",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Disposal closes once, stops/disconnects the owned source, and removes handlers",
+      "pass": true,
+      "details": {}
+    }
+  ]
+}

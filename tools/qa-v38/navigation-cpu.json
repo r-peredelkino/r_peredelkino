@@ -1,0 +1,435 @@
+{
+  "revision": 38,
+  "pass": true,
+  "checkCount": 40,
+  "initialPlanningMs": 2186.6559590000006,
+  "totalMs": 14680.460251,
+  "routeReports": [
+    {
+      "radius": 0.48,
+      "planningAndValidationMs": 377.7447030000003,
+      "samples": 8475,
+      "routes": [
+        {
+          "id": "courtyard-garden",
+          "length": 283.27150567045567,
+          "vertices": 60
+        },
+        {
+          "id": "office-east",
+          "length": 50.84909517181295,
+          "vertices": 4
+        },
+        {
+          "id": "promenade",
+          "length": 272.7232652212532,
+          "vertices": 61
+        },
+        {
+          "id": "courtyard-passage",
+          "length": 23.65,
+          "vertices": 3
+        },
+        {
+          "id": "forest-front",
+          "length": 216.28205618122382,
+          "vertices": 17
+        }
+      ]
+    },
+    {
+      "radius": 0.65,
+      "planningAndValidationMs": 2917.3434749999997,
+      "samples": 7268,
+      "routes": [
+        {
+          "id": "courtyard-garden",
+          "length": 34.77946502512524,
+          "vertices": 8
+        },
+        {
+          "id": "courtyard-garden-2",
+          "length": 10.09554357129917,
+          "vertices": 2
+        },
+        {
+          "id": "courtyard-garden-3",
+          "length": 133.24330919004032,
+          "vertices": 22
+        },
+        {
+          "id": "office-east",
+          "length": 50.89129440047242,
+          "vertices": 4
+        },
+        {
+          "id": "promenade-2",
+          "length": 97.29316531031824,
+          "vertices": 22
+        },
+        {
+          "id": "promenade-3",
+          "length": 157.32439724163652,
+          "vertices": 42
+        },
+        {
+          "id": "courtyard-passage",
+          "length": 23.65,
+          "vertices": 3
+        },
+        {
+          "id": "forest-front",
+          "length": 218.46374913834353,
+          "vertices": 17
+        }
+      ]
+    },
+    {
+      "radius": 0.95,
+      "planningAndValidationMs": 2408.7705719999994,
+      "samples": 5898,
+      "routes": [
+        {
+          "id": "courtyard-garden",
+          "length": 20.80159204878641,
+          "vertices": 5
+        },
+        {
+          "id": "courtyard-garden-3",
+          "length": 9.625122938963523,
+          "vertices": 2
+        },
+        {
+          "id": "courtyard-garden-4",
+          "length": 29.255696835506875,
+          "vertices": 6
+        },
+        {
+          "id": "office-east",
+          "length": 50.325986187438005,
+          "vertices": 4
+        },
+        {
+          "id": "promenade-2",
+          "length": 74.89288554289688,
+          "vertices": 19
+        },
+        {
+          "id": "promenade-4",
+          "length": 160.12905809835328,
+          "vertices": 49
+        },
+        {
+          "id": "courtyard-passage",
+          "length": 23.65,
+          "vertices": 3
+        },
+        {
+          "id": "forest-front",
+          "length": 219.8645716969878,
+          "vertices": 19
+        }
+      ]
+    }
+  ],
+  "checks": [
+    {
+      "name": "Visitor and resident navigation share the same physical ground world",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-garden is navigable at radius 0.48",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline office-east is navigable at radius 0.48",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline promenade is navigable at radius 0.48",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-passage is navigable at radius 0.48",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline forest-front is navigable at radius 0.48",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All actual route samples and movement segments clear source props at radius 0.48",
+      "pass": true,
+      "details": {
+        "routes": 5,
+        "samples": 8475,
+        "collisions": 0,
+        "movementBlocked": 0
+      }
+    },
+    {
+      "name": "Polyline courtyard-garden is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-garden-2 is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-garden-3 is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline office-east is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline promenade-2 is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline promenade-3 is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-passage is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline forest-front is navigable at radius 0.65",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All actual route samples and movement segments clear source props at radius 0.65",
+      "pass": true,
+      "details": {
+        "routes": 8,
+        "samples": 7268,
+        "collisions": 0,
+        "movementBlocked": 0
+      }
+    },
+    {
+      "name": "Polyline courtyard-garden is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-garden-3 is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-garden-4 is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline office-east is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline promenade-2 is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline promenade-4 is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline courtyard-passage is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Polyline forest-front is navigable at radius 0.95",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All actual route samples and movement segments clear source props at radius 0.95",
+      "pass": true,
+      "details": {
+        "routes": 8,
+        "samples": 5898,
+        "collisions": 0,
+        "movementBlocked": 0
+      }
+    },
+    {
+      "name": "K1–K2 centreline remains fully open in both directions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "K1–K2 continuous movement reaches its destination",
+      "pass": true,
+      "details": {
+        "position": {
+          "x": -28.235913395502585,
+          "z": -62.6374320214377,
+          "blocked": false
+        }
+      }
+    },
+    {
+      "name": "K1–K2 continuous movement reaches its destination",
+      "pass": true,
+      "details": {
+        "position": {
+          "x": -12.22352644158848,
+          "z": -45.23266359327023,
+          "blocked": false
+        }
+      }
+    },
+    {
+      "name": "K1–K2 adjacent wall remains solid",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Active traffic centreline samples remain outside ground walk space",
+      "pass": true,
+      "details": {
+        "roadSamples": 3936,
+        "free": []
+      }
+    },
+    {
+      "name": "Courtyard and promenade shrub roots cannot be walked through",
+      "pass": true,
+      "details": {
+        "plants": 4287,
+        "unblocked": []
+      }
+    },
+    {
+      "name": "Bench approaches are navigable and source seats retain their real height",
+      "pass": true,
+      "details": {
+        "benches": [
+          {
+            "id": "cyber-seat-west",
+            "point": [
+              -18,
+              -3
+            ],
+            "height": 0.45699999999999996,
+            "yaw": 0.28000000000000036,
+            "approach": [
+              -17.64073765686665,
+              -1.7506279301959977
+            ],
+            "owner": "cyberCourtyard"
+          },
+          {
+            "id": "cyber-seat-garden",
+            "point": [
+              -4,
+              33
+            ],
+            "height": 0.45699999999999996,
+            "yaw": -2.220446049250313e-16,
+            "approach": [
+              -4,
+              34.3
+            ],
+            "owner": "cyberCourtyard"
+          },
+          {
+            "id": "cyber-seat-office",
+            "point": [
+              31.48492424049175,
+              -38.48492424049175
+            ],
+            "height": 0.45699999999999996,
+            "yaw": 1.6915926535897932,
+            "approach": [
+              32.775451128840615,
+              -38.64157784066933
+            ],
+            "owner": "cyberCourtyard"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Repeated path requests reuse a bounded planning cache",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Spatial broad-phase matches exhaustive collisions with 1802 props",
+      "pass": true,
+      "details": {
+        "samples": 6000,
+        "mismatches": 0,
+        "stats": {
+          "calls": 6000,
+          "solidTests": 0,
+          "obstacleTests": 85080,
+          "solidCells": 0,
+          "obstacleCells": 144
+        },
+        "lookupMs": 252.78212200000053
+      }
+    },
+    {
+      "name": "Spatial broad-phase keeps prop tests local",
+      "pass": true,
+      "details": {
+        "obstacleTests": 85080,
+        "exhaustiveWorstCase": 10812000
+      }
+    },
+    {
+      "name": "Appending a collider updates the spatial broad-phase",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Toggling an existing collider remains live",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Sprint-sized movement cannot tunnel through a thin wall",
+      "pass": true,
+      "details": {
+        "moved": {
+          "x": -0.4285714285714292,
+          "z": 0,
+          "blocked": true
+        }
+      }
+    },
+    {
+      "name": "A newly appended scene prop invalidates navigation caches",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Navigation never changes towers, facade panes or source planted islands",
+      "pass": true,
+      "details": {}
+    }
+  ]
+}

@@ -1,0 +1,363 @@
+{
+  "revision": 38,
+  "suite": "vehicles-cpu",
+  "pass": true,
+  "checks": [
+    {
+      "name": "Original real road graph and vehicle pool retained",
+      "pass": true,
+      "detail": {
+        "lanePaths": 197,
+        "cars": 124
+      }
+    },
+    {
+      "name": "Vehicles share exactly sixteen batches",
+      "pass": true
+    },
+    {
+      "name": "All four distinct silhouettes are represented",
+      "pass": true,
+      "detail": [
+        {
+          "id": "sedan",
+          "count": 49
+        },
+        {
+          "id": "suv",
+          "count": 42
+        },
+        {
+          "id": "compact",
+          "count": 18
+        },
+        {
+          "id": "van",
+          "count": 15
+        }
+      ]
+    },
+    {
+      "name": "Complete real car pool remains under 500,000 triangles",
+      "pass": true,
+      "detail": {
+        "triangles": 264068
+      }
+    },
+    {
+      "name": "All street vehicle parts use InstancedMesh",
+      "pass": true
+    },
+    {
+      "name": "Car paint uses a white multiplier and a readable dielectric response",
+      "pass": true
+    },
+    {
+      "name": "The darkest display paint remains readable before scene illumination",
+      "pass": true,
+      "detail": {
+        "minimumLinearLuminance": 0.11583846061527728
+      }
+    },
+    {
+      "name": "Road graph identities and allowed successors untouched",
+      "pass": true
+    },
+    {
+      "name": "No ordinary vehicle initially occupies a reserved lane",
+      "pass": true
+    },
+    {
+      "name": "Old collision lengths retained as conservative envelope",
+      "pass": true
+    },
+    {
+      "name": "v38 sedan painted silhouette: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 sedan painted silhouette: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 sedan windscreen and side glazing: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 sedan windscreen and side glazing: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 sedan frames, mirrors and grille: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 sedan frames, mirrors and grille: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 suv painted silhouette: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 suv painted silhouette: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 suv windscreen and side glazing: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 suv windscreen and side glazing: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 suv frames, mirrors and grille: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 suv frames, mirrors and grille: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 compact painted silhouette: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 compact painted silhouette: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 compact windscreen and side glazing: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 compact windscreen and side glazing: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 compact frames, mirrors and grille: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 compact frames, mirrors and grille: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 van painted silhouette: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 van painted silhouette: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 van windscreen and side glazing: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 van windscreen and side glazing: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 van frames, mirrors and grille: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 van frames, mirrors and grille: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 shared tyre tread: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 shared tyre tread: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 five-spoke rotating alloy rims: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 five-spoke rotating alloy rims: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 front light pairs: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 front light pairs: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "v38 rear light pairs: geometry has finite positions and normals",
+      "pass": true
+    },
+    {
+      "name": "v38 rear light pairs: geometry has a valid positive sphere",
+      "pass": true
+    },
+    {
+      "name": "Separate tyre tread and five-spoke rim geometry",
+      "pass": true
+    },
+    {
+      "name": "Body and glazing silhouettes vary by vehicle type",
+      "pass": true
+    },
+    {
+      "name": "Fast quality reduces appearance draws without removing cars",
+      "pass": true
+    },
+    {
+      "name": "Fast quality keeps all wheels and light pairs",
+      "pass": true
+    },
+    {
+      "name": "Fast quality hides trim and rims only",
+      "pass": true
+    },
+    {
+      "name": "Full quality restores all detailed batches",
+      "pass": true
+    },
+    {
+      "name": "Appearance changes never mutate simulation state",
+      "pass": true
+    },
+    {
+      "name": "Night mode brightens actual headlight material",
+      "pass": true
+    },
+    {
+      "name": "Day mode restores actual headlight material",
+      "pass": true
+    },
+    {
+      "name": "Road-following centres remain on the source polyline for 160 simulated seconds",
+      "pass": true
+    },
+    {
+      "name": "Traffic never enters reserved PSV paths throughout integration",
+      "pass": true
+    },
+    {
+      "name": "All integration positions and velocities remain finite and bounded",
+      "pass": true
+    },
+    {
+      "name": "Two independent simulations remain deterministic",
+      "pass": true
+    },
+    {
+      "name": "Cars transition through allowed road connectors",
+      "pass": true
+    },
+    {
+      "name": "Signal and queue stopping is still active",
+      "pass": true
+    },
+    {
+      "name": "Actual braking states remain active",
+      "pass": true
+    },
+    {
+      "name": "Signal clocks are still updated through the transport API",
+      "pass": true
+    },
+    {
+      "name": "Rendered vehicle body follows its own current simulation centre",
+      "pass": true
+    },
+    {
+      "name": "Wheel travel rotates actual shared rim instances",
+      "pass": true
+    },
+    {
+      "name": "Braking state lights the corresponding rear instance",
+      "pass": true
+    },
+    {
+      "name": "Paused traffic freezes positions, wheels, routes and velocity",
+      "pass": true
+    },
+    {
+      "name": "Paused traffic freezes signal time",
+      "pass": true
+    },
+    {
+      "name": "Resume advances by current frame only, without a catch-up jump",
+      "pass": true
+    },
+    {
+      "name": "Scenario density retains its genuine active and pool counts",
+      "pass": true
+    },
+    {
+      "name": "Scenario speed retains snow surface reduction",
+      "pass": true
+    },
+    {
+      "name": "Inactive vehicles hide every model part",
+      "pass": true
+    },
+    {
+      "name": "Morning scenario restores available vehicles without exceeding the source pool",
+      "pass": true
+    },
+    {
+      "name": "All source signal phase names remain unchanged",
+      "pass": true
+    },
+    {
+      "name": "Vehicle resources dispose exactly once, including repeat cleanup",
+      "pass": true,
+      "detail": {
+        "resources": 23
+      }
+    },
+    {
+      "name": "Disposal removes traffic model group from its root",
+      "pass": true
+    }
+  ],
+  "vehicleStats": {
+    "period": "day",
+    "weather": "clear",
+    "density": 0.7,
+    "speed": 1,
+    "activeCars": 124,
+    "poolCars": 124,
+    "measuredDemand": false,
+    "modelRevision": 38,
+    "styles": [
+      {
+        "id": "sedan",
+        "count": 49
+      },
+      {
+        "id": "suv",
+        "count": 42
+      },
+      {
+        "id": "compact",
+        "count": 18
+      },
+      {
+        "id": "van",
+        "count": 15
+      }
+    ],
+    "drawCalls": 16,
+    "maximumDrawCalls": 16,
+    "triangles": 264068,
+    "quality": "high",
+    "instanced": true,
+    "simulationDensityUnchanged": true,
+    "lanePaths": 197,
+    "signalTime": 0,
+    "simulationOnly": true
+  }
+}

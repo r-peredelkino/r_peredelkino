@@ -1,6 +1,6 @@
 // @r_peredelkino · close-up furnishings and courtyard-facing lobby portals. Render-based concept details.
 import * as T from './vendor/three.module.js';
-import {facesCourtyard,courtyardFocus} from './frontage-zones.js?v=publication371';
+import {facesCourtyard,courtyardFocus} from './frontage-zones.js?v=community38';
 import {commercialClearHeight} from './building-levels.js';
 export function addRealmDetails(group,{materials:m,data,towers,colliders}){const add=(geo,mat,x,y,z,a=0)=>{const o=new T.Mesh(geo,mat);o.position.set(x,y,z);o.rotation.y=a;o.castShadow=o.receiveShadow=true;group.add(o);return o},box=(w,h,d,x,y,z,mat,a=0)=>add(new T.BoxGeometry(w,h,d),mat,x,y+h/2,z,a);
  const portals=[];

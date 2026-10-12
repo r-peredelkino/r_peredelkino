@@ -1,20 +1,21 @@
+import {applyGeometryTree} from './surface-provenance-v38.js?v=community38';
 // @r_peredelkino · lazy interactive concept interiors and source-linked floor viewpoints.
 // Arena/store/metro fit-out is illustrative. Floor viewpoints use the actual model envelope.
 import * as T from './vendor/three.module.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {createWalkWorld,insideRing} from './walk-physics.js?v=publication371';
-import {createSurfaceFinishes} from './surface-finishes.js?v=publication371';
-import {bakeSceneAuthorship,stampCanvasFrame} from './baked-authorship.js?v=publication371';
-import {createArchitecturalLighting} from './architectural-lighting.js?v=publication371';
-import {getSolarSnapshot,setSolarSelection} from './solar-clock.js?v=publication371';
+import {createWalkWorld,insideRing} from './walk-physics.js?v=community38';
+import {createSurfaceFinishes} from './surface-finishes.js?v=community38';
+import {bakeSceneAuthorship,stampCanvasFrame} from './baked-authorship.js?v=community38';
+import {createArchitecturalLighting} from './architectural-lighting.js?v=community38';
+import {getSolarSnapshot,setSolarSelection} from './solar-clock.js?v=community38';
 import {residentialFloorBase} from './building-levels.js';
-import {createOfficeFitness} from './office-fitness-v35.js?v=publication371';
-import {createResidentLobby} from './resident-lobby-v36.js?v=publication371';
-import {createResidentClub} from './resident-club-v36.js?v=publication371';
-import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=publication371';
-import {createParkingShowroom} from './parking-showroom-v36.js?v=publication371';
-import {createReferenceGallery} from './reference-gallery-v36.js?v=publication371';
-import {applyFitnessContextCut} from './fitness-context-cut-v35.js?v=publication371';
+import {createOfficeFitness} from './office-fitness-v35.js?v=community38';
+import {createResidentLobby} from './resident-lobby-v36.js?v=community38';
+import {createResidentClub} from './resident-club-v36.js?v=community38';
+import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=community38';
+import {createParkingShowroom} from './parking-showroom-v36.js?v=community38';
+import {createReferenceGallery} from './reference-gallery-v36.js?v=community38';
+import {applyFitnessContextCut} from './fitness-context-cut-v35.js?v=community38';
 import {createConceptInterior,addArenaCluster} from './showroom-spaces-v34.js';
 let current=null;
 export function closeShowroom({silent=false}={}){const dispose=current;current=null;dispose?.(!silent);}
@@ -105,7 +106,7 @@ export function openShowroom(requestedKind,options={}){
   }
  }
  controls.update();const world=createWalkWorld({boundary,solids:interior?.solids??[],obstacles,radius:.24});walker=world.nearest([walker.x,walker.z],15)||walker;
- const finishes=createSurfaceFinishes(root);surfaceMarks=createDistributedSurfaceMarks(root,{label:'showroom-'+kind,maxCarriers:3,pixel:.012,depth:.005,ownedMaterials});const existingTextures=new Set();root.traverse(o=>{for(const mat of (Array.isArray(o.material)?o.material:o.material?[o.material]:[]))for(const key of ['map','bumpMap','normalMap','roughnessMap','alphaMap','emissiveMap'])if(mat[key])existingTextures.add(mat[key]);});const authorship=bakeSceneAuthorship(root,{label:'showroom-'+kind});for(const texture of existingTextures)authorship.textures.delete(texture);
+ const finishes=createSurfaceFinishes(root);surfaceMarks=createDistributedSurfaceMarks(root,{label:'showroom-'+kind,maxCarriers:3,pixel:.012,depth:.005,ownedMaterials});const existingTextures=new Set();root.traverse(o=>{for(const mat of (Array.isArray(o.material)?o.material:o.material?[o.material]:[]))for(const key of ['map','bumpMap','normalMap','roughnessMap','alphaMap','emissiveMap'])if(mat[key])existingTextures.add(mat[key]);});const authorship=bakeSceneAuthorship(root,{label:'showroom-'+kind});const surfaceProvenance=applyGeometryTree(root,{label:'showroom-'+kind,authored:true});for(const texture of existingTextures)authorship.textures.delete(texture);
  sourceGallery=createReferenceGallery(dialog,{room:residentMode?activeRoom:parkingMode?'parking':fitnessMode?'yoga':'all',onOpen(){keys.clear();move={x:0,y:0};look={x:0,y:0};controls.enabled=false;},onClose(){controls.enabled=!walk;}});
  const ceilings=[...(interior?.ceilings||[])];root.traverse(o=>{if(o.name==='Concept interior ceiling'&&!ceilings.includes(o))ceilings.push(o);});ceilings.forEach(o=>o.visible=false);
  const roomNames={lobby:'Входная группа',yoga:'Тренировочная / йога',coffee:'Кофейня / коворкинг',kids:'Детская через кофейню',lounge:'Лаунж',lift:'Лифтовой холл',washStroller:'Мойки и колясочная',guestWC:'Гостевой санузел'};
@@ -181,6 +182,6 @@ export function openShowroom(requestedKind,options={}){
   if(train){const t=elapsed%42;train.position.z=t<14?-65+t*4:t<25?-9:-9+(t-25)*6;const light=scene.children.find(o=>o.isDirectionalLight);if(now%100<20)light.shadow.needsUpdate=true;}
   renderer.render(scene,camera);dialog.userData={camera,walker:{...walker},height:heightAt(walker.x,walker.z),world,scene,renderer,authorship:authorship.stats,kind,building:salesMode?'sales-office':kind==='office'||fitnessMode?0:building,officePurpose:salesMode?'sales':'business',concept:interior?.metadata||arenaCluster?.metadata||null,pois:pois.map(p=>({id:p.id,name:p.name,x:p.x,z:p.z,action:p.action})),arenaMode,screenModeRevision,amenities:{residentLobby:residentMode?interior:null,club,parking:parkingMode?interior:null,sourceGallery:{records:sourceGallery.records,controller:sourceGallery},activeRoom},fitness:fitnessMode?{state:interior.equipmentState,anyRunning:interior.anyRunning,metadata:interior.metadata,update:interior.update,worldOutline:interior.boundary,contextCut:fitnessContextCut?.metadata}:null};frame=requestAnimationFrame(draw);
  }
- current=notify=>{if(dead)return;dead=true;cancelAnimationFrame(frame);observer.disconnect();listeners.forEach(fn=>fn());sourceGallery?.dispose();surfaceMarks?.dispose();controls.dispose();club?.dispose?.();interior?.dispose?.();fitnessContextCut?.dispose();rig?.dispose();authorship.dispose();finishes.dispose();root.traverse(o=>{if(o.isInstancedMesh)o.dispose();});ownedGeometries.forEach(g=>g.dispose());ownedMaterials.forEach(m=>m.dispose());ownedTextures.forEach(t=>t.dispose());if(clone)clone.traverse(o=>{if(o.isInstancedMesh)o.dispose();});renderer.dispose();renderer.forceContextLoss();dialog.close();dialog.remove();document.body.classList.remove('showroom-open');if(notify)onClose?.();};
+ current=notify=>{if(dead)return;dead=true;cancelAnimationFrame(frame);observer.disconnect();listeners.forEach(fn=>fn());sourceGallery?.dispose();surfaceMarks?.dispose();controls.dispose();club?.dispose?.();interior?.dispose?.();fitnessContextCut?.dispose();rig?.dispose();surfaceProvenance.dispose();authorship.dispose();finishes.dispose();root.traverse(o=>{if(o.isInstancedMesh)o.dispose();});ownedGeometries.forEach(g=>g.dispose());ownedMaterials.forEach(m=>m.dispose());ownedTextures.forEach(t=>t.dispose());if(clone)clone.traverse(o=>{if(o.isInstancedMesh)o.dispose();});renderer.dispose();renderer.forceContextLoss();dialog.close();dialog.remove();document.body.classList.remove('showroom-open');if(notify)onClose?.();};
  dialog.querySelector('[data-close]').onclick=()=>closeShowroom();bind(dialog,'cancel',e=>{e.preventDefault();closeShowroom();});if(options.initialWalk)setWalk(true);if(kind==='residents')goToRoom(activeRoom);if(kind==='apartment-hall'&&options.initialWalk)lookToward(interior.layout.lookAt.apartmentHall);frame=requestAnimationFrame(draw);
 }

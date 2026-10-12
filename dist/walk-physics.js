@@ -25,17 +25,30 @@ function boundarySegments(regions){
  }
  return segments;
 }
+// Broad phase keeps narrow collision checks local: route planning and many actors
+// use the same exact polygon/primitive checks as first-person movement.
+function ringBounds(ring,margin=0){let x0=Infinity,x1=-Infinity,z0=Infinity,z1=-Infinity;for(const [x,z] of ring){x0=Math.min(x0,x);x1=Math.max(x1,x);z0=Math.min(z0,z);z1=Math.max(z1,z)}return[x0-margin,x1+margin,z0-margin,z1+margin]}
+function obstacleBounds(o,margin){
+ if(o.type==='circle'){const r=(o.radius||0)+margin;return[o.x-r,o.x+r,o.z-r,o.z+r]}
+ if(o.type==='segment')return ringBounds([o.a,o.b],margin+(o.radius||0));
+ const c=Math.abs(Math.cos(o.angle||0)),s=Math.abs(Math.sin(o.angle||0)),w=c*o.width/2+s*o.depth/2+margin,d=s*o.width/2+c*o.depth/2+margin;return[o.x-w,o.x+w,o.z-d,o.z+d];
+}
+function spatialIndex(records,boundsOf,cellSize=8){const cells=new Map();for(const record of records){const b=boundsOf(record);for(let x=Math.floor(b[0]/cellSize);x<=Math.floor(b[1]/cellSize);x++)for(let z=Math.floor(b[2]/cellSize);z<=Math.floor(b[3]/cellSize);z++){const key=x+','+z;let cell=cells.get(key);if(!cell)cells.set(key,cell=[]);cell.push(record)}}return{at(x,z){return cells.get(Math.floor(x/cellSize)+','+Math.floor(z/cellSize))||[]},size:cells.size};}
 export function createWalkWorld({boundary,boundaryExtensions=[],solids=[],obstacles=[],radius=.36}={}){
  const boundaries=[...(boundary?[Array.isArray(boundary)?{outer:boundary,holes:[]}:boundary]:[]),...boundaryExtensions],limits=boundaries.length>1?boundarySegments(boundaries):null;
- const indexed=solids.map(s=>({...s,bounds:[Math.min(...s.outer.map(p=>p[0]))-radius,Math.max(...s.outer.map(p=>p[0]))+radius,Math.min(...s.outer.map(p=>p[1]))-radius,Math.max(...s.outer.map(p=>p[1]))+radius]}));
- function free(x,z){if(!Number.isFinite(x+z))return false;if(boundaries.length){if(!boundaries.some(shape=>solidContains(x,z,shape)))return false;if(limits){for(const edge of limits){const b=edge.bounds;if(x>=b[0]-radius&&x<=b[1]+radius&&z>=b[2]-radius&&z<=b[3]+radius&&segmentDistance(x,z,edge.a,edge.b)<radius)return false}}else if([boundaries[0].outer,...boundaries[0].holes||[]].some(ring=>edgesNear(x,z,radius,ring)))return false}
- for(const s of indexed){const b=s.bounds;if(x<b[0]||x>b[1]||z<b[2]||z>b[3])continue;if(solidContains(x,z,s)||[s.outer,...s.holes||[]].some(r=>edgesNear(x,z,radius,r)))return false}
- for(const o of obstacles){if(o.enabled===false)continue;if(o.type==='circle'){if(Math.hypot(x-o.x,z-o.z)<radius+o.radius)return false}else if(o.type==='segment'){if(segmentDistance(x,z,o.a,o.b)<radius+(o.radius||0))return false}else{const c=Math.cos(o.angle||0),s=Math.sin(o.angle||0),dx=x-o.x,dz=z-o.z,lx=c*dx-s*dz,lz=s*dx+c*dz;const qx=Math.max(Math.abs(lx)-o.width/2,0),qz=Math.max(Math.abs(lz)-o.depth/2,0);if(Math.hypot(qx,qz)<radius)return false}}
+ const indexed=solids.filter(Boolean).map(s=>({...s,bounds:ringBounds(s.outer,radius)}));
+ const boundaryBounds=boundaries.map(shape=>({shape,bounds:ringBounds(shape.outer)}));
+ const solidIndex=spatialIndex(indexed,s=>s.bounds);let obstacleIndex=spatialIndex(obstacles,o=>obstacleBounds(o,radius)),obstacleCount=obstacles.length;
+ const limitIndex=limits?spatialIndex(limits,e=>[e.bounds[0]-radius,e.bounds[1]+radius,e.bounds[2]-radius,e.bounds[3]+radius]):null;
+ let calls=0,solidTests=0,obstacleTests=0;
+ function free(x,z){if(obstacleCount!==obstacles.length){obstacleIndex=spatialIndex(obstacles,o=>obstacleBounds(o,radius));obstacleCount=obstacles.length}calls++;if(!Number.isFinite(x+z))return false;if(boundaries.length){if(!boundaryBounds.some(({shape,bounds:b})=>x>=b[0]&&x<=b[1]&&z>=b[2]&&z<=b[3]&&solidContains(x,z,shape)))return false;if(limits){for(const edge of limitIndex.at(x,z)){const b=edge.bounds;if(x>=b[0]-radius&&x<=b[1]+radius&&z>=b[2]-radius&&z<=b[3]+radius&&segmentDistance(x,z,edge.a,edge.b)<radius)return false}}else if([boundaries[0].outer,...boundaries[0].holes||[]].some(ring=>edgesNear(x,z,radius,ring)))return false}
+ for(const s of solidIndex.at(x,z)){const b=s.bounds;if(x<b[0]||x>b[1]||z<b[2]||z>b[3])continue;solidTests++;if(solidContains(x,z,s)||[s.outer,...s.holes||[]].some(r=>edgesNear(x,z,radius,r)))return false}
+ for(const o of obstacleIndex.at(x,z)){if(o.enabled===false)continue;obstacleTests++;if(o.type==='circle'){if(Math.hypot(x-o.x,z-o.z)<radius+o.radius)return false}else if(o.type==='segment'){if(segmentDistance(x,z,o.a,o.b)<radius+(o.radius||0))return false}else{const c=Math.cos(o.angle||0),s=Math.sin(o.angle||0),dx=x-o.x,dz=z-o.z,lx=c*dx-s*dz,lz=s*dx+c*dz;const qx=Math.max(Math.abs(lx)-o.width/2,0),qz=Math.max(Math.abs(lz)-o.depth/2,0);if(Math.hypot(qx,qz)<radius)return false}}
  return true}
  function move(position,dx,dz){const length=Math.hypot(dx,dz);if(!length)return{...position,blocked:false};const steps=Math.ceil(length/(radius*.4));let x=position.x,z=position.z,blocked=false;
  // Substeps prevent crossing even a thin fence at sprint speed. Separate axes allow wall sliding.
  for(let i=0;i<steps;i++){const sx=dx/steps,sz=dz/steps;if(free(x+sx,z+sz)){x+=sx;z+=sz}else{blocked=true;if(free(x+sx,z))x+=sx;if(free(x,z+sz))z+=sz}}
  return{x,z,blocked}}
  function nearest(point,maxDistance=12){if(free(...point))return{x:point[0],z:point[1]};for(let r=.5;r<=maxDistance;r+=.5)for(let i=0;i<48;i++){const a=i/48*Math.PI*2,x=point[0]+Math.cos(a)*r,z=point[1]+Math.sin(a)*r;if(free(x,z))return{x,z}}return null}
- return{free,move,nearest,radius,solids:indexed,obstacles,boundaries};
+ return{free,move,nearest,radius,solids:indexed,obstacles,boundaries,get stats(){return{calls,solidTests,obstacleTests,solidCells:solidIndex.size,obstacleCells:obstacleIndex.size}},resetStats(){calls=solidTests=obstacleTests=0}};
 }

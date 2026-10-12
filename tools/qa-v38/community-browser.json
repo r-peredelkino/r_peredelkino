@@ -1,0 +1,6999 @@
+{
+  "revision": 38,
+  "base": "http://127.0.0.1:8099/r_peredelkino",
+  "pass": true,
+  "checkCount": 48,
+  "screens": [
+    "v38-genplan-overview.png",
+    "v38-walker-closeup.png",
+    "v38-runner-closeup.png",
+    "v38-dogwalker-closeup.png",
+    "v38-cyclist-closeup.png",
+    "v38-courier-closeup.png",
+    "v38-robot-closeup.png",
+    "v38-seated-closeup.png",
+    "v38-vehicle-closeup.png",
+    "v38-vehicle-suv-closeup.png",
+    "v38-vehicle-compact-closeup.png",
+    "v38-vehicle-van-closeup.png",
+    "v38-quality-settings.png",
+    "v38-passage-walk.png",
+    "v38-promenade-walk.png",
+    "v38-bench-seated.png",
+    "v38-quiet-lounge-seated.png",
+    "v38-courtyard-decor.png",
+    "v38-forest-walk-sound.png",
+    "v38-mobile-walk.png"
+  ],
+  "checks": [
+    {
+      "name": "Public masterplan uses a real WebGL2 renderer and current geometry",
+      "pass": true,
+      "release": "38",
+      "publication": "38.0.0",
+      "render": {
+        "frame": 77,
+        "calls": 1025,
+        "triangles": 21205064,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "name": "Visitors and residents use the same bound navigation world",
+      "pass": true,
+      "stats": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": false,
+        "seatingVisible": true
+      },
+      "navigation": {
+        "plans": 188,
+        "cacheHits": 0,
+        "searchedNodes": 22825,
+        "routeSets": 3,
+        "cachedPaths": 170,
+        "cachedCells": 25456
+      }
+    },
+    {
+      "name": "All seven neighbour activities are instantiated and active",
+      "pass": true,
+      "stats": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true,
+        "seatingVisible": true
+      }
+    },
+    {
+      "name": "Walking, running, cycling, deliveries and robots move along safe routes",
+      "pass": true,
+      "failures": [],
+      "stats": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true,
+        "seatingVisible": true
+      }
+    },
+    {
+      "name": "Companion dogs follow actual paved routes and cyclists animate real wheels",
+      "pass": true,
+      "dogs": [
+        {
+          "id": "dogwalker-0",
+          "position": [
+            22.5707117833865,
+            0.022000000000000006,
+            -34.32970741916928
+          ]
+        },
+        {
+          "id": "dogwalker-1",
+          "position": [
+            -7.9530383099735475,
+            0.022000000000000006,
+            -2.963773858872739
+          ]
+        },
+        {
+          "id": "dogwalker-2",
+          "position": [
+            1.9883628754846292,
+            0.022000000000000006,
+            29.094116708434
+          ]
+        },
+        {
+          "id": "dogwalker-3",
+          "position": [
+            74.3150822932847,
+            0.022000000000000006,
+            -70.20111308082996
+          ]
+        },
+        {
+          "id": "dogwalker-4",
+          "position": [
+            19.950802626619435,
+            0.022000000000000006,
+            -121.30065828101273
+          ]
+        },
+        {
+          "id": "dogwalker-5",
+          "position": [
+            -85.32697261282412,
+            0.022000000000000006,
+            -17.54157809025929
+          ]
+        }
+      ],
+      "cycles": [
+        {
+          "id": "cyclist-0",
+          "wheel": 44.50437819523113
+        },
+        {
+          "id": "cyclist-1",
+          "wheel": 122.82594298405185
+        },
+        {
+          "id": "cyclist-2",
+          "wheel": 22.80473814824087
+        },
+        {
+          "id": "cyclist-3",
+          "wheel": 221.18862342593016
+        },
+        {
+          "id": "cyclist-4",
+          "wheel": 566.4550951017274
+        },
+        {
+          "id": "cyclist-5",
+          "wheel": 35.994745344722574
+        },
+        {
+          "id": "courier-0",
+          "wheel": 102.65870443055069
+        },
+        {
+          "id": "courier-1",
+          "wheel": 58.73989673614994
+        },
+        {
+          "id": "courier-2",
+          "wheel": 167.81693966536727
+        },
+        {
+          "id": "courier-3",
+          "wheel": 528.4245081937632
+        }
+      ]
+    },
+    {
+      "name": "The visible life control freezes actor motion and its simulation clock",
+      "pass": true,
+      "time": 2.6231999999999993,
+      "trafficEnabled": false
+    },
+    {
+      "name": "Resuming neighbourhood life restarts people and traffic",
+      "pass": true,
+      "time": 2.9064,
+      "trafficEnabled": true
+    },
+    {
+      "name": "Actual rendered close-up v38-walker-closeup",
+      "pass": true,
+      "label": "walker-0",
+      "point": [
+        11.998435627498045,
+        0.022000000000000006,
+        -28.842157320543606
+      ],
+      "render": {
+        "frame": 133,
+        "calls": 861,
+        "triangles": 15366692,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-runner-closeup",
+      "pass": true,
+      "label": "runner-0",
+      "point": [
+        -12.556062120528406,
+        0.022000000000000006,
+        -23.48331667418755
+      ],
+      "render": {
+        "frame": 136,
+        "calls": 811,
+        "triangles": 16282512,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-dogwalker-closeup",
+      "pass": true,
+      "label": "dogwalker-0",
+      "point": [
+        23.550838968366616,
+        0.022000000000000006,
+        -34.94682453563824
+      ],
+      "render": {
+        "frame": 138,
+        "calls": 503,
+        "triangles": 9199398,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-cyclist-closeup",
+      "pass": true,
+      "label": "cyclist-0",
+      "point": [
+        -2.002633701737568,
+        0.022000000000000006,
+        16.540452831201318
+      ],
+      "render": {
+        "frame": 140,
+        "calls": 657,
+        "triangles": 12384360,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-courier-closeup",
+      "pass": true,
+      "label": "courier-0",
+      "point": [
+        2.330019710394106,
+        0.022000000000000006,
+        30.330019710394108
+      ],
+      "render": {
+        "frame": 142,
+        "calls": 275,
+        "triangles": 8244971,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-robot-closeup",
+      "pass": true,
+      "label": "robot-0",
+      "point": [
+        24.788910627915726,
+        0.022000000000000006,
+        -37.70046594949285
+      ],
+      "render": {
+        "frame": 145,
+        "calls": 817,
+        "triangles": 16878890,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-seated-closeup",
+      "pass": true,
+      "label": "seated-0",
+      "point": [
+        -18.44196171498968,
+        -0.3580000000000001,
+        -2.8000754080074715
+      ],
+      "render": {
+        "frame": 147,
+        "calls": 311,
+        "triangles": 7019386,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-vehicle-closeup",
+      "pass": true,
+      "label": "vehicle sedan 3",
+      "point": [
+        -303.7252993014803,
+        -0.5,
+        162.63848939659283
+      ],
+      "render": {
+        "frame": 149,
+        "calls": 567,
+        "triangles": 9669698,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-vehicle-suv-closeup",
+      "pass": true,
+      "label": "vehicle suv 1",
+      "point": [
+        -366.45410971011734,
+        -0.5,
+        213.49388480817652
+      ],
+      "render": {
+        "frame": 151,
+        "calls": 106,
+        "triangles": 1771239,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-vehicle-compact-closeup",
+      "pass": true,
+      "label": "vehicle compact 6",
+      "point": [
+        -225.7124802706166,
+        -0.5,
+        81.00966062904355
+      ],
+      "render": {
+        "frame": 154,
+        "calls": 629,
+        "triangles": 11330290,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Actual rendered close-up v38-vehicle-van-closeup",
+      "pass": true,
+      "label": "vehicle van 22",
+      "point": [
+        177.78725151166344,
+        -0.5,
+        -351.75259576269764
+      ],
+      "render": {
+        "frame": 157,
+        "calls": 1184,
+        "triangles": 22383974,
+        "points": 0,
+        "lines": 0
+      },
+      "glError": 0,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ]
+    },
+    {
+      "name": "Visible quality control applies fast",
+      "pass": true,
+      "quality": {
+        "choice": {
+          "choice": "fast",
+          "effective": "fast",
+          "id": "fast",
+          "label": "Экономно",
+          "pixelRatio": 0.9,
+          "shadowSize": 1024,
+          "shadowHz": 5,
+          "forestDetail": "auto",
+          "population": 0.45,
+          "updateHz": 15,
+          "precipitation": 0.4
+        },
+        "life": {
+          "roles": {
+            "walker": {
+              "total": 20,
+              "active": 20,
+              "visible": 9,
+              "blocked": 0
+            },
+            "runner": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            },
+            "dogwalker": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            },
+            "cyclist": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            },
+            "courier": {
+              "total": 4,
+              "active": 4,
+              "visible": 2,
+              "blocked": 0
+            },
+            "robot": {
+              "total": 4,
+              "active": 4,
+              "visible": 2,
+              "blocked": 0
+            },
+            "seated": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            }
+          },
+          "actors": 52,
+          "active": 52,
+          "drawBatches": 19,
+          "actorDrawBatches": 16,
+          "quality": {
+            "id": "fast",
+            "population": 0.45,
+            "updateHz": 15,
+            "reducedMotion": false
+          },
+          "navigationRevision": 1,
+          "routes": 5,
+          "skyVisible": true,
+          "seatingVisible": true
+        },
+        "traffic": {
+          "period": "day",
+          "weather": "clear",
+          "density": 0.7,
+          "speed": 1,
+          "activeCars": 77,
+          "poolCars": 124,
+          "measuredDemand": false,
+          "modelRevision": 38,
+          "styles": [
+            {
+              "id": "sedan",
+              "count": 49
+            },
+            {
+              "id": "suv",
+              "count": 42
+            },
+            {
+              "id": "compact",
+              "count": 18
+            },
+            {
+              "id": "van",
+              "count": 15
+            }
+          ],
+          "drawCalls": 11,
+          "maximumDrawCalls": 16,
+          "triangles": 111796,
+          "quality": "low",
+          "instanced": true,
+          "simulationDensityUnchanged": true,
+          "lanePaths": 197,
+          "signalTime": 4.999699999999999,
+          "simulationOnly": true
+        },
+        "actualRenderer": {
+          "frame": 170,
+          "calls": 579,
+          "triangles": 12222075,
+          "points": 0,
+          "lines": 0
+        },
+        "stored": "fast",
+        "selected": "fast"
+      }
+    },
+    {
+      "name": "Visible quality control applies balanced",
+      "pass": true,
+      "quality": {
+        "choice": {
+          "choice": "balanced",
+          "effective": "balanced",
+          "id": "balanced",
+          "label": "Сбалансировано",
+          "pixelRatio": 1,
+          "shadowSize": 2048,
+          "shadowHz": 8,
+          "forestDetail": "auto",
+          "population": 0.7,
+          "updateHz": 24,
+          "precipitation": 0.7
+        },
+        "life": {
+          "roles": {
+            "walker": {
+              "total": 20,
+              "active": 20,
+              "visible": 14,
+              "blocked": 0
+            },
+            "runner": {
+              "total": 6,
+              "active": 6,
+              "visible": 5,
+              "blocked": 0
+            },
+            "dogwalker": {
+              "total": 6,
+              "active": 6,
+              "visible": 5,
+              "blocked": 0
+            },
+            "cyclist": {
+              "total": 6,
+              "active": 6,
+              "visible": 5,
+              "blocked": 0
+            },
+            "courier": {
+              "total": 4,
+              "active": 4,
+              "visible": 3,
+              "blocked": 0
+            },
+            "robot": {
+              "total": 4,
+              "active": 4,
+              "visible": 3,
+              "blocked": 0
+            },
+            "seated": {
+              "total": 6,
+              "active": 6,
+              "visible": 5,
+              "blocked": 0
+            }
+          },
+          "actors": 52,
+          "active": 52,
+          "drawBatches": 19,
+          "actorDrawBatches": 16,
+          "quality": {
+            "id": "balanced",
+            "population": 0.7,
+            "updateHz": 24,
+            "reducedMotion": false
+          },
+          "navigationRevision": 1,
+          "routes": 5,
+          "skyVisible": true,
+          "seatingVisible": true
+        },
+        "traffic": {
+          "period": "day",
+          "weather": "clear",
+          "density": 0.7,
+          "speed": 1,
+          "activeCars": 77,
+          "poolCars": 124,
+          "measuredDemand": false,
+          "modelRevision": 38,
+          "styles": [
+            {
+              "id": "sedan",
+              "count": 49
+            },
+            {
+              "id": "suv",
+              "count": 42
+            },
+            {
+              "id": "compact",
+              "count": 18
+            },
+            {
+              "id": "van",
+              "count": 15
+            }
+          ],
+          "drawCalls": 16,
+          "maximumDrawCalls": 16,
+          "triangles": 264068,
+          "quality": "medium",
+          "instanced": true,
+          "simulationDensityUnchanged": true,
+          "lanePaths": 197,
+          "signalTime": 5.466299999999999,
+          "simulationOnly": true
+        },
+        "actualRenderer": {
+          "frame": 179,
+          "calls": 584,
+          "triangles": 12465509,
+          "points": 0,
+          "lines": 0
+        },
+        "stored": "balanced",
+        "selected": "balanced"
+      }
+    },
+    {
+      "name": "Visible quality control applies full",
+      "pass": true,
+      "quality": {
+        "choice": {
+          "choice": "full",
+          "effective": "full",
+          "id": "full",
+          "label": "Детально",
+          "pixelRatio": 1,
+          "shadowSize": 4096,
+          "shadowHz": 10,
+          "forestDetail": "full",
+          "population": 1,
+          "updateHz": 30,
+          "precipitation": 1
+        },
+        "life": {
+          "roles": {
+            "walker": {
+              "total": 20,
+              "active": 20,
+              "visible": 20,
+              "blocked": 0
+            },
+            "runner": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "dogwalker": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "cyclist": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "courier": {
+              "total": 4,
+              "active": 4,
+              "visible": 4,
+              "blocked": 0
+            },
+            "robot": {
+              "total": 4,
+              "active": 4,
+              "visible": 4,
+              "blocked": 0
+            },
+            "seated": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            }
+          },
+          "actors": 52,
+          "active": 52,
+          "drawBatches": 19,
+          "actorDrawBatches": 16,
+          "quality": {
+            "id": "full",
+            "population": 1,
+            "updateHz": 30,
+            "reducedMotion": false
+          },
+          "navigationRevision": 1,
+          "routes": 5,
+          "skyVisible": true,
+          "seatingVisible": true
+        },
+        "traffic": {
+          "period": "day",
+          "weather": "clear",
+          "density": 0.7,
+          "speed": 1,
+          "activeCars": 77,
+          "poolCars": 124,
+          "measuredDemand": false,
+          "modelRevision": 38,
+          "styles": [
+            {
+              "id": "sedan",
+              "count": 49
+            },
+            {
+              "id": "suv",
+              "count": 42
+            },
+            {
+              "id": "compact",
+              "count": 18
+            },
+            {
+              "id": "van",
+              "count": 15
+            }
+          ],
+          "drawCalls": 16,
+          "maximumDrawCalls": 16,
+          "triangles": 264068,
+          "quality": "high",
+          "instanced": true,
+          "simulationDensityUnchanged": true,
+          "lanePaths": 197,
+          "signalTime": 5.799699999999997,
+          "simulationOnly": true
+        },
+        "actualRenderer": {
+          "frame": 184,
+          "calls": 1014,
+          "triangles": 21113702,
+          "points": 0,
+          "lines": 0
+        },
+        "stored": "full",
+        "selected": "full"
+      }
+    },
+    {
+      "name": "Visible quality control applies max",
+      "pass": true,
+      "quality": {
+        "choice": {
+          "choice": "max",
+          "effective": "max",
+          "id": "max",
+          "label": "Максимум",
+          "pixelRatio": 1,
+          "shadowSize": 4096,
+          "shadowHz": 12,
+          "forestDetail": "full",
+          "population": 1,
+          "updateHz": 40,
+          "precipitation": 1
+        },
+        "life": {
+          "roles": {
+            "walker": {
+              "total": 20,
+              "active": 20,
+              "visible": 20,
+              "blocked": 0
+            },
+            "runner": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "dogwalker": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "cyclist": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "courier": {
+              "total": 4,
+              "active": 4,
+              "visible": 4,
+              "blocked": 0
+            },
+            "robot": {
+              "total": 4,
+              "active": 4,
+              "visible": 4,
+              "blocked": 0
+            },
+            "seated": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            }
+          },
+          "actors": 52,
+          "active": 52,
+          "drawBatches": 19,
+          "actorDrawBatches": 16,
+          "quality": {
+            "id": "max",
+            "population": 1,
+            "updateHz": 40,
+            "reducedMotion": false
+          },
+          "navigationRevision": 1,
+          "routes": 5,
+          "skyVisible": true,
+          "seatingVisible": true
+        },
+        "traffic": {
+          "period": "day",
+          "weather": "clear",
+          "density": 0.7,
+          "speed": 1,
+          "activeCars": 77,
+          "poolCars": 124,
+          "measuredDemand": false,
+          "modelRevision": 38,
+          "styles": [
+            {
+              "id": "sedan",
+              "count": 49
+            },
+            {
+              "id": "suv",
+              "count": 42
+            },
+            {
+              "id": "compact",
+              "count": 18
+            },
+            {
+              "id": "van",
+              "count": 15
+            }
+          ],
+          "drawCalls": 16,
+          "maximumDrawCalls": 16,
+          "triangles": 264068,
+          "quality": "ultra",
+          "instanced": true,
+          "simulationDensityUnchanged": true,
+          "lanePaths": 197,
+          "signalTime": 6.099599999999998,
+          "simulationOnly": true
+        },
+        "actualRenderer": {
+          "frame": 189,
+          "calls": 584,
+          "triangles": 13338247,
+          "points": 0,
+          "lines": 0
+        },
+        "stored": "max",
+        "selected": "max"
+      }
+    },
+    {
+      "name": "Economy mode submits fewer neighbours and vehicle detail triangles",
+      "pass": true,
+      "fast": {
+        "choice": {
+          "choice": "fast",
+          "effective": "fast",
+          "id": "fast",
+          "label": "Экономно",
+          "pixelRatio": 0.9,
+          "shadowSize": 1024,
+          "shadowHz": 5,
+          "forestDetail": "auto",
+          "population": 0.45,
+          "updateHz": 15,
+          "precipitation": 0.4
+        },
+        "life": {
+          "roles": {
+            "walker": {
+              "total": 20,
+              "active": 20,
+              "visible": 9,
+              "blocked": 0
+            },
+            "runner": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            },
+            "dogwalker": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            },
+            "cyclist": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            },
+            "courier": {
+              "total": 4,
+              "active": 4,
+              "visible": 2,
+              "blocked": 0
+            },
+            "robot": {
+              "total": 4,
+              "active": 4,
+              "visible": 2,
+              "blocked": 0
+            },
+            "seated": {
+              "total": 6,
+              "active": 6,
+              "visible": 3,
+              "blocked": 0
+            }
+          },
+          "actors": 52,
+          "active": 52,
+          "drawBatches": 19,
+          "actorDrawBatches": 16,
+          "quality": {
+            "id": "fast",
+            "population": 0.45,
+            "updateHz": 15,
+            "reducedMotion": false
+          },
+          "navigationRevision": 1,
+          "routes": 5,
+          "skyVisible": true,
+          "seatingVisible": true
+        },
+        "traffic": {
+          "period": "day",
+          "weather": "clear",
+          "density": 0.7,
+          "speed": 1,
+          "activeCars": 77,
+          "poolCars": 124,
+          "measuredDemand": false,
+          "modelRevision": 38,
+          "styles": [
+            {
+              "id": "sedan",
+              "count": 49
+            },
+            {
+              "id": "suv",
+              "count": 42
+            },
+            {
+              "id": "compact",
+              "count": 18
+            },
+            {
+              "id": "van",
+              "count": 15
+            }
+          ],
+          "drawCalls": 11,
+          "maximumDrawCalls": 16,
+          "triangles": 111796,
+          "quality": "low",
+          "instanced": true,
+          "simulationDensityUnchanged": true,
+          "lanePaths": 197,
+          "signalTime": 4.999699999999999,
+          "simulationOnly": true
+        },
+        "actualRenderer": {
+          "frame": 170,
+          "calls": 579,
+          "triangles": 12222075,
+          "points": 0,
+          "lines": 0
+        },
+        "stored": "fast",
+        "selected": "fast"
+      },
+      "full": {
+        "choice": {
+          "choice": "full",
+          "effective": "full",
+          "id": "full",
+          "label": "Детально",
+          "pixelRatio": 1,
+          "shadowSize": 4096,
+          "shadowHz": 10,
+          "forestDetail": "full",
+          "population": 1,
+          "updateHz": 30,
+          "precipitation": 1
+        },
+        "life": {
+          "roles": {
+            "walker": {
+              "total": 20,
+              "active": 20,
+              "visible": 20,
+              "blocked": 0
+            },
+            "runner": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "dogwalker": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "cyclist": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            },
+            "courier": {
+              "total": 4,
+              "active": 4,
+              "visible": 4,
+              "blocked": 0
+            },
+            "robot": {
+              "total": 4,
+              "active": 4,
+              "visible": 4,
+              "blocked": 0
+            },
+            "seated": {
+              "total": 6,
+              "active": 6,
+              "visible": 6,
+              "blocked": 0
+            }
+          },
+          "actors": 52,
+          "active": 52,
+          "drawBatches": 19,
+          "actorDrawBatches": 16,
+          "quality": {
+            "id": "full",
+            "population": 1,
+            "updateHz": 30,
+            "reducedMotion": false
+          },
+          "navigationRevision": 1,
+          "routes": 5,
+          "skyVisible": true,
+          "seatingVisible": true
+        },
+        "traffic": {
+          "period": "day",
+          "weather": "clear",
+          "density": 0.7,
+          "speed": 1,
+          "activeCars": 77,
+          "poolCars": 124,
+          "measuredDemand": false,
+          "modelRevision": 38,
+          "styles": [
+            {
+              "id": "sedan",
+              "count": 49
+            },
+            {
+              "id": "suv",
+              "count": 42
+            },
+            {
+              "id": "compact",
+              "count": 18
+            },
+            {
+              "id": "van",
+              "count": 15
+            }
+          ],
+          "drawCalls": 16,
+          "maximumDrawCalls": 16,
+          "triangles": 264068,
+          "quality": "high",
+          "instanced": true,
+          "simulationDensityUnchanged": true,
+          "lanePaths": 197,
+          "signalTime": 5.799699999999997,
+          "simulationOnly": true
+        },
+        "actualRenderer": {
+          "frame": 184,
+          "calls": 1014,
+          "triangles": 21113702,
+          "points": 0,
+          "lines": 0
+        },
+        "stored": "full",
+        "selected": "full"
+      }
+    },
+    {
+      "name": "Quality profiles retain all seven activities and unchanged traffic density",
+      "pass": true,
+      "qualityStates": [
+        {
+          "choice": {
+            "choice": "fast",
+            "effective": "fast",
+            "id": "fast",
+            "label": "Экономно",
+            "pixelRatio": 0.9,
+            "shadowSize": 1024,
+            "shadowHz": 5,
+            "forestDetail": "auto",
+            "population": 0.45,
+            "updateHz": 15,
+            "precipitation": 0.4
+          },
+          "life": {
+            "roles": {
+              "walker": {
+                "total": 20,
+                "active": 20,
+                "visible": 9,
+                "blocked": 0
+              },
+              "runner": {
+                "total": 6,
+                "active": 6,
+                "visible": 3,
+                "blocked": 0
+              },
+              "dogwalker": {
+                "total": 6,
+                "active": 6,
+                "visible": 3,
+                "blocked": 0
+              },
+              "cyclist": {
+                "total": 6,
+                "active": 6,
+                "visible": 3,
+                "blocked": 0
+              },
+              "courier": {
+                "total": 4,
+                "active": 4,
+                "visible": 2,
+                "blocked": 0
+              },
+              "robot": {
+                "total": 4,
+                "active": 4,
+                "visible": 2,
+                "blocked": 0
+              },
+              "seated": {
+                "total": 6,
+                "active": 6,
+                "visible": 3,
+                "blocked": 0
+              }
+            },
+            "actors": 52,
+            "active": 52,
+            "drawBatches": 19,
+            "actorDrawBatches": 16,
+            "quality": {
+              "id": "fast",
+              "population": 0.45,
+              "updateHz": 15,
+              "reducedMotion": false
+            },
+            "navigationRevision": 1,
+            "routes": 5,
+            "skyVisible": true,
+            "seatingVisible": true
+          },
+          "traffic": {
+            "period": "day",
+            "weather": "clear",
+            "density": 0.7,
+            "speed": 1,
+            "activeCars": 77,
+            "poolCars": 124,
+            "measuredDemand": false,
+            "modelRevision": 38,
+            "styles": [
+              {
+                "id": "sedan",
+                "count": 49
+              },
+              {
+                "id": "suv",
+                "count": 42
+              },
+              {
+                "id": "compact",
+                "count": 18
+              },
+              {
+                "id": "van",
+                "count": 15
+              }
+            ],
+            "drawCalls": 11,
+            "maximumDrawCalls": 16,
+            "triangles": 111796,
+            "quality": "low",
+            "instanced": true,
+            "simulationDensityUnchanged": true,
+            "lanePaths": 197,
+            "signalTime": 4.999699999999999,
+            "simulationOnly": true
+          },
+          "actualRenderer": {
+            "frame": 170,
+            "calls": 579,
+            "triangles": 12222075,
+            "points": 0,
+            "lines": 0
+          },
+          "stored": "fast",
+          "selected": "fast"
+        },
+        {
+          "choice": {
+            "choice": "balanced",
+            "effective": "balanced",
+            "id": "balanced",
+            "label": "Сбалансировано",
+            "pixelRatio": 1,
+            "shadowSize": 2048,
+            "shadowHz": 8,
+            "forestDetail": "auto",
+            "population": 0.7,
+            "updateHz": 24,
+            "precipitation": 0.7
+          },
+          "life": {
+            "roles": {
+              "walker": {
+                "total": 20,
+                "active": 20,
+                "visible": 14,
+                "blocked": 0
+              },
+              "runner": {
+                "total": 6,
+                "active": 6,
+                "visible": 5,
+                "blocked": 0
+              },
+              "dogwalker": {
+                "total": 6,
+                "active": 6,
+                "visible": 5,
+                "blocked": 0
+              },
+              "cyclist": {
+                "total": 6,
+                "active": 6,
+                "visible": 5,
+                "blocked": 0
+              },
+              "courier": {
+                "total": 4,
+                "active": 4,
+                "visible": 3,
+                "blocked": 0
+              },
+              "robot": {
+                "total": 4,
+                "active": 4,
+                "visible": 3,
+                "blocked": 0
+              },
+              "seated": {
+                "total": 6,
+                "active": 6,
+                "visible": 5,
+                "blocked": 0
+              }
+            },
+            "actors": 52,
+            "active": 52,
+            "drawBatches": 19,
+            "actorDrawBatches": 16,
+            "quality": {
+              "id": "balanced",
+              "population": 0.7,
+              "updateHz": 24,
+              "reducedMotion": false
+            },
+            "navigationRevision": 1,
+            "routes": 5,
+            "skyVisible": true,
+            "seatingVisible": true
+          },
+          "traffic": {
+            "period": "day",
+            "weather": "clear",
+            "density": 0.7,
+            "speed": 1,
+            "activeCars": 77,
+            "poolCars": 124,
+            "measuredDemand": false,
+            "modelRevision": 38,
+            "styles": [
+              {
+                "id": "sedan",
+                "count": 49
+              },
+              {
+                "id": "suv",
+                "count": 42
+              },
+              {
+                "id": "compact",
+                "count": 18
+              },
+              {
+                "id": "van",
+                "count": 15
+              }
+            ],
+            "drawCalls": 16,
+            "maximumDrawCalls": 16,
+            "triangles": 264068,
+            "quality": "medium",
+            "instanced": true,
+            "simulationDensityUnchanged": true,
+            "lanePaths": 197,
+            "signalTime": 5.466299999999999,
+            "simulationOnly": true
+          },
+          "actualRenderer": {
+            "frame": 179,
+            "calls": 584,
+            "triangles": 12465509,
+            "points": 0,
+            "lines": 0
+          },
+          "stored": "balanced",
+          "selected": "balanced"
+        },
+        {
+          "choice": {
+            "choice": "full",
+            "effective": "full",
+            "id": "full",
+            "label": "Детально",
+            "pixelRatio": 1,
+            "shadowSize": 4096,
+            "shadowHz": 10,
+            "forestDetail": "full",
+            "population": 1,
+            "updateHz": 30,
+            "precipitation": 1
+          },
+          "life": {
+            "roles": {
+              "walker": {
+                "total": 20,
+                "active": 20,
+                "visible": 20,
+                "blocked": 0
+              },
+              "runner": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              },
+              "dogwalker": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              },
+              "cyclist": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              },
+              "courier": {
+                "total": 4,
+                "active": 4,
+                "visible": 4,
+                "blocked": 0
+              },
+              "robot": {
+                "total": 4,
+                "active": 4,
+                "visible": 4,
+                "blocked": 0
+              },
+              "seated": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              }
+            },
+            "actors": 52,
+            "active": 52,
+            "drawBatches": 19,
+            "actorDrawBatches": 16,
+            "quality": {
+              "id": "full",
+              "population": 1,
+              "updateHz": 30,
+              "reducedMotion": false
+            },
+            "navigationRevision": 1,
+            "routes": 5,
+            "skyVisible": true,
+            "seatingVisible": true
+          },
+          "traffic": {
+            "period": "day",
+            "weather": "clear",
+            "density": 0.7,
+            "speed": 1,
+            "activeCars": 77,
+            "poolCars": 124,
+            "measuredDemand": false,
+            "modelRevision": 38,
+            "styles": [
+              {
+                "id": "sedan",
+                "count": 49
+              },
+              {
+                "id": "suv",
+                "count": 42
+              },
+              {
+                "id": "compact",
+                "count": 18
+              },
+              {
+                "id": "van",
+                "count": 15
+              }
+            ],
+            "drawCalls": 16,
+            "maximumDrawCalls": 16,
+            "triangles": 264068,
+            "quality": "high",
+            "instanced": true,
+            "simulationDensityUnchanged": true,
+            "lanePaths": 197,
+            "signalTime": 5.799699999999997,
+            "simulationOnly": true
+          },
+          "actualRenderer": {
+            "frame": 184,
+            "calls": 1014,
+            "triangles": 21113702,
+            "points": 0,
+            "lines": 0
+          },
+          "stored": "full",
+          "selected": "full"
+        },
+        {
+          "choice": {
+            "choice": "max",
+            "effective": "max",
+            "id": "max",
+            "label": "Максимум",
+            "pixelRatio": 1,
+            "shadowSize": 4096,
+            "shadowHz": 12,
+            "forestDetail": "full",
+            "population": 1,
+            "updateHz": 40,
+            "precipitation": 1
+          },
+          "life": {
+            "roles": {
+              "walker": {
+                "total": 20,
+                "active": 20,
+                "visible": 20,
+                "blocked": 0
+              },
+              "runner": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              },
+              "dogwalker": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              },
+              "cyclist": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              },
+              "courier": {
+                "total": 4,
+                "active": 4,
+                "visible": 4,
+                "blocked": 0
+              },
+              "robot": {
+                "total": 4,
+                "active": 4,
+                "visible": 4,
+                "blocked": 0
+              },
+              "seated": {
+                "total": 6,
+                "active": 6,
+                "visible": 6,
+                "blocked": 0
+              }
+            },
+            "actors": 52,
+            "active": 52,
+            "drawBatches": 19,
+            "actorDrawBatches": 16,
+            "quality": {
+              "id": "max",
+              "population": 1,
+              "updateHz": 40,
+              "reducedMotion": false
+            },
+            "navigationRevision": 1,
+            "routes": 5,
+            "skyVisible": true,
+            "seatingVisible": true
+          },
+          "traffic": {
+            "period": "day",
+            "weather": "clear",
+            "density": 0.7,
+            "speed": 1,
+            "activeCars": 77,
+            "poolCars": 124,
+            "measuredDemand": false,
+            "modelRevision": 38,
+            "styles": [
+              {
+                "id": "sedan",
+                "count": 49
+              },
+              {
+                "id": "suv",
+                "count": 42
+              },
+              {
+                "id": "compact",
+                "count": 18
+              },
+              {
+                "id": "van",
+                "count": 15
+              }
+            ],
+            "drawCalls": 16,
+            "maximumDrawCalls": 16,
+            "triangles": 264068,
+            "quality": "ultra",
+            "instanced": true,
+            "simulationDensityUnchanged": true,
+            "lanePaths": 197,
+            "signalTime": 6.099599999999998,
+            "simulationOnly": true
+          },
+          "actualRenderer": {
+            "frame": 189,
+            "calls": 584,
+            "triangles": 13338247,
+            "points": 0,
+            "lines": 0
+          },
+          "stored": "max",
+          "selected": "max"
+        }
+      ]
+    },
+    {
+      "name": "Automatic quality can be selected again",
+      "pass": true,
+      "state": {
+        "choice": "auto",
+        "effective": "fast",
+        "id": "fast",
+        "label": "Экономно",
+        "pixelRatio": 0.9,
+        "shadowSize": 1024,
+        "shadowHz": 5,
+        "forestDetail": "auto",
+        "population": 0.45,
+        "updateHz": 15,
+        "precipitation": 0.4
+      }
+    },
+    {
+      "name": "All exterior, bridge and terrace destinations retain safe walking entries",
+      "pass": true,
+      "destinations": [
+        {
+          "name": "Двор",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Арена",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Променад",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Площадь",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Лес",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Площадка",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Лаунж",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Проход 1–2",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Кибердвор",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Дыхание сада",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Ресторанная терраса",
+          "ok": true,
+          "free": true,
+          "elevation": 6.705
+        },
+        {
+          "name": "Тихая гостиная",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Терраса офиса",
+          "ok": true,
+          "free": true,
+          "elevation": 6.705
+        },
+        {
+          "name": "Офис продаж",
+          "ok": true,
+          "free": true,
+          "elevation": -0.013
+        },
+        {
+          "name": "Терраса",
+          "ok": true,
+          "free": true,
+          "elevation": 6.694999999999999
+        },
+        {
+          "name": "Мостик",
+          "ok": true,
+          "free": true,
+          "elevation": 0
+        }
+      ]
+    },
+    {
+      "name": "Keyboard walking enters the K1–K2 passage without crossing walls",
+      "pass": true,
+      "position": {
+        "x": -15.237934454522591,
+        "z": -48.509194042111574,
+        "blocked": false
+      },
+      "start": {
+        "x": -12.426643400834852,
+        "z": -45.45344289679888,
+        "blocked": false
+      },
+      "elevation": -0.013
+    },
+    {
+      "name": "A real courtyard bench has an accessible approach",
+      "pass": true,
+      "ok": true,
+      "id": "cyber-seat-west",
+      "worldFree": true
+    },
+    {
+      "name": "The real action key seats the visitor on the existing bench",
+      "pass": true,
+      "seated": "cyber-seat-west"
+    },
+    {
+      "name": "Standing restores a safe paved position",
+      "pass": true,
+      "position": {
+        "x": -17.64073765686665,
+        "z": -1.7506279301959977
+      }
+    },
+    {
+      "name": "New outdoor lounge is installed with three safe seats and a compact geometry budget",
+      "pass": true,
+      "lounge": {
+        "present": true,
+        "metadata": {
+          "revision": 38,
+          "author": "@r_peredelkino",
+          "name": "Тихая гостиная",
+          "authoredConcept": true,
+          "sourceArea": "courtyard",
+          "architecturalChanges": false,
+          "pavingChanges": false,
+          "plantingChanges": false,
+          "brief": "Warm timber, restrained bronze, slatted shade and shared seating inspired by outdoor hospitality spaces",
+          "seed": [
+            27,
+            52
+          ],
+          "maximumSearchDistance": 3,
+          "canopy": {
+            "width": 5,
+            "depth": 2.8,
+            "height": 2.9
+          },
+          "maximumDrawCalls": 7,
+          "maximumTriangles": 20000,
+          "placement": {
+            "point": [
+              26.61177143234622,
+              50.5511112605664
+            ],
+            "ground": -0.013,
+            "searchDistance": 1.4999999999999962,
+            "clearanceRadius": 0.55,
+            "envelope": [
+              5.1,
+              3.1
+            ],
+            "underTracedFan": true
+          },
+          "drawCalls": 7,
+          "triangles": 3552,
+          "seatCount": 3,
+          "resourceOwnership": {
+            "geometry": "parent scene traversal",
+            "materials": "parent scene traversal",
+            "woodTexture": "lounge helper"
+          },
+          "skipped": null
+        },
+        "ids": [
+          {
+            "id": "quiet-lounge-seat-1",
+            "type": "seat",
+            "free": true
+          },
+          {
+            "id": "quiet-lounge-seat-2",
+            "type": "seat",
+            "free": true
+          },
+          {
+            "id": "quiet-lounge-seat-3",
+            "type": "seat",
+            "free": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "The new lounge can be reached through the real walking interaction",
+      "pass": true,
+      "ok": true,
+      "id": "quiet-lounge-seat-1",
+      "free": true
+    },
+    {
+      "name": "The action key seats a guest on the new outdoor lounge bench",
+      "pass": true,
+      "seated": "quiet-lounge-seat-1"
+    },
+    {
+      "name": "Hiding authored benches also hides all six seated neighbours",
+      "pass": true,
+      "seated": {
+        "total": 6,
+        "active": 6,
+        "visible": 0,
+        "blocked": 0
+      },
+      "seatingVisible": false
+    },
+    {
+      "name": "Real keyboard movement can enter the disabled bench collision footprint",
+      "pass": true,
+      "position": {
+        "x": 25.53177143234622,
+        "z": 51.31839126056641,
+        "blocked": false
+      },
+      "start": {
+        "x": 25.53177143234622,
+        "z": 50.5211112605664,
+        "blocked": false
+      },
+      "bench": {
+        "x": 26.61177143234622,
+        "z": 51.4911112605664,
+        "width": 3.85,
+        "depth": 0.65,
+        "enabled": false
+      },
+      "clearance": 0,
+      "radius": 0.36,
+      "bodyOverlapsActualBench": true
+    },
+    {
+      "name": "Restoring benches safely moves the visitor clear and restores seated neighbours",
+      "pass": true,
+      "position": {
+        "x": 26.03177143234622,
+        "z": 52.18441666435085
+      },
+      "before": {
+        "x": 25.53177143234622,
+        "z": 51.31839126056641,
+        "blocked": false
+      },
+      "seated": {
+        "total": 6,
+        "active": 6,
+        "visible": 6,
+        "blocked": 0
+      }
+    },
+    {
+      "name": "Forest ambience never starts before a visitor gesture",
+      "pass": true,
+      "state": {
+        "enabled": false,
+        "preferred": false,
+        "volume": 0.35,
+        "proximity": 0.23149397519457393,
+        "blocked": false,
+        "supported": true,
+        "contextState": "uncreated",
+        "transientNodes": 0
+      }
+    },
+    {
+      "name": "A visitor click enables actual forest audio near the trees",
+      "pass": true,
+      "state": {
+        "enabled": true,
+        "preferred": true,
+        "volume": 0.35,
+        "proximity": 1,
+        "blocked": false,
+        "supported": true,
+        "contextState": "running",
+        "transientNodes": 0
+      }
+    },
+    {
+      "name": "The volume slider changes real sound state and persists its value",
+      "pass": true,
+      "state": {
+        "enabled": true,
+        "preferred": true,
+        "volume": 0.62,
+        "proximity": 1,
+        "blocked": false,
+        "supported": true,
+        "contextState": "running",
+        "transientNodes": 0
+      },
+      "saved": {
+        "enabled": true,
+        "volume": 0.62
+      }
+    },
+    {
+      "name": "An open modal suspends forest audio and clears bird nodes",
+      "pass": true,
+      "state": {
+        "enabled": true,
+        "preferred": true,
+        "volume": 0.62,
+        "proximity": 1,
+        "blocked": true,
+        "supported": true,
+        "contextState": "suspended",
+        "transientNodes": 0
+      }
+    },
+    {
+      "name": "Closing the modal resumes the enabled ambience",
+      "pass": true,
+      "state": {
+        "enabled": true,
+        "preferred": true,
+        "volume": 0.62,
+        "proximity": 1,
+        "blocked": false,
+        "supported": true,
+        "contextState": "running",
+        "transientNodes": 0
+      }
+    },
+    {
+      "name": "Forest sound fades out in the high aerial view",
+      "pass": true,
+      "state": {
+        "enabled": true,
+        "preferred": true,
+        "volume": 0.62,
+        "proximity": 0,
+        "blocked": false,
+        "supported": true,
+        "contextState": "running",
+        "transientNodes": 0
+      },
+      "near": 1
+    },
+    {
+      "name": "Turning ambience off suspends the AudioContext and persists off",
+      "pass": true,
+      "state": {
+        "enabled": false,
+        "preferred": false,
+        "volume": 0.62,
+        "proximity": 1,
+        "blocked": false,
+        "supported": true,
+        "contextState": "suspended",
+        "transientNodes": 0
+      },
+      "saved": {
+        "enabled": false,
+        "volume": 0.62
+      }
+    },
+    {
+      "name": "Quality, movement and camera changes preserve tower and pane geometry",
+      "pass": true,
+      "fingerprint": "[{\"id\":0,\"x\":45.4,\"z\":-74.68,\"angle\":0,\"h\":90,\"floors\":25,\"facade\":\"4f45e1bf\",\"windows\":\"d5ae678d\",\"windowVertices\":\"e737e3e\",\"panels\":\"811c9dc5\"},{\"id\":1,\"x\":-3.5467,\"z\":-59.5467,\"angle\":0,\"h\":94,\"floors\":30,\"facade\":\"163d0a97\",\"windows\":\"fb64eae3\",\"windowVertices\":\"e988719e\",\"panels\":\"1ffeccfb\"},{\"id\":2,\"x\":-36.0267,\"z\":-25.5733,\"angle\":0,\"h\":94,\"floors\":30,\"facade\":\"f340cb8c\",\"windows\":\"58aff1d1\",\"windowVertices\":\"e988719e\",\"panels\":\"3c3efbff\"},{\"id\":3,\"x\":-28,\"z\":22.4,\"angle\":0,\"h\":94,\"floors\":30,\"facade\":\"1acabc9c\",\"windows\":\"e76d23ec\",\"windowVertices\":\"e988719e\",\"panels\":\"38c79b6c\"},{\"id\":4,\"x\":1.12,\"z\":56,\"angle\":0,\"h\":94,\"floors\":31,\"facade\":\"913eafba\",\"windows\":\"efb25cd5\",\"windowVertices\":\"2016dc06\",\"panels\":\"79eb41c9\"},{\"id\":5,\"x\":50.96,\"z\":55.0667,\"angle\":0,\"h\":94,\"floors\":30,\"facade\":\"66dbd7a4\",\"windows\":\"f654213f\",\"windowVertices\":\"e988719e\",\"panels\":\"6ea6040e\"}]"
+    },
+    {
+      "name": "All compiled live scene shader programs are runnable",
+      "pass": true,
+      "programs": [
+        {
+          "name": "PMREM.Background",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "SphericalGaussianBlur",
+          "runnable": true
+        },
+        {
+          "name": "PMREMGGXConvolution",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Ribbed white facade band",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · plaster",
+          "runnable": true
+        },
+        {
+          "name": "Neighbouring houses · litGlass",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Dark longitudinal residential terrace decking",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "Layered source garden shrub leaves",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        },
+        {
+          "name": "",
+          "runnable": true
+        }
+      ],
+      "render": {
+        "frame": 459,
+        "calls": 286,
+        "triangles": 4358593,
+        "points": 0,
+        "lines": 0
+      }
+    },
+    {
+      "name": "Mobile walking sticks and exit remain inside the viewport",
+      "pass": true,
+      "rects": [
+        {
+          "selector": ".tour-joystick",
+          "x": 14,
+          "y": 698,
+          "right": 120,
+          "bottom": 804,
+          "width": 106,
+          "height": 106
+        },
+        {
+          "selector": ".tour-look-stick",
+          "x": 270,
+          "y": 698,
+          "right": 376,
+          "bottom": 804,
+          "width": 106,
+          "height": 106
+        },
+        {
+          "selector": ".tour-exit",
+          "x": 251,
+          "y": 68.796875,
+          "right": 376,
+          "bottom": 122.796875,
+          "width": 125,
+          "height": 54
+        }
+      ],
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "Integration completes without runtime, console, shader or asset errors",
+      "pass": true,
+      "errors": [],
+      "consoleErrors": [],
+      "shaderErrors": [],
+      "badResources": []
+    },
+    {
+      "name": "Visual acceptance captured all activities and public controls",
+      "pass": true,
+      "screens": 20,
+      "checks": 47
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "shaderErrors": [],
+  "badResources": [],
+  "warnings": [
+    "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently",
+    "Canvas2D: Multiple readback operations using getImageData are faster with the willReadFrequently attribute set to true. See: https://html.spec.whatwg.org/multipage/canvas.html#concept-canvas-will-read-frequently"
+  ],
+  "fatal": null
+}

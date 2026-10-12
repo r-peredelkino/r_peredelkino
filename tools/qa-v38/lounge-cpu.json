@@ -1,0 +1,250 @@
+{
+  "revision": 38,
+  "pass": true,
+  "checkCount": 33,
+  "checks": [
+    {
+      "name": "Final strict source collision model admits a bounded fan-side placement",
+      "pass": true,
+      "details": {
+        "placement": {
+          "point": [
+            26.61177143234622,
+            50.5511112605664
+          ],
+          "ground": -0.013,
+          "searchDistance": 1.4999999999999962,
+          "clearanceRadius": 0.55,
+          "envelope": [
+            5.1,
+            3.1
+          ],
+          "underTracedFan": true
+        },
+        "placementMs": 0.0074409999997442355
+      }
+    },
+    {
+      "name": "The additive concept leaves towers, glazing, fan, paving and planting unchanged",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Seven merged opaque meshes contain the whole lounge",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Complete lounge geometry stays below twenty thousand triangles",
+      "pass": true,
+      "details": {
+        "triangles": 3552
+      }
+    },
+    {
+      "name": "Shade envelope remains beneath the traced source fan",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Shade top matches the promised 2.9 m height above existing grade",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All lounge buffers and bounding volumes remain finite",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Each post, table, planter and bench has a live obstacle envelope",
+      "pass": true,
+      "details": {
+        "colliders": 9
+      }
+    },
+    {
+      "name": "New furniture blocks ordinary walking through its physical bases",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Every offered seat has a unique stable interaction id",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All seats expose the standard tour interaction contract",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "The lounge destination is safe in the actual visitor world",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-1 has an exact, unshifted safe visitor approach",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-1 also has a clear 0.48 m resident envelope",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-1 has a continuous clear path from the destination",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-1 seat height matches the real cushion mesh",
+      "pass": true,
+      "details": {
+        "height": 0.487,
+        "hit": 0.487
+      }
+    },
+    {
+      "name": "quiet-lounge-seat-2 has an exact, unshifted safe visitor approach",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-2 also has a clear 0.48 m resident envelope",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-2 has a continuous clear path from the destination",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-2 seat height matches the real cushion mesh",
+      "pass": true,
+      "details": {
+        "height": 0.487,
+        "hit": 0.487
+      }
+    },
+    {
+      "name": "quiet-lounge-seat-3 has an exact, unshifted safe visitor approach",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-3 also has a clear 0.48 m resident envelope",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-3 has a continuous clear path from the destination",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "quiet-lounge-seat-3 seat height matches the real cushion mesh",
+      "pass": true,
+      "details": {
+        "height": 0.487,
+        "hit": 0.487
+      }
+    },
+    {
+      "name": "Bench actor anchors reuse the exact seat height and safe approach",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Night-time changes illuminate actual warm LED material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Turning the concept off hides meshes and disables its actual obstacles",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Turning the concept on restores the same obstacles and interactions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A blocked search creates no unvalidated fallback furniture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Decorative updates and toggles preserve every source scene contour",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Helper cleanup releases only its own map, exactly once",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Cleanup retains meshes for parent GPU traversal and disables interactions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Parent scene subsequently disposes every lounge GPU resource exactly once",
+      "pass": true,
+      "details": {
+        "resources": 15
+      }
+    }
+  ],
+  "placementMs": 0.0074409999997442355,
+  "metadata": {
+    "revision": 38,
+    "author": "@r_peredelkino",
+    "name": "Тихая гостиная",
+    "authoredConcept": true,
+    "sourceArea": "courtyard",
+    "architecturalChanges": false,
+    "pavingChanges": false,
+    "plantingChanges": false,
+    "brief": "Warm timber, restrained bronze, slatted shade and shared seating inspired by outdoor hospitality spaces",
+    "seed": [
+      27,
+      52
+    ],
+    "maximumSearchDistance": 3,
+    "canopy": {
+      "width": 5,
+      "depth": 2.8,
+      "height": 2.9
+    },
+    "maximumDrawCalls": 7,
+    "maximumTriangles": 20000,
+    "placement": {
+      "point": [
+        26.61177143234622,
+        50.5511112605664
+      ],
+      "ground": -0.013,
+      "searchDistance": 1.4999999999999962,
+      "clearanceRadius": 0.55,
+      "envelope": [
+        5.1,
+        3.1
+      ],
+      "underTracedFan": true
+    },
+    "drawCalls": 7,
+    "triangles": 3552,
+    "seatCount": 3,
+    "resourceOwnership": {
+      "geometry": "parent scene traversal",
+      "materials": "parent scene traversal",
+      "woodTexture": "lounge helper"
+    },
+    "skipped": null
+  }
+}

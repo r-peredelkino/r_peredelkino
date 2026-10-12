@@ -2,14 +2,14 @@
 // Plant palettes and kinetic art are optional concepts, not developer schedules.
 // Existing v33 bed/paving boundaries and v34 furniture anchors are never edited.
 import * as T from './vendor/three.module.js';
-import {attribution} from './attribution.js?v=publication371';
-import {bakeSceneAuthorship} from './baked-authorship.js?v=publication371';
-import {createMineralMaterial,createFoliageMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
-import {perennialSprigGeometry} from './botanical-geometry.js?v=publication371';
-import {solidContains,insideRing,segmentDistance} from './walk-physics.js?v=publication371';
-import {courtyardPassage} from './courtyard-passage.js?v=publication371';
-import {frontageGroundHeight,forecourtRoadsideReserved} from './forecourt-ground.js?v=publication371';
-import {createRestaurantTerrace} from './restaurant-terrace-v35.js?v=publication371';
+import {attribution} from './attribution.js?v=community38';
+import {bakeSceneAuthorship} from './baked-authorship.js?v=community38';
+import {createMineralMaterial,createFoliageMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=community38';
+import {perennialSprigGeometry} from './botanical-geometry.js?v=community38';
+import {solidContains,insideRing,segmentDistance} from './walk-physics.js?v=community38';
+import {courtyardPassage} from './courtyard-passage.js?v=community38';
+import {frontageGroundHeight,forecourtRoadsideReserved} from './forecourt-ground.js?v=community38';
+import {createRestaurantTerrace} from './restaurant-terrace-v35.js?v=community38';
 
 const TAU=Math.PI*2;
 export const cyberGardenConcept=Object.freeze({revision:35,author:attribution.handle,modelId:attribution.modelId,authoredConcept:true,existingLayoutUnchanged:true,

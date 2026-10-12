@@ -1,0 +1,5325 @@
+{
+  "revision": 38,
+  "samples": [
+    {
+      "pair": 1,
+      "side": "baseline",
+      "profile": "full",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "courtyard",
+      "building": null,
+      "frames": 88,
+      "elapsedMS": 5040.5999999996275,
+      "frameMS": {
+        "mean": 57.27954545454122,
+        "median": 57.299999999813735,
+        "p95": 66.29999999981374,
+        "min": 46.5,
+        "max": 88.79999999981374
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.979545454558155,
+        "median": 4.599999999627471,
+        "p95": 7.7999999998137355,
+        "min": 2.5,
+        "max": 8.399999999441206
+      },
+      "renderCalls": {
+        "mean": 502,
+        "median": 677,
+        "p95": 677,
+        "min": 327,
+        "max": 677
+      },
+      "renderTriangles": {
+        "mean": 10868299.5,
+        "median": 13896865,
+        "p95": 13896865,
+        "min": 7839734,
+        "max": 13896865
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.04582468782722172,
+          0.04582468782722172
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          82.89922415051484,
+          553.783620846013,
+          359.57388584373814
+        ],
+        "lightWorldTarget": [
+          82.74938749237435,
+          552.9625641168703,
+          359.02305481392335
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "baseline",
+      "profile": "full",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "forecourt",
+      "building": null,
+      "frames": 77,
+      "elapsedMS": 5019.699999999255,
+      "frameMS": {
+        "mean": 65.19090909089941,
+        "median": 66,
+        "p95": 72.8999999994412,
+        "min": 53.799999999813735,
+        "max": 73.20000000018626
+      },
+      "cpuSubmissionMS": {
+        "mean": 6.192207792253754,
+        "median": 5.7999999998137355,
+        "p95": 8.700000000186265,
+        "min": 2.7999999998137355,
+        "max": 8.800000000745058
+      },
+      "renderCalls": {
+        "mean": 518.012987012987,
+        "median": 367,
+        "p95": 673,
+        "min": 367,
+        "max": 673
+      },
+      "renderTriangles": {
+        "mean": 11954527.155844156,
+        "median": 9367765,
+        "p95": 14609362,
+        "min": 9367765,
+        "max": 14609362
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.055832932426174375,
+          0.055832932426174375
+        ],
+        "snappedLightCenter": [
+          9.547431444875818,
+          93.52016181384208,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          88.72532027886123,
+          599.5308984913366,
+          289.799180273048
+        ],
+        "lightWorldTarget": [
+          88.57548362072075,
+          598.709841762194,
+          289.24834924323324
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "baseline",
+      "profile": "full",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "facade",
+      "building": 0,
+      "frames": 67,
+      "elapsedMS": 5016.5,
+      "frameMS": {
+        "mean": 74.8731343283582,
+        "median": 72,
+        "p95": 85.20000000018626,
+        "min": 62.10000000055879,
+        "max": 87.90000000037253
+      },
+      "cpuSubmissionMS": {
+        "mean": 3.600000000030581,
+        "median": 3.5,
+        "p95": 4.5,
+        "min": 2.5,
+        "max": 7.7000000001862645
+      },
+      "renderCalls": {
+        "mean": 627.4925373134329,
+        "median": 429,
+        "p95": 832,
+        "min": 429,
+        "max": 832
+      },
+      "renderTriangles": {
+        "mean": 14317039.014925374,
+        "median": 10457129,
+        "p95": 18293916,
+        "min": 10457129,
+        "max": 18293916
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.07325764570230305,
+          0.07325764570230305
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.673572706498426,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          81.24311338929795,
+          553.379897496428,
+          360.62616112143075
+        ],
+        "lightWorldTarget": [
+          81.09327673115746,
+          552.5588407672853,
+          360.07533009161597
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "candidate",
+      "profile": "full",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "courtyard",
+      "building": null,
+      "frames": 94,
+      "elapsedMS": 5030.399999999441,
+      "frameMS": {
+        "mean": 53.51489361701533,
+        "median": 56.200000000186265,
+        "p95": 61,
+        "min": 42.59999999962747,
+        "max": 65.79999999981374
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.515957446867957,
+        "median": 4,
+        "p95": 6,
+        "min": 2.699999999254942,
+        "max": 6.1000000005587935
+      },
+      "renderCalls": {
+        "mean": 541,
+        "median": 727,
+        "p95": 727,
+        "min": 355,
+        "max": 727
+      },
+      "renderTriangles": {
+        "mean": 10921157.5,
+        "median": 13898609,
+        "p95": 13898609,
+        "min": 7943706,
+        "max": 13898609
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": {
+        "choice": "full",
+        "effective": "full",
+        "id": "full",
+        "label": "Детально",
+        "pixelRatio": 1,
+        "shadowSize": 4096,
+        "shadowHz": 10,
+        "forestDetail": "full",
+        "population": 1,
+        "updateHz": 30,
+        "precipitation": 1
+      },
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.04582468782722172,
+          0.04582468782722172
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          83.27098786377005,
+          555.8207665098803,
+          360.94056734585854
+        ],
+        "lightWorldTarget": [
+          83.12115120562956,
+          554.9997097807376,
+          360.38973631604375
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 8,
+      "shadowRedrawCount": 80,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "high",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 8.783000000000012,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "candidate",
+      "profile": "full",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "forecourt",
+      "building": null,
+      "frames": 84,
+      "elapsedMS": 5051.299999999814,
+      "frameMS": {
+        "mean": 60.13452380952159,
+        "median": 61.40000000037253,
+        "p95": 67.3999999994412,
+        "min": 50.10000000055879,
+        "max": 70.30000000074506
+      },
+      "cpuSubmissionMS": {
+        "mean": 5.25,
+        "median": 5.2999999998137355,
+        "p95": 6.400000000372529,
+        "min": 3.300000000745058,
+        "max": 6.5
+      },
+      "renderCalls": {
+        "mean": 548.5,
+        "median": 710,
+        "p95": 710,
+        "min": 387,
+        "max": 710
+      },
+      "renderTriangles": {
+        "mean": 12036111.5,
+        "median": 14604338,
+        "p95": 14604338,
+        "min": 9467885,
+        "max": 14604338
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": {
+        "choice": "full",
+        "effective": "full",
+        "id": "full",
+        "label": "Детально",
+        "pixelRatio": 1,
+        "shadowSize": 4096,
+        "shadowHz": 10,
+        "forestDetail": "full",
+        "population": 1,
+        "updateHz": 30,
+        "precipitation": 1
+      },
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.055832932426174375,
+          0.055832932426174375
+        ],
+        "snappedLightCenter": [
+          9.547431444875818,
+          93.52016181384208,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          89.09708399211644,
+          601.5680441552039,
+          291.1658617751684
+        ],
+        "lightWorldTarget": [
+          88.94724733397595,
+          600.7469874260612,
+          290.61503074535364
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 9,
+      "shadowRedrawCount": 149,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "high",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 17.049399999999977,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "candidate",
+      "profile": "full",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "facade",
+      "building": 0,
+      "frames": 70,
+      "elapsedMS": 5068.799999999814,
+      "frameMS": {
+        "mean": 72.41142857142592,
+        "median": 75.70000000018626,
+        "p95": 85.29999999981374,
+        "min": 59,
+        "max": 89.90000000037253
+      },
+      "cpuSubmissionMS": {
+        "mean": 3.8657142857621825,
+        "median": 3.7000000001862645,
+        "p95": 7.7000000001862645,
+        "min": 2.3999999994412065,
+        "max": 8.5
+      },
+      "renderCalls": {
+        "mean": 667.5,
+        "median": 880,
+        "p95": 880,
+        "min": 455,
+        "max": 880
+      },
+      "renderTriangles": {
+        "mean": 14428044.5,
+        "median": 18295324,
+        "p95": 18295324,
+        "min": 10560765,
+        "max": 18295324
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": {
+        "choice": "full",
+        "effective": "full",
+        "id": "full",
+        "label": "Детально",
+        "pixelRatio": 1,
+        "shadowSize": 4096,
+        "shadowHz": 10,
+        "forestDetail": "full",
+        "population": 1,
+        "updateHz": 30,
+        "precipitation": 1
+      },
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.07325764570230305,
+          0.07325764570230305
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.673572706498426,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          81.61487710255315,
+          555.4170431602953,
+          361.99284262355116
+        ],
+        "lightWorldTarget": [
+          81.46504044441267,
+          554.5959864311526,
+          361.44201159373637
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 10,
+      "shadowRedrawCount": 206,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "high",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 25.315699999999946,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "baseline",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "courtyard",
+      "building": null,
+      "frames": 92,
+      "elapsedMS": 5019.399999999441,
+      "frameMS": {
+        "mean": 54.55869565216784,
+        "median": 55.10000000055879,
+        "p95": 61.90000000037253,
+        "min": 44.09999999962747,
+        "max": 67.6000000005588
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.447826086857316,
+        "median": 4.099999999627471,
+        "p95": 6.2999999998137355,
+        "min": 1.8999999994412065,
+        "max": 7.2000000001862645
+      },
+      "renderCalls": {
+        "mean": 502,
+        "median": 677,
+        "p95": 677,
+        "min": 327,
+        "max": 677
+      },
+      "renderTriangles": {
+        "mean": 10631959.5,
+        "median": 13468545,
+        "p95": 13468545,
+        "min": 7795374,
+        "max": 13468545
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "auto",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.04582468782722172,
+          0.04582468782722172
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          82.89922415051484,
+          553.783620846013,
+          359.57388584373814
+        ],
+        "lightWorldTarget": [
+          82.74938749237435,
+          552.9625641168703,
+          359.02305481392335
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "baseline",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "forecourt",
+      "building": null,
+      "frames": 82,
+      "elapsedMS": 5041.199999999255,
+      "frameMS": {
+        "mean": 61.478048780478716,
+        "median": 61.200000000186265,
+        "p95": 68,
+        "min": 53.299999999813735,
+        "max": 72.3999999994412
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.993902439035748,
+        "median": 4.599999999627471,
+        "p95": 8.100000000558794,
+        "min": 2.1000000005587935,
+        "max": 8.699999999254942
+      },
+      "renderCalls": {
+        "mean": 520,
+        "median": 673,
+        "p95": 673,
+        "min": 367,
+        "max": 673
+      },
+      "renderTriangles": {
+        "mean": 11870453.5,
+        "median": 14402942,
+        "p95": 14402942,
+        "min": 9337965,
+        "max": 14402942
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "auto",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.055832932426174375,
+          0.055832932426174375
+        ],
+        "snappedLightCenter": [
+          9.547431444875818,
+          93.52016181384208,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          88.72532027886123,
+          599.5308984913366,
+          289.799180273048
+        ],
+        "lightWorldTarget": [
+          88.57548362072075,
+          598.709841762194,
+          289.24834924323324
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "baseline",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "facade",
+      "building": 0,
+      "frames": 74,
+      "elapsedMS": 5053.100000000559,
+      "frameMS": {
+        "mean": 68.28513513514268,
+        "median": 69.70000000018626,
+        "p95": 76.59999999962747,
+        "min": 59.30000000074506,
+        "max": 80.79999999981374
+      },
+      "cpuSubmissionMS": {
+        "mean": 3.1229729729931095,
+        "median": 3.099999999627471,
+        "p95": 3.7999999998137355,
+        "min": 2.1000000005587935,
+        "max": 4.2999999998137355
+      },
+      "renderCalls": {
+        "mean": 630.5,
+        "median": 832,
+        "p95": 832,
+        "min": 429,
+        "max": 832
+      },
+      "renderTriangles": {
+        "mean": 13307932.5,
+        "median": 16779616,
+        "p95": 16779616,
+        "min": 9836249,
+        "max": 16779616
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "auto",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.07325764570230305,
+          0.07325764570230305
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.673572706498426,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          81.24311338929795,
+          553.379897496428,
+          360.62616112143075
+        ],
+        "lightWorldTarget": [
+          81.09327673115746,
+          552.5588407672853,
+          360.07533009161597
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "candidate",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "courtyard",
+      "building": null,
+      "frames": 95,
+      "elapsedMS": 5003.399999999441,
+      "frameMS": {
+        "mean": 52.66736842104675,
+        "median": 51.40000000037253,
+        "p95": 60.5,
+        "min": 44,
+        "max": 83.6000000005588
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.045263157863366,
+        "median": 3.8999999994412065,
+        "p95": 6,
+        "min": 2.300000000745058,
+        "max": 6.2999999998137355
+      },
+      "renderCalls": {
+        "mean": 480.30526315789473,
+        "median": 355,
+        "p95": 727,
+        "min": 355,
+        "max": 727
+      },
+      "renderTriangles": {
+        "mean": 9683367.368421054,
+        "median": 7830148,
+        "p95": 13331893,
+        "min": 7830148,
+        "max": 13331893
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "balanced",
+      "quality": {
+        "choice": "balanced",
+        "effective": "balanced",
+        "id": "balanced",
+        "label": "Сбалансировано",
+        "pixelRatio": 1,
+        "shadowSize": 2048,
+        "shadowHz": 8,
+        "forestDetail": "auto",
+        "population": 0.7,
+        "updateHz": 24,
+        "precipitation": 0.7
+      },
+      "shadowSize": 2048,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.09164937565444344,
+          0.09164937565444344
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          83.27098786377005,
+          555.8207665098803,
+          360.94056734585854
+        ],
+        "lightWorldTarget": [
+          83.12115120562956,
+          554.9997097807376,
+          360.38973631604375
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 6,
+      "shadowRedrawCount": 55,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 14,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "balanced",
+          "population": 0.7,
+          "updateHz": 24,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "medium",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 8.733000000000013,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "candidate",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "forecourt",
+      "building": null,
+      "frames": 82,
+      "elapsedMS": 5007.200000000186,
+      "frameMS": {
+        "mean": 61.063414634148614,
+        "median": 61,
+        "p95": 70.3999999994412,
+        "min": 49,
+        "max": 74.8999999994412
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.409756097545075,
+        "median": 4,
+        "p95": 6.400000000372529,
+        "min": 2.400000000372529,
+        "max": 6.900000000372529
+      },
+      "renderCalls": {
+        "mean": 509.109756097561,
+        "median": 387,
+        "p95": 710,
+        "min": 387,
+        "max": 710
+      },
+      "renderTriangles": {
+        "mean": 11217785.597560976,
+        "median": 9368887,
+        "p95": 14259522,
+        "min": 9368887,
+        "max": 14259522
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "balanced",
+      "quality": {
+        "choice": "balanced",
+        "effective": "balanced",
+        "id": "balanced",
+        "label": "Сбалансировано",
+        "pixelRatio": 1,
+        "shadowSize": 2048,
+        "shadowHz": 8,
+        "forestDetail": "auto",
+        "population": 0.7,
+        "updateHz": 24,
+        "precipitation": 0.7
+      },
+      "shadowSize": 2048,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.11166586485234875,
+          0.11166586485234875
+        ],
+        "snappedLightCenter": [
+          9.491598512449643,
+          93.46432888141591,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          89.05524140497722,
+          601.5361721152279,
+          291.22475153366577
+        ],
+        "lightWorldTarget": [
+          88.90540474683674,
+          600.7151153860852,
+          290.673920503851
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 7,
+      "shadowRedrawCount": 106,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 14,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "balanced",
+          "population": 0.7,
+          "updateHz": 24,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "medium",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 16.932599999999994,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 1,
+      "side": "candidate",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "facade",
+      "building": 0,
+      "frames": 70,
+      "elapsedMS": 5053.300000000745,
+      "frameMS": {
+        "mean": 72.19000000001064,
+        "median": 74.90000000037253,
+        "p95": 83.20000000018626,
+        "min": 54.09999999962747,
+        "max": 84.79999999981374
+      },
+      "cpuSubmissionMS": {
+        "mean": 5.641428571460502,
+        "median": 5.300000000745058,
+        "p95": 7.8999999994412065,
+        "min": 2.599999999627471,
+        "max": 9.399999999441206
+      },
+      "renderCalls": {
+        "mean": 667.5,
+        "median": 880,
+        "p95": 880,
+        "min": 455,
+        "max": 880
+      },
+      "renderTriangles": {
+        "mean": 13256657.5,
+        "median": 16642628,
+        "p95": 16642628,
+        "min": 9870687,
+        "max": 16642628
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "balanced",
+      "quality": {
+        "choice": "balanced",
+        "effective": "balanced",
+        "id": "balanced",
+        "label": "Сбалансировано",
+        "pixelRatio": 1,
+        "shadowSize": 2048,
+        "shadowHz": 8,
+        "forestDetail": "auto",
+        "population": 0.7,
+        "updateHz": 24,
+        "precipitation": 0.7
+      },
+      "shadowSize": 2048,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.1465152914046061,
+          0.1465152914046061
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.600315060796124,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          81.6306650174729,
+          555.3752242818858,
+          362.05088231518465
+        ],
+        "lightWorldTarget": [
+          81.4808283593324,
+          554.5541675527431,
+          361.50005128536986
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 8,
+      "shadowRedrawCount": 164,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 14,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "balanced",
+          "population": 0.7,
+          "updateHz": 24,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "medium",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 25.24899999999998,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "candidate",
+      "profile": "full",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "courtyard",
+      "building": null,
+      "frames": 92,
+      "elapsedMS": 5047.399999999441,
+      "frameMS": {
+        "mean": 54.863043478254795,
+        "median": 55.59999999962747,
+        "p95": 62.799999999813735,
+        "min": 46.200000000186265,
+        "max": 99.6000000005588
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.416304347732955,
+        "median": 4,
+        "p95": 6.300000000745058,
+        "min": 2.2999999998137355,
+        "max": 7.800000000745058
+      },
+      "renderCalls": {
+        "mean": 541,
+        "median": 727,
+        "p95": 727,
+        "min": 355,
+        "max": 727
+      },
+      "renderTriangles": {
+        "mean": 10921157.5,
+        "median": 13898609,
+        "p95": 13898609,
+        "min": 7943706,
+        "max": 13898609
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": {
+        "choice": "full",
+        "effective": "full",
+        "id": "full",
+        "label": "Детально",
+        "pixelRatio": 1,
+        "shadowSize": 4096,
+        "shadowHz": 10,
+        "forestDetail": "full",
+        "population": 1,
+        "updateHz": 30,
+        "precipitation": 1
+      },
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.04582468782722172,
+          0.04582468782722172
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          83.27098786377005,
+          555.8207665098803,
+          360.94056734585854
+        ],
+        "lightWorldTarget": [
+          83.12115120562956,
+          554.9997097807376,
+          360.38973631604375
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 7,
+      "shadowRedrawCount": 78,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "high",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 8.78280000000002,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "candidate",
+      "profile": "full",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "forecourt",
+      "building": null,
+      "frames": 83,
+      "elapsedMS": 5035.100000000559,
+      "frameMS": {
+        "mean": 60.663855421693476,
+        "median": 62,
+        "p95": 70.5,
+        "min": 48,
+        "max": 92.29999999981374
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.907228915626744,
+        "median": 4.7000000001862645,
+        "p95": 6.1000000005587935,
+        "min": 3.099999999627471,
+        "max": 6.599999999627471
+      },
+      "renderCalls": {
+        "mean": 546.5542168674699,
+        "median": 387,
+        "p95": 710,
+        "min": 387,
+        "max": 710
+      },
+      "renderTriangles": {
+        "mean": 12005169.012048192,
+        "median": 9467885,
+        "p95": 14604338,
+        "min": 9467885,
+        "max": 14604338
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": {
+        "choice": "full",
+        "effective": "full",
+        "id": "full",
+        "label": "Детально",
+        "pixelRatio": 1,
+        "shadowSize": 4096,
+        "shadowHz": 10,
+        "forestDetail": "full",
+        "population": 1,
+        "updateHz": 30,
+        "precipitation": 1
+      },
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.055832932426174375,
+          0.055832932426174375
+        ],
+        "snappedLightCenter": [
+          9.547431444875818,
+          93.52016181384208,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          89.09708399211644,
+          601.5680441552039,
+          291.1658617751684
+        ],
+        "lightWorldTarget": [
+          88.94724733397595,
+          600.7469874260612,
+          290.61503074535364
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 8,
+      "shadowRedrawCount": 146,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "high",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 17.049199999999992,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "candidate",
+      "profile": "full",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "facade",
+      "building": 0,
+      "frames": 66,
+      "elapsedMS": 5001.4000000003725,
+      "frameMS": {
+        "mean": 75.77878787879352,
+        "median": 78,
+        "p95": 87.09999999962747,
+        "min": 57.5,
+        "max": 89.90000000037253
+      },
+      "cpuSubmissionMS": {
+        "mean": 5.604545454579321,
+        "median": 5.400000000372529,
+        "p95": 7.7999999998137355,
+        "min": 2.400000000372529,
+        "max": 9.700000000186265
+      },
+      "renderCalls": {
+        "mean": 667.5,
+        "median": 880,
+        "p95": 880,
+        "min": 455,
+        "max": 880
+      },
+      "renderTriangles": {
+        "mean": 14428044.5,
+        "median": 18295324,
+        "p95": 18295324,
+        "min": 10560765,
+        "max": 18295324
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": {
+        "choice": "full",
+        "effective": "full",
+        "id": "full",
+        "label": "Детально",
+        "pixelRatio": 1,
+        "shadowSize": 4096,
+        "shadowHz": 10,
+        "forestDetail": "full",
+        "population": 1,
+        "updateHz": 30,
+        "precipitation": 1
+      },
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.07325764570230305,
+          0.07325764570230305
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.673572706498426,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          81.61487710255315,
+          555.4170431602953,
+          361.99284262355116
+        ],
+        "lightWorldTarget": [
+          81.46504044441267,
+          554.5959864311526,
+          361.44201159373637
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 9,
+      "shadowRedrawCount": 201,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 20,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 4,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 6,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "full",
+          "population": 1,
+          "updateHz": 30,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "high",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 25.26549999999999,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "baseline",
+      "profile": "full",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "courtyard",
+      "building": null,
+      "frames": 91,
+      "elapsedMS": 5016.100000000559,
+      "frameMS": {
+        "mean": 55.12197802198416,
+        "median": 56.700000000186265,
+        "p95": 62.69999999925494,
+        "min": 44.200000000186265,
+        "max": 63.5
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.851648351638118,
+        "median": 4.7999999998137355,
+        "p95": 6.699999999254942,
+        "min": 2.400000000372529,
+        "max": 7.5
+      },
+      "renderCalls": {
+        "mean": 500.0769230769231,
+        "median": 327,
+        "p95": 677,
+        "min": 327,
+        "max": 677
+      },
+      "renderTriangles": {
+        "mean": 10835018.56043956,
+        "median": 7839734,
+        "p95": 13896865,
+        "min": 7839734,
+        "max": 13896865
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.04582468782722172,
+          0.04582468782722172
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          82.89922415051484,
+          553.783620846013,
+          359.57388584373814
+        ],
+        "lightWorldTarget": [
+          82.74938749237435,
+          552.9625641168703,
+          359.02305481392335
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "baseline",
+      "profile": "full",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "forecourt",
+      "building": null,
+      "frames": 87,
+      "elapsedMS": 5038,
+      "frameMS": {
+        "mean": 57.9080459770115,
+        "median": 58.5,
+        "p95": 62.59999999962747,
+        "min": 50.799999999813735,
+        "max": 65.90000000037253
+      },
+      "cpuSubmissionMS": {
+        "mean": 2.7321839079945938,
+        "median": 2.7999999998137355,
+        "p95": 3.400000000372529,
+        "min": 2,
+        "max": 3.599999999627471
+      },
+      "renderCalls": {
+        "mean": 521.7586206896551,
+        "median": 673,
+        "p95": 673,
+        "min": 367,
+        "max": 673
+      },
+      "renderTriangles": {
+        "mean": 12018687.620689655,
+        "median": 14609362,
+        "p95": 14609362,
+        "min": 9367765,
+        "max": 14609362
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.055832932426174375,
+          0.055832932426174375
+        ],
+        "snappedLightCenter": [
+          9.547431444875818,
+          93.52016181384208,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          88.72532027886123,
+          599.5308984913366,
+          289.799180273048
+        ],
+        "lightWorldTarget": [
+          88.57548362072075,
+          598.709841762194,
+          289.24834924323324
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "baseline",
+      "profile": "full",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "facade",
+      "building": 0,
+      "frames": 70,
+      "elapsedMS": 5024.4000000003725,
+      "frameMS": {
+        "mean": 71.77714285714818,
+        "median": 75.3999999994412,
+        "p95": 81.70000000018626,
+        "min": 60.59999999962747,
+        "max": 82.1000000005588
+      },
+      "cpuSubmissionMS": {
+        "mean": 2.9699999999521034,
+        "median": 3,
+        "p95": 3.7000000001862645,
+        "min": 2.099999999627471,
+        "max": 4.2000000001862645
+      },
+      "renderCalls": {
+        "mean": 630.5,
+        "median": 832,
+        "p95": 832,
+        "min": 429,
+        "max": 832
+      },
+      "renderTriangles": {
+        "mean": 14375522.5,
+        "median": 18293916,
+        "p95": 18293916,
+        "min": 10457129,
+        "max": 18293916
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "full",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.07325764570230305,
+          0.07325764570230305
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.673572706498426,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          81.24311338929795,
+          553.379897496428,
+          360.62616112143075
+        ],
+        "lightWorldTarget": [
+          81.09327673115746,
+          552.5588407672853,
+          360.07533009161597
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "candidate",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "courtyard",
+      "building": null,
+      "frames": 97,
+      "elapsedMS": 5003.0999999996275,
+      "frameMS": {
+        "mean": 51.57835051546008,
+        "median": 49.90000000037253,
+        "p95": 58.59999999962747,
+        "min": 42.39999999944121,
+        "max": 59.700000000186265
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.178350515490801,
+        "median": 3.7000000001862645,
+        "p95": 5.7000000001862645,
+        "min": 2.2999999998137355,
+        "max": 5.900000000372529
+      },
+      "renderCalls": {
+        "mean": 481.55670103092785,
+        "median": 355,
+        "p95": 727,
+        "min": 355,
+        "max": 727
+      },
+      "renderTriangles": {
+        "mean": 9701875.68041237,
+        "median": 7830148,
+        "p95": 13331893,
+        "min": 7830148,
+        "max": 13331893
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "balanced",
+      "quality": {
+        "choice": "balanced",
+        "effective": "balanced",
+        "id": "balanced",
+        "label": "Сбалансировано",
+        "pixelRatio": 1,
+        "shadowSize": 2048,
+        "shadowHz": 8,
+        "forestDetail": "auto",
+        "population": 0.7,
+        "updateHz": 24,
+        "precipitation": 0.7
+      },
+      "shadowSize": 2048,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.09164937565444344,
+          0.09164937565444344
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          83.27098786377005,
+          555.8207665098803,
+          360.94056734585854
+        ],
+        "lightWorldTarget": [
+          83.12115120562956,
+          554.9997097807376,
+          360.38973631604375
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 7,
+      "shadowRedrawCount": 55,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 14,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "balanced",
+          "population": 0.7,
+          "updateHz": 24,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "medium",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 8.716300000000011,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "candidate",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "forecourt",
+      "building": null,
+      "frames": 86,
+      "elapsedMS": 5047.799999999814,
+      "frameMS": {
+        "mean": 58.695348837207135,
+        "median": 58.5,
+        "p95": 65.70000000018626,
+        "min": 48.69999999925494,
+        "max": 69.20000000018626
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.45232558142134,
+        "median": 4.2000000001862645,
+        "p95": 6.1000000005587935,
+        "min": 2.7999999998137355,
+        "max": 6.5
+      },
+      "renderCalls": {
+        "mean": 495.9186046511628,
+        "median": 387,
+        "p95": 710,
+        "min": 387,
+        "max": 710
+      },
+      "renderTriangles": {
+        "mean": 11018054.61627907,
+        "median": 9368887,
+        "p95": 14259522,
+        "min": 9368887,
+        "max": 14259522
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "balanced",
+      "quality": {
+        "choice": "balanced",
+        "effective": "balanced",
+        "id": "balanced",
+        "label": "Сбалансировано",
+        "pixelRatio": 1,
+        "shadowSize": 2048,
+        "shadowHz": 8,
+        "forestDetail": "auto",
+        "population": 0.7,
+        "updateHz": 24,
+        "precipitation": 0.7
+      },
+      "shadowSize": 2048,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.11166586485234875,
+          0.11166586485234875
+        ],
+        "snappedLightCenter": [
+          9.491598512449643,
+          93.46432888141591,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          89.05524140497722,
+          601.5361721152279,
+          291.22475153366577
+        ],
+        "lightWorldTarget": [
+          88.90540474683674,
+          600.7151153860852,
+          290.673920503851
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 8,
+      "shadowRedrawCount": 103,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 14,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "balanced",
+          "population": 0.7,
+          "updateHz": 24,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "medium",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 16.966099999999955,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "candidate",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8099/r_peredelkino/",
+      "revision": 38,
+      "action": "facade",
+      "building": 0,
+      "frames": 71,
+      "elapsedMS": 5032.0999999996275,
+      "frameMS": {
+        "mean": 70.8746478873187,
+        "median": 72.79999999981374,
+        "p95": 81.70000000018626,
+        "min": 54.90000000037253,
+        "max": 83.1000000005588
+      },
+      "cpuSubmissionMS": {
+        "mean": 5.466197183093344,
+        "median": 5.6000000005587935,
+        "p95": 7.7999999998137355,
+        "min": 2.599999999627471,
+        "max": 8.099999999627471
+      },
+      "renderCalls": {
+        "mean": 670.4929577464789,
+        "median": 880,
+        "p95": 880,
+        "min": 455,
+        "max": 880
+      },
+      "renderTriangles": {
+        "mean": 13304347.225352112,
+        "median": 16642628,
+        "p95": 16642628,
+        "min": 9870687,
+        "max": 16642628
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "balanced",
+      "quality": {
+        "choice": "balanced",
+        "effective": "balanced",
+        "id": "balanced",
+        "label": "Сбалансировано",
+        "pixelRatio": 1,
+        "shadowSize": 2048,
+        "shadowHz": 8,
+        "forestDetail": "auto",
+        "population": 0.7,
+        "updateHz": 24,
+        "precipitation": 0.7
+      },
+      "shadowSize": 2048,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -415.08993117305033,
+          659.5546914947953
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1090.7446226678458,
+        "texelWorld": [
+          0.1465152914046061,
+          0.1465152914046061
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.600315060796124,
+          667.6546914947953
+        ],
+        "lightWorldPosition": [
+          81.6306650174729,
+          555.3752242818858,
+          362.05088231518465
+        ],
+        "lightWorldTarget": [
+          81.4808283593324,
+          554.5541675527431,
+          361.50005128536986
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -508.3599844852077
+          ],
+          "max": [
+            416.9665537573452,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": 9,
+      "shadowRedrawCount": 161,
+      "population": {
+        "roles": {
+          "walker": {
+            "total": 20,
+            "active": 20,
+            "visible": 14,
+            "blocked": 0
+          },
+          "runner": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "dogwalker": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "cyclist": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          },
+          "courier": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "robot": {
+            "total": 4,
+            "active": 4,
+            "visible": 3,
+            "blocked": 0
+          },
+          "seated": {
+            "total": 6,
+            "active": 6,
+            "visible": 5,
+            "blocked": 0
+          }
+        },
+        "actors": 52,
+        "active": 52,
+        "drawBatches": 19,
+        "actorDrawBatches": 16,
+        "quality": {
+          "id": "balanced",
+          "population": 0.7,
+          "updateHz": 24,
+          "reducedMotion": false
+        },
+        "navigationRevision": 1,
+        "routes": 5,
+        "skyVisible": true
+      },
+      "traffic": {
+        "period": "day",
+        "weather": "clear",
+        "density": 0.7,
+        "speed": 1,
+        "activeCars": 77,
+        "poolCars": 124,
+        "measuredDemand": false,
+        "modelRevision": 38,
+        "styles": [
+          {
+            "id": "sedan",
+            "count": 49
+          },
+          {
+            "id": "suv",
+            "count": 42
+          },
+          {
+            "id": "compact",
+            "count": 18
+          },
+          {
+            "id": "van",
+            "count": 15
+          }
+        ],
+        "drawCalls": 16,
+        "maximumDrawCalls": 16,
+        "triangles": 264068,
+        "quality": "medium",
+        "instanced": true,
+        "simulationDensityUnchanged": true,
+        "lanePaths": 197,
+        "signalTime": 25.18239999999994,
+        "simulationOnly": true
+      },
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "baseline",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "courtyard",
+      "building": null,
+      "frames": 91,
+      "elapsedMS": 5014.5999999996275,
+      "frameMS": {
+        "mean": 55.10549450549041,
+        "median": 55,
+        "p95": 61.80000000074506,
+        "min": 46.5,
+        "max": 63
+      },
+      "cpuSubmissionMS": {
+        "mean": 4.823076923081016,
+        "median": 4.300000000745058,
+        "p95": 6.5,
+        "min": 2.2999999998137355,
+        "max": 7.099999999627471
+      },
+      "renderCalls": {
+        "mean": 500.0769230769231,
+        "median": 327,
+        "p95": 677,
+        "min": 327,
+        "max": 677
+      },
+      "renderTriangles": {
+        "mean": 10600788.23076923,
+        "median": 7795374,
+        "p95": 13468545,
+        "min": 7795374,
+        "max": 13468545
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "auto",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -106.07865527499986,
+          77.32518531972786,
+          -69.74640537060372,
+          96.46816617799132
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 187.69792134030016,
+        "height": 187.69792134030016,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.04582468782722172,
+          0.04582468782722172
+        ],
+        "snappedLightCenter": [
+          -14.388951977747618,
+          13.380808845548742,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          82.89922415051484,
+          553.783620846013,
+          359.57388584373814
+        ],
+        "lightWorldTarget": [
+          82.74938749237435,
+          552.9625641168703,
+          359.02305481392335
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "baseline",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "forecourt",
+      "building": null,
+      "frames": 80,
+      "elapsedMS": 5010.5999999996275,
+      "frameMS": {
+        "mean": 62.632499999995346,
+        "median": 62.90000000037253,
+        "p95": 69.5,
+        "min": 55,
+        "max": 70.09999999962747
+      },
+      "cpuSubmissionMS": {
+        "mean": 5.7974999999627475,
+        "median": 5.8999999994412065,
+        "p95": 8.100000000558794,
+        "min": 3.8999999994412065,
+        "max": 8.299999999813735
+      },
+      "renderCalls": {
+        "mean": 520,
+        "median": 673,
+        "p95": 673,
+        "min": 367,
+        "max": 673
+      },
+      "renderTriangles": {
+        "mean": 11870453.5,
+        "median": 14402942,
+        "p95": 14402942,
+        "min": 9337965,
+        "max": 14402942
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "auto",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 14,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -101.14791525946971,
+          120.20180466882655,
+          -1.4510415700338868,
+          188.45508365305676
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 228.69169121761024,
+        "height": 228.69169121761024,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.055832932426174375,
+          0.055832932426174375
+        ],
+        "snappedLightCenter": [
+          9.547431444875818,
+          93.52016181384208,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          88.72532027886123,
+          599.5308984913366,
+          289.799180273048
+        ],
+        "lightWorldTarget": [
+          88.57548362072075,
+          598.709841762194,
+          289.24834924323324
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    },
+    {
+      "pair": 2,
+      "side": "baseline",
+      "profile": "balanced",
+      "base": "http://127.0.0.1:8098/r_peredelkino/",
+      "revision": 37,
+      "action": "facade",
+      "building": 0,
+      "frames": 74,
+      "elapsedMS": 5047.799999999814,
+      "frameMS": {
+        "mean": 68.213513513511,
+        "median": 69.20000000018626,
+        "p95": 75.20000000018626,
+        "min": 58.10000000055879,
+        "max": 80.5
+      },
+      "cpuSubmissionMS": {
+        "mean": 3.0581081080930055,
+        "median": 3.099999999627471,
+        "p95": 3.599999999627471,
+        "min": 2.2000000001862645,
+        "max": 4.1000000005587935
+      },
+      "renderCalls": {
+        "mean": 630.5,
+        "median": 832,
+        "p95": 832,
+        "min": 429,
+        "max": 832
+      },
+      "renderTriangles": {
+        "mean": 13307932.5,
+        "median": 16779616,
+        "p95": 16779616,
+        "min": 9836249,
+        "max": 16779616
+      },
+      "glError": 0,
+      "shaderProgramsNotRunnable": [],
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "threeRevision": 186,
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "cssCanvas": [
+        1500,
+        1000
+      ],
+      "pixelRatio": 1,
+      "selectedQuality": "auto",
+      "quality": null,
+      "shadowSize": 4096,
+      "shadowFit": {
+        "receiverVisible": true,
+        "receiverVertexCount": 16,
+        "worldDirection": [
+          0.14983665814048086,
+          0.8210567291426709,
+          0.5508310298147985
+        ],
+        "lightSpaceRight": [
+          0.9649370322417236,
+          0,
+          -0.2624814732672291
+        ],
+        "lightSpaceUp": [
+          -0.21551217990134053,
+          0.5708466059542956,
+          -0.7922680435210255
+        ],
+        "receiverLightBounds": [
+          -163.4333988517978,
+          130.86701048100323,
+          -106.44093510411335,
+          131.76934109656395
+        ],
+        "casterAndReceiverLightDepth": [
+          -411.1545169414085,
+          657.0735649275794
+        ],
+        "width": 300.0633167966333,
+        "height": 300.0633167966333,
+        "near": 0.1,
+        "far": 1084.3280818689877,
+        "texelWorld": [
+          0.07325764570230305,
+          0.07325764570230305
+        ],
+        "snappedLightCenter": [
+          -16.263197345911276,
+          12.673572706498426,
+          665.1735649275794
+        ],
+        "lightWorldPosition": [
+          81.24311338929795,
+          553.379897496428,
+          360.62616112143075
+        ],
+        "lightWorldTarget": [
+          81.09327673115746,
+          552.5588407672853,
+          360.07533009161597
+        ],
+        "casterBounds": {
+          "min": [
+            -885.0057713558585,
+            -3.000000000000007,
+            -501.21548096483593
+          ],
+          "max": [
+            400.40767825913576,
+            96.33499999403953,
+            940.3633573448701
+          ]
+        },
+        "receiverBounds": {
+          "min": [
+            -131.1533660888672,
+            -3.000000000000007,
+            -148.5242156982422
+          ],
+          "max": [
+            119.37682342529297,
+            96.33499999403953,
+            140.5000457763672
+          ]
+        },
+        "geometryChanged": false
+      },
+      "shadowFitCount": null,
+      "shadowRedrawCount": null,
+      "population": null,
+      "traffic": null,
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4,
+        "fov": null,
+        "left": -187.5,
+        "right": 187.5,
+        "top": 125,
+        "bottom": -125
+      }
+    }
+  ],
+  "errors": [],
+  "resources": [],
+  "shaderErrors": [],
+  "checks": [
+    {
+      "name": "1/full/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/full/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/full/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/balanced/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/balanced/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/balanced/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/full/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/full/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/full/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/balanced/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/balanced/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/balanced/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "Every measurement used the physical 1500 × 1000 canvas and completed enough actual rendered frames",
+      "pass": true
+    },
+    {
+      "name": "Native Apple Silicon GPU, same r186, no shader/GL/page/asset errors",
+      "pass": true
+    }
+  ],
+  "method": {
+    "viewport": [
+      1500,
+      1000
+    ],
+    "deviceScaleFactor": 1,
+    "renderArea": [
+      1500,
+      1000
+    ],
+    "date": "2026-07-15",
+    "minutes": 720,
+    "weather": "clear",
+    "life": true,
+    "threeRevision": 186,
+    "chromeExecutable": "/tmp/rodina-v38-chrome-arm64",
+    "qualityMappings": [
+      {
+        "profile": "full",
+        "baseline": "full",
+        "candidate": "full"
+      },
+      {
+        "profile": "balanced",
+        "baseline": "auto",
+        "candidate": "balanced"
+      }
+    ],
+    "pairedRepeats": 2,
+    "order": [
+      "baseline,candidate",
+      "candidate,baseline"
+    ],
+    "warmupMS": 3000,
+    "sampleMS": 5000,
+    "minFrames": 60,
+    "measurement": "Intervals between actual masterplan renders; CPU submission times are separately recorded. No GPU timer or guaranteed FPS claim.",
+    "counterScope": "Three r186 render counters include colour and shadow passes. Dynamic shadow cadence changes these counters without changing the number of static scene vertices.",
+    "balancedScope": "The baseline has no balanced preset: its fixed auto foliage mode is paired with the candidate balanced preset. Candidate balanced intentionally reduces shadow resolution and population."
+  },
+  "nodeArchitecture": "arm64",
+  "chromeVersion": "Chrome/155.0.8059.39",
+  "pass": true,
+  "summary": [
+    {
+      "profile": "full",
+      "action": "courtyard",
+      "baselineQuality": "full",
+      "candidateQuality": "full",
+      "baselineMeanMS": 56.20076173826269,
+      "candidateMeanMS": 54.18896854763506,
+      "frameTimeReductionPercent": 3.5796546673102405,
+      "pairedChangesPercent": [
+        6.572419190221456,
+        0.4697482801253922
+      ],
+      "baselineRenderCalls": 501.03846153846155,
+      "candidateRenderCalls": 541,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 4096
+    },
+    {
+      "profile": "full",
+      "action": "forecourt",
+      "baselineQuality": "full",
+      "candidateQuality": "full",
+      "baselineMeanMS": 61.549477533955454,
+      "candidateMeanMS": 60.39918961560753,
+      "frameTimeReductionPercent": 1.8688833186493468,
+      "pairedChangesPercent": [
+        7.756273615278802,
+        -4.758940486052643
+      ],
+      "baselineRenderCalls": 519.885803851321,
+      "candidateRenderCalls": 547.527108433735,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 4096
+    },
+    {
+      "profile": "full",
+      "action": "facade",
+      "baselineQuality": "full",
+      "candidateQuality": "full",
+      "baselineMeanMS": 73.32513859275319,
+      "candidateMeanMS": 74.09510822510973,
+      "frameTimeReductionPercent": -1.0500759318477877,
+      "pairedChangesPercent": [
+        3.2878358559645853,
+        -5.5750965590946855
+      ],
+      "baselineRenderCalls": 628.9962686567164,
+      "candidateRenderCalls": 667.5,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 4096
+    },
+    {
+      "profile": "balanced",
+      "action": "courtyard",
+      "baselineQuality": "auto",
+      "candidateQuality": "balanced",
+      "baselineMeanMS": 54.83209507882913,
+      "candidateMeanMS": 52.12285946825342,
+      "frameTimeReductionPercent": 4.9409667945038205,
+      "pairedChangesPercent": [
+        3.4665917293533,
+        6.400711982865713
+      ],
+      "baselineRenderCalls": 501.03846153846155,
+      "candidateRenderCalls": 480.9309820944113,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 2048
+    },
+    {
+      "profile": "balanced",
+      "action": "forecourt",
+      "baselineQuality": "auto",
+      "candidateQuality": "balanced",
+      "baselineMeanMS": 62.05527439023703,
+      "candidateMeanMS": 59.879381735677875,
+      "frameTimeReductionPercent": 3.5063782666981216,
+      "pairedChangesPercent": [
+        0.6744425930150229,
+        6.286115296034015
+      ],
+      "baselineRenderCalls": 520,
+      "candidateRenderCalls": 502.5141803743619,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 2048
+    },
+    {
+      "profile": "balanced",
+      "action": "facade",
+      "baselineQuality": "auto",
+      "candidateQuality": "balanced",
+      "baselineMeanMS": 68.24932432432684,
+      "candidateMeanMS": 71.53232394366466,
+      "frameTimeReductionPercent": -4.810303474561483,
+      "pairedChangesPercent": [
+        -5.718469850194873,
+        -3.9011835584170713
+      ],
+      "baselineRenderCalls": 630.5,
+      "candidateRenderCalls": 668.9964788732394,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 2048
+    }
+  ]
+}

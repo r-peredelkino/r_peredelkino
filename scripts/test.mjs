@@ -19,7 +19,13 @@ const suites = [
   ['parking-cpu', 'tools/qa-v36/parking-cpu.mjs', 42],
   ['fitness-cpu', 'tools/qa-v36/fitness-cpu.mjs', 44],
   ['fitness-context-cpu', 'tools/qa-v36/fitness-context-cpu.mjs', 18],
-  ['cpu-activities', 'tools/qa-v36/cpu-activities.cjs', 7]
+  ['cpu-activities', 'tools/qa-v36/cpu-activities.cjs', 7],
+  ['navigation-cpu', 'tools/qa-v38/navigation-cpu.mjs', 40],
+  ['population-cpu', 'tools/qa-v38/population-cpu.mjs', 27],
+  ['quality-cpu', 'tools/qa-v38/quality-cpu.mjs', 33],
+  ['surface-provenance-cpu', 'tools/qa-v38/surface-provenance-cpu.mjs', 58],
+  ['vehicles-cpu', 'tools/qa-v38/vehicles-cpu.mjs', 72],
+  ['lounge-cpu', 'tools/qa-v38/lounge-cpu.mjs', 33]
 ];
 
 async function runCPU() {

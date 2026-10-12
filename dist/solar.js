@@ -1,4 +1,4 @@
-import {geoFrame} from './geo-reference.js?v=publication371';
+import {geoFrame} from './geo-reference.js?v=community38';
 
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino.
 // v31: Meeus / NOAA Julian-century solar ephemeris, independent of host time zone.

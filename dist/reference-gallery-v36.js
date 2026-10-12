@@ -1,5 +1,5 @@
 // Official visual references remain separate from the authored 3D reconstruction.
-import {amenityReferences} from './amenity-references-v36.js?v=publication371';
+import {amenityReferences} from './amenity-references-v36.js?v=community38';
 const names={all:'Все 20',lobby:'Входная группа',lift:'Лифтовой холл',apartmentHall:'Квартирный холл',yoga:'Тренировочная',coffee:'Кофейня',kids:'Детская',lounge:'Лаунж',washStroller:'Мойки и хранение',parking:'Паркинг',garden:'Двор'};
 export function createReferenceGallery(host,{room='all',onOpen=()=>{},onClose=()=>{}}={}){
  const button=document.createElement('button');button.type='button';button.dataset.sourceGallery='';button.className='rp-reference-open';button.textContent='Референсы · 20';host.append(button);

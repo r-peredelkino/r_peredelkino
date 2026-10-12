@@ -1,8 +1,8 @@
 // @r_peredelkino · shared, deterministic mineral/wood/metal finishes.
 // These are authored visual finishes, not measured developer material specifications.
 import * as T from './vendor/three.module.js';
-import {attribution} from './attribution.js?v=publication371';
-import {embedPixelSignature} from './baked-authorship.js?v=publication371';
+import {attribution} from './attribution.js?v=community38';
+import {embedPixelSignature} from './baked-authorship.js?v=community38';
 export function createSurfaceFinishes(root){
  const size=128,sets=new Map(),materials=new Set();let applied=0;
  function finish(kind){

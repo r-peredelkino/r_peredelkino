@@ -1,5 +1,5 @@
 // @r_peredelkino · public 3D genplan, without demo ownership restrictions.
-import {apartment3DExamples,getApartmentRecord} from './apartment-catalog-v37.js?v=publication371';
+import {apartment3DExamples,getApartmentRecord} from './apartment-catalog-v37.js?v=community38';
 const format=value=>Number(value).toLocaleString('ru-RU',{maximumFractionDigits:1});
 window.mountPublicApartmentPicker=()=>{
  const select=document.querySelector('[data-plan-catalog]'),button=document.querySelector('[data-open-plan]');if(!select||!button)return;

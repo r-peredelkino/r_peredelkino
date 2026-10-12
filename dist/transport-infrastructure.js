@@ -1,7 +1,7 @@
 // @r_peredelkino · OSM transport axes and explicitly estimated roadside details.
 import * as THREE from './vendor/three.module.js';
-import {metersToModel} from './geo-reference.js?v=publication371';
-import {roads,crossings,pedestrianApproaches,metroEntrances as entranceData,junctions,lanes,laneConnectors,trafficPaths,stopLines,signalControls,signalPlan,signalAt,transportMetadata,roadElevation,markingElevation,pavementElevation,measurePolyline,samplePolyline,offsetPolyline,closestOnPolyline} from './transport-data.js?v=publication371';
+import {metersToModel} from './geo-reference.js?v=community38';
+import {roads,crossings,pedestrianApproaches,metroEntrances as entranceData,junctions,lanes,laneConnectors,trafficPaths,stopLines,signalControls,signalPlan,signalAt,transportMetadata,roadElevation,markingElevation,pavementElevation,measurePolyline,samplePolyline,offsetPolyline,closestOnPolyline} from './transport-data.js?v=community38';
 
 const M=metersToModel;
 const toWorld=([e,n],y=0)=>new THREE.Vector3(e*-.69716+n*.71691,y,e*.71691+n*.69716);

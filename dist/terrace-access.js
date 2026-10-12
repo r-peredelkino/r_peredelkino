@@ -1,5 +1,5 @@
 // @r_peredelkino · keep the original accessible terrace connected while furnishing.
-import {createWalkWorld} from './walk-physics.js?v=publication371';
+import {createWalkWorld} from './walk-physics.js?v=community38';
 
 export function createTerraceAccessGate(options,spawn){
  const world=createWalkWorld(options),boundary=options.boundary,step=.24;

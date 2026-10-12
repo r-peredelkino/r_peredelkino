@@ -1,5 +1,5 @@
 // @r_peredelkino · common reference-frontage geometry, in fixed model coordinates.
-import {forecourtReference as reference} from './forecourt-reference-data.js?v=publication371';
+import {forecourtReference as reference} from './forecourt-reference-data.js?v=community38';
 import * as THREE from './vendor/three.module.js';
 
 export function distanceToFrontageCurb(x,z){

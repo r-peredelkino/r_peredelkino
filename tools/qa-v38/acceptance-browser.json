@@ -1,0 +1,1869 @@
+{
+  "revision": 38,
+  "base": "http://127.0.0.1:8099/r_peredelkino",
+  "checks": [
+    {
+      "name": "Release 38",
+      "pass": true
+    },
+    {
+      "name": "Only the full-screen 3D genplan is the primary application",
+      "pass": true,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "map": {
+        "x": 0,
+        "y": 78,
+        "width": 1440,
+        "height": 922
+      },
+      "old": []
+    },
+    {
+      "name": "Preserved 3D functions remain operable from the map",
+      "pass": true,
+      "missing": [],
+      "required": [
+        "walk",
+        "residents",
+        "parking",
+        "apartment-hall",
+        "fitness",
+        "arena-room",
+        "retail-room",
+        "metro-room",
+        "floor2",
+        "floor30",
+        "solar",
+        "transport",
+        "courtyard",
+        "fan"
+      ]
+    },
+    {
+      "name": "Geometry/material authorship",
+      "pass": true,
+      "missing": [],
+      "materials": 367,
+      "textures": 72
+    },
+    {
+      "name": "Apartment 81 rigid source orientation",
+      "pass": true,
+      "placement": {
+        "x": -11.474947308697,
+        "z": -64.900292892738,
+        "y": 25.12,
+        "angle": -2.656204764522,
+        "building": 1,
+        "floor": 8,
+        "slot": 3
+      },
+      "streetNormal": [
+        -0.4665514801090056,
+        -0.8844940454339397
+      ]
+    },
+    {
+      "name": "Office pitch",
+      "pass": true,
+      "pitch": 3.5999999046325684,
+      "source": {
+        "handle": "@r_peredelkino",
+        "modelId": "RP-CONCEPT-2026-10-07",
+        "usagePolicy": "RP-AMATEUR-UNCHANGED-1.0",
+        "authoredRevision": 37,
+        "revisionDate": "2026-10-12",
+        "modificationPermission": "Author authorization required for changes or removal of authorship marks",
+        "technicalLock": false,
+        "scope": "Concept application and reference-based 3D reconstruction",
+        "architecturalProject": "Родина Переделкино · Группа Родина"
+      }
+    },
+    {
+      "name": "Quality full",
+      "pass": true
+    },
+    {
+      "name": "Quality fast",
+      "pass": true
+    },
+    {
+      "name": "Quality auto",
+      "pass": true
+    },
+    {
+      "name": "arena-room render",
+      "pass": true,
+      "kind": "arena",
+      "triangles": 10038,
+      "geometry": {
+        "meshes": 76,
+        "materials": 24,
+        "geometries": 76,
+        "generatedTextures": 11,
+        "pixelBytes": 65536
+      }
+    },
+    {
+      "name": "arena-room walk",
+      "pass": true,
+      "from": {
+        "x": 0,
+        "z": 13.328000000000003,
+        "blocked": false
+      },
+      "to": {
+        "x": 0,
+        "z": 12.328199999999987,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "arena-room guide",
+      "pass": true
+    },
+    {
+      "name": "arena-room resume",
+      "pass": true
+    },
+    {
+      "name": "retail-room render",
+      "pass": true,
+      "kind": "retail",
+      "triangles": 7010,
+      "geometry": {
+        "meshes": 72,
+        "materials": 9,
+        "geometries": 72,
+        "generatedTextures": 8,
+        "pixelBytes": 65536
+      }
+    },
+    {
+      "name": "retail-room walk",
+      "pass": true,
+      "from": {
+        "x": 3,
+        "z": 5
+      },
+      "to": {
+        "x": 3,
+        "z": 3.9998000000000067,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "retail-room guide",
+      "pass": true
+    },
+    {
+      "name": "Retail upper level",
+      "pass": true,
+      "height": 3.58
+    },
+    {
+      "name": "retail-room resume",
+      "pass": true
+    },
+    {
+      "name": "metro-room render",
+      "pass": true,
+      "kind": "metro",
+      "triangles": 11640,
+      "geometry": {
+        "meshes": 71,
+        "materials": 7,
+        "geometries": 71,
+        "generatedTextures": 7,
+        "pixelBytes": 65536
+      }
+    },
+    {
+      "name": "metro-room walk",
+      "pass": true,
+      "from": {
+        "x": 2.5,
+        "z": 14
+      },
+      "to": {
+        "x": 2.5,
+        "z": 12.999999999999988,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "metro-room guide",
+      "pass": true
+    },
+    {
+      "name": "metro-room resume",
+      "pass": true
+    },
+    {
+      "name": "floor2 render",
+      "pass": true,
+      "kind": "floor2",
+      "triangles": 8780624,
+      "geometry": {
+        "meshes": 2,
+        "materials": 2,
+        "geometries": 2,
+        "generatedTextures": 2,
+        "pixelBytes": 65536
+      },
+      "solarTime": "21:38"
+    },
+    {
+      "name": "floor2 walk",
+      "pass": true,
+      "from": {
+        "x": -3.5467,
+        "z": -59.5467
+      },
+      "to": {
+        "x": -3.5467,
+        "z": -60.5133,
+        "blocked": false
+      },
+      "height": 7
+    },
+    {
+      "name": "floor2 guide",
+      "pass": true
+    },
+    {
+      "name": "floor2 resume",
+      "pass": true
+    },
+    {
+      "name": "floor30 render",
+      "pass": true,
+      "kind": "floor30",
+      "triangles": 8891156,
+      "geometry": {
+        "meshes": 2,
+        "materials": 2,
+        "geometries": 2,
+        "generatedTextures": 2,
+        "pixelBytes": 65536
+      },
+      "solarTime": "21:38"
+    },
+    {
+      "name": "floor30 walk",
+      "pass": true,
+      "from": {
+        "x": -3.5467,
+        "z": -59.5467
+      },
+      "to": {
+        "x": -3.5467,
+        "z": -60.56669999999998,
+        "blocked": false
+      },
+      "height": 91
+    },
+    {
+      "name": "floor30 guide",
+      "pass": true
+    },
+    {
+      "name": "floor30 resume",
+      "pass": true
+    },
+    {
+      "name": "residents render",
+      "pass": true,
+      "kind": "residents",
+      "triangles": 26011,
+      "geometry": {
+        "meshes": 73,
+        "materials": 43,
+        "geometries": 74,
+        "generatedTextures": 4,
+        "pixelBytes": 5308416
+      }
+    },
+    {
+      "name": "residents source semantics",
+      "pass": true,
+      "kind": "residents",
+      "metadata": {
+        "concept": true,
+        "sourceInteriorPlan": false,
+        "measuredPlan": false,
+        "kind": "lobby",
+        "building": 1,
+        "adaptedFloor": 1,
+        "sourceMapping": {
+          "concept": true,
+          "measuredPlan": false,
+          "sourceFloor": null,
+          "adaptedFloor": 1,
+          "adjacencyEvidence": "Brochure: children enter through the coffee/coworking room; stroller/bicycle storage, guest WC and pawwash at the entrance",
+          "lobby": [
+            "1_lobby.webp",
+            "3_lobby.webp",
+            "4_lobby.webp",
+            "5_lobby.webp"
+          ],
+          "wash": [
+            "8_lobby.jpg",
+            "10_lobby.webp"
+          ],
+          "stroller": [
+            "11_kolysochnaya.webp"
+          ],
+          "lift": [
+            "01.webp",
+            "02.webp",
+            "06.webp",
+            "07.webp"
+          ],
+          "apartmentHall": [
+            "09.webp",
+            "10.webp",
+            "12.webp"
+          ],
+          "materials": "Cream mineral flooring, timber panels, brushed metal, navy rug, suspended wave of point lights",
+          "limitation": "Source images establish visible finishes and room functions, not exact room dimensions or a verified floor allocation."
+        },
+        "originalApartmentPlansUnchanged": true,
+        "mainExteriorUnchanged": true,
+        "childrenEntryViaCoffee": true,
+        "guestWC": true,
+        "bicycleStorage": true,
+        "strollers": 2,
+        "parcelCells": 30,
+        "liftCabins": 3,
+        "wavePoints": 704,
+        "layoutRooms": [
+          "lobby",
+          "corridor",
+          "yoga",
+          "kids",
+          "coffee",
+          "lift",
+          "washStroller",
+          "lounge",
+          "guestWC"
+        ],
+        "ownership": "This module owns only its local new fit-out resources",
+        "drawBatches": 12,
+        "finishTextures": [
+          {
+            "name": "Authored resident texture · marble",
+            "kind": "marble",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": 2,
+            "repeat": [
+              11,
+              16
+            ]
+          },
+          {
+            "name": "Authored resident texture · wood",
+            "kind": "wood",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              4,
+              1.2
+            ]
+          },
+          {
+            "name": "Authored resident texture · rug",
+            "kind": "rug",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Authored resident texture · metal",
+            "kind": "metal",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          },
+          {
+            "name": "Authored resident texture · fabric",
+            "kind": "fabric",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Authored resident texture · plaster",
+            "kind": "plaster",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              6,
+              3
+            ]
+          },
+          {
+            "name": "Authored resident texture · water",
+            "kind": "water",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          },
+          {
+            "name": "Authored handwash animated flow",
+            "kind": "water",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          },
+          {
+            "name": "Authored pawwash animated flow",
+            "kind": "water",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "residents walk",
+      "pass": true,
+      "from": {
+        "x": -3.4,
+        "z": -18.5,
+        "blocked": false
+      },
+      "to": {
+        "x": -4.3999999999999995,
+        "z": -18.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "residents guide",
+      "pass": true
+    },
+    {
+      "name": "residents resume",
+      "pass": true
+    },
+    {
+      "name": "training render",
+      "pass": true,
+      "kind": "residents",
+      "triangles": 26011,
+      "geometry": {
+        "meshes": 73,
+        "materials": 43,
+        "geometries": 74,
+        "generatedTextures": 4,
+        "pixelBytes": 5308416
+      }
+    },
+    {
+      "name": "training source semantics",
+      "pass": true,
+      "kind": "residents",
+      "metadata": {
+        "concept": true,
+        "sourceInteriorPlan": false,
+        "measuredPlan": false,
+        "kind": "lobby",
+        "building": 1,
+        "adaptedFloor": 1,
+        "sourceMapping": {
+          "concept": true,
+          "measuredPlan": false,
+          "sourceFloor": null,
+          "adaptedFloor": 1,
+          "adjacencyEvidence": "Brochure: children enter through the coffee/coworking room; stroller/bicycle storage, guest WC and pawwash at the entrance",
+          "lobby": [
+            "1_lobby.webp",
+            "3_lobby.webp",
+            "4_lobby.webp",
+            "5_lobby.webp"
+          ],
+          "wash": [
+            "8_lobby.jpg",
+            "10_lobby.webp"
+          ],
+          "stroller": [
+            "11_kolysochnaya.webp"
+          ],
+          "lift": [
+            "01.webp",
+            "02.webp",
+            "06.webp",
+            "07.webp"
+          ],
+          "apartmentHall": [
+            "09.webp",
+            "10.webp",
+            "12.webp"
+          ],
+          "materials": "Cream mineral flooring, timber panels, brushed metal, navy rug, suspended wave of point lights",
+          "limitation": "Source images establish visible finishes and room functions, not exact room dimensions or a verified floor allocation."
+        },
+        "originalApartmentPlansUnchanged": true,
+        "mainExteriorUnchanged": true,
+        "childrenEntryViaCoffee": true,
+        "guestWC": true,
+        "bicycleStorage": true,
+        "strollers": 2,
+        "parcelCells": 30,
+        "liftCabins": 3,
+        "wavePoints": 704,
+        "layoutRooms": [
+          "lobby",
+          "corridor",
+          "yoga",
+          "kids",
+          "coffee",
+          "lift",
+          "washStroller",
+          "lounge",
+          "guestWC"
+        ],
+        "ownership": "This module owns only its local new fit-out resources",
+        "drawBatches": 12,
+        "finishTextures": [
+          {
+            "name": "Authored resident texture · marble",
+            "kind": "marble",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": 2,
+            "repeat": [
+              11,
+              16
+            ]
+          },
+          {
+            "name": "Authored resident texture · wood",
+            "kind": "wood",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              4,
+              1.2
+            ]
+          },
+          {
+            "name": "Authored resident texture · rug",
+            "kind": "rug",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Authored resident texture · metal",
+            "kind": "metal",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          },
+          {
+            "name": "Authored resident texture · fabric",
+            "kind": "fabric",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Authored resident texture · plaster",
+            "kind": "plaster",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              6,
+              3
+            ]
+          },
+          {
+            "name": "Authored resident texture · water",
+            "kind": "water",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          },
+          {
+            "name": "Authored handwash animated flow",
+            "kind": "water",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          },
+          {
+            "name": "Authored pawwash animated flow",
+            "kind": "water",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "training walk",
+      "pass": true,
+      "from": {
+        "x": -3.4,
+        "z": -18.5,
+        "blocked": false
+      },
+      "to": {
+        "x": -4.399999999999999,
+        "z": -18.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "training guide",
+      "pass": true
+    },
+    {
+      "name": "training resume",
+      "pass": true
+    },
+    {
+      "name": "parking render",
+      "pass": true,
+      "kind": "parking",
+      "triangles": 20104,
+      "geometry": {
+        "meshes": 55,
+        "materials": 46,
+        "geometries": 55,
+        "generatedTextures": 0,
+        "pixelBytes": 0
+      }
+    },
+    {
+      "name": "parking source semantics",
+      "pass": true,
+      "kind": "parking",
+      "metadata": {
+        "revision": 36,
+        "concept": true,
+        "level": -1,
+        "floorY": 0,
+        "localCoordinates": true,
+        "exteriorRegistration": false,
+        "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+        "sourcePage": 45,
+        "sourcePdfSha256": "9520afc781211db3eff0168b096c767a94056fcc1912c5e558baa02e94b69d6b",
+        "sourceImage": "13.webp",
+        "sourceInspiration": [
+          "beige concrete",
+          "gold-purple-blue zone lighting",
+          "exposed service pipework",
+          "linear LEDs",
+          "floor arrows",
+          "linear drainage",
+          "illustrative 111–113 labels"
+        ],
+        "documentedServices": {
+          "undergroundParking": true,
+          "bicycleAndMotorcyclePlaces": true,
+          "possibilityOfEVChargerInstallation": true,
+          "storageLevel": -1
+        },
+        "unknown": {
+          "complexCapacity": null,
+          "totalLevels": null,
+          "driveClearance": null,
+          "externalRampPosition": null,
+          "installedChargers": null
+        },
+        "section": {
+          "width": 26,
+          "depth": 24,
+          "authorCeilingHeight": 3.25,
+          "illustrativeBayCount": 14,
+          "bayWidth": 2.5,
+          "bayDepth": 5,
+          "vehicleAisle": 6,
+          "notComplexCapacity": true
+        },
+        "bays": [
+          {
+            "id": "bay-111",
+            "number": 111,
+            "x": -8.100000000000001,
+            "z": -5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-112",
+            "number": 112,
+            "x": -5.4,
+            "z": -5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-113",
+            "number": 113,
+            "x": -2.7,
+            "z": -5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-114",
+            "number": 114,
+            "x": 0,
+            "z": -5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-115",
+            "number": 115,
+            "x": 2.7,
+            "z": -5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-116",
+            "number": 116,
+            "x": 5.4,
+            "z": -5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-117",
+            "number": 117,
+            "x": 8.100000000000001,
+            "z": -5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-211",
+            "number": 211,
+            "x": -8.100000000000001,
+            "z": 5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-212",
+            "number": 212,
+            "x": -5.4,
+            "z": 5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-213",
+            "number": 213,
+            "x": -2.7,
+            "z": 5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-214",
+            "number": 214,
+            "x": 0,
+            "z": 5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-215",
+            "number": 215,
+            "x": 2.7,
+            "z": 5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-216",
+            "number": 216,
+            "x": 5.4,
+            "z": 5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          },
+          {
+            "id": "bay-217",
+            "number": 217,
+            "x": 8.100000000000001,
+            "z": 5.5,
+            "width": 2.5,
+            "depth": 5,
+            "illustrative": true
+          }
+        ],
+        "parkedCars": [
+          {
+            "bay": 111,
+            "position": [
+              -8.100000000000001,
+              -5.5
+            ],
+            "width": 1.99,
+            "depth": 4.55,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 112,
+            "position": [
+              -5.4,
+              -5.5
+            ],
+            "width": 1.99,
+            "depth": 4.28,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 113,
+            "position": [
+              -2.7,
+              -5.5
+            ],
+            "width": 1.99,
+            "depth": 4.28,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 115,
+            "position": [
+              2.7,
+              -5.5
+            ],
+            "width": 1.99,
+            "depth": 4.28,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 117,
+            "position": [
+              8.100000000000001,
+              -5.5
+            ],
+            "width": 1.99,
+            "depth": 4.55,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 211,
+            "position": [
+              -8.100000000000001,
+              5.5
+            ],
+            "width": 1.99,
+            "depth": 4.28,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 213,
+            "position": [
+              -2.7,
+              5.5
+            ],
+            "width": 1.99,
+            "depth": 4.28,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 214,
+            "position": [
+              0,
+              5.5
+            ],
+            "width": 1.99,
+            "depth": 4.28,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 215,
+            "position": [
+              2.7,
+              5.5
+            ],
+            "width": 1.99,
+            "depth": 4.55,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          },
+          {
+            "bay": 217,
+            "position": [
+              8.100000000000001,
+              5.5
+            ],
+            "width": 1.99,
+            "depth": 4.28,
+            "body": "bevelled profile, sloped cabin, cylinders, mirrors, grille and lamps"
+          }
+        ],
+        "columns": [
+          [
+            -11.1,
+            -5.5
+          ],
+          [
+            -11.1,
+            5.5
+          ],
+          [
+            11.1,
+            -5.5
+          ],
+          [
+            11.1,
+            5.5
+          ]
+        ],
+        "pedestrianRoute": [
+          [
+            -11.25,
+            -9.35
+          ],
+          [
+            10.25,
+            -9.35
+          ],
+          [
+            10.25,
+            8.72
+          ],
+          [
+            -10.25,
+            8.72
+          ],
+          [
+            -10.25,
+            2.1
+          ]
+        ],
+        "wayfindingRoute": [
+          [
+            -10.6,
+            -9.35
+          ],
+          [
+            -8.1,
+            -9.35
+          ],
+          [
+            -8.1,
+            -8.25
+          ],
+          [
+            -10,
+            -8.25
+          ],
+          [
+            -10,
+            -3.5
+          ],
+          [
+            -8.1,
+            -2.7
+          ]
+        ],
+        "storageRooms": [
+          {
+            "id": "storage-1",
+            "outer": [
+              [
+                -7.425,
+                9.5
+              ],
+              [
+                -4.575,
+                9.5
+              ],
+              [
+                -4.575,
+                11.899999999999999
+              ],
+              [
+                -7.425,
+                11.899999999999999
+              ]
+            ],
+            "holes": [],
+            "illustrative": true
+          },
+          {
+            "id": "storage-2",
+            "outer": [
+              [
+                -4.425,
+                9.5
+              ],
+              [
+                -1.575,
+                9.5
+              ],
+              [
+                -1.575,
+                11.899999999999999
+              ],
+              [
+                -4.425,
+                11.899999999999999
+              ]
+            ],
+            "holes": [],
+            "illustrative": true
+          },
+          {
+            "id": "storage-3",
+            "outer": [
+              [
+                -1.425,
+                9.5
+              ],
+              [
+                1.425,
+                9.5
+              ],
+              [
+                1.425,
+                11.899999999999999
+              ],
+              [
+                -1.425,
+                11.899999999999999
+              ]
+            ],
+            "holes": [],
+            "illustrative": true
+          },
+          {
+            "id": "storage-4",
+            "outer": [
+              [
+                1.575,
+                9.5
+              ],
+              [
+                4.425,
+                9.5
+              ],
+              [
+                4.425,
+                11.899999999999999
+              ],
+              [
+                1.575,
+                11.899999999999999
+              ]
+            ],
+            "holes": [],
+            "illustrative": true
+          },
+          {
+            "id": "storage-5",
+            "outer": [
+              [
+                4.575,
+                9.5
+              ],
+              [
+                7.425,
+                9.5
+              ],
+              [
+                7.425,
+                11.899999999999999
+              ],
+              [
+                4.575,
+                11.899999999999999
+              ]
+            ],
+            "holes": [],
+            "illustrative": true
+          }
+        ],
+        "parkingPlanStatus": "Source-inspired author layout, not the developer garage plan",
+        "siteEntranceStatus": "No external ramp coordinates proposed",
+        "chargingStatus": "Local non-network demonstration of installation possibility",
+        "storageAccess": "Doors are visual demonstrations; storage interiors remain reserved solids",
+        "unknownStatement": "Вместимость ЖК, высота проездов, общее число уровней, точные габариты и привязка въезда к генплану не подтверждены источником; эта секция их не моделирует.",
+        "mainBuilding": 1,
+        "initialSpawn": {
+          "x": -10.3,
+          "z": -9.35,
+          "y": 1.68,
+          "yaw": -1.5707963267948966,
+          "pitch": -0.06
+        },
+        "budget": {
+          "meshCount": 55,
+          "triangles": 14344
+        },
+        "authorship": {
+          "handle": "@r_peredelkino",
+          "modelId": "RP-CONCEPT-2026-10-07",
+          "revision": 36,
+          "technicalLock": false
+        }
+      }
+    },
+    {
+      "name": "parking walk",
+      "pass": true,
+      "from": {
+        "x": -10.3,
+        "z": -9.35
+      },
+      "to": {
+        "x": -9.299999999999986,
+        "z": -9.35,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "parking guide",
+      "pass": true
+    },
+    {
+      "name": "parking resume",
+      "pass": true
+    },
+    {
+      "name": "apartment-hall render",
+      "pass": true,
+      "kind": "apartment-hall",
+      "triangles": 6528,
+      "geometry": {
+        "meshes": 6,
+        "materials": 6,
+        "geometries": 6,
+        "generatedTextures": 0,
+        "pixelBytes": 3407872
+      }
+    },
+    {
+      "name": "apartment-hall source semantics",
+      "pass": true,
+      "kind": "apartment-hall",
+      "metadata": {
+        "concept": true,
+        "sourceInteriorPlan": false,
+        "measuredPlan": false,
+        "kind": "apartment-hall",
+        "building": 1,
+        "adaptedFloor": null,
+        "sourceMapping": {
+          "concept": true,
+          "measuredPlan": false,
+          "sourceFloor": null,
+          "adaptedFloor": 1,
+          "adjacencyEvidence": "Brochure: children enter through the coffee/coworking room; stroller/bicycle storage, guest WC and pawwash at the entrance",
+          "lobby": [
+            "1_lobby.webp",
+            "3_lobby.webp",
+            "4_lobby.webp",
+            "5_lobby.webp"
+          ],
+          "wash": [
+            "8_lobby.jpg",
+            "10_lobby.webp"
+          ],
+          "stroller": [
+            "11_kolysochnaya.webp"
+          ],
+          "lift": [
+            "01.webp",
+            "02.webp",
+            "06.webp",
+            "07.webp"
+          ],
+          "apartmentHall": [
+            "09.webp",
+            "10.webp",
+            "12.webp"
+          ],
+          "materials": "Cream mineral flooring, timber panels, brushed metal, navy rug, suspended wave of point lights",
+          "limitation": "Source images establish visible finishes and room functions, not exact room dimensions or a verified floor allocation."
+        },
+        "originalApartmentPlansUnchanged": true,
+        "mainExteriorUnchanged": true,
+        "childrenEntryViaCoffee": false,
+        "guestWC": false,
+        "bicycleStorage": false,
+        "strollers": 0,
+        "parcelCells": 0,
+        "liftCabins": 0,
+        "wavePoints": 0,
+        "layoutRooms": [
+          "apartmentHall"
+        ],
+        "ownership": "This module owns only its local new fit-out resources",
+        "drawBatches": 4,
+        "finishTextures": [
+          {
+            "name": "Authored resident texture · marble",
+            "kind": "marble",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": 2,
+            "repeat": [
+              3.3,
+              11.5
+            ]
+          },
+          {
+            "name": "Authored resident texture · wood",
+            "kind": "wood",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              4,
+              1.2
+            ]
+          },
+          {
+            "name": "Authored resident texture · rug",
+            "kind": "rug",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Authored resident texture · metal",
+            "kind": "metal",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          },
+          {
+            "name": "Authored resident texture · fabric",
+            "kind": "fabric",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              5,
+              5
+            ]
+          },
+          {
+            "name": "Authored resident texture · plaster",
+            "kind": "plaster",
+            "resolution": 512,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              6,
+              3
+            ]
+          },
+          {
+            "name": "Authored resident texture · water",
+            "kind": "water",
+            "resolution": 256,
+            "filtered": true,
+            "contrast": "subtle fine grain",
+            "floorTileMetres": null,
+            "repeat": [
+              1,
+              6
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "apartment-hall walk",
+      "pass": true,
+      "from": {
+        "x": 0,
+        "z": 4.4
+      },
+      "to": {
+        "x": 0,
+        "z": 3.6466000000000065,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "apartment-hall guide",
+      "pass": true
+    },
+    {
+      "name": "apartment-hall resume",
+      "pass": true
+    },
+    {
+      "name": "fitness render",
+      "pass": true,
+      "kind": "fitness",
+      "triangles": 4314327,
+      "geometry": {
+        "meshes": 42,
+        "materials": 20,
+        "geometries": 42,
+        "generatedTextures": 3,
+        "pixelBytes": 770048
+      },
+      "solarTime": "10:00"
+    },
+    {
+      "name": "fitness source semantics",
+      "pass": true,
+      "kind": "fitness",
+      "metadata": {
+        "revision": 36,
+        "concept": true,
+        "officialOperator": false,
+        "sourceUrl": "https://peredelkino-offices.ru/offices/3-5/",
+        "sourceUnit": "3/5",
+        "sourceFloor": 3,
+        "sourceArea": 105,
+        "adaptedFloor": 1,
+        "ceilingSource": 3.6,
+        "floorY": 0.24,
+        "sourceMapping": {
+          "sourceUrl": "https://peredelkino-offices.ru/offices/3-5/",
+          "sourceImage": "assets/reference-office-v35/office-3-5-plan.png",
+          "sourceImageSha256": "70642a16e21b15e0b1820607bdab0a0454022a8502f9fe43a394c89d0ee85296",
+          "method": "Manual raster contour, scale1, conceptual visual registration against the eastern retained office0 wing",
+          "survey": false,
+          "sourceFloor": 3,
+          "adaptedFloor": 1,
+          "scale": 1,
+          "streetFacingNormal": [
+            0.9993873123068954,
+            -0.035
+          ],
+          "advertisedArea": 105
+        },
+        "boundaryArea": 963.9390523399945,
+        "fitnessArea": 105.00062251000054,
+        "fitnessBoundary": {
+          "outer": [
+            [
+              53.564887654551406,
+              -89.2095477676267
+            ],
+            [
+              50.1619530068541,
+              -78.70811095386158
+            ],
+            [
+              50.867487902263235,
+              -78.47946458638548
+            ],
+            [
+              50.660159075357576,
+              -77.83951598881383
+            ],
+            [
+              50.98828344200747,
+              -77.73313516342407
+            ],
+            [
+              50.10567428295871,
+              -75.00937502854376
+            ],
+            [
+              50.46801693308443,
+              -74.7287851073066
+            ],
+            [
+              50.820212670687695,
+              -74.36078648989876
+            ],
+            [
+              51.26739196222444,
+              -73.72634905309297
+            ],
+            [
+              52.20565575131845,
+              -73.712379726877
+            ],
+            [
+              52.245570471183385,
+              -72.2126578809542
+            ],
+            [
+              51.91734616580226,
+              -72.31903520634394
+            ],
+            [
+              51.99399175427845,
+              -69.0305029587041
+            ],
+            [
+              57.38173,
+              -69.20658167856904
+            ],
+            [
+              56.85827,
+              -84.15341832143098
+            ],
+            [
+              56.819557271283855,
+              -84.87310431867932
+            ],
+            [
+              56.71516180599899,
+              -85.61400441776689
+            ],
+            [
+              56.50213654270422,
+              -86.29956857027064
+            ],
+            [
+              56.147186974718025,
+              -86.99477127753407
+            ],
+            [
+              55.689348912896065,
+              -87.59641556542111
+            ],
+            [
+              55.095524228019286,
+              -88.1695828740065
+            ],
+            [
+              54.42576295532012,
+              -88.67675196572284
+            ]
+          ],
+          "holes": []
+        },
+        "sourceServices": [
+          {
+            "id": "service8_4",
+            "advertisedArea": 8.4,
+            "outer": [
+              [
+                51.071205591615914,
+                -81.51395389976999
+              ],
+              [
+                50.1619530068541,
+                -78.70811095386158
+              ],
+              [
+                50.88990399525123,
+                -77.76511147427975
+              ],
+              [
+                53.440928536626274,
+                -77.97192404474457
+              ],
+              [
+                53.3994584775272,
+                -79.01891407057973
+              ],
+              [
+                53.26176150556083,
+                -79.82498854847324
+              ],
+              [
+                52.91264968048001,
+                -80.48207222167532
+              ],
+              [
+                52.324050942014615,
+                -81.0717325434513
+              ]
+            ]
+          },
+          {
+            "id": "sanitary7_6",
+            "advertisedArea": 7.6,
+            "outer": [
+              [
+                51.238099043537744,
+                -77.2170625181191
+              ],
+              [
+                50.47242954143273,
+                -74.85421639880744
+              ],
+              [
+                51.26688360446166,
+                -73.78086466161369
+              ],
+              [
+                53.56345329254983,
+                -73.76193300150162
+              ],
+              [
+                53.54995535498966,
+                -74.72735207407146
+              ],
+              [
+                53.539626666843965,
+                -75.31084807080254
+              ],
+              [
+                53.1471447594512,
+                -75.27488917246932
+              ],
+              [
+                53.124973411710705,
+                -77.27653956185789
+              ]
+            ]
+          },
+          {
+            "id": "shower4_0",
+            "advertisedArea": 4,
+            "outer": [
+              [
+                52.21906835198661,
+                -73.41796878594016
+              ],
+              [
+                52.22907395799279,
+                -72.21798376609682
+              ],
+              [
+                51.945318287341166,
+                -72.23746425307863
+              ],
+              [
+                52.01310519001377,
+                -70.65616795389052
+              ],
+              [
+                52.82019988343282,
+                -70.6847337700842
+              ],
+              [
+                52.865485356225406,
+                -70.48879871463481
+              ],
+              [
+                53.707845314591644,
+                -70.85040286358948
+              ],
+              [
+                53.64645288037224,
+                -73.6262548587471
+              ]
+            ]
+          }
+        ],
+        "serviceAccess": "Source-traced partitions and closed conceptual doors; service room footprints remain reserved and are not walk-through rooms",
+        "boundaryStatus": "Retained office0 floor;105m2 source unit registered scale1 as a street-facing adaptation, not the whole floor",
+        "sourceEntry": {
+          "x": 51.968509850607205,
+          "z": -70.12668270791738
+        },
+        "initialSpawn": {
+          "x": 54.17906193768237,
+          "z": -69.86389102173304,
+          "y": 1.92,
+          "yaw": -0.08760306351630162,
+          "pitch": -0.07196191856522344,
+          "reason": "Clear main aisle past the retained source entrance, looking along the equipment row"
+        },
+        "workingFootprints": [
+          {
+            "id": "treadmill-1",
+            "kind": "treadmill",
+            "x": 55.30672535136911,
+            "z": -84.1028549070517,
+            "width": 1.12,
+            "depth": 2.34,
+            "angle": -1.535789177019548,
+            "viewTargetHeight": 1.15
+          },
+          {
+            "id": "treadmill-2",
+            "kind": "treadmill",
+            "x": 55.40533442136911,
+            "z": -81.28717909458362,
+            "width": 1.12,
+            "depth": 2.34,
+            "angle": -1.535789177019548,
+            "viewTargetHeight": 1.15
+          },
+          {
+            "id": "elliptical-1",
+            "kind": "elliptical",
+            "x": 55.594530157155,
+            "z": -78.80957732131672,
+            "width": 1.02,
+            "depth": 1.86,
+            "angle": -1.535789177019548,
+            "viewTargetHeight": 1.25
+          },
+          {
+            "id": "cycle-1",
+            "kind": "cycle",
+            "x": 55.693139227154994,
+            "z": -75.99390150884865,
+            "width": 0.95,
+            "depth": 1.5,
+            "angle": -1.535789177019548,
+            "viewTargetHeight": 0.95
+          },
+          {
+            "id": "rower-1",
+            "kind": "rower",
+            "x": 55.798791802154994,
+            "z": -72.97710599549,
+            "width": 0.92,
+            "depth": 2.55,
+            "angle": 0.03500714977534858,
+            "viewTargetHeight": 0.65
+          },
+          {
+            "id": "cable-1",
+            "kind": "cable",
+            "x": 52.814089134963545,
+            "z": -82.63012991198,
+            "width": 1.55,
+            "depth": 1.38,
+            "angle": -1.535789177019548,
+            "viewTargetHeight": 1.3
+          },
+          {
+            "id": "cable-2",
+            "kind": "cable",
+            "x": 54.92550202895767,
+            "z": -85.82819534269464,
+            "width": 1.55,
+            "depth": 1.38,
+            "angle": -1.535789177019548,
+            "viewTargetHeight": 1.3
+          },
+          {
+            "id": "bench-1",
+            "kind": "bench",
+            "x": 54.41541753720321,
+            "z": -73.89163430795807,
+            "width": 0.92,
+            "depth": 1.66,
+            "angle": 0.03500714977534858,
+            "viewTargetHeight": 0.48
+          },
+          {
+            "id": "weights-1",
+            "kind": "freeweights",
+            "x": 54.53969105676824,
+            "z": -71.6084391016359,
+            "width": 1.78,
+            "depth": 0.78,
+            "angle": -1.535789177019548,
+            "viewTargetHeight": 0.68
+          }
+        ],
+        "equipmentCount": 9,
+        "skipped": [],
+        "handrails": "Endpoint-connected tubular frames",
+        "textureStatus": "Authored deterministic rubber, belt, metal, timber, microconcrete, stone and dark instrument-face textures",
+        "mirror": "Satin-metal finish approximation; no live RenderTarget reflection",
+        "contextPlacement": {
+          "officeId": 0,
+          "hideContextObject": "Office 0",
+          "floorY": 0.24,
+          "worldCoordinates": true
+        },
+        "glazingRecess": 0.02,
+        "glazingLimitation": "Neighbouring retained podium can limit first-floor views",
+        "materialFinish": {
+          "perimeter": "Graphite matte microconcrete",
+          "service": "Warm neutral matte microconcrete",
+          "slab": "Fine gray matte stone",
+          "ceiling": "Anthracite, roughness1, metalness0",
+          "screens": "Dark authored face with small cyan metrics and graph; static display, no telemetry"
+        }
+      }
+    },
+    {
+      "name": "fitness walk",
+      "pass": true,
+      "from": {
+        "x": 54.17906193768237,
+        "z": -69.86389102173304
+      },
+      "to": {
+        "x": 54.22338490759041,
+        "z": -70.3685483652232,
+        "blocked": false
+      },
+      "height": 0.24
+    },
+    {
+      "name": "fitness guide",
+      "pass": true
+    },
+    {
+      "name": "fitness resume",
+      "pass": true
+    },
+    {
+      "name": "Traffic period controls",
+      "pass": true,
+      "night": "Ночь · 40 машин в анимации · обычные условия",
+      "morning": "Утро · 124 машин в анимации · обычные условия"
+    },
+    {
+      "name": "Finite queue overload",
+      "pass": true,
+      "result": {
+        "capacity": 360,
+        "vehicles": 600,
+        "averageWait": 1198,
+        "maxWait": 2396,
+        "queueAtEnd": 240,
+        "utilisation": 1.6666666666666667,
+        "assumptions": "Even arrivals; constant service; blocked time spread uniformly; no interaction with measured junctions. Finite-horizon scenario only."
+      }
+    },
+    {
+      "name": "Mobile controls fit",
+      "pass": true,
+      "rects": [
+        {
+          "x": 286.375,
+          "y": 12,
+          "right": 378,
+          "bottom": 70
+        },
+        {
+          "x": 24,
+          "y": 624,
+          "right": 94,
+          "bottom": 694
+        },
+        {
+          "x": 296,
+          "y": 624,
+          "right": 366,
+          "bottom": 694
+        }
+      ]
+    },
+    {
+      "name": "No local resource errors",
+      "pass": true,
+      "errors": [],
+      "bad": []
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "minimumChecks": 59,
+  "actualChecks": 59,
+  "pass": true
+}

@@ -1,15 +1,15 @@
 // @r_peredelkino · exterior revision from the supplied 8 October 2026 panoramas.
 // Equipment dimensions and placement are visual estimates; the traced footprints stay authoritative.
 import * as THREE from './vendor/three.module.js';
-import {complexFootprints as footprint} from './complex-footprints.js?v=publication371';
-import {insideRing,segmentDistance} from './walk-physics.js?v=publication371';
-import {batchStatic} from './scene-batches.js?v=publication371';
-import {attribution} from './attribution.js?v=publication371';
-import {retailLevels} from './frontage-zones.js?v=publication371';
-import {officeTerraceReserved} from './office-terrace-v33.js?v=publication371';
-import {inArenaUpperRelief,segmentsOutsideArenaRelief,createUpperPodiumSurfaceGeometry} from './podium-upper-cut.js?v=publication371';
-import {createArenaServiceEquipment} from './arena-service-equipment.js?v=publication371';
-import {arenaFootprint} from './arena-placement-v35.js?v=publication371';
+import {complexFootprints as footprint} from './complex-footprints.js?v=community38';
+import {insideRing,segmentDistance} from './walk-physics.js?v=community38';
+import {batchStatic} from './scene-batches.js?v=community38';
+import {attribution} from './attribution.js?v=community38';
+import {retailLevels} from './frontage-zones.js?v=community38';
+import {officeTerraceReserved} from './office-terrace-v33.js?v=community38';
+import {inArenaUpperRelief,segmentsOutsideArenaRelief,createUpperPodiumSurfaceGeometry} from './podium-upper-cut.js?v=community38';
+import {createArenaServiceEquipment} from './arena-service-equipment.js?v=community38';
+import {arenaFootprint} from './arena-placement-v35.js?v=community38';
 
 // Keep gravel above the shared two-storey podium slab and below the separately
 // furnished terrace tiles. All three systems use the same model datum.

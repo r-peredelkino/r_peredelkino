@@ -1,4 +1,4 @@
-import {createReferenceExplorer} from './reference-explorer.js?v=publication371';
+import {createReferenceExplorer} from './reference-explorer.js?v=community38';
 
 let active=null,surfaces=[],opener=null;
 function restore(){

@@ -1,13 +1,13 @@
 // @r_peredelkino · residential roof terraces from 12.03.36 / 39 / 41.
 // Source contours and levels stay authoritative; planting and furniture are visual estimates.
 import * as THREE from './vendor/three.module.js';
-import {complexFootprints as f} from './complex-footprints.js?v=publication371';
-import {createWalkWorld} from './walk-physics.js?v=publication371';
-import {batchStatic} from './scene-batches.js?v=publication371';
-import {retailLevels} from './frontage-zones.js?v=publication371';
-import {createTerraceAccessGate} from './terrace-access.js?v=publication371';
-import {crownGeometry} from './botanical-geometry.js?v=publication371';
-import {createFoliageMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
+import {complexFootprints as f} from './complex-footprints.js?v=community38';
+import {createWalkWorld} from './walk-physics.js?v=community38';
+import {batchStatic} from './scene-batches.js?v=community38';
+import {retailLevels} from './frontage-zones.js?v=community38';
+import {createTerraceAccessGate} from './terrace-access.js?v=community38';
+import {crownGeometry} from './botanical-geometry.js?v=community38';
+import {createFoliageMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=community38';
 
 function deckCoordinates(geometry,angle){
  const p=geometry.attributes.position,uv=new Float32Array(p.count*2),c=Math.cos(angle),s=Math.sin(angle);

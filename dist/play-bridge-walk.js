@@ -1,6 +1,6 @@
 // @r_peredelkino · a separate upper route for the modelled play pavilion stair.
 // Ground visitors retain their own collision world and never sample roof height.
-import {createWalkWorld,solidContains,segmentDistance} from './walk-physics.js?v=publication371';
+import {createWalkWorld,solidContains,segmentDistance} from './walk-physics.js?v=community38';
 
 function onTread(x,z,tread){return solidContains(x,z,tread)||tread.outer.some((p,i)=>segmentDistance(x,z,p,tread.outer[(i+1)%tread.outer.length])<1e-7);}
 

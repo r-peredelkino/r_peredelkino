@@ -1,17 +1,17 @@
 // @r_peredelkino · private apartment, shared solar clock and real complex shadows.
 import * as T from './vendor/three.module.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {mountSceneAttribution} from './attribution.js?v=publication371';
-import {apartmentPlans} from './apartment-plans.js?v=publication371';
-import {createApartment} from './apartment-model.js?v=publication371';
-import {createApartmentTour} from './apartment-tour.js?v=publication371';
-import {createApartmentActions} from './apartment-actions-v37.js?v=publication371';
-import {apartmentCatalog} from './apartment-catalog-v37.js?v=publication371';
-import {cutApartmentOpenings,apartmentApertures,apartmentApertureProfile} from './apartment-apertures.js?v=publication371';
-import {bendPaneMaterial} from './facade-detail.js?v=publication371';
-import {createArchitecturalLighting} from './architectural-lighting.js?v=publication371';
-import {solarState,getSolarSnapshot,setSolarSelection,solarReferenceLinks,monthDate} from './solar-clock.js?v=publication371';
-import {location,daylight,timeLabel,moscowParts} from './solar.js?v=publication371';
+import {mountSceneAttribution} from './attribution.js?v=community38';
+import {apartmentPlans} from './apartment-plans.js?v=community38';
+import {createApartment} from './apartment-model.js?v=community38';
+import {createApartmentTour} from './apartment-tour.js?v=community38';
+import {createApartmentActions} from './apartment-actions-v37.js?v=community38';
+import {apartmentCatalog} from './apartment-catalog-v37.js?v=community38';
+import {cutApartmentOpenings,apartmentApertures,apartmentApertureProfile} from './apartment-apertures.js?v=community38';
+import {bendPaneMaterial} from './facade-detail.js?v=community38';
+import {createArchitecturalLighting} from './architectural-lighting.js?v=community38';
+import {solarState,getSolarSnapshot,setSolarSelection,solarReferenceLinks,monthDate} from './solar-clock.js?v=community38';
+import {location,daylight,timeLabel,moscowParts} from './solar.js?v=community38';
 
 const months=['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'];
 let dispose=()=>{},generation=0;
@@ -192,7 +192,7 @@ function mount(id){
  async function environment(){
   if(complex)return complex;if(pending)return pending;contextState='loading';applySolar();
   pending=(async()=>{
-   const {createComplex}=await import('./complex-model.js?v=publication371');if(dead)return null;const model=createComplex();if(dead){model.dispose();return null;}
+   const {createComplex}=await import('./complex-model.js?v=community38');if(dead)return null;const model=createComplex();if(dead){model.dispose();return null;}
    complex=model;shadowModels.add(model.root);model.root.visible=true;
    model.root.traverse(o=>{if(!o.isMesh||!o.material)return;const mats=Array.isArray(o.material)?o.material:[o.material];if(mats.every(m=>(m.transparent||m.transmission>0)&&!m.alphaTest))o.castShadow=false;});
    applySection();contextMask=retainApartmentContextShadows(model,()=>context||tour.enabled);model.life.setSkyVisible(false);shadowModels.updateMatrixWorld(true);rig.refreshBounds(shadowModels,receiverBounds);

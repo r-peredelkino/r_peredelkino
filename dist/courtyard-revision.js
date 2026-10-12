@@ -1,12 +1,12 @@
 // @r_peredelkino · the single fitness island and continuous garden in the October panoramas.
 import * as T from './vendor/three.module.js';
-import {complexFootprints as f} from './complex-footprints.js?v=publication371';
-import {insideRing,solidContains} from './walk-physics.js?v=publication371';
-import {addSportProgramme,addReferenceGardenLounge} from './courtyard-program.js?v=publication371';
-import {referenceSportLayout,referenceGardenLounge,subtractReferenceCuts} from './courtyard-reference-layout.js?v=publication371';
-import {courtyardSource,courtyardSourceBoundary,sourceCourtyardZones,sourceIslandAnchors,sourceGardenPaths,sourcePlazaInlays,sourceGrassPaverWedges,sampleSourcePath} from './courtyard-source-v33.js?v=publication371';
-import {registeredContextFootprints} from './context-services.js?v=publication371';
-import {arenaFootprint} from './arena-placement-v35.js?v=publication371';
+import {complexFootprints as f} from './complex-footprints.js?v=community38';
+import {insideRing,solidContains} from './walk-physics.js?v=community38';
+import {addSportProgramme,addReferenceGardenLounge} from './courtyard-program.js?v=community38';
+import {referenceSportLayout,referenceGardenLounge,subtractReferenceCuts} from './courtyard-reference-layout.js?v=community38';
+import {courtyardSource,courtyardSourceBoundary,sourceCourtyardZones,sourceIslandAnchors,sourceGardenPaths,sourcePlazaInlays,sourceGrassPaverWedges,sampleSourcePath} from './courtyard-source-v33.js?v=community38';
+import {registeredContextFootprints} from './context-services.js?v=community38';
+import {arenaFootprint} from './arena-placement-v35.js?v=community38';
 
 const TAU=Math.PI*2;
 const area=ring=>ring.reduce((sum,p,i)=>{const q=ring[(i+1)%ring.length];return sum+p[0]*q[1]-p[1]*q[0]},0);

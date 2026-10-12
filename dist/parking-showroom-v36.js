@@ -3,7 +3,7 @@
 // This demonstrator is NOT the surveyed garage, a capacity claim or an entry-ramp plan.
 import * as T from './vendor/three.module.js';
 import {createWalkWorld} from './walk-physics.js';
-import {embedPixelSignature,stampGeometry} from './baked-authorship.js?v=publication371';
+import {embedPixelSignature,stampGeometry} from './baked-authorship.js?v=community38';
 
 const SOURCE_URL='https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf';
 const ATTR={handle:'@r_peredelkino',modelId:'RP-CONCEPT-2026-10-07',revision:36};

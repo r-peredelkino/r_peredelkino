@@ -1,4 +1,4 @@
-import {solarPosition,direction,moscowParts,moscowDate,location,timeLabel} from './solar.js?v=publication371';
+import {solarPosition,direction,moscowParts,moscowDate,location,timeLabel} from './solar.js?v=community38';
 
 // One calendar and time for the district, walking views and apartment viewer.
 const initial=moscowParts();

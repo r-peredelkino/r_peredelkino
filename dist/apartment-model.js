@@ -1,12 +1,13 @@
+import {applyGeometryTree} from './surface-provenance-v38.js?v=community38';
 // @r_peredelkino · apartments traced from their original plans, in model metres.
 import * as T from './vendor/three.module.js';
-import {apartmentPlans,apartmentMetrics} from './apartment-plans.js?v=publication371';
-import {createWalkWorld,insideRing} from './walk-physics.js?v=publication371';
-import {batchStatic} from './scene-batches.js?v=publication371';
-import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=publication371';
-import {attribution,createAttributionTexture} from './attribution.js?v=publication371';
-import {registerApartmentFacade,facadePaneGeometry} from './apartment-facade-v37.js?v=publication371';
-import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=publication371';
+import {apartmentPlans,apartmentMetrics} from './apartment-plans.js?v=community38';
+import {createWalkWorld,insideRing} from './walk-physics.js?v=community38';
+import {batchStatic} from './scene-batches.js?v=community38';
+import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=community38';
+import {attribution,createAttributionTexture} from './attribution.js?v=community38';
+import {registerApartmentFacade,facadePaneGeometry} from './apartment-facade-v37.js?v=community38';
+import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=community38';
 
 export function createApartmentWorld(id,withFurniture=true){
  const data=apartmentPlans[id],m=apartmentMetrics(data),coord=m.coord;
@@ -125,10 +126,11 @@ export function createApartment(id){const data=apartmentPlans[id];if(!data)throw
  function syncEnvelope(){upper.visible=walking||full;ceiling.visible=walking;upperShadow.visible=!upper.visible;ceilingShadow.visible=!ceiling.visible;}
  function setArtificialLight(on){for(const light of interactionVisuals.lights)light.material.emissiveIntensity=on?1.8:0;}
  syncEnvelope();setArtificialLight(false);
- return{root,data,metrics,facadeRegistration,glazing,interactionVisuals,voxelAuthorship,roomMeshes,furniture,lower,upper,ceiling,shadowEnvelope,upperShadow,ceilingShadow,authored,setArtificialLight,get world(){return world},get withFurniture(){return withFurniture},
+ const surfaceProvenance=applyGeometryTree({root,glazing,facadeRegistration,data},{label:'apartment-'+id,authored:true});
+ return{surfaceProvenance,root,data,metrics,facadeRegistration,glazing,interactionVisuals,voxelAuthorship,roomMeshes,furniture,lower,upper,ceiling,shadowEnvelope,upperShadow,ceilingShadow,authored,setArtificialLight,get world(){return world},get withFurniture(){return withFurniture},
  setFurniture(on){withFurniture=on;furniture.visible=on;world=createApartmentWorld(id,on);return world},
  setFull(on){full=!!on;syncEnvelope()},setWalking(on){walking=!!on;syncEnvelope()},
  highlight(index){roomMeshes.forEach((o,i)=>o.material.color.set(i===index?0xe4efbf:(data.rooms[i].name==='Ванная'||data.rooms[i].name==='Санузел')?0xcecebd:0xcfbca2))},
- dispose(){if(disposed)return;disposed=true;voxelAuthorship.dispose();authored.dispose();mask.dispose();textures.forEach(t=>t.dispose());const geos=new Set(),materials=new Set(Object.values(mats));root.traverse(o=>{if(o.geometry)geos.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:o.material?[o.material]:[])materials.add(m)});geos.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());}
+ dispose(){if(disposed)return;disposed=true;surfaceProvenance.dispose();voxelAuthorship.dispose();authored.dispose();mask.dispose();textures.forEach(t=>t.dispose());const geos=new Set(),materials=new Set(Object.values(mats));root.traverse(o=>{if(o.geometry)geos.add(o.geometry);for(const m of Array.isArray(o.material)?o.material:o.material?[o.material]:[])materials.add(m)});geos.forEach(g=>g.dispose());materials.forEach(m=>m.dispose());}
  };
 }

@@ -1,24 +1,24 @@
-import {createForecourtRoadside} from './forecourt-roadside.js?v=publication371';
-import {forecourtReference} from './forecourt-reference-data.js?v=publication371';
-import {forecourtRoadsideReserved} from './forecourt-ground.js?v=publication371';
-import {createContextServices,registeredContextFootprints} from './context-services.js?v=publication371';
-import {worldToModel,metersToModel} from './geo-reference.js?v=publication371';
-import {addReferenceBackdrop} from './reference-backdrop.js?v=publication371';
-import {addBackdropGarden} from './backdrop-garden.js?v=publication371';
-import {createTransportInfrastructure} from './transport-infrastructure.js?v=publication371';
-import {createLocalAccess} from './local-access.js?v=publication371';
-import {roads} from './transport-data.js?v=publication371';
-export {roads} from './transport-data.js?v=publication371';
-import {createNeighborBuildings} from './neighbor-buildings.js?v=publication371';
-import {crownGeometry,branchingTrunk,woodlandCrownGeometry,moundedShrubGeometry} from './botanical-geometry.js?v=publication371';
-import {spatiallyPartitionInstances} from './spatial-instances.js?v=publication371';
-import {moundedShrubLODGeometry} from './botanical-lod.js?v=publication371';
-import {createFoliageMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
-import {salesOfficeLayout,salesOfficeReserved} from './sales-office.js?v=publication371';
+import {createForecourtRoadside} from './forecourt-roadside.js?v=community38';
+import {forecourtReference} from './forecourt-reference-data.js?v=community38';
+import {forecourtRoadsideReserved} from './forecourt-ground.js?v=community38';
+import {createContextServices,registeredContextFootprints} from './context-services.js?v=community38';
+import {worldToModel,metersToModel} from './geo-reference.js?v=community38';
+import {addReferenceBackdrop} from './reference-backdrop.js?v=community38';
+import {addBackdropGarden} from './backdrop-garden.js?v=community38';
+import {createTransportInfrastructure} from './transport-infrastructure.js?v=community38';
+import {createLocalAccess} from './local-access.js?v=community38';
+import {roads} from './transport-data.js?v=community38';
+export {roads} from './transport-data.js?v=community38';
+import {createNeighborBuildings} from './neighbor-buildings.js?v=community38';
+import {crownGeometry,branchingTrunk,woodlandCrownGeometry,moundedShrubGeometry} from './botanical-geometry.js?v=community38';
+import {spatiallyPartitionInstances} from './spatial-instances.js?v=community38';
+import {moundedShrubLODGeometry} from './botanical-lod.js?v=community38';
+import {createFoliageMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=community38';
+import {salesOfficeLayout,salesOfficeReserved} from './sales-office.js?v=community38';
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
 import * as THREE from './vendor/three.module.js';
-import {mapPoint,location} from './solar.js?v=publication371';
-import {complexFootprints as f} from './complex-footprints.js?v=publication371';
+import {mapPoint,location} from './solar.js?v=community38';
+import {complexFootprints as f} from './complex-footprints.js?v=community38';
 // The two detailed commercial reference models retain their courtyard relationship.
 // Residential addresses and all motor roads now use the georeferenced data modules.
 export const contextBuildings=['shopping','medical','police','parking'].map(role=>{

@@ -1,5 +1,5 @@
 // @r_peredelkino · doors belong to existing frontage; interiors are an authored concept.
-import {complexFootprints as footprint} from './complex-footprints.js?v=publication371';
+import {complexFootprints as footprint} from './complex-footprints.js?v=community38';
 
 function approach(world, door, distance=1.6) {
   // Stay on the public side of the actual door. A generic nearest-point search

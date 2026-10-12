@@ -1,9 +1,9 @@
 // OSM footprint data © OpenStreetMap contributors, ODbL 1.0.
 // Reference facade reconstruction @r_peredelkino · v28.
 import * as THREE from './vendor/three.module.js';
-import {mapPoint,location} from './solar.js?v=publication371';
-import {createMineralMaterial} from './landscape-materials.js?v=publication371';
-import {neighborBuildingLayout,resolveNeighborBuildingLayout,neighborPointInside,neighborSegmentDistance} from './neighbor-building-layout.js?v=publication371';
+import {mapPoint,location} from './solar.js?v=community38';
+import {createMineralMaterial} from './landscape-materials.js?v=community38';
+import {neighborBuildingLayout,resolveNeighborBuildingLayout,neighborPointInside,neighborSegmentDistance} from './neighbor-building-layout.js?v=community38';
 
 const clamp01=value=>Math.max(0,Math.min(1,Number(value)||0));
 const hex=value=>'#'+new THREE.Color(value).getHexString();

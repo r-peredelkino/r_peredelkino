@@ -1,8 +1,8 @@
 // Existing low buildings complete the actual street and courtyard footprints.
 import * as THREE from './vendor/three.module.js';
-import {geoToWorld,metersToModel} from './geo-reference.js?v=publication371';
-import {contextServiceFootprints} from './context-services-data.js?v=publication371';
-import {batchStatic} from './scene-batches.js?v=publication371';
+import {geoToWorld,metersToModel} from './geo-reference.js?v=community38';
+import {contextServiceFootprints} from './context-services-data.js?v=community38';
+import {batchStatic} from './scene-batches.js?v=community38';
 
 export const registeredContextFootprints=contextServiceFootprints.map(b=>({...b,world:b.coordinates.slice(0,-1).map(p=>{const q=geoToWorld(...p);return[q[0],q[2]];})}));
 const distance=(p,a,b)=>{const dx=b[0]-a[0],dz=b[1]-a[1],t=Math.max(0,Math.min(1,((p[0]-a[0])*dx+(p[1]-a[1])*dz)/(dx*dx+dz*dz)));return Math.hypot(p[0]-a[0]-t*dx,p[1]-a[1]-t*dz);};

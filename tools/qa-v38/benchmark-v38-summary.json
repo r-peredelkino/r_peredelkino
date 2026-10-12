@@ -1,0 +1,333 @@
+{
+  "pass": true,
+  "method": {
+    "viewport": [
+      1500,
+      1000
+    ],
+    "deviceScaleFactor": 1,
+    "renderArea": [
+      1500,
+      1000
+    ],
+    "date": "2026-07-15",
+    "minutes": 720,
+    "weather": "clear",
+    "life": true,
+    "threeRevision": 186,
+    "chromeExecutable": "/tmp/rodina-v38-chrome-arm64",
+    "qualityMappings": [
+      {
+        "profile": "full",
+        "baseline": "full",
+        "candidate": "full"
+      },
+      {
+        "profile": "balanced",
+        "baseline": "auto",
+        "candidate": "balanced"
+      }
+    ],
+    "pairedRepeats": 2,
+    "order": [
+      "baseline,candidate",
+      "candidate,baseline"
+    ],
+    "warmupMS": 3000,
+    "sampleMS": 5000,
+    "minFrames": 60,
+    "measurement": "Intervals between actual masterplan renders; CPU submission times are separately recorded. No GPU timer or guaranteed FPS claim.",
+    "counterScope": "Three r186 render counters include colour and shadow passes. Dynamic shadow cadence changes these counters without changing the number of static scene vertices.",
+    "balancedScope": "The baseline has no balanced preset: its fixed auto foliage mode is paired with the candidate balanced preset. Candidate balanced intentionally reduces shadow resolution and population."
+  },
+  "chromeVersion": "Chrome/155.0.8059.39",
+  "nodeArchitecture": "arm64",
+  "gpu": [
+    "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)"
+  ],
+  "checks": [
+    {
+      "name": "1/full/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/full/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/full/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/balanced/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/balanced/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "1/balanced/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/full/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/full/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/full/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/balanced/courtyard camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/balanced/forecourt camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "2/balanced/facade camera and canvas pair",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "baselineDrawingBuffer": [
+        1500,
+        1000
+      ],
+      "candidateDrawingBuffer": [
+        1500,
+        1000
+      ]
+    },
+    {
+      "name": "Every measurement used the physical 1500 × 1000 canvas and completed enough actual rendered frames",
+      "pass": true
+    },
+    {
+      "name": "Native Apple Silicon GPU, same r186, no shader/GL/page/asset errors",
+      "pass": true
+    }
+  ],
+  "summary": [
+    {
+      "profile": "full",
+      "action": "courtyard",
+      "baselineQuality": "full",
+      "candidateQuality": "full",
+      "baselineMeanMS": 56.20076173826269,
+      "candidateMeanMS": 54.18896854763506,
+      "frameTimeReductionPercent": 3.5796546673102405,
+      "pairedChangesPercent": [
+        6.572419190221456,
+        0.4697482801253922
+      ],
+      "baselineRenderCalls": 501.03846153846155,
+      "candidateRenderCalls": 541,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 4096
+    },
+    {
+      "profile": "full",
+      "action": "forecourt",
+      "baselineQuality": "full",
+      "candidateQuality": "full",
+      "baselineMeanMS": 61.549477533955454,
+      "candidateMeanMS": 60.39918961560753,
+      "frameTimeReductionPercent": 1.8688833186493468,
+      "pairedChangesPercent": [
+        7.756273615278802,
+        -4.758940486052643
+      ],
+      "baselineRenderCalls": 519.885803851321,
+      "candidateRenderCalls": 547.527108433735,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 4096
+    },
+    {
+      "profile": "full",
+      "action": "facade",
+      "baselineQuality": "full",
+      "candidateQuality": "full",
+      "baselineMeanMS": 73.32513859275319,
+      "candidateMeanMS": 74.09510822510973,
+      "frameTimeReductionPercent": -1.0500759318477877,
+      "pairedChangesPercent": [
+        3.2878358559645853,
+        -5.5750965590946855
+      ],
+      "baselineRenderCalls": 628.9962686567164,
+      "candidateRenderCalls": 667.5,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 4096
+    },
+    {
+      "profile": "balanced",
+      "action": "courtyard",
+      "baselineQuality": "auto",
+      "candidateQuality": "balanced",
+      "baselineMeanMS": 54.83209507882913,
+      "candidateMeanMS": 52.12285946825342,
+      "frameTimeReductionPercent": 4.9409667945038205,
+      "pairedChangesPercent": [
+        3.4665917293533,
+        6.400711982865713
+      ],
+      "baselineRenderCalls": 501.03846153846155,
+      "candidateRenderCalls": 480.9309820944113,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 2048
+    },
+    {
+      "profile": "balanced",
+      "action": "forecourt",
+      "baselineQuality": "auto",
+      "candidateQuality": "balanced",
+      "baselineMeanMS": 62.05527439023703,
+      "candidateMeanMS": 59.879381735677875,
+      "frameTimeReductionPercent": 3.5063782666981216,
+      "pairedChangesPercent": [
+        0.6744425930150229,
+        6.286115296034015
+      ],
+      "baselineRenderCalls": 520,
+      "candidateRenderCalls": 502.5141803743619,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 2048
+    },
+    {
+      "profile": "balanced",
+      "action": "facade",
+      "baselineQuality": "auto",
+      "candidateQuality": "balanced",
+      "baselineMeanMS": 68.24932432432684,
+      "candidateMeanMS": 71.53232394366466,
+      "frameTimeReductionPercent": -4.810303474561483,
+      "pairedChangesPercent": [
+        -5.718469850194873,
+        -3.9011835584170713
+      ],
+      "baselineRenderCalls": 630.5,
+      "candidateRenderCalls": 668.9964788732394,
+      "baselineShadowSize": 4096,
+      "candidateShadowSize": 2048
+    }
+  ],
+  "errors": [],
+  "shaderErrors": [],
+  "resources": []
+}

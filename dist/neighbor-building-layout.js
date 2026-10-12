@@ -1,7 +1,7 @@
 // Addressed surroundings: published OSM polygons replace the v27 rectangular placeholders.
 // Footprint data © OpenStreetMap contributors, ODbL 1.0; facade interpretation @r_peredelkino.
-import {neighborFootprints,neighborFootprintSource} from './neighbor-footprints-data.js?v=publication371';
-import {geoToModel,metersToModel} from './geo-reference.js?v=publication371';
+import {neighborFootprints,neighborFootprintSource} from './neighbor-footprints-data.js?v=community38';
+import {geoToModel,metersToModel} from './geo-reference.js?v=community38';
 
 const pink={wall:0xbf91a6,alternate:0xcba9b5,accent:0x98576e,end:0xe0e4de,frame:0xe9ece5,balcony:0x955068,glass:0x56616a};
 const ochre={wall:0xdce0d8,alternate:0xe6e6dd,accent:0xc6b07d,end:0xe2e5de,frame:0xf0f0e7,balcony:0xc9b88f,glass:0x57626a};
