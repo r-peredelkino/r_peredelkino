@@ -23,7 +23,7 @@ def build(root):
         {'name': 'robust-predicates', 'license': 'Unlicense', 'path': 'dist/vendor/robust-predicates.LICENSE.txt'},
         {'name': 'splaytree', 'license': 'MIT', 'path': 'dist/vendor/splaytree.LICENSE.txt'}
     ]
-    additions = [root / name for name in ('README.md', 'docs/CONCEPT.md', 'LICENSE-AUTHORED.txt', 'NOTICE.md', 'package.json', 'package-lock.json', 'PUBLICATION.json', 'dist/walk/index.html')]
+    additions = [root / name for name in ('README.md', 'docs/CONCEPT.md', 'LICENSE-AUTHORED.txt', 'NOTICE.md', 'package.json', 'package-lock.json', 'PUBLICATION.json', 'dist/walk/index.html', 'docs/PUBLICATION.md', 'docs/ISSUES-SNAPSHOT.json', 'tools/qa-publication/npm-test.txt')]
     for folder in ('scripts', '.github/workflows', 'tools/qa-publication'):
         additions.extend(p for p in (root / folder).rglob('*') if p.is_file() and p.suffix in ('.mjs', '.cjs', '.json', '.yml'))
     additions.append(root / 'tools/build-provenance-publication.py')

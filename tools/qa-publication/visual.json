@@ -1,0 +1,405 @@
+{
+  "revision": 37,
+  "publication": "37.1.0",
+  "base": "http://127.0.0.1:8098/r_peredelkino",
+  "pass": true,
+  "shots": [
+    "genplan-fullscreen",
+    "courtyard-v37",
+    "voxel-plinth-macro",
+    "voxel-roof-macro",
+    "lobby-overview",
+    "lobby-walk",
+    "lift-hall",
+    "wash-stroller",
+    "training-walk",
+    "kids-walk",
+    "coffee-walk",
+    "lounge-walk",
+    "apartment-hall-walk",
+    "parking-overview",
+    "parking-walk",
+    "fitness-floor1-overview",
+    "fitness-floor1-walk",
+    "apartment-1-59-overview",
+    "apartment-1-59-walk",
+    "apartment-1-81-overview",
+    "apartment-1-81-walk",
+    "voxel-apartment-macro",
+    "apartment-family-television-light",
+    "apartment-family-bed-view",
+    "apartment-1-324-overview",
+    "apartment-1-324-walk",
+    "apartment-1-325-overview",
+    "apartment-1-325-walk",
+    "apartment-1-326-overview",
+    "apartment-1-326-walk",
+    "apartment-1-328-overview",
+    "apartment-1-328-walk",
+    "apartment-1-330-overview",
+    "apartment-1-330-walk",
+    "apartment-2-345-overview",
+    "apartment-2-345-walk",
+    "apartment-2-588-overview",
+    "apartment-2-588-walk",
+    "apartment-2-590-overview",
+    "apartment-2-590-walk",
+    "apartment-2-591-overview",
+    "apartment-2-591-walk",
+    "apartment-2-592-overview",
+    "apartment-2-592-walk",
+    "apartment-2-594-overview",
+    "apartment-2-594-walk",
+    "apartment-2-595-overview",
+    "apartment-2-595-walk",
+    "apartment-2-596-overview",
+    "apartment-2-596-walk",
+    "apartment-2-598-overview",
+    "apartment-2-598-walk",
+    "apartment-4-1071-overview",
+    "apartment-4-1071-walk",
+    "genplan-mobile-fullscreen",
+    "apartment-1-81-mobile-walk",
+    "apartment-1-81-mobile-bed"
+  ],
+  "catalog": [
+    "1-59",
+    "1-81",
+    "1-324",
+    "1-325",
+    "1-326",
+    "1-328",
+    "1-330",
+    "2-345",
+    "2-588",
+    "2-590",
+    "2-591",
+    "2-592",
+    "2-594",
+    "2-595",
+    "2-596",
+    "2-598",
+    "4-1071"
+  ],
+  "physicalProofs": [
+    {
+      "name": "voxel-plinth-macro",
+      "carrier": "",
+      "label": "building-1/mineral-plinth",
+      "handle": "@r_peredelkino",
+      "voxels": 171,
+      "pixel": 0.017,
+      "depth": 0.012,
+      "width": 1.411,
+      "height": 0.11900000000000001,
+      "actualGeometryUuid": "0ed85704-8f6a-4463-82bd-3955732f05ba",
+      "glError": 0
+    },
+    {
+      "name": "voxel-roof-macro",
+      "carrier": "",
+      "label": "building-1/inset-roof",
+      "handle": "@r_peredelkino",
+      "voxels": 171,
+      "pixel": 0.029,
+      "depth": 0.008,
+      "width": 2.407,
+      "height": 0.203,
+      "actualGeometryUuid": "411b7be4-8248-4edd-8eaf-d217e868a878",
+      "glError": 0
+    },
+    {
+      "name": "voxel-apartment-macro",
+      "carrier": "Batched courtyard furniture",
+      "label": "apartment/1-81/1",
+      "handle": "@r_peredelkino",
+      "voxels": 171,
+      "pixel": 0.012,
+      "depth": 0.005,
+      "width": 0.996,
+      "height": 0.084,
+      "actualGeometryUuid": "66bc64cd-9493-4620-aac4-fe1e3ffe6436",
+      "glError": 0
+    }
+  ],
+  "checks": [
+    {
+      "name": "Desktop genplan mode navigation stays inside its header",
+      "pass": true,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 1500,
+        "bottom": 78
+      },
+      "navigation": {
+        "x": 151.8125,
+        "y": 18,
+        "right": 931.8125,
+        "bottom": 59
+      },
+      "position": "static"
+    },
+    {
+      "name": "1-59 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.7065304584090214,
+      "maxY": 0.8174727023387677,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "1-81 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6718435652061574,
+      "maxY": 0.6144360408754101,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "1-324 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.4188091905605598,
+      "maxY": 0.7234110062017785,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "1-325 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6737225138632242,
+      "maxY": 0.5918137060063344,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "1-326 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6478490971787882,
+      "maxY": 0.6473506664792147,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "1-328 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.584180203522648,
+      "maxY": 0.7885245134640295,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "1-330 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.4693999656680573,
+      "maxY": 0.7165681206977065,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-345 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6087577514973169,
+      "maxY": 0.8344490352800767,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-588 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.5355473116176919,
+      "maxY": 0.7155091159269058,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-590 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6465547133268482,
+      "maxY": 0.6489374015970182,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-591 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6701318311698371,
+      "maxY": 0.8245521785179948,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-592 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6295867637299096,
+      "maxY": 0.8346085399060809,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-594 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.6283657254333515,
+      "maxY": 0.7788855996900645,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-595 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.5483527163622407,
+      "maxY": 0.7222847416991689,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-596 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.636921331988168,
+      "maxY": 0.783561318712175,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "2-598 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.678649976728645,
+      "maxY": 0.7986542674804098,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "4-1071 overview keeps the full apartment contour in frame",
+      "pass": true,
+      "maxX": 0.5677827195583611,
+      "maxY": 0.8213988568432694,
+      "aspect": 1.6694560669456067
+    },
+    {
+      "name": "Mobile standalone genplan and public apartment picker fit the viewport",
+      "pass": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "rects": [
+        {
+          "selector": "#cluster-map",
+          "x": 0,
+          "y": 116,
+          "right": 390,
+          "bottom": 844,
+          "width": 390,
+          "height": 728
+        },
+        {
+          "selector": "[data-plan-catalog]",
+          "x": 153.03125,
+          "y": 25.75,
+          "right": 320.71875,
+          "bottom": 59.75,
+          "width": 167.6875,
+          "height": 34
+        },
+        {
+          "selector": "[data-open-plan]",
+          "x": 324.71875,
+          "y": 25.75,
+          "right": 380,
+          "bottom": 59.75,
+          "width": 55.28125,
+          "height": 34
+        }
+      ]
+    },
+    {
+      "name": "Mobile genplan action toolbar uses the available screen width",
+      "pass": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "toolbar": {
+        "x": 8,
+        "y": 740,
+        "right": 382,
+        "bottom": 836,
+        "width": 374,
+        "height": 96
+      }
+    },
+    {
+      "name": "Mobile genplan mode navigation stays inside its header",
+      "pass": true,
+      "header": {
+        "x": 0,
+        "y": 0,
+        "right": 390,
+        "bottom": 116
+      },
+      "navigation": {
+        "x": 10,
+        "y": 71.25,
+        "right": 380,
+        "bottom": 103.25
+      },
+      "position": "static"
+    },
+    {
+      "name": "Mobile apartment sticks, exit, selector, action and visible stand control fit while lying on the bed",
+      "pass": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "rects": [
+        {
+          "selector": ".apt-move",
+          "x": 25,
+          "y": 706,
+          "right": 127,
+          "bottom": 808,
+          "width": 102,
+          "height": 102,
+          "visible": true
+        },
+        {
+          "selector": ".apt-look",
+          "x": 263,
+          "y": 706,
+          "right": 365,
+          "bottom": 808,
+          "width": 102,
+          "height": 102,
+          "visible": true
+        },
+        {
+          "selector": ".apt-exit",
+          "x": 239.046875,
+          "y": 18,
+          "right": 358,
+          "bottom": 62,
+          "width": 118.953125,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-interaction]",
+          "x": 115.640625,
+          "y": 134,
+          "right": 255.640625,
+          "bottom": 166,
+          "width": 140,
+          "height": 32,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-action]",
+          "x": 260.640625,
+          "y": 128,
+          "right": 364.796875,
+          "bottom": 172,
+          "width": 104.15625,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-stand]",
+          "x": 16,
+          "y": 179,
+          "right": 81.53125,
+          "bottom": 223,
+          "width": 65.53125,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "bad": []
+}

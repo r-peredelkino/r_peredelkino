@@ -1,0 +1,6472 @@
+{
+  "modelRelease": 37,
+  "publicationVersion": "37.1.0",
+  "nodeArchitecture": "arm64",
+  "variants": [
+    {
+      "id": "source-v37",
+      "base": "http://127.0.0.1:8080",
+      "modelRelease": 37,
+      "publicationVersion": null,
+      "threeRevision": 170
+    },
+    {
+      "id": "public-37.1.0",
+      "base": "http://127.0.0.1:8098/r_peredelkino",
+      "modelRelease": 37,
+      "publicationVersion": "37.1.0",
+      "threeRevision": 186
+    }
+  ],
+  "samples": [
+    {
+      "pair": 1,
+      "variant": "source-v37",
+      "version": 170,
+      "modelRelease": 37,
+      "publicationVersion": null,
+      "base": "http://127.0.0.1:8080",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 38.88777777777777,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 7926174,
+      "trianglesMin": 7926174,
+      "trianglesMax": 7926174,
+      "callsMean": 327,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 170,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      },
+      "renderCounterScope": "shadows excluded"
+    },
+    {
+      "pair": 1,
+      "variant": "source-v37",
+      "version": 170,
+      "modelRelease": 37,
+      "publicationVersion": null,
+      "base": "http://127.0.0.1:8080",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 44.25666666666665,
+      "medianMS": 49.900000000001455,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 9454185,
+      "trianglesMin": 9454185,
+      "trianglesMax": 9454185,
+      "callsMean": 367,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 170,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      },
+      "renderCounterScope": "shadows excluded"
+    },
+    {
+      "pair": 1,
+      "variant": "source-v37",
+      "version": 170,
+      "modelRelease": 37,
+      "publicationVersion": null,
+      "base": "http://127.0.0.1:8080",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 60.92444444444441,
+      "medianMS": 66.59999999999854,
+      "p95MS": 83.29999999999927,
+      "trianglesMean": 10543569,
+      "trianglesMin": 10543569,
+      "trianglesMax": 10543569,
+      "callsMean": 429,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 170,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      },
+      "renderCounterScope": "shadows excluded"
+    },
+    {
+      "pair": 1,
+      "variant": "public-37.1.0",
+      "version": 186,
+      "modelRelease": 37,
+      "publicationVersion": "37.1.0",
+      "base": "http://127.0.0.1:8098/r_peredelkino",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 54.44222222222221,
+      "medianMS": 50,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 10981411.5,
+      "trianglesMin": 7839734,
+      "trianglesMax": 14123089,
+      "callsMean": 504.5,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 186,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 120,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 121,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      },
+      "renderCounterScope": "shadows included"
+    },
+    {
+      "pair": 1,
+      "variant": "public-37.1.0",
+      "version": 186,
+      "modelRelease": 37,
+      "publicationVersion": "37.1.0",
+      "base": "http://127.0.0.1:8098/r_peredelkino",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 58.331111111111106,
+      "medianMS": 50.10000000000218,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 11988563.5,
+      "trianglesMin": 9367765,
+      "trianglesMax": 14609362,
+      "callsMean": 520,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 186,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 120,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 121,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      },
+      "renderCounterScope": "shadows included"
+    },
+    {
+      "pair": 1,
+      "variant": "public-37.1.0",
+      "version": 186,
+      "modelRelease": 37,
+      "publicationVersion": "37.1.0",
+      "base": "http://127.0.0.1:8098/r_peredelkino",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 70.36777777777776,
+      "medianMS": 66.70000000000073,
+      "p95MS": 83.40000000000146,
+      "trianglesMean": 14375522.5,
+      "trianglesMin": 10457129,
+      "trianglesMax": 18293916,
+      "callsMean": 630.5,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 186,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 120,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 121,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      },
+      "renderCounterScope": "shadows included"
+    },
+    {
+      "pair": 2,
+      "variant": "source-v37",
+      "version": 170,
+      "modelRelease": 37,
+      "publicationVersion": null,
+      "base": "http://127.0.0.1:8080",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.44333333333333,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50,
+      "trianglesMean": 7926174,
+      "trianglesMin": 7926174,
+      "trianglesMax": 7926174,
+      "callsMean": 327,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 170,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      },
+      "renderCounterScope": "shadows excluded"
+    },
+    {
+      "pair": 2,
+      "variant": "source-v37",
+      "version": 170,
+      "modelRelease": 37,
+      "publicationVersion": null,
+      "base": "http://127.0.0.1:8080",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 44.62888888888887,
+      "medianMS": 50,
+      "p95MS": 50.10000000000218,
+      "trianglesMean": 9454185,
+      "trianglesMin": 9454185,
+      "trianglesMax": 9454185,
+      "callsMean": 367,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 170,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      },
+      "renderCounterScope": "shadows excluded"
+    },
+    {
+      "pair": 2,
+      "variant": "source-v37",
+      "version": 170,
+      "modelRelease": 37,
+      "publicationVersion": null,
+      "base": "http://127.0.0.1:8080",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 58.14555555555554,
+      "medianMS": 50.10000000000218,
+      "p95MS": 66.79999999999927,
+      "trianglesMean": 10543569,
+      "trianglesMin": 10543569,
+      "trianglesMax": 10543569,
+      "callsMean": 429,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 170,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      },
+      "renderCounterScope": "shadows excluded"
+    },
+    {
+      "pair": 2,
+      "variant": "public-37.1.0",
+      "version": 186,
+      "modelRelease": 37,
+      "publicationVersion": "37.1.0",
+      "base": "http://127.0.0.1:8098/r_peredelkino",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 53.33111111111112,
+      "medianMS": 50,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 10800998.044444444,
+      "trianglesMin": 7839734,
+      "trianglesMax": 13896865,
+      "callsMean": 498.1111111111111,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 186,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 120,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 121,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      },
+      "renderCounterScope": "shadows included"
+    },
+    {
+      "pair": 2,
+      "variant": "public-37.1.0",
+      "version": 186,
+      "modelRelease": 37,
+      "publicationVersion": "37.1.0",
+      "base": "http://127.0.0.1:8098/r_peredelkino",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 62.775555555555584,
+      "medianMS": 66.60000000000218,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 11988563.5,
+      "trianglesMin": 9367765,
+      "trianglesMax": 14609362,
+      "callsMean": 520,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 186,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 120,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 121,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      },
+      "renderCounterScope": "shadows included"
+    },
+    {
+      "pair": 2,
+      "variant": "public-37.1.0",
+      "version": 186,
+      "modelRelease": 37,
+      "publicationVersion": "37.1.0",
+      "base": "http://127.0.0.1:8098/r_peredelkino",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 71.84888888888891,
+      "medianMS": 66.70000000000073,
+      "p95MS": 83.40000000000146,
+      "trianglesMean": 14375522.5,
+      "trianglesMin": 10457129,
+      "trianglesMax": 18293916,
+      "callsMean": 630.5,
+      "glError": 0,
+      "contextLost": false,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "threeRevision": 186,
+      "shaderErrors": [],
+      "programs": [
+        {
+          "id": 61,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 62,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 63,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 64,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 65,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 66,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 67,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 68,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 69,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 70,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 71,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 72,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 73,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 74,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 75,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 76,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 77,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 78,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 79,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 80,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 81,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 82,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 83,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 84,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 85,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 86,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 87,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 88,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 89,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 90,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 91,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 92,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 93,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 94,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 95,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 96,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 97,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 98,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 99,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 100,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 101,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 102,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 103,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 104,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 105,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 106,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 107,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 108,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 109,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 110,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 111,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 112,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 113,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 114,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 115,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 116,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 117,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 118,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 119,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 120,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        },
+        {
+          "id": 121,
+          "linked": true,
+          "runnable": null,
+          "programLog": "",
+          "vertexLog": "",
+          "fragmentLog": ""
+        }
+      ],
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      },
+      "renderCounterScope": "shadows included"
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "shaderConsoleErrors": [],
+  "resources": [],
+  "method": {
+    "viewport": [
+      1500,
+      1000
+    ],
+    "dpr": 1,
+    "date": "2026-07-15",
+    "minutes": 720,
+    "quality": "full",
+    "renderArea": [
+      1500,
+      1000
+    ],
+    "pairedRepeats": 2,
+    "framesPerView": 90,
+    "order": [
+      "source-v37",
+      "public-37.1.0",
+      "source-v37",
+      "public-37.1.0"
+    ],
+    "measurement": "requestAnimationFrame intervals; identical model release, cameras and render dimensions; no FPS guarantee",
+    "interpretation": "Publication/dependency comparison; differences do not establish a geometry change or a speedup.",
+    "countsIncludeShadowDifference": true,
+    "rawCountersDirectlyComparable": false,
+    "renderCounterNote": "r170 resets renderer.info after shadowMap.render (shadow passes excluded); r186 resets before (shadow passes included). Raw counters cannot establish a geometry regression."
+  },
+  "cameraPairs": [
+    {
+      "pair": 1,
+      "action": "courtyard",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 3.1,
+      "publicZoom": 3.1
+    },
+    {
+      "pair": 1,
+      "action": "forecourt",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 2.25,
+      "publicZoom": 2.25
+    },
+    {
+      "pair": 1,
+      "action": "facade",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 4,
+      "publicZoom": 4
+    },
+    {
+      "pair": 2,
+      "action": "courtyard",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 3.1,
+      "publicZoom": 3.1
+    },
+    {
+      "pair": 2,
+      "action": "forecourt",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 2.25,
+      "publicZoom": 2.25
+    },
+    {
+      "pair": 2,
+      "action": "facade",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 4,
+      "publicZoom": 4
+    }
+  ],
+  "pass": true,
+  "passDefinition": "Measurement validity and no errors; pass is not performance parity."
+}

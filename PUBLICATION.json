@@ -32,8 +32,83 @@
     "browserAcceptance": 59,
     "publication": 10,
     "threeRevisionInBrowser": "186",
-    "shaderProgramsMain": 61
+    "shaderProgramsMain": 61,
+    "interaction": 808,
+    "pointerTouchSeparateRun": 6,
+    "visualChecks": 22,
+    "visualScreenshots": 57,
+    "liveBrowser": 25,
+    "liveHTTPResources": 148
   },
   "historicalReports": "tools/qa-v37 describes source v37 with Three r170; publication reports are separate in tools/qa-publication",
-  "accuracy": "Independent conceptual reconstruction, not developer BIM or working drawings. 17 3D examples; 203 archived 2D records snapshot2026-10-09. Watermarks do not prevent copying."
+  "accuracy": "Independent conceptual reconstruction, not developer BIM or working drawings. 17 3D examples; 203 archived 2D records snapshot2026-10-09. Watermarks do not prevent copying.",
+  "performance": {
+    "report": "tools/qa-publication/performance-publication-summary.json",
+    "quality": "full",
+    "gpu": "Apple M2",
+    "drawingBuffer": [
+      1500,
+      1000
+    ],
+    "regressionMeasured": true,
+    "causeEstablished": false,
+    "sourceMeanMS": [
+      39.16555555555555,
+      44.44277777777776,
+      59.534999999999975
+    ],
+    "publicMeanMS": [
+      53.88666666666667,
+      60.55333333333334,
+      71.10833333333333
+    ],
+    "rawCountersDirectlyComparable": false
+  },
+  "githubActions": {
+    "run": "https://github.com/r-peredelkino/r_peredelkino/actions/runs/38241118426",
+    "commit": "f433fc3e7ae101bd71b427eb3a8ec91541520829",
+    "conclusion": "success"
+  },
+  "issues": [
+    {
+      "number": 1,
+      "title": "[Roadmap] Родина Переделкино: публичная 3D-концепция, источники и дальнейшее развитие",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/1"
+    },
+    {
+      "number": 2,
+      "title": "[Источники] Сверить генплан, двор, фасады, интерьеры и паркинг с актуальными чертежами",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/2"
+    },
+    {
+      "number": 3,
+      "title": "[Квартиры] Расширить 3D-каталог с 17 примеров на оставшиеся типы планировок",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/3"
+    },
+    {
+      "number": 4,
+      "title": "[Солнце и свет] Проверить солнечные сценарии и прозрачность ограничений визуализации",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/4"
+    },
+    {
+      "number": 5,
+      "title": "[Транспорт] Калибровать дороги, маршруты и сценарии трафика по реальным данным",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/5"
+    },
+    {
+      "number": 6,
+      "title": "[Производительность] Ввести мобильный LOD и измеримые бюджеты сцены",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/6"
+    },
+    {
+      "number": 7,
+      "title": "[Авторство] Проверить происхождение ассетов, атрибуцию и сохранность распределённых подписей",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/7"
+    },
+    {
+      "number": 8,
+      "title": "[Публичная версия] Расширить браузерные регрессии и доступность поверх готовых Pages и CI",
+      "url": "https://github.com/r-peredelkino/r_peredelkino/issues/8"
+    }
+  ]
 }

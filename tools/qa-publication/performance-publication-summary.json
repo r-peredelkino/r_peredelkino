@@ -1,0 +1,202 @@
+{
+  "modelRelease": 37,
+  "publicationVersion": "37.1.0",
+  "method": {
+    "viewport": [
+      1500,
+      1000
+    ],
+    "dpr": 1,
+    "date": "2026-07-15",
+    "minutes": 720,
+    "quality": "full",
+    "renderArea": [
+      1500,
+      1000
+    ],
+    "pairedRepeats": 2,
+    "framesPerView": 90,
+    "order": [
+      "source-v37",
+      "public-37.1.0",
+      "source-v37",
+      "public-37.1.0"
+    ],
+    "measurement": "requestAnimationFrame intervals; identical model release, cameras and render dimensions; no FPS guarantee",
+    "interpretation": "Publication/dependency comparison; differences do not establish a geometry change or a speedup.",
+    "nodeArchitecture": "arm64",
+    "gpu": [
+      "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)"
+    ],
+    "countsIncludeShadowDifference": true,
+    "rawCountersDirectlyComparable": false,
+    "renderCounterNote": "r170 resets renderer.info after shadowMap.render (shadow passes excluded); r186 resets before (shadow passes included). Raw counters cannot establish a geometry regression."
+  },
+  "cameraPairs": [
+    {
+      "pair": 1,
+      "action": "courtyard",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 3.1,
+      "publicZoom": 3.1
+    },
+    {
+      "pair": 1,
+      "action": "forecourt",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 2.25,
+      "publicZoom": 2.25
+    },
+    {
+      "pair": 1,
+      "action": "facade",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 4,
+      "publicZoom": 4
+    },
+    {
+      "pair": 2,
+      "action": "courtyard",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 3.1,
+      "publicZoom": 3.1
+    },
+    {
+      "pair": 2,
+      "action": "forecourt",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 2.25,
+      "publicZoom": 2.25
+    },
+    {
+      "pair": 2,
+      "action": "facade",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "sourceZoom": 4,
+      "publicZoom": 4
+    }
+  ],
+  "errors": [],
+  "consoleErrors": [],
+  "shaderConsoleErrors": [],
+  "resources": [],
+  "pass": true,
+  "courtyard": {
+    "sourceMeanMS": 39.16555555555555,
+    "publicMeanMS": 53.88666666666667,
+    "frameTimeChangePercent": 37.58688189735882,
+    "percentConvention": "Positive means a longer frame interval; negative means a shorter interval. No speedup claim.",
+    "sourceTriangles": 7926174,
+    "publicTriangles": 10891204.77222222,
+    "sourceDrawCalls": 327,
+    "publicDrawCalls": 501.30555555555554,
+    "pairedChangesPercent": [
+      39.99828566530472,
+      35.20944251950763
+    ],
+    "rawCountersDirectlyComparable": false
+  },
+  "forecourt": {
+    "sourceMeanMS": 44.44277777777776,
+    "publicMeanMS": 60.55333333333334,
+    "frameTimeChangePercent": 36.25010937910178,
+    "percentConvention": "Positive means a longer frame interval; negative means a shorter interval. No speedup claim.",
+    "sourceTriangles": 9454185,
+    "publicTriangles": 11988563.5,
+    "sourceDrawCalls": 367,
+    "publicDrawCalls": 520,
+    "pairedChangesPercent": [
+      31.801862870628433,
+      40.66125578847793
+    ],
+    "rawCountersDirectlyComparable": false
+  },
+  "facade": {
+    "sourceMeanMS": 59.534999999999975,
+    "publicMeanMS": 71.10833333333333,
+    "frameTimeChangePercent": 19.439545365471343,
+    "percentConvention": "Positive means a longer frame interval; negative means a shorter interval. No speedup claim.",
+    "sourceTriangles": 10543569,
+    "publicTriangles": 14375522.5,
+    "sourceDrawCalls": 429,
+    "publicDrawCalls": 630.5,
+    "pairedChangesPercent": [
+      15.500072950102165,
+      23.5672928092336
+    ],
+    "rawCountersDirectlyComparable": false
+  },
+  "passDefinition": "Measurement validity and no errors; pass is not performance parity."
+}

@@ -1,0 +1,895 @@
+{
+  "url": "https://r-peredelkino.github.io/r_peredelkino/",
+  "pass": true,
+  "checks": 148,
+  "files": [
+    {
+      "path": "courtyard-source-v33.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "window-lighting.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "restaurant-terrace-v35.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "architectural-lighting.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "building-levels.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "local-access-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "neighbor-building-layout.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "parking-showroom-v36.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "shop-frontage-layout.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "garden-controls-v35.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "onboarding.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "arena-landscape-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "geo-reference.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "resident-layout-v36.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "resident-club-v36.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-model.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "solar-exposure.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "index.html",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/html; charset=utf-8"
+    },
+    {
+      "path": "genplan-entry-v37.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "forecourt-architecture.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "plan-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-tour.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "publication.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "complex-footprints.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-plans.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-apertures.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "surface-finishes.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "cyber-garden-v35.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "frontage-zones.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "paving-material.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard-passage.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-catalog-v37.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "arena-media.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "commercial-frontage.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "baked-authorship.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "solar-analysis-panel.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-gallery-v36.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-explorer.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "exterior-interactions.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "transport-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "landscape-materials.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "arena-shell-profile.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "scene-batches.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "resident-figure.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "office-terrace-v33.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "complex-life.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "night-lighting.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-explorer-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "context-services-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "traffic-scenarios.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-facade-v37.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "genplan-only-v37.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "neighbor-footprints-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-actions-v37.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "facade-detail.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "walking-tour.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "showroom-spaces-v34.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "walking-tour.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "plan-proof.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "backdrop-garden.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment-registration-v37.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "showroom.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "model-watermarks.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "cluster-map.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-catalog.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "terraces.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "solar-clock.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "botanical-geometry.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard-activities.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "amenity-references-v36.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "showroom.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "local-access.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "transport-infrastructure.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "resident-lobby-v36.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "apartment3d.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "sales-office.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-backdrop.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "forecourt-walking-layout.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "solar-shadow-camera.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "exterior-roofs.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "forecourt-ground.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "botanical-lod.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "public-plaza-program.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "fitness-context-cut-v35.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard-program.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-entry.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "retail-signs.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "walk-physics.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "cyber-experience.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "office-fitness-v35.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-explorer.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "cyber-experience.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "voxel-authorship-v37.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "shop-interiors.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "style.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "environment.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "cyber-courtyard.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard-pavilion.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "neighbor-buildings.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "play-bridge-walk.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-gallery-v36.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "realm-details.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "reference-catalog.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "garden-controls-v35.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "map-paths.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "context-services.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "attribution.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "forecourt-roadside.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard-reference-layout.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "forecourt-cafes.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "neighborhood.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "forecourt-landscape.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "complex-model.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "arena-exterior.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard-revision.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "onboarding.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "public-realm.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "map.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "promenade-furniture.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "site-weather.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "weather-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "spatial-instances.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "public-realm-layout.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "light-fields.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "podium-upper-cut.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "district-views.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "app.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "environment.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "solar.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "arena-service-equipment.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "courtyard-layout.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "arena-placement-v35.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "publication.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "map-spatial.css",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "text/css; charset=utf-8"
+    },
+    {
+      "path": "roof-fan-edge-v34.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "terrace-access.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "traffic.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "forecourt-reference-data.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three.module.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/three.core.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/OrbitControls.js",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/javascript; charset=utf-8"
+    },
+    {
+      "path": "vendor/dependencies.json",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/reference/source-manifest.json",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "application/json; charset=utf-8"
+    },
+    {
+      "path": "assets/reference-amenities-v36/1_lobby.webp",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/reference-amenities-v36/11_kolysochnaya.webp",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "image/webp"
+    },
+    {
+      "path": "assets/reference-office-v35/office-3-5-plan.png",
+      "status": 200,
+      "sizeMatches": true,
+      "contentType": "image/png"
+    }
+  ]
+}
