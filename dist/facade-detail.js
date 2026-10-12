@@ -1,6 +1,6 @@
 // @r_peredelkino · curved glazing and facade profiles, shared by overview and walking tour.
 import * as THREE from './vendor/three.module.js';
-import {attribution} from './attribution.js?v=references37';
+import {attribution} from './attribution.js?v=publication371';
 
 // Average only coincident wall normals. Horizontal caps keep their crisp slab edges.
 export function smoothWallNormals(g){

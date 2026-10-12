@@ -1,12 +1,12 @@
 // @r_peredelkino · apartments traced from their original plans, in model metres.
 import * as T from './vendor/three.module.js';
-import {apartmentPlans,apartmentMetrics} from './apartment-plans.js?v=references37';
-import {createWalkWorld,insideRing} from './walk-physics.js?v=references37';
-import {batchStatic} from './scene-batches.js?v=references37';
-import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=references37';
-import {attribution,createAttributionTexture} from './attribution.js?v=references37';
-import {registerApartmentFacade,facadePaneGeometry} from './apartment-facade-v37.js?v=references37';
-import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=references37';
+import {apartmentPlans,apartmentMetrics} from './apartment-plans.js?v=publication371';
+import {createWalkWorld,insideRing} from './walk-physics.js?v=publication371';
+import {batchStatic} from './scene-batches.js?v=publication371';
+import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=publication371';
+import {attribution,createAttributionTexture} from './attribution.js?v=publication371';
+import {registerApartmentFacade,facadePaneGeometry} from './apartment-facade-v37.js?v=publication371';
+import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=publication371';
 
 export function createApartmentWorld(id,withFurniture=true){
  const data=apartmentPlans[id],m=apartmentMetrics(data),coord=m.coord;

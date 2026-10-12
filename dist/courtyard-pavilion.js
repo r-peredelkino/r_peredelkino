@@ -1,7 +1,7 @@
 // @r_peredelkino · courtyard architecture traced from the October reference panoramas.
 import * as THREE from './vendor/three.module.js';
-import {smoothWallNormals} from './facade-detail.js?v=references37';
-import {createWalkSurfaceSampler} from './play-bridge-walk.js?v=references37';
+import {smoothWallNormals} from './facade-detail.js?v=publication371';
+import {createWalkSurfaceSampler} from './play-bridge-walk.js?v=publication371';
 
 const TAU=Math.PI*2;
 const area=points=>points.reduce((sum,p,i)=>{const q=points[(i+1)%points.length];return sum+p[0]*q[1]-q[0]*p[1]},0);

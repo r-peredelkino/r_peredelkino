@@ -2,19 +2,19 @@
 // Arena/store/metro fit-out is illustrative. Floor viewpoints use the actual model envelope.
 import * as T from './vendor/three.module.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {createWalkWorld,insideRing} from './walk-physics.js?v=references37';
-import {createSurfaceFinishes} from './surface-finishes.js?v=references37';
-import {bakeSceneAuthorship,stampCanvasFrame} from './baked-authorship.js?v=references37';
-import {createArchitecturalLighting} from './architectural-lighting.js?v=references37';
-import {getSolarSnapshot,setSolarSelection} from './solar-clock.js?v=references37';
+import {createWalkWorld,insideRing} from './walk-physics.js?v=publication371';
+import {createSurfaceFinishes} from './surface-finishes.js?v=publication371';
+import {bakeSceneAuthorship,stampCanvasFrame} from './baked-authorship.js?v=publication371';
+import {createArchitecturalLighting} from './architectural-lighting.js?v=publication371';
+import {getSolarSnapshot,setSolarSelection} from './solar-clock.js?v=publication371';
 import {residentialFloorBase} from './building-levels.js';
-import {createOfficeFitness} from './office-fitness-v35.js?v=references37';
-import {createResidentLobby} from './resident-lobby-v36.js?v=references37';
-import {createResidentClub} from './resident-club-v36.js?v=references37';
-import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=references37';
-import {createParkingShowroom} from './parking-showroom-v36.js?v=references37';
-import {createReferenceGallery} from './reference-gallery-v36.js?v=references37';
-import {applyFitnessContextCut} from './fitness-context-cut-v35.js?v=references37';
+import {createOfficeFitness} from './office-fitness-v35.js?v=publication371';
+import {createResidentLobby} from './resident-lobby-v36.js?v=publication371';
+import {createResidentClub} from './resident-club-v36.js?v=publication371';
+import {createDistributedSurfaceMarks} from './voxel-authorship-v37.js?v=publication371';
+import {createParkingShowroom} from './parking-showroom-v36.js?v=publication371';
+import {createReferenceGallery} from './reference-gallery-v36.js?v=publication371';
+import {applyFitnessContextCut} from './fitness-context-cut-v35.js?v=publication371';
 import {createConceptInterior,addArenaCluster} from './showroom-spaces-v34.js';
 let current=null;
 export function closeShowroom({silent=false}={}){const dispose=current;current=null;dispose?.(!silent);}
@@ -30,7 +30,7 @@ export function openShowroom(requestedKind,options={}){
  const dialog=document.createElement('dialog');dialog.className='rp-showroom';dialog.dataset.kind=kind;dialog.dataset.building=String(salesMode?'sales-office':kind==='office'||fitnessMode?0:building);dialog.dataset.officePurpose=salesMode?'sales':'business';dialog.dataset.walking='false';dialog.setAttribute('aria-label',titles[kind]);
  dialog.innerHTML=`<div class="rp-room-head"><div><small>@r_peredelkino / ИНТЕРАКТИВНЫЙ КОНЦЕПТ</small><h2>${titles[kind]}</h2><p>${explanations[kind]}</p></div><button data-close aria-label="Закрыть сцену">${onClose?'Вернуться во двор':'Закрыть'} ×</button></div><div class="rp-room-note" role="status">Обзор: потяните сцену, чтобы повернуть вид</div><div class="rp-room-tools"><button data-walk aria-pressed="false">Прогулка WASD / стики</button><button data-view="overview">Общий вид</button><button data-view="focus">${kind==='retail'?'2 уровень':kind==='arena'?'Места игроков':kind==='metro'?'Платформа':kind==='lobby'||kind==='apartment-hall'?'Лифтовой холл':kind==='residents'?'Тренировочная':parkingMode?'Ряд автомобилей':salesMode?'Консультация':fitnessMode?'Кардиозона':kind==='office'?'Переговорная':'Городская сторона'}</button><button data-guide>Гид · E</button>${floorMode||fitnessMode?'<label>Москва <input data-time type="range" min="0" max="1439" step="1"><output data-hour></output></label>':'<button data-pause aria-pressed="false">Пауза анимации</button>'}${fitnessMode?'<button data-pause aria-pressed="false">Пауза анимации</button><button data-fitness-lobby>Офис / лобби ↓</button>':''}${floorMode&&options.returnToLobby?'<button data-lobby>Лобби / лифт ↓</button>':''}</div><div class="rp-room-stick" data-stick="move"><span></span></div><div class="rp-room-stick" data-stick="look"><span></span></div><div class="rp-room-guide" hidden><strong data-guide-title>Гид по пространству</strong><p data-guide-text></p><div data-guide-actions></div><button data-guide-close>Продолжить прогулку</button></div>`;
  document.body.append(dialog);dialog.showModal();document.body.classList.add('showroom-open');
- const renderer=new T.WebGLRenderer({antialias:true,powerPreference:'high-performance'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.outputColorSpace=T.SRGBColorSpace;renderer.setClearColor(0x101419);dialog.prepend(renderer.domElement);
+ const renderer=new T.WebGLRenderer({antialias:true,powerPreference:'high-performance'});renderer.setPixelRatio(Math.min(devicePixelRatio,1.5));renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.05;renderer.outputColorSpace=T.SRGBColorSpace;renderer.setClearColor(0x101419);dialog.prepend(renderer.domElement);
  const scene=new T.Scene(),root=new T.Group();scene.add(root);const camera=new T.PerspectiveCamera(60,1,.08,1800),controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.maxPolarAngle=Math.PI*.49;controls.minDistance=3;controls.maxDistance=floorMode?100:100;
  const mats={stone:new T.MeshStandardMaterial({color:0xc4c3b8,roughness:.87}),dark:new T.MeshStandardMaterial({color:0x242d35,roughness:.66}),wood:new T.MeshStandardMaterial({color:0xa68b61,roughness:.74}),white:new T.MeshStandardMaterial({color:0xe6e6df,roughness:.65}),metal:new T.MeshStandardMaterial({color:0x687b82,metalness:.55,roughness:.4}),glass:new T.MeshStandardMaterial({color:0x93b9bc,transparent:true,opacity:.2,roughness:.12,metalness:.1,depthWrite:false}),neon:new T.MeshBasicMaterial({color:0xc9ec88,toneMapped:false})};
  const ownedGeometries=new Set(),ownedMaterials=new Set(Object.values(mats)),ownedTextures=new Set(),obstacles=[];let solarKey='',boundary=[],heightAt=()=>0,clone=null,fitnessContextCut=null,rig=null,train=null,screen=null,ctx=null,screenTexture=null,base=0,radius=15,walker={x:0,z:8},yaw=0,pitch=0,walk=false,paused=matchMedia('(prefers-reduced-motion: reduce)').matches,dead=false,drag=null,last=null,elapsed=0,lastScreen=-1,frame,move={x:0,y:0},look={x:0,y:0},interior=null,club=null,surfaceMarks=null,sourceGallery=null,activeRoom=options.room||'lobby',arenaCluster=null,arenaMode='match',activePoi=null,screenModeRevision=0;const keys=new Set(),listeners=[],pois=[];

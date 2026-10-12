@@ -2,7 +2,7 @@
 // Exact traced edge: a spline through uneven Boolean-union vertices overshot
 // at the 4–5 connection. Retain every source coordinate and its actual closure.
 import * as THREE from './vendor/three.module.js';
-import {smoothWallNormals} from './facade-detail.js?v=references37';
+import {smoothWallNormals} from './facade-detail.js?v=publication371';
 
 const cleanRing=source=>{
  const points=[];for(const p of source)if(!points.length||Math.hypot(p[0]-points.at(-1)[0],p[1]-points.at(-1)[1])>1e-7)points.push([...p]);

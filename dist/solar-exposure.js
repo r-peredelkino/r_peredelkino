@@ -1,6 +1,6 @@
 import * as THREE from './vendor/three.module.js';
-import {solarPosition, direction, moscowDate, daylight, location} from './solar.js?v=references37';
-import {geoFrame} from './geo-reference.js?v=references37';
+import {solarPosition, direction, moscowDate, daylight, location} from './solar.js?v=publication371';
+import {geoFrame} from './geo-reference.js?v=publication371';
 
 // Direct sunlight against the real, opaque structural triangles of this model.
 // No tree/terrain/weather model and no statutory apartment-insolation claim.

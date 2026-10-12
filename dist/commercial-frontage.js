@@ -1,16 +1,16 @@
 // @r_peredelkino · two-storey gastro street, reconstructed from the supplied
 // 12.03.36 / 12.03.39 / 12.03.41 panoramas. Tenant interiors are indicative.
 import * as THREE from './vendor/three.module.js';
-import {complexFootprints as footprint} from './complex-footprints.js?v=references37';
-import {facesCourtyard,retailLevels as levels} from './frontage-zones.js?v=references37';
-import {courtyardPassage,splitPassageSegment,splitGroundPane} from './courtyard-passage.js?v=references37';
+import {complexFootprints as footprint} from './complex-footprints.js?v=publication371';
+import {facesCourtyard,retailLevels as levels} from './frontage-zones.js?v=publication371';
+import {courtyardPassage,splitPassageSegment,splitGroundPane} from './courtyard-passage.js?v=publication371';
 import {commercialClearHeight} from './building-levels.js';
-import {createWindowLighting} from './window-lighting.js?v=references37';
-import {createShopInteriorTexture} from './shop-interiors.js?v=references37';
-import {createShopFrontageLayout} from './shop-frontage-layout.js?v=references37';
-import {arenaUpperRelief,segmentsOutsideArenaRelief,clipUpperPaneToArena,createGroundArenaUnionGeometry} from './podium-upper-cut.js?v=references37';
-import {arenaCenter,arenaGroundRadius,arenaPlacement,segmentsOutsideArenaGround,clipGroundPaneToArena} from './arena-placement-v35.js?v=references37';
-import {solidContains} from './walk-physics.js?v=references37';
+import {createWindowLighting} from './window-lighting.js?v=publication371';
+import {createShopInteriorTexture} from './shop-interiors.js?v=publication371';
+import {createShopFrontageLayout} from './shop-frontage-layout.js?v=publication371';
+import {arenaUpperRelief,segmentsOutsideArenaRelief,clipUpperPaneToArena,createGroundArenaUnionGeometry} from './podium-upper-cut.js?v=publication371';
+import {arenaCenter,arenaGroundRadius,arenaPlacement,segmentsOutsideArenaGround,clipGroundPaneToArena} from './arena-placement-v35.js?v=publication371';
+import {solidContains} from './walk-physics.js?v=publication371';
 
 function merge(geometries){
  if(!geometries.length)return new THREE.BufferGeometry();

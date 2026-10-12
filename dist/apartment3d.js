@@ -1,17 +1,17 @@
 // @r_peredelkino · private apartment, shared solar clock and real complex shadows.
 import * as T from './vendor/three.module.js';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {mountSceneAttribution} from './attribution.js?v=references37';
-import {apartmentPlans} from './apartment-plans.js?v=references37';
-import {createApartment} from './apartment-model.js?v=references37';
-import {createApartmentTour} from './apartment-tour.js?v=references37';
-import {createApartmentActions} from './apartment-actions-v37.js?v=references37';
-import {apartmentCatalog} from './apartment-catalog-v37.js?v=references37';
-import {cutApartmentOpenings,apartmentApertures,apartmentApertureProfile} from './apartment-apertures.js?v=references37';
-import {bendPaneMaterial} from './facade-detail.js?v=references37';
-import {createArchitecturalLighting} from './architectural-lighting.js?v=references37';
-import {solarState,getSolarSnapshot,setSolarSelection,solarReferenceLinks,monthDate} from './solar-clock.js?v=references37';
-import {location,daylight,timeLabel,moscowParts} from './solar.js?v=references37';
+import {mountSceneAttribution} from './attribution.js?v=publication371';
+import {apartmentPlans} from './apartment-plans.js?v=publication371';
+import {createApartment} from './apartment-model.js?v=publication371';
+import {createApartmentTour} from './apartment-tour.js?v=publication371';
+import {createApartmentActions} from './apartment-actions-v37.js?v=publication371';
+import {apartmentCatalog} from './apartment-catalog-v37.js?v=publication371';
+import {cutApartmentOpenings,apartmentApertures,apartmentApertureProfile} from './apartment-apertures.js?v=publication371';
+import {bendPaneMaterial} from './facade-detail.js?v=publication371';
+import {createArchitecturalLighting} from './architectural-lighting.js?v=publication371';
+import {solarState,getSolarSnapshot,setSolarSelection,solarReferenceLinks,monthDate} from './solar-clock.js?v=publication371';
+import {location,daylight,timeLabel,moscowParts} from './solar.js?v=publication371';
 
 const months=['Янв','Фев','Мар','Апр','Май','Июн','Июл','Авг','Сен','Окт','Ноя','Дек'];
 let dispose=()=>{},generation=0;
@@ -108,7 +108,7 @@ function mount(id){
  const host=document.querySelector('#model-viewport');if(!host||!dialog.open)return;let renderer;const mobile=matchMedia('(pointer:coarse)').matches;
  try{renderer=new T.WebGLRenderer({antialias:!mobile,alpha:false});}catch{host.innerHTML='<p class="model-fallback">3D не запустилось. Исходный план доступен в соседней вкладке.</p>';wireTabs(null);return;}
  renderer.setPixelRatio(Math.min(devicePixelRatio,mobile?1.25:1.7));renderer.outputColorSpace=T.SRGBColorSpace;renderer.toneMapping=T.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;
- renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFSoftShadowMap;host.replaceChildren(renderer.domElement);mountSceneAttribution(host);
+ renderer.shadowMap.enabled=true;renderer.shadowMap.type=T.PCFShadowMap;host.replaceChildren(renderer.domElement);mountSceneAttribution(host);
  const scene=new T.Scene(),shadowModels=new T.Group(),apt=createApartment(id),actions=createApartmentActions({apartment:apt,reducedMotion:matchMedia('(prefers-reduced-motion:reduce)').matches}),size=Math.max(apt.metrics.width,apt.metrics.depth),placement=apt.metrics.placement;
  shadowModels.name='Apartment and surrounding solar occluders';scene.add(shadowModels);shadowModels.add(apt.root);apt.root.position.set(placement.x,placement.y,placement.z);apt.root.rotation.y=placement.angle;apt.root.updateMatrixWorld(true);
  const worldPoint=(x,y,z)=>apt.root.localToWorld(new T.Vector3(x,y,z));
@@ -192,7 +192,7 @@ function mount(id){
  async function environment(){
   if(complex)return complex;if(pending)return pending;contextState='loading';applySolar();
   pending=(async()=>{
-   const {createComplex}=await import('./complex-model.js?v=references37');if(dead)return null;const model=createComplex();if(dead){model.dispose();return null;}
+   const {createComplex}=await import('./complex-model.js?v=publication371');if(dead)return null;const model=createComplex();if(dead){model.dispose();return null;}
    complex=model;shadowModels.add(model.root);model.root.visible=true;
    model.root.traverse(o=>{if(!o.isMesh||!o.material)return;const mats=Array.isArray(o.material)?o.material:[o.material];if(mats.every(m=>(m.transparent||m.transmission>0)&&!m.alphaTest))o.castShadow=false;});
    applySection();contextMask=retainApartmentContextShadows(model,()=>context||tour.enabled);model.life.setSkyVisible(false);shadowModels.updateMatrixWorld(true);rig.refreshBounds(shadowModels,receiverBounds);

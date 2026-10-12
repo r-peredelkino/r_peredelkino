@@ -1,10 +1,10 @@
 // @r_peredelkino · genuine ground-level opening between K1/K2.
 import * as T from './vendor/three.module.js';
-import {complexFootprints as footprint} from './complex-footprints.js?v=references37';
-import {subtractReferenceCuts} from './courtyard-reference-layout.js?v=references37';
-import {solidContains} from './walk-physics.js?v=references37';
-import {smoothWallNormals} from './facade-detail.js?v=references37';
-import {applyPaving} from './paving-material.js?v=references37';
+import {complexFootprints as footprint} from './complex-footprints.js?v=publication371';
+import {subtractReferenceCuts} from './courtyard-reference-layout.js?v=publication371';
+import {solidContains} from './walk-physics.js?v=publication371';
+import {smoothWallNormals} from './facade-detail.js?v=publication371';
+import {applyPaving} from './paving-material.js?v=publication371';
 const centre=[-14.93175256487212,-48.17638764031765],normal=[.6770565308208835,.7359310117618295],tangent=[normal[1],-normal[0]];
 const world=(u,v)=>[centre[0]+tangent[0]*u+normal[0]*v,centre[1]+tangent[1]*u+normal[1]*v];
 let outerDistance=1;while(outerDistance<26&&solidContains(...world(0,-outerDistance),footprint.podium))outerDistance+=.25;

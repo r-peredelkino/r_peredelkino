@@ -1,0 +1,15 @@
+node_modules/
+.pages/
+.DS_Store
+.env
+.env.*
+!.env.example
+*.log
+*.pid
+*.b64
+__pycache__/
+*.py[cod]
+.cache/
+coverage/
+playwright-report/
+test-results/

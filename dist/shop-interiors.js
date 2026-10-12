@@ -1,8 +1,8 @@
 // @r_peredelkino · broad cafe interiors shared by several adjacent panes.
 // Furniture and finishes are indicative; no actual tenant fit-out is asserted.
 import * as THREE from './vendor/three.module.js';
-import {embedPixelSignature} from './baked-authorship.js?v=references37';
-import {attribution} from './attribution.js?v=references37';
+import {embedPixelSignature} from './baked-authorship.js?v=publication371';
+import {attribution} from './attribution.js?v=publication371';
 
 export function createShopInteriorTexture(brand){
  const w=512,h=320,variants=4,tiers=2,W=w*variants,H=h*tiers,pixels=new Uint8Array(W*H*4);

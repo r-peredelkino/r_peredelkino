@@ -1,6 +1,6 @@
 // @r_peredelkino · finite facade openings; never remove an entire storey.
 import * as T from './vendor/three.module.js';
-import {registerApartmentFacade} from './apartment-facade-v37.js?v=references37';
+import {registerApartmentFacade} from './apartment-facade-v37.js?v=publication371';
 export function apartmentApertures(data,metrics,registration=null){const facade=registration??registerApartmentFacade(data,metrics),apertures=[];for(const window of facade.windows)for(const pane of window.panes)for(const [a,b]of [[pane.points[0],pane.points[4]],[pane.points[4],pane.points[8]]])apertures.push(new T.Vector4(...a,...b));return apertures;}
 export function apartmentApertureProfile(apartment){const p=(apartment.facadeRegistration??registerApartmentFacade(apartment.data,apartment.metrics)).profile;return{sill:p.sill-.025,head:p.head+.025,halfDepth:.28,edgeAllowance:.035};}
 export function apertureContains(x,y,z,apertures,profile={sill:.795,head:2.725,halfDepth:.28,edgeAllowance:.035}){if(typeof profile==='number')profile={sill:.795,head:Math.min(profile-.06,2.725),halfDepth:.28,edgeAllowance:.035};if(y<profile.sill||y>profile.head)return false;return apertures.some(a=>{const dx=a.z-a.x,dz=a.w-a.y,length=Math.hypot(dx,dz),u=((x-a.x)*dx+(z-a.y)*dz)/length,v=(-(x-a.x)*dz+(z-a.y)*dx)/length;return u> -profile.edgeAllowance&&u<length+profile.edgeAllowance&&Math.abs(v)<profile.halfDepth;});}

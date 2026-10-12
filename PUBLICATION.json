@@ -1,0 +1,39 @@
+{
+  "publication": "37.1.0",
+  "sourceRevision": 37,
+  "sourceTag": "v37-source",
+  "sourceCommit": "8a85d6d4c8eba244eca3bf19dc4daadb5c29bb0f",
+  "publishedDate": "2026-10-12",
+  "officialProject": "https://rodina-peredelkino.ru/",
+  "developer": "https://rodinagroup.com/",
+  "publicUrl": "https://r-peredelkino.github.io/r_peredelkino/",
+  "repository": "https://github.com/r-peredelkino/r_peredelkino",
+  "originalBackup": {
+    "name": "RODINA-PEREDELKINO-backup-v37-20261012-123402",
+    "files": 2262,
+    "bytes": 225964571,
+    "manifestSha256": "950b3e7447077d0fdd8781ff559a16196064ab1e2153eb4ffbe5b62f84d3be58"
+  },
+  "dependencies": {
+    "three": "0.186.1",
+    "polygon-clipping": "0.15.7"
+  },
+  "staticBuild": {
+    "files": 1906,
+    "bytes": 197548848,
+    "projectBase": "/r_peredelkino/",
+    "directory": "dist"
+  },
+  "verified": {
+    "cpu": 1023,
+    "staticHTTPResources": 1906,
+    "explicitAssetPaths": 1888,
+    "browserGeometry": 35,
+    "browserAcceptance": 59,
+    "publication": 10,
+    "threeRevisionInBrowser": "186",
+    "shaderProgramsMain": 61
+  },
+  "historicalReports": "tools/qa-v37 describes source v37 with Three r170; publication reports are separate in tools/qa-publication",
+  "accuracy": "Independent conceptual reconstruction, not developer BIM or working drawings. 17 3D examples; 203 archived 2D records snapshot2026-10-09. Watermarks do not prevent copying."
+}

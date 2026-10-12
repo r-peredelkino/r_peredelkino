@@ -3,7 +3,7 @@
 // reconstructed from those views; the source does not provide survey dimensions.
 import * as T from './vendor/three.module.js';
 import polygonClipping from './vendor/polygon-clipping.module.js';
-import {insideRing} from './walk-physics.js?v=references37';
+import {insideRing} from './walk-physics.js?v=publication371';
 
 const TAU=Math.PI*2;
 const signedArea=ring=>ring.reduce((a,p,i)=>{const q=ring[(i+1)%ring.length];return a+p[0]*q[1]-q[0]*p[1]},0)/2;

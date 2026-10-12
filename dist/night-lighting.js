@@ -1,8 +1,8 @@
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
 import * as THREE from './vendor/three.module.js';
-import {createLightField} from './light-fields.js?v=references37';
-import {complexFootprints as f} from './complex-footprints.js?v=references37';
-import {arenaCenter} from './arena-placement-v35.js?v=references37';
+import {createLightField} from './light-fields.js?v=publication371';
+import {complexFootprints as f} from './complex-footprints.js?v=publication371';
+import {arenaCenter} from './arena-placement-v35.js?v=publication371';
 // Phone-sized light budget: ten nearby PBR sources plus instanced irradiance for distant lamps/cars.
 // Ground spill is a soft approximation, not a ray-traced reflection of the LED texture.
 export function createNightLighting(root,{salesOffice,terraces,towers,commercialLights,courtyard,publicRealm,neighborhood,traffic,arenaMedia,bridgeGlow,bridge,pavements=[]}){

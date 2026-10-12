@@ -1,6 +1,6 @@
 // @r_peredelkino · porous leaf surfaces and mineral finishes for the reference landscape.
 import * as THREE from './vendor/three.module.js';
-import {attribution} from './attribution.js?v=references37';
+import {attribution} from './attribution.js?v=publication371';
 
 function randomSource(seed){return()=>{seed=(Math.imul(seed,1664525)+1013904223)>>>0;return seed/4294967296}}
 function authoredTexture(bytes,size,name){

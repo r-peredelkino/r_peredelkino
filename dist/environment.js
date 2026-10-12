@@ -1,13 +1,13 @@
-import {mountTrafficScenarios} from './traffic-scenarios.js?v=references37';
-import {createArchitecturalLighting} from './architectural-lighting.js?v=references37';
-import {districtSourceText} from './district-views.js?v=references37';
+import {mountTrafficScenarios} from './traffic-scenarios.js?v=publication371';
+import {createArchitecturalLighting} from './architectural-lighting.js?v=publication371';
+import {districtSourceText} from './district-views.js?v=publication371';
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
-import {bakeSceneAuthorship} from './baked-authorship.js?v=references37';
+import {bakeSceneAuthorship} from './baked-authorship.js?v=publication371';
 import * as THREE from './vendor/three.module.js';
-import {location,solarPosition,direction,moscowParts,mapPoint,moscowDate,seasonalDays,daylight,timeLabel} from './solar.js?v=references37';
-import {solarState as state,getSolarSnapshot,setSolarSelection,solarReferenceLinks,monthDate} from './solar-clock.js?v=references37';
-import {createSolarAnalysisPanel} from './solar-analysis-panel.js?v=references37';
-import {currentWeather,weatherNames} from './weather-data.js?v=references37';
+import {location,solarPosition,direction,moscowParts,mapPoint,moscowDate,seasonalDays,daylight,timeLabel} from './solar.js?v=publication371';
+import {solarState as state,getSolarSnapshot,setSolarSelection,solarReferenceLinks,monthDate} from './solar-clock.js?v=publication371';
+import {createSolarAnalysisPanel} from './solar-analysis-panel.js?v=publication371';
+import {currentWeather,weatherNames} from './weather-data.js?v=publication371';
 const presets={clear:{kind:'clear',cloudCover:8,windSpeed:2,windDirection:225},clouds:{kind:'clouds',cloudCover:90,windSpeed:4,windDirection:270},rain:{kind:'rain',cloudCover:100,windSpeed:6,windDirection:250},snow:{kind:'snow',cloudCover:90,windSpeed:3,windDirection:315},fog:{kind:'fog',cloudCover:100,windSpeed:1,windDirection:180}};
 export function createEnvironment({host,panelHost,scene,renderer,camera,model,presentation=false}){
  const group=new THREE.Group();group.name='Solar paths and weather';scene.add(group);

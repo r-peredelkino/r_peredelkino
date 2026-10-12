@@ -1,5 +1,5 @@
 // Camera presets share the geographic registration of streets and addresses.
-import {geoToWorld} from './geo-reference.js?v=references37';
+import {geoToWorld} from './geo-reference.js?v=publication371';
 
 const junction=geoToWorld(37.353162,55.638418,0);
 const jx=junction[0],jz=junction[2];

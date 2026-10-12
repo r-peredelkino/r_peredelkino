@@ -2,11 +2,11 @@
 // Source contours and fixed object positions are passed in world XZ coordinates.
 // The cyan/magenta objects are rigid light columns, not inferred water jets.
 import * as THREE from './vendor/three.module.js';
-import {crownGeometry,branchingTrunk,moundedShrubGeometry,perennialSprigGeometry} from './botanical-geometry.js?v=references37';
-import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=references37';
-import {createLightField} from './light-fields.js?v=references37';
-import {spatiallyPartitionInstances} from './spatial-instances.js?v=references37';
-import {moundedShrubLODGeometry,perennialSprigLODGeometry} from './botanical-lod.js?v=references37';
+import {crownGeometry,branchingTrunk,moundedShrubGeometry,perennialSprigGeometry} from './botanical-geometry.js?v=publication371';
+import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
+import {createLightField} from './light-fields.js?v=publication371';
+import {spatiallyPartitionInstances} from './spatial-instances.js?v=publication371';
+import {moundedShrubLODGeometry,perennialSprigLODGeometry} from './botanical-lod.js?v=publication371';
 
 const TAU=Math.PI*2;
 const clamp01=value=>THREE.MathUtils.clamp(Number(value)||0,0,1);

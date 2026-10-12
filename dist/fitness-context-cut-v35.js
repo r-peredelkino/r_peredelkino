@@ -3,14 +3,14 @@
 // source footprints and the neighbouring occupied podium remain unchanged.
 import * as T from './vendor/three.module.js';
 import polygonClipping from './vendor/polygon-clipping.module.js';
-import {complexFootprints as f} from './complex-footprints.js?v=references37';
-import {arenaCenter,arenaGroundRadius} from './arena-placement-v35.js?v=references37';
-import {retailLevels} from './frontage-zones.js?v=references37';
-import {courtyardPassage,passageGroundSolids} from './courtyard-passage.js?v=references37';
-import {createUpperPodiumGeometry,createUpperPodiumSurfaceGeometry} from './podium-upper-cut.js?v=references37';
-import {smoothWallNormals} from './facade-detail.js?v=references37';
-import {stampGeometry} from './baked-authorship.js?v=references37';
-import {insideRing,segmentDistance} from './walk-physics.js?v=references37';
+import {complexFootprints as f} from './complex-footprints.js?v=publication371';
+import {arenaCenter,arenaGroundRadius} from './arena-placement-v35.js?v=publication371';
+import {retailLevels} from './frontage-zones.js?v=publication371';
+import {courtyardPassage,passageGroundSolids} from './courtyard-passage.js?v=publication371';
+import {createUpperPodiumGeometry,createUpperPodiumSurfaceGeometry} from './podium-upper-cut.js?v=publication371';
+import {smoothWallNormals} from './facade-detail.js?v=publication371';
+import {stampGeometry} from './baked-authorship.js?v=publication371';
+import {insideRing,segmentDistance} from './walk-physics.js?v=publication371';
 
 const closed=r=>Math.hypot(r[0][0]-r.at(-1)[0],r[0][1]-r.at(-1)[1])<1e-8?r:[...r,r[0]];
 const polygon=d=>[closed(d.outer),...(d.holes||[]).map(closed)];

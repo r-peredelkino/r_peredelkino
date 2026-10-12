@@ -2,8 +2,8 @@
 // Every bitmap pixel becomes a cuboid in an existing authored surface geometry.
 // No new label Object3D or draw call is created. Parent scene owns all surfaces.
 import * as T from './vendor/three.module.js';
-import {attribution} from './attribution.js?v=references37';
-import {stampGeometry} from './baked-authorship.js?v=references37';
+import {attribution} from './attribution.js?v=publication371';
+import {stampGeometry} from './baked-authorship.js?v=publication371';
 
 export const voxelHandle='@r_peredelkino';
 const glyphs=Object.freeze({

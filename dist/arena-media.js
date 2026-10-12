@@ -1,5 +1,5 @@
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
-import {stampCanvasFrame} from './baked-authorship.js?v=references37';
+import {stampCanvasFrame} from './baked-authorship.js?v=publication371';
 import * as THREE from './vendor/three.module.js';
 // One continuous curved LED surface, spanning the upper floor of the arena.
 export function createArenaMedia(points,root){

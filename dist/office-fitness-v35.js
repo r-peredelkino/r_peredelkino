@@ -4,7 +4,7 @@
 import * as T from './vendor/three.module.js';
 import {complexFootprints} from './complex-footprints.js';
 import {createWalkWorld,insideRing,segmentDistance} from './walk-physics.js';
-import {embedPixelSignature} from './baked-authorship.js?v=references37';
+import {embedPixelSignature} from './baked-authorship.js?v=publication371';
 
 const SOURCE_URL='https://peredelkino-offices.ru/offices/3-5/';
 const MODEL_ID='RP-CONCEPT-2026-10-07';

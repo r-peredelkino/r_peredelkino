@@ -2,7 +2,7 @@
 // All 10 shade contours, 25 table anchors and 54 visible chair anchors are supplied
 // by the source trace. No extra generic tables, chairs, planters or planting are added.
 import * as THREE from './vendor/three.module.js';
-import {createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=references37';
+import {createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
 
 const TAU=Math.PI*2;
 function finite(value,label){if(!Number.isFinite(value))throw new TypeError(`Forecourt cafe ${label} must be finite`);return value;}

@@ -1,16 +1,16 @@
-import {districtView,transportView,forecourtView} from './district-views.js?v=references37';
+import {districtView,transportView,forecourtView} from './district-views.js?v=publication371';
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
 import * as THREE from './vendor/three.module.js';
-import {mountSceneAttribution} from './attribution.js?v=references37';
+import {mountSceneAttribution} from './attribution.js?v=publication371';
 import {OrbitControls} from './vendor/OrbitControls.js';
-import {createComplex} from './complex-model.js?v=references37';
-import {complexFootprints as f} from './complex-footprints.js?v=references37';
-import {createEnvironment} from './environment.js?v=references37';
-import {location} from './solar.js?v=references37';
-import {createWalkingTour,officeForestView} from './walking-tour.js?v=references37';
-import {createPlanProof} from './plan-proof.js?v=references37';
-import {openShowroom,closeShowroom} from './showroom.js?v=references37';
-import {attachCyberExperience} from './cyber-experience.js?v=references37';
+import {createComplex} from './complex-model.js?v=publication371';
+import {complexFootprints as f} from './complex-footprints.js?v=publication371';
+import {createEnvironment} from './environment.js?v=publication371';
+import {location} from './solar.js?v=publication371';
+import {createWalkingTour,officeForestView} from './walking-tour.js?v=publication371';
+import {createPlanProof} from './plan-proof.js?v=publication371';
+import {openShowroom,closeShowroom} from './showroom.js?v=publication371';
+import {attachCyberExperience} from './cyber-experience.js?v=publication371';
 let active;
 window.clusterCamera=null;
 window.disposeClusterMap=()=>{active?.();active=null};
@@ -18,7 +18,7 @@ window.mountClusterMap=()=>{
  window.disposeClusterMap();const host=document.querySelector('#cluster-map');if(!host)return;
  const proof=createPlanProof(host,id=>window.chooseBuilding(id));let proofVisible=false;const proofView=value=>{proofVisible=value;if(value)proof.zoom('reset');proof.setVisible(value);host.classList.toggle('show-proof',value);const caption=host.parentElement.querySelector('.map-caption span');if(caption){caption.textContent=value?'ПЕРЕДЕЛКИНО / СВЕРКА':'ПЕРЕДЕЛКИНО / LIVE 3D';caption.nextElementSibling.textContent='5 БАШЕН + ОФИС 0';}const b=document.querySelector('#cluster-reference');if(b){b.textContent=value?'Вернуться в 3D':'Чертёж';b.setAttribute('aria-pressed',String(value))}};
  const mobile=matchMedia('(pointer:coarse)').matches;let renderer;try{renderer=new THREE.WebGLRenderer({antialias:!mobile,alpha:true,powerPreference:mobile?'default':'high-performance'})}catch{proofView(true);for(const button of host.parentElement.querySelectorAll('.cluster-tools button'))if(!/\('(in|out)'\)/.test(button.getAttribute('onclick')||'')){button.disabled=true;button.title='3D недоступно в этом браузере'}const referenceButton=document.querySelector('#cluster-reference');mountSceneAttribution(host);if(referenceButton)referenceButton.textContent='Чертёж';window.clusterCamera=action=>{if(action==='in'||action==='out')proof.zoom(action);else proof.zoom('reset')};active=()=>{proof.dispose();host.replaceChildren();window.clusterCamera=null};return}
- renderer.setPixelRatio(Math.min(devicePixelRatio,mobile?1.4:2));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.setClearColor(0xa9c3cf,1);host.append(renderer.domElement);mountSceneAttribution(host);
+ renderer.setPixelRatio(Math.min(devicePixelRatio,mobile?1.4:2));renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFShadowMap;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.15;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.setClearColor(0xa9c3cf,1);host.append(renderer.domElement);mountSceneAttribution(host);
  const scene=new THREE.Scene(),model=createComplex();attachCyberExperience(model);scene.add(model.root);let selectedBuilding=model.towers.has(Number(mapBuilding))?Number(mapBuilding):1;model.select(selectedBuilding,mapFloor);model.life.setEnabled(!matchMedia('(prefers-reduced-motion: reduce)').matches);const lifeButton=document.querySelector('#cluster-life');if(lifeButton){lifeButton.textContent=model.life.enabled?'Жизнь · вкл':'Жизнь · пауза';lifeButton.setAttribute('aria-pressed',String(model.life.enabled))}
  const camera=new THREE.OrthographicCamera(-110,110,125,-125,1,2000),controls=new OrbitControls(camera,renderer.domElement);controls.enableDamping=true;controls.minZoom=.28;controls.maxZoom=5;controls.maxPolarAngle=Math.PI*.49;
  const view=(position,target,zoom=1)=>{camera.position.set(...position);controls.target.set(...target);camera.zoom=zoom;camera.updateProjectionMatrix();controls.update()};

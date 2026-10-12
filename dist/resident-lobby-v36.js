@@ -2,9 +2,9 @@
 // Finishes/functions interpret developer renders. Local dimensions, furniture
 // placement and equipment are author proposals; no exterior or apartment plan is changed.
 import * as T from './vendor/three.module.js';
-import {getResidentLayout} from './resident-layout-v36.js?v=references37';
-import {createWalkWorld} from './walk-physics.js?v=references37';
-import {embedPixelSignature,stampGeometry} from './baked-authorship.js?v=references37';
+import {getResidentLayout} from './resident-layout-v36.js?v=publication371';
+import {createWalkWorld} from './walk-physics.js?v=publication371';
+import {embedPixelSignature,stampGeometry} from './baked-authorship.js?v=publication371';
 
 const ATTR={handle:'@r_peredelkino',modelId:'RP-CONCEPT-2026-10-07',revision:36};
 const Y_AXIS=new T.Vector3(0,1,0);

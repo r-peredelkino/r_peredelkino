@@ -1,6 +1,6 @@
 // Pixel and geometry provenance for the @r_peredelkino concept. No access checks or copy blocking.
 import * as THREE from './vendor/three.module.js';
-import {attribution,createAttributionTexture} from './attribution.js?v=references37';
+import {attribution,createAttributionTexture} from './attribution.js?v=publication371';
 const encoder=new TextEncoder(),payload=encoder.encode(attribution.handle+'|'+attribution.modelId+'|RP13|'+attribution.usagePolicy+'|'+attribution.revisionDate);
 export function embedPixelSignature(bytes,{channels=4,label=''}={}){const sequence=label?encoder.encode(new TextDecoder().decode(payload)+'|'+label):payload;let at=0;for(let i=0;i<bytes.length;i++){if(channels===4&&i%4===3)continue;const bit=(sequence[Math.floor(at/8)%sequence.length]>>(7-at%8))&1;bytes[i]=(bytes[i]&254)|bit;at++}return at}
 export function readPixelSignature(bytes,{channels=4}={}){const out=new Uint8Array(payload.length);let at=0;for(let i=0;i<bytes.length&&at<payload.length*8;i++){if(channels===4&&i%4===3)continue;out[at>>3]|=(bytes[i]&1)<<(7-at%8);at++}return new TextDecoder().decode(out)}

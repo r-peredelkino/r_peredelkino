@@ -1,8 +1,8 @@
 // @r_peredelkino · opt-in authored outdoor layer; original reference landscaping is intact.
-import {createCyberCourtyard} from './cyber-courtyard.js?v=references37';
-import {createCyberGarden} from './cyber-garden-v35.js?v=references37';
-import {createTourWorld} from './walking-tour.js?v=references37';
-import {getSolarSnapshot} from './solar-clock.js?v=references37';
+import {createCyberCourtyard} from './cyber-courtyard.js?v=publication371';
+import {createCyberGarden} from './cyber-garden-v35.js?v=publication371';
+import {createTourWorld} from './walking-tour.js?v=publication371';
+import {getSolarSnapshot} from './solar-clock.js?v=publication371';
 export function attachCyberExperience(model){
   if(model.cyberCourtyard)return model.cyberCourtyard;
   const layer=createCyberCourtyard(model.root,{world:createTourWorld(model),courtyardData:model.courtyard.data,enabled:true});

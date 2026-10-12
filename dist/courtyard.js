@@ -1,13 +1,13 @@
-import {addCourtyardRevision,referenceCourtyardLayout} from './courtyard-revision.js?v=references37';
-import {addSculpturalPlayPavilion,addPerforatedLoungeCanopy} from './courtyard-pavilion.js?v=references37';
-import {addEventSeating,addPlayEquipment,createCinemaScreenTexture} from './courtyard-program.js?v=references37';
-import {crownGeometry,branchingTrunk} from './botanical-geometry.js?v=references37';
-import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=references37';
+import {addCourtyardRevision,referenceCourtyardLayout} from './courtyard-revision.js?v=publication371';
+import {addSculpturalPlayPavilion,addPerforatedLoungeCanopy} from './courtyard-pavilion.js?v=publication371';
+import {addEventSeating,addPlayEquipment,createCinemaScreenTexture} from './courtyard-program.js?v=publication371';
+import {crownGeometry,branchingTrunk} from './botanical-geometry.js?v=publication371';
+import {createFoliageMaterial,createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
 import * as THREE from './vendor/three.module.js';
-import {courtyardLayout as layoutData} from './courtyard-layout.js?v=references37';
-import {batchStatic} from './scene-batches.js?v=references37';
-import {smoothWallNormals} from './facade-detail.js?v=references37';
+import {courtyardLayout as layoutData} from './courtyard-layout.js?v=publication371';
+import {batchStatic} from './scene-batches.js?v=publication371';
+import {smoothWallNormals} from './facade-detail.js?v=publication371';
 
 export function createCourtyard(root,{arenaMedia=null}={}){
  const data=referenceCourtyardLayout(layoutData),group=new THREE.Group();group.name='Courtyard garden, event cinema, separate K3 fountain, play pavilion and Sport Point';root.add(group);

@@ -2,9 +2,9 @@
 // The closed silver pavilion has no assigned unseen interior or invented entrance.
 // All plan outlines and placements are supplied by the shared reference layout.
 import * as THREE from './vendor/three.module.js';
-import {batchStatic} from './scene-batches.js?v=references37';
-import {createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=references37';
-import {smoothWallNormals} from './facade-detail.js?v=references37';
+import {batchStatic} from './scene-batches.js?v=publication371';
+import {createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
+import {smoothWallNormals} from './facade-detail.js?v=publication371';
 
 const TAU=Math.PI*2;
 const clamp01=value=>THREE.MathUtils.clamp(Number(value)||0,0,1);

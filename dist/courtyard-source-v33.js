@@ -1,7 +1,7 @@
 // @r_peredelkino · source-ground reconstruction, 11 October 2026.
 // Coordinates identify visible source features, not surveyed planting schedules.
 import * as T from './vendor/three.module.js';
-import {insideRing} from './walk-physics.js?v=references37';
+import {insideRing} from './walk-physics.js?v=publication371';
 export const courtyardSource = Object.freeze({
  revision:33,sourceURL:'https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/',node:'node3',oppositeNode:'node1',
  camera:{longitude:37.355754,latitude:55.636534,altitude:130,northOffset:278.84},

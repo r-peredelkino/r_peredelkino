@@ -1,12 +1,12 @@
 // @r_peredelkino · optional outdoor restaurant programme, not an operator plan.
 // Existing office roof, planted beds, five tables and fifteen seats are retained.
 import * as T from './vendor/three.module.js';
-import {bakeSceneAuthorship} from './baked-authorship.js?v=references37';
-import {createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=references37';
-import {batchStatic} from './scene-batches.js?v=references37';
-import {solidContains} from './walk-physics.js?v=references37';
-import {officeTerraceFootprints} from './office-terrace-v33.js?v=references37';
-import {perennialSprigGeometry} from './botanical-geometry.js?v=references37';
+import {bakeSceneAuthorship} from './baked-authorship.js?v=publication371';
+import {createMineralMaterial,disposeOwnedMaterials} from './landscape-materials.js?v=publication371';
+import {batchStatic} from './scene-batches.js?v=publication371';
+import {solidContains} from './walk-physics.js?v=publication371';
+import {officeTerraceFootprints} from './office-terrace-v33.js?v=publication371';
+import {perennialSprigGeometry} from './botanical-geometry.js?v=publication371';
 
 export function createRestaurantTerrace(root,{officeTerrace}={}){
  if(!officeTerrace?.world||!officeTerrace.metadata)return null;

@@ -1,7 +1,7 @@
 // @r_peredelkino · equipment programme checked against the official presentation,
 // pp. 32–35, and the supplied 09 October courtyard views.
 import * as T from './vendor/three.module.js';
-import {stampCanvasFrame} from './baked-authorship.js?v=references37';
+import {stampCanvasFrame} from './baked-authorship.js?v=publication371';
 
 const TAU=Math.PI*2;
 export function createCinemaScreenTexture(){

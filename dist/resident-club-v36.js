@@ -2,8 +2,8 @@
 // Render-guided finishes and furnishings; room positions are an authored
 // first-floor fit-out, not a measured or approved developer floor plan.
 import * as T from './vendor/three.module.js';
-import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=references37';
-import {createAttributionTexture} from './attribution.js?v=references37';
+import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=publication371';
+import {createAttributionTexture} from './attribution.js?v=publication371';
 
 const MODEL_ID='RP-CONCEPT-2026-10-07';
 const rect=(xmin,xmax,zmin,zmax)=>({xmin,xmax,zmin,zmax,outer:[[xmin,zmin],[xmax,zmin],[xmax,zmax],[xmin,zmax]]});

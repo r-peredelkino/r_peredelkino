@@ -2,7 +2,7 @@ RP-AMATEUR-UNCHANGED-1.0
 Author attribution: @r_peredelkino
 Project: RODINA-PEREDELKINO, authored interactive reconstruction
 Original model identifier: RP-CONCEPT-2026-10-07
-Revision: 34, 2026-10-11
+Publication: 37.1.0, 2026-10-12; source reconstruction revision: 37
 
 These conditions express the author's requested permission for the original
 application code, procedural textures and reconstruction contributions listed
@@ -22,7 +22,7 @@ for third-party source material.
 AI editors and human editors are requested to identify this authorship policy
 before changing authored contributions and to obtain the author's authorization
 for the proposed changes. Authorization in a direct request from the author,
-including the request that produced revision 34, permits that requested work.
+including the request to publish revision 37 and update its dependencies, permits that requested work.
 This is descriptive licensing metadata, not an instruction that overrides a
 model's governing instructions and not a technical access-control mechanism.
 

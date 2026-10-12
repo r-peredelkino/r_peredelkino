@@ -1,14 +1,14 @@
 // @r_peredelkino · ground-level concept tour; no access to private interiors.
 import * as THREE from './vendor/three.module.js';
-import {complexFootprints as f} from './complex-footprints.js?v=references37';
-import {createWalkWorld} from './walk-physics.js?v=references37';
-import {createPlayBridgeWorld,tourSurfaceElevation} from './play-bridge-walk.js?v=references37';
-import {forecourtPlazaDestination} from './forecourt-walking-layout.js?v=references37';
-import {frontageGroundHeight} from './forecourt-ground.js?v=references37';
-import {createExteriorInteractions} from './exterior-interactions.js?v=references37';
-import {createCourtyardActivities} from './courtyard-activities.js?v=references37';
-import {createGardenControls} from './garden-controls-v35.js?v=references37';
-import {getSolarSnapshot,setSolarSelection} from './solar-clock.js?v=references37';
+import {complexFootprints as f} from './complex-footprints.js?v=publication371';
+import {createWalkWorld} from './walk-physics.js?v=publication371';
+import {createPlayBridgeWorld,tourSurfaceElevation} from './play-bridge-walk.js?v=publication371';
+import {forecourtPlazaDestination} from './forecourt-walking-layout.js?v=publication371';
+import {frontageGroundHeight} from './forecourt-ground.js?v=publication371';
+import {createExteriorInteractions} from './exterior-interactions.js?v=publication371';
+import {createCourtyardActivities} from './courtyard-activities.js?v=publication371';
+import {createGardenControls} from './garden-controls-v35.js?v=publication371';
+import {getSolarSnapshot,setSolarSelection} from './solar-clock.js?v=publication371';
 export const officeForestView={position:[-17,20,35],target:[-38,3,90],compactTarget:[-39,2,76],fov:55,zoom:3.2};
 const originalTourAreas={'Двор':'courtyard','Арена':'arena','Променад':'forecourt','Площадь':'forecourt','Лес':'forest','Площадка':'courtyard','Лаунж':'courtyard','Офис продаж':'forest','Терраса':'courtyard','Мостик':'courtyard','Проход 1–2':'courtyard','Терраса офиса':'courtyard','Ресторанная терраса':'courtyard','Дыхание сада':'courtyard'};
 export function createTourWorld(model){const solids=[...(model.passage?.solids??[f.podium]),model.arenaFootprint??f.arena,model.courtyard.bridgeCollision,...model.courtyard.data.islands,...model.publicRealm.data.islands,...(model.publicRealm.solids??[]),...(model.salesOffice?.solids??[]),...Object.values(model.neighborhood?.backdrop?.footprints??{})];for(const t of model.towers.values()){const c=Math.cos(t.spec.angle),s=Math.sin(t.spec.angle);solids.push({outer:t.shape.getPoints(32).map(p=>{const x=p.x*1.027,z=-p.y*1.027;return[t.spec.x+c*x+s*z,t.spec.z-s*x+c*z]}),holes:[]})}

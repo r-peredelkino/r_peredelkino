@@ -1,0 +1,8 @@
+.publication-about{width:min(680px,calc(100vw - 32px));box-sizing:border-box;max-height:88dvh;overflow:auto;border:1px solid #d6ff6338;border-radius:20px;padding:26px;background:#183037;color:#eef2e8;box-shadow:0 20px 80px #0007}
+.publication-about::backdrop{background:#071319b8;backdrop-filter:blur(7px)}
+.publication-about header{display:flex;align-items:center;justify-content:space-between;gap:16px;font-size:10px;letter-spacing:.08em;color:#d6ff63}
+.publication-about header button{border:1px solid #ffffff30;background:#ffffff09;color:#edf3e8;border-radius:10px;padding:7px 13px;font-size:22px;min-height:44px}
+.publication-about h2{font-size:28px;font-weight:600;line-height:1.15;margin:22px 0 18px}.publication-about p{font-size:14px;line-height:1.65;color:#d8e2d9}
+.publication-links{display:flex;flex-wrap:wrap;gap:8px;margin:24px 0}.publication-links a{display:inline-flex;align-items:center;min-height:44px;padding:9px 13px;box-sizing:border-box;background:#d6ff63;color:#203025;border-radius:10px;font-size:12px;text-decoration:none}.publication-links a:focus-visible,.publication-about button:focus-visible{outline:3px solid #fff;outline-offset:3px}
+.publication-about .publication-note{font-size:12px;color:#adbfba;border-top:1px solid #ffffff20;padding-top:16px}
+@media(max-width:600px){.publication-about{padding:20px}.publication-about h2{font-size:23px}}

@@ -1,10 +1,10 @@
-import {residentFactory} from './resident-figure.js?v=references37';
+import {residentFactory} from './resident-figure.js?v=publication371';
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
 import * as THREE from './vendor/three.module.js';
-import {direction} from './solar.js?v=references37';
-import {complexFootprints} from './complex-footprints.js?v=references37';
-import {forecourtWalkRoute} from './forecourt-walking-layout.js?v=references37';
-import {frontageGroundHeight} from './forecourt-ground.js?v=references37';
+import {direction} from './solar.js?v=publication371';
+import {complexFootprints} from './complex-footprints.js?v=publication371';
+import {forecourtWalkRoute} from './forecourt-walking-layout.js?v=publication371';
+import {frontageGroundHeight} from './forecourt-ground.js?v=publication371';
 
 function routeCurve(route){
  const points=route.points.map(([x,z])=>new THREE.Vector3(x,.035,z));

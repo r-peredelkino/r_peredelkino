@@ -1,0 +1,16 @@
+
+> r-peredelkino@37.1.0 test
+> node scripts/test.mjs
+
+PASS watermark-cpu: 59 checks
+PASS plans-cpu: 150 checks
+PASS apartment-geometry-cpu: 173 checks
+PASS apartment-actions-cpu: 445 checks
+PASS lobby-cpu: 53 checks
+PASS club-cpu: 32 checks
+PASS parking-cpu: 42 checks
+PASS fitness-cpu: 44 checks
+PASS fitness-context-cpu: 18 checks
+PASS cpu-activities: 7 checks
+PASS CPU: 1023 checks across 10 suites; reports were written outside the repository
+PASS static assets: 1906 files, 1888 explicit resource paths, 1906 HTTP/MIME/size checks under /r_peredelkino/

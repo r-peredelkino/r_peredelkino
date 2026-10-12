@@ -1,8 +1,8 @@
 // @r_peredelkino · authored apartment fixtures, real light/TV state and safe resting views.
 import * as T from './vendor/three.module.js';
-import {createWalkWorld,insideRing} from './walk-physics.js?v=references37';
-import {embedPixelSignature} from './baked-authorship.js?v=references37';
-import {attribution} from './attribution.js?v=references37';
+import {createWalkWorld,insideRing} from './walk-physics.js?v=publication371';
+import {embedPixelSignature} from './baked-authorship.js?v=publication371';
+import {attribution} from './attribution.js?v=publication371';
 
 const REST_TYPES=new Set(['bed','sofa','lsofa','chair','toilet']);
 const TYPE_NAMES={bed:'Кровать',sofa:'Диван',lsofa:'Угловой диван',chair:'Стул',toilet:'Туалет'};

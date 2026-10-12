@@ -1,8 +1,8 @@
-import {stampGeometry} from './baked-authorship.js?v=references37';
-import {attribution} from './attribution.js?v=references37';
+import {stampGeometry} from './baked-authorship.js?v=publication371';
+import {attribution} from './attribution.js?v=publication371';
 import * as THREE from './vendor/three.module.js';
-import {createSolarExposure} from './solar-exposure.js?v=references37';
-import {timeLabel,daylight} from './solar.js?v=references37';
+import {createSolarExposure} from './solar-exposure.js?v=publication371';
+import {timeLabel,daylight} from './solar.js?v=publication371';
 
 const hoursText=minutes=>{const value=Math.round(minutes);return `${Math.floor(value/60)} ч ${value%60} мин`};
 

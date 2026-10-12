@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "projectVersion": "37.1.0",
+  "dependencies": {
+    "three": "0.186.1",
+    "polygon-clipping": "0.15.7"
+  },
+  "source": "Unmodified published npm packages; polygon-clipping has only its existing ESM adapter and no source-map trailer.",
+  "files": {
+    "OrbitControls.js": {
+      "bytes": 40755,
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b"
+    },
+    "polygon-clipping.LICENSE.txt": {
+      "bytes": 1327,
+      "sha256": "864ae9e4ed75e1571a3bcf5dc9070264213445b32e7e2af5bf60eba46fb656d0"
+    },
+    "polygon-clipping.module.js": {
+      "bytes": 29157,
+      "sha256": "68f3c5852508a6fc29547ff97e9847bf0f718cf4786984044dc5b16b85dbbf6c"
+    },
+    "robust-predicates.LICENSE.txt": {
+      "bytes": 1210,
+      "sha256": "88d9b4eb60579c191ec391ca04c16130572d7eedc4a86daa58bf28c6e14c9bcd"
+    },
+    "splaytree.LICENSE.txt": {
+      "bytes": 1101,
+      "sha256": "ee0abf2ef497474b599b4bda829e8bb52ef6a29feb2aff2d497fee9c110f44f6"
+    },
+    "three.core.js": {
+      "bytes": 1458113,
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6"
+    },
+    "three.LICENSE.txt": {
+      "bytes": 1081,
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc"
+    },
+    "three.module.js": {
+      "bytes": 662772,
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea"
+    }
+  }
+}

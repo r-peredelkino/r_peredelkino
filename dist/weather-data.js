@@ -1,5 +1,5 @@
 // Concept / programmatic 3D reconstruction attribution: @r_peredelkino · RP-CONCEPT-2026-10-07
-import {location} from './solar.js?v=references37';
+import {location} from './solar.js?v=publication371';
 export function weatherKind(code){if([71,73,75,77,85,86].includes(code))return'snow';if(code>=51)return'rain';if(code>=45)return'fog';if(code>=2)return'clouds';return'clear'}
 export const weatherNames={clear:'Ясно',clouds:'Облачно',rain:'Дождь',snow:'Снег',fog:'Туман'};
 let cache=null,pending=null;

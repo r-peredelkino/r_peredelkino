@@ -1,9 +1,9 @@
 // Procedural daylight for the reconstructed 3D scene. This is not the source panorama.
-import {stampGeometry} from './baked-authorship.js?v=references37';
-import {attribution} from './attribution.js?v=references37';
+import {stampGeometry} from './baked-authorship.js?v=publication371';
+import {attribution} from './attribution.js?v=publication371';
 import * as THREE from './vendor/three.module.js';
-import {direction as geographicSunDirection} from './solar.js?v=references37';
-import {collectSolarShadowBounds,createSolarShadowCameraFitter} from './solar-shadow-camera.js?v=references37';
+import {direction as geographicSunDirection} from './solar.js?v=publication371';
+import {collectSolarShadowBounds,createSolarShadowCameraFitter} from './solar-shadow-camera.js?v=publication371';
 
 export function createArchitecturalLighting(scene,renderer,{mobile=false,model=null,modelRoot=null,receiverBounds=null,shadowRegion='quarter'}={}){
  const ambient=new THREE.HemisphereLight(0xe4e9ec,0x95958b,.95);

@@ -2,8 +2,8 @@
 // The detached source retains its original instance API for seasonal updates.
 // Visible chunks share the source geometry/material and copy Float32 data exactly.
 import * as THREE from './vendor/three.module.js';
-import {attribution} from './attribution.js?v=references37';
-import {stampGeometry} from './baked-authorship.js?v=references37';
+import {attribution} from './attribution.js?v=publication371';
+import {stampGeometry} from './baked-authorship.js?v=publication371';
 
 // The ordered mask has no clock, frame number or stochastic temporal noise.
 // Near/far fragments are complementary in both colour and shadow passes.

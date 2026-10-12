@@ -2,14 +2,14 @@
 // This additive concept is not part of the developer's documented landscape.
 // All reference paths, planting, surfaces, buildings and facades are retained.
 import * as T from './vendor/three.module.js';
-import {arenaPlacement} from './arena-placement-v35.js?v=references37';
-import {attribution} from './attribution.js?v=references37';
-import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=references37';
-import {batchStatic} from './scene-batches.js?v=references37';
-import {createMineralMaterial} from './landscape-materials.js?v=references37';
-import {insideRing,solidContains,segmentDistance} from './walk-physics.js?v=references37';
-import {courtyardPassage} from './courtyard-passage.js?v=references37';
-import {frontageGroundHeight,forecourtRoadsideReserved} from './forecourt-ground.js?v=references37';
+import {arenaPlacement} from './arena-placement-v35.js?v=publication371';
+import {attribution} from './attribution.js?v=publication371';
+import {bakeSceneAuthorship,embedPixelSignature} from './baked-authorship.js?v=publication371';
+import {batchStatic} from './scene-batches.js?v=publication371';
+import {createMineralMaterial} from './landscape-materials.js?v=publication371';
+import {insideRing,solidContains,segmentDistance} from './walk-physics.js?v=publication371';
+import {courtyardPassage} from './courtyard-passage.js?v=publication371';
+import {frontageGroundHeight,forecourtRoadsideReserved} from './forecourt-ground.js?v=publication371';
 
 const TAU=Math.PI*2;
 export const cyberCourtyardConcept=Object.freeze({

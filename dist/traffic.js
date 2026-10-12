@@ -1,10 +1,10 @@
 // @r_peredelkino · Traffic follows the same georeferenced lane graph as markings.
 // The protected light cycle is illustrative, never claimed as an actual program.
-import {trafficPresets} from './traffic-scenarios.js?v=references37';
+import {trafficPresets} from './traffic-scenarios.js?v=publication371';
 import * as THREE from './vendor/three.module.js';
-import {metersToModel} from './geo-reference.js?v=references37';
-import {trafficPaths,signalAt,signalPlan,roadElevation,samplePolyline,transportMetadata} from './transport-data.js?v=references37';
-import {createTransportInfrastructure} from './transport-infrastructure.js?v=references37';
+import {metersToModel} from './geo-reference.js?v=publication371';
+import {trafficPaths,signalAt,signalPlan,roadElevation,samplePolyline,transportMetadata} from './transport-data.js?v=publication371';
+import {createTransportInfrastructure} from './transport-infrastructure.js?v=publication371';
 const M=metersToModel,clamp=THREE.MathUtils.clamp;
 function hash(n){let a=Math.imul(n^0x986daa,0x45d9f3b);a=Math.imul(a^(a>>>16),0x45d9f3b);return((a^(a>>>16))>>>0)/4294967296;}
 function toWorld([e,n],y=roadElevation){return new THREE.Vector3(e*-.69716+n*.71691,y,e*.71691+n*.69716);}

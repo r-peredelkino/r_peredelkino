@@ -1,7 +1,7 @@
 // Original developer imagery: a separate, explicitly labelled panoramic mode.
 // The JPEG tiles remain byte-for-byte identical to the published source.
 import * as THREE from './vendor/three.module.js';
-import {referenceExplorerData as DATA} from './reference-explorer-data.js?v=references37';
+import {referenceExplorerData as DATA} from './reference-explorer-data.js?v=publication371';
 
 const RAD = Math.PI / 180;
 const DEGREES = 180 / Math.PI;
@@ -84,7 +84,7 @@ function ensureStyle() {
   if (document.querySelector('link[data-reference-explorer-style]')) return;
   const link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = new URL('./reference-explorer.css?v=references37', import.meta.url).href;
+  link.href = new URL('./reference-explorer.css?v=publication371', import.meta.url).href;
   link.dataset.referenceExplorerStyle = '';
   document.head.append(link);
 }

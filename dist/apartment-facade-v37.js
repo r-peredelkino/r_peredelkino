@@ -4,7 +4,7 @@
 import * as T from './vendor/three.module.js';
 import {complexFootprints} from './complex-footprints.js';
 import {towerLevel} from './building-levels.js';
-import {residentialFacadeSection} from './facade-detail.js?v=references37';
+import {residentialFacadeSection} from './facade-detail.js?v=publication371';
 
 const COLUMNS=72,GLASS_PROJECTION=.11,PANE_FACTOR=.985;
 const clamp=(x,a,b)=>Math.max(a,Math.min(b,x));

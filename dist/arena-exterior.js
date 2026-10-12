@@ -1,15 +1,15 @@
 // @r_peredelkino · rounded circular arena and its street-facing capsule screen.
 // Sources: the supplied promo_new.jpg and developer panorama 12.03.33.
 import * as THREE from './vendor/three.module.js';
-import {complexFootprints as footprint} from './complex-footprints.js?v=references37';
-import {location} from './solar.js?v=references37';
-import {createArenaCrownGeometry} from './exterior-roofs.js?v=references37';
-import {embedPixelSignature} from './baked-authorship.js?v=references37';
-import {attribution} from './attribution.js?v=references37';
-import {retailLevels} from './frontage-zones.js?v=references37';
-import {arenaShoulderProfile} from './arena-shell-profile.js?v=references37';
-import {arenaCenter,arenaGroundRadius,arenaPlacement} from './arena-placement-v35.js?v=references37';
-export {arenaShoulderProfile} from './arena-shell-profile.js?v=references37';
+import {complexFootprints as footprint} from './complex-footprints.js?v=publication371';
+import {location} from './solar.js?v=publication371';
+import {createArenaCrownGeometry} from './exterior-roofs.js?v=publication371';
+import {embedPixelSignature} from './baked-authorship.js?v=publication371';
+import {attribution} from './attribution.js?v=publication371';
+import {retailLevels} from './frontage-zones.js?v=publication371';
+import {arenaShoulderProfile} from './arena-shell-profile.js?v=publication371';
+import {arenaCenter,arenaGroundRadius,arenaPlacement} from './arena-placement-v35.js?v=publication371';
+export {arenaShoulderProfile} from './arena-shell-profile.js?v=publication371';
 
 // A rounded rectangle in developed arc length is mapped onto the same curved
 // vertical section as the white shell. The upper/lower/side edges all stay

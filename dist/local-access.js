@@ -1,8 +1,8 @@
 // @r_peredelkino · Ground-level courtyard paving from published OSM road axes.
 // Widths and sparse oneway arrows are estimates; there is no local traffic graph.
 import * as THREE from './vendor/three.module.js';
-import {geoToWorld,metersToModel} from './geo-reference.js?v=references37';
-import {localAccessReference,localAccessRoadData} from './local-access-data.js?v=references37';
+import {geoToWorld,metersToModel} from './geo-reference.js?v=publication371';
+import {localAccessReference,localAccessRoadData} from './local-access-data.js?v=publication371';
 
 const M=metersToModel,GROUND_Y=-.48,EPS=1e-8;
 const mix=(a,b,t)=>[a[0]+(b[0]-a[0])*t,a[1]+(b[1]-a[1])*t];

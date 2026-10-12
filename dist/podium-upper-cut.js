@@ -5,12 +5,12 @@
 // construction and its partial end bays follow the shared opaque shell.
 import * as THREE from './vendor/three.module.js';
 import polygonClipping from './vendor/polygon-clipping.module.js';
-import {complexFootprints as footprint} from './complex-footprints.js?v=references37';
-import {location} from './solar.js?v=references37';
-import {retailLevels} from './frontage-zones.js?v=references37';
-import {smoothWallNormals} from './facade-detail.js?v=references37';
-import {arenaShoulderProfile,arenaShoulderRadiusAt,arenaSectionCutRadius} from './arena-shell-profile.js?v=references37';
-import {arenaCenter,arenaGroundRadius,arenaPlacement} from './arena-placement-v35.js?v=references37';
+import {complexFootprints as footprint} from './complex-footprints.js?v=publication371';
+import {location} from './solar.js?v=publication371';
+import {retailLevels} from './frontage-zones.js?v=publication371';
+import {smoothWallNormals} from './facade-detail.js?v=publication371';
+import {arenaShoulderProfile,arenaShoulderRadiusAt,arenaSectionCutRadius} from './arena-shell-profile.js?v=publication371';
+import {arenaCenter,arenaGroundRadius,arenaPlacement} from './arena-placement-v35.js?v=publication371';
 
 const centre=arenaCenter,radius=arenaGroundRadius;
 const normal=[...arenaPlacement.outward],tangent=[normal[1],-normal[0]],segments=192,overlap=.024;

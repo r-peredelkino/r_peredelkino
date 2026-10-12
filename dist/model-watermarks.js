@@ -1,7 +1,7 @@
 // Distributed pixel reliefs live in existing authored architectural meshes.
 // Copying remains possible; geometry and hidden provenance establish authorship.
-import {attribution} from './attribution.js?v=references37';
-import {installVoxelAuthorship,findHorizontalSurfacePlacement} from './voxel-authorship-v37.js?v=references37';
+import {attribution} from './attribution.js?v=publication371';
+import {installVoxelAuthorship,findHorizontalSurfacePlacement} from './voxel-authorship-v37.js?v=publication371';
 
 export function createModelWatermarks(root,towers,texture){
  const meta={...attribution};

@@ -2,8 +2,8 @@
 // The developer's 23.50.18 panorama shows a projecting arena at the street
 // corner. Register that relationship without rewriting the traced master plan.
 // The shift is a visual estimate; neither the screenshot nor this fit is a survey.
-import {complexFootprints as source} from './complex-footprints.js?v=references37';
-import {geoFrame} from './geo-reference.js?v=references37';
+import {complexFootprints as source} from './complex-footprints.js?v=publication371';
+import {geoFrame} from './geo-reference.js?v=publication371';
 
 const ringArea=ring=>ring.reduce((sum,p,i)=>{const q=ring[(i+1)%ring.length];return sum+p[0]*q[1]-p[1]*q[0]},0)/2;
 const direction=ringArea(source.podium.outer)>0?1:-1;

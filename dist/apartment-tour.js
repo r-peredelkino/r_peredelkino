@@ -1,6 +1,6 @@
 // @r_peredelkino · apartment walking, physical fixture actions and safe resting views.
 import * as T from './vendor/three.module.js';
-import {insideRing} from './walk-physics.js?v=references37';
+import {insideRing} from './walk-physics.js?v=publication371';
 
 const MOVEMENT_CODES=new Set(['KeyW','KeyA','KeyS','KeyD','ArrowUp','ArrowDown','ArrowLeft','ArrowRight']);
 const editable=target=>target instanceof Element&&!!target.closest('input,select,textarea,[contenteditable]:not([contenteditable="false"])');
