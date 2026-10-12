@@ -1,0 +1,53 @@
+{
+  "base": "http://127.0.0.1:8093",
+  "checks": [
+    {
+      "name": "Passage appears in actual tour navigation",
+      "pass": true
+    },
+    {
+      "name": "Keyboard walk crosses to promenade",
+      "pass": true,
+      "from": [
+        -12.426643400834852,
+        1.667,
+        -45.45344289679888
+      ],
+      "to": [
+        -26.960217021260366,
+        1.667,
+        -61.25080552769632
+      ]
+    },
+    {
+      "name": "Keyboard walk returns to courtyard",
+      "pass": true,
+      "to": [
+        -12.93889083092315,
+        1.667,
+        -46.0102335816777
+      ]
+    },
+    {
+      "name": "Office terrace is walkable at its actual model level",
+      "pass": true,
+      "from": [
+        62,
+        8.385,
+        -83
+      ],
+      "to": [
+        63.19850638754064,
+        8.385,
+        -82.44684320575061
+      ]
+    },
+    {
+      "name": "No runtime or WebGL errors",
+      "pass": true,
+      "errors": []
+    }
+  ],
+  "errors": [],
+  "pass": true
+}

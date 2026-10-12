@@ -1,0 +1,326 @@
+{
+  "status": "PASS",
+  "version": 31,
+  "runUTC": "2026-10-11T09:53:54.565Z",
+  "metadata": {
+    "method": "Ray / actual opaque structural triangles; per-geometry BVH and per-instance broad-phase bounds",
+    "meshCount": 111,
+    "instanceCount": 13501,
+    "sourceTriangles": 1243541,
+    "categories": {
+      "Офисный корпус": 6,
+      "Корпус 1": 7,
+      "Корпус 2": 7,
+      "Корпус 3": 7,
+      "Корпус 4": 7,
+      "Корпус 5": 7,
+      "Подиум и общая кровля": 8,
+      "Арена": 6,
+      "Кровли и оборудование": 4,
+      "Коммерческие галереи": 5,
+      "Офис продаж": 4,
+      "Соседние жилые дома": 28,
+      "Соседние служебные здания": 3,
+      "Соседние общественные здания": 5,
+      "Павильон, навесы и галерея": 7
+    },
+    "bounds": [
+      -280.21919807139784,
+      -0.6500000357627869,
+      -478.3080463614315,
+      330.3393101776019,
+      95.83499999403953,
+      108.84423065185547
+    ],
+    "coordinates": "world [x, y, z]",
+    "units": "existing model units",
+    "horizontalMetersPerModelUnit": 1.1099621032624687,
+    "verticalScale": "uses actual world matrices; no assumed surveyed building heights",
+    "observerOffsetModelUnits": 0.002,
+    "includesVegetation": false,
+    "includesTerrain": false,
+    "atmosphere": "clear-sky direct solar centre, standard refraction; no weather attenuation",
+    "visibility": "structural occlusion remains active when presentation layers are hidden",
+    "excluded": [
+      "vegetation",
+      "people",
+      "vehicles",
+      "weather",
+      "glass transmission",
+      "window dressing",
+      "separate residential window-frame overlays",
+      "objects outside the reconstructed scene"
+    ],
+    "caution": "Current reconstructed geometry, not a statutory apartment-insolation assessment",
+    "constructionMilliseconds": 31.72456300000067,
+    "bvhGeometries": 96,
+    "bvhMilliseconds": 355.07356099999834
+  },
+  "solarExposureSHA256": "c30f534475f86d95737a3186794f5663abdeb8b97daa8fe4da864bb687be2fc5",
+  "modelMilliseconds": 4704.451553999999,
+  "prepareMilliseconds": 448.51946899999984,
+  "points": [
+    {
+      "label": "plaza",
+      "point": [
+        14,
+        0.08,
+        -102
+      ],
+      "sunlightHours": 3.1770833333333335,
+      "intervals": [
+        {
+          "start": 660.78125,
+          "end": 673.90625
+        },
+        {
+          "start": 711.09375,
+          "end": 730.78125
+        },
+        {
+          "start": 901.09375,
+          "end": 1058.90625
+        }
+      ],
+      "milliseconds": 66.85745399999996
+    },
+    {
+      "label": "courtyard",
+      "point": [
+        0,
+        0.08,
+        0
+      ],
+      "sunlightHours": 2.9583333333333335,
+      "intervals": [
+        {
+          "start": 444.53125,
+          "end": 525.15625
+        },
+        {
+          "start": 612.96875,
+          "end": 662.96875
+        },
+        {
+          "start": 779.21875,
+          "end": 826.09375
+        }
+      ],
+      "milliseconds": 42.59192600000006
+    },
+    {
+      "label": "wall-height",
+      "point": [
+        0,
+        20,
+        -70
+      ],
+      "sunlightHours": 0,
+      "intervals": [],
+      "milliseconds": 29.535493000000315
+    }
+  ],
+  "roofPick": {
+    "point": [
+      -28,
+      95.83499995071196,
+      22.4
+    ],
+    "normal": [
+      -5.425587646824797e-13,
+      1,
+      -2.5934300502213802e-9
+    ],
+    "objectName": "Four solid stepped triangular roof plates",
+    "category": "Корпус 3",
+    "instanceId": null,
+    "distanceModelUnits": 44.16500004928804
+  },
+  "monthly": {
+    "milliseconds": 337.4651120000008,
+    "values": [
+      {
+        "day": "2026-01-21",
+        "sunlightHours": 0.7083333333333334,
+        "intervals": [
+          {
+            "start": 957.34375,
+            "end": 999.84375
+          }
+        ]
+      },
+      {
+        "day": "2026-02-21",
+        "sunlightHours": 2.765625,
+        "intervals": [
+          {
+            "start": 685.15625,
+            "end": 698.28125
+          },
+          {
+            "start": 737.03125,
+            "end": 757.34375
+          },
+          {
+            "start": 933.59375,
+            "end": 1066.09375
+          }
+        ]
+      },
+      {
+        "day": "2026-03-21",
+        "sunlightHours": 3.953125,
+        "intervals": [
+          {
+            "start": 687.34375,
+            "end": 778.59375
+          },
+          {
+            "start": 908.90625,
+            "end": 1044.84375
+          },
+          {
+            "start": 1059.21875,
+            "end": 1064.84375
+          },
+          {
+            "start": 1119.84375,
+            "end": 1124.21875
+          }
+        ]
+      },
+      {
+        "day": "2026-04-21",
+        "sunlightHours": 4.973958333333333,
+        "intervals": [
+          {
+            "start": 688.59375,
+            "end": 766.71875
+          },
+          {
+            "start": 880.46875,
+            "end": 1100.78125
+          }
+        ]
+      },
+      {
+        "day": "2026-05-21",
+        "sunlightHours": 5.1875,
+        "intervals": [
+          {
+            "start": 694.21875,
+            "end": 762.34375
+          },
+          {
+            "start": 862.96875,
+            "end": 1106.09375
+          }
+        ]
+      },
+      {
+        "day": "2026-06-21",
+        "sunlightHours": 5.260416666666667,
+        "intervals": [
+          {
+            "start": 701.09375,
+            "end": 766.71875
+          },
+          {
+            "start": 857.96875,
+            "end": 1107.96875
+          }
+        ]
+      },
+      {
+        "day": "2026-07-21",
+        "sunlightHours": 5.182291666666667,
+        "intervals": [
+          {
+            "start": 704.53125,
+            "end": 772.34375
+          },
+          {
+            "start": 872.34375,
+            "end": 1115.46875
+          }
+        ]
+      },
+      {
+        "day": "2026-08-21",
+        "sunlightHours": 4.973958333333333,
+        "intervals": [
+          {
+            "start": 693.28125,
+            "end": 771.09375
+          },
+          {
+            "start": 884.84375,
+            "end": 1105.46875
+          }
+        ]
+      },
+      {
+        "day": "2026-09-21",
+        "sunlightHours": 3.953125,
+        "intervals": [
+          {
+            "start": 673.59375,
+            "end": 764.53125
+          },
+          {
+            "start": 894.53125,
+            "end": 1031.40625
+          },
+          {
+            "start": 1046.40625,
+            "end": 1050.46875
+          },
+          {
+            "start": 1105.46875,
+            "end": 1110.78125
+          }
+        ]
+      },
+      {
+        "day": "2026-10-21",
+        "sunlightHours": 2.71875,
+        "intervals": [
+          {
+            "start": 656.09375,
+            "end": 669.21875
+          },
+          {
+            "start": 707.65625,
+            "end": 728.59375
+          },
+          {
+            "start": 905.46875,
+            "end": 1034.53125
+          }
+        ]
+      },
+      {
+        "day": "2026-11-21",
+        "sunlightHours": 0.6822916666666666,
+        "intervals": [
+          {
+            "start": 932.03125,
+            "end": 972.96875
+          }
+        ]
+      },
+      {
+        "day": "2026-12-21",
+        "sunlightHours": 0,
+        "intervals": []
+      }
+    ]
+  },
+  "cooperativeScheduling": {
+    "timerIntervalMilliseconds": 10,
+    "ticks": 70,
+    "maximumObservedTickMilliseconds": 22.787199999999757,
+    "note": "CPU fixture observation, not a GPU frame-rate or device-performance guarantee"
+  },
+  "elapsedMilliseconds": 5664.645637
+}

@@ -1,0 +1,56 @@
+{
+  "status": "PASS",
+  "before": {
+    "geometrySHA256": "442bf5326575a2b1954bc45b8639305fbd41a6713380b756a0491aa5a19e4e99",
+    "geometryParts": 4,
+    "vertices": 54918,
+    "diffuse": "#939c9d",
+    "averageMapSRGB": [
+      150.1708984375,
+      153.27069091796875,
+      154.81585693359375
+    ],
+    "roughness": 0.98,
+    "bumpScale": 0.014,
+    "roofLevel": 6.648,
+    "equipmentClusters": 6,
+    "winter": {
+      "diffuse": "#f0f2ed",
+      "hasColorMap": true,
+      "bumpScale": 0.006
+    },
+    "restored": {
+      "diffuse": "#939c9d",
+      "hasColorMap": true
+    }
+  },
+  "after": {
+    "geometrySHA256": "442bf5326575a2b1954bc45b8639305fbd41a6713380b756a0491aa5a19e4e99",
+    "geometryParts": 4,
+    "vertices": 54918,
+    "diffuse": "#ffffff",
+    "averageMapSRGB": [
+      187.06561279296875,
+      184.261962890625,
+      175.84228515625
+    ],
+    "roughness": 0.98,
+    "bumpScale": 0.014,
+    "roofLevel": 6.648,
+    "equipmentClusters": 6,
+    "winter": {
+      "diffuse": "#f0f2ed",
+      "hasColorMap": false,
+      "bumpScale": 0.006
+    },
+    "restored": {
+      "diffuse": "#ffffff",
+      "hasColorMap": true
+    }
+  },
+  "sourceImages": [
+    "qa-v30/panorama-qa/forecourt-source.png",
+    "qa-v30/panorama-qa/arena-source.png"
+  ],
+  "scope": "Material only. Geometric buffers and local transforms are byte-identical. Visual QA under the integrated v31 light is still required."
+}

@@ -1,0 +1,23 @@
+{
+  "position": [
+    -88.38121210004893,
+    54.055899587602426,
+    -74.43182231121628
+  ],
+  "target": [
+    -9.88329,
+    0,
+    -90.57749
+  ],
+  "fov": 39.563767569092846,
+  "horizontalFov": 54.0,
+  "imageSize": [
+    1700,
+    1200
+  ],
+  "source": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+  "node": "node1",
+  "altitudeMeters": 60.0,
+  "pannorth": 123.58,
+  "assumption": "Tour altitude is used as AGL; camera controls and road fit documented separately."
+}

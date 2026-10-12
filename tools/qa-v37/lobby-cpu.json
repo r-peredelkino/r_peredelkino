@@ -1,0 +1,259 @@
+{
+  "pass": true,
+  "checkCount": 53,
+  "checks": [
+    {
+      "name": "First-floor scheme declares author dimensions and render evidence",
+      "pass": true
+    },
+    {
+      "name": "Every required entrance amenity is modelled",
+      "pass": true
+    },
+    {
+      "name": "A 704-point wave fixture uses one instanced mesh",
+      "pass": true
+    },
+    {
+      "name": "Source glazing and curtain folds are transparent actual meshes",
+      "pass": true
+    },
+    {
+      "name": "Fine filtered finishes preserve physical two-metre floor tiling",
+      "pass": true
+    },
+    {
+      "name": "Fixture camera targets look at the actual room contents",
+      "pass": true
+    },
+    {
+      "name": "Initial entrance has both leaves physically open",
+      "pass": true
+    },
+    {
+      "name": "resident-lift standing position is clear",
+      "pass": true,
+      "x": 6.35,
+      "z": -17.7
+    },
+    {
+      "name": "resident-lift-parking standing position is clear",
+      "pass": true,
+      "x": 9,
+      "z": -17.2
+    },
+    {
+      "name": "resident-handwash standing position is clear",
+      "pass": true,
+      "x": 4.25,
+      "z": -12.4
+    },
+    {
+      "name": "resident-pawwash standing position is clear",
+      "pass": true,
+      "x": 6.8,
+      "z": -12.38
+    },
+    {
+      "name": "resident-stroller standing position is clear",
+      "pass": true,
+      "x": 7.75,
+      "z": -10.5
+    },
+    {
+      "name": "resident-lobby standing position is clear",
+      "pass": true,
+      "x": 0,
+      "z": 4.2
+    },
+    {
+      "name": "resident-seat standing position is clear",
+      "pass": true,
+      "x": -2,
+      "z": 3.2
+    },
+    {
+      "name": "resident-entry standing position is clear",
+      "pass": true,
+      "x": 0,
+      "z": 8.05
+    },
+    {
+      "name": "resident-route-yoga standing position is clear",
+      "pass": true,
+      "x": -3.4,
+      "z": -18.5
+    },
+    {
+      "name": "resident-route-coffee standing position is clear",
+      "pass": true,
+      "x": -3.4,
+      "z": -4.8
+    },
+    {
+      "name": "resident-route-kids standing position is clear",
+      "pass": true,
+      "x": -6.3,
+      "z": -9.4
+    },
+    {
+      "name": "resident-route-lounge standing position is clear",
+      "pass": true,
+      "x": 3.4,
+      "z": -4.8
+    },
+    {
+      "name": "resident-route-guestWC standing position is clear",
+      "pass": true,
+      "x": 9.45,
+      "z": -12.7
+    },
+    {
+      "name": "exit standing position is clear",
+      "pass": true,
+      "x": 0,
+      "z": 7.4
+    },
+    {
+      "name": "lobby room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "corridor room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "yoga room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "kids room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "coffee room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "lift room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "washStroller room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "lounge room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "guestWC room spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "Closed lift leaves block real walking",
+      "pass": true
+    },
+    {
+      "name": "Six lift leaves slide and move their collision envelopes",
+      "pass": true
+    },
+    {
+      "name": "Opened lift portal leads into a walkable cabin",
+      "pass": true
+    },
+    {
+      "name": "All lift leaves close back to source-style portals",
+      "pass": true
+    },
+    {
+      "name": "handwash actually displays and animates a water stream",
+      "pass": true
+    },
+    {
+      "name": "handwash stops and hides the actual water stream",
+      "pass": true
+    },
+    {
+      "name": "pawwash actually displays and animates a water stream",
+      "pass": true
+    },
+    {
+      "name": "pawwash stops and hides the actual water stream",
+      "pass": true
+    },
+    {
+      "name": "Stroller locker has a physically rotating leaf",
+      "pass": true
+    },
+    {
+      "name": "Quiet lighting changes visible wave output and practical light power",
+      "pass": true
+    },
+    {
+      "name": "Children have no direct corridor door",
+      "pass": true
+    },
+    {
+      "name": "Coffee to children door permits actual walking",
+      "pass": true
+    },
+    {
+      "name": "All lobby rooms and POIs join one real walking network",
+      "pass": true,
+      "nodes": 6825,
+      "unreachable": []
+    },
+    {
+      "name": "Real club furnishings retain every service and room route",
+      "pass": true,
+      "nodes": 6256,
+      "unreachable": []
+    },
+    {
+      "name": "Actual new geometry, matrices and animation frames remain finite",
+      "pass": true,
+      "bad": [],
+      "meshes": 36,
+      "triangles": 35210
+    },
+    {
+      "name": "Geometry carries authored provenance without source-image modification",
+      "pass": true,
+      "unstamped": []
+    },
+    {
+      "name": "Authored finish textures embed the original model signature",
+      "pass": true
+    },
+    {
+      "name": "Wave, cubbies, curtains and static fit-out stay batched",
+      "pass": true,
+      "meshes": 36,
+      "drawBatches": 12
+    },
+    {
+      "name": "Disposal is idempotent and clears all parent-owned resources",
+      "pass": true
+    },
+    {
+      "name": "Upper-floor apartment corridor preserves source apartment plans",
+      "pass": true
+    },
+    {
+      "name": "Apartment doors and lift return share a clear upper-floor route",
+      "pass": true,
+      "nodes": 880,
+      "unreachable": []
+    },
+    {
+      "name": "Apartment corridor uses one source-inspired slat instance group",
+      "pass": true
+    },
+    {
+      "name": "Upper-floor hall can close twice without leaking local resources",
+      "pass": true
+    }
+  ],
+  "revision": 37
+}

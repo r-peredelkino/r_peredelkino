@@ -1,0 +1,136 @@
+{
+  "sources": [
+    {
+      "name": "Layered shrubs clipped to traced planting islands and vessels",
+      "count": 4208,
+      "matrix": "fbfcda34a6125e61c14c4e12bfdfe43f9095fe74e0b2d8da1c939588520ddc11",
+      "colour": "1d263e99603aaa9e49418d54d17dbff6c3b81d9d4d235d192794aa51257d090e",
+      "attributes": {
+        "position": "82ee51db7899af6b357a8466d8555bf92b4335d2f147f3c6f9f68da0bba10b3f",
+        "normal": "70a66974fb0c36ba8e59b48ac648d2af1302183352e8a64e453ad248e050e922",
+        "uv": "8fe4ef2b5c387cfefa6649f6182e926f1eba04ce000114215e2e589fcf27bc25",
+        "color": "cdb56b7a6c5de09615693904f53a1a25343155598b3b99ffd4c26ca09ec0f877",
+        "rpAuthor": "ac96ad0b88bcf8566fca11a7ffc94129fba1f428f8f9867dc19ad98597def349"
+      },
+      "index": null,
+      "metadata": "c16b276f00e532e5415d0e86daaef03c99021616f36d3a8ec4127c3d0d30873c",
+      "geometryTriangles": 612,
+      "cast": true,
+      "receive": true
+    },
+    {
+      "name": "Fine cream-flowering perennial stems rooted in their planting surface",
+      "count": 11270,
+      "matrix": "aaf1b6cea5e9a37268e6916984c98300ade150a1c08c11a423b569207c19b94e",
+      "colour": null,
+      "attributes": {
+        "position": "feef5a9ca3ee3ee0f2bcff39e308addade61720a1b3964003ece2bedc661c4fe",
+        "normal": "f0bb8ebe829a8d736b19c5bfee37aba9c388f8c7bc7ca5f740ef2808e3de6364",
+        "color": "50e1f7bbd8dca643a302d9104469652be266d5abd95fd91e4a682b9cd9e6aec7",
+        "uv": "f4cf7b76a8ecab136b57c32b1e915db6b2a0068d7448d5d0e56303faf8380308",
+        "rpAuthor": "07eb8e26f2501242e5c91bdd9ad7ffd1d986c5793c269d6865f3335263469bc6"
+      },
+      "index": null,
+      "metadata": "2dca344c3503e9eebfc643dd7b220fde3de24577ecead2a787ad51c1b00487cb",
+      "geometryTriangles": 264,
+      "cast": true,
+      "receive": true
+    },
+    {
+      "name": "Rooted organic planting across the retained promenade islands",
+      "count": 1542,
+      "matrix": "1474eec0a20a5c16052f0ee3cc2352b8ad83badc1476eb855dcb1c89a0d0a3e4",
+      "colour": null,
+      "attributes": {
+        "position": "fa7b29268fcef8c234b2ed3041b456346bce24ae0371e1c82c57ec21b013aa4c",
+        "normal": "2e90854952d5b77f69b57693f8da47e0e85745ca0d14959969a6c73741a5af78",
+        "uv": "8fe4ef2b5c387cfefa6649f6182e926f1eba04ce000114215e2e589fcf27bc25",
+        "color": "8b5372497896dc1f2f03ba480d57cf897e22914bf489403f58a597e996868bbb",
+        "rpAuthor": "0eacc8cc2b7d140b0243c30468a183d41794b9a143a97fe598bb0bcc8dd5ed3b"
+      },
+      "index": null,
+      "metadata": "fc29fb39efb53940f0e3ca9f791cf984b90d2fb6097409c049003631a13c5f6a",
+      "geometryTriangles": 612,
+      "cast": true,
+      "receive": true
+    },
+    {
+      "name": "Fine perennial flowers on stems across the retained promenade islands",
+      "count": 576,
+      "matrix": "b433cb58d9a3057a6d87bb3bcdae50c4c23a3d5a48581076ecd81f7eae48b83c",
+      "colour": null,
+      "attributes": {
+        "position": "888b83ca18842be7b95bf7b25eba79a3708e8b3dfde1089aad0aad209b0f6d71",
+        "normal": "f0bb8ebe829a8d736b19c5bfee37aba9c388f8c7bc7ca5f740ef2808e3de6364",
+        "color": "50e1f7bbd8dca643a302d9104469652be266d5abd95fd91e4a682b9cd9e6aec7",
+        "uv": "f4cf7b76a8ecab136b57c32b1e915db6b2a0068d7448d5d0e56303faf8380308",
+        "rpAuthor": "5e7dec39f02e94c6b0c5b2f5d45162532b8a98b11f089d4aedeac6a0550ce274"
+      },
+      "index": null,
+      "metadata": "fc29fb39efb53940f0e3ca9f791cf984b90d2fb6097409c049003631a13c5f6a",
+      "geometryTriangles": 264,
+      "cast": true,
+      "receive": true
+    },
+    {
+      "name": "",
+      "count": 126,
+      "matrix": "1516c7c70959ea735adcb16b07fa7336dac2441354a82b19b4e79d89dd41ac5e",
+      "colour": null,
+      "attributes": {
+        "position": "570f436f28c0389c7fd696b5d6cb175ae1b55aadfe5d60eae11dfa50fe8098b1",
+        "normal": "9c9d28e57ddb3658fce4550eb65d893622f1f31d198599b5d3f00a594ca61c53",
+        "uv": "a713acf7ce605a1eb06a8f02a32befa7779d05c7ed1a6c585386643a04fd7114",
+        "color": "ff7c0d0cb61e1240af3cf53252c79cdd2ef5d390340dfd0696a0767c46297dcb",
+        "rpAuthor": "5b163d3ebaae70d95c7c71ae64ba761ee511d31b09ac97506de53f767676cfcc"
+      },
+      "index": null,
+      "metadata": "fc29fb39efb53940f0e3ca9f791cf984b90d2fb6097409c049003631a13c5f6a",
+      "geometryTriangles": 3456,
+      "cast": true,
+      "receive": true
+    },
+    {
+      "name": "Continuous fine underplanting in the shop promenade islands",
+      "count": 3084,
+      "matrix": "ed8a40c7e1d3d4af783272046a26c3745beb9adccdd4ea413635df52a91dfece",
+      "colour": null,
+      "attributes": {
+        "position": "3d5e95a4a8de490c586be385ab8e627906f03519b1cfca4e8d76fc8e1226bd97",
+        "color": "aa9075ddc65f973103b1928c601405d108a040a732b6e75f348ed3e292663c7e",
+        "uv": "b2069f33fd956c79679b2e5a25c60cd0eab63b023d12111ff0242ae50896e9e1",
+        "normal": "c873b2f46e8f3106bac675295763d25fe624869e73cf5e504cd51964913d8887",
+        "rpAuthor": "5278d05d626d9543a7bbf4d7932953346cf3af1c6adfe09d9015556fd5b4d88d"
+      },
+      "index": null,
+      "metadata": "fc29fb39efb53940f0e3ca9f791cf984b90d2fb6097409c049003631a13c5f6a",
+      "geometryTriangles": 108,
+      "cast": false,
+      "receive": true
+    }
+  ],
+  "red": {
+    "name": "Rooted burgundy perennial stems in source-traced colour patches",
+    "count": 1417,
+    "matrix": "6735aaed8dba877345de50ce59b5cf9bc08d97b6e57cab2d92dbe8802fbb575e",
+    "colour": null,
+    "attributes": {
+      "position": "2a2acd406bb1d6b1123090215874da92dd281c352fd177ee58a3553dc17f7b94",
+      "normal": "f0bb8ebe829a8d736b19c5bfee37aba9c388f8c7bc7ca5f740ef2808e3de6364",
+      "color": "3b45a809371ad55882e34943f20eef44a4ee1cd0c8cadff31605fa771bd743b6",
+      "uv": "f4cf7b76a8ecab136b57c32b1e915db6b2a0068d7448d5d0e56303faf8380308",
+      "rpAuthor": "f2fa675cc07d1b0e2bdf611666d6fc6ec8ad74206ec71372ef15377cdee216fe"
+    },
+    "index": null,
+    "metadata": "1238ff466b14f4f8564833d576e2dc71e97b1e0205203873ad11de78c2976445",
+    "geometryTriangles": 264,
+    "cast": true,
+    "receive": true
+  },
+  "sourceMetadata": "46943e8243abbfc3821fa32c0c078dbc89bc61409db494f5f76a0c827a3d13d3",
+  "layout": "1b53400c7290ee58ba1e295550cdee6a3f6802e1fed1641ee525822f66dfe32d",
+  "treeAnchors": "79e0491bdf14bdc082c9d36cb01b9bd4049a7576b08e97af3d2d8f563ff52093",
+  "instancedCount": 179626,
+  "triangleCount": 21047258,
+  "visibleTriangleCount": 18331724
+}

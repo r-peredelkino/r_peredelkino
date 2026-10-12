@@ -1,0 +1,110 @@
+{
+  "checkedAt": "2026-10-11",
+  "sourceAuthority": "Official developer lot page and official club pages; AHR architect and bigD industrial designer for UAE inspiration.",
+  "officeUnit": {
+    "url": "https://peredelkino-offices.ru/offices/3-5/",
+    "retrieval": "Direct urllib HTTP200 on authorized Mac; search browser unable to open exactURL.",
+    "htmlBytes": 39873,
+    "htmlSha256": "6c344bd2d09672aec51e8324786efd5a4499ff54b749a3e204cf03e70e72074e",
+    "unit": "3/5",
+    "advertisedAreaM2": 105.0,
+    "sourceFloor": 3,
+    "floorClaim": "Exact lot card says3of31; projecthome says25storeys. Preserve existing model25 and do not extrapolate conflicting site labels.",
+    "ceilingHeightM": 3.6,
+    "finish": "Without fitout",
+    "planImageUrl": "https://peredelkino-offices.ru/!upload/t_lots/4d71f717a5c5ec3e31cabbda6c588b44.png",
+    "originalAsset": "dist/assets/reference-office-v35/office-3-5-plan.png",
+    "planSha256": "70642a16e21b15e0b1820607bdab0a0454022a8502f9fe43a394c89d0ee85296",
+    "planBytes": 265478,
+    "planPixels": [
+      1772,
+      1772
+    ],
+    "pdfUrl": "https://peredelkino-offices.ru/pdf/453/",
+    "pdfSha256": "67594e108957937bfe553007955b6e0fc3dac0cf939a5de1082d2ae4e9764636",
+    "pdfBytes": 14293490,
+    "pdfFinding": "PDF contains raster plan1772x1772; no more precise vector plan is available in the inspected files.",
+    "traceFile": "references/office-3-5-trace-v35.json",
+    "traceStatus": "Approximate raster trace; outer105m2scale from advertised area.",
+    "implementationScope": "User-requested floor2 fitness adaptation is authored, not a developer promise or published plan.",
+    "pageFullscreenSvgFinding": "Generic compass; explicitly excluded from scene geometry and references panel."
+  },
+  "officeProject": {
+    "url": "https://peredelkino-offices.ru/",
+    "pageSupports": [
+      "Natural stone/timber/metal with hiddenlighting in lobby",
+      "Public WiFi and contactless office access",
+      "Intelligent circadian lighting",
+      "Gastronomy on groundfloor"
+    ],
+    "pageDoesNotSpecify": [
+      "Fitness gym on floor2",
+      "Restaurant terrace layout",
+      "Unit3/5 fitness designation"
+    ],
+    "technicalDesignNotes": "Homepage mentions floorload200kg/m2: virtual gym fitout is visual concept, not a structural acceptance or construction recommendation."
+  },
+  "gym": {
+    "aboutUrl": "https://lomovgym.ru/lomov-gym/about/",
+    "aboutHtmlSha256": "984e54dc71c0077fc7097ed756ef3a4574708aa77cf1f60953f31946b1654bfc",
+    "zonesUrl": "https://lomovgym.ru/lomov-gym/zones/",
+    "zonesHtmlSha256": "2d97ba6ff023e61ead0838438de2102bb69dc0e80ec20bbcd6a72e56495ae6ff",
+    "tourUrl": "https://ep.matterport.host/index/?m=98vFi7851dy",
+    "tourStatus": "Primary link located; not used to scrape panoramas or claim a full3D walkthrough inspection.",
+    "observedStyle": [
+      "Dark open industrial ceiling",
+      "Warm wood lockers/reception",
+      "Graphite rubberfloor",
+      "Steel cablemachine and adjustablebench frames",
+      "Long dumbbell rack and mirrors",
+      "Functional green turf with white marking",
+      "Treadmills and bikes aligned in cardiolanes"
+    ],
+    "imageRefs": [
+      {
+        "url": "https://lomovgym.ru/upload/resize_cache/iblock/0bb/812_571_2/lomov_67_.jpg",
+        "sha256": "56310d0b4eb64160148f375a52d3acbcaabbf820801335ed4c002e3fa9faad8b",
+        "bytes": 85000,
+        "viewed": true
+      },
+      {
+        "url": "https://lomovgym.ru/upload/resize_cache/iblock/b3f/812_571_2/functional.jpg",
+        "sha256": "692d1574fda0100c5a525510183e57706ca8de238044b5d0c8648f0ac04beb69",
+        "bytes": 78418,
+        "viewed": true
+      },
+      {
+        "url": "https://lomovgym.ru/upload/resize_cache/iblock/69d/812_571_2/lomov_93_.jpg",
+        "sha256": "618fe20ff27c7fbe81c28f5f05f6127bdb48a9959fd9ee523f77caba4a7ba255",
+        "bytes": 85677,
+        "viewed": true
+      }
+    ],
+    "use": "Style/function inspiration; create new models, noLomov logo, no claim of copying brand equipment exactly."
+  },
+  "uaeOutdoorInspiration": [
+    {
+      "url": "https://bigd.es/en/mas-proyectos/dubai-smart-palm/",
+      "authority": "Product industrialdesigner",
+      "location": "Dubai",
+      "applicablePrinciple": "Solarshade and digitalpublicamenity designed as onequietstreetfurnitureobject",
+      "scope": "Our proposedsolarpergola and informationnode are originalconcepts."
+    },
+    {
+      "url": "https://www.ahr.co.uk/projects/al-bahr-towers",
+      "authority": "Projectarchitect",
+      "location": "AbuDhabi",
+      "applicablePrinciple": "Foldingtriangularshade responds to sun movement",
+      "scope": "Translate sun-responsive movement to author terracecanopy; keep originaltowerfacades.",
+      "avoidClaims": [
+        "Not aDubai tower",
+        "Do not advertise proven50percentperformance for ourvirtualcanopy",
+        "Do not claim nobody inMoscow has this amenity"
+      ]
+    }
+  ],
+  "attributionNotes": [
+    "Original PNG remains a developerreferenceasset, never signed as ourcreatedtexture.",
+    "Our3D gymfitout andgardenconcepts remain marked as authored additions."
+  ]
+}

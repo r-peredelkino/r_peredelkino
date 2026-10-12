@@ -1,0 +1,196 @@
+{
+  "revision": 37,
+  "base": "http://127.0.0.1:8097",
+  "pointerOnly": true,
+  "limitations": [
+    {
+      "path": "native Mac select-popup keyboard via headless CDP",
+      "verified": false,
+      "evidence": "trusted Home/ArrowDown/Enter targeted SELECT with defaultPrevented=false and tour enabled; selected value stayed unchanged; disabled-attribute mutations 0; pointer/touch plus onchange and real action path separately verified"
+    }
+  ],
+  "minimumChecks": 6,
+  "apartmentExpectedChecks": 0,
+  "actualChecks": 6,
+  "checks": [
+    {
+      "name": "Desktop apartment selector accepts an actual pointer click and receives focus",
+      "pass": true,
+      "pointerEvents": "auto",
+      "focused": true,
+      "hitTag": "SELECT",
+      "viewport": [
+        1440,
+        1000
+      ]
+    },
+    {
+      "name": "Desktop apartment selection change updates its actual bed action control",
+      "pass": true,
+      "value": "apt-bed-0",
+      "expected": "apt-bed-0",
+      "actionLabel": "Лечь на кровать"
+    },
+    {
+      "name": "Desktop apartment movement, exit and resting interaction controls fit the viewport",
+      "pass": true,
+      "viewport": [
+        1440,
+        1000
+      ],
+      "rects": [
+        {
+          "selector": ".apt-move",
+          "x": 24,
+          "y": 852,
+          "right": 136,
+          "bottom": 964,
+          "width": 112,
+          "height": 112,
+          "visible": true
+        },
+        {
+          "selector": ".apt-look",
+          "x": 1304,
+          "y": 852,
+          "right": 1416,
+          "bottom": 964,
+          "width": 112,
+          "height": 112,
+          "visible": true
+        },
+        {
+          "selector": ".apt-exit",
+          "x": 1305.046875,
+          "y": 18,
+          "right": 1424,
+          "bottom": 62,
+          "width": 118.953125,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-interaction]",
+          "x": 115.640625,
+          "y": 134,
+          "right": 305.640625,
+          "bottom": 166,
+          "width": 190,
+          "height": 32,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-action]",
+          "x": 310.640625,
+          "y": 128,
+          "right": 414.796875,
+          "bottom": 172,
+          "width": 104.15625,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-stand]",
+          "x": 422.640625,
+          "y": 128,
+          "right": 488.171875,
+          "bottom": 172,
+          "width": 65.53125,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "Mobile apartment selector accepts an actual touch and receives focus",
+      "pass": true,
+      "pointerEvents": "auto",
+      "focused": true,
+      "hitTag": "SELECT",
+      "viewport": [
+        390,
+        844
+      ]
+    },
+    {
+      "name": "Mobile apartment selection change updates its actual bed action control",
+      "pass": true,
+      "value": "apt-bed-0",
+      "expected": "apt-bed-0",
+      "actionLabel": "Лечь на кровать"
+    },
+    {
+      "name": "Mobile apartment movement, exit and resting interaction controls fit the viewport",
+      "pass": true,
+      "viewport": [
+        390,
+        844
+      ],
+      "rects": [
+        {
+          "selector": ".apt-move",
+          "x": 25,
+          "y": 706,
+          "right": 127,
+          "bottom": 808,
+          "width": 102,
+          "height": 102,
+          "visible": true
+        },
+        {
+          "selector": ".apt-look",
+          "x": 263,
+          "y": 706,
+          "right": 365,
+          "bottom": 808,
+          "width": 102,
+          "height": 102,
+          "visible": true
+        },
+        {
+          "selector": ".apt-exit",
+          "x": 239.046875,
+          "y": 18,
+          "right": 358,
+          "bottom": 62,
+          "width": 118.953125,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-interaction]",
+          "x": 115.640625,
+          "y": 134,
+          "right": 255.640625,
+          "bottom": 166,
+          "width": 140,
+          "height": 32,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-action]",
+          "x": 260.640625,
+          "y": 128,
+          "right": 364.796875,
+          "bottom": 172,
+          "width": 104.15625,
+          "height": 44,
+          "visible": true
+        },
+        {
+          "selector": "[data-apt-stand]",
+          "x": 16,
+          "y": 179,
+          "right": 81.53125,
+          "bottom": 223,
+          "width": 65.53125,
+          "height": 44,
+          "visible": true
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "pass": true
+}

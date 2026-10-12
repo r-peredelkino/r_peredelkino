@@ -1,0 +1,320 @@
+{
+  "revision": 37,
+  "pass": true,
+  "release": 36,
+  "suite": "parking-cpu",
+  "ok": true,
+  "actualChecks": 42,
+  "checks": [
+    {
+      "name": "Parking attaches one authored local section to the caller root",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Semantic −1 is explicitly distinct from the scene local floor y0",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Official source is p45 of the unmodified developer PDF",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Unknown site capacity, height, levels, ramp and charger count remain null",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Documented programme distinguishes EV possibility from installed chargers",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Exactly fourteen illustrative bays have 2.5m × 5m envelopes",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All parking-bay corners fit the actual perimeter",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Opposite rows leave a six-metre central vehicle aisle",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Ten authored vehicles have actual modeled silhouettes inside bay envelopes",
+      "pass": true,
+      "details": {
+        "vehicles": 10
+      }
+    },
+    {
+      "name": "Car footprints cannot be walked through",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Five −1 storage examples reserve solid room footprints",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Lift returns to the selected fourth building entrance",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All eight independent POI approaches are physically clear",
+      "pass": true,
+      "details": {
+        "points": [
+          {
+            "id": "parking-lift",
+            "free": true
+          },
+          {
+            "id": "parking-barrier",
+            "free": true
+          },
+          {
+            "id": "parking-ev",
+            "free": true
+          },
+          {
+            "id": "parking-storage",
+            "free": true
+          },
+          {
+            "id": "parking-find-car",
+            "free": true
+          },
+          {
+            "id": "parking-info",
+            "free": true
+          },
+          {
+            "id": "parking-bicycle",
+            "free": true
+          },
+          {
+            "id": "parking-motorcycle",
+            "free": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Spawn is in the free blue path and looks east into the garage",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Actual physical movement reaches every parking POI from the lift",
+      "pass": true,
+      "details": {
+        "visited": 2564,
+        "found": {
+          "parking-lift": true,
+          "parking-find-car": true,
+          "parking-barrier": true,
+          "parking-ev": true,
+          "parking-motorcycle": true,
+          "parking-info": true,
+          "parking-storage": true,
+          "parking-bicycle": true
+        },
+        "all": true
+      }
+    },
+    {
+      "name": "Whole proposed blue pedestrian centreline is clear of columns, cars and rooms",
+      "pass": true,
+      "details": {
+        "blockedSamples": 0
+      }
+    },
+    {
+      "name": "Barrier arm initially contributes a real collision obstacle",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Unknown action IDs are rejected instead of mutating state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Barrier action sets a local demo state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Actual barrier pivot rotates upward beyond 1.3 radians",
+      "pass": true,
+      "details": {
+        "rotation": 1.445132584364037
+      }
+    },
+    {
+      "name": "Raised barrier releases its same shared collision object",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Closing barrier restores its actual angle and collision",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Storage action rotates the real door hinge",
+      "pass": true,
+      "details": {
+        "rotation": -1.350884807122904
+      }
+    },
+    {
+      "name": "Storage opening preserves reserved solid rooms and site boundary",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Storage door closes to its original physical orientation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Local EV demonstration changes real progress-bar geometry and elapsed state",
+      "pass": true,
+      "details": {
+        "seconds": 1.5,
+        "progress": 0.05,
+        "scale": 0.05
+      }
+    },
+    {
+      "name": "Local EV status pulses its actual visible indicator",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "EV stop resets the visible strip without a real network request",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Find-car displays a true instanced light route and bay beacon",
+      "pass": true,
+      "details": {
+        "markers": 31
+      }
+    },
+    {
+      "name": "Find-car animation modifies real marker matrices over time",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Find-car guide points remain physically free",
+      "pass": true,
+      "details": {
+        "blocked": 0
+      }
+    },
+    {
+      "name": "Turning wayfinding off hides markers and beacon",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Info action is local and reversible",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Every parking vertex and normal is finite",
+      "pass": true,
+      "details": {
+        "errors": 0
+      }
+    },
+    {
+      "name": "Every authored parking geometry carries baked project provenance",
+      "pass": true,
+      "details": {
+        "unmarked": 0
+      }
+    },
+    {
+      "name": "Every generated finish carries recoverable pixel watermark",
+      "pass": true,
+      "details": {
+        "textureCount": 3
+      }
+    },
+    {
+      "name": "Repeated static surfaces are batched to fewer than thirty-five meshes",
+      "pass": true,
+      "details": {
+        "meshes": 29,
+        "triangles": 14292
+      }
+    },
+    {
+      "name": "Parking triangulation stays below twenty thousand triangles",
+      "pass": true,
+      "details": {
+        "triangles": 14292
+      }
+    },
+    {
+      "name": "Adding all labels preserves the sixty-five draw-call upper budget",
+      "pass": true,
+      "details": {
+        "meshes": 55,
+        "labels": 26
+      }
+    },
+    {
+      "name": "Disposing twice releases every owned resource exactly once",
+      "pass": true,
+      "details": {
+        "resources": 51,
+        "incorrectCounts": []
+      }
+    },
+    {
+      "name": "Disposal removes only this section and its ownership entries",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Disposed parking stops all animation and actions",
+      "pass": true,
+      "details": {}
+    }
+  ],
+  "geometry": {
+    "meshCount": 29,
+    "triangles": 14292,
+    "labels": 55
+  },
+  "physicalRoutes": {
+    "visited": 2564,
+    "found": {
+      "parking-lift": true,
+      "parking-find-car": true,
+      "parking-barrier": true,
+      "parking-ev": true,
+      "parking-motorcycle": true,
+      "parking-info": true,
+      "parking-storage": true,
+      "parking-bicycle": true
+    },
+    "all": true
+  }
+}

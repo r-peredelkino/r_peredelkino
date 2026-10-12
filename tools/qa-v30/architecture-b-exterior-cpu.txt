@@ -1,0 +1,84 @@
+PASS: exterior geometry, complete window sampling, frame clipping, crown winding, roof clearances, real equipment footprints and disposal
+{
+  "towers": [
+    {
+      "id": 0,
+      "windows": 3600,
+      "frames": 3600,
+      "hiddenFrames": 0,
+      "lastBayPitchRatio": 1.0000000000000033,
+      "minimumBandClearance": null,
+      "minimumCornerClearance": null
+    },
+    {
+      "id": 1,
+      "windows": 2160,
+      "frames": 6480,
+      "hiddenFrames": 1782,
+      "lastBayPitchRatio": 0.9999999999999956,
+      "minimumBandClearance": -0.000006994009012828428,
+      "minimumCornerClearance": 0.03999918247425638
+    },
+    {
+      "id": 2,
+      "windows": 2160,
+      "frames": 6480,
+      "hiddenFrames": 1782,
+      "lastBayPitchRatio": 0.9999999999999946,
+      "minimumBandClearance": -0.0000035987640387702413,
+      "minimumCornerClearance": 0.03999904112808761
+    },
+    {
+      "id": 3,
+      "windows": 2160,
+      "frames": 6480,
+      "hiddenFrames": 1724,
+      "lastBayPitchRatio": 0.9999999999999952,
+      "minimumBandClearance": -0.0000035987640387702413,
+      "minimumCornerClearance": 0.03999923658755461
+    },
+    {
+      "id": 4,
+      "windows": 2232,
+      "frames": 6696,
+      "hiddenFrames": 1776,
+      "lastBayPitchRatio": 1.000000000000004,
+      "minimumBandClearance": -0.0000057265758641733555,
+      "minimumCornerClearance": 0.03999909986128808
+    },
+    {
+      "id": 5,
+      "windows": 2160,
+      "frames": 6480,
+      "hiddenFrames": 1782,
+      "lastBayPitchRatio": 0.9999999999999964,
+      "minimumBandClearance": -0.0000035987640387702413,
+      "minimumCornerClearance": 0.039999238974674695
+    }
+  ],
+  "crown": {
+    "triangles": 5184,
+    "smallestTriangle": 0.028251321754790858,
+    "minNormalAlignment": 0.9999850336793058
+  },
+  "levels": {
+    "legacyTop": 6.640000005662441,
+    "gravel": [
+      6.647998809814453,
+      6.648000240325928
+    ],
+    "finishedTerrace": 6.6949999997019765
+  },
+  "equipment": {
+    "clusters": 6,
+    "meshes": 331,
+    "vertices": 13561,
+    "parapetSamples": 9501
+  },
+  "disposal": {
+    "roofGeometries": 4,
+    "terraceGeometries": 11,
+    "terraceInstances": 3,
+    "gravelTexture": true
+  }
+}

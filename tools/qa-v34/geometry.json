@@ -1,0 +1,190 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "Passage 1–2 centreline is open",
+      "pass": true,
+      "blocked": [],
+      "route": [
+        [
+          -12.223526441588586,
+          -45.23266359327033
+        ],
+        [
+          -14.864046911790032,
+          -48.10279453914146
+        ],
+        [
+          -28.23591339550248,
+          -62.6374320214376
+        ]
+      ]
+    },
+    {
+      "name": "Passage works in both directions",
+      "pass": true,
+      "forward": {
+        "x": -28.235913395502585,
+        "z": -62.6374320214377,
+        "blocked": false
+      },
+      "back": {
+        "x": -12.22352644158848,
+        "z": -45.23266359327023,
+        "blocked": false
+      }
+    },
+    {
+      "name": "Passage side wall remains solid",
+      "pass": true,
+      "side": [
+        -16.05772701286772,
+        -52.57578322862987
+      ]
+    },
+    {
+      "name": "Rendered passage is clear at eye level",
+      "pass": true,
+      "eyeHits": []
+    },
+    {
+      "name": "Occupied volume above passage retained",
+      "pass": true,
+      "headerHits": [
+        {
+          "name": "Continuous white band between the two retail storeys",
+          "parent": "Two complete retail storeys with continuous white floor bands",
+          "distance": 4.000002333271916,
+          "point": [
+            -14.931754144629108,
+            3.4,
+            -48.17638935744481
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Tree anchors remain in planted soil",
+      "pass": true,
+      "trees": 29
+    },
+    {
+      "name": "Shrubs do not occupy paths or buildings",
+      "pass": true,
+      "shrubs": 2745
+    },
+    {
+      "name": "Source-view zone registration",
+      "pass": true,
+      "zones": [
+        {
+          "id": "lounge",
+          "x": 0.5,
+          "z": 1.4,
+          "rx": 6.8,
+          "rz": 4.6,
+          "programme": "event cinema",
+          "referenceRevision": 33
+        },
+        {
+          "id": "sport",
+          "x": 16,
+          "z": -29,
+          "rx": 10.2,
+          "rz": 5.6,
+          "referenceRevision": 33
+        },
+        {
+          "id": "play",
+          "x": 25,
+          "z": 25,
+          "rx": 12.6,
+          "rz": 9.5,
+          "referenceRevision": 33
+        },
+        {
+          "id": "events",
+          "x": -7,
+          "z": -3.1,
+          "rx": 2.8,
+          "rz": 2.8,
+          "referenceRevision": 33
+        },
+        {
+          "id": "fountain",
+          "x": -10.472389,
+          "z": 5.082383,
+          "rx": 2.7,
+          "rz": 2.6,
+          "entranceId": 3,
+          "referenceRevision": 33
+        }
+      ]
+    },
+    {
+      "name": "No repeated freestanding tower entry canopies",
+      "pass": true
+    },
+    {
+      "name": "Existing utility building blocks ground walking",
+      "pass": true,
+      "centre": [
+        40.13545110613142,
+        6.2672840862899974
+      ]
+    },
+    {
+      "name": "Office terrace spawn is free and elevated",
+      "pass": true,
+      "destination": {
+        "point": [
+          62,
+          -83
+        ],
+        "elevation": 6.705
+      },
+      "tableCount": 5,
+      "plantCount": 124
+    },
+    {
+      "name": "HVAC excluded from office occupied terrace",
+      "pass": true,
+      "clusters": 5
+    },
+    {
+      "name": "All tour destinations have a safe spawn",
+      "pass": true,
+      "places": [
+        "Двор",
+        "Арена",
+        "Променад",
+        "Площадь",
+        "Лес",
+        "Площадка",
+        "Лаунж",
+        "Проход 1–2",
+        "Терраса офиса",
+        "Офис продаж",
+        "Терраса",
+        "Мостик"
+      ]
+    },
+    {
+      "name": "Finite geometry and surface normals",
+      "pass": true,
+      "geometries": 366,
+      "normals": 3395675
+    },
+    {
+      "name": "Authorship on newly added model meshes",
+      "pass": true,
+      "missing": []
+    },
+    {
+      "name": "Fan keeps five architectural openings",
+      "pass": true,
+      "openings": 5
+    }
+  ],
+  "errors": []
+}

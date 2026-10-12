@@ -1,0 +1,81 @@
+{
+  "status": "PASS",
+  "version": 31,
+  "checkedUTC": "2026-10-11T09:53:49.518Z",
+  "checks": [
+    {
+      "name": "Winter shadow and summer clearance of a known 20×10×10 box",
+      "status": "PASS"
+    },
+    {
+      "name": "Exact box triangle classification vs independent analytic faces for every daylight minute",
+      "status": "PASS",
+      "minuteComparisons": 9128
+    },
+    {
+      "name": "Opening inside one mesh AABB stays sunlit: bounds are not a shadow proxy",
+      "status": "PASS"
+    },
+    {
+      "name": "Picker returns actual roof / wall surface and transformed geometric normal",
+      "status": "PASS"
+    },
+    {
+      "name": "Transformed instances share exact geometry and preserve nonuniform dimensions",
+      "status": "PASS"
+    },
+    {
+      "name": "Presentation visibility and transparent glass do not silently change structural rules",
+      "status": "PASS"
+    },
+    {
+      "name": "Daily sunlight intervals vs an independent one-minute box calculation",
+      "status": "PASS",
+      "days": [
+        {
+          "day": "2026-03-21",
+          "modelMinutes": 509.0625,
+          "independentMinutes": 509,
+          "intervals": [
+            {
+              "start": 392.65625,
+              "end": 788.90625
+            },
+            {
+              "start": 1011.40625,
+              "end": 1124.21875
+            }
+          ]
+        },
+        {
+          "day": "2026-06-21",
+          "modelMinutes": 1046.5625,
+          "independentMinutes": 1047,
+          "intervals": [
+            {
+              "start": 229.21875,
+              "end": 1275.78125
+            }
+          ]
+        },
+        {
+          "day": "2026-12-21",
+          "modelMinutes": 234.0625,
+          "independentMinutes": 234,
+          "intervals": [
+            {
+              "start": 540.15625,
+              "end": 774.21875
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Monthly sampling, real calendar days, progress, cancellation and non-destructive disposal",
+      "status": "PASS"
+    }
+  ],
+  "solarExposureSHA256": "c30f534475f86d95737a3186794f5663abdeb8b97daa8fe4da864bb687be2fc5",
+  "scope": "Independent synthetic geometry + interval tests. Real-scene integration/performance is separately recorded."
+}

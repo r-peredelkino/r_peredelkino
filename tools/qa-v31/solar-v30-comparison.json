@@ -1,0 +1,13 @@
+{
+  "beforeSHA256": "b3cf7cba9b500b96ed5f9d427356cb7df5b1bc0350895c1591108fa88a2a9968",
+  "before": {
+    "maxAzimuthErrorDegrees": 0.39028827326922055,
+    "maxElevationErrorDegrees": 0.5202072527878627
+  },
+  "after": {
+    "maxAzimuthErrorDegrees": 0.015446032248291885,
+    "maxElevationErrorDegrees": 0.009273740870268554
+  },
+  "reference": "solar-reference-jpl.json",
+  "samples": 198
+}

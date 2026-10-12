@@ -1,0 +1,1144 @@
+{
+  "pass": true,
+  "scope": "Three traced forecourt planting groups only",
+  "elapsedMS": 4454.476706,
+  "sourceInstances": 16895,
+  "preservedSourceHashes": [
+    {
+      "name": "Layered shrubs clipped to traced planting islands and vessels",
+      "count": 4208,
+      "matrix": "fbfcda34a6125e61c14c4e12bfdfe43f9095fe74e0b2d8da1c939588520ddc11",
+      "colour": "1d263e99603aaa9e49418d54d17dbff6c3b81d9d4d235d192794aa51257d090e",
+      "attributes": {
+        "position": "82ee51db7899af6b357a8466d8555bf92b4335d2f147f3c6f9f68da0bba10b3f",
+        "normal": "70a66974fb0c36ba8e59b48ac648d2af1302183352e8a64e453ad248e050e922",
+        "uv": "8fe4ef2b5c387cfefa6649f6182e926f1eba04ce000114215e2e589fcf27bc25",
+        "color": "cdb56b7a6c5de09615693904f53a1a25343155598b3b99ffd4c26ca09ec0f877",
+        "rpAuthor": "ac96ad0b88bcf8566fca11a7ffc94129fba1f428f8f9867dc19ad98597def349"
+      },
+      "index": null,
+      "metadata": "c16b276f00e532e5415d0e86daaef03c99021616f36d3a8ec4127c3d0d30873c",
+      "geometryTriangles": 612,
+      "cast": true,
+      "receive": true
+    },
+    {
+      "name": "Fine cream-flowering perennial stems rooted in their planting surface",
+      "count": 11270,
+      "matrix": "aaf1b6cea5e9a37268e6916984c98300ade150a1c08c11a423b569207c19b94e",
+      "colour": null,
+      "attributes": {
+        "position": "feef5a9ca3ee3ee0f2bcff39e308addade61720a1b3964003ece2bedc661c4fe",
+        "normal": "f0bb8ebe829a8d736b19c5bfee37aba9c388f8c7bc7ca5f740ef2808e3de6364",
+        "color": "50e1f7bbd8dca643a302d9104469652be266d5abd95fd91e4a682b9cd9e6aec7",
+        "uv": "f4cf7b76a8ecab136b57c32b1e915db6b2a0068d7448d5d0e56303faf8380308",
+        "rpAuthor": "07eb8e26f2501242e5c91bdd9ad7ffd1d986c5793c269d6865f3335263469bc6"
+      },
+      "index": null,
+      "metadata": "2dca344c3503e9eebfc643dd7b220fde3de24577ecead2a787ad51c1b00487cb",
+      "geometryTriangles": 264,
+      "cast": false,
+      "receive": true
+    },
+    {
+      "name": "Rooted burgundy perennial stems in source-traced colour patches",
+      "count": 1417,
+      "matrix": "6735aaed8dba877345de50ce59b5cf9bc08d97b6e57cab2d92dbe8802fbb575e",
+      "colour": null,
+      "attributes": {
+        "position": "2a2acd406bb1d6b1123090215874da92dd281c352fd177ee58a3553dc17f7b94",
+        "normal": "f0bb8ebe829a8d736b19c5bfee37aba9c388f8c7bc7ca5f740ef2808e3de6364",
+        "color": "3b45a809371ad55882e34943f20eef44a4ee1cd0c8cadff31605fa771bd743b6",
+        "uv": "f4cf7b76a8ecab136b57c32b1e915db6b2a0068d7448d5d0e56303faf8380308",
+        "rpAuthor": "f2fa675cc07d1b0e2bdf611666d6fc6ec8ad74206ec71372ef15377cdee216fe"
+      },
+      "index": null,
+      "metadata": "1238ff466b14f4f8564833d576e2dc71e97b1e0205203873ad11de78c2976445",
+      "geometryTriangles": 264,
+      "cast": false,
+      "receive": true
+    }
+  ],
+  "checks": [
+    "Original Float32 transforms, colours, geometry, metadata and footprint anchors match v30",
+    "Other promenade sources and all forest anchors are unchanged",
+    "Near and far meshes share source instance buffers; every anchor occurs once per level",
+    "Both complete transformed geometries lie inside the same conservative bounds",
+    "Original near geometry/material and selected far-only draws",
+    "Stable complementary colour/depth transition with no frame-random input",
+    "Seasonal hide/show and original summer matrix restoration",
+    "Optical zoom and full-detail QA override",
+    "Each owned instance object is disposed once"
+  ],
+  "cullingEstimateOnly": {
+    "forecourt-source-day": {
+      "full": {
+        "triangles": 4852656,
+        "draws": 35,
+        "sourceInstances": 13823,
+        "shadowEligibleTrianglesInMainFrustum": 2116296
+      },
+      "automatic": {
+        "triangles": 2184376,
+        "draws": 35,
+        "sourceInstances": 13823,
+        "shadowEligibleTrianglesInMainFrustum": 940576
+      },
+      "reduction": 0.5498597056951904,
+      "states": [
+        {
+          "name": "Layered shrubs clipped to traced planting islands and vessels",
+          "mode": "auto",
+          "sourceCount": 4208,
+          "originalTriangles": 612,
+          "reducedTriangles": 272,
+          "cells": [
+            {
+              "sourceCount": 198,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 244,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 497,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 74,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 17,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 28,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 172,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 497,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 785,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 337,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 3,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 122,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 325,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 113,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 7,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 44,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 180,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 38,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 270,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 18,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 186,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 7,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 44,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        },
+        {
+          "name": "Fine cream-flowering perennial stems rooted in their planting surface",
+          "mode": "auto",
+          "sourceCount": 11270,
+          "originalTriangles": 264,
+          "reducedTriangles": 120,
+          "cells": [
+            {
+              "sourceCount": 604,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 551,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1422,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 212,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 49,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 74,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 496,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1508,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2102,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 987,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 6,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 373,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 620,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 204,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 16,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 129,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 529,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 105,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 670,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 53,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 538,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 20,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        },
+        {
+          "name": "Rooted burgundy perennial stems in source-traced colour patches",
+          "mode": "auto",
+          "sourceCount": 1417,
+          "originalTriangles": 264,
+          "reducedTriangles": 120,
+          "cells": [
+            {
+              "sourceCount": 978,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 262,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 128,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 48,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        }
+      ]
+    },
+    "arena-source-matched": {
+      "full": {
+        "triangles": 1072008,
+        "draws": 17,
+        "sourceInstances": 3072,
+        "shadowEligibleTrianglesInMainFrustum": 459000
+      },
+      "automatic": {
+        "triangles": 482640,
+        "draws": 17,
+        "sourceInstances": 3072,
+        "shadowEligibleTrianglesInMainFrustum": 204000
+      },
+      "reduction": 0.5497794792576175,
+      "states": [
+        {
+          "name": "Layered shrubs clipped to traced planting islands and vessels",
+          "mode": "auto",
+          "sourceCount": 4208,
+          "originalTriangles": 612,
+          "reducedTriangles": 272,
+          "cells": [
+            {
+              "sourceCount": 198,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 244,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 497,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 74,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 17,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 28,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 172,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 497,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 785,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 337,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 3,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 122,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 325,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 113,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 7,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 44,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 180,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 38,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 270,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 18,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 186,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 7,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 44,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        },
+        {
+          "name": "Fine cream-flowering perennial stems rooted in their planting surface",
+          "mode": "auto",
+          "sourceCount": 11270,
+          "originalTriangles": 264,
+          "reducedTriangles": 120,
+          "cells": [
+            {
+              "sourceCount": 604,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 551,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1422,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 212,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 49,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 74,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 496,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1508,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2102,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 987,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 6,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 373,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 620,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 204,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 16,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 129,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 529,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 105,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 670,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 53,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 538,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 20,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        },
+        {
+          "name": "Rooted burgundy perennial stems in source-traced colour patches",
+          "mode": "auto",
+          "sourceCount": 1417,
+          "originalTriangles": 264,
+          "reducedTriangles": 120,
+          "cells": [
+            {
+              "sourceCount": 978,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 262,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 128,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 48,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        }
+      ]
+    },
+    "promenade-eye": {
+      "full": {
+        "triangles": 4244736,
+        "draws": 36,
+        "sourceInstances": 12211,
+        "shadowEligibleTrianglesInMainFrustum": 1795608
+      },
+      "automatic": {
+        "triangles": 3384356,
+        "draws": 38,
+        "sourceInstances": 13200,
+        "shadowEligibleTrianglesInMainFrustum": 1349732
+      },
+      "reduction": 0.20269340660997526,
+      "states": [
+        {
+          "name": "Layered shrubs clipped to traced planting islands and vessels",
+          "mode": "auto",
+          "sourceCount": 4208,
+          "originalTriangles": 612,
+          "reducedTriangles": 272,
+          "cells": [
+            {
+              "sourceCount": 198,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 244,
+              "nearCoverage": 0.27696996462114365,
+              "nearVisible": true,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 497,
+              "nearCoverage": 0.997330112291197,
+              "nearVisible": true,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 74,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 17,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 28,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 172,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 497,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 785,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 337,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 3,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 122,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 325,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 113,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 7,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 44,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 180,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 38,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 270,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 18,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 186,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 7,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 44,
+              "nearCoverage": 0.12890801125592388,
+              "nearVisible": true,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2,
+              "nearCoverage": 0.7884401194530412,
+              "nearVisible": true,
+              "farVisible": true
+            }
+          ]
+        },
+        {
+          "name": "Fine cream-flowering perennial stems rooted in their planting surface",
+          "mode": "auto",
+          "sourceCount": 11270,
+          "originalTriangles": 264,
+          "reducedTriangles": 120,
+          "cells": [
+            {
+              "sourceCount": 604,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 551,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1422,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 212,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 49,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 74,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 496,
+              "nearCoverage": 0.6583340606176964,
+              "nearVisible": true,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 1508,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 2102,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 987,
+              "nearCoverage": 0.0013384924114583363,
+              "nearVisible": true,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 2,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 6,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 373,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 620,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 204,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 16,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 129,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 529,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 105,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 670,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 53,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 538,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 20,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        },
+        {
+          "name": "Rooted burgundy perennial stems in source-traced colour patches",
+          "mode": "auto",
+          "sourceCount": 1417,
+          "originalTriangles": 264,
+          "reducedTriangles": 120,
+          "cells": [
+            {
+              "sourceCount": 978,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 1,
+              "nearCoverage": 1,
+              "nearVisible": true,
+              "farVisible": false
+            },
+            {
+              "sourceCount": 262,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 128,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            },
+            {
+              "sourceCount": 48,
+              "nearCoverage": 0,
+              "nearVisible": false,
+              "farVisible": true
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "gpuTiming": "Not measured here. CPU frustum counts and shadow eligibility are not GPU frame time or FPS."
+}

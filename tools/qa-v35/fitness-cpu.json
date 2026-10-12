@@ -1,0 +1,306 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "Declared source3rd-floor unit is adapted to2nd floor",
+      "pass": true
+    },
+    {
+      "name": "105m2 unit has not been stretched to entire office floor",
+      "pass": true
+    },
+    {
+      "name": "Eastern street-facing registration",
+      "pass": true
+    },
+    {
+      "name": "All9 equipment footprints fit without skipping",
+      "pass": true,
+      "equipment": [
+        {
+          "id": "treadmill-1",
+          "kind": "treadmill"
+        },
+        {
+          "id": "treadmill-2",
+          "kind": "treadmill"
+        },
+        {
+          "id": "elliptical-1",
+          "kind": "elliptical"
+        },
+        {
+          "id": "cycle-1",
+          "kind": "cycle"
+        },
+        {
+          "id": "rower-1",
+          "kind": "rower"
+        },
+        {
+          "id": "cable-1",
+          "kind": "cable"
+        },
+        {
+          "id": "cable-2",
+          "kind": "cable"
+        },
+        {
+          "id": "bench-1",
+          "kind": "bench"
+        },
+        {
+          "id": "weights-1",
+          "kind": "freeweights"
+        }
+      ]
+    },
+    {
+      "name": "Whole source unit outline remains inside retained office0",
+      "pass": true,
+      "outsideSamples": 0
+    },
+    {
+      "name": "treadmill-1 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "treadmill-2 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "elliptical-1 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "cycle-1 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "rower-1 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "cable-1 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "cable-2 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "bench-1 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "weights-1 fits105m2 and avoids source service rooms",
+      "pass": true,
+      "outside": 0,
+      "serviceHits": 0
+    },
+    {
+      "name": "No equipment working footprints overlap",
+      "pass": true,
+      "overlapCount": 0
+    },
+    {
+      "name": "Floor2 spawn is clear",
+      "pass": true
+    },
+    {
+      "name": "Initial walking frame begins past the retained source entrance",
+      "pass": true,
+      "sourceEntry": {
+        "x": 51.968509850607205,
+        "z": -70.12668270791738
+      },
+      "initialSpawn": {
+        "x": 54.17906193768237,
+        "z": -69.86389102173304,
+        "y": 5.28,
+        "yaw": -0.08760306351630162,
+        "pitch": -0.07196191856522344,
+        "reason": "Clear main aisle past the retained source entrance, looking along the equipment row"
+      }
+    },
+    {
+      "name": "Source and exit POIs retain the original entrance location",
+      "pass": true
+    },
+    {
+      "name": "Own source partitions do not hide the initial equipment-row view",
+      "pass": true,
+      "visible": [
+        "treadmill-1",
+        "treadmill-2",
+        "elliptical-1",
+        "cycle-1",
+        "rower-1",
+        "cable-2",
+        "bench-1",
+        "weights-1"
+      ],
+      "scope": "Interior geometry rays only; native cloned context must also be checked"
+    },
+    {
+      "name": "Equipment view targets are below human eye height",
+      "pass": true
+    },
+    {
+      "name": "functional interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "fitness-reception interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "treadmill-1 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "treadmill-2 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "elliptical-1 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "cycle-1 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "rower-1 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "cable-1 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "cable-2 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "bench-1 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "weights-1 interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "fitness-source interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "fitness-locker interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "exit interactive point is free",
+      "pass": true
+    },
+    {
+      "name": "All interactive points are accessible through real world paths",
+      "pass": true,
+      "nodes": 17601,
+      "reached": [
+        "weights-1",
+        "fitness-source",
+        "fitness-locker",
+        "exit",
+        "rower-1",
+        "cycle-1",
+        "bench-1",
+        "elliptical-1",
+        "fitness-reception",
+        "treadmill-1",
+        "cable-1",
+        "treadmill-2",
+        "functional",
+        "cable-2"
+      ],
+      "unreachable": []
+    },
+    {
+      "name": "Source entrance opening passes in both directions",
+      "pass": true
+    },
+    {
+      "name": "Source services have visible walls and closed doors",
+      "pass": true
+    },
+    {
+      "name": "Null equipment ID starts all supported animations",
+      "pass": true
+    },
+    {
+      "name": "Both treadmill textures actually scroll",
+      "pass": true
+    },
+    {
+      "name": "Resistance clamps to cosmetic levels1–10",
+      "pass": true
+    },
+    {
+      "name": "Stopping holds animated textures",
+      "pass": true
+    },
+    {
+      "name": "All geometry and200 animation frames are finite",
+      "pass": true,
+      "bad": [],
+      "geometryCount": 39,
+      "triangles": 7984,
+      "stats": {
+        "geometries": 39,
+        "materials": 16,
+        "textures": 11,
+        "equipment": 9,
+        "skipped": 0
+      }
+    },
+    {
+      "name": "Authored materials have textured surfaces and shared batches",
+      "pass": true,
+      "stats": {
+        "geometries": 39,
+        "materials": 16,
+        "textures": 11,
+        "equipment": 9,
+        "skipped": 0
+      },
+      "partitions": [
+        "Warm neutral matte microconcrete service partitions",
+        "Graphite matte microconcrete perimeter partitions"
+      ],
+      "ceiling": {
+        "roughness": 1,
+        "metalness": 0
+      },
+      "instrumentFace": "Authored dark instrument face · cyan metrics and graph"
+    },
+    {
+      "name": "Idempotent disposal removes resources from parent ownership",
+      "pass": true
+    }
+  ]
+}

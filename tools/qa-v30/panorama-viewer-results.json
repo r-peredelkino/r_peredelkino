@@ -1,0 +1,332 @@
+{
+  "errors": [],
+  "failedResponses": [],
+  "scenes": [
+    {
+      "name": "forecourt",
+      "scene": "node1",
+      "area": "forecourt",
+      "before": false,
+      "view": {
+        "pan": 45,
+        "tilt": -34,
+        "fov": 54
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 33,
+      "residentTiles": 33,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 33,
+        "loaded": 33,
+        "errors": 0,
+        "maxResidentTiles": 33,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "arena",
+      "scene": "node1",
+      "area": "arena",
+      "before": false,
+      "view": {
+        "pan": -37,
+        "tilt": -37,
+        "fov": 58
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 35,
+      "residentTiles": 65,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 65,
+        "loaded": 65,
+        "errors": 0,
+        "maxResidentTiles": 65,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "forest",
+      "scene": "node1",
+      "area": "forest",
+      "before": false,
+      "view": {
+        "pan": -84,
+        "tilt": -12,
+        "fov": 91
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 66,
+      "residentTiles": 109,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 109,
+        "loaded": 109,
+        "errors": 0,
+        "maxResidentTiles": 109,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "metro",
+      "scene": "node1",
+      "area": "metro",
+      "before": false,
+      "view": {
+        "pan": 76.22,
+        "tilt": -14.68,
+        "fov": 63
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 35,
+      "residentTiles": 127,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 127,
+        "loaded": 127,
+        "errors": 0,
+        "maxResidentTiles": 127,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "courtyard",
+      "scene": "node3",
+      "area": "courtyard",
+      "before": false,
+      "view": {
+        "pan": 1.9,
+        "tilt": -31,
+        "fov": 78
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 48,
+      "residentTiles": 48,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 175,
+        "loaded": 175,
+        "errors": 0,
+        "maxResidentTiles": 127,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "courtyard-before",
+      "scene": "node6",
+      "area": "courtyard",
+      "before": true,
+      "view": {
+        "pan": 1.9,
+        "tilt": -31,
+        "fov": 78
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 42,
+      "residentTiles": 42,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 217,
+        "loaded": 217,
+        "errors": 0,
+        "maxResidentTiles": 127,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "evening-before",
+      "scene": "node5",
+      "area": "forecourt",
+      "before": true,
+      "view": {
+        "pan": 45,
+        "tilt": -34,
+        "fov": 54
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 28,
+      "residentTiles": 28,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 245,
+        "loaded": 245,
+        "errors": 0,
+        "maxResidentTiles": 127,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "forecourt-evening",
+      "scene": "node2",
+      "area": "forecourt",
+      "before": false,
+      "view": {
+        "pan": 45,
+        "tilt": -34,
+        "fov": 54
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 33,
+      "residentTiles": 33,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 278,
+        "loaded": 278,
+        "errors": 0,
+        "maxResidentTiles": 127,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "forecourt-before",
+      "scene": "node4",
+      "area": "forecourt",
+      "before": true,
+      "view": {
+        "pan": 45,
+        "tilt": -34,
+        "fov": 54
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 28,
+      "residentTiles": 28,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": true,
+      "width": 1700,
+      "height": 1200,
+      "stats": {
+        "requests": 323,
+        "loaded": 317,
+        "errors": 0,
+        "maxResidentTiles": 127,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    },
+    {
+      "name": "mobile-forecourt",
+      "scene": "node1",
+      "area": "forecourt",
+      "before": false,
+      "view": {
+        "pan": 45,
+        "tilt": -34,
+        "fov": 54
+      },
+      "previewReady": true,
+      "detailsReady": true,
+      "visibleTiles": 51,
+      "residentTiles": 51,
+      "pendingTiles": 0,
+      "failedTiles": 0,
+      "labelsVisible": false,
+      "width": 390,
+      "height": 844,
+      "stats": {
+        "requests": 374,
+        "loaded": 368,
+        "errors": 0,
+        "maxResidentTiles": 127,
+        "originalPixels": true
+      },
+      "freeMoving3D": false
+    }
+  ],
+  "interactions": [
+    {
+      "name": "same-node-readiness",
+      "prior": true,
+      "immediate": false,
+      "final": true,
+      "priorTiles": 33,
+      "finalTiles": 35
+    },
+    {
+      "name": "building-callback",
+      "value": 3
+    },
+    {
+      "name": "keyboard",
+      "before": {
+        "pan": 45,
+        "tilt": -34,
+        "fov": 54
+      },
+      "after": {
+        "pan": 41,
+        "tilt": -30,
+        "fov": 46
+      }
+    },
+    {
+      "name": "labels",
+      "before": true,
+      "after": false
+    },
+    {
+      "name": "mobile-overflow",
+      "width": 390,
+      "viewport": 390
+    },
+    {
+      "name": "closed",
+      "events": {
+        "closed": 1,
+        "building": 3
+      },
+      "remainingLayers": 0
+    }
+  ],
+  "pass": true
+}

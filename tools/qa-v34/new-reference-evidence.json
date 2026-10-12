@@ -1,0 +1,48 @@
+{
+  "revision": 34,
+  "references": [
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.44.04.png",
+      "sha256": "5a16cd0579365abe4c5a958a53002cad1bac8c06268d03e624a8a54f76c89402"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.46.03.png",
+      "sha256": "bac314fc45b55bd894fc21060eae912f3b106831d7728def24a130d3326f1eb0"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.46.40.png",
+      "sha256": "6b860e18c2e34fedd139a4f6d77c07ba0d4faed44aab56ba81da5e3480d25dfc"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.47.38.png",
+      "sha256": "405f96340a592d005098c99dd39bc7b3a5e1b6b2288ffd9bbc0e86c466aa4f3c"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.47.43.png",
+      "sha256": "3e65af241f0aa438901dc807b0c5c5b903eac6a054ce4cef731c1b2605d0b02e"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.48.23.png",
+      "sha256": "3c222bd4db4c4c56898ffb88edb4d07c8f0df49e7b706c8f933b0ff4e4b57e9c"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.48.46.png",
+      "sha256": "ecea14f7f944dacdccee633f1103f0e16d1f973d07a6fd81d8d56ebb6751e46f"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.49.53.png",
+      "sha256": "e5df25cddc07c1da222d00a10589a5e593a20b2b03f8bd80e53e85be6a325842"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.50.09.png",
+      "sha256": "bcbdd1c71dd9fe829c7ec6b267d985dd9fe3bca9bceb9c955f86d7d0b2f3f97a"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 21.52.58.png",
+      "sha256": "3c52acfecffb8740df27ffad7c250c2cb143b2e183995b4008f64871bc0341fc"
+    }
+  ],
+  "attachmentsInspected": 10,
+  "originalArchitectureRetained": true,
+  "authoredAdditions": "Optional cyber courtyard and concept interiors; not developer specifications"
+}

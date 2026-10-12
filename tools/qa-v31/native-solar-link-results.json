@@ -1,0 +1,66 @@
+{
+  "version": 31,
+  "base": "http://127.0.0.1:8091/candidate31/",
+  "runtimeRoot": "/tmp/rodina-reference-qa-v31/candidate31",
+  "startedUTC": "2026-10-11T10:09:46.755Z",
+  "errors": [],
+  "pass": true,
+  "selection": {
+    "release": "31",
+    "welcomeHidden": true,
+    "originalOpen": false,
+    "mapView": "district",
+    "panelOpen": true,
+    "parts": {
+      "date": "2026-10-11",
+      "minutes": 432,
+      "time": "07:12",
+      "year": 2026,
+      "month": 10,
+      "monthIndex": 9,
+      "day": 11,
+      "seconds": 0,
+      "utcOffsetMinutes": 180
+    },
+    "elevation": 2.100255087078919,
+    "azimuth": 105.21093747492262,
+    "region": "quarter",
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+    "glError": 0
+  },
+  "servedFiles": [
+    {
+      "name": "index.html",
+      "sha256": "a37d942e28060a961f174b9bc609a3ef4d5a083cf5b40733b37432deb9e4ce6d"
+    },
+    {
+      "name": "environment.js",
+      "sha256": "a9a42c872efdb0e99f73f9841c05906095eedc03ccd738ef1e1ef583c4f87ea2"
+    },
+    {
+      "name": "solar-analysis-panel.js",
+      "sha256": "ffbe56f8af36cf3a3fcc5b9a9d43409fd743de9fd07d8e164e144f6b8b6c96ca"
+    },
+    {
+      "name": "solar.js",
+      "sha256": "8bd58e25f8a59280f7e17c8de67db4a1806f67b5ea302f502ba2109d55da1447"
+    },
+    {
+      "name": "solar-clock.js",
+      "sha256": "1e508fc780635fb6b8652ddcc2b79e67b5d54d67d5b9fbca15a851d1d89630b4"
+    },
+    {
+      "name": "architectural-lighting.js",
+      "sha256": "42ae7288a3fd8f394d21f315d363c5016c692767f2f6a23066be46b649f84a3b"
+    },
+    {
+      "name": "solar-shadow-camera.js",
+      "sha256": "c57df4be0750b13e7fd5b057cd12102020513a7984a092686d89b21b20284ad5"
+    },
+    {
+      "name": "apartment3d.js",
+      "sha256": "b741a6f89d72acc3d2c1c1ddd01bb2c13362b653de6393935c95260381bfa240"
+    }
+  ],
+  "finishedUTC": "2026-10-11T10:09:52.196Z"
+}

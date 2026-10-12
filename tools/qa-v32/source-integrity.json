@@ -1,0 +1,18 @@
+{
+  "verifiedUTC": "2026-10-11T11:31:04.858412+00:00",
+  "baseInstalledUnchanged": true,
+  "sourceAssetFilesUnchanged": 1736,
+  "coordinateDataUnchanged": {
+    "complex-footprints.js": true,
+    "public-realm-layout.js": true,
+    "courtyard-layout.js": true,
+    "forecourt-reference-data.js": true,
+    "transport-data.js": true,
+    "local-access-data.js": true,
+    "neighbor-footprints-data.js": true,
+    "neighbor-building-layout.js": true,
+    "context-services-data.js": true,
+    "arena-landscape-data.js": true
+  },
+  "originalPanoramasUnmodified": true
+}

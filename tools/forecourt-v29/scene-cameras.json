@@ -1,0 +1,182 @@
+[
+  {
+    "node": "node1",
+    "userdata": {
+      "datetime": "09.08.2024 12:23",
+      "source": "p1d",
+      "latitude": "55.637298",
+      "heading": "-236.42",
+      "customnodeid": "p1d_after",
+      "author": "",
+      "tags": "after|day",
+      "title": "Вид 1 день",
+      "copyright": "",
+      "description": "",
+      "info": "",
+      "altitude": "60.00",
+      "longitude": "37.351367",
+      "nodeid": "node1",
+      "comment": ""
+    },
+    "view": {
+      "fovmode": "0",
+      "pannorth": "-236.42"
+    },
+    "start": {
+      "tilt": "0.19",
+      "pan": "6.68",
+      "projection": "4",
+      "fov": "76.91"
+    }
+  },
+  {
+    "node": "node2",
+    "userdata": {
+      "datetime": "09.08.2024 19:41",
+      "source": "p1e",
+      "latitude": "55.637231",
+      "heading": "123.87",
+      "customnodeid": "p1e_after",
+      "author": "",
+      "tags": "after|evening",
+      "title": "Вид 1 вечер",
+      "copyright": "",
+      "description": "",
+      "info": "",
+      "altitude": "60.00",
+      "longitude": "37.351266",
+      "nodeid": "node2",
+      "comment": ""
+    },
+    "view": {
+      "fovmode": "0",
+      "pannorth": "123.87"
+    },
+    "start": {
+      "tilt": "0",
+      "pan": "6.68",
+      "projection": "4",
+      "fov": "76.91"
+    }
+  },
+  {
+    "node": "node3",
+    "userdata": {
+      "datetime": "09.08.2024 12:25",
+      "source": "p2",
+      "latitude": "55.636534",
+      "heading": "-81.16",
+      "customnodeid": "p2_after",
+      "author": "",
+      "tags": "after",
+      "title": "Вид 2 день",
+      "copyright": "",
+      "description": "",
+      "info": "",
+      "altitude": "130.00",
+      "longitude": "37.355754",
+      "nodeid": "node3",
+      "comment": ""
+    },
+    "view": {
+      "fovmode": "0",
+      "pannorth": "-81.16"
+    },
+    "start": {
+      "tilt": "-19.87",
+      "pan": "1.9",
+      "projection": "4",
+      "fov": "70"
+    }
+  },
+  {
+    "node": "node4",
+    "userdata": {
+      "datetime": "09.08.2024 12:23",
+      "source": "p1d",
+      "latitude": "55.637298",
+      "heading": "-236.418",
+      "customnodeid": "p1d_before",
+      "author": "",
+      "tags": "before",
+      "title": "Вид 1 день",
+      "copyright": "",
+      "description": "",
+      "info": "",
+      "altitude": "60.00",
+      "longitude": "37.351367",
+      "nodeid": "node4",
+      "comment": ""
+    },
+    "view": {
+      "fovmode": "0",
+      "pannorth": "-236.418"
+    },
+    "start": {
+      "tilt": "0",
+      "pan": "6.68",
+      "projection": "4",
+      "fov": "76.91"
+    }
+  },
+  {
+    "node": "node5",
+    "userdata": {
+      "datetime": "09.08.2024 19:41",
+      "source": "p1e",
+      "latitude": "55.637231",
+      "heading": "123.872",
+      "customnodeid": "p1e_before",
+      "author": "",
+      "tags": "before|evening",
+      "title": "Вид 1 вечер",
+      "copyright": "",
+      "description": "",
+      "info": "",
+      "altitude": "60.00",
+      "longitude": "37.351266",
+      "nodeid": "node5",
+      "comment": ""
+    },
+    "view": {
+      "fovmode": "0",
+      "pannorth": "123.872"
+    },
+    "start": {
+      "tilt": "0",
+      "pan": "0",
+      "projection": "4",
+      "fov": "70"
+    }
+  },
+  {
+    "node": "node6",
+    "userdata": {
+      "datetime": "09.08.2024 12:25",
+      "source": "p2",
+      "latitude": "55.636534",
+      "heading": "-81.159",
+      "customnodeid": "p2_before",
+      "author": "",
+      "tags": "before",
+      "title": "Вид 2 день",
+      "copyright": "",
+      "description": "",
+      "info": "",
+      "altitude": "130.00",
+      "longitude": "37.355754",
+      "nodeid": "node6",
+      "comment": ""
+    },
+    "view": {
+      "fovmode": "0",
+      "pannorth": "-81.159"
+    },
+    "start": {
+      "tilt": "-19.87",
+      "pan": "1.9",
+      "projection": "4",
+      "fov": "70"
+    }
+  }
+]

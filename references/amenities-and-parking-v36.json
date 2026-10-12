@@ -1,0 +1,236 @@
+{
+  "schemaVersion": 1,
+  "revision": 36,
+  "studiedAtUTC": "2026-10-11T22:08:47.581352+00:00",
+  "studiedAtMoscow": "2026-10-12T01:08:47.581352+03:00",
+  "sources": [
+    {
+      "id": "developer-home",
+      "url": "https://rodina-peredelkino.ru/",
+      "kind": "official-developer-website",
+      "retrievedSha256": "7cf840cbccc16f639d2e522e15e09c3ea5b553717873050535cd014f0635b2af",
+      "webReference": "turn20view0",
+      "verification": "HTTP download plus web open; official image URLs parsed from downloaded HTML",
+      "byteLength": 284080
+    },
+    {
+      "id": "developer-brochure",
+      "url": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "kind": "official-developer-brochure",
+      "retrievedSha256": "9520afc781211db3eff0168b096c767a94056fcc1912c5e558baa02e94b69d6b",
+      "byteLength": 15346070,
+      "pdfPages": 47,
+      "verification": "HTTP download, pypdf text inspection, visually rendered pages 38,39,40,41,45",
+      "notWorkingDrawings": true
+    }
+  ],
+  "verifiedFacts": [
+    {
+      "id": "lobbies",
+      "source": "developer-home",
+      "locator": "Comfort and Services",
+      "claim": "Each residential building has designer lobby seating and coworking.",
+      "label": "Лобби в каждом жилом корпусе",
+      "value": "Each residential building has designer lobby seating and coworking.",
+      "sourceUrl": "https://rodina-peredelkino.ru/",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "resident-club",
+      "source": "developer-home",
+      "locator": "Club infrastructure",
+      "claim": "Resident amenities include TV lounge with kitchen/bar, training room, kids room and parental coffee coworking.",
+      "label": "Клубная инфраструктура",
+      "value": "Resident amenities include TV lounge with kitchen/bar, training room, kids room and parental coffee coworking.",
+      "sourceUrl": "https://rodina-peredelkino.ru/",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "lobby-utility",
+      "source": "developer-brochure",
+      "locator": {
+        "page": 38
+      },
+      "claim": "Every lobby includes stroller, bicycle and scooter storage, guest WC and paw wash.",
+      "label": "Сервисные помещения лобби",
+      "value": "Every lobby includes stroller, bicycle and scooter storage, guest WC and paw wash.",
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "lounge-use",
+      "source": "developer-brochure",
+      "locator": {
+        "page": 39
+      },
+      "claim": "The lounge supports neighbor meetings with TV and kitchen/bar.",
+      "label": "Соседская гостиная",
+      "value": "The lounge supports neighbor meetings with TV and kitchen/bar.",
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "individual-training",
+      "source": "developer-brochure",
+      "locator": {
+        "page": 40
+      },
+      "claim": "Individual-training room has big TV, a separate entrance and no exercise machines.",
+      "label": "Индивидуальные тренировки",
+      "value": "Individual-training room has big TV, a separate entrance and no exercise machines.",
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "kids-access",
+      "source": "developer-brochure",
+      "locator": {
+        "page": 41
+      },
+      "claim": "Kids room is entered exclusively through the parents’ coffee coworking.",
+      "label": "Вход в детскую",
+      "value": "Kids room is entered exclusively through the parents’ coffee coworking.",
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "parking",
+      "source": "developer-brochure",
+      "locator": {
+        "page": 45
+      },
+      "claim": "Underground parking includes bicycle/motorcycle spaces and EV-installation-ready bays; storage rooms are on floor −1.",
+      "label": "Паркинг и кладовые",
+      "value": "Underground parking includes bicycle/motorcycle spaces and EV-installation-ready bays; storage rooms are on floor −1.",
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "ev-installation",
+      "source": "developer-home",
+      "locator": "Technologies and Security",
+      "claim": "EV charging is described as installation provision, not a confirmed installed-charger inventory.",
+      "label": "Подготовка к электрозарядке",
+      "value": "EV charging is described as installation provision, not a confirmed installed-charger inventory.",
+      "sourceUrl": "https://rodina-peredelkino.ru/",
+      "status": "advertised",
+      "note": "Confirmed as developer’s advertised concept, not a measured as-built survey."
+    },
+    {
+      "id": "parking-capacity",
+      "label": "Общая вместимость паркинга",
+      "value": null,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "unconfirmed",
+      "note": "Not established by inspected current primary materials; no numerical value used."
+    },
+    {
+      "id": "parking-levels",
+      "label": "Количество уровней паркинга",
+      "value": null,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "unconfirmed",
+      "note": "Not established by inspected current primary materials; no numerical value used."
+    },
+    {
+      "id": "parking-clearance",
+      "label": "Чистая высота под коммуникациями",
+      "value": null,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "unconfirmed",
+      "note": "Not established by inspected current primary materials; no numerical value used."
+    },
+    {
+      "id": "parking-ramp",
+      "label": "Координаты и схема въезда/выезда",
+      "value": null,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "unconfirmed",
+      "note": "Not established by inspected current primary materials; no numerical value used."
+    },
+    {
+      "id": "parking-installed-ev",
+      "label": "Количество установленных зарядок",
+      "value": null,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "status": "unconfirmed",
+      "note": "Not established by inspected current primary materials; no numerical value used."
+    }
+  ],
+  "parking": {
+    "underground": true,
+    "storageFloor": -1,
+    "bicycleSpaces": true,
+    "motorcycleSpaces": true,
+    "evInstallationProvision": true,
+    "capacity": null,
+    "parkingLevelCount": null,
+    "installedEVChargerCount": null,
+    "clearCeilingHeightMeters": null,
+    "entryRampWorldCoordinates": null,
+    "exitTrafficScheme": null,
+    "unknownReason": "Not established by the inspected current official homepage, brochure or supplied images. Adjacent gate, showroom bays and ramps must not be labeled as measured engineering drawings."
+  },
+  "placement": {
+    "gymFloor": 1,
+    "gymFloorBasis": "Latest explicit user correction; inspected primary materials do not identify exact amenity floor or room boundary.",
+    "fullAmenityWorkingPlanVerified": false,
+    "apartmentLiftHallWorkingPlanVerified": false,
+    "roomDimensionBasis": "Author reconstruction from supplied renders and source building envelope; no millimetre-accurate plan claim.",
+    "previousOfficeUnit35": {
+      "originalSourceFloor": 3,
+      "originalAreaSquareMeters": 105,
+      "status": "Separate office-lot precedent, not an official first-floor resident-amenity plan."
+    },
+    "originalMaterialPreservation": true
+  },
+  "implementationGuidance": {
+    "requiredRoomTopology": [
+      [
+        "entrance-lobby",
+        "lift-hall"
+      ],
+      [
+        "entrance-lobby",
+        "stroller-storage"
+      ],
+      [
+        "entrance-lobby",
+        "guest-wc"
+      ],
+      [
+        "entrance-lobby",
+        "hand-wash"
+      ],
+      [
+        "entrance-lobby",
+        "paw-wash"
+      ],
+      [
+        "coffee-coworking",
+        "kids-room"
+      ],
+      [
+        "lift-hall",
+        "apartment-hall"
+      ],
+      [
+        "lift-hall",
+        "parking"
+      ]
+    ],
+    "kidsRoomExteriorDoor": false,
+    "trainingRoom": "Quiet separate access; render-faithful floor1 yoga/self-training room should not be described as developer-confirmed machine gym. Any additional machine equipment is author proposal.",
+    "parkingShowroom": "A representative walkable section with reference-based design. Modeled bay count is not project capacity; exact −1 survey registration unknown."
+  },
+  "attachmentManifest": "references/source-amenities-v36.json",
+  "sourceFactsAreSeparateFromAuthorFitout": true,
+  "noUnverifiedParkingNumbersUsed": true
+}

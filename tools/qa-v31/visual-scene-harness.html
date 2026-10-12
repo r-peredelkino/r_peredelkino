@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ru"><head><meta charset="utf-8"><link rel="icon" href="data:,"><title>RODINA forecourt scene QA</title><style>html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#b0cede}canvas{display:block}</style></head><body>
+<script type="module">
+// QA harness only. The same actual model, cameras and light settings render
+// baseline and candidate. PNGs come directly from WebGL without browser UI.
+const THREE=await import('./vendor/three.module.js');
+const {createComplex}=await import('./complex-model.js');
+const {complexFootprints:f}=await import('./complex-footprints.js');
+const {mapPoint}=await import('./solar.js');
+let architecturalFactory=null;try{architecturalFactory=(await import('./architectural-lighting.js')).createArchitecturalLighting}catch{}
+const views=await (await fetch('./visual-cameras.json')).json();
+const start=performance.now(),renderer=new THREE.WebGLRenderer({antialias:true,alpha:false,preserveDrawingBuffer:true,powerPreference:'high-performance'});
+const gl=renderer.getContext(),debug=gl.getExtension('WEBGL_debug_renderer_info');
+const rendererInfo={version:gl.getParameter(gl.VERSION),renderer:gl.getParameter(debug?debug.UNMASKED_RENDERER_WEBGL:gl.RENDERER),vendor:gl.getParameter(debug?debug.UNMASKED_VENDOR_WEBGL:gl.VENDOR)};
+renderer.setPixelRatio(1);renderer.setSize(innerWidth,innerHeight);renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;renderer.toneMapping=THREE.ACESFilmicToneMapping;renderer.toneMappingExposure=1.2;renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.setClearColor(0xb0cede,1);document.body.append(renderer.domElement);
+const scene=new THREE.Scene(),model=createComplex();scene.add(model.root);scene.fog=new THREE.Fog(0xb0cede,720,1800);
+const rig=architecturalFactory?architecturalFactory(scene,renderer,{model,modelRoot:model.root}):null;
+const hemi=new THREE.HemisphereLight(0xdce9ff,0x4c6256,2.3),sun=new THREE.DirectionalLight(0xffefdc,3.1);sun.position.set(-130,500,-200);sun.castShadow=true;sun.shadow.mapSize.set(2048,2048);Object.assign(sun.shadow.camera,{left:-500,right:500,top:500,bottom:-500,near:.5,far:1600});sun.shadow.camera.updateProjectionMatrix();sun.shadow.bias=-.00035;sun.shadow.normalBias=.4;if(!rig)scene.add(hemi,sun,sun.target);else renderer.toneMappingExposure=1.15;
+model.life.setEnabled(false);model.update(0);model.life.setSkyVisible(false);model.traffic.setEnabled(true);for(let step=0;step<=180;step++)model.traffic.update(step/30);model.traffic.setEnabled(false);
+model.setSeason(false,6);model.neighborhood.setSeason(false,6);model.lighting.setAtmosphere({elevation:45,hour:12,weather:'clear'});model.root.updateMatrixWorld(true);
+const counts={meshes:0,instancedMeshes:0,vertices:0,instances:0,totalTriangles:0,nonfinite:[]};
+model.root.traverse(o=>{if(!o.isMesh)return;counts.meshes++;counts.vertices+=o.geometry.attributes.position?.count??0;const n=o.isInstancedMesh?o.count:1;counts.totalTriangles+=((o.geometry.index?.count??o.geometry.attributes.position?.count??0)/3)*n;if(o.isInstancedMesh){counts.instancedMeshes++;counts.instances+=o.count;if(!o.instanceMatrix.array.every(Number.isFinite))counts.nonfinite.push(o.name+' matrix');}for(const [name,a] of Object.entries(o.geometry.attributes))if(!a.array.every(Number.isFinite))counts.nonfinite.push(o.name+' '+name);});
+const camera=new THREE.PerspectiveCamera(55,innerWidth/innerHeight,.12,2200),metadata=model.neighborhood.neighborBuildings?.metadata;
+function inside(x,z,ring){let yes=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const [xi,zi]=ring[i],[xj,zj]=ring[j];if((zi>z)!==(zj>z)&&x<(xj-xi)*(z-zi)/(zj-zi)+xi)yes=!yes;}return yes;}
+const houses=(metadata?.buildings||[]).filter(b=>b.footprintEN).map(b=>({...b,world:b.footprintEN.map(p=>{const q=mapPoint(...p);return[q[0],q[2]];})}));
+function configure(name){const v=views[name];if(!v)throw Error('Unknown view '+name);camera.position.set(...v.position);camera.lookAt(...v.target);camera.fov=v.fov;camera.updateProjectionMatrix();camera.updateMatrixWorld(true);const night=!!v.night;hemi.intensity=night?.4:2.3;sun.intensity=night?.12:3.1;renderer.setClearColor(night?0x152337:0xb0cede,1);scene.fog.color.set(night?0x152337:0xb0cede);model.lighting.setAtmosphere({elevation:night?-12:45,hour:night?22:12,weather:'clear'});model.lighting.update(6,camera);model.life.setViewer?.(camera);model.life.update(0);if(rig){rig.set({elevation:night?-12:45,azimuth:213,cloudCover:8,direction:[-130,500,-200]});rig.focus(camera);}return v;}
+const cameraQuality=Object.fromEntries(Object.keys(views).map(name=>{
+ const v=configure(name),centres=houses.map(b=>{const xs=b.world.map(p=>p[0]),zs=b.world.map(p=>p[1]);const p=new THREE.Vector3((Math.min(...xs)+Math.max(...xs))/2,(b.floors||17)*1.25,(Math.min(...zs)+Math.max(...zs))/2).project(camera);return{id:b.id,address:b.address,x:p.x,y:p.y,z:p.z,inFrame:Math.abs(p.x)<.98&&Math.abs(p.y)<.98&&p.z>-1&&p.z<1};});
+ const insideTower=f.buildings.filter(b=>v.position[1]<b.h+2&&inside(v.position[0]-b.x,v.position[2]-b.z,b.shape)).map(b=>b.id);
+ const insideContext=houses.filter(b=>v.position[1]<(b.floors||17)*3&&inside(v.position[0],v.position[2],b.world)).map(b=>b.id);
+ return[name,{insideTower,insideContext,centres,expectedInFrame:metadata?.version!==28||v.expected.every(id=>centres.some(c=>c.id===id&&c.inFrame))}];
+}));
+function visibleStats(root){let draws=0,transparent=0,vertices=0;root.traverse(o=>{if(!o.isMesh&&!o.isLineSegments)return;for(let p=o;p;p=p.parent)if(!p.visible)return;draws++;vertices+=o.geometry?.attributes?.position?.count||0;if((Array.isArray(o.material)?o.material:[o.material]).some(m=>m?.transparent))transparent++;});return{draws,transparent,vertices};}
+window.qa={model,ready:true,constructionMS:performance.now()-start,counts,rendererInfo,views,cameraQuality,version:metadata?.version||27,
+ async render(name){configure(name);for(let i=0;i<2;i++){renderer.render(scene,camera);await new Promise(requestAnimationFrame);}renderer.info.reset();const t=performance.now();renderer.render(scene,camera);gl.finish();return{name,cameraQuality:cameraQuality[name],milliseconds:performance.now()-t,render:{...renderer.info.render},memory:{...renderer.info.memory},programs:renderer.info.programs.length,glError:gl.getError(),neighborhood:visibleStats(model.neighborhood.group),localAccessRoads:model.neighborhood.localAccess?.roads.length,trees:model.neighborhood.trees.length,buildingCount:metadata?.buildingCount,transport:model.neighborhood.transport?{roads:model.neighborhood.transport.roads.length,metro:model.neighborhood.transport.metroEntrances.length,signals:model.neighborhood.transport.signalHeads.length}:null};},
+ toggleContext(enabled){model.neighborhood.group.visible=!!enabled;model.traffic.group.visible=!!enabled;model.lighting.update(6,camera);renderer.render(scene,camera);gl.finish();return{context:model.neighborhood.group.visible,forest:model.neighborhood.forestGroup.visible,forestParent:model.neighborhood.forestGroup.parent?.name,neighborhood:visibleStats(model.neighborhood.group),glError:gl.getError()};},
+ dispose(){rig?.dispose();model.dispose();renderer.dispose();}
+};
+</script></body></html>

@@ -1,0 +1,313 @@
+{
+  "pass": true,
+  "checks": [
+    "preserved v29 source XY; nine arena islands added from documented pixel traces",
+    "preserved all context tree anchors",
+    "organic 29-ring white seats",
+    "low thin-walled planters",
+    "rooted flowering sprigs",
+    "flattened pine boughs; dense interior and distant woodland",
+    "unit normals and finite transforms",
+    "day/night and wetness",
+    "season restoration",
+    "complete resource disposal"
+  ],
+  "before": {
+    "label": "before",
+    "constructionMS": 4507.360705,
+    "sourceXYHash": "8c2ef3eb6f4fc5109c19de4c6ec3e6d021784908c55e6bbdbec592374d658b02",
+    "treeAnchorHash": "79e0491bdf14bdc082c9d36cb01b9bd4049a7576b08e97af3d2d8f563ff52093",
+    "objectCounts": {
+      "islands": 19,
+      "planters": 16,
+      "pebbles": 7,
+      "trees": 11,
+      "lines": 25,
+      "benches": 3,
+      "mediaColumns": 18
+    },
+    "planting": {
+      "shrubs": 2095,
+      "creamFlowerHeads": 8782,
+      "redFlowerHeads": 1006,
+      "grassClumps": 606
+    },
+    "geometry": {
+      "triangles": 8070409,
+      "instancedMeshes": 16,
+      "instances": 19918,
+      "nonfinite": [],
+      "badNormals": []
+    },
+    "rootY": [
+      {
+        "name": "Layered shrubs clipped to traced planting islands and vessels",
+        "localMin": -0.41445669531822205,
+        "minRoot": -0.14079834599420238,
+        "maxRoot": 0.7655205343106601
+      },
+      {
+        "name": "Dense cream blossom clusters in source planting",
+        "localMin": -0.03314999118447304,
+        "minRoot": 0.36981397536670046,
+        "maxRoot": 1.2089703482312695
+      },
+      {
+        "name": "Source-traced burgundy patches in the cream flowerbed",
+        "localMin": -0.03314999118447304,
+        "minRoot": 0.3790419682656023,
+        "maxRoot": 0.9450349491273198
+      }
+    ],
+    "planterHeights": [
+      {
+        "id": "retail-white-oval-1",
+        "height": 0.81084
+      },
+      {
+        "id": "retail-white-small-2",
+        "height": 0.58561
+      },
+      {
+        "id": "retail-white-small-3",
+        "height": 0.58561
+      },
+      {
+        "id": "lower-white-boat-1",
+        "height": 0.49551
+      },
+      {
+        "id": "lower-white-vertical-red-2",
+        "height": 0.54056
+      },
+      {
+        "id": "lower-white-boat-3",
+        "height": 0.49551
+      },
+      {
+        "id": "lower-white-vertical-red-4",
+        "height": 0.54056
+      },
+      {
+        "id": "lower-white-red-5",
+        "height": 0.52254
+      },
+      {
+        "id": "lower-white-cream-6",
+        "height": 0.54056
+      },
+      {
+        "id": "lower-white-red-7",
+        "height": 0.51353
+      },
+      {
+        "id": "lower-white-upright-8",
+        "height": 0.63065
+      },
+      {
+        "id": "topiary-corner-a",
+        "height": 0.6757
+      },
+      {
+        "id": "topiary-corner-b",
+        "height": 0.6757
+      },
+      {
+        "id": "topiary-1",
+        "height": 0.6757
+      },
+      {
+        "id": "topiary-2",
+        "height": 0.6757
+      },
+      {
+        "id": "topiary-3",
+        "height": 0.6757
+      }
+    ],
+    "newTextureCount": 0,
+    "disposal": {
+      "geometries": 29,
+      "textures": 25,
+      "instances": 16,
+      "missingInstanceDisposal": [
+        "Soft night spill beside traced forecourt light inlays"
+      ]
+    }
+  },
+  "after": {
+    "label": "after",
+    "constructionMS": 5281.782992000001,
+    "sourceXYHash": "8c2ef3eb6f4fc5109c19de4c6ec3e6d021784908c55e6bbdbec592374d658b02",
+    "treeAnchorHash": "79e0491bdf14bdc082c9d36cb01b9bd4049a7576b08e97af3d2d8f563ff52093",
+    "objectCounts": {
+      "islands": 28,
+      "planters": 16,
+      "pebbles": 8,
+      "trees": 16,
+      "lines": 34,
+      "benches": 3,
+      "mediaColumns": 18
+    },
+    "planting": {
+      "shrubs": 4208,
+      "creamFlowerHeads": 11270,
+      "redFlowerHeads": 1417,
+      "grassClumps": 1420,
+      "flowerPrimitive": "rooted three-stem perennial sprig with nine small petalled blooms",
+      "creamSprigs": 11270,
+      "redSprigs": 1417,
+      "rooted": true
+    },
+    "forest": {
+      "revision": 30,
+      "treeAnchorsPreserved": true,
+      "canopyType": "flattened pine boughs, dark understorey and closed distant woodland",
+      "matureTrees": 1850,
+      "pineCrowns": 1538,
+      "deciduousCrowns": 312,
+      "lowShrubClumps": 960,
+      "youngTreeClumps": 440,
+      "distantWoodlandTrees": 5200,
+      "pineCanopyHeightFraction": [
+        0.3,
+        0.43
+      ],
+      "crownClearanceReductions": 0,
+      "forestDraws": 9
+    },
+    "geometry": {
+      "triangles": 12107966,
+      "instancedMeshes": 19,
+      "instances": 37188,
+      "nonfinite": [],
+      "badNormals": []
+    },
+    "rootY": [
+      {
+        "name": "Layered shrubs clipped to traced planting islands and vessels",
+        "localMin": 0,
+        "minRoot": 0.03400000184774399,
+        "maxRoot": 0.5561019778251648
+      },
+      {
+        "name": "Fine cream-flowering perennial stems rooted in their planting surface",
+        "localMin": -0.0006180216441862285,
+        "minRoot": 0.0333790202064285,
+        "maxRoot": 0.4793598206577278
+      },
+      {
+        "name": "Rooted burgundy perennial stems in source-traced colour patches",
+        "localMin": -0.0006180216441862285,
+        "minRoot": 0.033675526943279514,
+        "maxRoot": 0.40729722956126446
+      }
+    ],
+    "planterHeights": [
+      {
+        "id": "retail-white-oval-1",
+        "height": 0.55,
+        "sourceHeight": 0.81084,
+        "rimScale": 0.935
+      },
+      {
+        "id": "retail-white-small-2",
+        "height": 0.468488,
+        "sourceHeight": 0.58561,
+        "rimScale": 0.935
+      },
+      {
+        "id": "retail-white-small-3",
+        "height": 0.468488,
+        "sourceHeight": 0.58561,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-boat-1",
+        "height": 0.39640800000000004,
+        "sourceHeight": 0.49551,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-vertical-red-2",
+        "height": 0.43244800000000005,
+        "sourceHeight": 0.54056,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-boat-3",
+        "height": 0.39640800000000004,
+        "sourceHeight": 0.49551,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-vertical-red-4",
+        "height": 0.43244800000000005,
+        "sourceHeight": 0.54056,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-red-5",
+        "height": 0.418032,
+        "sourceHeight": 0.52254,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-cream-6",
+        "height": 0.43244800000000005,
+        "sourceHeight": 0.54056,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-red-7",
+        "height": 0.4108240000000001,
+        "sourceHeight": 0.51353,
+        "rimScale": 0.935
+      },
+      {
+        "id": "lower-white-upright-8",
+        "height": 0.5045200000000001,
+        "sourceHeight": 0.63065,
+        "rimScale": 0.935
+      },
+      {
+        "id": "topiary-corner-a",
+        "height": 0.581102,
+        "sourceHeight": 0.6757,
+        "rimScale": 0.935
+      },
+      {
+        "id": "topiary-corner-b",
+        "height": 0.581102,
+        "sourceHeight": 0.6757,
+        "rimScale": 0.935
+      },
+      {
+        "id": "topiary-1",
+        "height": 0.581102,
+        "sourceHeight": 0.6757,
+        "rimScale": 0.935
+      },
+      {
+        "id": "topiary-2",
+        "height": 0.581102,
+        "sourceHeight": 0.6757,
+        "rimScale": 0.935
+      },
+      {
+        "id": "topiary-3",
+        "height": 0.581102,
+        "sourceHeight": 0.6757,
+        "rimScale": 0.935
+      }
+    ],
+    "newTextureCount": 0,
+    "disposal": {
+      "geometries": 31,
+      "textures": 26,
+      "instances": 19,
+      "missingInstanceDisposal": []
+    }
+  },
+  "trianglesDelta": 4037557
+}

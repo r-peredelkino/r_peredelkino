@@ -1,0 +1,62 @@
+{
+  "recordedUTC": "2026-10-11T17:57:31.481871+00:00",
+  "revision": 33,
+  "baselineBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v32-before-v33-20261011-193940",
+  "baselineVerifiedFiles": 2063,
+  "releaseBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v33-20261011-205731",
+  "releaseBackupVerification": "Must be created and SHA-256 verified after installed acceptance; BACKUP-SHA256.json is the completion evidence",
+  "entries": [
+    {
+      "name": "RODINA-PEREDELKINO-backup-v22-20261009-072508",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v23-20261009-084157",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v24-20261009-101758",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v25-20261010-190829",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v26-20261010-201744",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v27-20261010-214028",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v28-20261010-232612",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v29-20261011-081439",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v30-20261011-101318-602757",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v31-20261011-134504",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v32-20261011-143650",
+      "verification": "Existing historical backup retained; not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v32-before-v33-20261011-193940",
+      "verification": "Full pre-v33 snapshot; SHA-256 matched all 2063 project files"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v33-20261011-205731",
+      "verification": "See the completed release snapshot BACKUP-SHA256.json; directory created after installed acceptance"
+    }
+  ]
+}

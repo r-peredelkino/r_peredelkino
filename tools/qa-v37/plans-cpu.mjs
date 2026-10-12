@@ -1,0 +1,36 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {apartmentPlans,apartmentMetrics} from '../../dist/apartment-plans.js';
+import {apartmentCatalog,apartment3DExamples,additionalApartmentPlans} from '../../dist/apartment-catalog-v37.js';
+import {complexFootprints} from '../../dist/complex-footprints.js';
+import {residentialFloorBase} from '../../dist/building-levels.js';
+const checks=[];const check=(name,pass,details={})=>checks.push({name,pass:!!pass,details});
+const dist=(p,a,b)=>{const x=b[0]-a[0],z=b[1]-a[1],l=x*x+z*z,t=l?Math.min(1,Math.max(0,((p[0]-a[0])*x+(p[1]-a[1])*z)/l)):0;return Math.hypot(p[0]-a[0]-x*t,p[1]-a[1]-z*t);};
+const inside=(p,ring)=>{if(ring.some((a,i)=>dist(p,a,ring[(i+1)%ring.length])<2.1))return true;let v=false;for(let i=0,j=ring.length-1;i<ring.length;j=i++){const a=ring[i],b=ring[j];if((a[1]>p[1])!==(b[1]>p[1])&&p[0]<(b[0]-a[0])*(p[1]-a[1])/(b[1]-a[1])+a[0])v=!v;}return v;};
+const cross=(a,b,c)=>(b[0]-a[0])*(c[1]-a[1])-(b[1]-a[1])*(c[0]-a[0]);
+const simple=ring=>{for(let i=0;i<ring.length;i++)for(let j=i+2;j<ring.length;j++){if(i===0&&j===ring.length-1)continue;const a=ring[i],b=ring[(i+1)%ring.length],c=ring[j],d=ring[(j+1)%ring.length];if(cross(a,b,c)*cross(a,b,d)<-1e-6&&cross(c,d,a)*cross(c,d,b)<-1e-6)return false;}return true;};
+const area=ring=>Math.abs(ring.reduce((v,p,i)=>{const q=ring[(i+1)%ring.length];return v+p[0]*q[1]-q[0]*p[1];},0)/2);
+check('Every furnished example is a genuinely published apartment record',apartment3DExamples.length===17&&Object.keys(apartmentPlans).length===17&&apartment3DExamples.every(a=>apartmentPlans[a.id]&&a.building===apartmentPlans[a.id].building&&a.floor===apartmentPlans[a.id].floor&&a.slot===apartmentPlans[a.id].slot&&a.area===apartmentPlans[a.id].area),{examples:apartment3DExamples.map(a=>a.id)});
+check('All 203 original 2D records remain available without invented 3D clones',apartmentCatalog.length===203&&apartmentCatalog.filter(a=>!a.has3D).length===186&&new Set(apartmentCatalog.map(a=>a.id)).size===203,{originalRecords:apartmentCatalog.length,threeD:17,twoD:186});
+check('The fifteen additions have distinct actual source images and traced geometry',new Set(Object.values(additionalApartmentPlans).map(p=>p.source.imageSHA256)).size===15&&new Set(Object.values(additionalApartmentPlans).map(p=>JSON.stringify([p.outline,p.rooms,p.windows]))).size===15,{additions:Object.keys(additionalApartmentPlans).length});
+check('Published studio, two, three and four-room classes all have furnished examples',[0,2,3,4].every(n=>apartment3DExamples.some(a=>a.rooms===n)),{classes:[...new Set(apartment3DExamples.map(a=>a.rooms))]});
+check('The legacy source 59 and 81 keep their exact rigid location',JSON.stringify(apartmentMetrics(apartmentPlans['1-59']).placement)===JSON.stringify({x:-1.3865794507,z:-50.869761776,y:19.12,angle:1.1961343558,building:1,floor:6,slot:7})&&JSON.stringify(apartmentMetrics(apartmentPlans['1-81']).placement)===JSON.stringify({x:-11.474947308697,z:-64.900292892738,y:25.12,angle:-2.656204764522,building:1,floor:8,slot:3}));
+for(const [id,p]of Object.entries(apartmentPlans)){
+ const m=apartmentMetrics(p),record=apartmentCatalog.find(a=>a.id===id),spec=complexFootprints.buildings.find(a=>a.id===p.building);
+ check(`${id} keeps published area after uniform raster calibration`,Math.abs(area(p.outline)*m.scale*m.scale-p.area)<1e-8,{publishedArea:p.area,modelArea:area(p.outline)*m.scale*m.scale});
+ check(`${id} uses the actual building and floor pitch`,m.placement.building===p.building&&m.placement.floor===p.floor&&m.placement.slot===p.slot&&Math.abs(m.placement.y-residentialFloorBase(spec.id,p.floor,spec.h,spec.floors)-.12)<1e-10,{placement:m.placement,towerFloors:spec.floors});
+ check(`${id} has a finite simple walkable floor boundary`,simple(p.outline)&&p.outline.every(v=>v.every(Number.isFinite))&&area(p.outline)>10000,{points:p.outline.length});
+ check(`${id} has an actual television fixture`,p.furniture.some(a=>a[0]==='tv'),{televisions:p.furniture.filter(a=>a[0]==='tv').length});
+ check(`${id} is labelled as a reconstruction, while source pixels remain foreign`,record.quality==='raster-reconstruction'&&record.has3D===true&&/^https:\/\/rodina-peredelkino\.ru\/catalog\//.test(record.sourceUrl));
+ if(!additionalApartmentPlans[id])continue;
+ check(`${id} retains independently identified raster and numbered SVG evidence`,/^[a-f0-9]{64}$/.test(p.source.imageSHA256)&&/^[a-f0-9]{64}$/.test(p.source.floorSHA256)&&String(p.source.floorContour.alt)===String(p.slot)&&p.source.approximate&&p.source.notMeasured,{image:p.source.image,floor:p.source.floorPlan,slot:p.slot});
+ const outside=[];p.furniture.forEach(([type,x,z,w,d,a],i)=>{const c=Math.cos(a),s=Math.sin(a);for(const u of[-w/2,w/2])for(const v of[-d/2,d/2])if(!inside([x+u*c-v*s,z+u*s+v*c],p.outline))outside.push({i,type});});
+ check(`${id} every furnished footprint remains inside the actual floor boundary`,outside.length===0,{fixtures:p.furniture.length,outside});
+ const roomIssues=p.rooms.flatMap((r,i)=>!simple(r.p)||r.p.some(v=>!inside(v,p.outline))?[{i,name:r.name}]:[]);
+ check(`${id} room floor patches never cross the apartment boundary`,roomIssues.length===0,{rooms:p.rooms.length,roomIssues});
+ check(`${id} glazing ends lie on the same source-traced facade boundary`,p.windows.every(w=>p.outline.some((a,i)=>dist(w.slice(0,2),a,p.outline[(i+1)%p.outline.length])<2.1)&&p.outline.some((a,i)=>dist(w.slice(2,4),a,p.outline[(i+1)%p.outline.length])<2.1)),{panes:p.windows.length});
+}
+const report={revision:37,pass:checks.every(c=>c.pass),checkCount:checks.length,checks,examples:apartment3DExamples.map(a=>({id:a.id,building:a.building,floor:a.floor,slot:a.slot,area:a.area,rooms:a.rooms})),timestamp:new Date().toISOString()};
+const out=process.env.RP_QA_OUT||path.dirname(fileURLToPath(import.meta.url));fs.mkdirSync(out,{recursive:true});fs.writeFileSync(path.join(out,'plans-cpu.json'),JSON.stringify(report,null,2));
+console.log(JSON.stringify({revision:37,pass:report.pass,checks:checks.length,failed:checks.filter(c=>!c.pass)},null,2));if(!report.pass)process.exitCode=1;

@@ -1,0 +1,40 @@
+{
+  "pass": true,
+  "apartments": {
+    "1-59": {
+      "sourceMeshCount": 29,
+      "proxyCount": 6,
+      "glassCount": 3,
+      "ceilingRays": 4,
+      "openWindowRays": 1,
+      "frameRays": 1,
+      "originalGeometryUnchanged": true,
+      "sourceGeometryDisposalOnce": true
+    },
+    "1-81": {
+      "sourceMeshCount": 48,
+      "proxyCount": 6,
+      "glassCount": 18,
+      "ceilingRays": 8,
+      "openWindowRays": 12,
+      "frameRays": 12,
+      "originalGeometryUnchanged": true,
+      "sourceGeometryDisposalOnce": true
+    }
+  },
+  "context": {
+    "shadowCasters": 9,
+    "customDepthAndDistanceMaterials": 18,
+    "bentShadowMaterials": 2,
+    "guardedDraws": 1819,
+    "lazyLODMaterials": 16,
+    "hookedMeshes": 1803,
+    "writeMasksRestored": true,
+    "shadowCallbacksUnchanged": true
+  },
+  "limitations": [
+    "CPU geometry and callback checks; native GPU shader/pixel verification is separate.",
+    "Facade registration uses the existing finite opening tolerance: 1.35 m normal to each traced segment, 0.08 m at either end.",
+    "Window sill/head and facade registration are estimated source-model geometry, not surveyed dimensions."
+  ]
+}

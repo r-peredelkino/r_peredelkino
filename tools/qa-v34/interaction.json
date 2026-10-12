@@ -1,0 +1,979 @@
+{
+  "base": "http://127.0.0.1:8094",
+  "expectedChecks": 65,
+  "checks": [
+    {
+      "name": "Release 34",
+      "pass": true
+    },
+    {
+      "name": "Every section and commercial entrance is discoverable",
+      "pass": true,
+      "ids": [
+        "lobby-1",
+        "lobby-2",
+        "lobby-3",
+        "lobby-4",
+        "lobby-5",
+        "office-0",
+        "retail-1",
+        "retail-2",
+        "retail-3",
+        "arena-entry",
+        "sales-office",
+        "cyber-seat-west",
+        "cyber-seat-garden",
+        "cyber-seat-office",
+        "cyber-table-court",
+        "cyber-table-north",
+        "cyber-reaction-arena"
+      ]
+    },
+    {
+      "name": "All exterior interaction approach points are safe",
+      "pass": true,
+      "bad": [],
+      "total": 17
+    },
+    {
+      "name": "Source panorama routing follows the actual courtyard, arena and offices",
+      "pass": true,
+      "result": [
+        {
+          "id": "lobby-1",
+          "expected": "courtyard",
+          "actual": "courtyard"
+        },
+        {
+          "id": "lobby-5",
+          "expected": "courtyard",
+          "actual": "courtyard"
+        },
+        {
+          "id": "office-0",
+          "expected": "forecourt",
+          "actual": "forecourt"
+        },
+        {
+          "id": "sales-office",
+          "expected": "forest",
+          "actual": "forest"
+        },
+        {
+          "id": "arena-entry",
+          "expected": "arena",
+          "actual": "arena"
+        },
+        {
+          "id": "retail-1",
+          "expected": "forecourt",
+          "actual": "forecourt"
+        },
+        {
+          "id": "cyber-seat-west",
+          "expected": "courtyard",
+          "actual": "courtyard"
+        }
+      ],
+      "destinationArea": "courtyard"
+    },
+    {
+      "name": "lobby-1 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "lobby",
+      "building": "1",
+      "walker": {
+        "x": 0,
+        "z": 3.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "First lobby lift offers floor 2 and floor 30",
+      "pass": true,
+      "buttons": [
+        "2 этаж / оригинальный план",
+        "30 этаж / оригинальный план"
+      ]
+    },
+    {
+      "name": "Lobby elevator opens the actual 30th-floor showroom",
+      "pass": true
+    },
+    {
+      "name": "Elevator returns to first lobby without losing exterior continuation",
+      "pass": true
+    },
+    {
+      "name": "lobby-1 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "courtyard",
+      "expectedOriginalArea": "courtyard",
+      "before": [
+        9.65120179568377,
+        1.667,
+        -36.94876788345083
+      ],
+      "after": [
+        9.65120179568377,
+        1.667,
+        -36.94876788345083
+      ]
+    },
+    {
+      "name": "lobby-2 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "lobby",
+      "building": "2",
+      "walker": {
+        "x": 0,
+        "z": 3.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "lobby-2 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "courtyard",
+      "expectedOriginalArea": "courtyard",
+      "before": [
+        -14.418567494010466,
+        1.667,
+        -15.365843963273885
+      ],
+      "after": [
+        -14.418567494010466,
+        1.667,
+        -15.365843963273885
+      ]
+    },
+    {
+      "name": "lobby-3 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "lobby",
+      "building": "3",
+      "walker": {
+        "x": 0,
+        "z": 3.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "lobby-3 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "courtyard",
+      "expectedOriginalArea": "courtyard",
+      "before": [
+        -15.877206340611334,
+        1.667,
+        7.26798383770897
+      ],
+      "after": [
+        -15.877206340611334,
+        1.667,
+        7.26798383770897
+      ]
+    },
+    {
+      "name": "lobby-4 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "lobby",
+      "building": "4",
+      "walker": {
+        "x": 0,
+        "z": 3.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "lobby-4 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "courtyard",
+      "expectedOriginalArea": "courtyard",
+      "before": [
+        -3.034158737937313,
+        1.667,
+        38.53063651454967
+      ],
+      "after": [
+        -3.034158737937313,
+        1.667,
+        38.53063651454967
+      ]
+    },
+    {
+      "name": "lobby-5 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "lobby",
+      "building": "5",
+      "walker": {
+        "x": 0,
+        "z": 3.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "lobby-5 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "courtyard",
+      "expectedOriginalArea": "courtyard",
+      "before": [
+        33.984150166325605,
+        1.667,
+        46.60017629517196
+      ],
+      "after": [
+        33.984150166325605,
+        1.667,
+        46.60017629517196
+      ]
+    },
+    {
+      "name": "office-0 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "office",
+      "building": "0",
+      "walker": {
+        "x": 0,
+        "z": 5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "Office interior supports real keyboard walking",
+      "pass": true,
+      "before": {
+        "x": 0,
+        "z": 5,
+        "blocked": false
+      },
+      "after": {
+        "x": 0,
+        "z": 3.6002000000000027,
+        "blocked": false
+      }
+    },
+    {
+      "name": "Office meeting room provides a seated view at human eye height",
+      "pass": true,
+      "camera": [
+        6.4,
+        1.2199999999999998,
+        -4.08
+      ]
+    },
+    {
+      "name": "Office interior exit returns to the exact exterior entrance",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "forecourt",
+      "expectedOriginalArea": "forecourt",
+      "before": [
+        33.61555859643358,
+        1.667,
+        -84.18667578729759
+      ],
+      "after": [
+        33.61555859643358,
+        1.667,
+        -84.18667578729759
+      ]
+    },
+    {
+      "name": "arena-entry opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "arena",
+      "building": "1",
+      "walker": {
+        "x": 0,
+        "z": 13.328000000000003,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "Arena offers an accessible caster workspace",
+      "pass": true,
+      "camera": [
+        13.708800000000004,
+        1.68,
+        -1.046400000000001
+      ],
+      "poi": {
+        "id": "casters",
+        "name": "Комментаторская",
+        "x": 13.708800000000004,
+        "z": -1.046400000000001,
+        "action": "info"
+      },
+      "title": "Комментаторская",
+      "concept": {
+        "concept": true,
+        "players": 10,
+        "teams": 2,
+        "coachPlaces": 2,
+        "casterPlaces": 2,
+        "modes": [
+          "match",
+          "presentation",
+          "welcome"
+        ]
+      }
+    },
+    {
+      "name": "Arena director applies presentation to the actual animated display",
+      "pass": true,
+      "mode": "presentation",
+      "revision": 1,
+      "textureVersion": 6,
+      "before": {
+        "revision": 0,
+        "textureVersion": 4
+      }
+    },
+    {
+      "name": "Arena director applies welcome to the actual animated display",
+      "pass": true,
+      "mode": "welcome",
+      "revision": 2,
+      "textureVersion": 7,
+      "before": {
+        "revision": 1,
+        "textureVersion": 6
+      }
+    },
+    {
+      "name": "Arena director applies match to the actual animated display",
+      "pass": true,
+      "mode": "match",
+      "revision": 3,
+      "textureVersion": 8,
+      "before": {
+        "revision": 2,
+        "textureVersion": 7
+      }
+    },
+    {
+      "name": "arena-entry close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "arena",
+      "expectedOriginalArea": "arena",
+      "before": [
+        -88.08826011560774,
+        1.667,
+        10.816666093957057
+      ],
+      "after": [
+        -88.08826011560774,
+        1.667,
+        10.816666093957057
+      ]
+    },
+    {
+      "name": "retail-1 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "retail",
+      "building": "1",
+      "walker": {
+        "x": 3,
+        "z": 5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "Original two-level retail staircase is climbed with keyboard movement",
+      "pass": true,
+      "treads": 22,
+      "start": {
+        "x": 6.999799999999995,
+        "z": 5,
+        "blocked": false
+      },
+      "end": {
+        "x": 6.999799999999995,
+        "z": -0.9996000000000017,
+        "blocked": false
+      },
+      "height": 3.568144155844157
+    },
+    {
+      "name": "retail-1 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "forecourt",
+      "expectedOriginalArea": "forecourt",
+      "before": [
+        71.47704665828792,
+        1.667,
+        -87.72414847858629
+      ],
+      "after": [
+        71.47704665828792,
+        1.667,
+        -87.72414847858629
+      ]
+    },
+    {
+      "name": "retail-2 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "retail",
+      "building": "1",
+      "walker": {
+        "x": 3,
+        "z": 5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "retail-2 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "forecourt",
+      "expectedOriginalArea": "forecourt",
+      "before": [
+        45.39333818959194,
+        1.667,
+        -102.21553661264838
+      ],
+      "after": [
+        45.39333818959194,
+        1.667,
+        -102.21553661264838
+      ]
+    },
+    {
+      "name": "retail-3 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "retail",
+      "building": "1",
+      "walker": {
+        "x": 3,
+        "z": 5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "retail-3 close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "forecourt",
+      "expectedOriginalArea": "forecourt",
+      "before": [
+        23.039221071496186,
+        1.667,
+        -80.19778676475977
+      ],
+      "after": [
+        23.039221071496186,
+        1.667,
+        -80.19778676475977
+      ]
+    },
+    {
+      "name": "sales-office opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "office",
+      "building": "sales-office",
+      "walker": {
+        "x": 0,
+        "z": 5.5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "sales-office close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "forest",
+      "expectedOriginalArea": "forest",
+      "before": [
+        -45.9986,
+        1.667,
+        60.620552
+      ],
+      "after": [
+        -45.9986,
+        1.667,
+        60.620552
+      ]
+    },
+    {
+      "name": "All six authored courtyard activities survived safe placement",
+      "pass": true,
+      "placements": [
+        {
+          "id": "cyber-seat-west",
+          "type": "seat",
+          "point": [
+            -18,
+            -3
+          ],
+          "approach": [
+            -17.64073765686665,
+            -1.7506279301959977
+          ],
+          "angle": 3.4215926535897934,
+          "registrationSearchOffset": 0
+        },
+        {
+          "id": "cyber-seat-garden",
+          "type": "seat",
+          "point": [
+            -4,
+            33
+          ],
+          "approach": [
+            -4,
+            34.3
+          ],
+          "angle": 3.141592653589793,
+          "registrationSearchOffset": 0
+        },
+        {
+          "id": "cyber-seat-office",
+          "type": "seat",
+          "point": [
+            31.48492424049175,
+            -38.48492424049175
+          ],
+          "approach": [
+            32.775451128840615,
+            -38.64157784066933
+          ],
+          "angle": -1.45,
+          "registrationSearchOffset": 2.100000000000001
+        },
+        {
+          "id": "cyber-table-court",
+          "type": "tactics",
+          "point": [
+            12,
+            -2
+          ],
+          "approach": [
+            11.678708015181762,
+            -4.1258578175624905
+          ],
+          "angle": 0.15,
+          "registrationSearchOffset": 0
+        },
+        {
+          "id": "cyber-table-north",
+          "type": "tactics",
+          "point": [
+            -4,
+            -43
+          ],
+          "approach": [
+            -5.96244247156012,
+            -43.878247997900935
+          ],
+          "angle": 1.15,
+          "registrationSearchOffset": 0
+        },
+        {
+          "id": "cyber-reaction-arena",
+          "type": "reaction",
+          "point": [
+            -93.33939201327782,
+            17.233578363789505
+          ],
+          "approach": [
+            -94.78472929140361,
+            17.634826606726385
+          ],
+          "angle": -1.3,
+          "registrationSearchOffset": 3.500000000000002
+        }
+      ],
+      "skipped": [],
+      "meshCount": 11
+    },
+    {
+      "name": "Authored curved bench supports an actual seated camera",
+      "pass": true,
+      "seated": "cyber-seat-west",
+      "standingEye": 1.667,
+      "seatedEye": 1.277
+    },
+    {
+      "name": "A repeated held E does not toggle the bench a second time",
+      "pass": true,
+      "seated": "cyber-seat-west"
+    },
+    {
+      "name": "Standing up returns to a safe pedestrian point",
+      "pass": true,
+      "position": [
+        -17.64073765686665,
+        1.667,
+        -1.7506279301959977
+      ]
+    },
+    {
+      "name": "Hiding authored layer disables the same collider objects and safely stands up",
+      "pass": true,
+      "colliders": 59,
+      "tableFree": true,
+      "seated": null
+    },
+    {
+      "name": "Re-enabling authored layer restores collision without replacing references",
+      "pass": true,
+      "colliders": 59
+    },
+    {
+      "name": "Courtyard event mode is operable from the live HUD",
+      "pass": true,
+      "ariaPressed": "true",
+      "before": {
+        "cyanIntensity": 0.1,
+        "displayVersion": 2
+      },
+      "cyanIntensity": 0.2215789497001732,
+      "displayVersion": 3
+    },
+    {
+      "name": "reaction opens from its physical courtyard object",
+      "pass": true,
+      "state": {
+        "mode": "reaction",
+        "phase": "idle",
+        "round": 0,
+        "level": 0,
+        "sequence": [],
+        "samples": []
+      }
+    },
+    {
+      "name": "Space on the initial focused start button starts the reaction trainer",
+      "pass": true,
+      "state": {
+        "mode": "reaction",
+        "phase": "wait",
+        "round": 0,
+        "level": 0,
+        "sequence": [],
+        "samples": []
+      }
+    },
+    {
+      "name": "Reaction trainer rejects a false start without recording a result",
+      "pass": true,
+      "state": {
+        "mode": "reaction",
+        "phase": "early",
+        "round": 0,
+        "level": 0,
+        "sequence": [],
+        "samples": []
+      }
+    },
+    {
+      "name": "A held Space repeat does not cause a second false start in the repeated round",
+      "pass": true,
+      "state": {
+        "mode": "reaction",
+        "phase": "wait",
+        "round": 0,
+        "level": 0,
+        "sequence": [],
+        "samples": []
+      }
+    },
+    {
+      "name": "Five real reaction signals produce a finite average and local best record",
+      "pass": true,
+      "samples": [
+        17,
+        31,
+        20,
+        13,
+        28
+      ],
+      "average": 22,
+      "best": 22
+    },
+    {
+      "name": "Escape closes only the reaction trainer and keeps exterior walking active",
+      "pass": true
+    },
+    {
+      "name": "memory opens from its physical courtyard object",
+      "pass": true,
+      "state": {
+        "mode": "memory",
+        "phase": "idle",
+        "round": 5,
+        "level": 0,
+        "sequence": [],
+        "samples": [
+          17,
+          31,
+          20,
+          13,
+          28
+        ]
+      }
+    },
+    {
+      "name": "Correct tabletop sequence advances and preserves the learned prefix",
+      "pass": true,
+      "previous": [
+        0
+      ],
+      "state": {
+        "mode": "memory",
+        "phase": "input",
+        "round": 0,
+        "level": 2,
+        "sequence": [
+          0,
+          1
+        ],
+        "samples": []
+      }
+    },
+    {
+      "name": "A wrong tabletop sequence ends the round with a usable restart",
+      "pass": true,
+      "state": {
+        "mode": "memory",
+        "phase": "done",
+        "round": 0,
+        "level": 2,
+        "sequence": [
+          0,
+          1
+        ],
+        "samples": []
+      }
+    },
+    {
+      "name": "Focus regression begins with genuine unobstructed walking",
+      "pass": true,
+      "before": [
+        11.678708015181762,
+        1.667,
+        -4.1258578175624905
+      ],
+      "after": [
+        11.72802259889805,
+        1.667,
+        -3.799563361843591
+      ]
+    },
+    {
+      "name": "Focusing a destination select clears a previously held movement key",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "courtyard",
+      "expectedOriginalArea": "courtyard",
+      "before": [
+        11.72802259889805,
+        1.667,
+        -3.799563361843591
+      ],
+      "after": [
+        11.72802259889805,
+        1.667,
+        -3.799563361843591
+      ]
+    },
+    {
+      "name": "Keyboard input on a destination select does not move the walker",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "courtyard",
+      "expectedOriginalArea": "courtyard",
+      "before": [
+        11.72802259889805,
+        1.667,
+        -3.799563361843591
+      ],
+      "after": [
+        11.72802259889805,
+        1.667,
+        -3.799563361843591
+      ]
+    },
+    {
+      "name": "Destination select retained keyboard focus",
+      "pass": true
+    },
+    {
+      "name": "Escape still exits walking when a destination select has focus",
+      "pass": true
+    },
+    {
+      "name": "Mobile walking controls and interaction button fit the viewport",
+      "pass": true,
+      "rects": [
+        {
+          "selector": ".tour-exit",
+          "x": 250,
+          "y": 69.796875,
+          "right": 375,
+          "bottom": 123.796875,
+          "visible": true
+        },
+        {
+          "selector": ".tour-interact",
+          "x": 57.0234375,
+          "y": 605,
+          "right": 332.9765625,
+          "bottom": 649,
+          "visible": true
+        },
+        {
+          "selector": ".tour-joystick",
+          "x": 15,
+          "y": 697,
+          "right": 121,
+          "bottom": 803,
+          "visible": true
+        },
+        {
+          "selector": ".tour-look-stick",
+          "x": 269,
+          "y": 697,
+          "right": 375,
+          "bottom": 803,
+          "visible": true
+        },
+        {
+          "selector": "[data-tour-target]",
+          "x": 28,
+          "y": 200.796875,
+          "right": 203,
+          "bottom": 244.796875,
+          "visible": true
+        }
+      ]
+    },
+    {
+      "name": "office-0 opens via E into a safe walkable room",
+      "pass": true,
+      "kind": "office",
+      "building": "0",
+      "walker": {
+        "x": 0,
+        "z": 5,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "Mobile room controls fit the viewport",
+      "pass": true,
+      "rects": [
+        {
+          "x": 270.359375,
+          "y": 12,
+          "right": 378,
+          "bottom": 70
+        },
+        {
+          "x": 184.625,
+          "y": 800,
+          "right": 374.625,
+          "bottom": 832
+        },
+        {
+          "x": 24,
+          "y": 599,
+          "right": 94,
+          "bottom": 669
+        },
+        {
+          "x": 296,
+          "y": 599,
+          "right": 366,
+          "bottom": 669
+        }
+      ]
+    },
+    {
+      "name": "mobile-office close restores exterior position and rotation",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "originalArea": "forecourt",
+      "expectedOriginalArea": "forecourt",
+      "before": [
+        33.61555859643358,
+        1.667,
+        -84.18667578729759
+      ],
+      "after": [
+        33.61555859643358,
+        1.667,
+        -84.18667578729759
+      ]
+    },
+    {
+      "name": "No WebGL or local resource errors",
+      "pass": true,
+      "errors": [],
+      "bad": []
+    },
+    {
+      "name": "reaction opens from its physical courtyard object",
+      "pass": true,
+      "state": {
+        "mode": "reaction",
+        "phase": "idle",
+        "round": 0,
+        "level": 2,
+        "sequence": [
+          0,
+          1
+        ],
+        "samples": []
+      }
+    },
+    {
+      "name": "Disposing a tour removes a pending game and its HUD",
+      "pass": true,
+      "hudConnected": false,
+      "dialogConnected": false,
+      "dialogOpen": false
+    },
+    {
+      "name": "Disposed activity stays absent after its scheduled signal time",
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "pass": true
+}

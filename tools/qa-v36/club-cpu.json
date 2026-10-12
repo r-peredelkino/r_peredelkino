@@ -1,0 +1,304 @@
+{
+  "revision": 36,
+  "checks": [
+    {
+      "name": "Four amenities use the user-selected first floor without asserting a measured developer plan",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All four supplied room renders are identified",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Compact training includes a large TV and six movable mats, with no machines",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Kids entry follows the official coffee-only adjacency",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Coffee, yoga and lounge have their own corridor entries",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Original authored animal silhouettes do not use photographs as wall textures",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Play climbing holds and warm globe lights are instanced",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Coffee includes three stools and actual machine, sink, faucet and pendant geometry",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Lounge follows curved cream seating, blue grain and brushed metal tables",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Actual geometry positions and normals are finite",
+      "pass": true,
+      "details": {
+        "finite": 0
+      }
+    },
+    {
+      "name": "Every transformed furnishing vertex is inside its assigned room",
+      "pass": true,
+      "details": {
+        "vertices": 50189,
+        "outside": 0,
+        "bad": []
+      }
+    },
+    {
+      "name": "All furnishings and pendants stay below the resident ceiling",
+      "pass": true,
+      "details": {
+        "aboveCeiling": 0,
+        "ceiling": 3.3
+      }
+    },
+    {
+      "name": "Every new geometry and material has project provenance",
+      "pass": true,
+      "details": {
+        "unmarkedG": 0,
+        "unmarkedM": 0
+      }
+    },
+    {
+      "name": "Authored textures contain recoverable project signatures",
+      "pass": true,
+      "details": {
+        "textureSignatures": 6,
+        "textures": 6
+      }
+    },
+    {
+      "name": "Static furniture is batched below fifty draws",
+      "pass": true,
+      "details": {
+        "stats": {
+          "meshes": 38,
+          "triangles": 23955,
+          "geometries": 38,
+          "materials": 26,
+          "textures": 6
+        }
+      }
+    },
+    {
+      "name": "All five amenity approaches are physically free",
+      "pass": true,
+      "details": {
+        "pois": [
+          {
+            "id": "resident-yoga",
+            "free": true
+          },
+          {
+            "id": "resident-kids",
+            "free": true
+          },
+          {
+            "id": "resident-coffee",
+            "free": true
+          },
+          {
+            "id": "resident-lounge-seat",
+            "free": true
+          },
+          {
+            "id": "resident-lounge-light",
+            "free": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Physical BFS reaches all amenities and every service/lift/club doorway",
+      "pass": true,
+      "details": {
+        "visited": 8967,
+        "targets": [
+          {
+            "id": "resident-yoga",
+            "reachable": true
+          },
+          {
+            "id": "resident-kids",
+            "reachable": true
+          },
+          {
+            "id": "resident-coffee",
+            "reachable": true
+          },
+          {
+            "id": "resident-lounge-seat",
+            "reachable": true
+          },
+          {
+            "id": "resident-lounge-light",
+            "reachable": true
+          },
+          {
+            "id": "door-yoga",
+            "reachable": true
+          },
+          {
+            "id": "door-coffee",
+            "reachable": true
+          },
+          {
+            "id": "door-kids",
+            "reachable": true
+          },
+          {
+            "id": "door-lift",
+            "reachable": true
+          },
+          {
+            "id": "door-service",
+            "reachable": true
+          },
+          {
+            "id": "door-lounge",
+            "reachable": true
+          },
+          {
+            "id": "door-corridor",
+            "reachable": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "A direct corridor shortcut into the kids room is blocked by its actual wall",
+      "pass": true,
+      "details": {
+        "direct": {
+          "x": -1.3333333333333337,
+          "z": -11.4,
+          "blocked": true
+        }
+      }
+    },
+    {
+      "name": "The coffee-to-kids doorway stays free of furnishings",
+      "pass": true,
+      "details": {
+        "portal": {
+          "x": -6.3,
+          "z": -9.399999999999991,
+          "blocked": false
+        }
+      }
+    },
+    {
+      "name": "Yoga runs all three phases and changes actual luminous mat matrices",
+      "pass": true,
+      "details": {
+        "inhale": "вдох",
+        "pause": "пауза",
+        "exhale": "выдох",
+        "inhaleIntensity": 0.5549999999999999
+      }
+    },
+    {
+      "name": "Yoga automatically ends at sixty seconds",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Memory preview changes actual colour tiles in the intended sequence",
+      "pass": true,
+      "details": {
+        "tile0": 0.95,
+        "tile1": 0.95
+      }
+    },
+    {
+      "name": "Memory buttons are accepted only after the preview",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "An incorrect memory choice restarts its visual preview without scoring",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Memory stop restores all tiles and rejects hidden input",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Coffee selection changes the real beverage surface for all three choices",
+      "pass": true,
+      "details": {
+        "espresso": 5057558,
+        "latte": 13216382,
+        "tea": 9135409
+      }
+    },
+    {
+      "name": "Brewing changes visible steam instance matrices",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "The beverage demo ends and hides its steam",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Lounge light selection changes actual fixture emission",
+      "pass": true,
+      "details": {
+        "quiet": 0.2,
+        "warm": 0.85
+      }
+    },
+    {
+      "name": "Lounge seat state and explicit safe seat point are exposed",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Owned resources dispose exactly once and leave external registries empty",
+      "pass": true,
+      "details": {
+        "geometries": 38,
+        "materials": 26,
+        "textures": 6
+      }
+    },
+    {
+      "name": "Disposed amenities detach and reject further actions",
+      "pass": true,
+      "details": {}
+    }
+  ],
+  "checkCount": 32,
+  "pass": true,
+  "passed": true,
+  "stats": {
+    "vertices": 50189,
+    "meshes": 38,
+    "materials": 26,
+    "textures": 6
+  },
+  "timestamp": "2026-10-11T22:44:35.104Z"
+}

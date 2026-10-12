@@ -1,0 +1,11 @@
+# Supplied reference reconciliation — version 22
+
+Sources inspected locally: 432234(1).jpeg (office forecourt), 234234(1).webp (residential entrance), 124543(1).jpg (external retail), 1345(1).webp (courtyard), images (26)(1).jpeg (arena), three developer-panorama screenshots at 21:51:44 / 47 / 51. The September 7, 2026 declaration 77-003147 was text-extracted (201 pages); the one-page site plan was rendered and inspected, and the 25-page GPZU text was extracted.
+
+The engineering plan still labels a future preschool as a separate project. The user's latest screenshots and explicit instruction take precedence for this conceptual landscape revision; removal from this model does not assert an approved planning cancellation.
+
+Implemented: removed former kindergarten volume, watermark ribbon and walking collision; open exercise court with circular pull-up structure, ladder, parallel bars, benches, thin shade discs, planting pockets and flowing paving lines. Clipped pre-existing planting polygons and tree/flower positions around the new court. Five identical private courtyard portals with tall charcoal piers and organic illuminated canopies. Office forecourt uses one revolving entrance, a wider dark rounded canopy, lit rim and coloured lighting poles. No retail atlas or labels at office lobby. Outward retail remains, with partial mezzanines. Courtyard-facing podium and tower plinths are opaque, and regular residential ground-floor window instances are hidden. More dark opaque facade infill, preserving curved-corner glass. Office horizontal ribbons use blue-grey metal.
+
+Limits: entrances and landscape equipment reconstructed from perspective renders rather than measured working drawings; the directional retail classifier uses the shared courtyard focus. Existing tower placements and apartment registrations retained. Roof arena geometry and continuous upper-storey media display retained because they already match the broad supplied arena silhouette. No changes to ownership or audience.
+
+Validation: model geometry, open courtyard collision, privacy/retail zoning, instance visibility, winter/night states, protected traffic and draw budget. WebKit rendered close courtyard, office, residential entry, and overview without console/page errors. Physical iPhone performance not measured.

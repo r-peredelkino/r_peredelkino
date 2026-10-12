@@ -1,0 +1,196 @@
+{
+  "revision": 33,
+  "referenceDate": "2026-10-11",
+  "author": "@r_peredelkino",
+  "images": [
+    {
+      "name": "XXL_height.webp",
+      "bytes": 137188,
+      "sha256": "1e5a6eafa15cd9ba47df5b3f059f0a50c9b91cbb58619238c71ea7e5e9d37848"
+    },
+    {
+      "name": "i.webp",
+      "bytes": 110646,
+      "sha256": "701dba7646eb14c050d95723030c6a4af704e72941342a884d75ec16a2e34175"
+    },
+    {
+      "name": "novostroyka-novoperedelkino-2913438749-1.jpg.webp",
+      "bytes": 173220,
+      "sha256": "01f0adc984e50cee815f401e2ac920556a36cbd0fa5832c79ddb48f606c0900c"
+    },
+    {
+      "name": "orig.webp",
+      "bytes": 4371438,
+      "sha256": "7d8d700e03d35c0da7e27dcf7aa1967bc4126c8e3573cb870e4197770fc91448"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 13.38.16(1).png",
+      "bytes": 3120102,
+      "sha256": "1f0bfccaefb85aca3249e8fa4a5bfd4ffe68accc723e807c3d0318afa1ca937a"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 13.38.21(1).png",
+      "bytes": 3249855,
+      "sha256": "c9b5618f9be1aff3a871d8f615e29a7e9670f313020f46a0ce0319486fb219de"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 13.38.28(1).png",
+      "bytes": 3193831,
+      "sha256": "76af942b0f21b519fd0402b3702e2f2541b768ee4fa47f919480774c03155c56"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 13.38.37(1).png",
+      "bytes": 3262270,
+      "sha256": "3ed4a6dc912095a63276bf46c8f1e9998345e23ab36ab328abe7490fc84191b2"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 19.30.08.png",
+      "bytes": 3696019,
+      "sha256": "7b291f110052c47c8ea7d804762cf129c96fad34cbda6a40d3867675fe489c74"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 19.30.22.png",
+      "bytes": 3493523,
+      "sha256": "29a1e429c3daee6f8d0a2e89ed5418a0ca770944275473e11ae8bb362a35f82e"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 19.31.39.png",
+      "bytes": 3178306,
+      "sha256": "4925a8cf8bd370df6c66a0b35544487fd768eae1f3fe54b61461c3421f879d79"
+    }
+  ],
+  "primarySources": [
+    "https://rodina-peredelkino.ru/genplan/",
+    "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+    "https://peredelkino-offices.ru/"
+  ],
+  "sourceViews": {
+    "node3": [
+      {
+        "name": "court",
+        "pan": 1.9,
+        "tilt": -43,
+        "fov": 68,
+        "viewport": [
+          1440,
+          1080
+        ]
+      },
+      {
+        "name": "office",
+        "pan": -24,
+        "tilt": -40,
+        "fov": 45,
+        "viewport": [
+          1440,
+          1080
+        ]
+      },
+      {
+        "name": "portal",
+        "pan": -4,
+        "tilt": -38,
+        "fov": 35,
+        "viewport": [
+          1440,
+          1080
+        ]
+      },
+      {
+        "name": "forest",
+        "pan": 58,
+        "tilt": -48,
+        "fov": 58,
+        "viewport": [
+          1440,
+          1080
+        ]
+      },
+      {
+        "name": "roof",
+        "pan": 7,
+        "tilt": -10,
+        "fov": 66,
+        "viewport": [
+          1440,
+          1080
+        ]
+      }
+    ]
+  },
+  "registeredGroundFeatures": {
+    "play": {
+      "before": [
+        20,
+        36
+      ],
+      "after": [
+        25,
+        25
+      ]
+    },
+    "sport": {
+      "before": [
+        11,
+        -25
+      ],
+      "after": [
+        16,
+        -29
+      ]
+    },
+    "lounge": {
+      "before": {
+        "center": [
+          0,
+          -5
+        ],
+        "rx": 6,
+        "rz": 9.1
+      },
+      "after": {
+        "center": [
+          0.5,
+          1.4
+        ],
+        "rx": 6.8,
+        "rz": 4.6
+      }
+    }
+  },
+  "passage": {
+    "observedPixel": [
+      843,
+      317
+    ],
+    "rawGround": [
+      -17.050978886695336,
+      -50.47989451186463
+    ],
+    "registeredCenter": [
+      -14.93175256487212,
+      -48.17638764031765
+    ],
+    "registrationDisplacementModelUnits": 3.130058164055823,
+    "dimensionsStatus": "Width/height and hidden corridor path estimated. No construction drawing."
+  },
+  "officeTerrace": {
+    "method": "Occupied roof wing fitted to unchanged model podium/tower contours; tables and planting estimated from office render",
+    "surveyConfirmed": false
+  },
+  "cafe5": {
+    "offset": [
+      -0.5151517082332822,
+      -4.62164675386429
+    ],
+    "reason": "Original nominal trace put all three tabletop centres inside the fixed podium; retain group geometry and clear the opening",
+    "surveyConfirmed": false
+  },
+  "limits": [
+    "Nominal panorama GPS/altitude/heading and existing architectural registration are approximate",
+    "Elevated crowns and roofs cannot be treated as ground anchors",
+    "Occluded garden edges, planting species/count, exact luminaire spacing and each paving block are not proven by dimensioned documents",
+    "Fan/tower orientation preserved after visual plan/maket comparison; no revised architectural footprint asserted",
+    "Concept fixtures and source developer architecture have separate authorship"
+  ]
+}

@@ -1,0 +1,579 @@
+{
+  "nodeArchitecture": "arm64",
+  "samples": [
+    {
+      "pair": 1,
+      "version": 36,
+      "base": "http://127.0.0.1:8080",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.07222222222223,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 7913862,
+      "trianglesMin": 7913862,
+      "trianglesMax": 7913862,
+      "callsMean": 327,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 1,
+      "version": 36,
+      "base": "http://127.0.0.1:8080",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 44.442222222222235,
+      "medianMS": 50,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 9443925,
+      "trianglesMin": 9443925,
+      "trianglesMax": 9443925,
+      "callsMean": 367,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 1,
+      "version": 36,
+      "base": "http://127.0.0.1:8080",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 59.99666666666668,
+      "medianMS": 66.59999999999854,
+      "p95MS": 83.20000000000073,
+      "trianglesMean": 10533309,
+      "trianglesMin": 10533309,
+      "trianglesMax": 10533309,
+      "callsMean": 429,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    },
+    {
+      "pair": 1,
+      "version": 37,
+      "base": "http://127.0.0.1:8097",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.626666666666665,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 7926174,
+      "trianglesMin": 7926174,
+      "trianglesMax": 7926174,
+      "callsMean": 327,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 1,
+      "version": 37,
+      "base": "http://127.0.0.1:8097",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 44.62777777777778,
+      "medianMS": 50,
+      "p95MS": 50.10000000000218,
+      "trianglesMean": 9454185,
+      "trianglesMin": 9454185,
+      "trianglesMax": 9454185,
+      "callsMean": 367,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 1,
+      "version": 37,
+      "base": "http://127.0.0.1:8097",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 59.07111111111109,
+      "medianMS": 66.59999999999854,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 10543569,
+      "trianglesMin": 10543569,
+      "trianglesMax": 10543569,
+      "callsMean": 429,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    },
+    {
+      "pair": 2,
+      "version": 36,
+      "base": "http://127.0.0.1:8080",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.81333333333333,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50,
+      "trianglesMean": 7913862,
+      "trianglesMin": 7913862,
+      "trianglesMax": 7913862,
+      "callsMean": 327,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 2,
+      "version": 36,
+      "base": "http://127.0.0.1:8080",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 44.8122222222222,
+      "medianMS": 50,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 9443925,
+      "trianglesMin": 9443925,
+      "trianglesMax": 9443925,
+      "callsMean": 367,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 2,
+      "version": 36,
+      "base": "http://127.0.0.1:8080",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 60.18333333333333,
+      "medianMS": 66.59999999999854,
+      "p95MS": 66.79999999999927,
+      "trianglesMean": 10533309,
+      "trianglesMin": 10533309,
+      "trianglesMax": 10533309,
+      "callsMean": 429,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    },
+    {
+      "pair": 2,
+      "version": 37,
+      "base": "http://127.0.0.1:8097",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 40.18444444444445,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 7926174,
+      "trianglesMin": 7926174,
+      "trianglesMax": 7926174,
+      "callsMean": 327,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 2,
+      "version": 37,
+      "base": "http://127.0.0.1:8097",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 44.442222222222235,
+      "medianMS": 50,
+      "p95MS": 50.099999999998545,
+      "trianglesMean": 9454185,
+      "trianglesMin": 9454185,
+      "trianglesMax": 9454185,
+      "callsMean": 367,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 2,
+      "version": 37,
+      "base": "http://127.0.0.1:8097",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 59.99777777777777,
+      "medianMS": 66.59999999999854,
+      "p95MS": 66.79999999999927,
+      "trianglesMean": 10543569,
+      "trianglesMin": 10543569,
+      "trianglesMax": 10543569,
+      "callsMean": 429,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "drawingBuffer": [
+        1500,
+        1000
+      ],
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    }
+  ],
+  "errors": [],
+  "resources": [],
+  "method": {
+    "viewport": [
+      1500,
+      1000
+    ],
+    "dpr": 1,
+    "date": "2026-07-15",
+    "minutes": 720,
+    "quality": "full",
+    "renderArea": [
+      1500,
+      1000
+    ],
+    "pairedRepeats": 2,
+    "framesPerView": 90,
+    "order": [
+      36,
+      37,
+      36,
+      37
+    ],
+    "measurement": "requestAnimationFrame intervals; controlled comparison, no FPS guarantee"
+  },
+  "cameraPairs": [
+    {
+      "pair": 1,
+      "action": "courtyard",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 3.1,
+      "afterZoom": 3.1
+    },
+    {
+      "pair": 1,
+      "action": "forecourt",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 2.25,
+      "afterZoom": 2.25
+    },
+    {
+      "pair": 1,
+      "action": "facade",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 4,
+      "afterZoom": 4
+    },
+    {
+      "pair": 2,
+      "action": "courtyard",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 3.1,
+      "afterZoom": 3.1
+    },
+    {
+      "pair": 2,
+      "action": "forecourt",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 2.25,
+      "afterZoom": 2.25
+    },
+    {
+      "pair": 2,
+      "action": "facade",
+      "pass": true,
+      "drawingBuffers": [
+        [
+          1500,
+          1000
+        ],
+        [
+          1500,
+          1000
+        ]
+      ],
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 4,
+      "afterZoom": 4
+    }
+  ],
+  "pass": true
+}

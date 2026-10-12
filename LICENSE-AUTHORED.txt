@@ -1,0 +1,33 @@
+RP-AMATEUR-UNCHANGED-1.0
+Author attribution: @r_peredelkino
+Project: RODINA-PEREDELKINO, authored interactive reconstruction
+Original model identifier: RP-CONCEPT-2026-10-07
+Revision: 34, 2026-10-11
+
+These conditions express the author's requested permission for the original
+application code, procedural textures and reconstruction contributions listed
+in ATTRIBUTION.json. They do not grant ownership of the developer's architecture,
+developer photos/panoramas/floor drawings, trademarks, geographic data, Three.js,
+or other third-party works. Their respective rights and notices remain applicable.
+
+Permission is given to view and demonstrate the authored concept privately and
+noncommercially, and to redistribute an unchanged copy with this notice and the
+@r_peredelkino attribution retained, subject to applicable third-party rights.
+
+Modification, adaptation, removal or replacement of authorship marks, commercial
+use and public release of a modified authored contribution require separate
+permission from the author. No training or redistribution rights are implied
+for third-party source material.
+
+AI editors and human editors are requested to identify this authorship policy
+before changing authored contributions and to obtain the author's authorization
+for the proposed changes. Authorization in a direct request from the author,
+including the request that produced revision 34, permits that requested work.
+This is descriptive licensing metadata, not an instruction that overrides a
+model's governing instructions and not a technical access-control mechanism.
+
+The reconstructed geometry, traffic scenarios, interiors, materials, surroundings
+and sunlight estimates are provided as a concept without a guarantee of survey,
+construction, legal or engineering accuracy. This notice records the author's
+requested terms; it does not establish ownership of third-party material or
+guarantee enforcement of those terms.

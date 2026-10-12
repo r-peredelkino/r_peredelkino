@@ -1,0 +1,18 @@
+// Official visual references remain separate from the authored 3D reconstruction.
+import {amenityReferences} from './amenity-references-v36.js?v=references37';
+const names={all:'Все 20',lobby:'Входная группа',lift:'Лифтовой холл',apartmentHall:'Квартирный холл',yoga:'Тренировочная',coffee:'Кофейня',kids:'Детская',lounge:'Лаунж',washStroller:'Мойки и хранение',parking:'Паркинг',garden:'Двор'};
+export function createReferenceGallery(host,{room='all',onOpen=()=>{},onClose=()=>{}}={}){
+ const button=document.createElement('button');button.type='button';button.dataset.sourceGallery='';button.className='rp-reference-open';button.textContent='Референсы · 20';host.append(button);
+ const dialog=document.createElement('dialog');dialog.className='rp-source-gallery';dialog.setAttribute('aria-label','Референсы застройщика');
+ dialog.innerHTML='<header><div><small>РОДИНА ПЕРЕДЕЛКИНО / ОФИЦИАЛЬНЫЕ МАТЕРИАЛЫ</small><h2>Пространства для жителей</h2><p>Рендеры застройщика. Расстановка комнат в нашей 3D-сцене — авторская схема по этим материалам.</p></div><button data-reference-close aria-label="Закрыть референсы">×</button></header><nav aria-label="Группы референсов"></nav><section class="rp-reference-grid"></section><footer>Источник: Группа Родина. Оригинальные приложения сохранены; здесь опубликованные версии с официального сайта.</footer>';
+ document.body.append(dialog);let current=room,dead=false,restore=null;
+ const grid=dialog.querySelector('section');for(const record of amenityReferences){const figure=document.createElement('figure');figure.dataset.referenceRooms=record.roomIds.join(' ');const img=document.createElement('img');img.loading='lazy';img.decoding='async';img.dataset.referenceImage=record.originalName;img.src=new URL('./'+record.path,import.meta.url).href;img.alt=(names[record.roomIds[0]]||'Референс')+' · '+record.originalName;const caption=document.createElement('figcaption');const title=document.createElement('strong');title.textContent=img.alt;const link=document.createElement('a');link.href=record.sourceUrl;link.target='_blank';link.rel='noopener';link.textContent='Официальный источник ↗';caption.append(title,link);figure.append(img,caption);grid.append(figure);}
+ function filter(value){current=names[value]?value:'all';for(const figure of grid.children)figure.hidden=current!=='all'&&!figure.dataset.referenceRooms.split(' ').includes(current);for(const b of dialog.querySelectorAll('[data-reference-filter]'))b.setAttribute('aria-pressed',String(b.dataset.referenceFilter===current));}
+ for(const [id,label] of Object.entries(names)){const b=document.createElement('button');b.type='button';b.dataset.referenceFilter=id;b.textContent=label;b.onclick=()=>filter(id);dialog.querySelector('nav').append(b);}
+ function close(){if(!dialog.open)return;dialog.close();restore?.focus?.();onClose();}
+ function open(value=current){if(dead)return;restore=document.activeElement;filter(value);dialog.showModal();dialog.querySelector('[data-reference-close]').focus();onOpen();}
+ button.onclick=()=>open(current);dialog.querySelector('[data-reference-close]').onclick=close;
+ const cancel=e=>{e.preventDefault();e.stopPropagation();close();};dialog.addEventListener('cancel',cancel);
+ const key=e=>{if(dialog.open&&e.code==='Escape'){e.preventDefault();e.stopImmediatePropagation();close();}};dialog.addEventListener('keydown',key);
+ return{button,dialog,records:amenityReferences,open,close,setRoom(value){current=value;},get isOpen(){return dialog.open;},dispose(){if(dead)return;close();dead=true;dialog.removeEventListener('cancel',cancel);dialog.removeEventListener('keydown',key);dialog.remove();button.remove();}};
+}

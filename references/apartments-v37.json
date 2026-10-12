@@ -1,0 +1,1695 @@
+{
+  "schemaVersion": 1,
+  "revision": 37,
+  "snapshotAsOf": "2026-10-09",
+  "checkedAtUTC": "2026-10-12T08:02:04.569212+00:00",
+  "catalogSourceUrl": "https://rodina-peredelkino.ru/catalog/",
+  "archivedCatalogCount": 203,
+  "archivedUniqueImageCount": 107,
+  "currentPublishedCountObserved": 213,
+  "threeDExamples": 17,
+  "newExamples": 15,
+  "sourceAssets": [
+    {
+      "path": "dist/assets/reference/apartment-plans/27fa418ccbea59359ea4eadf18d43446.png",
+      "sha256": "f8d1bcf3aebb27c9aadcdda0bc9e6f46ca6fa273444c319f12fa14053b024b01",
+      "bytes": 303814,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/27fa418ccbea59359ea4eadf18d43446.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/plans/d31eab8b-ea64-2f74-f404-c9f671f31ca1.svg",
+      "sha256": "ff064c8dc09209b837739d2439ff43e9615de7adc7e64393ea94fd23126863e9",
+      "bytes": 876181,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_blds/d31eab8b-ea64-2f74-f404-c9f671f31ca1.svg",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/b622341a548a66392c5c3206e7d58865.png",
+      "sha256": "4c1ed83a4252d799dde00a7fc90f16baea896dc731ea103cf68991ba70b73702",
+      "bytes": 346289,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/b622341a548a66392c5c3206e7d58865.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/plans/8c854180-10c4-5f6e-7212-91b59272e6a3.svg",
+      "sha256": "3255f3062cadf2aac91e23ea7faf7c0b85dc20da5951960ef30aee1bfa417371",
+      "bytes": 875411,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_blds/8c854180-10c4-5f6e-7212-91b59272e6a3.svg",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/2b284e4b0890f9198dd94f398660d780.png",
+      "sha256": "29afc983f9579a04e4b3ed6cc0e431eb07564fc964293db1a2866d1513bf10fe",
+      "bytes": 155322,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/2b284e4b0890f9198dd94f398660d780.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/plans/a42c6ead-1b61-5045-962c-af1844b6cd00.svg",
+      "sha256": "9bf12cfbd46f4bb98997a25fa859ae43fc919aa93c1ee392ab246b64eb01fa9a",
+      "bytes": 1132324,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_blds/a42c6ead-1b61-5045-962c-af1844b6cd00.svg",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/6587ad2176bf0b00f8abd9b710fc8fc3.png",
+      "sha256": "ac376978dee93e06dbe54d808346dd2e65a7f92e74d2fc6c24bb49b969f0ad84",
+      "bytes": 245873,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/6587ad2176bf0b00f8abd9b710fc8fc3.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sha256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+      "bytes": 883027,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_blds/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/a81dc03d42a0d6e4696e1670df27b5a5.png",
+      "sha256": "60c1555dd57a205e26754110619251c2c6f6be5b3931b0f6c226bf50e9460094",
+      "bytes": 201742,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/a81dc03d42a0d6e4696e1670df27b5a5.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/a1779e66a92571d4924ed7bda3a92f7b.png",
+      "sha256": "c737838e274a0c89b80d3b9656f77b63fa094fa6f6112fb2757a4d576d162c53",
+      "bytes": 157815,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/a1779e66a92571d4924ed7bda3a92f7b.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/e64c909fae0f5a1bd51a433d2d604007.png",
+      "sha256": "5121b992808cb98e31ba6fbe28d26e701bdc071b33829d82709597cefc4b27e7",
+      "bytes": 238702,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/e64c909fae0f5a1bd51a433d2d604007.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/34cafa5ed8da46eab84c40fb0be84cf3.png",
+      "sha256": "be35a05672651eb0582ebde745e0f018ba2ecc45747dbce53207a202212c798f",
+      "bytes": 212413,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/34cafa5ed8da46eab84c40fb0be84cf3.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/1d8400b5b0c0326e5c1344c7031293d2.png",
+      "sha256": "54e5cd52a725bfe4f3200469f5ba131f66d14825eb337297791d1f023ef90da6",
+      "bytes": 219517,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/1d8400b5b0c0326e5c1344c7031293d2.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/359c84f3a3db0f68e98ace0a5cf9d85b.png",
+      "sha256": "932d298c9836bd09b60d8bb8cd4e0e6ca63ec934c9ebfd188ef2e9cfe21d2fe5",
+      "bytes": 145201,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/359c84f3a3db0f68e98ace0a5cf9d85b.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/plans/1b796a47-a308-7e67-db2b-a2dc5c434d0a.svg",
+      "sha256": "dd523dfe115c419a01421a26c486a4e52acf17398061a26d0f04e654cf7dfafd",
+      "bytes": 1159695,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_blds/1b796a47-a308-7e67-db2b-a2dc5c434d0a.svg",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/0617218368c4911b7ce3af2a35e16c3e.png",
+      "sha256": "ba55492e2023d9ee754465bd988860cc5e562d20afbf7ae54c2ed4563b1c087f",
+      "bytes": 287118,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/0617218368c4911b7ce3af2a35e16c3e.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/d6be5f58058cf42ef6afb21592bb90e0.png",
+      "sha256": "d1d036f13f803ab692c1374bd647638f988bde316143cc5ccc3835349ba33d75",
+      "bytes": 130187,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/d6be5f58058cf42ef6afb21592bb90e0.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/6660ede0f3d7979007e889d70bb294e4.png",
+      "sha256": "beec133dc8a1cb236ea0332c1e84da2376fa47006535b417444f14c196751502",
+      "bytes": 494333,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/6660ede0f3d7979007e889d70bb294e4.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+      "sha256": "2eb01ad983f8e91ea5efb3d00d6f5c8b256b77b34a92013396c5a087e9bd90b3",
+      "bytes": 879636,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_blds/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/999ae194f32451e24a98089221e0c2d5.png",
+      "sha256": "76fcb48b2773e5f665c5e88f26cc9bffb3049d193893ea209b74791738a36ede",
+      "bytes": 325070,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/999ae194f32451e24a98089221e0c2d5.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/d9898ff18e6082b1fe45731dd1fade1a.png",
+      "sha256": "74c21ecd566fded39979d44b2fd162cc6201e44f4917c7c22d8eb79d1ec200ca",
+      "bytes": 221175,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/d9898ff18e6082b1fe45731dd1fade1a.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/87cca2db9cdc6d6eb4219bab762c56ce.png",
+      "sha256": "fde94be40d00567dd83d3768d59972d807f16971bdf04fde012af643c2f7e6fd",
+      "bytes": 481631,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/87cca2db9cdc6d6eb4219bab762c56ce.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    },
+    {
+      "path": "dist/assets/reference/apartment-plans/67a73ab00866cdc5226a1bb7141fb014.png",
+      "sha256": "b10ebb5b13a7bc9cbf26e7481363879ac2c039d8fd83b08a2bc1aecd80e11e43",
+      "bytes": 534230,
+      "sourceUrl": "https://rodina-peredelkino.ru/!upload/t_lots/67a73ab00866cdc5226a1bb7141fb014.png",
+      "rights": {
+        "owner": "Группа Родина / проект Родина Переделкино",
+        "originalModelAuthor": false,
+        "referenceOnly": true
+      },
+      "status": "existing-source-unchanged",
+      "snapshotAsOf": "2026-10-09"
+    }
+  ],
+  "layouts": [
+    {
+      "id": "1-59",
+      "building": 1,
+      "floor": 6,
+      "slot": 7,
+      "number": 59,
+      "area": 24.7,
+      "advertisedRooms": 0,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-59/",
+      "imagePath": "dist/assets/reference/apartment-plans/27fa418ccbea59359ea4eadf18d43446.png",
+      "floorPath": "dist/assets/plans/d31eab8b-ea64-2f74-f404-c9f671f31ca1.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {},
+      "authoredAdditions": [
+        "Wall-mounted living-room television; source raster remains unchanged."
+      ]
+    },
+    {
+      "id": "1-81",
+      "building": 1,
+      "floor": 8,
+      "slot": 3,
+      "number": 81,
+      "area": 82.7,
+      "advertisedRooms": 3,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-81/",
+      "imagePath": "dist/assets/reference/apartment-plans/b622341a548a66392c5c3206e7d58865.png",
+      "floorPath": "dist/assets/plans/8c854180-10c4-5f6e-7212-91b59272e6a3.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {}
+    },
+    {
+      "id": "2-345",
+      "building": 2,
+      "floor": 2,
+      "slot": 8,
+      "number": 345,
+      "area": 24.1,
+      "advertisedRooms": 0,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-345/",
+      "imagePath": "dist/assets/reference/apartment-plans/2b284e4b0890f9198dd94f398660d780.png",
+      "floorPath": "dist/assets/plans/a42c6ead-1b61-5045-962c-af1844b6cd00.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-345/",
+        "image": "assets/reference/apartment-plans/2b284e4b0890f9198dd94f398660d780.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/2b284e4b0890f9198dd94f398660d780.png",
+        "imageSHA256": "29afc983f9579a04e4b3ed6cc0e431eb07564fc964293db1a2866d1513bf10fe",
+        "floorPlan": "assets/plans/a42c6ead-1b61-5045-962c-af1844b6cd00.svg",
+        "floorSHA256": "9bf12cfbd46f4bb98997a25fa859ae43fc919aa93c1ee392ab246b64eb01fa9a",
+        "floorContour": {
+          "alt": "8",
+          "class": "st0",
+          "points": "271,262.9 274.6,252.6 278,253.5 279.2,253 283.9,240.1 351.5,263.4 337.7,300.3 266.3,275.9    ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0.326,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": []
+      }
+    },
+    {
+      "id": "2-588",
+      "building": 2,
+      "floor": 22,
+      "slot": 2,
+      "number": 588,
+      "area": 46.3,
+      "advertisedRooms": 2,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-588/",
+      "imagePath": "dist/assets/reference/apartment-plans/6587ad2176bf0b00f8abd9b710fc8fc3.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-588/",
+        "image": "assets/reference/apartment-plans/6587ad2176bf0b00f8abd9b710fc8fc3.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/6587ad2176bf0b00f8abd9b710fc8fc3.png",
+        "imageSHA256": "ac376978dee93e06dbe54d808346dd2e65a7f92e74d2fc6c24bb49b969f0ad84",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "2",
+          "class": "st0",
+          "d": "M95.5,129.2c1.1-0.5,59.3-21.4,59.3-21.4l25.1,0.4l0.4,21l3.9,0.3l0.1,14.3l5.3,12.8l-4.3,1.7l3.7,11.7    l-0.3,1.9L120,196.4L95.5,129.2z",
+          "tag": "path"
+        },
+        "rasterRotation": -0.343,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 21,
+            "type": "vanity",
+            "sourceCentre": [
+              507,
+              1150
+            ],
+            "fitoutCentre": [
+              512,
+              1134
+            ],
+            "shiftPixels": 16.763
+          },
+          {
+            "index": 22,
+            "type": "washer",
+            "sourceCentre": [
+              394,
+              938
+            ],
+            "fitoutCentre": [
+              399,
+              943
+            ],
+            "shiftPixels": 7.071
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-591",
+      "building": 2,
+      "floor": 22,
+      "slot": 5,
+      "number": 591,
+      "area": 39.3,
+      "advertisedRooms": 2,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-591/",
+      "imagePath": "dist/assets/reference/apartment-plans/a81dc03d42a0d6e4696e1670df27b5a5.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-591/",
+        "image": "assets/reference/apartment-plans/a81dc03d42a0d6e4696e1670df27b5a5.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/a81dc03d42a0d6e4696e1670df27b5a5.png",
+        "imageSHA256": "60c1555dd57a205e26754110619251c2c6f6be5b3931b0f6c226bf50e9460094",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "5",
+          "class": "st0",
+          "points": "314,146.3 315.1,144.6 315.1,130 319.3,129.3 319.1,108.7 357.7,108.7 360.2,106.7 364.8,93.1     409,107.7 386.7,172.2   ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0.343,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 18,
+            "type": "vanity",
+            "sourceCentre": [
+              1110,
+              1180
+            ],
+            "fitoutCentre": [
+              1100,
+              1161
+            ],
+            "shiftPixels": 21.471
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-592",
+      "building": 2,
+      "floor": 22,
+      "slot": 6,
+      "number": 592,
+      "area": 27.5,
+      "advertisedRooms": 0,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-592/",
+      "imagePath": "dist/assets/reference/apartment-plans/a1779e66a92571d4924ed7bda3a92f7b.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-592/",
+        "image": "assets/reference/apartment-plans/a1779e66a92571d4924ed7bda3a92f7b.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/a1779e66a92571d4924ed7bda3a92f7b.png",
+        "imageSHA256": "c737838e274a0c89b80d3b9656f77b63fa094fa6f6112fb2757a4d576d162c53",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "6",
+          "class": "st0",
+          "d": "M299.2,188.7l2.1-4.9l5-14.2l3.3,0.9c0,0,8.3-22.3,8.5-22c0.2,0.3,67.3,22.9,67.3,22.9l-14.3,42.8    L299.2,188.7z",
+          "tag": "path"
+        },
+        "rasterRotation": 0.34,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": []
+      }
+    },
+    {
+      "id": "2-594",
+      "building": 2,
+      "floor": 22,
+      "slot": 8,
+      "number": 594,
+      "area": 47.3,
+      "advertisedRooms": 2,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-594/",
+      "imagePath": "dist/assets/reference/apartment-plans/e64c909fae0f5a1bd51a433d2d604007.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-594/",
+        "image": "assets/reference/apartment-plans/e64c909fae0f5a1bd51a433d2d604007.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/e64c909fae0f5a1bd51a433d2d604007.png",
+        "imageSHA256": "5121b992808cb98e31ba6fbe28d26e701bdc071b33829d82709597cefc4b27e7",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "8",
+          "class": "st0",
+          "points": "272.8,264.2 280.8,241.7 284.2,242.6 285.4,242 290.1,229.2 357.1,252.6 334,322 261.1,297.3   ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0.34,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 8,
+            "type": "kitchen",
+            "sourceCentre": [
+              1200,
+              529
+            ],
+            "fitoutCentre": [
+              1184,
+              528
+            ],
+            "shiftPixels": 16.031
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-595",
+      "building": 2,
+      "floor": 22,
+      "slot": 9,
+      "number": 595,
+      "area": 38.8,
+      "advertisedRooms": 2,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-595/",
+      "imagePath": "dist/assets/reference/apartment-plans/34cafa5ed8da46eab84c40fb0be84cf3.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-595/",
+        "image": "assets/reference/apartment-plans/34cafa5ed8da46eab84c40fb0be84cf3.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/34cafa5ed8da46eab84c40fb0be84cf3.png",
+        "imageSHA256": "be35a05672651eb0582ebde745e0f018ba2ecc45747dbce53207a202212c798f",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "9",
+          "class": "st0",
+          "points": "310,389.1 332.5,323.4 326.7,320.7 261.1,297.3 259.4,300 259.4,305.2 263.9,305.4 264.3,317.7     259.4,318.4 260.3,326.5 260.3,350.5 260.3,372.7 309.1,389.1   ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0.34,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 8,
+            "type": "sink",
+            "sourceCentre": [
+              1200,
+              1025
+            ],
+            "fitoutCentre": [
+              1193,
+              1030
+            ],
+            "shiftPixels": 8.602
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-598",
+      "building": 2,
+      "floor": 22,
+      "slot": 12,
+      "number": 598,
+      "area": 53,
+      "advertisedRooms": 2,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-598/",
+      "imagePath": "dist/assets/reference/apartment-plans/1d8400b5b0c0326e5c1344c7031293d2.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-598/",
+        "image": "assets/reference/apartment-plans/1d8400b5b0c0326e5c1344c7031293d2.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/1d8400b5b0c0326e5c1344c7031293d2.png",
+        "imageSHA256": "54e5cd52a725bfe4f3200469f5ba131f66d14825eb337297791d1f023ef90da6",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "12",
+          "class": "st0",
+          "d": "M142.8,259.6c0.6,0.6,22.6,63.7,22.6,63.7l73.9-26.1l-2.2-5.4l7.3-20.6l4-0.5l4.5-12.8l-4.4-1.8l6.3-17    l-22-0.9l-0.3-4.6l-16.1,0.2l-54,18.6L142.8,259.6z",
+          "tag": "path"
+        },
+        "rasterRotation": -0.35,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 2,
+            "type": "sink",
+            "sourceCentre": [
+              474,
+              650
+            ],
+            "fitoutCentre": [
+              476,
+              649
+            ],
+            "shiftPixels": 2.236
+          },
+          {
+            "index": 16,
+            "type": "wardrobe",
+            "sourceCentre": [
+              242,
+              992
+            ],
+            "fitoutCentre": [
+              259,
+              1006
+            ],
+            "shiftPixels": 22.023
+          }
+        ]
+      }
+    },
+    {
+      "id": "4-1071",
+      "building": 4,
+      "floor": 6,
+      "slot": 9,
+      "number": 1071,
+      "area": 25.4,
+      "advertisedRooms": 0,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/4-1071/",
+      "imagePath": "dist/assets/reference/apartment-plans/359c84f3a3db0f68e98ace0a5cf9d85b.png",
+      "floorPath": "dist/assets/plans/1b796a47-a308-7e67-db2b-a2dc5c434d0a.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/4-1071/",
+        "image": "assets/reference/apartment-plans/359c84f3a3db0f68e98ace0a5cf9d85b.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/359c84f3a3db0f68e98ace0a5cf9d85b.png",
+        "imageSHA256": "932d298c9836bd09b60d8bb8cd4e0e6ca63ec934c9ebfd188ef2e9cfe21d2fe5",
+        "floorPlan": "assets/plans/1b796a47-a308-7e67-db2b-a2dc5c434d0a.svg",
+        "floorSHA256": "dd523dfe115c419a01421a26c486a4e52acf17398061a26d0f04e654cf7dfafd",
+        "floorContour": {
+          "class": "st0",
+          "points": "261.5,296.2 270,272.3 269.7,270.6 270,269.3 271.7,262.9 346.6,288.7 330.6,333.4 290.8,318.6     294.5,307.4 263.7,296.4   ",
+          "alt": "9",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0.31,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 12,
+            "type": "wardrobe",
+            "sourceCentre": [
+              464,
+              804
+            ],
+            "fitoutCentre": [
+              466,
+              803
+            ],
+            "shiftPixels": 2.236
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-596",
+      "building": 2,
+      "floor": 22,
+      "slot": 10,
+      "number": 596,
+      "area": 64.6,
+      "advertisedRooms": 3,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-596/",
+      "imagePath": "dist/assets/reference/apartment-plans/0617218368c4911b7ce3af2a35e16c3e.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-596/",
+        "image": "assets/reference/apartment-plans/0617218368c4911b7ce3af2a35e16c3e.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/0617218368c4911b7ce3af2a35e16c3e.png",
+        "imageSHA256": "ba55492e2023d9ee754465bd988860cc5e562d20afbf7ae54c2ed4563b1c087f",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "10",
+          "class": "st0",
+          "d": "M187.9,391.1l48.9-17.5l3.5-1.5l0.3-20.7h18.8l0.2,21.3c0,0,48.5,16.9,49.2,17.2c0.7,0.3-10.6,34.6-10.6,34.6    l-14.4,20.2l-16.5,10.1l-28.4,2.1l-25.5-12.5l-14-21.9L187.9,391.1z",
+          "tag": "path"
+        },
+        "rasterRotation": 0,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 11,
+            "type": "bed",
+            "sourceCentre": [
+              483,
+              858
+            ],
+            "fitoutCentre": [
+              488,
+              854
+            ],
+            "shiftPixels": 6.403
+          },
+          {
+            "index": 13,
+            "type": "nightstand",
+            "sourceCentre": [
+              545,
+              975
+            ],
+            "fitoutCentre": [
+              544,
+              971
+            ],
+            "shiftPixels": 4.123
+          }
+        ]
+      }
+    },
+    {
+      "id": "2-590",
+      "building": 2,
+      "floor": 22,
+      "slot": 4,
+      "number": 590,
+      "area": 72.8,
+      "advertisedRooms": 3,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-590/",
+      "imagePath": "dist/assets/reference/apartment-plans/d6be5f58058cf42ef6afb21592bb90e0.png",
+      "floorPath": "dist/assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/2-590/",
+        "image": "assets/reference/apartment-plans/d6be5f58058cf42ef6afb21592bb90e0.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/d6be5f58058cf42ef6afb21592bb90e0.png",
+        "imageSHA256": "d1d036f13f803ab692c1374bd647638f988bde316143cc5ccc3835349ba33d75",
+        "floorPlan": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "floorSHA256": "2165364a55a0aeb73d092ffac9ce114569d656ef9442b201344c40e9eff4afa9",
+        "floorContour": {
+          "alt": "4",
+          "class": "st0",
+          "points": "250.8,44.9 383.9,44.3 396.9,45.9 411.2,51.3 417.8,61.9 418.7,71.7 417.8,84.3 409,107.7     363.9,92.4 359.1,107.2 326.5,107.8 319.6,107.8 319.1,90.8 295.9,91.1 293.9,84.3 270.3,84.3 269.9,91.2 249.5,91.3 249.5,45.7       ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 1,
+            "type": "nightstand",
+            "sourceCentre": [
+              336,
+              587
+            ],
+            "fitoutCentre": [
+              332,
+              589
+            ],
+            "shiftPixels": 4.472
+          },
+          {
+            "index": 2,
+            "type": "nightstand",
+            "sourceCentre": [
+              491,
+              636
+            ],
+            "fitoutCentre": [
+              484,
+              644
+            ],
+            "shiftPixels": 10.63
+          },
+          {
+            "index": 6,
+            "type": "chair",
+            "sourceCentre": [
+              319,
+              889
+            ],
+            "fitoutCentre": [
+              321,
+              885
+            ],
+            "shiftPixels": 4.472
+          },
+          {
+            "index": 21,
+            "type": "desk",
+            "sourceCentre": [
+              1340,
+              955
+            ],
+            "fitoutCentre": [
+              1330,
+              954
+            ],
+            "shiftPixels": 10.05
+          },
+          {
+            "index": 23,
+            "type": "bath",
+            "sourceCentre": [
+              670,
+              639
+            ],
+            "fitoutCentre": [
+              672,
+              638
+            ],
+            "shiftPixels": 2.236
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-324",
+      "building": 1,
+      "floor": 29,
+      "slot": 1,
+      "number": 324,
+      "area": 96.2,
+      "advertisedRooms": 4,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-324/",
+      "imagePath": "dist/assets/reference/apartment-plans/6660ede0f3d7979007e889d70bb294e4.png",
+      "floorPath": "dist/assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/1-324/",
+        "image": "assets/reference/apartment-plans/6660ede0f3d7979007e889d70bb294e4.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/6660ede0f3d7979007e889d70bb294e4.png",
+        "imageSHA256": "beec133dc8a1cb236ea0332c1e84da2376fa47006535b417444f14c196751502",
+        "floorPlan": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "floorSHA256": "2eb01ad983f8e91ea5efb3d00d6f5c8b256b77b34a92013396c5a087e9bd90b3",
+        "floorContour": {
+          "alt": "1",
+          "class": "st0",
+          "d": "M220.5,216.8v-10.2l-12.1,3.5l-0.9-1.9l-6.3-17.1l-4-11.3l-3.8,1.9l-4.6-9.6l0.3-1.9l-3.7-11.7l4.3-1.7    l-5.3-12.8l-0.1-14.3l-3.9-0.3l-0.4-21l-25.1-0.4c0,0-58.1,20.9-59.2,21.4l24.5,67.2l22.7,63.1l73.6-25.9l16-0.2v-16.6H220.5z",
+          "tag": "path"
+        },
+        "rasterRotation": -0.34,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 30,
+            "type": "bath",
+            "sourceCentre": [
+              579,
+              1084
+            ],
+            "fitoutCentre": [
+              587,
+              1089
+            ],
+            "shiftPixels": 9.434
+          },
+          {
+            "index": 35,
+            "type": "washer",
+            "sourceCentre": [
+              566,
+              1310
+            ],
+            "fitoutCentre": [
+              571,
+              1297
+            ],
+            "shiftPixels": 13.928
+          },
+          {
+            "index": 36,
+            "type": "toilet",
+            "sourceCentre": [
+              617,
+              1330
+            ],
+            "fitoutCentre": [
+              622,
+              1311
+            ],
+            "shiftPixels": 19.647
+          },
+          {
+            "index": 37,
+            "type": "wardrobe",
+            "sourceCentre": [
+              436,
+              344
+            ],
+            "fitoutCentre": [
+              444,
+              349
+            ],
+            "shiftPixels": 9.434
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-325",
+      "building": 1,
+      "floor": 29,
+      "slot": 2,
+      "number": 325,
+      "area": 87,
+      "advertisedRooms": 3,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-325/",
+      "imagePath": "dist/assets/reference/apartment-plans/999ae194f32451e24a98089221e0c2d5.png",
+      "floorPath": "dist/assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/1-325/",
+        "image": "assets/reference/apartment-plans/999ae194f32451e24a98089221e0c2d5.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/999ae194f32451e24a98089221e0c2d5.png",
+        "imageSHA256": "76fcb48b2773e5f665c5e88f26cc9bffb3049d193893ea209b74791738a36ede",
+        "floorPlan": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "floorSHA256": "2eb01ad983f8e91ea5efb3d00d6f5c8b256b77b34a92013396c5a087e9bd90b3",
+        "floorContour": {
+          "alt": "2",
+          "class": "st0",
+          "points": "179.9,91 205.2,91 205.4,84.2 212.1,84.3 212.6,90.3 249.8,90.5 249.5,44.4 159.6,43.8 114.4,43.8     99.3,44.5 88,50.7 79.9,64.5 80.6,81.4 84.3,95.8 95.6,124.3 98,128.6 154.9,107.8 180,108.2   ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 3,
+            "type": "wardrobe",
+            "sourceCentre": [
+              355,
+              870
+            ],
+            "fitoutCentre": [
+              354,
+              875
+            ],
+            "shiftPixels": 5.099
+          },
+          {
+            "index": 16,
+            "type": "bed",
+            "sourceCentre": [
+              1125,
+              726
+            ],
+            "fitoutCentre": [
+              1127,
+              737
+            ],
+            "shiftPixels": 11.18
+          },
+          {
+            "index": 17,
+            "type": "nightstand",
+            "sourceCentre": [
+              1028,
+              692
+            ],
+            "fitoutCentre": [
+              1036,
+              703
+            ],
+            "shiftPixels": 13.601
+          },
+          {
+            "index": 18,
+            "type": "nightstand",
+            "sourceCentre": [
+              1170,
+              641
+            ],
+            "fitoutCentre": [
+              1169,
+              652
+            ],
+            "shiftPixels": 11.045
+          },
+          {
+            "index": 20,
+            "type": "plant",
+            "sourceCentre": [
+              1220,
+              627
+            ],
+            "fitoutCentre": [
+              1225,
+              638
+            ],
+            "shiftPixels": 12.083
+          },
+          {
+            "index": 28,
+            "type": "bath",
+            "sourceCentre": [
+              772,
+              759
+            ],
+            "fitoutCentre": [
+              771,
+              761
+            ],
+            "shiftPixels": 2.236
+          },
+          {
+            "index": 29,
+            "type": "vanity",
+            "sourceCentre": [
+              733,
+              827
+            ],
+            "fitoutCentre": [
+              738,
+              826
+            ],
+            "shiftPixels": 5.099
+          },
+          {
+            "index": 33,
+            "type": "toilet",
+            "sourceCentre": [
+              935,
+              751
+            ],
+            "fitoutCentre": [
+              934,
+              753
+            ],
+            "shiftPixels": 2.236
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-326",
+      "building": 1,
+      "floor": 29,
+      "slot": 3,
+      "number": 326,
+      "area": 75.7,
+      "advertisedRooms": 3,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-326/",
+      "imagePath": "dist/assets/reference/apartment-plans/d9898ff18e6082b1fe45731dd1fade1a.png",
+      "floorPath": "dist/assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/1-326/",
+        "image": "assets/reference/apartment-plans/d9898ff18e6082b1fe45731dd1fade1a.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/d9898ff18e6082b1fe45731dd1fade1a.png",
+        "imageSHA256": "74c21ecd566fded39979d44b2fd162cc6201e44f4917c7c22d8eb79d1ec200ca",
+        "floorPlan": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "floorSHA256": "2eb01ad983f8e91ea5efb3d00d6f5c8b256b77b34a92013396c5a087e9bd90b3",
+        "floorContour": {
+          "alt": "3",
+          "class": "st0",
+          "points": "250.8,45.1 383.8,44.4 396.8,46.1 411.1,51.4 417.7,62 418.6,71.8 417.7,84.4 408.9,107.8     363.9,92.5 359.2,107.3 326.4,107.9 319.5,107.9 319,90.9 295.9,91.2 293.9,84.4 270.7,84.4 269.5,90.5 249.9,90.5 249.5,45.8       ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 1,
+            "type": "nightstand",
+            "sourceCentre": [
+              354,
+              755
+            ],
+            "fitoutCentre": [
+              350,
+              757
+            ],
+            "shiftPixels": 4.472
+          },
+          {
+            "index": 2,
+            "type": "nightstand",
+            "sourceCentre": [
+              500,
+              801
+            ],
+            "fitoutCentre": [
+              496,
+              809
+            ],
+            "shiftPixels": 8.944
+          },
+          {
+            "index": 6,
+            "type": "chair",
+            "sourceCentre": [
+              318,
+              1066
+            ],
+            "fitoutCentre": [
+              323,
+              1059
+            ],
+            "shiftPixels": 8.602
+          },
+          {
+            "index": 21,
+            "type": "wardrobe",
+            "sourceCentre": [
+              1308,
+              894
+            ],
+            "fitoutCentre": [
+              1307,
+              902
+            ],
+            "shiftPixels": 8.062
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-328",
+      "building": 1,
+      "floor": 29,
+      "slot": 5,
+      "number": 328,
+      "area": 89.9,
+      "advertisedRooms": 4,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-328/",
+      "imagePath": "dist/assets/reference/apartment-plans/87cca2db9cdc6d6eb4219bab762c56ce.png",
+      "floorPath": "dist/assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/1-328/",
+        "image": "assets/reference/apartment-plans/87cca2db9cdc6d6eb4219bab762c56ce.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/87cca2db9cdc6d6eb4219bab762c56ce.png",
+        "imageSHA256": "fde94be40d00567dd83d3768d59972d807f16971bdf04fde012af643c2f7e6fd",
+        "floorPlan": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "floorSHA256": "2eb01ad983f8e91ea5efb3d00d6f5c8b256b77b34a92013396c5a087e9bd90b3",
+        "floorContour": {
+          "alt": "5",
+          "class": "st0",
+          "points": "357,252.6 290.1,229.2 285.4,242 284.1,242.6 280.8,241.7 272.8,264.1 261.1,297.3 259.4,300     259.4,305.1 263.9,305.4 264.3,317.6 259.4,318.3 260.3,326.4 260.3,350.4 260.3,372.6 309,389 310,389 334.8,321.9 334,321.7       ",
+          "tag": "polygon"
+        },
+        "rasterRotation": 0.31,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 20,
+            "type": "kitchen",
+            "sourceCentre": [
+              1080,
+              908
+            ],
+            "fitoutCentre": [
+              1067,
+              907
+            ],
+            "shiftPixels": 13.038
+          },
+          {
+            "index": 38,
+            "type": "wardrobe",
+            "sourceCentre": [
+              971,
+              391
+            ],
+            "fitoutCentre": [
+              967,
+              393
+            ],
+            "shiftPixels": 4.472
+          }
+        ]
+      }
+    },
+    {
+      "id": "1-330",
+      "building": 1,
+      "floor": 29,
+      "slot": 7,
+      "number": 330,
+      "area": 95,
+      "advertisedRooms": 4,
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-330/",
+      "imagePath": "dist/assets/reference/apartment-plans/67a73ab00866cdc5226a1bb7141fb014.png",
+      "floorPath": "dist/assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+      "sourceMethod": "Individual original raster room/opening trace + corresponding numbered floor SVG slot",
+      "approximate": true,
+      "measuredPlan": false,
+      "furniture": "Author furnished reconstruction; source-inspired locations with small inward refinements and tested circulation",
+      "source": {
+        "url": "https://rodina-peredelkino.ru/catalog/1-330/",
+        "image": "assets/reference/apartment-plans/67a73ab00866cdc5226a1bb7141fb014.png",
+        "imageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/67a73ab00866cdc5226a1bb7141fb014.png",
+        "imageSHA256": "b10ebb5b13a7bc9cbf26e7481363879ac2c039d8fd83b08a2bc1aecd80e11e43",
+        "floorPlan": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "floorSHA256": "2eb01ad983f8e91ea5efb3d00d6f5c8b256b77b34a92013396c5a087e9bd90b3",
+        "floorContour": {
+          "alt": "7",
+          "class": "st0",
+          "d": "M254.9,239l-22-0.9l-0.3-4.6l-16,0.2l-54,18.6l-19.6,7.3c0.6,0.6,22.6,63.6,22.6,63.6l0.1,0    c3.1,8.8,23.4,66,23.4,67.2c0.6-0.7,50.4-18.2,50.4-18.2v-22.4l0-27.3l-3.7-0.9l-0.2-23.1l3.9-1.4l-2.2-5.4l7.3-20.6l4-0.5    l4.5-12.8l-4.4-1.8L254.9,239z",
+          "tag": "path"
+        },
+        "rasterRotation": -0.31,
+        "analysisFrame": "1600px centred affine rotation of the unchanged official 1241px raster",
+        "method": "Manual trace of room boundaries, openings and furniture from the individually identified official raster; source floor SVG confirms corpus/floor/slot",
+        "approximate": true,
+        "notMeasured": true,
+        "fitoutRefinements": [
+          {
+            "index": 6,
+            "type": "wardrobe",
+            "sourceCentre": [
+              713,
+              442
+            ],
+            "fitoutCentre": [
+              730,
+              447
+            ],
+            "shiftPixels": 17.72
+          },
+          {
+            "index": 13,
+            "type": "bath",
+            "sourceCentre": [
+              678,
+              623
+            ],
+            "fitoutCentre": [
+              695,
+              625
+            ],
+            "shiftPixels": 17.117
+          },
+          {
+            "index": 14,
+            "type": "vanity",
+            "sourceCentre": [
+              641,
+              758
+            ],
+            "fitoutCentre": [
+              652,
+              757
+            ],
+            "shiftPixels": 11.045
+          },
+          {
+            "index": 19,
+            "type": "sink",
+            "sourceCentre": [
+              557,
+              937
+            ],
+            "fitoutCentre": [
+              565,
+              942
+            ],
+            "shiftPixels": 9.434
+          },
+          {
+            "index": 20,
+            "type": "utility",
+            "sourceCentre": [
+              547,
+              1031
+            ],
+            "fitoutCentre": [
+              558,
+              997
+            ],
+            "shiftPixels": 35.735
+          },
+          {
+            "index": 30,
+            "type": "wardrobe",
+            "sourceCentre": [
+              818,
+              1260
+            ],
+            "fitoutCentre": [
+              817,
+              1256
+            ],
+            "shiftPixels": 4.123
+          },
+          {
+            "index": 32,
+            "type": "vanity",
+            "sourceCentre": [
+              670,
+              1304
+            ],
+            "fitoutCentre": [
+              678,
+              1285
+            ],
+            "shiftPixels": 20.616
+          },
+          {
+            "index": 34,
+            "type": "washer",
+            "sourceCentre": [
+              632,
+              1305
+            ],
+            "fitoutCentre": [
+              646,
+              1277
+            ],
+            "shiftPixels": 31.305
+          },
+          {
+            "index": 35,
+            "type": "wardrobe",
+            "sourceCentre": [
+              545,
+              1290
+            ],
+            "fitoutCentre": [
+              556,
+              1253
+            ],
+            "shiftPixels": 38.601
+          },
+          {
+            "index": 36,
+            "type": "wardrobe",
+            "sourceCentre": [
+              440,
+              1210
+            ],
+            "fitoutCentre": [
+              493,
+              1230
+            ],
+            "shiftPixels": 56.648
+          }
+        ]
+      }
+    }
+  ],
+  "verification": [
+    {
+      "id": "1-59",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-59/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/27fa418ccbea59359ea4eadf18d43446.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 303814,
+      "imageSHA256": "f8d1bcf3aebb27c9aadcdda0bc9e6f46ca6fa273444c319f12fa14053b024b01",
+      "baselineSHA256": "f8d1bcf3aebb27c9aadcdda0bc9e6f46ca6fa273444c319f12fa14053b024b01",
+      "unchanged": true
+    },
+    {
+      "id": "1-81",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-81/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/b622341a548a66392c5c3206e7d58865.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 346289,
+      "imageSHA256": "4c1ed83a4252d799dde00a7fc90f16baea896dc731ea103cf68991ba70b73702",
+      "baselineSHA256": "4c1ed83a4252d799dde00a7fc90f16baea896dc731ea103cf68991ba70b73702",
+      "unchanged": true
+    },
+    {
+      "id": "1-324",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-324/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/6660ede0f3d7979007e889d70bb294e4.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 494333,
+      "imageSHA256": "beec133dc8a1cb236ea0332c1e84da2376fa47006535b417444f14c196751502",
+      "baselineSHA256": "beec133dc8a1cb236ea0332c1e84da2376fa47006535b417444f14c196751502",
+      "unchanged": true
+    },
+    {
+      "id": "1-325",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-325/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/999ae194f32451e24a98089221e0c2d5.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 325070,
+      "imageSHA256": "76fcb48b2773e5f665c5e88f26cc9bffb3049d193893ea209b74791738a36ede",
+      "baselineSHA256": "76fcb48b2773e5f665c5e88f26cc9bffb3049d193893ea209b74791738a36ede",
+      "unchanged": true
+    },
+    {
+      "id": "1-326",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-326/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/d9898ff18e6082b1fe45731dd1fade1a.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 221175,
+      "imageSHA256": "74c21ecd566fded39979d44b2fd162cc6201e44f4917c7c22d8eb79d1ec200ca",
+      "baselineSHA256": "74c21ecd566fded39979d44b2fd162cc6201e44f4917c7c22d8eb79d1ec200ca",
+      "unchanged": true
+    },
+    {
+      "id": "1-328",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-328/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/87cca2db9cdc6d6eb4219bab762c56ce.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 481631,
+      "imageSHA256": "fde94be40d00567dd83d3768d59972d807f16971bdf04fde012af643c2f7e6fd",
+      "baselineSHA256": "fde94be40d00567dd83d3768d59972d807f16971bdf04fde012af643c2f7e6fd",
+      "unchanged": true
+    },
+    {
+      "id": "1-330",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/1-330/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/67a73ab00866cdc5226a1bb7141fb014.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 534230,
+      "imageSHA256": "b10ebb5b13a7bc9cbf26e7481363879ac2c039d8fd83b08a2bc1aecd80e11e43",
+      "baselineSHA256": "b10ebb5b13a7bc9cbf26e7481363879ac2c039d8fd83b08a2bc1aecd80e11e43",
+      "unchanged": true
+    },
+    {
+      "id": "2-345",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-345/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/2b284e4b0890f9198dd94f398660d780.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 155322,
+      "imageSHA256": "29afc983f9579a04e4b3ed6cc0e431eb07564fc964293db1a2866d1513bf10fe",
+      "baselineSHA256": "29afc983f9579a04e4b3ed6cc0e431eb07564fc964293db1a2866d1513bf10fe",
+      "unchanged": true
+    },
+    {
+      "id": "2-588",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-588/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/6587ad2176bf0b00f8abd9b710fc8fc3.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 245873,
+      "imageSHA256": "ac376978dee93e06dbe54d808346dd2e65a7f92e74d2fc6c24bb49b969f0ad84",
+      "baselineSHA256": "ac376978dee93e06dbe54d808346dd2e65a7f92e74d2fc6c24bb49b969f0ad84",
+      "unchanged": true
+    },
+    {
+      "id": "2-590",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-590/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/d6be5f58058cf42ef6afb21592bb90e0.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 130187,
+      "imageSHA256": "d1d036f13f803ab692c1374bd647638f988bde316143cc5ccc3835349ba33d75",
+      "baselineSHA256": "d1d036f13f803ab692c1374bd647638f988bde316143cc5ccc3835349ba33d75",
+      "unchanged": true
+    },
+    {
+      "id": "2-591",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-591/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/a81dc03d42a0d6e4696e1670df27b5a5.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 201742,
+      "imageSHA256": "60c1555dd57a205e26754110619251c2c6f6be5b3931b0f6c226bf50e9460094",
+      "baselineSHA256": "60c1555dd57a205e26754110619251c2c6f6be5b3931b0f6c226bf50e9460094",
+      "unchanged": true
+    },
+    {
+      "id": "2-592",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-592/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/a1779e66a92571d4924ed7bda3a92f7b.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 157815,
+      "imageSHA256": "c737838e274a0c89b80d3b9656f77b63fa094fa6f6112fb2757a4d576d162c53",
+      "baselineSHA256": "c737838e274a0c89b80d3b9656f77b63fa094fa6f6112fb2757a4d576d162c53",
+      "unchanged": true
+    },
+    {
+      "id": "2-594",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-594/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/e64c909fae0f5a1bd51a433d2d604007.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 238702,
+      "imageSHA256": "5121b992808cb98e31ba6fbe28d26e701bdc071b33829d82709597cefc4b27e7",
+      "baselineSHA256": "5121b992808cb98e31ba6fbe28d26e701bdc071b33829d82709597cefc4b27e7",
+      "unchanged": true
+    },
+    {
+      "id": "2-595",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-595/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/34cafa5ed8da46eab84c40fb0be84cf3.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 212413,
+      "imageSHA256": "be35a05672651eb0582ebde745e0f018ba2ecc45747dbce53207a202212c798f",
+      "baselineSHA256": "be35a05672651eb0582ebde745e0f018ba2ecc45747dbce53207a202212c798f",
+      "unchanged": true
+    },
+    {
+      "id": "2-596",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-596/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/0617218368c4911b7ce3af2a35e16c3e.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 287118,
+      "imageSHA256": "ba55492e2023d9ee754465bd988860cc5e562d20afbf7ae54c2ed4563b1c087f",
+      "baselineSHA256": "ba55492e2023d9ee754465bd988860cc5e562d20afbf7ae54c2ed4563b1c087f",
+      "unchanged": true
+    },
+    {
+      "id": "2-598",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/2-598/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/1d8400b5b0c0326e5c1344c7031293d2.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 219517,
+      "imageSHA256": "54e5cd52a725bfe4f3200469f5ba131f66d14825eb337297791d1f023ef90da6",
+      "baselineSHA256": "54e5cd52a725bfe4f3200469f5ba131f66d14825eb337297791d1f023ef90da6",
+      "unchanged": true
+    },
+    {
+      "id": "4-1071",
+      "sourceUrl": "https://rodina-peredelkino.ru/catalog/4-1071/",
+      "sourceImageUrl": "https://rodina-peredelkino.ru/!upload/t_lots/359c84f3a3db0f68e98ace0a5cf9d85b.png",
+      "pageStatus": 200,
+      "areaStillPublished": true,
+      "individualPlanReferenced": false,
+      "imageStatus": 200,
+      "imageBytes": 145201,
+      "imageSHA256": "932d298c9836bd09b60d8bb8cd4e0e6ca63ec934c9ebfd188ef2e9cfe21d2fe5",
+      "baselineSHA256": "932d298c9836bd09b60d8bb8cd4e0e6ca63ec934c9ebfd188ef2e9cfe21d2fe5",
+      "unchanged": true
+    }
+  ],
+  "limits": [
+    "Source rasters are floor layouts, not measured CAD; scale is calibrated to the published apartment area.",
+    "Original 59/81 rigid placement preserved; other placements follow the numbered floor SVG and existing reconstructed tower.",
+    "This release presents 17 individually traced examples; 203 original 2D records remain accessible. 107 unique image hashes do not imply 107 distinct furnished 3D reconstructions.",
+    "The present 588 page references a new filename whose official endpoint returned HTTP 200 with an empty PNG body on 12.10.2026. The non-empty archived official plan remains unchanged and is retained with its 09.10.2026 snapshot date.",
+    "Window sill/head elevations and furnished interior dimensions are visual estimates; furniture fitout is authored.",
+    "Room count follows original published metadata, rather than an invented translation of bedroom count."
+  ]
+}

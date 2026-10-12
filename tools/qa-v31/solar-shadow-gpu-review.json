@@ -1,0 +1,218 @@
+{
+  "status": "CPU_REVIEW_PASS_GPU_PENDING",
+  "reviewedUTC": "2026-10-11T09:57:10.902Z",
+  "harnessSHA256": "eb8c4ee8a7d1cc3168ad1f76c840c2658771f15d6c119dc19ff66572c808afc8",
+  "scope": "Syntax, fixture orientation, camera mapping, independent analytic ray masks, GPU classifier sensitivity. No browser or GPU was launched.",
+  "fixtures": [
+    {
+      "name": "user-dawn-box-full",
+      "height": 10,
+      "apparentElevation": 2.1000046436205273,
+      "analyticShadowLength": 272.7142577306083,
+      "pixels": [
+        1536,
+        512
+      ],
+      "pixelWorld": [
+        0.19707959487669813,
+        0.19707959487669813
+      ],
+      "boundaryToleranceWorld": [
+        2.5201994469980993,
+        0.4720653618306123
+      ],
+      "strictShadowPixels": 59752,
+      "casterInView": true,
+      "lightNear": 0.1,
+      "lightFar": 318.6110253403917,
+      "rayComparisons": 2997,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    },
+    {
+      "name": "user-dawn-contact-wall",
+      "height": 8,
+      "apparentElevation": 2.1000046436205273,
+      "analyticShadowLength": 218.17140618448664,
+      "pixels": [
+        1024,
+        1024
+      ],
+      "pixelWorld": [
+        0.0078125,
+        0.0078125
+      ],
+      "boundaryToleranceWorld": [
+        0.25765618619900393,
+        0.02449393988757714
+      ],
+      "strictShadowPixels": 982016,
+      "casterInView": true,
+      "lightNear": 0.1,
+      "lightFar": 28.767064789507565,
+      "rayComparisons": 2904,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    },
+    {
+      "name": "summer-noon-box",
+      "height": 12,
+      "apparentElevation": 57.81158100102169,
+      "analyticShadowLength": 7.5534163403766685,
+      "pixels": [
+        1024,
+        768
+      ],
+      "pixelWorld": [
+        0.02690763314489909,
+        0.02690763314489909
+      ],
+      "boundaryToleranceWorld": [
+        0.0769098757766142,
+        0.0733602540977362
+      ],
+      "strictShadowPixels": 121000,
+      "casterInView": true,
+      "lightNear": 0.1,
+      "lightFar": 38.45112812210955,
+      "rayComparisons": 2509,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    },
+    {
+      "name": "winter-noon-box",
+      "height": 12,
+      "apparentElevation": 11.007324731277713,
+      "analyticShadowLength": 61.69253995178309,
+      "pixels": [
+        1536,
+        768
+      ],
+      "pixelWorld": [
+        0.05318524736444211,
+        0.05318524736444211
+      ],
+      "boundaryToleranceWorld": [
+        0.2783007077832429,
+        0.13919790153493083
+      ],
+      "strictShadowPixels": 252560,
+      "casterInView": true,
+      "lightNear": 0.1,
+      "lightFar": 96.29000637675183,
+      "rayComparisons": 2922,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    },
+    {
+      "name": "low-025-column-full",
+      "height": 1,
+      "apparentElevation": 0.25,
+      "analyticShadowLength": 229.1816636094399,
+      "pixels": [
+        2048,
+        256
+      ],
+      "pixelWorld": [
+        0.12435628105929683,
+        0.12435628105929683
+      ],
+      "boundaryToleranceWorld": [
+        6.126067582385822,
+        0.2743572798482775
+      ],
+      "strictShadowPixels": 10440,
+      "casterInView": true,
+      "lightNear": 0.1,
+      "lightFar": 270.77924795017884,
+      "rayComparisons": 3002,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    },
+    {
+      "name": "low-025-contact-wall",
+      "height": 3,
+      "apparentElevation": 0.25,
+      "analyticShadowLength": 687.5449908283197,
+      "pixels": [
+        1024,
+        1024
+      ],
+      "pixelWorld": [
+        0.0078125,
+        0.0078125
+      ],
+      "boundaryToleranceWorld": [
+        2.048242746943017,
+        0.024493939887577126
+      ],
+      "strictShadowPixels": 746496,
+      "casterInView": true,
+      "lightNear": 0.1,
+      "lightFar": 28.479017865809297,
+      "rayComparisons": 2904,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    },
+    {
+      "name": "offview-dawn-100m-wall-tip",
+      "height": 100,
+      "apparentElevation": 2.1000046436205273,
+      "analyticShadowLength": 2727.1425773060832,
+      "pixels": [
+        1024,
+        1024
+      ],
+      "pixelWorld": [
+        0.015625,
+        0.015625
+      ],
+      "boundaryToleranceWorld": [
+        0.41817320074992526,
+        0.04542833239778648
+      ],
+      "strictShadowPixels": 369570,
+      "casterInView": false,
+      "lightNear": 0.1,
+      "lightFar": 2764.6944275606206,
+      "rayComparisons": 3003,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    },
+    {
+      "name": "offview-low-10m-wall-tip",
+      "height": 10,
+      "apparentElevation": 0.25,
+      "analyticShadowLength": 2291.816636094399,
+      "pixels": [
+        1024,
+        1024
+      ],
+      "pixelWorld": [
+        0.015625,
+        0.015625
+      ],
+      "boundaryToleranceWorld": [
+        3.280694738504242,
+        0.04542833239778646
+      ],
+      "strictShadowPixels": 230124,
+      "casterInView": false,
+      "lightNear": 0.1,
+      "lightFar": 2323.5543497449603,
+      "rayComparisons": 3003,
+      "facetedCylinderDifferences": 0,
+      "idealMaskAccepted": true,
+      "missingShadowRejected": true
+    }
+  ],
+  "geometryRayComparisons": 23244,
+  "nativeGPUStatus": "PENDING: parent must stage and run the native driver; this review is not a GPU pass"
+}

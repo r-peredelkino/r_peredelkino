@@ -1,0 +1,518 @@
+{
+  "version": 33,
+  "label": "candidate33-regression",
+  "base": "http://127.0.0.1:8093/",
+  "startedUTC": "2026-10-11T17:38:27.633Z",
+  "checks": [
+    {
+      "name": "default-original",
+      "pass": true,
+      "details": {
+        "release": "33",
+        "mapView": "original",
+        "mapBuilding": 1,
+        "mapFloor": 6,
+        "page": "map",
+        "original": true,
+        "body": "spatial-map-open reference-open",
+        "welcomeHidden": true,
+        "appInert": true,
+        "desktopInert": true,
+        "focus": "rx-close",
+        "scrollWidth": 1500,
+        "width": 1500
+      }
+    },
+    {
+      "name": "source-nav-isolated-from-global-css",
+      "pass": true,
+      "details": {
+        "height": 43.796875,
+        "top": 27,
+        "bottom": "929.203px",
+        "width": 486.640625,
+        "scroll": 1500,
+        "screen": 1500,
+        "buttonHeight": 33.796875
+      }
+    },
+    {
+      "name": "source-close-restores-focus",
+      "pass": true,
+      "details": {
+        "release": "33",
+        "mapView": "original",
+        "mapBuilding": 1,
+        "mapFloor": 6,
+        "page": "map",
+        "original": false,
+        "body": "spatial-map-open",
+        "welcomeHidden": true,
+        "appInert": false,
+        "desktopInert": false,
+        "focus": "active",
+        "scrollWidth": 1500,
+        "width": 1500
+      }
+    },
+    {
+      "name": "native-3d-wide-canvas",
+      "pass": true,
+      "details": {
+        "canvas": {
+          "width": 1384,
+          "height": 760,
+          "cssWidth": 1384,
+          "cssHeight": 760
+        },
+        "camera": {
+          "position": [
+            -88.38121209999998,
+            54.055899600000004,
+            -74.43182229999998
+          ],
+          "direction": [
+            0.8120386845345859,
+            -0.5591929114581958,
+            -0.1670223416020915
+          ],
+          "type": "OrthographicCamera",
+          "fov": null,
+          "aspect": null,
+          "zoom": 2.25
+        },
+        "forecourt": true,
+        "forest": {
+          "visible": true,
+          "parent": "RODINA_PEREDelkino"
+        }
+      }
+    },
+    {
+      "name": "night-and-rain",
+      "pass": true,
+      "details": {
+        "magenta": 1.9369685864275197,
+        "cyan": 1.4992822317109489,
+        "rings": 2.959905104771784,
+        "spill": 0.777388743474769,
+        "wetness": 1,
+        "cafeTerraceRoughness": 0.48999999999999994
+      }
+    },
+    {
+      "name": "winter-control",
+      "pass": true,
+      "details": {
+        "glError": 0
+      }
+    },
+    {
+      "name": "summer-restores",
+      "pass": true,
+      "details": {
+        "magenta": 0.32,
+        "cyan": 0.065,
+        "rings": 0.55,
+        "spill": 0,
+        "wetness": 0,
+        "cafeTerraceRoughness": 0.94
+      }
+    },
+    {
+      "name": "walk-to-open-plaza",
+      "pass": true,
+      "details": {
+        "camera": {
+          "position": [
+            13.891005519764756,
+            1.667,
+            -101.84146257420328
+          ],
+          "direction": [
+            -0.5665288228870654,
+            0,
+            0.8240419241993675
+          ],
+          "type": "PerspectiveCamera",
+          "fov": 70,
+          "aspect": 1.501002004008016,
+          "zoom": 1
+        },
+        "tour": {
+          "active": true,
+          "hudVisible": true,
+          "status": "Площадь · уровень глаз 1,68 м",
+          "selectedPlace": "Площадь"
+        }
+      }
+    },
+    {
+      "name": "source-owns-keys-during-walk",
+      "pass": true,
+      "details": {
+        "before": [
+          13.891005519764756,
+          1.667,
+          -101.84146257420328
+        ],
+        "after": [
+          13.891005519764756,
+          1.667,
+          -101.84146257420328
+        ]
+      }
+    },
+    {
+      "name": "original-from-native-fullscreen",
+      "pass": true,
+      "details": {
+        "camera": {
+          "position": [
+            13.891005519764756,
+            1.667,
+            -101.84146257420328
+          ],
+          "direction": [
+            -0.5665288228870654,
+            0,
+            0.8240419241993675
+          ],
+          "type": "PerspectiveCamera",
+          "fov": 70,
+          "aspect": 1.501002004008016,
+          "zoom": 1
+        }
+      }
+    },
+    {
+      "name": "mobile-walk-controls-fit",
+      "pass": true,
+      "details": [
+        {
+          "text": "Оригинал",
+          "left": 15,
+          "right": 106.109375,
+          "top": 71.796875,
+          "bottom": 115.796875,
+          "width": 91.109375,
+          "height": 44
+        },
+        {
+          "text": "⛶",
+          "left": 115.109375,
+          "right": 159.109375,
+          "top": 71.796875,
+          "bottom": 115.796875,
+          "width": 44,
+          "height": 44
+        },
+        {
+          "text": "Вернуться к обзору",
+          "left": 250,
+          "right": 375,
+          "top": 71.796875,
+          "bottom": 125.796875,
+          "width": 125,
+          "height": 54
+        }
+      ]
+    },
+    {
+      "name": "mobile-original-layout",
+      "pass": true,
+      "details": {
+        "height": 37.5,
+        "top": 99,
+        "bottom": "707.5px",
+        "width": 360,
+        "scroll": 390,
+        "screen": 390,
+        "buttonHeight": 29.5
+      }
+    },
+    {
+      "name": "source-genplan-to-real-floor",
+      "pass": true,
+      "details": {
+        "release": "33",
+        "mapView": "floor",
+        "mapBuilding": 3,
+        "mapFloor": 2,
+        "page": "map",
+        "original": false,
+        "body": "spatial-map-open",
+        "welcomeHidden": true,
+        "appInert": false,
+        "desktopInert": false,
+        "focus": "active",
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "original-plan-image",
+      "pass": true,
+      "details": {
+        "src": "assets/reference/apartment-plans/bd9cc88752717cf63c9fe4983abcd626.png",
+        "width": 1241,
+        "height": 1241
+      }
+    },
+    {
+      "name": "all-published-plans",
+      "pass": true,
+      "details": "203 из 203 планировок"
+    },
+    {
+      "name": "no-runtime-or-resource-errors",
+      "pass": true,
+      "details": {
+        "errors": [],
+        "badResponses": [],
+        "failedRequests": []
+      }
+    },
+    {
+      "name": "runtime-files-unchanged-throughout-acceptance",
+      "pass": true,
+      "details": {
+        "files": 104
+      }
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "failedRequests": [],
+  "pass": true,
+  "runtimeRoot": "/tmp/rodina-v33-candidate/dist",
+  "runtimeSHA256Before": {
+    "apartment-apertures.js": "0467a76a8cb57da08d9d7cc9b8547db0e33b85fe2f375a2bdd2176ca324f4626",
+    "apartment-model.js": "04116b7d5f65aea92c7c42a28ae89078b7d18efffd5d0c5a8ff52a529cd4cf73",
+    "apartment-plans.js": "a0f123f0ea8542cf61af668d66abebb53b6950fcea43637a4a4e4710750ada93",
+    "apartment-tour.js": "0755e8010b5b76dc09b764f2ccef8e98e1d92f98a837db04b3b41d57d5af5fe8",
+    "apartment.css": "ca27755d1928e749eef175dbb3469471e84e829bc17a68d11a8531cf8e3829a8",
+    "apartment3d.js": "c7e675acbc9ed7bcf9dc9014778baa52ea360c38ecf95301cdcdeae042e84b96",
+    "app.js": "1764c7ab07803df0e116324cf1c002283e6ccc29042040e481f93083f8e5e956",
+    "architectural-lighting.js": "5fde94356b24df5b5f896bfa9c765d7c37ebec1b75dd7c84d31435ee002e0ec9",
+    "arena-exterior.js": "4f5ddb90d1ba55d356ab62978d9fd830d950bd4bdc349ce36c9a95cc263f316b",
+    "arena-landscape-data.js": "5c118775f4018f2bfbe57e883ce5b24888540910b33ed35bdbdef98f34f07ac9",
+    "arena-media.js": "2a4c61fdf519fdfb9143c5d6676248b8c07dab4c5c2f9b357161cb55dc6e5d16",
+    "arena-service-equipment.js": "a9e067d5477108161b73d975d8d21450b2e46ba35ac93dd3c72116a0e069e18d",
+    "attribution.js": "771f0e5f827e689ba4def68ad5f6ce801e09fa4214e58babdc245ee41406819c",
+    "backdrop-garden.js": "aebd5000c2966f1ed215a927bee4608865d2118ea5da21b01a4a08f64c38277f",
+    "baked-authorship.js": "62d5de3371931d10cef380ba8c7aab0764f351d158b279c82b1b9e94e7bffede",
+    "botanical-geometry.js": "fa9768254026529295f6fadefe415d32745c87a4431d213af3122d68ad3d786d",
+    "botanical-lod.js": "79bbe9a4d290ad4d3cfd09d6cef673e2179d6356c7282f71117f8551e814d669",
+    "building-levels.js": "35cf60af34c583eb559cb0df4e257cb269ab036ad127f921b6e55e3102c39de0",
+    "cluster-map.js": "a409a4cacd07fee313d858d739cc6580ab7ea18e91998585008ca60b90aa0483",
+    "commercial-frontage.js": "f91350d0c70c881851aa72f1d99c1f8a81f92a96b5a3b8b643d5ea9ea3245f54",
+    "complex-footprints.js": "99321bb7a316f1a705e7a1c6d16ea03078d5ac6a46e4e8aae3c4d6e21df27c5b",
+    "complex-life.js": "8a6435ac387565fd8aa2d3149ce0ddafb9e689de7b6c1d0f8ddf1dbfa07c8a04",
+    "complex-model.js": "66ed63dabb2590b8864112f607a4b58efa9f6ea476c6541c663787bc7ffbac59",
+    "context-services-data.js": "77322cecccd664695f3aa3a9fe52347627aaddeafd83906fa8c83e20327ae9ae",
+    "context-services.js": "8be9af7993593a7862329750dec8d192f169889eb5cea9f9312c576cf1975726",
+    "courtyard-layout.js": "7eeb46e44fcb7c1c79acf70c8016320542114e73ac426f208d33055e4d84e6ab",
+    "courtyard-pavilion.js": "b612f515db1b587890e16b09f872d37f91def976369b74f09a9e0698d72e99a5",
+    "courtyard-program.js": "966a1533fa5c1fa1749e74462d59a435346d1162b42470b6134c61ea60b30023",
+    "courtyard-reference-layout.js": "c4924c845da20faf7d9ca0c39329e1731045275e429e63c4f8abe1aa75dfe885",
+    "courtyard-revision.js": "c54e381e2be316b810f649d4d7b9f57b0c9d1b24b36b14442b0129770efa7dfb",
+    "courtyard.js": "76a2c61cdf5a46cc59d5be65f67df68eafdc394e54df27133e80e8301a26f61a",
+    "district-views.js": "215ef8b631fe90691c1b4124c3e57da2b0418be401623849f47e1a5bb9a0cc9e",
+    "environment.css": "d07d74d72269c1aae7ef8f6f5e96dd6c0ff8a07465e1002ffcf4e595c461d943",
+    "environment.js": "e29ff39b545b15494179b4eb10a8f46525ac37157df0345013ccf5f694d7689d",
+    "exterior-roofs.js": "0697ab5c0e0d5689b7be9070bb645ff3ed6c11039589362d020104742151262a",
+    "facade-detail.js": "d8f915792e1648c724fba5119b3e7cff600082c50bf7b19f5e802f99183f4c82",
+    "forecourt-architecture.js": "5485f9b2adcf52d3a5eea54e397e850a8d576be1005d7f91df1408bd8f66d5b6",
+    "forecourt-cafes.js": "3e074e49917f4cf2b4a29e05ce876fc93302f890f1bd526451b43b14a2ad6ba7",
+    "forecourt-ground.js": "0f56823baeec55ed2f5f5a6bfde6557ac8c76fca7379b7d991ea6c913f56d197",
+    "forecourt-landscape.js": "a53bec1c599850846b62cd3cecb4374d24fb8d0e095dbc3ad18c863b2215ac77",
+    "forecourt-reference-data.js": "a9ccbb56af4be527903a4be91026c79dacc30ca082b8b494d64f013f5666934e",
+    "forecourt-roadside.js": "9c21828b07d7e5c0a55216dd08f8418b5f639b77f03a9e319482554fd6f40ad2",
+    "forecourt-walking-layout.js": "a77ad7104f0171e570bed203891d58d653d41c9f9a2e23c012fc94e2702ae182",
+    "frontage-zones.js": "e9d66f449b9c385f0a96731b2b5bfbb05e0c2cb815c727a075884980e5cb26b8",
+    "geo-reference.js": "eb51f52c22fc8a5173811e50b86a59d75f37f4f92d99521b937984b427adbfd8",
+    "index.html": "9a2c7d0e569dfcccc63dea0c1a6f2952784cdb2260a8ec0406fce5e233243a8e",
+    "landscape-materials.js": "2b16809899f20564ecefd178a7a14d1a40e1699a83ee8fcbf9357b5a29144df5",
+    "light-fields.js": "f135d9952b397fee678ea1f6064376c7ced4667a76b017c46bf15efb63480ee1",
+    "local-access-data.js": "2b674750f5c48437035b931c915a9249c3953075a6c9938a8a32a466269452a5",
+    "local-access.js": "4dc25338d53eebef052bf3b9aec788a09ccad995b162d43dc4d5bb9256cf0f8d",
+    "map-paths.js": "87f253f227e78592742070776f7e2169a94fd53d19bb71efa4e731ec049fd4f8",
+    "map-spatial.css": "11fb9fa256836fdecca2785fa4579190a6b0dcabc6a60d87286121b57ef3f37b",
+    "map.js": "949da65e96f222139deee1561682a8fd9fc8e8e339aa84cfecb8a1d07517a540",
+    "model-watermarks.js": "0fe925c5c57348b4e9234df114a1c8692907120bf09e7b5713b7e28c8c0cc44e",
+    "neighbor-building-layout.js": "626457d785223ad286972848beb61964bd382179c79624f1c254b6d2791925bf",
+    "neighbor-buildings.js": "0577e552bed09f5680b7dcb1ba48ac65728b39266591840c75ceef9c245d6844",
+    "neighbor-footprints-data.js": "96bf3411f6c9ef81cd0b281d22aac839ddb54a80d2fd2e99b84f9609c3ec3949",
+    "neighborhood.js": "09d8b10a07c41aeb3d0339b8ceecd1d311ad4b2d3024d73f87a6f1a3dcad68a8",
+    "night-lighting.js": "0627faaa3d81840291772b544952a3f9a44f0b6eac3158f4ca2c255aa12c807f",
+    "onboarding.css": "0aaa1daff279e05af7d1a4abf6e8fa69e2d2887e79f40bad8dcb2e081e42e0d1",
+    "onboarding.js": "54392a1e7f12256e190e5b92bcecbe48766aa7c4b7a65b198f09795f5e1e40f5",
+    "paving-material.js": "79253c8f151ebe4290d6cda3222870c9dc79115d551cd669159df79efed0978e",
+    "plan-data.js": "1b038bb1f789c7f74af3188bdc50709b304f90efe4c082273904f583acb108ad",
+    "plan-proof.js": "97f59eaad59775baf7fc6824035ce024db68585b242e27e64b6860bb631bd304",
+    "play-bridge-walk.js": "02e31cd15c0851cdbb5650239dc079d50be1dac8fb3323a91024631e074aa293",
+    "podium-upper-cut.js": "a970d8aa3af1228f15631eb6a126bee1935853e6d4f8037543033b8eac6c3b2b",
+    "promenade-furniture.js": "1cd57ca83bbd5a14b9f9482d9dee0d003ceaabe82658137e0e55a2efd0a475ea",
+    "public-plaza-program.js": "3cc3ba03a2540f1416816cc5f2f9af0f8dcfd2ea0626e8f96504c9e34a50deca",
+    "public-realm-layout.js": "fbbfca76ddb5b5f1bb666b0c9506f8acc5ce0314be7d8f61fefb99c54f9bda71",
+    "public-realm.js": "ccada6ca2d639e23defe2b002e71e7f80e96a7ab313d301fdf3639b66ac93c4b",
+    "realm-details.js": "a72a458e94c4a33ecd75e63eb0210e8b3846e59ca50dca88ab422daac6b23098",
+    "reference-backdrop.js": "a10324e36936f12ccaae8b434b351721fe06e96c7ed874c8672b7d0c7644d2f9",
+    "reference-catalog.css": "4a8ae7128afb971310641211a91947daed23096b070b524b5ec40edddc186243",
+    "reference-catalog.js": "76ecc7a7745913b907020c7dbb65de4c4e6cc9d1ad598a1e444381effe9ed78a",
+    "reference-entry.js": "c389e400206f5cd40259250e2679ad8069665d2c7efc55f8986866834fd714ae",
+    "reference-explorer-data.js": "8c72b0abdb72014ea0d2708fa4a53b98308a283f20ff4426a7fb6950b5df2457",
+    "reference-explorer.css": "6ac537cc7901c5a0e1df48ee13ee7b7fa6c82cac296a9f3847ffddf76065ad19",
+    "reference-explorer.js": "e9859e53e99724204ce755e1da6f01fee205044a20174253b7ea4f350452129c",
+    "resident-figure.js": "fe6a10041b2364c56908a9484e6de767f44d517dca0c9cef776ad33a74ddd852",
+    "retail-signs.js": "0f56c5d79fcc24e8627a1fb4fddb1c732a7d5dcb2711bc240da1c3e88961f819",
+    "sales-office.js": "a63314ab4725acc87ac9f9d1dece4e7dfb12d9873384f3835ba48d3d8b2e6462",
+    "scene-batches.js": "f84604f728e826b561983ea0805aaa40c2d515b9c3d06d2a12d9bb2f0f835370",
+    "shop-frontage-layout.js": "07b89ae52fe28c19b08a55e4b8a945ae33f324d1fdacb52b0996e270be4186bd",
+    "shop-interiors.js": "d869ebfd4832c327a6c7c245284c0df07b84dac3346180907ec6d63fb0f9b5f2",
+    "site-weather.js": "e511c22df59c6cbc952a30e515d180de2adf993933cd03bae643b37de36ef4e2",
+    "solar-analysis-panel.js": "52269e12d0a0cdbd1c16268fd216ae7d48e2bb517485f078b5470f6b7f5f8d83",
+    "solar-clock.js": "daaa164c8e31fbb514869fec65e5ea857cae46e8b3ef18a0ae10de3730d8fea0",
+    "solar-exposure.js": "7d000ceabd80fa44be1410ad000fe23441f76b5fcfceb6a48af87a4f3040dfa1",
+    "solar-shadow-camera.js": "c57df4be0750b13e7fd5b057cd12102020513a7984a092686d89b21b20284ad5",
+    "solar.js": "5f891c3353af73b8027ff57e395b995e9eac8294da14bdc4d2138314bbc0fa9f",
+    "spatial-instances.js": "d18347166d3dd2ca1ada5403c08933f17e243747dd77a5e67dbfa6cc722e07da",
+    "style.css": "e3ce8720b8a0037632734368f765bcb4b7b06d0c5751cd9d725751abeb4ab47a",
+    "terrace-access.js": "d9c1674e7e448bb3ee63ffadf186bd3dee750f3586accf5fd89a07e471663c0e",
+    "terraces.js": "a20e02a316d626de26a49820572aca228b95bce9a1666bb08362c60683f728b3",
+    "traffic.js": "f217d56f2aa357e49d71de303a7dcab17ba401a1eb4cfe6bf4d5b688eac4beb0",
+    "transport-data.js": "8e449530c18194415f3e10c7428d3d6d11701ae4c710f9b733ee8011eea0c892",
+    "transport-infrastructure.js": "cd7044161f195da27b96ec1418d1c7cd0e70a2db601b6941134e809e6e55cdf9",
+    "vendor/OrbitControls.js": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+    "vendor/three.module.js": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+    "walk-physics.js": "2528c603080bdcbdc0d7f28cb8025ded1b3d96947099f1ec0eaca57270c1b825",
+    "walking-tour.css": "cec8e698379bb6a32a21c13ac3b7fe041d4835431f91334698ff26083ccda1e9",
+    "walking-tour.js": "e1b8eb346829adfaff44bd1fcae21f96c3ffb2eb7eea15605b76104eaae847c0",
+    "weather-data.js": "5914e6a03ca3f8b602f260881a920423d0f44d28ab6c795e76f665576e152d4d",
+    "window-lighting.js": "57667b1a1a17cf6bce71cb20ecf60207a879e4f1aeaa36006997654394cac44d"
+  },
+  "frameCadence": {
+    "forecourt": {
+      "frames": 90,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "maxMS": 66.70000000000073,
+      "method": "requestAnimationFrame intervals; native page and GPU, 5 warm-up samples excluded"
+    },
+    "walk": {
+      "frames": 90,
+      "medianMS": 66.70000000000073,
+      "p95MS": 83.39999999999964,
+      "maxMS": 83.5,
+      "method": "requestAnimationFrame intervals; native page and GPU, 5 warm-up samples excluded"
+    }
+  },
+  "runtimeSHA256After": {
+    "apartment-apertures.js": "0467a76a8cb57da08d9d7cc9b8547db0e33b85fe2f375a2bdd2176ca324f4626",
+    "apartment-model.js": "04116b7d5f65aea92c7c42a28ae89078b7d18efffd5d0c5a8ff52a529cd4cf73",
+    "apartment-plans.js": "a0f123f0ea8542cf61af668d66abebb53b6950fcea43637a4a4e4710750ada93",
+    "apartment-tour.js": "0755e8010b5b76dc09b764f2ccef8e98e1d92f98a837db04b3b41d57d5af5fe8",
+    "apartment.css": "ca27755d1928e749eef175dbb3469471e84e829bc17a68d11a8531cf8e3829a8",
+    "apartment3d.js": "c7e675acbc9ed7bcf9dc9014778baa52ea360c38ecf95301cdcdeae042e84b96",
+    "app.js": "1764c7ab07803df0e116324cf1c002283e6ccc29042040e481f93083f8e5e956",
+    "architectural-lighting.js": "5fde94356b24df5b5f896bfa9c765d7c37ebec1b75dd7c84d31435ee002e0ec9",
+    "arena-exterior.js": "4f5ddb90d1ba55d356ab62978d9fd830d950bd4bdc349ce36c9a95cc263f316b",
+    "arena-landscape-data.js": "5c118775f4018f2bfbe57e883ce5b24888540910b33ed35bdbdef98f34f07ac9",
+    "arena-media.js": "2a4c61fdf519fdfb9143c5d6676248b8c07dab4c5c2f9b357161cb55dc6e5d16",
+    "arena-service-equipment.js": "a9e067d5477108161b73d975d8d21450b2e46ba35ac93dd3c72116a0e069e18d",
+    "attribution.js": "771f0e5f827e689ba4def68ad5f6ce801e09fa4214e58babdc245ee41406819c",
+    "backdrop-garden.js": "aebd5000c2966f1ed215a927bee4608865d2118ea5da21b01a4a08f64c38277f",
+    "baked-authorship.js": "62d5de3371931d10cef380ba8c7aab0764f351d158b279c82b1b9e94e7bffede",
+    "botanical-geometry.js": "fa9768254026529295f6fadefe415d32745c87a4431d213af3122d68ad3d786d",
+    "botanical-lod.js": "79bbe9a4d290ad4d3cfd09d6cef673e2179d6356c7282f71117f8551e814d669",
+    "building-levels.js": "35cf60af34c583eb559cb0df4e257cb269ab036ad127f921b6e55e3102c39de0",
+    "cluster-map.js": "a409a4cacd07fee313d858d739cc6580ab7ea18e91998585008ca60b90aa0483",
+    "commercial-frontage.js": "f91350d0c70c881851aa72f1d99c1f8a81f92a96b5a3b8b643d5ea9ea3245f54",
+    "complex-footprints.js": "99321bb7a316f1a705e7a1c6d16ea03078d5ac6a46e4e8aae3c4d6e21df27c5b",
+    "complex-life.js": "8a6435ac387565fd8aa2d3149ce0ddafb9e689de7b6c1d0f8ddf1dbfa07c8a04",
+    "complex-model.js": "66ed63dabb2590b8864112f607a4b58efa9f6ea476c6541c663787bc7ffbac59",
+    "context-services-data.js": "77322cecccd664695f3aa3a9fe52347627aaddeafd83906fa8c83e20327ae9ae",
+    "context-services.js": "8be9af7993593a7862329750dec8d192f169889eb5cea9f9312c576cf1975726",
+    "courtyard-layout.js": "7eeb46e44fcb7c1c79acf70c8016320542114e73ac426f208d33055e4d84e6ab",
+    "courtyard-pavilion.js": "b612f515db1b587890e16b09f872d37f91def976369b74f09a9e0698d72e99a5",
+    "courtyard-program.js": "966a1533fa5c1fa1749e74462d59a435346d1162b42470b6134c61ea60b30023",
+    "courtyard-reference-layout.js": "c4924c845da20faf7d9ca0c39329e1731045275e429e63c4f8abe1aa75dfe885",
+    "courtyard-revision.js": "c54e381e2be316b810f649d4d7b9f57b0c9d1b24b36b14442b0129770efa7dfb",
+    "courtyard.js": "76a2c61cdf5a46cc59d5be65f67df68eafdc394e54df27133e80e8301a26f61a",
+    "district-views.js": "215ef8b631fe90691c1b4124c3e57da2b0418be401623849f47e1a5bb9a0cc9e",
+    "environment.css": "d07d74d72269c1aae7ef8f6f5e96dd6c0ff8a07465e1002ffcf4e595c461d943",
+    "environment.js": "e29ff39b545b15494179b4eb10a8f46525ac37157df0345013ccf5f694d7689d",
+    "exterior-roofs.js": "0697ab5c0e0d5689b7be9070bb645ff3ed6c11039589362d020104742151262a",
+    "facade-detail.js": "d8f915792e1648c724fba5119b3e7cff600082c50bf7b19f5e802f99183f4c82",
+    "forecourt-architecture.js": "5485f9b2adcf52d3a5eea54e397e850a8d576be1005d7f91df1408bd8f66d5b6",
+    "forecourt-cafes.js": "3e074e49917f4cf2b4a29e05ce876fc93302f890f1bd526451b43b14a2ad6ba7",
+    "forecourt-ground.js": "0f56823baeec55ed2f5f5a6bfde6557ac8c76fca7379b7d991ea6c913f56d197",
+    "forecourt-landscape.js": "a53bec1c599850846b62cd3cecb4374d24fb8d0e095dbc3ad18c863b2215ac77",
+    "forecourt-reference-data.js": "a9ccbb56af4be527903a4be91026c79dacc30ca082b8b494d64f013f5666934e",
+    "forecourt-roadside.js": "9c21828b07d7e5c0a55216dd08f8418b5f639b77f03a9e319482554fd6f40ad2",
+    "forecourt-walking-layout.js": "a77ad7104f0171e570bed203891d58d653d41c9f9a2e23c012fc94e2702ae182",
+    "frontage-zones.js": "e9d66f449b9c385f0a96731b2b5bfbb05e0c2cb815c727a075884980e5cb26b8",
+    "geo-reference.js": "eb51f52c22fc8a5173811e50b86a59d75f37f4f92d99521b937984b427adbfd8",
+    "index.html": "9a2c7d0e569dfcccc63dea0c1a6f2952784cdb2260a8ec0406fce5e233243a8e",
+    "landscape-materials.js": "2b16809899f20564ecefd178a7a14d1a40e1699a83ee8fcbf9357b5a29144df5",
+    "light-fields.js": "f135d9952b397fee678ea1f6064376c7ced4667a76b017c46bf15efb63480ee1",
+    "local-access-data.js": "2b674750f5c48437035b931c915a9249c3953075a6c9938a8a32a466269452a5",
+    "local-access.js": "4dc25338d53eebef052bf3b9aec788a09ccad995b162d43dc4d5bb9256cf0f8d",
+    "map-paths.js": "87f253f227e78592742070776f7e2169a94fd53d19bb71efa4e731ec049fd4f8",
+    "map-spatial.css": "11fb9fa256836fdecca2785fa4579190a6b0dcabc6a60d87286121b57ef3f37b",
+    "map.js": "949da65e96f222139deee1561682a8fd9fc8e8e339aa84cfecb8a1d07517a540",
+    "model-watermarks.js": "0fe925c5c57348b4e9234df114a1c8692907120bf09e7b5713b7e28c8c0cc44e",
+    "neighbor-building-layout.js": "626457d785223ad286972848beb61964bd382179c79624f1c254b6d2791925bf",
+    "neighbor-buildings.js": "0577e552bed09f5680b7dcb1ba48ac65728b39266591840c75ceef9c245d6844",
+    "neighbor-footprints-data.js": "96bf3411f6c9ef81cd0b281d22aac839ddb54a80d2fd2e99b84f9609c3ec3949",
+    "neighborhood.js": "09d8b10a07c41aeb3d0339b8ceecd1d311ad4b2d3024d73f87a6f1a3dcad68a8",
+    "night-lighting.js": "0627faaa3d81840291772b544952a3f9a44f0b6eac3158f4ca2c255aa12c807f",
+    "onboarding.css": "0aaa1daff279e05af7d1a4abf6e8fa69e2d2887e79f40bad8dcb2e081e42e0d1",
+    "onboarding.js": "54392a1e7f12256e190e5b92bcecbe48766aa7c4b7a65b198f09795f5e1e40f5",
+    "paving-material.js": "79253c8f151ebe4290d6cda3222870c9dc79115d551cd669159df79efed0978e",
+    "plan-data.js": "1b038bb1f789c7f74af3188bdc50709b304f90efe4c082273904f583acb108ad",
+    "plan-proof.js": "97f59eaad59775baf7fc6824035ce024db68585b242e27e64b6860bb631bd304",
+    "play-bridge-walk.js": "02e31cd15c0851cdbb5650239dc079d50be1dac8fb3323a91024631e074aa293",
+    "podium-upper-cut.js": "a970d8aa3af1228f15631eb6a126bee1935853e6d4f8037543033b8eac6c3b2b",
+    "promenade-furniture.js": "1cd57ca83bbd5a14b9f9482d9dee0d003ceaabe82658137e0e55a2efd0a475ea",
+    "public-plaza-program.js": "3cc3ba03a2540f1416816cc5f2f9af0f8dcfd2ea0626e8f96504c9e34a50deca",
+    "public-realm-layout.js": "fbbfca76ddb5b5f1bb666b0c9506f8acc5ce0314be7d8f61fefb99c54f9bda71",
+    "public-realm.js": "ccada6ca2d639e23defe2b002e71e7f80e96a7ab313d301fdf3639b66ac93c4b",
+    "realm-details.js": "a72a458e94c4a33ecd75e63eb0210e8b3846e59ca50dca88ab422daac6b23098",
+    "reference-backdrop.js": "a10324e36936f12ccaae8b434b351721fe06e96c7ed874c8672b7d0c7644d2f9",
+    "reference-catalog.css": "4a8ae7128afb971310641211a91947daed23096b070b524b5ec40edddc186243",
+    "reference-catalog.js": "76ecc7a7745913b907020c7dbb65de4c4e6cc9d1ad598a1e444381effe9ed78a",
+    "reference-entry.js": "c389e400206f5cd40259250e2679ad8069665d2c7efc55f8986866834fd714ae",
+    "reference-explorer-data.js": "8c72b0abdb72014ea0d2708fa4a53b98308a283f20ff4426a7fb6950b5df2457",
+    "reference-explorer.css": "6ac537cc7901c5a0e1df48ee13ee7b7fa6c82cac296a9f3847ffddf76065ad19",
+    "reference-explorer.js": "e9859e53e99724204ce755e1da6f01fee205044a20174253b7ea4f350452129c",
+    "resident-figure.js": "fe6a10041b2364c56908a9484e6de767f44d517dca0c9cef776ad33a74ddd852",
+    "retail-signs.js": "0f56c5d79fcc24e8627a1fb4fddb1c732a7d5dcb2711bc240da1c3e88961f819",
+    "sales-office.js": "a63314ab4725acc87ac9f9d1dece4e7dfb12d9873384f3835ba48d3d8b2e6462",
+    "scene-batches.js": "f84604f728e826b561983ea0805aaa40c2d515b9c3d06d2a12d9bb2f0f835370",
+    "shop-frontage-layout.js": "07b89ae52fe28c19b08a55e4b8a945ae33f324d1fdacb52b0996e270be4186bd",
+    "shop-interiors.js": "d869ebfd4832c327a6c7c245284c0df07b84dac3346180907ec6d63fb0f9b5f2",
+    "site-weather.js": "e511c22df59c6cbc952a30e515d180de2adf993933cd03bae643b37de36ef4e2",
+    "solar-analysis-panel.js": "52269e12d0a0cdbd1c16268fd216ae7d48e2bb517485f078b5470f6b7f5f8d83",
+    "solar-clock.js": "daaa164c8e31fbb514869fec65e5ea857cae46e8b3ef18a0ae10de3730d8fea0",
+    "solar-exposure.js": "7d000ceabd80fa44be1410ad000fe23441f76b5fcfceb6a48af87a4f3040dfa1",
+    "solar-shadow-camera.js": "c57df4be0750b13e7fd5b057cd12102020513a7984a092686d89b21b20284ad5",
+    "solar.js": "5f891c3353af73b8027ff57e395b995e9eac8294da14bdc4d2138314bbc0fa9f",
+    "spatial-instances.js": "d18347166d3dd2ca1ada5403c08933f17e243747dd77a5e67dbfa6cc722e07da",
+    "style.css": "e3ce8720b8a0037632734368f765bcb4b7b06d0c5751cd9d725751abeb4ab47a",
+    "terrace-access.js": "d9c1674e7e448bb3ee63ffadf186bd3dee750f3586accf5fd89a07e471663c0e",
+    "terraces.js": "a20e02a316d626de26a49820572aca228b95bce9a1666bb08362c60683f728b3",
+    "traffic.js": "f217d56f2aa357e49d71de303a7dcab17ba401a1eb4cfe6bf4d5b688eac4beb0",
+    "transport-data.js": "8e449530c18194415f3e10c7428d3d6d11701ae4c710f9b733ee8011eea0c892",
+    "transport-infrastructure.js": "cd7044161f195da27b96ec1418d1c7cd0e70a2db601b6941134e809e6e55cdf9",
+    "vendor/OrbitControls.js": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+    "vendor/three.module.js": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+    "walk-physics.js": "2528c603080bdcbdc0d7f28cb8025ded1b3d96947099f1ec0eaca57270c1b825",
+    "walking-tour.css": "cec8e698379bb6a32a21c13ac3b7fe041d4835431f91334698ff26083ccda1e9",
+    "walking-tour.js": "e1b8eb346829adfaff44bd1fcae21f96c3ffb2eb7eea15605b76104eaae847c0",
+    "weather-data.js": "5914e6a03ca3f8b602f260881a920423d0f44d28ab6c795e76f665576e152d4d",
+    "window-lighting.js": "57667b1a1a17cf6bce71cb20ecf60207a879e4f1aeaa36006997654394cac44d"
+  },
+  "finishedUTC": "2026-10-11T17:38:49.957Z"
+}

@@ -1,0 +1,15 @@
+# Apartment and commercial facade correction, 8 October 2026
+
+Primary reference: project declaration 77-003147, dated 7 September 2026, section 15.2 (PDF page 35), section 15.3 (PDF pages 56–59). Public mirror: https://www.novostroy-m.ru/docs/presets/msk/novos/docs/9bb52113a2cf6059019193f57fe12318.pdf . Official catalogue object 63822 was indexed but direct access returned 403; no restricted access was bypassed.
+
+The declaration identifies apartment 59, entrance 1, floor 6, 24.70 m² and apartment 81, entrance 1, floor 8, 82.70 m². Both list 2.90 m ceiling height. Commercial premises below tower 1 list 6.68 m; those below towers 2–3 list 6.32 m. Some premises list internal stairs and separate groups of rooms. This supports tall bases and partial mezzanine interpretation, not a second shop floor around the whole podium. The allocation of mezzanine bays is a visual approximation, not a leased-unit plan. Heights for towers 4–5 currently follow the 2–3 visual family and remain approximate.
+
+Apartment sources: https://rodina-peredelkino.ru/catalog/1-59/ and https://rodina-peredelkino.ru/catalog/1-81/ . The original PNG plans in assets/plans are the geometry/furniture source. The plan contour preserves uniform area-derived scale. Source images contain no window head/sill elevation schedule. The 0.36 m sill and 2.70 m head are estimated from the supplied close facade render, not engineering dimensions. Ceiling is 2.90 m, matching the declaration. No authenticated BTI plan/window schedule was located in the searched public sources.
+
+Facade references supplied by user: cam_01.jpg, JPG_Borovskoe_ElevatedUPD_Volume_Vision_5K.jpg, main.webp. They show rounded corner glazing, ribbed horizontal bands and partial tall commercial bases. Existing terrace levels remain lower than the tower commercial bases.
+
+Registration: studio slot 7's window aligned to the SW face; family slot 3 wraps the NE corner. Rigid placement is fitted to window-bearing edges, with footprint containment. The coarse engineering triangle is schematic, so local facade cutouts accommodate under 1 m registration difference; do not represent this as a surveyed/BIM alignment. Apartments are not stretched or scaled differently by axis. Finite apertures cut only the selected floor's window corridors; upper floors and the opposite facade are preserved.
+
+Validation: movement flood fill with/without furniture; every window outward normal points away from core; each window exits the shell within 1 m and through its finite opening; upper floor cannot be discarded. Shared commercial lighting retains day/night behavior. UI browser checks recorded separately.
+
+Browser verification: headless WebKit 26.5 with iPhone-style touch viewport 440×956, software rendering. Both apartments enter walking mode, switch furniture twice, and switch rooms. Zero page/shader errors, no horizontal overflow. Screenshots inspected from window eye level. Geometric center rays reach tower 2 at ~29.5 m for the studio and office 0 at ~29.9 m for the family's tested kitchen window; these are neighbours, not the owner's tower. Physical iPhone Safari was not available for this check.

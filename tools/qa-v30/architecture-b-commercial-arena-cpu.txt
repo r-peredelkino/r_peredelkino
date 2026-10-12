@@ -1,0 +1,377 @@
+PASS: real two-storey shop instances, full-scene LED visibility, clean opaque white fascia, local upper relief, four solid roof steps and owned resource disposal
+{
+  "version": 25,
+  "datum": "model reconstruction",
+  "fullSceneLED": [
+    {
+      "origin": [
+        -138,
+        4.2,
+        -42
+      ],
+      "target": [
+        -67.36800000000001,
+        4.2,
+        9.911999999999994
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 67.90296239348739,
+      "point": [
+        -83.2852988439817,
+        4.2,
+        -1.786646754853022
+      ],
+      "next": "Soft white rolled shoulders framing the arena display"
+    },
+    {
+      "origin": [
+        -138,
+        5.5,
+        -42
+      ],
+      "target": [
+        -67.36800000000001,
+        5.5,
+        9.911999999999994
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 67.68854343790231,
+      "point": [
+        -83.45807288304408,
+        5.5,
+        -1.9136295093524804
+      ],
+      "next": "Soft white rolled shoulders framing the arena display"
+    },
+    {
+      "origin": [
+        -138,
+        6.3,
+        -42
+      ],
+      "target": [
+        -67.36800000000001,
+        6.3,
+        9.911999999999994
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 67.82440795240332,
+      "point": [
+        -83.34859627043987,
+        6.3,
+        -1.8331681049817998
+      ],
+      "next": "Soft white rolled shoulders framing the arena display"
+    },
+    {
+      "origin": [
+        -138,
+        6.8,
+        -42
+      ],
+      "target": [
+        -67.36800000000001,
+        6.8,
+        9.911999999999994
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 68.08446421960416,
+      "point": [
+        -83.13904869781426,
+        6.8,
+        -1.679158115315067
+      ],
+      "next": "Soft white rolled shoulders framing the arena display"
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -70.23363579241436,
+        4.609583059946695,
+        -9.787605941772467
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 75.6181088046092
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -81.74853862253826,
+        4.6095841725667315,
+        -3.853551567077643
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 68.61164875265558
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -87.17415488688152,
+        4.609583536783854,
+        7.909534990310663
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 71.84990004004455
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -70.10129607645672,
+        5.572083155314127,
+        -9.86413766988119
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 75.5908554293327
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -81.79111032613119,
+        5.572083314259847,
+        -3.89163559722901
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 68.43037699359338
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -87.24500780232748,
+        5.572082678476969,
+        8.048943181355789
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 71.7774040832824
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -70.23422214317323,
+        6.53458309173584,
+        -9.614199976603194
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 75.47697093359297
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -81.624635983785,
+        6.534583250681559,
+        -3.7346871897379614
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 68.5430396150401
+    },
+    {
+      "origin": [
+        -138,
+        14,
+        -42
+      ],
+      "target": [
+        -87.00058043924969,
+        6.53458293279012,
+        7.9017876183191875
+      ],
+      "first": "Rounded street-facing arena media screen",
+      "distance": 71.7416312542771
+    }
+  ],
+  "fascia": [
+    {
+      "origin": [
+        -77.97931014462455,
+        3.48,
+        -19.215308440956036
+      ],
+      "angleFromFront": -0.45,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 6.736331371153576
+    },
+    {
+      "origin": [
+        -89.59229874513574,
+        3.48,
+        -11.700046300314996
+      ],
+      "angleFromFront": 0,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 9.597038990212349
+    },
+    {
+      "origin": [
+        -96.78030066913085,
+        3.48,
+        0.11829950689496727
+      ],
+      "angleFromFront": 0.45,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 10.519051487368014
+    },
+    {
+      "origin": [
+        -98.11214307695342,
+        3.48,
+        13.886627839662179
+      ],
+      "angleFromFront": 0.9,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 11.738137019756376
+    },
+    {
+      "origin": [
+        -97.17295852878244,
+        3.48,
+        18.436344379338433
+      ],
+      "angleFromFront": 1.05,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 11.962585772282376
+    },
+    {
+      "origin": [
+        -95.56441886773311,
+        3.48,
+        22.794622521650822
+      ],
+      "angleFromFront": 1.2,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 11.960944571125674
+    },
+    {
+      "origin": [
+        -93.32264842678678,
+        3.48,
+        26.863584735413212
+      ],
+      "angleFromFront": 1.35,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 11.962201887270808
+    },
+    {
+      "origin": [
+        -90.49799253707685,
+        3.48,
+        30.551850901466537
+      ],
+      "angleFromFront": 1.5,
+      "first": "Continuous white band between the two retail storeys",
+      "distance": 11.962025280336531
+    }
+  ],
+  "roofCrowns": [
+    {
+      "building": 1,
+      "actualStepHeights": [
+        95.45999999985993,
+        95.58499997227173,
+        95.70999993460316,
+        95.83499991397377
+      ]
+    },
+    {
+      "building": 2,
+      "actualStepHeights": [
+        95.46000000149012,
+        95.58499997886523,
+        95.70999993489289,
+        95.8349999302573
+      ]
+    },
+    {
+      "building": 3,
+      "actualStepHeights": [
+        95.4600000091383,
+        95.58500000684217,
+        95.70999990463257,
+        95.83499995071195
+      ]
+    },
+    {
+      "building": 4,
+      "actualStepHeights": [
+        95.45999999725213,
+        95.58499999224316,
+        95.70999994421861,
+        95.8349999153321
+      ]
+    },
+    {
+      "building": 5,
+      "actualStepHeights": [
+        95.46000000989862,
+        95.58499997067051,
+        95.70999993482233,
+        95.83499994845178
+      ]
+    }
+  ],
+  "disposal": {
+    "commercial": 7,
+    "arena": 7,
+    "shop-atlas": 1,
+    "arena-media": 1,
+    "shop-instance-buffer": 1
+  },
+  "levels": {
+    "lower": [
+      -5.072621976057092e-15,
+      3.1600005626678467
+    ],
+    "fascia": [
+      3.1599999999999953,
+      3.940000150203705
+    ],
+    "upper": [
+      3.94,
+      6.040000143051147
+    ],
+    "roof": 6.64
+  },
+  "windows": {
+    "pairedUpperBays": 193,
+    "lowerBays": 207,
+    "arenaGroundBays": 41,
+    "renderedInstances": 885
+  },
+  "upperRelief": {
+    "sourceArea": 9510.956006465005,
+    "remainingArea": 8740.87824970847,
+    "removedArea": 770.0777567565347,
+    "groundPlanUnchanged": true,
+    "buildingFootprintsClear": true
+  }
+}

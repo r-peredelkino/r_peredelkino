@@ -1,0 +1,110 @@
+{
+  "mode": "check (read only)",
+  "runtimeSha256": "5c118775f4018f2bfbe57e883ce5b24888540910b33ed35bdbdef98f34f07ac9",
+  "islands": 9,
+  "trees": 5,
+  "lineFragments": 9,
+  "lamps": 7,
+  "area": 292.421,
+  "checks": [
+    {
+      "id": "arena-south-tree-garden",
+      "rawArea": 23.0491,
+      "area": 22.9814,
+      "clipLoss": 0.0677,
+      "registrationShift": [
+        1.32583,
+        1.32583
+      ],
+      "minimumBuildingGap": 6.5907
+    },
+    {
+      "id": "arena-central-tree-garden",
+      "rawArea": 66.0217,
+      "area": 65.7218,
+      "clipLoss": 0.2999,
+      "registrationShift": [
+        0.7955,
+        0.7955
+      ],
+      "minimumBuildingGap": 4.4757
+    },
+    {
+      "id": "arena-storefront-pocket-west",
+      "rawArea": 11.6945,
+      "area": 11.6945,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        -0.20787,
+        -0.13889
+      ],
+      "minimumBuildingGap": 0.3107
+    },
+    {
+      "id": "arena-storefront-pocket-east",
+      "rawArea": 20.6993,
+      "area": 20.6271,
+      "clipLoss": 0.0722,
+      "registrationShift": [
+        -1.59099,
+        -1.59099
+      ],
+      "minimumBuildingGap": 0.3
+    },
+    {
+      "id": "arena-east-tree-garden",
+      "rawArea": 33.5587,
+      "area": 33.5587,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        0.41573,
+        0.27779
+      ],
+      "minimumBuildingGap": 5.4841
+    },
+    {
+      "id": "arena-burgundy-cream-garden",
+      "rawArea": 22.5226,
+      "area": 22.5226,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 6.1023
+    },
+    {
+      "id": "arena-entrance-island-west",
+      "rawArea": 15.2035,
+      "area": 15.2035,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 2.9329
+    },
+    {
+      "id": "arena-entrance-island-east",
+      "rawArea": 19.4481,
+      "area": 19.4481,
+      "clipLoss": -0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 5.4858
+    },
+    {
+      "id": "arena-north-entry-garden",
+      "rawArea": 80.663,
+      "area": 80.663,
+      "clipLoss": -0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 3.1345
+    }
+  ]
+}

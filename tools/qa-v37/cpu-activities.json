@@ -1,0 +1,35 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "Space permits native Start activation exactly once and still intercepts a reaction false start",
+      "pass": true
+    },
+    {
+      "name": "Held Space cannot record duplicate reaction samples or trigger native button activation during a signal",
+      "pass": true
+    },
+    {
+      "name": "Closing twice cancels the pending reaction and calls exterior continuation once",
+      "pass": true,
+      "closes": 1
+    },
+    {
+      "name": "Switching games cancels an earlier reaction signal instead of corrupting the new game",
+      "pass": true
+    },
+    {
+      "name": "Closing a sequence presentation cancels its timer and restarting begins at level one",
+      "pass": true
+    },
+    {
+      "name": "Memory progression immediately disables input until the new sequence has been shown",
+      "pass": true
+    },
+    {
+      "name": "Disposal cancels timers and removes the captured keyboard listener and dialog",
+      "pass": true
+    }
+  ],
+  "revision": 37
+}

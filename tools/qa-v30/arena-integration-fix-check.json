@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "removedCafeIds": [
+    "frontage-cafe-6"
+  ],
+  "removedBenchIslandIds": [
+    "frontage-6-0",
+    "frontage-7-0",
+    "frontage-8-0"
+  ],
+  "removedLegacyBenchCount": 3,
+  "removedLegacyPlantingIds": [
+    "frontage-6-0",
+    "frontage-8-0"
+  ],
+  "sourceIslandCount": 28,
+  "sourceCafeCount": 1,
+  "sourceGeometryChanged": false,
+  "publicRealmSha256": "7069bf13189aa5f73e514bea1ddc5e28e72d6cd71d37a411c152ca92136dfaaf"
+}

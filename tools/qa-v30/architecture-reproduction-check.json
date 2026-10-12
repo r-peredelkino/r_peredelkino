@@ -1,0 +1,26 @@
+{
+  "method": "Read-only AST/path/source SHA-256 verification; generator not executed and dist not written",
+  "script": "tools/reproject-arena-media-v30.py",
+  "scriptSyntax": "PASS",
+  "paths": {
+    "base": "project root from script parents[1]",
+    "assets": "dist/assets",
+    "metadata": "tools/qa-v30/arena-media-reprojection.json",
+    "output": "dist/assets/reference/arena-visible-media.png"
+  },
+  "sourceTileCount": 98,
+  "sourceFaces": [
+    "cf_1",
+    "cf_5"
+  ],
+  "sourceHashesAllMatch": true,
+  "outputSHA256": "98b795ef9dd4a2e5b6945e60d4f8ad31d374fafa52c8d7d4c3c64bd7879e9557",
+  "outputHashMatches": true,
+  "architectureRuntimeHashesMatch": true,
+  "availableGeneratorDependencies": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "Pillow": "12.3.0"
+  },
+  "runtimeRegeneratedDuringThisCheck": false
+}

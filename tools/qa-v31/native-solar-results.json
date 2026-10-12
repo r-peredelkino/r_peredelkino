@@ -1,0 +1,1230 @@
+{
+  "version": 31,
+  "label": "candidate31-solar-r2",
+  "base": "http://127.0.0.1:8091/candidate31/",
+  "runtimeRoot": "/tmp/rodina-reference-qa-v31/candidate31",
+  "startedUTC": "2026-10-11T10:02:19.447Z",
+  "checks": [
+    {
+      "name": "user-suncalc-moment",
+      "pass": true,
+      "details": {
+        "azimuth": 105.21093747492262,
+        "apparentElevation": 2.100255087078919,
+        "geometricElevation": 1.803224240397169,
+        "parts": {
+          "date": "2026-10-11",
+          "minutes": 432,
+          "time": "07:12",
+          "year": 2026,
+          "month": 10,
+          "monthIndex": 9,
+          "day": 11,
+          "seconds": 0,
+          "utcOffsetMinutes": 180
+        },
+        "gpu": {
+          "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+          "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)"
+        }
+      }
+    },
+    {
+      "name": "actual-light-follows-geographic-sun",
+      "pass": true,
+      "details": {
+        "direction": [
+          0.9652395710395116,
+          0.036648157825535155,
+          0.258784626721632
+        ],
+        "lightDirection": [
+          0.9652395710395167,
+          0.036648157825537736,
+          0.2587846267216127
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.9652395710395116,
+            0.036648157825535155,
+            0.258784626721632
+          ],
+          "lightSpaceRight": [
+            0.25895858716938014,
+            0,
+            -0.9658884253014106
+          ],
+          "lightSpaceUp": [
+            -0.03539803145230372,
+            0.9993282306269522,
+            -0.009490355172861046
+          ],
+          "receiverLightBounds": [
+            -169.67065835459294,
+            173.36488474052248,
+            -8.557084578386451,
+            102.30407654411526
+          ],
+          "casterAndReceiverLightDepth": [
+            -984.059396733086,
+            633.3714163008723
+          ],
+          "width": 347.9814535361849,
+          "height": 347.9814535361849,
+          "near": 0.1,
+          "far": 1633.5308130339583,
+          "texelWorld": [
+            0.08495640955473265,
+            0.08495640955473265
+          ],
+          "snappedLightCenter": [
+            1.8690410102041182,
+            46.89593807421242,
+            641.4714163008723
+          ],
+          "lightWorldPosition": [
+            617.9975750327899,
+            70.37318052445775,
+            163.75259683335923
+          ],
+          "lightWorldTarget": [
+            617.0323354617503,
+            70.33653236663221,
+            163.4938122066376
+          ],
+          "casterBounds": {
+            "min": [
+              -885.0057713558585,
+              -3.000000000000007,
+              -501.21548096483593
+            ],
+            "max": [
+              400.40767825913576,
+              96.33499999403953,
+              940.3633573448701
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -131.1533660888672,
+              -3.000000000000007,
+              -148.5242156982422
+            ],
+            "max": [
+              119.37682342529297,
+              96.33499999403953,
+              140.5000457763672
+            ]
+          },
+          "geometryChanged": false
+        }
+      }
+    },
+    {
+      "name": "reference-links-share-date-and-time",
+      "pass": true,
+      "details": [
+        "https://www.suncalc.org/#/55.636553,37.352924,17/2026.10.11/07:12/1/3",
+        "https://shademap.app/@55.636553,37.352924,16.5z,1791691920000t,0b,0p,0m"
+      ]
+    },
+    {
+      "name": "shadow-ruler-one-metre",
+      "pass": true,
+      "details": {
+        "text": "27.3 м",
+        "expectedMetres": 27.268170896455132
+      }
+    },
+    {
+      "name": "calendar-leap-month-clamp",
+      "pass": true,
+      "details": {
+        "date": "2028-02-29",
+        "minutes": 720,
+        "time": "12:00",
+        "year": 2028,
+        "month": 2,
+        "monthIndex": 1,
+        "day": 29,
+        "seconds": 0,
+        "utcOffsetMinutes": 180
+      }
+    },
+    {
+      "name": "winter-uses-selected-year",
+      "pass": true,
+      "details": {
+        "parts": {
+          "date": "2027-12-21",
+          "minutes": 748,
+          "time": "12:28",
+          "year": 2027,
+          "month": 12,
+          "monthIndex": 11,
+          "day": 21,
+          "seconds": 0,
+          "utcOffsetMinutes": 180
+        },
+        "elevation": 11.0092671978995
+      }
+    },
+    {
+      "name": "moscow-time-independent-of-device-zone",
+      "pass": true,
+      "details": {
+        "browserTimeZone": "America/Los_Angeles",
+        "parts": {
+          "date": "2026-10-11",
+          "minutes": 432,
+          "time": "07:12",
+          "year": 2026,
+          "month": 10,
+          "monthIndex": 9,
+          "day": 11,
+          "seconds": 0,
+          "utcOffsetMinutes": 180
+        },
+        "elevation": 2.100255087078919
+      }
+    },
+    {
+      "name": "no-solar-light-below-horizon",
+      "pass": true,
+      "details": {
+        "elevation": -37.20987950696571,
+        "intensity": 0,
+        "castShadow": false
+      }
+    },
+    {
+      "name": "shadow-region-keeps-full-casters",
+      "pass": true,
+      "details": {
+        "quarter": {
+          "receiverVisible": true,
+          "receiverVertexCount": 14,
+          "worldDirection": [
+            0.0781464279210874,
+            0.45718893462492544,
+            0.8859296890045507
+          ],
+          "lightSpaceRight": [
+            0.9961321964674572,
+            0,
+            -0.08786721323064134
+          ],
+          "lightSpaceUp": [
+            -0.040171917605378075,
+            0.8893695958691897,
+            -0.4554206176485438
+          ],
+          "receiverLightBounds": [
+            -119.02148920567934,
+            112.82296986136156,
+            -11.942163261122019,
+            156.26199448177687
+          ],
+          "casterAndReceiverLightDepth": [
+            -514.5732817003252,
+            908.4295425063106
+          ],
+          "width": 240.26920808550173,
+          "height": 240.26920808550173,
+          "near": 0.1,
+          "far": 1439.102824206636,
+          "texelWorld": [
+            0.058659474630249446,
+            0.058659474630249446
+          ],
+          "snappedLightCenter": [
+            -3.1089521554032205,
+            72.15115379520682,
+            916.5295425063106
+          ],
+          "lightWorldPosition": [
+            65.62813228634856,
+            483.1962075830693,
+            779.3947844925934
+          ],
+          "lightWorldTarget": [
+            65.54998585842748,
+            482.73901864844436,
+            778.5088548035889
+          ],
+          "casterBounds": {
+            "min": [
+              -885.0057713558585,
+              -3.000000000000007,
+              -501.21548096483593
+            ],
+            "max": [
+              400.40767825913576,
+              96.33499999403953,
+              940.3633573448701
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -131.1533660888672,
+              -3.000000000000007,
+              -148.5242156982422
+            ],
+            "max": [
+              119.37682342529297,
+              96.33499999403953,
+              140.5000457763672
+            ]
+          },
+          "geometryChanged": false
+        },
+        "district": {
+          "receiverVisible": true,
+          "receiverVertexCount": 14,
+          "worldDirection": [
+            0.0781464279210874,
+            0.45718893462492544,
+            0.8859296890045507
+          ],
+          "lightSpaceRight": [
+            0.9961321964674572,
+            0,
+            -0.08786721323064134
+          ],
+          "lightSpaceUp": [
+            -0.040171917605378075,
+            0.8893695958691897,
+            -0.4554206176485438
+          ],
+          "receiverLightBounds": [
+            -123.13332203531006,
+            112.82296986136156,
+            -11.942163261122019,
+            170.99595757703295
+          ],
+          "casterAndReceiverLightDepth": [
+            -514.5732817003252,
+            908.4295425063106
+          ],
+          "width": 240.26920808550173,
+          "height": 240.26920808550173,
+          "near": 0.1,
+          "far": 1439.102824206636,
+          "texelWorld": [
+            0.058659474630249446,
+            0.058659474630249446
+          ],
+          "snappedLightCenter": [
+            -5.162033767461951,
+            79.54224759861825,
+            916.5295425063106
+          ],
+          "lightWorldPosition": [
+            63.28607717931729,
+            489.7696216920406,
+            776.2091265473322
+          ],
+          "lightWorldTarget": [
+            63.2079307513962,
+            489.31243275741565,
+            775.3231968583276
+          ],
+          "casterBounds": {
+            "min": [
+              -885.0057713558585,
+              -3.000000000000007,
+              -501.21548096483593
+            ],
+            "max": [
+              400.40767825913576,
+              96.33499999403953,
+              940.3633573448701
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -518.4854125976562,
+              -3.000000000000007,
+              -528.76025390625
+            ],
+            "max": [
+              414.8584899902344,
+              96.33499999403953,
+              252.5008544921875
+            ]
+          },
+          "geometryChanged": false
+        }
+      }
+    },
+    {
+      "name": "top-view-geographic-north",
+      "pass": true,
+      "details": {
+        "x": 1.554633108181758e-19,
+        "y": 0.1359999999444898
+      }
+    },
+    {
+      "name": "pick-real-surface-through-ui",
+      "pass": true,
+      "details": {
+        "selected": {
+          "point": [
+            4.594306705907325e-17,
+            0,
+            -4.706304790325078e-15
+          ],
+          "normal": [
+            0,
+            1,
+            0
+          ],
+          "objectName": "Плоскость участка (y=0)",
+          "category": "Участок",
+          "instanceId": null,
+          "distanceModelUnits": 350.00000014285706,
+          "fallbackGround": true
+        },
+        "status": "building-shadow"
+      }
+    },
+    {
+      "name": "point-day-intervals",
+      "pass": true,
+      "details": {
+        "day": "2026-10-11",
+        "minutes": 172.8125,
+        "intervals": [
+          {
+            "start": 449.21875,
+            "end": 525.15625
+          },
+          {
+            "start": 612.96875,
+            "end": 662.96875
+          },
+          {
+            "start": 779.21875,
+            "end": 826.09375
+          }
+        ],
+        "meshCount": 111,
+        "instances": 13501
+      }
+    },
+    {
+      "name": "twelve-selected-days-not-month-totals",
+      "pass": true,
+      "details": [
+        {
+          "day": "2026-01-11",
+          "minutes": 109.0625
+        },
+        {
+          "day": "2026-02-11",
+          "minutes": 111.25
+        },
+        {
+          "day": "2026-03-11",
+          "minutes": 194.6875
+        },
+        {
+          "day": "2026-04-11",
+          "minutes": 325.3125
+        },
+        {
+          "day": "2026-05-11",
+          "minutes": 472.1875
+        },
+        {
+          "day": "2026-06-11",
+          "minutes": 531.25
+        },
+        {
+          "day": "2026-07-11",
+          "minutes": 510
+        },
+        {
+          "day": "2026-08-11",
+          "minutes": 430
+        },
+        {
+          "day": "2026-09-11",
+          "minutes": 269.375
+        },
+        {
+          "day": "2026-10-11",
+          "minutes": 172.8125
+        },
+        {
+          "day": "2026-11-11",
+          "minutes": 107.8125
+        },
+        {
+          "day": "2026-12-11",
+          "minutes": 106.875
+        }
+      ]
+    },
+    {
+      "name": "month-result-controls-real-scene",
+      "pass": true,
+      "details": {
+        "parts": {
+          "date": "2026-07-11",
+          "minutes": 720,
+          "time": "12:00",
+          "year": 2026,
+          "month": 7,
+          "monthIndex": 6,
+          "day": 11,
+          "seconds": 0,
+          "utcOffsetMinutes": 180
+        },
+        "elevation": 55.78595699329326
+      }
+    },
+    {
+      "name": "day-chart-keyboard-controls-time",
+      "pass": true,
+      "details": {
+        "date": "2026-07-11",
+        "minutes": 725,
+        "time": "12:05",
+        "year": 2026,
+        "month": 7,
+        "monthIndex": 6,
+        "day": 11,
+        "seconds": 0,
+        "utcOffsetMinutes": 180
+      }
+    },
+    {
+      "name": "solar-panel-mobile-layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "buttons": [
+          {
+            "left": 39,
+            "right": 87.65625,
+            "width": 48.65625,
+            "height": 44
+          },
+          {
+            "left": 91.65625,
+            "right": 140.328125,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 144.328125,
+            "right": 193,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 197,
+            "right": 245.65625,
+            "width": 48.65625,
+            "height": 44
+          },
+          {
+            "left": 249.65625,
+            "right": 298.328125,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 302.328125,
+            "right": 351,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 39,
+            "right": 87.65625,
+            "width": 48.65625,
+            "height": 44
+          },
+          {
+            "left": 91.65625,
+            "right": 140.328125,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 144.328125,
+            "right": 193,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 197,
+            "right": 245.65625,
+            "width": 48.65625,
+            "height": 44
+          },
+          {
+            "left": 249.65625,
+            "right": 298.328125,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 302.328125,
+            "right": 351,
+            "width": 48.671875,
+            "height": 44
+          },
+          {
+            "left": 39,
+            "right": 161.21875,
+            "width": 122.21875,
+            "height": 44
+          },
+          {
+            "left": 167.21875,
+            "right": 319.96875,
+            "width": 152.75,
+            "height": 44
+          }
+        ]
+      }
+    },
+    {
+      "name": "apartment-shares-map-calendar",
+      "pass": true,
+      "details": {
+        "solar": {
+          "date": "2026-10-11",
+          "time": "07:12",
+          "timeZone": "Europe/Moscow",
+          "latitude": 55.636552730942945,
+          "longitude": 37.35292368617269,
+          "azimuth": 105.21093747492262,
+          "apparentElevation": 2.100255087078919,
+          "geometricElevation": 1.803224240397169,
+          "direction": [
+            0.9652395710395116,
+            0.036648157825535155,
+            0.258784626721632
+          ],
+          "contextReady": true,
+          "clearSky": true,
+          "artificialLight": false
+        },
+        "lighting": {
+          "shadowMap": 4096,
+          "shadowRegion": "selected-surface",
+          "environment": true,
+          "referencePanorama": false,
+          "shadowFit": {
+            "receiverVisible": true,
+            "receiverVertexCount": 24,
+            "worldDirection": [
+              0.9652395710395116,
+              0.036648157825535155,
+              0.258784626721632
+            ],
+            "lightSpaceRight": [
+              0.25895858716938014,
+              0,
+              -0.9658884253014106
+            ],
+            "lightSpaceUp": [
+              -0.03539803145230372,
+              0.9993282306269522,
+              -0.009490355172861046
+            ],
+            "receiverLightBounds": [
+              43.982694468017975,
+              53.508925927159076,
+              19.212495465997407,
+              22.958054653293438
+            ],
+            "casterAndReceiverLightDepth": [
+              -984.059396733086,
+              633.3714163008723
+            ],
+            "width": 12.722080384867962,
+            "height": 12.722080384867962,
+            "near": 0.1,
+            "far": 1633.5308130339583,
+            "texelWorld": [
+              0.0031059766564619047,
+              0.0031059766564619047
+            ],
+            "snappedLightCenter": [
+              48.745197646513134,
+              21.08647552071987,
+              641.4714163008723
+            ],
+            "lightWorldPosition": [
+              631.0501624944945,
+              44.581055977443455,
+              118.72040068218575
+            ],
+            "lightWorldTarget": [
+              630.084922923455,
+              44.54440781961792,
+              118.46161605546412
+            ],
+            "casterBounds": {
+              "min": [
+                -885.0057713558585,
+                -3.000000000000007,
+                -501.21548096483593
+              ],
+              "max": [
+                400.40767825913576,
+                96.33499999403953,
+                940.3633573448701
+              ]
+            },
+            "receiverBounds": {
+              "min": [
+                -5.190817418906637,
+                18.87,
+                -54.71557486684055
+              ],
+              "max": [
+                2.5478416714308842,
+                22.27,
+                -46.92767821389696
+              ]
+            },
+            "geometryChanged": false
+          },
+          "bias": -1.7949046893496188e-7,
+          "normalBias": 0.00010994447347660546
+        },
+        "modelName": "Apartment 1-59 · original-plan reconstruction"
+      }
+    },
+    {
+      "name": "apartment-cutaway-keeps-shadow-envelope",
+      "pass": true,
+      "details": {
+        "upper": false,
+        "ceiling": false,
+        "shadowOnly": 6,
+        "glassCastShadows": []
+      }
+    },
+    {
+      "name": "apartment-window-depth-and-hidden-context",
+      "pass": true,
+      "details": {
+        "context": "ready",
+        "windowDepthMaterials": 18,
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 24,
+          "worldDirection": [
+            0.9652395710395116,
+            0.036648157825535155,
+            0.258784626721632
+          ],
+          "lightSpaceRight": [
+            0.25895858716938014,
+            0,
+            -0.9658884253014106
+          ],
+          "lightSpaceUp": [
+            -0.03539803145230372,
+            0.9993282306269522,
+            -0.009490355172861046
+          ],
+          "receiverLightBounds": [
+            43.982694468017975,
+            53.508925927159076,
+            19.212495465997407,
+            22.958054653293438
+          ],
+          "casterAndReceiverLightDepth": [
+            -984.059396733086,
+            633.3714163008723
+          ],
+          "width": 12.722080384867962,
+          "height": 12.722080384867962,
+          "near": 0.1,
+          "far": 1633.5308130339583,
+          "texelWorld": [
+            0.0031059766564619047,
+            0.0031059766564619047
+          ],
+          "snappedLightCenter": [
+            48.745197646513134,
+            21.08647552071987,
+            641.4714163008723
+          ],
+          "lightWorldPosition": [
+            631.0501624944945,
+            44.581055977443455,
+            118.72040068218575
+          ],
+          "lightWorldTarget": [
+            630.084922923455,
+            44.54440781961792,
+            118.46161605546412
+          ],
+          "casterBounds": {
+            "min": [
+              -885.0057713558585,
+              -3.000000000000007,
+              -501.21548096483593
+            ],
+            "max": [
+              400.40767825913576,
+              96.33499999403953,
+              940.3633573448701
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -5.190817418906637,
+              18.87,
+              -54.71557486684055
+            ],
+            "max": [
+              2.5478416714308842,
+              22.27,
+              -46.92767821389696
+            ]
+          },
+          "geometryChanged": false
+        },
+        "direction": [
+          0.9652395710395135,
+          0.036648157825530506,
+          0.25878462672162605
+        ]
+      }
+    },
+    {
+      "name": "artificial-lamp-is-off-by-default",
+      "pass": true,
+      "details": {
+        "date": "2026-10-11",
+        "time": "07:12",
+        "timeZone": "Europe/Moscow",
+        "latitude": 55.636552730942945,
+        "longitude": 37.35292368617269,
+        "azimuth": 105.21093747492262,
+        "apparentElevation": 2.100255087078919,
+        "geometricElevation": 1.803224240397169,
+        "direction": [
+          0.9652395710395116,
+          0.036648157825535155,
+          0.258784626721632
+        ],
+        "contextReady": true,
+        "clearSky": true,
+        "artificialLight": false
+      }
+    },
+    {
+      "name": "apartment-date-controls-real-sun",
+      "pass": true,
+      "details": {
+        "date": "2026-06-21",
+        "time": "12:00",
+        "timeZone": "Europe/Moscow",
+        "latitude": 55.636552730942945,
+        "longitude": 37.35292368617269,
+        "azimuth": 166.1803987138985,
+        "apparentElevation": 57.26111979549788,
+        "geometricElevation": 57.250744381294965,
+        "direction": [
+          0.13103795148365646,
+          0.8411439878505471,
+          0.5246959566966811
+        ],
+        "contextReady": true,
+        "clearSky": true,
+        "artificialLight": false
+      }
+    },
+    {
+      "name": "inspection-lamp-separate-from-sun",
+      "pass": true,
+      "details": {
+        "date": "2026-06-21",
+        "time": "12:00",
+        "timeZone": "Europe/Moscow",
+        "latitude": 55.636552730942945,
+        "longitude": 37.35292368617269,
+        "azimuth": 166.1803987138985,
+        "apparentElevation": 57.26111979549788,
+        "geometricElevation": 57.250744381294965,
+        "direction": [
+          0.13103795148365646,
+          0.8411439878505471,
+          0.5246959566966811
+        ],
+        "contextReady": true,
+        "clearSky": true,
+        "artificialLight": true
+      }
+    },
+    {
+      "name": "apartment-solar-overlay-owns-arrow-keys",
+      "pass": true,
+      "details": {
+        "before": [
+          0.9584860718044512,
+          20.8,
+          -52.35485303970776
+        ],
+        "after": [
+          0.9584860718044512,
+          20.8,
+          -52.35485303970776
+        ]
+      }
+    },
+    {
+      "name": "apartment-solar-mobile-layout",
+      "pass": true,
+      "details": {
+        "width": 390,
+        "scroll": 390,
+        "buttons": [
+          {
+            "left": 49,
+            "right": 93.5,
+            "height": 44
+          },
+          {
+            "left": 98.5,
+            "right": 143,
+            "height": 44
+          },
+          {
+            "left": 148,
+            "right": 192.5,
+            "height": 44
+          },
+          {
+            "left": 197.5,
+            "right": 242,
+            "height": 44
+          },
+          {
+            "left": 247,
+            "right": 291.5,
+            "height": 44
+          },
+          {
+            "left": 296.5,
+            "right": 341,
+            "height": 44
+          },
+          {
+            "left": 49,
+            "right": 93.5,
+            "height": 44
+          },
+          {
+            "left": 98.5,
+            "right": 143,
+            "height": 44
+          },
+          {
+            "left": 148,
+            "right": 192.5,
+            "height": 44
+          },
+          {
+            "left": 197.5,
+            "right": 242,
+            "height": 44
+          },
+          {
+            "left": 247,
+            "right": 291.5,
+            "height": 44
+          },
+          {
+            "left": 296.5,
+            "right": 341,
+            "height": 44
+          },
+          {
+            "left": 49,
+            "right": 340.984375,
+            "height": 44
+          },
+          {
+            "left": 49,
+            "right": 141.65625,
+            "height": 46.59375
+          },
+          {
+            "left": 148.65625,
+            "right": 241.328125,
+            "height": 46.59375
+          },
+          {
+            "left": 248.328125,
+            "right": 341,
+            "height": 46.59375
+          }
+        ]
+      }
+    },
+    {
+      "name": "map-restores-apartment-solar-selection",
+      "pass": true,
+      "details": {
+        "date": "2026-06-21",
+        "minutes": 720,
+        "time": "12:00",
+        "year": 2026,
+        "month": 6,
+        "monthIndex": 5,
+        "day": 21,
+        "seconds": 0,
+        "utcOffsetMinutes": 180
+      }
+    },
+    {
+      "name": "no-runtime-or-resource-errors",
+      "pass": true,
+      "details": {
+        "errors": [],
+        "badResponses": [],
+        "failedRequests": []
+      }
+    },
+    {
+      "name": "runtime-files-unchanged-throughout-solar-acceptance",
+      "pass": true,
+      "details": {
+        "files": 104
+      }
+    }
+  ],
+  "errors": [],
+  "badResponses": [],
+  "failedRequests": [],
+  "runtimeSHA256Before": {
+    "apartment-apertures.js": "0467a76a8cb57da08d9d7cc9b8547db0e33b85fe2f375a2bdd2176ca324f4626",
+    "apartment-model.js": "238d92aabce50bc8a496416d0e3271986d6cebf93d9a856272449a9963e8f8a2",
+    "apartment-plans.js": "9868315868854d9e599072d1f73c14c9082dbcecf54e33990d543a68ce3280b3",
+    "apartment-tour.js": "3f042ff1a9c8e52016c3440617e29dffc1239520bd13975636ac48ad290fe910",
+    "apartment.css": "ca27755d1928e749eef175dbb3469471e84e829bc17a68d11a8531cf8e3829a8",
+    "apartment3d.js": "b741a6f89d72acc3d2c1c1ddd01bb2c13362b653de6393935c95260381bfa240",
+    "app.js": "1764c7ab07803df0e116324cf1c002283e6ccc29042040e481f93083f8e5e956",
+    "architectural-lighting.js": "42ae7288a3fd8f394d21f315d363c5016c692767f2f6a23066be46b649f84a3b",
+    "arena-exterior.js": "88b910740034c522de06a31aaf409822bb3820a6f3f0353b1f4cdc553adb94d7",
+    "arena-landscape-data.js": "5c118775f4018f2bfbe57e883ce5b24888540910b33ed35bdbdef98f34f07ac9",
+    "arena-media.js": "0f5557c2ee6ae0d9b3aebbcb285e98391fd923b5556c3212eb23f61c2bdc56d2",
+    "arena-service-equipment.js": "a9e067d5477108161b73d975d8d21450b2e46ba35ac93dd3c72116a0e069e18d",
+    "attribution.js": "e437eefd5e82f157d8789b43852a5699cc24c6547b2f5aa4ace25aead00d2e39",
+    "backdrop-garden.js": "ed0418682ff919788e2a2837ded0ce6159efa52b67a75a55a3ee9d7eec254b79",
+    "baked-authorship.js": "c69dcd2cfed56b78b4a2f15f9ae5a3327e3a7dc5e8fc119bce506abd78773cce",
+    "botanical-geometry.js": "394228bb1ca73088da7424ffc868e332ffa115c8c4e7c46aa932cbd987d27833",
+    "botanical-lod.js": "79bbe9a4d290ad4d3cfd09d6cef673e2179d6356c7282f71117f8551e814d669",
+    "building-levels.js": "35cf60af34c583eb559cb0df4e257cb269ab036ad127f921b6e55e3102c39de0",
+    "cluster-map.js": "47915de3df0fcee9db8f4fb753c1c7b5adc63aec827d28f133c639a8cbd6db44",
+    "commercial-frontage.js": "92680edbbb5199536245c6b6de0191ea46b2d378696d2cd0d39df1321ec46329",
+    "complex-footprints.js": "99321bb7a316f1a705e7a1c6d16ea03078d5ac6a46e4e8aae3c4d6e21df27c5b",
+    "complex-life.js": "a773a9dc1a88872a75b71c49a8a70aa4bc847bbb6d1f980e87ff2a4d5e19b96e",
+    "complex-model.js": "0aa83bc6892ddc3c6f2e2f12028ca5fe79e07b9279c70e0deb117b17f83e1646",
+    "context-services-data.js": "77322cecccd664695f3aa3a9fe52347627aaddeafd83906fa8c83e20327ae9ae",
+    "context-services.js": "bec27889d2aa1f1b7d846f7eb9a4563fa9de5546c3a938c98288c7755c4cc98d",
+    "courtyard-layout.js": "7eeb46e44fcb7c1c79acf70c8016320542114e73ac426f208d33055e4d84e6ab",
+    "courtyard-pavilion.js": "5cf668a624d0b32d0142f060328fc8f7b776efa8d40ea91983190a53a699d658",
+    "courtyard-program.js": "6722a2c4746efd3ddac04b74bb6abbd29f3920c208ea4a18eee1fe3191262202",
+    "courtyard-reference-layout.js": "27d8a2f7b8ecb2ed4ad1fc7e1904b64bf33195cd3e54580c5c2c621884316014",
+    "courtyard-revision.js": "f6da2249379efe66f6d047001fa9fee6cff84ada286e6e643019ea0d1110faa9",
+    "courtyard.js": "4f2ef2834c4e6d76bcc0ffa652b75495e359b5a80b0f3c31a38a4ee52b4c06bd",
+    "district-views.js": "a987c00110371ddc81546c8241145c5d2d402bdccb919808560d05e946c5f438",
+    "environment.css": "73a0b4cef80b0449c14173d210cf4d8a607038c2332f9b80bbaa55924c6af273",
+    "environment.js": "a9a42c872efdb0e99f73f9841c05906095eedc03ccd738ef1e1ef583c4f87ea2",
+    "exterior-roofs.js": "2c2e56e0be89dcb4b38db217d47384f8d80d46bb7c8d337519c3bcbb31874eb8",
+    "facade-detail.js": "695bf82823d3b1b9d523924c6ed40215a6dc1c9389eb8608a1bfc6a4018e29f9",
+    "forecourt-architecture.js": "6b78c409f195a7cc1f5951e2551833b1013a5e051db5d305a836064091faeec5",
+    "forecourt-cafes.js": "1ad658df9b5aa85a7e6fe8adf47cab873851235f2cf2b1b73d411ec77cdedb12",
+    "forecourt-ground.js": "72056febdd079a35dbe56f74f666c3e889c8e2f50410f60135fb8d7d88f49726",
+    "forecourt-landscape.js": "784dbf8b61a8763c0727133d04056f518eccc383f3e3c2e41b5366f9387e5672",
+    "forecourt-reference-data.js": "a9ccbb56af4be527903a4be91026c79dacc30ca082b8b494d64f013f5666934e",
+    "forecourt-roadside.js": "9c21828b07d7e5c0a55216dd08f8418b5f639b77f03a9e319482554fd6f40ad2",
+    "forecourt-walking-layout.js": "a77ad7104f0171e570bed203891d58d653d41c9f9a2e23c012fc94e2702ae182",
+    "frontage-zones.js": "e9d66f449b9c385f0a96731b2b5bfbb05e0c2cb815c727a075884980e5cb26b8",
+    "geo-reference.js": "eb51f52c22fc8a5173811e50b86a59d75f37f4f92d99521b937984b427adbfd8",
+    "index.html": "a37d942e28060a961f174b9bc609a3ef4d5a083cf5b40733b37432deb9e4ce6d",
+    "landscape-materials.js": "285cab06990f74d817d7c0f4146dbe753556e7af8d50610b52488d9adde240a5",
+    "light-fields.js": "f135d9952b397fee678ea1f6064376c7ced4667a76b017c46bf15efb63480ee1",
+    "local-access-data.js": "2b674750f5c48437035b931c915a9249c3953075a6c9938a8a32a466269452a5",
+    "local-access.js": "94df3c87089c3775546d97aecc532da50530ea5a320d3f1f1061caaf0860312d",
+    "map-paths.js": "87f253f227e78592742070776f7e2169a94fd53d19bb71efa4e731ec049fd4f8",
+    "map-spatial.css": "11fb9fa256836fdecca2785fa4579190a6b0dcabc6a60d87286121b57ef3f37b",
+    "map.js": "949da65e96f222139deee1561682a8fd9fc8e8e339aa84cfecb8a1d07517a540",
+    "model-watermarks.js": "afdbd2fb83bb9140c107031a453e658239a25f0a438c0eace646a5ab7d0f13f2",
+    "neighbor-building-layout.js": "28992cd0996fa920a53842236d8b4a9fc79139107b11c53ef50103cc531d5b7a",
+    "neighbor-buildings.js": "96e8a8ca1d852c22c1c031720096abc164f867c478e7df26c2074eaf43079148",
+    "neighbor-footprints-data.js": "96bf3411f6c9ef81cd0b281d22aac839ddb54a80d2fd2e99b84f9609c3ec3949",
+    "neighborhood.js": "951f7a2fb79006165b88212ffcfdb66d4488ef10cdf945d173442d8f99dc5086",
+    "night-lighting.js": "c20acb74a624b73b29ec656fc0432c127f57afde802b90082f0981ce52824d6a",
+    "onboarding.css": "0aaa1daff279e05af7d1a4abf6e8fa69e2d2887e79f40bad8dcb2e081e42e0d1",
+    "onboarding.js": "e361114f10aa00433b58525639f72ddab36a746c81217424e2ec213fbebd054a",
+    "paving-material.js": "79253c8f151ebe4290d6cda3222870c9dc79115d551cd669159df79efed0978e",
+    "plan-data.js": "1b038bb1f789c7f74af3188bdc50709b304f90efe4c082273904f583acb108ad",
+    "plan-proof.js": "eec176f2a9c431407938fca6fbbbb696b6d08fd2f690b6a5357fd1e5f2a0330d",
+    "play-bridge-walk.js": "d5b785f2788d7dea91595faea71ee4dba8bb170c907f843251d0f20ae57238ff",
+    "podium-upper-cut.js": "fd90f2208ffc5094026fa0e0e6fe17895673f0da16f35e782dfed72f39809bb1",
+    "promenade-furniture.js": "1cd57ca83bbd5a14b9f9482d9dee0d003ceaabe82658137e0e55a2efd0a475ea",
+    "public-plaza-program.js": "3cc3ba03a2540f1416816cc5f2f9af0f8dcfd2ea0626e8f96504c9e34a50deca",
+    "public-realm-layout.js": "fbbfca76ddb5b5f1bb666b0c9506f8acc5ce0314be7d8f61fefb99c54f9bda71",
+    "public-realm.js": "682254e0873dcf1ad9d106f8a163d47635e01ee4fbeabb66f0ca0ef0c5421863",
+    "realm-details.js": "6a5e1d3418062d8929ec068856a21ef2d09748635c690f52966265e67b8b0af2",
+    "reference-backdrop.js": "1fb7237d369f5a6cc30e8efe6b0206fdf47874b4b00008b3dcdf16aea3396c0d",
+    "reference-catalog.css": "4a8ae7128afb971310641211a91947daed23096b070b524b5ec40edddc186243",
+    "reference-catalog.js": "13cfb8f6f34db447e18324596329a18150150049b5efd01380e093a7da35705f",
+    "reference-entry.js": "94fcc29fc851b23e58975ac77156d1490f392f91ca68eea2c21dc209caf49f52",
+    "reference-explorer-data.js": "8c72b0abdb72014ea0d2708fa4a53b98308a283f20ff4426a7fb6950b5df2457",
+    "reference-explorer.css": "6ac537cc7901c5a0e1df48ee13ee7b7fa6c82cac296a9f3847ffddf76065ad19",
+    "reference-explorer.js": "0353358bde9ffd50723559890f86a5f0186bbdc9b1c8c462d3b3845591fa305b",
+    "resident-figure.js": "fe6a10041b2364c56908a9484e6de767f44d517dca0c9cef776ad33a74ddd852",
+    "retail-signs.js": "4c3fcd718f60a72ac73cb2aed85ab0bed48b5f63d4663707b87fd1a46f81618f",
+    "sales-office.js": "f198dd55ebd9c9bd281a84eb04d1d91d9c3ac681427bc666473a7707db9bf399",
+    "scene-batches.js": "f84604f728e826b561983ea0805aaa40c2d515b9c3d06d2a12d9bb2f0f835370",
+    "shop-frontage-layout.js": "07b89ae52fe28c19b08a55e4b8a945ae33f324d1fdacb52b0996e270be4186bd",
+    "shop-interiors.js": "c9d93bf501e12ba4b23f30041cc35edd49a9584b25dfc09ea18bc3b34a4f0e14",
+    "site-weather.js": "be1eeb8b6d0aad52645afc8f93b4b92814f5661a580626de1263a2964a6011fe",
+    "solar-analysis-panel.js": "ffbe56f8af36cf3a3fcc5b9a9d43409fd743de9fd07d8e164e144f6b8b6c96ca",
+    "solar-clock.js": "1e508fc780635fb6b8652ddcc2b79e67b5d54d67d5b9fbca15a851d1d89630b4",
+    "solar-exposure.js": "c30f534475f86d95737a3186794f5663abdeb8b97daa8fe4da864bb687be2fc5",
+    "solar-shadow-camera.js": "c57df4be0750b13e7fd5b057cd12102020513a7984a092686d89b21b20284ad5",
+    "solar.js": "8bd58e25f8a59280f7e17c8de67db4a1806f67b5ea302f502ba2109d55da1447",
+    "spatial-instances.js": "37dc987610696752488a5dff9ab777e90dcb7e83907aeb374ddbc92e7f2bb045",
+    "style.css": "e3ce8720b8a0037632734368f765bcb4b7b06d0c5751cd9d725751abeb4ab47a",
+    "terrace-access.js": "9d2e29c19b271f59c4621d5049641af949ef7c0eb8f637f5548a131b881e548c",
+    "terraces.js": "012c1f82b5f3c79360c9eb8250611fcaf5192d28f2433f03215db1f19e022d33",
+    "traffic.js": "1b7c9af495d0139b6ea8630fdd508963cd4a3b083036804627042bd6a721adb1",
+    "transport-data.js": "78c24219a295b539e9abab9fb6d0d28c56a93e7f51e20b1a4b9385cd17026906",
+    "transport-infrastructure.js": "e5f0685e4457fd6e40a6e418b806ee281aadc4fc5e55cea1386a793c764806f7",
+    "vendor/OrbitControls.js": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+    "vendor/three.module.js": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+    "walk-physics.js": "2528c603080bdcbdc0d7f28cb8025ded1b3d96947099f1ec0eaca57270c1b825",
+    "walking-tour.css": "cec8e698379bb6a32a21c13ac3b7fe041d4835431f91334698ff26083ccda1e9",
+    "walking-tour.js": "300ac11445729c81c687e82f05b68a952cc11bbceb8a5ff45038bf48f3598831",
+    "weather-data.js": "55623f93c6b1aaedfe0eb3cd2828578e07b91b5b36832fa93836766e41bd817a",
+    "window-lighting.js": "57667b1a1a17cf6bce71cb20ecf60207a879e4f1aeaa36006997654394cac44d"
+  },
+  "pass": true,
+  "runtimeSHA256After": {
+    "apartment-apertures.js": "0467a76a8cb57da08d9d7cc9b8547db0e33b85fe2f375a2bdd2176ca324f4626",
+    "apartment-model.js": "238d92aabce50bc8a496416d0e3271986d6cebf93d9a856272449a9963e8f8a2",
+    "apartment-plans.js": "9868315868854d9e599072d1f73c14c9082dbcecf54e33990d543a68ce3280b3",
+    "apartment-tour.js": "3f042ff1a9c8e52016c3440617e29dffc1239520bd13975636ac48ad290fe910",
+    "apartment.css": "ca27755d1928e749eef175dbb3469471e84e829bc17a68d11a8531cf8e3829a8",
+    "apartment3d.js": "b741a6f89d72acc3d2c1c1ddd01bb2c13362b653de6393935c95260381bfa240",
+    "app.js": "1764c7ab07803df0e116324cf1c002283e6ccc29042040e481f93083f8e5e956",
+    "architectural-lighting.js": "42ae7288a3fd8f394d21f315d363c5016c692767f2f6a23066be46b649f84a3b",
+    "arena-exterior.js": "88b910740034c522de06a31aaf409822bb3820a6f3f0353b1f4cdc553adb94d7",
+    "arena-landscape-data.js": "5c118775f4018f2bfbe57e883ce5b24888540910b33ed35bdbdef98f34f07ac9",
+    "arena-media.js": "0f5557c2ee6ae0d9b3aebbcb285e98391fd923b5556c3212eb23f61c2bdc56d2",
+    "arena-service-equipment.js": "a9e067d5477108161b73d975d8d21450b2e46ba35ac93dd3c72116a0e069e18d",
+    "attribution.js": "e437eefd5e82f157d8789b43852a5699cc24c6547b2f5aa4ace25aead00d2e39",
+    "backdrop-garden.js": "ed0418682ff919788e2a2837ded0ce6159efa52b67a75a55a3ee9d7eec254b79",
+    "baked-authorship.js": "c69dcd2cfed56b78b4a2f15f9ae5a3327e3a7dc5e8fc119bce506abd78773cce",
+    "botanical-geometry.js": "394228bb1ca73088da7424ffc868e332ffa115c8c4e7c46aa932cbd987d27833",
+    "botanical-lod.js": "79bbe9a4d290ad4d3cfd09d6cef673e2179d6356c7282f71117f8551e814d669",
+    "building-levels.js": "35cf60af34c583eb559cb0df4e257cb269ab036ad127f921b6e55e3102c39de0",
+    "cluster-map.js": "47915de3df0fcee9db8f4fb753c1c7b5adc63aec827d28f133c639a8cbd6db44",
+    "commercial-frontage.js": "92680edbbb5199536245c6b6de0191ea46b2d378696d2cd0d39df1321ec46329",
+    "complex-footprints.js": "99321bb7a316f1a705e7a1c6d16ea03078d5ac6a46e4e8aae3c4d6e21df27c5b",
+    "complex-life.js": "a773a9dc1a88872a75b71c49a8a70aa4bc847bbb6d1f980e87ff2a4d5e19b96e",
+    "complex-model.js": "0aa83bc6892ddc3c6f2e2f12028ca5fe79e07b9279c70e0deb117b17f83e1646",
+    "context-services-data.js": "77322cecccd664695f3aa3a9fe52347627aaddeafd83906fa8c83e20327ae9ae",
+    "context-services.js": "bec27889d2aa1f1b7d846f7eb9a4563fa9de5546c3a938c98288c7755c4cc98d",
+    "courtyard-layout.js": "7eeb46e44fcb7c1c79acf70c8016320542114e73ac426f208d33055e4d84e6ab",
+    "courtyard-pavilion.js": "5cf668a624d0b32d0142f060328fc8f7b776efa8d40ea91983190a53a699d658",
+    "courtyard-program.js": "6722a2c4746efd3ddac04b74bb6abbd29f3920c208ea4a18eee1fe3191262202",
+    "courtyard-reference-layout.js": "27d8a2f7b8ecb2ed4ad1fc7e1904b64bf33195cd3e54580c5c2c621884316014",
+    "courtyard-revision.js": "f6da2249379efe66f6d047001fa9fee6cff84ada286e6e643019ea0d1110faa9",
+    "courtyard.js": "4f2ef2834c4e6d76bcc0ffa652b75495e359b5a80b0f3c31a38a4ee52b4c06bd",
+    "district-views.js": "a987c00110371ddc81546c8241145c5d2d402bdccb919808560d05e946c5f438",
+    "environment.css": "73a0b4cef80b0449c14173d210cf4d8a607038c2332f9b80bbaa55924c6af273",
+    "environment.js": "a9a42c872efdb0e99f73f9841c05906095eedc03ccd738ef1e1ef583c4f87ea2",
+    "exterior-roofs.js": "2c2e56e0be89dcb4b38db217d47384f8d80d46bb7c8d337519c3bcbb31874eb8",
+    "facade-detail.js": "695bf82823d3b1b9d523924c6ed40215a6dc1c9389eb8608a1bfc6a4018e29f9",
+    "forecourt-architecture.js": "6b78c409f195a7cc1f5951e2551833b1013a5e051db5d305a836064091faeec5",
+    "forecourt-cafes.js": "1ad658df9b5aa85a7e6fe8adf47cab873851235f2cf2b1b73d411ec77cdedb12",
+    "forecourt-ground.js": "72056febdd079a35dbe56f74f666c3e889c8e2f50410f60135fb8d7d88f49726",
+    "forecourt-landscape.js": "784dbf8b61a8763c0727133d04056f518eccc383f3e3c2e41b5366f9387e5672",
+    "forecourt-reference-data.js": "a9ccbb56af4be527903a4be91026c79dacc30ca082b8b494d64f013f5666934e",
+    "forecourt-roadside.js": "9c21828b07d7e5c0a55216dd08f8418b5f639b77f03a9e319482554fd6f40ad2",
+    "forecourt-walking-layout.js": "a77ad7104f0171e570bed203891d58d653d41c9f9a2e23c012fc94e2702ae182",
+    "frontage-zones.js": "e9d66f449b9c385f0a96731b2b5bfbb05e0c2cb815c727a075884980e5cb26b8",
+    "geo-reference.js": "eb51f52c22fc8a5173811e50b86a59d75f37f4f92d99521b937984b427adbfd8",
+    "index.html": "a37d942e28060a961f174b9bc609a3ef4d5a083cf5b40733b37432deb9e4ce6d",
+    "landscape-materials.js": "285cab06990f74d817d7c0f4146dbe753556e7af8d50610b52488d9adde240a5",
+    "light-fields.js": "f135d9952b397fee678ea1f6064376c7ced4667a76b017c46bf15efb63480ee1",
+    "local-access-data.js": "2b674750f5c48437035b931c915a9249c3953075a6c9938a8a32a466269452a5",
+    "local-access.js": "94df3c87089c3775546d97aecc532da50530ea5a320d3f1f1061caaf0860312d",
+    "map-paths.js": "87f253f227e78592742070776f7e2169a94fd53d19bb71efa4e731ec049fd4f8",
+    "map-spatial.css": "11fb9fa256836fdecca2785fa4579190a6b0dcabc6a60d87286121b57ef3f37b",
+    "map.js": "949da65e96f222139deee1561682a8fd9fc8e8e339aa84cfecb8a1d07517a540",
+    "model-watermarks.js": "afdbd2fb83bb9140c107031a453e658239a25f0a438c0eace646a5ab7d0f13f2",
+    "neighbor-building-layout.js": "28992cd0996fa920a53842236d8b4a9fc79139107b11c53ef50103cc531d5b7a",
+    "neighbor-buildings.js": "96e8a8ca1d852c22c1c031720096abc164f867c478e7df26c2074eaf43079148",
+    "neighbor-footprints-data.js": "96bf3411f6c9ef81cd0b281d22aac839ddb54a80d2fd2e99b84f9609c3ec3949",
+    "neighborhood.js": "951f7a2fb79006165b88212ffcfdb66d4488ef10cdf945d173442d8f99dc5086",
+    "night-lighting.js": "c20acb74a624b73b29ec656fc0432c127f57afde802b90082f0981ce52824d6a",
+    "onboarding.css": "0aaa1daff279e05af7d1a4abf6e8fa69e2d2887e79f40bad8dcb2e081e42e0d1",
+    "onboarding.js": "e361114f10aa00433b58525639f72ddab36a746c81217424e2ec213fbebd054a",
+    "paving-material.js": "79253c8f151ebe4290d6cda3222870c9dc79115d551cd669159df79efed0978e",
+    "plan-data.js": "1b038bb1f789c7f74af3188bdc50709b304f90efe4c082273904f583acb108ad",
+    "plan-proof.js": "eec176f2a9c431407938fca6fbbbb696b6d08fd2f690b6a5357fd1e5f2a0330d",
+    "play-bridge-walk.js": "d5b785f2788d7dea91595faea71ee4dba8bb170c907f843251d0f20ae57238ff",
+    "podium-upper-cut.js": "fd90f2208ffc5094026fa0e0e6fe17895673f0da16f35e782dfed72f39809bb1",
+    "promenade-furniture.js": "1cd57ca83bbd5a14b9f9482d9dee0d003ceaabe82658137e0e55a2efd0a475ea",
+    "public-plaza-program.js": "3cc3ba03a2540f1416816cc5f2f9af0f8dcfd2ea0626e8f96504c9e34a50deca",
+    "public-realm-layout.js": "fbbfca76ddb5b5f1bb666b0c9506f8acc5ce0314be7d8f61fefb99c54f9bda71",
+    "public-realm.js": "682254e0873dcf1ad9d106f8a163d47635e01ee4fbeabb66f0ca0ef0c5421863",
+    "realm-details.js": "6a5e1d3418062d8929ec068856a21ef2d09748635c690f52966265e67b8b0af2",
+    "reference-backdrop.js": "1fb7237d369f5a6cc30e8efe6b0206fdf47874b4b00008b3dcdf16aea3396c0d",
+    "reference-catalog.css": "4a8ae7128afb971310641211a91947daed23096b070b524b5ec40edddc186243",
+    "reference-catalog.js": "13cfb8f6f34db447e18324596329a18150150049b5efd01380e093a7da35705f",
+    "reference-entry.js": "94fcc29fc851b23e58975ac77156d1490f392f91ca68eea2c21dc209caf49f52",
+    "reference-explorer-data.js": "8c72b0abdb72014ea0d2708fa4a53b98308a283f20ff4426a7fb6950b5df2457",
+    "reference-explorer.css": "6ac537cc7901c5a0e1df48ee13ee7b7fa6c82cac296a9f3847ffddf76065ad19",
+    "reference-explorer.js": "0353358bde9ffd50723559890f86a5f0186bbdc9b1c8c462d3b3845591fa305b",
+    "resident-figure.js": "fe6a10041b2364c56908a9484e6de767f44d517dca0c9cef776ad33a74ddd852",
+    "retail-signs.js": "4c3fcd718f60a72ac73cb2aed85ab0bed48b5f63d4663707b87fd1a46f81618f",
+    "sales-office.js": "f198dd55ebd9c9bd281a84eb04d1d91d9c3ac681427bc666473a7707db9bf399",
+    "scene-batches.js": "f84604f728e826b561983ea0805aaa40c2d515b9c3d06d2a12d9bb2f0f835370",
+    "shop-frontage-layout.js": "07b89ae52fe28c19b08a55e4b8a945ae33f324d1fdacb52b0996e270be4186bd",
+    "shop-interiors.js": "c9d93bf501e12ba4b23f30041cc35edd49a9584b25dfc09ea18bc3b34a4f0e14",
+    "site-weather.js": "be1eeb8b6d0aad52645afc8f93b4b92814f5661a580626de1263a2964a6011fe",
+    "solar-analysis-panel.js": "ffbe56f8af36cf3a3fcc5b9a9d43409fd743de9fd07d8e164e144f6b8b6c96ca",
+    "solar-clock.js": "1e508fc780635fb6b8652ddcc2b79e67b5d54d67d5b9fbca15a851d1d89630b4",
+    "solar-exposure.js": "c30f534475f86d95737a3186794f5663abdeb8b97daa8fe4da864bb687be2fc5",
+    "solar-shadow-camera.js": "c57df4be0750b13e7fd5b057cd12102020513a7984a092686d89b21b20284ad5",
+    "solar.js": "8bd58e25f8a59280f7e17c8de67db4a1806f67b5ea302f502ba2109d55da1447",
+    "spatial-instances.js": "37dc987610696752488a5dff9ab777e90dcb7e83907aeb374ddbc92e7f2bb045",
+    "style.css": "e3ce8720b8a0037632734368f765bcb4b7b06d0c5751cd9d725751abeb4ab47a",
+    "terrace-access.js": "9d2e29c19b271f59c4621d5049641af949ef7c0eb8f637f5548a131b881e548c",
+    "terraces.js": "012c1f82b5f3c79360c9eb8250611fcaf5192d28f2433f03215db1f19e022d33",
+    "traffic.js": "1b7c9af495d0139b6ea8630fdd508963cd4a3b083036804627042bd6a721adb1",
+    "transport-data.js": "78c24219a295b539e9abab9fb6d0d28c56a93e7f51e20b1a4b9385cd17026906",
+    "transport-infrastructure.js": "e5f0685e4457fd6e40a6e418b806ee281aadc4fc5e55cea1386a793c764806f7",
+    "vendor/OrbitControls.js": "80efaadea4f8a636a65fb0bd08bfef62f3d93a0bb94e2e7500f23176c5c07f4e",
+    "vendor/three.module.js": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb",
+    "walk-physics.js": "2528c603080bdcbdc0d7f28cb8025ded1b3d96947099f1ec0eaca57270c1b825",
+    "walking-tour.css": "cec8e698379bb6a32a21c13ac3b7fe041d4835431f91334698ff26083ccda1e9",
+    "walking-tour.js": "300ac11445729c81c687e82f05b68a952cc11bbceb8a5ff45038bf48f3598831",
+    "weather-data.js": "55623f93c6b1aaedfe0eb3cd2828578e07b91b5b36832fa93836766e41bd817a",
+    "window-lighting.js": "57667b1a1a17cf6bce71cb20ecf60207a879e4f1aeaa36006997654394cac44d"
+  },
+  "finishedUTC": "2026-10-11T10:03:20.788Z"
+}

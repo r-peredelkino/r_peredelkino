@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "path": "dist/reference-explorer.js",
+      "bytes": 32973,
+      "sha256": "7200586b2a6071ec14730bef1453eaa1de5f920de929f6b49a4b90f1376a8ed2"
+    },
+    {
+      "path": "dist/reference-explorer.css",
+      "bytes": 12335,
+      "sha256": "6ac537cc7901c5a0e1df48ee13ee7b7fa6c82cac296a9f3847ffddf76065ad19"
+    },
+    {
+      "path": "dist/reference-explorer-data.js",
+      "bytes": 15181,
+      "sha256": "8c72b0abdb72014ea0d2708fa4a53b98308a283f20ff4426a7fb6950b5df2457"
+    },
+    {
+      "path": "dist/assets/panorama/source.xml",
+      "bytes": 22594,
+      "sha256": "f5dff1bac007ce12f1119fdb975aa90663318864f52e22a23372f4c873f490e2"
+    },
+    {
+      "path": "dist/assets/panorama/source-manifest.json",
+      "bytes": 396816,
+      "sha256": "1979874a17f54713f18831280079e383d3fbb6464f49e5e3ddb15f09e44b97a0"
+    },
+    {
+      "path": "tools/fetch-original-panorama.py",
+      "bytes": 4861,
+      "sha256": "783c6cf780e3350f7abb68205a8e85fe8836d192b0aa73f5133de83dbbaea8aa"
+    }
+  ],
+  "nativeJPEGFiles": 1566,
+  "nativeJPEGBytes": 107177643,
+  "source": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+  "changedMainApplicationFiles": false
+}

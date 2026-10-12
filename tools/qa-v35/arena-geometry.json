@@ -1,0 +1,356 @@
+{
+  "revision": 35,
+  "pass": true,
+  "placement": {
+    "version": 35,
+    "sourceCentre": [
+      -67.36800000000001,
+      9.911999999999994
+    ],
+    "centre": [
+      -75.75675137283578,
+      10.346569217439447
+    ],
+    "groundRadius": 19.040000000000006,
+    "delta": [
+      -8.388751372835774,
+      0.4345692174394521
+    ],
+    "outward": [
+      -0.9986608777185444,
+      0.05173443064755382
+    ],
+    "distance": 8.4,
+    "geographicDistanceApproximate": 9.323681667404738,
+    "sourceWings": [
+      {
+        "index": 390,
+        "a": [
+          -64.0612,
+          -23.3744
+        ],
+        "b": [
+          -79.8588,
+          -9.1056
+        ],
+        "length": 21.28762126683017,
+        "normal": [
+          -0.67028625796877,
+          -0.7421026427511384
+        ]
+      },
+      {
+        "index": 475,
+        "a": [
+          -71.0248,
+          30.7188
+        ],
+        "b": [
+          -57.7752,
+          40.4012
+        ],
+        "length": 16.41038603811623,
+        "normal": [
+          -0.59001658934231,
+          0.8073911222578979
+        ]
+      }
+    ],
+    "sourceFootprintUnchanged": true,
+    "towerPodiumFanContoursUnchanged": true,
+    "rotation": 0,
+    "scale": 1,
+    "groundProjection": {
+      "before": -0.440419584588156,
+      "after": 7.95958041541185,
+      "datum": "source podium support plane along the two-wing outward bisector"
+    },
+    "sourceMapping": {
+      "source": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+      "view": "node1 / Площадь · день",
+      "observedScreenshot": "2026-10-11 23.50.18",
+      "previousScreenshot": "2026-10-11 23.49.36",
+      "directionMethod": "exterior bisector of the two unchanged source retail wings; independent of screen-left",
+      "magnitudeStatus": "8.4 scene units visually registered to the projecting capsule relationship; not a surveyed dimension",
+      "uncertainty": "Different source/model camera poses prevent an exact pixel-scale or 1:1 dimensional claim",
+      "unchanged": [
+        "arena radius",
+        "shell profile",
+        "roof heights",
+        "screen surface",
+        "tower facades",
+        "source podium rings",
+        "source fan rings"
+      ]
+    }
+  },
+  "checks": [
+    {
+      "name": "Source buildings is exactly v34",
+      "pass": true,
+      "details": {
+        "sha256": "615b0c1b54edff01915aade5cbaf6185830166f673f8a96ef4fadf578d4959f2"
+      }
+    },
+    {
+      "name": "Source podium is exactly v34",
+      "pass": true,
+      "details": {
+        "sha256": "c68de1d59d8d12247c0c4fc40a09972d0849e6389740412bf48b52cc9e57dbfd"
+      }
+    },
+    {
+      "name": "Source terrace is exactly v34",
+      "pass": true,
+      "details": {
+        "sha256": "c68de1d59d8d12247c0c4fc40a09972d0849e6389740412bf48b52cc9e57dbfd"
+      }
+    },
+    {
+      "name": "Source fan is exactly v34",
+      "pass": true,
+      "details": {
+        "sha256": "1e0344e2ff0636f561b17b2b9c9fb27a0021b72dc82fd0dd0ab9d1df43d782e3"
+      }
+    },
+    {
+      "name": "Source arena is exactly v34",
+      "pass": true,
+      "details": {
+        "sha256": "6d5482b8bf57ef04db9f50265bc5a3c896d0b1211b229cc8c9241c92442bec01"
+      }
+    },
+    {
+      "name": "Source arenaCenter is exactly v34",
+      "pass": true,
+      "details": {
+        "sha256": "19c9ba3193b488ebf1b83d30f1c6e51ecd20aca94ad95b1072165462f5450e25"
+      }
+    },
+    {
+      "name": "Placement is an outward translation with no scale or rotation",
+      "pass": true,
+      "details": {
+        "centre": [
+          -75.75675137283578,
+          10.346569217439447
+        ],
+        "delta": [
+          -8.388751372835774,
+          0.4345692174394521
+        ],
+        "outward": [
+          -0.9986608777185444,
+          0.05173443064755382
+        ],
+        "groundProjection": {
+          "before": -0.440419584588156,
+          "after": 7.95958041541185,
+          "datum": "source podium support plane along the two-wing outward bisector"
+        },
+        "dimensionStatus": "8.4 scene units visually registered to the projecting capsule relationship; not a surveyed dimension"
+      }
+    },
+    {
+      "name": "The transformed walking contour is the same circle, translated",
+      "pass": true,
+      "details": {
+        "vertices": 193,
+        "contourError": 3.552713678800501e-15
+      }
+    },
+    {
+      "name": "Arena projects beyond the source retail corner",
+      "pass": true,
+      "details": {
+        "before": -0.440419584588156,
+        "after": 7.95958041541185
+      }
+    },
+    {
+      "name": "Shared shoulder contact throughout 3.94–6.04",
+      "pass": true,
+      "details": {
+        "heights": 41,
+        "angles": 192,
+        "samples": 3950,
+        "misses": 0,
+        "exposedGap": 0,
+        "underlap": 0.02400000000000091
+      }
+    },
+    {
+      "name": "Shared shoulder contact throughout 6.04–6.6",
+      "pass": true,
+      "details": {
+        "heights": 41,
+        "angles": 192,
+        "samples": 3965,
+        "misses": 0,
+        "exposedGap": 0,
+        "underlap": 0.02400000000000091
+      }
+    },
+    {
+      "name": "Shared shoulder contact throughout 6.56–6.64",
+      "pass": true,
+      "details": {
+        "heights": 41,
+        "angles": 192,
+        "samples": 4018,
+        "misses": 0,
+        "exposedGap": 0,
+        "underlap": 0.02400000000000091
+      }
+    },
+    {
+      "name": "Upper slab, cornice and gravel share the new centre at their own elevations",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "A continuous unioned white fascia covers the projecting ground circle",
+      "pass": true,
+      "details": {
+        "outboardArcSamples": 93,
+        "misses": 0
+      }
+    },
+    {
+      "name": "Cylinder, shoulder, crown and LED move together without changing their geometry",
+      "pass": true,
+      "details": {
+        "components": [
+          {
+            "key": "arena",
+            "centre": true,
+            "sameGeometry": true,
+            "provenanceMantissaDelta": 9.5367431640625e-7,
+            "sameScale": true,
+            "sameRotation": true
+          },
+          {
+            "key": "upperCore",
+            "centre": true,
+            "sameGeometry": true,
+            "provenanceMantissaDelta": 9.5367431640625e-7,
+            "sameScale": true,
+            "sameRotation": true
+          },
+          {
+            "key": "shell",
+            "centre": true,
+            "sameGeometry": true,
+            "provenanceMantissaDelta": 0.0000019073486328125,
+            "sameScale": true,
+            "sameRotation": true
+          },
+          {
+            "key": "arenaRoof",
+            "centre": true,
+            "sameGeometry": true,
+            "provenanceMantissaDelta": 0.0000019073486328125,
+            "sameScale": true,
+            "sameRotation": true
+          },
+          {
+            "key": "media",
+            "centre": true,
+            "sameGeometry": true,
+            "provenanceMantissaDelta": 0.0000019073486328125,
+            "sameScale": true,
+            "sameRotation": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Both ground and upper glazing end against the same capsule without an exposed gap",
+      "pass": true,
+      "details": {
+        "groundEnds": 2,
+        "upperEnds": 2,
+        "largestGap": 0,
+        "partialUpperWidths": [
+          0.08796814035184615,
+          1.0472396982700767
+        ]
+      }
+    },
+    {
+      "name": "Ground shop geometry and IDs away from the arena remain v34",
+      "pass": true,
+      "details": {
+        "remoteBays": 193,
+        "changedIds": []
+      }
+    },
+    {
+      "name": "All five residential facades, the office facade and the fan geometry remain v34",
+      "pass": true,
+      "details": {
+        "fixedBuildings": 6,
+        "fanProvenanceMantissaDelta": 0.00000762939453125,
+        "excludedSignatureBits": 2
+      }
+    },
+    {
+      "name": "Twelve arena spill lights are centred on the translated capsule",
+      "pass": true,
+      "details": {
+        "largestFloat32PositionError": 6.752963442497156e-7
+      }
+    },
+    {
+      "name": "Arena collision blocks its newly projecting front and allows its exterior",
+      "pass": true,
+      "details": {
+        "newFrontInside": [
+          -94.47165622128131,
+          11.316072447774605
+        ],
+        "exterior": [
+          -95.76991536231542,
+          11.383327207616425
+        ]
+      }
+    },
+    {
+      "name": "The complete walk world blocks the new arena and retains all eleven exterior entrances",
+      "pass": true,
+      "details": {
+        "entrances": [
+          "lobby-1",
+          "lobby-2",
+          "lobby-3",
+          "lobby-4",
+          "lobby-5",
+          "office-0",
+          "retail-1",
+          "retail-2",
+          "retail-3",
+          "arena-entry",
+          "sales-office"
+        ],
+        "arenaEntry": {
+          "point": [
+            -97.85168833560718,
+            8.831359459300884
+          ],
+          "objectPoint": [
+            -94.87853433391254,
+            9.511694143266913
+          ],
+          "approachDistance": 3
+        }
+      }
+    },
+    {
+      "name": "New union and relief geometry is finite",
+      "pass": true,
+      "details": {
+        "invalid": 0
+      }
+    }
+  ]
+}

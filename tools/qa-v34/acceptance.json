@@ -1,0 +1,295 @@
+{
+  "base": "http://127.0.0.1:8094",
+  "checks": [
+    {
+      "name": "Release 34",
+      "pass": true
+    },
+    {
+      "name": "Geometry/material authorship",
+      "pass": true,
+      "missing": [],
+      "materials": 306,
+      "textures": 63
+    },
+    {
+      "name": "Apartment 81 rigid source orientation",
+      "pass": true,
+      "placement": {
+        "x": -11.474947308697,
+        "z": -64.900292892738,
+        "y": 25.12,
+        "angle": -2.656204764522,
+        "building": 1,
+        "floor": 8,
+        "slot": 3
+      },
+      "streetNormal": [
+        -0.4665514801090056,
+        -0.8844940454339397
+      ]
+    },
+    {
+      "name": "Office pitch",
+      "pass": true,
+      "pitch": 3.5999999046325684,
+      "source": {
+        "handle": "@r_peredelkino",
+        "modelId": "RP-CONCEPT-2026-10-07",
+        "usagePolicy": "RP-AMATEUR-UNCHANGED-1.0",
+        "authoredRevision": 34,
+        "revisionDate": "2026-10-11",
+        "modificationPermission": "Author authorization required for changes or removal of authorship marks",
+        "technicalLock": false,
+        "scope": "Concept application and reference-based 3D reconstruction",
+        "architecturalProject": "Родина Переделкино · Группа Родина"
+      }
+    },
+    {
+      "name": "Quality full",
+      "pass": true
+    },
+    {
+      "name": "Quality fast",
+      "pass": true
+    },
+    {
+      "name": "Quality auto",
+      "pass": true
+    },
+    {
+      "name": "arena-room render",
+      "pass": true,
+      "kind": "arena",
+      "triangles": 3882,
+      "geometry": {
+        "meshes": 76,
+        "materials": 21,
+        "geometries": 76,
+        "generatedTextures": 8,
+        "pixelBytes": 65536
+      }
+    },
+    {
+      "name": "arena-room walk",
+      "pass": true,
+      "from": {
+        "x": 0,
+        "z": 13.328000000000003
+      },
+      "to": {
+        "x": 0,
+        "z": 12.294799999999988,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "arena-room guide",
+      "pass": true
+    },
+    {
+      "name": "arena-room resume",
+      "pass": true
+    },
+    {
+      "name": "retail-room render",
+      "pass": true,
+      "kind": "retail",
+      "triangles": 854,
+      "geometry": {
+        "meshes": 72,
+        "materials": 6,
+        "geometries": 72,
+        "generatedTextures": 5,
+        "pixelBytes": 65536
+      }
+    },
+    {
+      "name": "retail-room walk",
+      "pass": true,
+      "from": {
+        "x": 3,
+        "z": 5
+      },
+      "to": {
+        "x": 3,
+        "z": 3.9998000000000014,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "retail-room guide",
+      "pass": true
+    },
+    {
+      "name": "Retail upper level",
+      "pass": true,
+      "height": 3.58
+    },
+    {
+      "name": "retail-room resume",
+      "pass": true
+    },
+    {
+      "name": "metro-room render",
+      "pass": true,
+      "kind": "metro",
+      "triangles": 852,
+      "geometry": {
+        "meshes": 71,
+        "materials": 6,
+        "geometries": 71,
+        "generatedTextures": 6,
+        "pixelBytes": 65536
+      }
+    },
+    {
+      "name": "metro-room walk",
+      "pass": true,
+      "from": {
+        "x": 2.5,
+        "z": 14
+      },
+      "to": {
+        "x": 2.5,
+        "z": 12.999999999999988,
+        "blocked": false
+      },
+      "height": 0
+    },
+    {
+      "name": "metro-room guide",
+      "pass": true
+    },
+    {
+      "name": "metro-room resume",
+      "pass": true
+    },
+    {
+      "name": "floor2 render",
+      "pass": true,
+      "kind": "floor2",
+      "triangles": 8721239,
+      "geometry": {
+        "meshes": 2,
+        "materials": 2,
+        "geometries": 2,
+        "generatedTextures": 2,
+        "pixelBytes": 65536
+      },
+      "solarTime": "22:17"
+    },
+    {
+      "name": "floor2 walk",
+      "pass": true,
+      "from": {
+        "x": -3.5467,
+        "z": -59.5467
+      },
+      "to": {
+        "x": -3.5467,
+        "z": -60.58010000000001,
+        "blocked": false
+      },
+      "height": 7
+    },
+    {
+      "name": "floor2 guide",
+      "pass": true
+    },
+    {
+      "name": "floor2 resume",
+      "pass": true
+    },
+    {
+      "name": "floor30 render",
+      "pass": true,
+      "kind": "floor30",
+      "triangles": 8882235,
+      "geometry": {
+        "meshes": 2,
+        "materials": 2,
+        "geometries": 2,
+        "generatedTextures": 2,
+        "pixelBytes": 65536
+      },
+      "solarTime": "22:17"
+    },
+    {
+      "name": "floor30 walk",
+      "pass": true,
+      "from": {
+        "x": -3.5467,
+        "z": -59.5467
+      },
+      "to": {
+        "x": -3.5467,
+        "z": -60.546699999999994,
+        "blocked": false
+      },
+      "height": 91
+    },
+    {
+      "name": "floor30 guide",
+      "pass": true
+    },
+    {
+      "name": "floor30 resume",
+      "pass": true
+    },
+    {
+      "name": "Traffic period controls",
+      "pass": true,
+      "night": "Ночь · 40 машин в анимации · обычные условия",
+      "morning": "Утро · 124 машин в анимации · обычные условия"
+    },
+    {
+      "name": "Finite queue overload",
+      "pass": true,
+      "result": {
+        "capacity": 360,
+        "vehicles": 600,
+        "averageWait": 1198,
+        "maxWait": 2396,
+        "queueAtEnd": 240,
+        "utilisation": 1.6666666666666667,
+        "assumptions": "Even arrivals; constant service; blocked time spread uniformly; no interaction with measured junctions. Finite-horizon scenario only."
+      }
+    },
+    {
+      "name": "Mobile controls fit",
+      "pass": true,
+      "rects": [
+        {
+          "x": 286.375,
+          "y": 12,
+          "right": 378,
+          "bottom": 70
+        },
+        {
+          "x": 24,
+          "y": 624,
+          "right": 94,
+          "bottom": 694
+        },
+        {
+          "x": 296,
+          "y": 624,
+          "right": 366,
+          "bottom": 694
+        }
+      ]
+    },
+    {
+      "name": "No local resource errors",
+      "pass": true,
+      "errors": [],
+      "bad": []
+    }
+  ],
+  "errors": [],
+  "bad": [],
+  "pass": true
+}

@@ -1,0 +1,140 @@
+{
+  "status": "PASS",
+  "version": 31,
+  "runUTC": "2026-10-11T09:53:49.175Z",
+  "solarSHA256": "8bd58e25f8a59280f7e17c8de67db4a1806f67b5ea302f502ba2109d55da1447",
+  "sourceFiles": {
+    "jpl": "1dc387adc7a0f88bd4bc6d695544f68ef335b38184a991ba87325c6906ffaf91",
+    "suncalc": "7a7f544e4071d0a808821238db8edb4aab5c201e2bcc6c289363c37114c1bd2c"
+  },
+  "checkCount": 10,
+  "checks": [
+    {
+      "name": "Independent JPL source bytes and reference provenance",
+      "status": "PASS",
+      "samples": 198,
+      "sourceBodies": 8
+    },
+    {
+      "name": "Airless angles against NASA/JPL across 12 months, day/night, leap year and future year",
+      "status": "PASS",
+      "maxAzimuthErrorDegrees": {
+        "value": 0.015446032248291885,
+        "utc": "2026-10-21T20:59:00Z"
+      },
+      "maxElevationErrorDegrees": {
+        "value": 0.009273740870268554,
+        "utc": "2026-10-21T03:00:00Z"
+      },
+      "maxDaytimeElevationErrorDegrees": {
+        "value": 0.006935978832121492,
+        "utc": "2024-09-21T15:00:00Z"
+      }
+    },
+    {
+      "name": "Visible sun against the actual SunCalc.org calculation module",
+      "status": "PASS",
+      "visibleSamples": 58,
+      "maxAzimuthErrorDegrees": {
+        "value": 0.009471059427141881,
+        "utc": "2026-10-21T09:00:00.000Z"
+      },
+      "maxApparentElevationErrorDegrees": {
+        "value": 0.00594223478778666,
+        "utc": "2026-11-21T06:00:00.000Z"
+      }
+    },
+    {
+      "name": "SunCalc.org sunrise / sunset / transit in Moscow for all months",
+      "status": "PASS",
+      "days": 13,
+      "maxRiseSetErrorSeconds": {
+        "value": 38.58691406250273,
+        "utc": "2026-06-21 set"
+      },
+      "maxTransitErrorSeconds": {
+        "value": 2.2890925292995234,
+        "utc": "2026-09-21"
+      },
+      "note": "Standard-horizon definitions differ; this is a reference comparison, not observed sunrise accuracy."
+    },
+    {
+      "name": "User reference date / time and shadow length",
+      "status": "PASS",
+      "moscow": "2026-10-11 07:12",
+      "utc": "2026-10-11T04:12:00.000Z",
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "elevation": 1.8029548340828827,
+        "geometricElevation": 1.8029548340828827,
+        "apparentElevation": 2.1000046436205273,
+        "refraction": 0.2970498095376445,
+        "equation": 13.19074695060389,
+        "declination": -7.010177134897191,
+        "hourAngle": -76.34981326234902,
+        "distanceAU": 0.9984217835708703,
+        "julianDay": 2461324.675
+      },
+      "shadowMetresPerMetreHeightOnFlatGround": 27.27142577306083,
+      "sunriseMoscow": "06:53",
+      "noonMoscow": "12:17",
+      "sunsetMoscow": "17:41"
+    },
+    {
+      "name": "True north / east axes, cardinal quadrants and normalized light direction",
+      "status": "PASS"
+    },
+    {
+      "name": "Shadow projection is opposite the sun and uses h / tan(elevation)",
+      "status": "PASS"
+    },
+    {
+      "name": "Moscow calendar boundaries, historical offset and invalid input",
+      "status": "PASS"
+    },
+    {
+      "name": "Same Moscow selections under UTC, Moscow, Los Angeles and Tokyo host time zones",
+      "status": "PASS"
+    },
+    {
+      "name": "Horizon roots, solar noon, quarterly daylight and polar edge cases",
+      "status": "PASS",
+      "comparisons": [
+        {
+          "day": "2026-03-21",
+          "rise": "06:31",
+          "noon": "12:38",
+          "set": "18:46",
+          "durationMinutes": 735.31982421875
+        },
+        {
+          "day": "2026-06-21",
+          "rise": "03:46",
+          "noon": "12:32",
+          "set": "21:18",
+          "durationMinutes": 1051.826171875
+        },
+        {
+          "day": "2026-09-21",
+          "rise": "06:14",
+          "noon": "12:24",
+          "set": "18:33",
+          "durationMinutes": 738.984375
+        },
+        {
+          "day": "2026-12-21",
+          "rise": "08:58",
+          "noon": "12:29",
+          "set": "16:00",
+          "durationMinutes": 421.78955078125
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Observed refraction depends on the atmosphere; no terrain-horizon correction is implied.",
+    "The JPL comparison includes topocentric parallax; the compact NOAA equations are geocentric.",
+    "Tested angular errors are measured on this fixture, not a universal uncertainty guarantee.",
+    "Building location, height, geometry, ground level and shadow-map coverage need separate verification."
+  ]
+}

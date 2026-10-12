@@ -1,0 +1,393 @@
+{
+  "revision": 33,
+  "createdUTC": "2026-10-11T17:57:31.481871+00:00",
+  "author": "@r_peredelkino",
+  "modelId": "RP-CONCEPT-2026-10-07",
+  "baseRevision": 32,
+  "baselineBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v32-before-v33-20261011-193940",
+  "baselineManifestSHA256": "904def7941868d12a0ab43f8ca0183e4723d9bb3c496d8baf3a72bc667df52ce",
+  "baselineFileCount": 2063,
+  "releaseBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v33-20261011-205731",
+  "originalAssetsUnchanged": 1736,
+  "architecturalFootprintsUnchanged": true,
+  "changedFiles": {
+    "REPORT-v33.html": {
+      "before": null,
+      "after": "9b2a77a537e6f944ed2abd6bf7ee7e4754bc413ac744aa0e3f30beeb50438e1f"
+    },
+    "BACKUP-INDEX-v33.json": {
+      "before": null,
+      "after": "44c5aa8cb6b07389f4f891e9c76ff724b725dd65ca1b979a306c8c8d7b79d657"
+    },
+    "LICENSE-AUTHORED.txt": {
+      "before": "71ab940b8aeb03983b0e5b8ab7e480c0a33ec6712446a1565eeb0a2da2a7c38e",
+      "after": "f7e314c0620712db76d2ea1c0d2698cba98118fe86629cf8c614ae7a790f3430"
+    },
+    "CHANGELOG-EXTERIOR-v33.md": {
+      "before": null,
+      "after": "0d58008dacaf9ce6af89e590c2cbcec1744f7a7edb40132a2533dac1c6a48471"
+    },
+    "AI-EDITING-POLICY.json": {
+      "before": "f79d28e74c0a5f108ddd989bed2afed32b0ac8326d9a19de84da0efd536b14ce",
+      "after": "d91eab958633c3eb5dc18027d1b5c142d10c6d1fecba7e8d54d8367370091118"
+    },
+    "NOTICE.md": {
+      "before": "555138065b386c8907cb570af5eb0fcf9a202d0badb2dcf488ced52d84b2f7c6",
+      "after": "81f0ee6ba7273dbb2a30a2b4ce223b59514e50ba62aeefdc13b6011780d1186f"
+    },
+    "tools/build-provenance.py": {
+      "before": "3b5b1aaeccf081627cf3aa348262fedee91e0afb51f9b32049ed820830066411",
+      "after": "b2c0b6383c892f1f8a4e228edbd79fdd534e166f4cdf290f2e119dd788831945"
+    },
+    "tools/reference-study-v33.md": {
+      "before": null,
+      "after": "4b51ddd584a0d42a70b685b28f174d75b4695473f2c87791db779dd5106f39c4"
+    },
+    "tools/finalize-v33.py": {
+      "before": null,
+      "after": "33039d69623fe8bafc9d8b14588a7dfe9a75e40d47aeb0721121e8d5affd932c"
+    },
+    "tools/qa-v33/acceptance-mac.cjs": {
+      "before": null,
+      "after": "53aff7a4875966bcb7aa37f0e1c9b0a4ffb95c845d9f1c0eb63cf596448b481f"
+    },
+    "tools/qa-v33/geometry.json": {
+      "before": null,
+      "after": "bdc54b6c4209426fffa4e5ad325d9f0a93a395b2dd54350a7dfc66b57fee96b2"
+    },
+    "tools/qa-v33/reference-evidence.json": {
+      "before": null,
+      "after": "c00660ea3f6de32c52e98732575a64330fb5c9b57878f0561ac2b70dd722088c"
+    },
+    "tools/qa-v33/original-regression-mac.cjs": {
+      "before": null,
+      "after": "384ea5addb31096c16bc357d1b51f37bb1740df1a2f2c1b0b6a7bd807daa6f16"
+    },
+    "tools/qa-v33/performance-paired-mac.cjs": {
+      "before": null,
+      "after": "055f7cbfca98d3920c0457247af35b2a459e52a324f63a5a87625cfe7e0ca135"
+    },
+    "tools/qa-v33/acceptance.json": {
+      "before": null,
+      "after": "e17c229c386c913fab7fb628447df8fc241ca30d0e8399c465c20fe0382849dc"
+    },
+    "tools/qa-v33/forecourt-live-mac.cjs": {
+      "before": null,
+      "after": "ac798c475455c4b215d787691f453409e006986b1ef12baa15946efcddfa1b23"
+    },
+    "tools/qa-v33/tour-ui.json": {
+      "before": null,
+      "after": "375c5dd401a74a8fcec81bdf3ab1a0ae55cc8350890adcef0600eab95c8d3d06"
+    },
+    "tools/qa-v33/original-regression.json": {
+      "before": null,
+      "after": "69ee46d1f668fb519c8423a30da2bb6cedb2fc984b6dbe71c3795af6e64aa44c"
+    },
+    "tools/qa-v33/geometry-mac.cjs": {
+      "before": null,
+      "after": "d8136fbaa3d934f07e6b069998a3785ebe94b8c46a16e7bf2ff4a47a9d145d51"
+    },
+    "tools/qa-v33/performance-summary.json": {
+      "before": null,
+      "after": "49ba93f98267fabce2b0d655e9f024ec6ac4e75a95e5a288d8e6ff11fb794c16"
+    },
+    "tools/qa-v33/performance-paired.json": {
+      "before": null,
+      "after": "e9efd7313f5e1d6e5f484e0d8e0966d9971c013108d3f0f5a3aad0899378c01e"
+    },
+    "tools/qa-v33/tour-ui-mac.cjs": {
+      "before": null,
+      "after": "38acc5bee5f2cb65f2edcbfdb149d8ef2bb6773cac45b50be12292e07684afe0"
+    },
+    "tools/qa-v33/runtime-inputs.json": {
+      "before": null,
+      "after": "d0d3c1c92d9634af22eebbb2f08f46722c2dac1e54bde25a4ce65e0370502d74"
+    },
+    "dist/courtyard-source-v33.js": {
+      "before": null,
+      "after": "993aa0928c9736a84e529b915f8055930b9215d1953de4669be9da3a63a3635f"
+    },
+    "dist/architectural-lighting.js": {
+      "before": "458a35fcdbf64ac902a27dace66d67edaa122b5a60874a5d9b7dda7106f1cd35",
+      "after": "5fde94356b24df5b5f896bfa9c765d7c37ebec1b75dd7c84d31435ee002e0ec9"
+    },
+    "dist/neighbor-building-layout.js": {
+      "before": "cd439dee5dd499173862f28746f38fc15a4f145363b2e442801670bf84fa96dd",
+      "after": "626457d785223ad286972848beb61964bd382179c79624f1c254b6d2791925bf"
+    },
+    "dist/onboarding.js": {
+      "before": "59cf9095406a1b6c5f07e56aebe017b992070d8a9d4675babccd0dafc482d291",
+      "after": "54392a1e7f12256e190e5b92bcecbe48766aa7c4b7a65b198f09795f5e1e40f5"
+    },
+    "dist/apartment-model.js": {
+      "before": "01c80e7df601891adf481729e451f9c6ce4c4505fc92835891406deb9f81911d",
+      "after": "04116b7d5f65aea92c7c42a28ae89078b7d18efffd5d0c5a8ff52a529cd4cf73"
+    },
+    "dist/solar-exposure.js": {
+      "before": "c487b8b1ccdef78cb7cd182b6dc3fa49ce0bcf776245e9a678d524e72c563e21",
+      "after": "7d000ceabd80fa44be1410ad000fe23441f76b5fcfceb6a48af87a4f3040dfa1"
+    },
+    "dist/index.html": {
+      "before": "b7e7942f7d38bd022e28211a8160a5ce147fef55498fe504d31e173ccdb37589",
+      "after": "9a2c7d0e569dfcccc63dea0c1a6f2952784cdb2260a8ec0406fce5e233243a8e"
+    },
+    "dist/forecourt-architecture.js": {
+      "before": "2b568d38ecc1baf92849b83bd06d12509022c822da22cf058c48096aa4a17ae6",
+      "after": "5485f9b2adcf52d3a5eea54e397e850a8d576be1005d7f91df1408bd8f66d5b6"
+    },
+    "dist/apartment-tour.js": {
+      "before": "24c807695ab79b7e8fb9d3c3c4a5e7da041501c60fb702f21da475a6c52fb7b7",
+      "after": "0755e8010b5b76dc09b764f2ccef8e98e1d92f98a837db04b3b41d57d5af5fe8"
+    },
+    "dist/surface-finishes.js": {
+      "before": "ff346d5643be42592883b49e0222db51752a45d153a5b36ada6a8ceef9b780b5",
+      "after": "c1bac7c3c964f4bb006da2481bebc64a29b34c8482a1d094f2cb15d1be6a5b4a"
+    },
+    "dist/courtyard-passage.js": {
+      "before": null,
+      "after": "839f920226cb7d0a7551e00682b73906f903f3a3ec9aa1f6ae7f29a456c16af8"
+    },
+    "dist/arena-media.js": {
+      "before": "971558db1dbb6f3a0c37b5914181bb394d78c4b2f8f1ecd459970d00a3ac4070",
+      "after": "2a4c61fdf519fdfb9143c5d6676248b8c07dab4c5c2f9b357161cb55dc6e5d16"
+    },
+    "dist/courtyard.js": {
+      "before": "dd335f309edb1f0aeeddac2d6590d5c7b3c08c8981fa8747d34729347b4fb463",
+      "after": "76a2c61cdf5a46cc59d5be65f67df68eafdc394e54df27133e80e8301a26f61a"
+    },
+    "dist/commercial-frontage.js": {
+      "before": "264d3fef8778d6f86bf1d5505d87e494e59527163390dc1503930a51071b9856",
+      "after": "f91350d0c70c881851aa72f1d99c1f8a81f92a96b5a3b8b643d5ea9ea3245f54"
+    },
+    "dist/baked-authorship.js": {
+      "before": "bb9a53d667dc5011432629b04ff4782bab468a3144aae95723abecaf10e38279",
+      "after": "62d5de3371931d10cef380ba8c7aab0764f351d158b279c82b1b9e94e7bffede"
+    },
+    "dist/solar-analysis-panel.js": {
+      "before": "8f2f56d51e695eada4f8906fea2b010fcf3bbcc137e180072e9b36e33966eb33",
+      "after": "52269e12d0a0cdbd1c16268fd216ae7d48e2bb517485f078b5470f6b7f5f8d83"
+    },
+    "dist/reference-explorer.js": {
+      "before": "38950a7a63d2890a4682c2391f45211493203597248438cfb401e05e408e4c40",
+      "after": "e9859e53e99724204ce755e1da6f01fee205044a20174253b7ea4f350452129c"
+    },
+    "dist/transport-data.js": {
+      "before": "37c2d06f19987296f53e4412a028920169686bafdf8774dbb09276bd9f46a678",
+      "after": "8e449530c18194415f3e10c7428d3d6d11701ae4c710f9b733ee8011eea0c892"
+    },
+    "dist/landscape-materials.js": {
+      "before": "5e531e63d6a5d69ee85582149b16529889447cad7bf2e7b3bb746a7ed665133f",
+      "after": "2b16809899f20564ecefd178a7a14d1a40e1699a83ee8fcbf9357b5a29144df5"
+    },
+    "dist/office-terrace-v33.js": {
+      "before": null,
+      "after": "c69521eb97194920db95546a49f03aa3b91951d958314a18ffe604079110f1f1"
+    },
+    "dist/complex-life.js": {
+      "before": "7ddc7102ba5828ba0a1c4064bd8fcf8f52dc905743e18bd5c5a3f1abe28b001b",
+      "after": "8a6435ac387565fd8aa2d3149ce0ddafb9e689de7b6c1d0f8ddf1dbfa07c8a04"
+    },
+    "dist/night-lighting.js": {
+      "before": "72f8a6fa8a5317273d0eb79467ec1229d94e417d37fa797ddb4de020ffd51c1f",
+      "after": "0627faaa3d81840291772b544952a3f9a44f0b6eac3158f4ca2c255aa12c807f"
+    },
+    "dist/facade-detail.js": {
+      "before": "94a4e7d3f6d3e0f90dbeeed0720fd7ef6b91358d738235e7fe9277d6295130a2",
+      "after": "d8f915792e1648c724fba5119b3e7cff600082c50bf7b19f5e802f99183f4c82"
+    },
+    "dist/walking-tour.js": {
+      "before": "13dad18eff3c932a534c88f43460405828f7b8e8edaf3274a114aac9f9c0279f",
+      "after": "e1b8eb346829adfaff44bd1fcae21f96c3ffb2eb7eea15605b76104eaae847c0"
+    },
+    "dist/plan-proof.js": {
+      "before": "a186d1b409bab453534cb20fc7db99587e9dd560090865f9644a615d642a344a",
+      "after": "97f59eaad59775baf7fc6824035ce024db68585b242e27e64b6860bb631bd304"
+    },
+    "dist/backdrop-garden.js": {
+      "before": "f06222b354268eeaee2a694fd27051b5839febd40a4f3d345ef06b0cee2ec6fa",
+      "after": "aebd5000c2966f1ed215a927bee4608865d2118ea5da21b01a4a08f64c38277f"
+    },
+    "dist/model-watermarks.js": {
+      "before": "628cecae918c1feffc13952b7b5ce6df66511f1296c8f06196b7968004b36fba",
+      "after": "0fe925c5c57348b4e9234df114a1c8692907120bf09e7b5713b7e28c8c0cc44e"
+    },
+    "dist/cluster-map.js": {
+      "before": "865d44d81e46e99de27ec0f2be4b315129b5664e6f8dbbe51cf950ef6de33903",
+      "after": "a409a4cacd07fee313d858d739cc6580ab7ea18e91998585008ca60b90aa0483"
+    },
+    "dist/reference-catalog.js": {
+      "before": "4c1ac422f4e778c74a40abfff4b7a011676e7afca670818becef452a2a47c46d",
+      "after": "76ecc7a7745913b907020c7dbb65de4c4e6cc9d1ad598a1e444381effe9ed78a"
+    },
+    "dist/terraces.js": {
+      "before": "4512030020e9ed5417432e30ff92146e93fb06ad0105c4d763ce66a66185d115",
+      "after": "a20e02a316d626de26a49820572aca228b95bce9a1666bb08362c60683f728b3"
+    },
+    "dist/solar-clock.js": {
+      "before": "3d1c1a6f339a8e3f70bb3905b4af565a79ed3435316a996fafe7cc6d78c8a8e3",
+      "after": "daaa164c8e31fbb514869fec65e5ea857cae46e8b3ef18a0ae10de3730d8fea0"
+    },
+    "dist/showroom.js": {
+      "before": "8c8e0ee351ebb44446e085bea00ae792f4586b6e002eac692ef2471683718684",
+      "after": "d82e54ae6c35ba625c7bb78690c5364c3976c2492dbe24db73b619bfe15775b2"
+    },
+    "dist/local-access.js": {
+      "before": "0e9cd1bbbf00368d41fb656a2f29a5ddc57eb511e492ae0507aaae960184e65c",
+      "after": "4dc25338d53eebef052bf3b9aec788a09ccad995b162d43dc4d5bb9256cf0f8d"
+    },
+    "dist/transport-infrastructure.js": {
+      "before": "4eec317d05abf0643876abd6406087ff89ec1dbef1e734017d380b32c6c494a7",
+      "after": "cd7044161f195da27b96ec1418d1c7cd0e70a2db601b6941134e809e6e55cdf9"
+    },
+    "dist/apartment3d.js": {
+      "before": "8369e80d4d6e54a0b5ea2f320894c76f330189da7e426c0e68dc7883203f0ab5",
+      "after": "c7e675acbc9ed7bcf9dc9014778baa52ea360c38ecf95301cdcdeae042e84b96"
+    },
+    "dist/sales-office.js": {
+      "before": "429a595a7b0b8645ec7d69d6a72c413e8c8c61dec23e022f35ac398d266ef66e",
+      "after": "a63314ab4725acc87ac9f9d1dece4e7dfb12d9873384f3835ba48d3d8b2e6462"
+    },
+    "dist/reference-backdrop.js": {
+      "before": "ad1e36affa787c2a11927b3f0778035040aec7e33227e155cbe28b5b1f8f3714",
+      "after": "a10324e36936f12ccaae8b434b351721fe06e96c7ed874c8672b7d0c7644d2f9"
+    },
+    "dist/exterior-roofs.js": {
+      "before": "ca6d778e9b67eddf0d06b7999117ea195a1066d579e4b46216f6919dcd75294e",
+      "after": "0697ab5c0e0d5689b7be9070bb645ff3ed6c11039589362d020104742151262a"
+    },
+    "dist/forecourt-ground.js": {
+      "before": "ae98bbd1be4dd7a0fdf66e2dee7a5bb27ad4b4ce0e64fd89b704d438a424e99e",
+      "after": "0f56823baeec55ed2f5f5a6bfde6557ac8c76fca7379b7d991ea6c913f56d197"
+    },
+    "dist/courtyard-program.js": {
+      "before": "1e75e4cb4ef6d01269975ce15a994da60480d34a06a6d5a3cd6712c7c094cc36",
+      "after": "966a1533fa5c1fa1749e74462d59a435346d1162b42470b6134c61ea60b30023"
+    },
+    "dist/reference-entry.js": {
+      "before": "34d699d059d1d3d2325e4d658b0304666b767fad8d5197127fb20673896ab7c5",
+      "after": "c389e400206f5cd40259250e2679ad8069665d2c7efc55f8986866834fd714ae"
+    },
+    "dist/retail-signs.js": {
+      "before": "08578dae143ea6c53d4b8f089b222c1054721c1169300506dbbe5141d43c63fd",
+      "after": "0f56c5d79fcc24e8627a1fb4fddb1c732a7d5dcb2711bc240da1c3e88961f819"
+    },
+    "dist/shop-interiors.js": {
+      "before": "ffcfda08dbc0a358050a764536606a3972424b586417a0915b0958eb77fe929b",
+      "after": "d869ebfd4832c327a6c7c245284c0df07b84dac3346180907ec6d63fb0f9b5f2"
+    },
+    "dist/courtyard-pavilion.js": {
+      "before": "2a44d5386cfdc1b7a49ff0e56a4db19cfc4aea37e53b80a75facc18fe08f57c7",
+      "after": "b612f515db1b587890e16b09f872d37f91def976369b74f09a9e0698d72e99a5"
+    },
+    "dist/neighbor-buildings.js": {
+      "before": "df04e50ffbb17235c95d0d3f3942741f13b318b2d6020971bb2f1d6868858a91",
+      "after": "0577e552bed09f5680b7dcb1ba48ac65728b39266591840c75ceef9c245d6844"
+    },
+    "dist/play-bridge-walk.js": {
+      "before": "55de90010e8c26c5d7bcb5f21cacd7676db6dc0cf1f5c9b64f814ae1533c7d90",
+      "after": "02e31cd15c0851cdbb5650239dc079d50be1dac8fb3323a91024631e074aa293"
+    },
+    "dist/realm-details.js": {
+      "before": "694548671ae99b8af219bbb324816b66921041069bc0e98ea63595fbdca59b8c",
+      "after": "a72a458e94c4a33ecd75e63eb0210e8b3846e59ca50dca88ab422daac6b23098"
+    },
+    "dist/context-services.js": {
+      "before": "b69f294f58326e88827aeef8118c6380c2978e1a5bbb3cc54ca4211320c1a0f6",
+      "after": "8be9af7993593a7862329750dec8d192f169889eb5cea9f9312c576cf1975726"
+    },
+    "dist/attribution.js": {
+      "before": "c5ce0cff412633dcc7a16b73ffb2880c0289544980074936655be5bf76163584",
+      "after": "771f0e5f827e689ba4def68ad5f6ce801e09fa4214e58babdc245ee41406819c"
+    },
+    "dist/courtyard-reference-layout.js": {
+      "before": "7fc6829e6530728147fda8ad85e1455839581c6d58b128b8b66e9dcf8455d4e6",
+      "after": "c4924c845da20faf7d9ca0c39329e1731045275e429e63c4f8abe1aa75dfe885"
+    },
+    "dist/forecourt-cafes.js": {
+      "before": "c69a6f03e8f71b2ec47916313f641431c0d7b782b829f841be8051e68ad38878",
+      "after": "3e074e49917f4cf2b4a29e05ce876fc93302f890f1bd526451b43b14a2ad6ba7"
+    },
+    "dist/neighborhood.js": {
+      "before": "2e6423d2bfef5a247b09409787cc4414c36a316509076519cf7c3128f013a2ca",
+      "after": "09d8b10a07c41aeb3d0339b8ceecd1d311ad4b2d3024d73f87a6f1a3dcad68a8"
+    },
+    "dist/forecourt-landscape.js": {
+      "before": "90088f5e764e5b23cf06def641e51c43d64adfb709cd7797d8a40201ac52dc30",
+      "after": "a53bec1c599850846b62cd3cecb4374d24fb8d0e095dbc3ad18c863b2215ac77"
+    },
+    "dist/complex-model.js": {
+      "before": "477f91cd8b6e61a8b5db38fd324dd4173c5c91d00c83bf4563dcafb55fdfb6bd",
+      "after": "66ed63dabb2590b8864112f607a4b58efa9f6ea476c6541c663787bc7ffbac59"
+    },
+    "dist/arena-exterior.js": {
+      "before": "b6412993b9fce4c391e357f2cfcc9b8eaaa551ae9fc44b2ed0b44198fdaa6be9",
+      "after": "4f5ddb90d1ba55d356ab62978d9fd830d950bd4bdc349ce36c9a95cc263f316b"
+    },
+    "dist/courtyard-revision.js": {
+      "before": "d6d0d8468f4d81bf5458b6dae4a05ae55c5b41214cac6e133244e12cb0f0d4f3",
+      "after": "c54e381e2be316b810f649d4d7b9f57b0c9d1b24b36b14442b0129770efa7dfb"
+    },
+    "dist/public-realm.js": {
+      "before": "6ed1da34b71976b725ea1d65ad94cff46f9eb9977df8331bd9e6b32c5ace7f56",
+      "after": "ccada6ca2d639e23defe2b002e71e7f80e96a7ab313d301fdf3639b66ac93c4b"
+    },
+    "dist/site-weather.js": {
+      "before": "879b3ad6dc9582160c0500f49b37cf2ce120f6847e15ce11d8aa1ccf8c385285",
+      "after": "e511c22df59c6cbc952a30e515d180de2adf993933cd03bae643b37de36ef4e2"
+    },
+    "dist/weather-data.js": {
+      "before": "3935b1880bf93fc8f36537c55b4a0d9ba414f47b188b6465bdb21fe0dcfd2164",
+      "after": "5914e6a03ca3f8b602f260881a920423d0f44d28ab6c795e76f665576e152d4d"
+    },
+    "dist/spatial-instances.js": {
+      "before": "2b8d892327b9d91bd1e34bdb1cc635a9fe88f05806fc2ee22fa5e7a8945d78b0",
+      "after": "d18347166d3dd2ca1ada5403c08933f17e243747dd77a5e67dbfa6cc722e07da"
+    },
+    "dist/podium-upper-cut.js": {
+      "before": "9c9ba0c141e08b91721c25ffaca7bd155d309ff3797ac0809c6df3d5b9f7229e",
+      "after": "a970d8aa3af1228f15631eb6a126bee1935853e6d4f8037543033b8eac6c3b2b"
+    },
+    "dist/district-views.js": {
+      "before": "3a099f6805ca05ff54fdc3bfd1c3ff3e10059ee22c1b08ef77f5c0509f73b39d",
+      "after": "215ef8b631fe90691c1b4124c3e57da2b0418be401623849f47e1a5bb9a0cc9e"
+    },
+    "dist/environment.js": {
+      "before": "f9f16539b5c260633e6983d88efae11daa1622fe5b6de437963f7f2ff7002aec",
+      "after": "e29ff39b545b15494179b4eb10a8f46525ac37157df0345013ccf5f694d7689d"
+    },
+    "dist/solar.js": {
+      "before": "1cbb8bbc3e629cbd9153508c29bd65e14c9d884303a02383d52411aeba10236d",
+      "after": "5f891c3353af73b8027ff57e395b995e9eac8294da14bdc4d2138314bbc0fa9f"
+    },
+    "dist/terrace-access.js": {
+      "before": "8259f3088c5480e15924c6d16be9492469a14d59f2ff3ed5b50d90a3323e8280",
+      "after": "d9c1674e7e448bb3ee63ffadf186bd3dee750f3586accf5fd89a07e471663c0e"
+    },
+    "dist/traffic.js": {
+      "before": "844a7c407e5dd42b0393a818e2bfb6dc08ec079608efbde5bf76bd9737d19fa4",
+      "after": "f217d56f2aa357e49d71de303a7dcab17ba401a1eb4cfe6bf4d5b688eac4beb0"
+    },
+    "dist/vendor/polygon-clipping.module.js": {
+      "before": null,
+      "after": "0ae75d7de9fb67c8e4cea00e242d20765002abd26fa61fc9fa4a88ed375730d8"
+    },
+    "dist/vendor/polygon-clipping.LICENSE.txt": {
+      "before": null,
+      "after": "864ae9e4ed75e1571a3bcf5dc9070264213445b32e7e2af5bf60eba46fb656d0"
+    }
+  },
+  "checkCounts": {
+    "geometry": 16,
+    "acceptance": 32,
+    "original-regression": 17,
+    "tour-ui": 5
+  },
+  "limitsFile": "tools/reference-study-v33.md",
+  "checks": [
+    "tools/qa-v33/geometry.json",
+    "tools/qa-v33/acceptance.json",
+    "tools/qa-v33/original-regression.json",
+    "tools/qa-v33/tour-ui.json"
+  ],
+  "performance": "tools/qa-v33/performance-summary.json"
+}

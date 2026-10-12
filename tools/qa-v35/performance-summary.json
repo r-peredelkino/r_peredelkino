@@ -1,0 +1,38 @@
+{
+  "pass": true,
+  "method": {
+    "viewport": [
+      1500,
+      1000
+    ],
+    "dpr": 1,
+    "date": "2026-07-15",
+    "minutes": 720,
+    "quality": "full",
+    "pairedRepeats": 2,
+    "framesPerView": 90,
+    "order": [
+      34,
+      35,
+      34,
+      35
+    ],
+    "measurement": "requestAnimationFrame intervals; controlled comparison, no FPS guarantee"
+  },
+  "nodeArchitecture": "arm64",
+  "courtyard": {
+    "beforeMeanMS": 39.16555555555556,
+    "afterMeanMS": 38.97944444444444,
+    "changePercent": -0.4751907855542137
+  },
+  "forecourt": {
+    "beforeMeanMS": 39.72111111111111,
+    "afterMeanMS": 39.81333333333333,
+    "changePercent": 0.23217432655460168
+  },
+  "facade": {
+    "beforeMeanMS": 57.49722222222222,
+    "afterMeanMS": 58.51555555555555,
+    "changePercent": 1.771100053142649
+  }
+}

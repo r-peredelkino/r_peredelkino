@@ -1,0 +1,569 @@
+{
+  "revision": 37,
+  "baseRevision": 36,
+  "createdUTC": "2026-10-12T09:34:02.750271+00:00",
+  "createdMoscow": "2026-10-12T12:34:02.750271+03:00",
+  "author": "@r_peredelkino",
+  "modelId": "RP-CONCEPT-2026-10-07",
+  "baselineBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v36-before-v37-20261012-105412",
+  "baselineManifestSHA256": "c10bcb2ad1dcd6252b3eb5a3afedf6249ee4eeda60b5200c928b0a0b46ebe8cc",
+  "baselineFileCount": 2220,
+  "releaseBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v37-20261012-123402",
+  "originalAssetsUnchanged": 1759,
+  "architecturalFootprintsUnchanged": true,
+  "newSourceAssets": {},
+  "changedFiles": {
+    "AI-EDITING-POLICY.json": {
+      "before": "150a58bc0dcf855f4868e604a39787269301c6aae738f2a2f5e5daa7278a097b",
+      "after": "54e7af763b2d9cf96df2726dcfbc9be31febf77fbcbef68d059d3cbdfb55710f"
+    },
+    "BACKUP-INDEX-v37.json": {
+      "before": null,
+      "after": "b0b9f6a600155b53d092a47fae497dbe3d65747a3c8dafc1f5d915560122d44b"
+    },
+    "CHANGELOG-GENPLAN-v37.md": {
+      "before": null,
+      "after": "4e104da8775d5cf99014cba5d26799a2e7c7d9b6f93b3c4cf5dbb675d2523e22"
+    },
+    "REPORT-v37.html": {
+      "before": null,
+      "after": "9682c164eab9b1e0d41083560951de578dc35540b1a52ea38c1573141ded8a9b"
+    },
+    "dist/apartment-actions-v37.js": {
+      "before": null,
+      "after": "d17202e2bce7b585ae3d96d81883f0f6f003d06803ebf9de325a7eaae52d3189"
+    },
+    "dist/apartment-apertures.js": {
+      "before": "0467a76a8cb57da08d9d7cc9b8547db0e33b85fe2f375a2bdd2176ca324f4626",
+      "after": "84f1f81b5e3bc700f5a401a11b2c4592712b3eb4fb7b3306a8518d0ff31d666e"
+    },
+    "dist/apartment-catalog-v37.js": {
+      "before": null,
+      "after": "bfcaf8137fcb46b28b36732d494edd2d580760613cecb6fcd5a54ecb3d08c459"
+    },
+    "dist/apartment-facade-v37.js": {
+      "before": null,
+      "after": "5a8d8d98df3c02c1073b2b2d3e716e319a44589918a7cb41a5fdb47b099c97fa"
+    },
+    "dist/apartment-model.js": {
+      "before": "7e9adadddb5f9f9b5c7659fc82438ac754cc4b2508a2d0b9c88a185ba53cfd1e",
+      "after": "ed18c084f8575a3981d657305b7b962fdfe761c1b8bcb69dc7ac15fee7532c2a"
+    },
+    "dist/apartment-plans.js": {
+      "before": "a0f123f0ea8542cf61af668d66abebb53b6950fcea43637a4a4e4710750ada93",
+      "after": "407a6837b192abe32f38ff0bc965d947417cbd6b716c61aef17d27a9e95cea1f"
+    },
+    "dist/apartment-registration-v37.js": {
+      "before": null,
+      "after": "ef06cb0db3b043e80c06943094189175e99400fcf2e29c5f6d4e6453c3797380"
+    },
+    "dist/apartment-tour.js": {
+      "before": "cebb01d457e8631ed1b66a0738fe465fb222378ed0f00e1693ee45bf9611572e",
+      "after": "d73163b43a88544eb709136dd2c0eb08c6423ee0fc783a39b32ba983789645c1"
+    },
+    "dist/apartment3d.js": {
+      "before": "a7caf47cd8739d503ae6b79d539a587c8235400fe63e238b6ea4540c03a791dd",
+      "after": "99e8a71ee5e61b119880632623d8b7dcd0939220c1dc191f39a32a7ed2b96e47"
+    },
+    "dist/app.js": {
+      "before": "1764c7ab07803df0e116324cf1c002283e6ccc29042040e481f93083f8e5e956",
+      "after": "4896e218a20c7916e58d79a0dc5d351e1e1019febf57902703a3e9e3498ff215"
+    },
+    "dist/architectural-lighting.js": {
+      "before": "2e24ae0201208d7be784d58ec550bfd1e6b1549e6b2b55e3614cceef089b6ea0",
+      "after": "9866f6c8d033df70c101d6bef5888b5854e52744a618a8e4d54cc7feed60ccb8"
+    },
+    "dist/arena-exterior.js": {
+      "before": "c8aff77708ac1422a044eab257ad41cd81f504757590b00ff935a093e0cbb579",
+      "after": "dce929c2cd3b8a16ad966248494c5e854fda594ce4c3f1b21709f85218d00eac"
+    },
+    "dist/arena-media.js": {
+      "before": "b91185cd1ddaf95af70698d600204a700097595cb51ad08dc0f5cf57797170b8",
+      "after": "fc3b8ddf7056f30bcdf12b7d2155c87bfdbe636e81dc46b19d78fa459b212e87"
+    },
+    "dist/arena-placement-v35.js": {
+      "before": "ce330245729ebffd60bf2b47b16fb049cf1d4cc2f5a5ce54432d104e37fd37d1",
+      "after": "4d7b0e0f59ed5a6c4893ccd50ed15176cf34e9fadd260deb25fdadfbe8ba4d58"
+    },
+    "dist/attribution.js": {
+      "before": "df0e70bd3b8b5581efcbe7003bd3693603861002c23a1a32131f54dd951365ec",
+      "after": "46c6da37cf6e1b3ae89a91a0c3eae23e475205d9122e54645cfbde15b1c1c069"
+    },
+    "dist/baked-authorship.js": {
+      "before": "c3baa07ee7e5a43bc636dd83657156e10c79020bbd38c15c2bb377b100758925",
+      "after": "44e0487143dfe849c8f693ad47597ebc9a8acbe1166dc00b060517b1df823aaa"
+    },
+    "dist/cluster-map.js": {
+      "before": "2c2bcc9cca1c5df2523e1925a8b50e51e1a3e439bfa89724fd9ad655bf8ab969",
+      "after": "d21aa1e1661bf2dcf458767db49bbf2409dc593b7c25e60bd8b6291fb70e48ab"
+    },
+    "dist/commercial-frontage.js": {
+      "before": "7e4aa4b16fd951a45d6f3bddb5dc6d0ca5ddb8950505a27a8e1e3fbf86e8e7b0",
+      "after": "fcd5dc9a927a44872b1fded0bcd3a2b22c229410b3797b98ed3b7dd68a980b87"
+    },
+    "dist/complex-life.js": {
+      "before": "8d3eeed1b5708e3bd088c107bf4f1a9a9171466c9c0b133ca12b075648708f0b",
+      "after": "c22a10a0660f0568689e6f443da334ce5f251d5817dbcba6dc502e3b9d6984bc"
+    },
+    "dist/complex-model.js": {
+      "before": "be3843a4a57015084124dbbbd02a557ea3dc645aba9b64372542dbfb62e62ff6",
+      "after": "8afcbb40dc4585de3702665cba00bfff41f65dd6324d4799dae11774fe352a48"
+    },
+    "dist/context-services.js": {
+      "before": "f3c7e70335108fe0d83102a262241a5bf4de9d0392c1576c55990dc167d19033",
+      "after": "fdabd2e0e8ba1e928717b847dd94ce9b7647eef4d2bce00ad5f26caea3666d06"
+    },
+    "dist/courtyard-passage.js": {
+      "before": "e516fc4ab5315151f2c37dce9b0ec67d620d74016228bf340de04bbc4070b1f9",
+      "after": "b683d1fcbc33c8873c6289320125514089637c1a137a03b933be3c319c0f6439"
+    },
+    "dist/courtyard-pavilion.js": {
+      "before": "4c8ef5e2b978bb1ea0c5c63b98e722e6413fa9c8be2c9051e8ed8f281a435b28",
+      "after": "6a229c1a41f1a76b10c65ebb16ff688504580a61475290e6d7279c8b98cb6a0c"
+    },
+    "dist/courtyard-program.js": {
+      "before": "bd550c0a7cdfffe921fe585ab7546d21884232658f2bc20e149c3c30a7d1baf9",
+      "after": "303c806373797c0650458559496b6ede15d1f2a59ea5a6a674cb67d4ce1b31fd"
+    },
+    "dist/courtyard-reference-layout.js": {
+      "before": "60ea4af1aaffbe25cf08c91a1ce1c855dde5437305aad262022ede3c96a3cb66",
+      "after": "d63aae84cfdb3f77af342057f89a0e6c76d0cde006abda6ba832c93d7c6b09a2"
+    },
+    "dist/courtyard-revision.js": {
+      "before": "1e0e59b146b70f7355b91a6b4117dcbbe0a25e46cee9e19651fc96f1f27a0945",
+      "after": "9b0afda14bb8c43f870195c7e3d958c35eafcec203fe0f8130528a44aa638027"
+    },
+    "dist/courtyard-source-v33.js": {
+      "before": "eb86d861cc42b0624fea4891075edd2ba6391b636f97f9a8e300d5056a3239b1",
+      "after": "977bb41b50c90da77a9f232609d9c75e493dc77914f29830687598e2e30f1693"
+    },
+    "dist/courtyard.js": {
+      "before": "9f3d760ac0c80af2a5fc30d3454e167fa75a50abd4ff4b650caae8b0010998bf",
+      "after": "5c089d9984d14304e123188cabe2ed50c68e8d7096d643453273419c0460abf3"
+    },
+    "dist/cyber-courtyard.js": {
+      "before": "72c947b8d91914d536ff8794d9c23b5119bfcc98eb741e50204781780873db30",
+      "after": "f977b1a8c45bef576df724a060048f2b501b9aa0d1debb0ced941b8783476771"
+    },
+    "dist/cyber-experience.js": {
+      "before": "a9643a42b45abaf526d9ddc347ed7c9e17a47acbda4a393c9dd7778c870999d6",
+      "after": "1fab9576ccf4614f259bb777e79071e6c308f37412a06efa06385a7b5868844c"
+    },
+    "dist/cyber-garden-v35.js": {
+      "before": "d8b762623e4ff203ccb9c36ae92cab45b00bf83298233d23831e9b69c6b89142",
+      "after": "79396454ed4dc4a3a6148ce198ada4631ee77a68759c6f18a446430f7e98b7c4"
+    },
+    "dist/district-views.js": {
+      "before": "4110be0e43003c3f0427e181a04198571a6322e47fba4c7a63aedd5dc96fac07",
+      "after": "c6e455f1ba88278cd1b0a16ebea199433920ac7c79692c7873d530cce23388c1"
+    },
+    "dist/environment.js": {
+      "before": "83d7a54d1015d6275e68755eb3a0a876f038a97c7019cd6f97418b68fa9b250b",
+      "after": "fd6299dfd693ef17087cd7eeb7aecf8c55705724e4ec8796a16ae506f33f9c28"
+    },
+    "dist/exterior-interactions.js": {
+      "before": "c61060a50a45d3fafa6c411ef794eba088b6609932b2d200626a048d4be7b9b7",
+      "after": "cb46653203777c0589dc48a67e239f7c57735916a6c0876046f138cd2d62e12e"
+    },
+    "dist/exterior-roofs.js": {
+      "before": "91adc87fc250fc781bd37d492afcd2b61577695b439d1c3cbe222c6a6f563e42",
+      "after": "e22ad4c2aa3069c0c00d8fcaa85bcb81adc8700ac9dc670986b818ef8aa0721b"
+    },
+    "dist/facade-detail.js": {
+      "before": "648716d4845102ecfee4f89a11d712473405d0d87f4fea70da0995a9c66923f7",
+      "after": "a5dafd44016ebb0382db43dc5d12f31fc9bab34b72578fe3ceb7000f6454615d"
+    },
+    "dist/fitness-context-cut-v35.js": {
+      "before": "bae2b1a0b19e81db7e02a15946b83b6fd9339c65e429dbafa9260225ad0e5635",
+      "after": "006359bfa6d1228ebe649000abc11282fae742da1eb7fec6c4e7ca76613c42b1"
+    },
+    "dist/forecourt-architecture.js": {
+      "before": "770a8f79e6c113bd77f53e0706d555115e773ad464e3cb53aebf5a6229502885",
+      "after": "ff5de1c1d52803a65138f256deec4d58a26916b84092f55d0bee21c6ab0bdc52"
+    },
+    "dist/forecourt-cafes.js": {
+      "before": "c3d82ff57ab2b33d6c12b4558e2f1d58249722c03f0b0779abfe8186aeb489b4",
+      "after": "95b1a2bf215e60b2d9a2fe18cdc5e404bcc3b52f99ee7372a12ee2a362f9bee3"
+    },
+    "dist/forecourt-ground.js": {
+      "before": "50944df9e73b470972364734ad4248d8a07d1644a9b7720db8542f48f8862be8",
+      "after": "ad81747839e83b0be08bb55a3b3c3d4c1ca3ad2e519944b7b3220ed365a7665a"
+    },
+    "dist/forecourt-landscape.js": {
+      "before": "0bc9255bc0928b833365271331952c1e9568868acc8e6e0293d37ceb3fba96e2",
+      "after": "9f9415cc4b8f5caca96198603fc0934244475625aab6b03c6ca9df7c7e7668a8"
+    },
+    "dist/genplan-entry-v37.js": {
+      "before": null,
+      "after": "b4fc423b0f3992b1abdfb4af91659b7e57ea9f3feef3ebd72b30b91db5476e43"
+    },
+    "dist/genplan-only-v37.css": {
+      "before": null,
+      "after": "724d4e2ceed80e67f3fefc65cea7bc6f7c420272fe040a6e52978498ca8ca4b4"
+    },
+    "dist/index.html": {
+      "before": "d4d8b5fd1c5be4c92dd32f0f86a14d6018a5b2adb47571be173e81db8c4545c6",
+      "after": "072a48088f1b9d11536965467c21aad187240d6559cf8a8b69764e1bdf9650e7"
+    },
+    "dist/landscape-materials.js": {
+      "before": "17c586bb003dfb23d9b2fe932d3614259d61744ab4dd493d3c522a41766f11da",
+      "after": "1321a52426026ded7bb841f7918ed8fd0aae3254cad4c28e23ac88a30678d310"
+    },
+    "dist/local-access.js": {
+      "before": "3a6a0e2c10c466a33f74372f530bf9ec1cf71c66d4dd624347617edfe97439ac",
+      "after": "eb21b3c4e1028eb76b878e7095cb22339178970d3d79e888b3512ad50b6cfec9"
+    },
+    "dist/map.js": {
+      "before": "949da65e96f222139deee1561682a8fd9fc8e8e339aa84cfecb8a1d07517a540",
+      "after": "47c31737b6a8f69a2392b04bb474bf4f42d1cb501601579e3acc343cd8ead2c0"
+    },
+    "dist/model-watermarks.js": {
+      "before": "65f3b6d5bac293f01329681111f3583269cd83083b68b668c52fcb44a157302e",
+      "after": "caf61ee663ad559e983285179a248d3fce8ccf6183cba2efe2b15a63cf9eb24e"
+    },
+    "dist/neighbor-building-layout.js": {
+      "before": "c117c74c88abaf5874108bd2db7934ea880cfcb6f897001ac9528df8a7cd7687",
+      "after": "6e0d6400bbae05fd9c900def9c3eaa24638bd7ba359ede02c717f16553905159"
+    },
+    "dist/neighbor-buildings.js": {
+      "before": "5b229ec3dd621b3c02da20fbadcefc55c7a86c66622913ffd62524d2503c7923",
+      "after": "0c7f9f4b02542a39dca0e22125393e0aa72c1dac50f7c760da4b09eeea6ff002"
+    },
+    "dist/neighborhood.js": {
+      "before": "4d4f60977d52513f5e9dea86ee921c19fd93be174728f1ee3ca86136d120018e",
+      "after": "f5de4f7c411b02030d831df7399e804662dc75bf87179c3b01db7044bff509d9"
+    },
+    "dist/night-lighting.js": {
+      "before": "a18a27748fa3df47122fd32a97cdb42da23f9f7a7eadd8a98389af247485fa0a",
+      "after": "25b96ae90b61ec10c8c5a449c7909cb3c987a0f9cadbf20f3bbe7639216f2934"
+    },
+    "dist/office-fitness-v35.js": {
+      "before": "7dba6b2b012edfbf64919ac7749a1ec0cf1aae60137cf4f1011ff0b3ccde8025",
+      "after": "ffe40f876559e0ea1bed0c4cdda2a4a233416aaa4abccd0816110dc961e8c251"
+    },
+    "dist/office-terrace-v33.js": {
+      "before": "280e0a785cf6a0fcd70cf0d7df247c093cf38a941defd504b25aa0c23749dddf",
+      "after": "3de41f2b58ce30725eb6975ae4b7286e514d68c555a5861cfe729df1821cfe80"
+    },
+    "dist/onboarding.js": {
+      "before": "f455a03f18b5c5cc6579b33bec08002bbb4dd909c741a74130edac0697933b1f",
+      "after": "19421c3c414e7326d29933a1a7629d2c5f6db42f95dae1318f4407f3295be9a8"
+    },
+    "dist/parking-showroom-v36.js": {
+      "before": "3faa0a1b701a8ff20fbf6abfdff04ae00b65a8e2bde7b56eff672c3efc1c2f55",
+      "after": "395ea10b52b57b1584788af80ed234694b02c5c548cf5397ebbbc6ff67baaaab"
+    },
+    "dist/plan-proof.js": {
+      "before": "4fcbb9a3b556c61d53e729bb8b9804a7a678d72874286b91c3b0ea7e35a9015f",
+      "after": "cfd8b2289605642384a5fcb087436e79c2e790d3c89440c2bd9d7d4bcbd47b9b"
+    },
+    "dist/play-bridge-walk.js": {
+      "before": "e81ddc952c5bca1364ffc68e531fb878249c974aee7a388b9d2fb0d426d935df",
+      "after": "3dfbba0754c83d6214ca11c99d926f87f640d66df6e3c3cd66e26478212fc5b1"
+    },
+    "dist/podium-upper-cut.js": {
+      "before": "066e1d58f94da6f7dbec353ef4c4c252b1aba34040700f28ace373d339c305ce",
+      "after": "a231cf4f4bc4697820b6971057ce0cf9a710d14d5c6fa56ede24a5f42cf85966"
+    },
+    "dist/public-realm.js": {
+      "before": "4947f7482870e0179bc6e608567a014584a9917e27fad3c14e53a9c914356a22",
+      "after": "15b46c895822de98a5a38f835607a62d887f7794fd6e7e88227e16414cd0e72f"
+    },
+    "dist/realm-details.js": {
+      "before": "7678d5c3bef2621dc20c0d088fe664aa152b56ec519b3ac5c073a6d55cfb7182",
+      "after": "446cc8c4a64abbbeb96b5d0a5c920a5a70b214675817e2d49cc18acde4f3305a"
+    },
+    "dist/reference-backdrop.js": {
+      "before": "a89ea69fa3f39c9653741a0a0c865d9d756339b0cb0e7ea9e4b2c0390ad70a9b",
+      "after": "dd54b7c1349590f2f293ef6e99dd675134e7a4535f357fd2885c5909c46a54aa"
+    },
+    "dist/reference-catalog.js": {
+      "before": "c8311bd3d40b625e9d100ad4485dcfe089a30383f8a1bf604a01be812ad963b8",
+      "after": "cad961c5e32fd05aa5bae1d5fda21f3b7483772c18454eb22d12ed90af3515b1"
+    },
+    "dist/reference-entry.js": {
+      "before": "c9f99318448372dcf0fd44ff019483d837e946f4bf9469b2ad9ef4fae668a197",
+      "after": "8c445b0ac6c8c8a0f95b98ca5b38252fd62f01aaf49ff10ee8e2272157246a4c"
+    },
+    "dist/reference-explorer.js": {
+      "before": "36471200843626a07dc4afcd8a4c4380a3ac916c1a22047eeb610c074f00250e",
+      "after": "80ba6dbdbcf942223c3b7bca49bcb49458e0505503dd6891d09a3c5f2d8889e9"
+    },
+    "dist/reference-gallery-v36.js": {
+      "before": "35d2b4faac8f36e1445f5d11ecd71d797f75f19301c9682a17f50a689690194a",
+      "after": "92105448f0cdf09e42a45a76104f375d61a2fe0347f9b1d0cd4fa5cb863c1c4d"
+    },
+    "dist/resident-club-v36.js": {
+      "before": "65de31a2dbbe2814d38f87c540b35d4049416ebb71b3153565a22e57ea09703c",
+      "after": "4c12a755156973e47ffe204a58a5e4e1a4f44048b197d94f3e550f199b0f107c"
+    },
+    "dist/resident-lobby-v36.js": {
+      "before": "f7d5471d96d1cdac27cd8b0710d8afd9bf656160baeb5ee8c1ba2e42e8748049",
+      "after": "75ecd879a66bb18e961143b582d8aabbceb0af20b4d0400b3d5386f3dc8f2ec3"
+    },
+    "dist/restaurant-terrace-v35.js": {
+      "before": "2bba91bd4cb882605df18364176139f38571d9df130c11bcc9177f00697afdec",
+      "after": "41bdfed0e5ced653961b06abe056163fa221c33739f3f57d4225cab054737e44"
+    },
+    "dist/retail-signs.js": {
+      "before": "2540acc321c98aaf763c3165c541be839d15d1a19dfce32e00b55f492236f748",
+      "after": "339aaa73b4202bd07d79194a6f57ab64dc27e5dba383f298a96029f854ebb4ec"
+    },
+    "dist/roof-fan-edge-v34.js": {
+      "before": "ea2a6bcb38c5ad5d20ea5b7b56a54b9d4105d22da49db532ccc37c8deb410986",
+      "after": "ab072d91649f40b078e881dddc2d56b83c35e4739aef84e81cd336cbefbd250e"
+    },
+    "dist/sales-office.js": {
+      "before": "4f85b8ab54e0b23561b12eb775196a66ace1a02aef05c6b8e51542e64413ce07",
+      "after": "8a5c380589cbdf64c29fbb1ae5131d254db9c834e398d928fd41d59b98a68d49"
+    },
+    "dist/shop-interiors.js": {
+      "before": "27cdd5c77f67bdb4e097ce2a968e65ee869f87f917f5ed3d8d818bd28466389a",
+      "after": "a56801ee0ce9af6d852253f41dd176b1b00072aac59117da158bf39d10327790"
+    },
+    "dist/showroom.js": {
+      "before": "24a906ab67fa0dc1eb3bcc7a6d9ffa3d25b4563d604611287334bdeecf438f11",
+      "after": "52f4e3465316a12b81040673a8a0db28d477a6f6d2c6b0d9f2b856aef845ff04"
+    },
+    "dist/site-weather.js": {
+      "before": "1adf0d25421d1fa0fbc1e90d61049426a7f8b1c107fd84c950ffa00292511131",
+      "after": "7c012ad9926d0209ec45229597c08ccf6d18c2100fc501270413814cc34c46af"
+    },
+    "dist/solar-analysis-panel.js": {
+      "before": "95d840050e51c332ea9fad8ded5d83584205cfb8e8395302bf11b9eeb29e8a61",
+      "after": "230f7d89cd9e07269e533d3fd87f3a716c3b070b02f7533dc5df83485748bb1f"
+    },
+    "dist/solar-clock.js": {
+      "before": "26d2755b8ef26021a4e11bf6df09774c9629d643e70cfc14f071d9cb8769fae7",
+      "after": "84683a7d37e11deae4b7df45721c97e562346866841360dfc21533e1ea20a87a"
+    },
+    "dist/solar-exposure.js": {
+      "before": "5df4843496bd4899ca619a001eb9bbc655074bd1feb39e2a8323aa3cf6ffdd3d",
+      "after": "5d3feaa8e2f15cb7f44a67fe628b906844a38cf5423e7504adb185be260d8f55"
+    },
+    "dist/solar.js": {
+      "before": "fad61ef2c3109c9d0e603198de60f53ef9f17c85f3111bb409e358047163fac6",
+      "after": "83211bede38287aa2a7691cceb5fd27a0c4a3abcd93217d64e33da0bca997453"
+    },
+    "dist/spatial-instances.js": {
+      "before": "3a37477e84b1543ceb5b93cf9a42cde95962253f1e450fd6474d341e574a29e0",
+      "after": "279330b068180e2e354cc653f8aedddcfbf16d41106c5515e6bb54ce5aee4322"
+    },
+    "dist/style.css": {
+      "before": "e13162f0fff62b9d283d783d7d454fc0c49d6d26816f04bf949593b3930ca937",
+      "after": "9057bf13977d391a8f5ac2f2d4e3c6e9a58c21937c9637cb156361a1ba2d11a2"
+    },
+    "dist/surface-finishes.js": {
+      "before": "e2c6fbf50a00b319e36a689814377c5a7ae794ea2dbbb3843e1fc6193a8c69ac",
+      "after": "e89b069efd66f33d998959512634fce37ba87a795708e071af63423c3f5d7390"
+    },
+    "dist/terrace-access.js": {
+      "before": "449a58d0de59216ed623ba40e8b060bbe162bea690ab7b02871e0333b4bd620c",
+      "after": "c50377a654ce6047018794e44e2767e4eb91d2016e096097de94555a5b32b026"
+    },
+    "dist/terraces.js": {
+      "before": "22d66fb66ac5e8fba9578c3c6f061072c37b361e642e795a83e160f4cae4fcc2",
+      "after": "c95a04c75ba340f376626f3ccb9e4fb8c0f32b3c7afe1c21b434b81a172b1dea"
+    },
+    "dist/traffic.js": {
+      "before": "2da79942c7a82630cc7b0968490fe04a225b2829750cc1708e9dca1dfc2cfc22",
+      "after": "174d508e5d50023c3b0e25ca0d841c7c8558f0007cc176b450c0580d571e5bc8"
+    },
+    "dist/transport-data.js": {
+      "before": "095bae9605c85f937efd1d03830fd46d97b443b3c5f279905da391a68eae9995",
+      "after": "f62c1e1aaa3c56ca9de01b26eb2d752cd5a684e5610d959cf98f7d86e29350d8"
+    },
+    "dist/transport-infrastructure.js": {
+      "before": "ef3fdbeb9cdb57e30216708b470f7f5cb7a1c0a32b8fb9c3db30aa87773a602b",
+      "after": "3c540e25871c7e2d93e21196f44f983948bacd8e603de4d656b6eff831577844"
+    },
+    "dist/voxel-authorship-v37.js": {
+      "before": null,
+      "after": "7c57576c16e3919b03b1b21451bd0adbc35fc881f9596052cd0083c3dad36f32"
+    },
+    "dist/walking-tour.js": {
+      "before": "e4860fe4aa753332fb79556557743e4e04f8bb8bc2ce0dce7ac1389fd9b347a0",
+      "after": "d2fd328bc328dcd611563937bafb7d255527711959a31bc208d3fd083d58d88b"
+    },
+    "dist/weather-data.js": {
+      "before": "6060b344256510ceade51e32e7b979e208575952abab3bcb8c970a120f2752f1",
+      "after": "70497e18c7ce39b7ff9f00e3fc11104a69e04d787f2a2dd78dadbd95d7a7fec1"
+    },
+    "references/apartments-v37.json": {
+      "before": null,
+      "after": "88fbc8595383bda80eb8871e5c768c903665969ea5c852edc69f2a5e85a1b385"
+    },
+    "tools/build-provenance-v37.py": {
+      "before": null,
+      "after": "c4e627f0c3010d3bee9b730bff9d29f49117132092cf752f42464324c96a4a57"
+    },
+    "tools/finalize-v37.py": {
+      "before": null,
+      "after": "6118214778ab1cc584fb99d5e7d4c9772a2156c46622861c390eadd9f34e4eef"
+    },
+    "tools/finish-backup-v37.py": {
+      "before": null,
+      "after": "eeaa87899fcac485f619f27ea1251eb549a3a9bff0e89dbc89b3cc9dcfc41ab1"
+    },
+    "tools/qa-v37/acceptance-mac.cjs": {
+      "before": null,
+      "after": "a884dcd700d0bbe32c69dfaee2000eed1ed1245fa9498a7a1d45dd75c8275c47"
+    },
+    "tools/qa-v37/acceptance.json": {
+      "before": null,
+      "after": "8b37dd9ae253ee6f079ee11ba41574e8f42a5c34907928bafc1069224fe79769"
+    },
+    "tools/qa-v37/apartment-actions-cpu.json": {
+      "before": null,
+      "after": "c837e01a5590e8d8e9487b7167fe1cf9894fde8b7b047ac2c011d0e1f59078e6"
+    },
+    "tools/qa-v37/apartment-actions-cpu.mjs": {
+      "before": null,
+      "after": "13806f75f16421cc23851643c4564695fd17f0f539954bf7cf47c2044d2fbad1"
+    },
+    "tools/qa-v37/apartment-geometry-cpu.json": {
+      "before": null,
+      "after": "77d161c4a781d18ce29a6e8e8245607374b032efe9c583cff2424cb666f170bb"
+    },
+    "tools/qa-v37/apartment-geometry-cpu.mjs": {
+      "before": null,
+      "after": "d38a272401760583f90dea883db6d43648dac339157b65b30ae1e930724e7ff9"
+    },
+    "tools/qa-v37/club-cpu.json": {
+      "before": null,
+      "after": "5c68f9770cc7c77449d7f4b290095d396aec80aaf81aeb782a4365283b36fe5c"
+    },
+    "tools/qa-v37/cpu-activities.json": {
+      "before": null,
+      "after": "cdbe28916c5851345852d5087a3d6f1b1e9e6fe19b6e91bf1bca89f357d4fc74"
+    },
+    "tools/qa-v37/fitness-context-cpu.json": {
+      "before": null,
+      "after": "f2fae4d2a7337e714d068915a9d5b42ecd07457659f5510c29ff1d3c63d32710"
+    },
+    "tools/qa-v37/fitness-cpu.json": {
+      "before": null,
+      "after": "76dc50536e740dc46b7d80d358a41c85d528fc5c91530618e71c93bc82c1b5d4"
+    },
+    "tools/qa-v37/geometry-mac.cjs": {
+      "before": null,
+      "after": "c0c5d77726321d6c6567882491c1c969ed92be6b9a22f8e2f2d6d71ed3c9c0e0"
+    },
+    "tools/qa-v37/geometry.json": {
+      "before": null,
+      "after": "532c14b8942799b835a301def11786979bb03f5c57648e08b0d52809851b9d07"
+    },
+    "tools/qa-v37/interaction-full.json": {
+      "before": null,
+      "after": "6f36450a3888187fb171039099da216bedc8106860fe88a9a114194ae704467b"
+    },
+    "tools/qa-v37/interaction-mac.cjs": {
+      "before": null,
+      "after": "5e51b9989d037907d2f8493a13a8e98fe1ad05e994466a7a3fd15d97ed77dbd0"
+    },
+    "tools/qa-v37/interaction-pointer.json": {
+      "before": null,
+      "after": "a0ba31b7fbd7b95ca2126674aaf38d19103a9fa39c12393361a4936823c12ef3"
+    },
+    "tools/qa-v37/interaction.json": {
+      "before": null,
+      "after": "c7fca995ee5f205268869ac12d776aa8d769f7206c1293784f004308554aa454"
+    },
+    "tools/qa-v37/lobby-cpu.json": {
+      "before": null,
+      "after": "7fe44f8be7c5a2f8837a2e29b3b8d613effa0019965a82285a1c2c862dae8e4a"
+    },
+    "tools/qa-v37/parking-cpu.json": {
+      "before": null,
+      "after": "2be835c0ae695c81384ef0fda11a9a4515b63173439870b7dc317d751255f438"
+    },
+    "tools/qa-v37/performance-paired-mac.cjs": {
+      "before": null,
+      "after": "47a3a2e2ad2a0b0f544b9836f564a0a002846bf906eee38c1e9242672b566429"
+    },
+    "tools/qa-v37/performance-paired.json": {
+      "before": null,
+      "after": "ae2d6f90f5cd0ae9cc264721adae758fbb983a2ad2bbb7d4965e0798603ef926"
+    },
+    "tools/qa-v37/performance-summary.json": {
+      "before": null,
+      "after": "7eef27d6bebd79b0d6f149a942f50a99730d8d89e7f270c69599016648ad4397"
+    },
+    "tools/qa-v37/plans-cpu.json": {
+      "before": null,
+      "after": "0a33e5477616efdf75d362de855971d7a1be0f9a536db4d6e01de5eb60d8e57b"
+    },
+    "tools/qa-v37/plans-cpu.mjs": {
+      "before": null,
+      "after": "472b3185c7a7b0adba4a97ec510c9054b30653276f244894c558865f7d417df5"
+    },
+    "tools/qa-v37/visual-mac.cjs": {
+      "before": null,
+      "after": "766f4a01e70a0fb6cefe77dbaa0d9d5776cda4f3e0ac779a1625365762a2d1b9"
+    },
+    "tools/qa-v37/visual.json": {
+      "before": null,
+      "after": "a2fc789aecc3e9ba8ba307669ae1293a5789ed9f98139a8da27fcab96469d28f"
+    },
+    "tools/qa-v37/watermark-cpu.json": {
+      "before": null,
+      "after": "bc85055ee660369c4318cc04d8a710166e99db6a4be58c4e6106cb0dd7b063ca"
+    },
+    "tools/qa-v37/watermark-cpu.mjs": {
+      "before": null,
+      "after": "4953a1897c09b68d5753a5e3f188e1a32ffd7186f692ae7dc2f8c25c71ff2166"
+    }
+  },
+  "checkCounts": {
+    "geometry": 35,
+    "acceptance": 59,
+    "interaction": 808,
+    "lobby-cpu": 53,
+    "club-cpu": 32,
+    "parking-cpu": 42,
+    "fitness-cpu": 44,
+    "fitness-context-cpu": 18,
+    "cpu-activities": 7,
+    "watermark-cpu": 59,
+    "plans-cpu": 150,
+    "apartment-geometry-cpu": 173,
+    "apartment-actions-cpu": 445
+  },
+  "totalChecks": 1925,
+  "checks": [
+    "tools/qa-v37/geometry.json",
+    "tools/qa-v37/acceptance.json",
+    "tools/qa-v37/interaction.json",
+    "tools/qa-v37/lobby-cpu.json",
+    "tools/qa-v37/club-cpu.json",
+    "tools/qa-v37/parking-cpu.json",
+    "tools/qa-v37/fitness-cpu.json",
+    "tools/qa-v37/fitness-context-cpu.json",
+    "tools/qa-v37/cpu-activities.json",
+    "tools/qa-v37/watermark-cpu.json",
+    "tools/qa-v37/plans-cpu.json",
+    "tools/qa-v37/apartment-geometry-cpu.json",
+    "tools/qa-v37/apartment-actions-cpu.json"
+  ],
+  "performance": "tools/qa-v37/performance-summary.json",
+  "limitsFile": "references/apartments-v37.json",
+  "sourceStudy": "references/source-amenities-v36.json",
+  "parkingEvidence": "references/amenities-and-parking-v36.json",
+  "arenaPlacement": "Preserved v36 arena registration; no new movement in v37",
+  "apartmentStudy": "references/apartments-v37.json",
+  "reviewedApartmentExamples": 17,
+  "apartmentSourceAssets": 23,
+  "sourceImagesAdded": 0,
+  "apartmentCatalogSnapshotAsOf": "2026-10-09",
+  "apartmentCatalogArchivedRecords": 203,
+  "apartmentGeometry": "Source-based approximate reconstruction, matched facade registration, authored furniture and household poses; not construction drawings",
+  "watermark": {
+    "handle": "@r_peredelkino",
+    "integratedGeometry": true,
+    "existingTextureSignaturesRetained": true,
+    "technicalCopyPrevention": false,
+    "purpose": "Distributed provenance marks; removal resistance is not a guarantee against copying"
+  },
+  "applicationScope": "3D masterplan and its existing linked interiors, catalog and interactive functions",
+  "performanceMeasured": true
+}

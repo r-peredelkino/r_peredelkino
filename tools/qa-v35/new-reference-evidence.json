@@ -1,0 +1,17 @@
+{
+  "revision": 35,
+  "files": [
+    {
+      "name": "Снимок экрана 2026-10-11 в 23.49.36.png",
+      "role": "Current v34 model",
+      "sha256": "04a264d48ccf9a67c3b59fff5c86ab5f2680bd4e8b205e406bc28a0c7299d341",
+      "distribution": "Hash only; private screenshot is not bundled"
+    },
+    {
+      "name": "Снимок экрана 2026-10-11 в 23.50.18.png",
+      "role": "Developer node1 panorama comparison",
+      "sha256": "cb79abb8dd8b1cd3c82e24082d3dfc75c64fae419ab64f3fe10fd36ef4a3a8ab",
+      "distribution": "Hash only; private screenshot is not bundled"
+    }
+  ]
+}

@@ -1,0 +1,867 @@
+{
+  "revision": 36,
+  "baseRevision": 35,
+  "createdUTC": "2026-10-11T22:57:52.746912+00:00",
+  "createdMoscow": "2026-10-12T01:57:52.746912+03:00",
+  "author": "@r_peredelkino",
+  "modelId": "RP-CONCEPT-2026-10-07",
+  "baselineBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v35-before-v36-20261012-010916",
+  "baselineManifestSHA256": "0a4a51f9ecbd3b1e9480b6b9dde7d8e88ac98f967ce894ea0f320a712dff1775",
+  "baselineFileCount": 2159,
+  "releaseBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v36-20261012-015752",
+  "originalAssetsUnchanged": 1739,
+  "architecturalFootprintsUnchanged": true,
+  "newSourceAssets": {
+    "dist/assets/reference-amenities-v36/garden.webp": {
+      "sha256": "a173dc3c3681d1bc79244b8528453e274398ae63ced3ba0acd3f684475f54d1c",
+      "uploadedSha256": "cdbc17a19a978fa59ec203fc969ea69e2ece8464e16d1af3c31e5871fbcac30b",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/architecture/garden.webp"
+    },
+    "dist/assets/reference-amenities-v36/1_lobby.webp": {
+      "sha256": "616f3e935e6266b174a43c648af37b44d081fcac3a46d49436a8ff374a177f83",
+      "uploadedSha256": "0994a0019940c389ef2a49d0c8faaa75be075107f269919b3b5dd69cd3d1f33c",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/1_lobby.webp"
+    },
+    "dist/assets/reference-amenities-v36/3_lobby.webp": {
+      "sha256": "f9261fe9f86fd9a22277d5a661450126f38ae80b119fdbc71c81d508489de38e",
+      "uploadedSha256": "b802d806c6f7ebee661296e272ebe142796a9dfc8763c2a484918894cd91fd41",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/3_lobby.webp"
+    },
+    "dist/assets/reference-amenities-v36/4_lobby.webp": {
+      "sha256": "38a9490a7151e755e6b03c463fe029832c3a7577a272aed276c334af8b5b7a5f",
+      "uploadedSha256": "111c913b96eda0c950d0ccacccae3fadc7b10f7ab314f79af75f9bfcf3850f5c",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/4_lobby.webp"
+    },
+    "dist/assets/reference-amenities-v36/5_lobby.webp": {
+      "sha256": "3697305916a0ea77a66feae4016dc52e104e8920ea6daf6bc4e1c9cfcc0ff6c8",
+      "uploadedSha256": "04eb7d539e08f7461ddba0426cb7b6b03349b09eb93f1082b4aed5b37d3c176e",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/5_lobby.webp"
+    },
+    "dist/assets/reference-amenities-v36/8_lobby.jpg": {
+      "sha256": "3ef156010dc9a4a47d6285864698d88c820629cef0a24f01f7d8bafab287d715",
+      "uploadedSha256": "49911cb274a569e2e560266c19ad81074a5e2e1735a223ae5b56e2d5ba6a27dc",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/8_lobby.jpg"
+    },
+    "dist/assets/reference-amenities-v36/10_lobby.webp": {
+      "sha256": "c2e12a22089bf7419b50c26d3f549bd8c0182410088c6c6ada15e4d29251aefa",
+      "uploadedSha256": "65fac015ad54a9b0d071997c78f489fa1e027c4df950a5047a8c560ae3b094e8",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/10_lobby.webp"
+    },
+    "dist/assets/reference-amenities-v36/11_kolysochnaya.webp": {
+      "sha256": "170c45a5f95758d0a1c232a96ed6187a57d64668948423b97bc9915a4675c763",
+      "uploadedSha256": "fc5805bc06ef153b93c8f2ae885ad20a42530c944f82f43ea72af1d2b05b88b3",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/11_kolysochnaya.webp"
+    },
+    "dist/assets/reference-amenities-v36/KIDS.jpg": {
+      "sha256": "fc7c4b4a3265c3eb5c490ecccc964245b092b43ef5b1be3c212fc6dc2b077498",
+      "uploadedSha256": "33200920a1bb6c0d4bdf73eda3133495978d7bc786b976b3b756390f8ade8962",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/KIDS.jpg"
+    },
+    "dist/assets/reference-amenities-v36/KITCHEN_9.jpg": {
+      "sha256": "be1f7894b8af420121262aa0f1d0b9a7f12148746c0706e098eae01c49d009d7",
+      "uploadedSha256": "db8b21654ca902e1b0c570375f4fe96f462939f076def679a5f4f81c7e80a42b",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/KITCHEN_9.jpg"
+    },
+    "dist/assets/reference-amenities-v36/LOUNGE_FIN_3.jpg": {
+      "sha256": "7336ec0c4b34b6e9311d9bb2b4dd4430f69b18ea0fcef58228f302ea2726a100",
+      "uploadedSha256": "3b2ab66f5938f85045219348e7333358eb77caaa10be5e5ccfce2ab68ae0cceb",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/LOUNGE_FIN_3.jpg"
+    },
+    "dist/assets/reference-amenities-v36/YOGA_FIN.jpg": {
+      "sha256": "3796f1ccffe786dc5323fd3161ee286eafa95ff3b677ff6c5d3c6fe355ab16c2",
+      "uploadedSha256": "3796f1ccffe786dc5323fd3161ee286eafa95ff3b677ff6c5d3c6fe355ab16c2",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/YOGA_FIN.jpg"
+    },
+    "dist/assets/reference-amenities-v36/01.webp": {
+      "sha256": "12d498836a36315fbd763b5367d2be8fd6ad8c44b92f930541977fe255dc337f",
+      "uploadedSha256": "4e242152d3fb772718f242eba85433da789f727807f5e4ff85c5edf2bcf106ff",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/01.webp"
+    },
+    "dist/assets/reference-amenities-v36/02.webp": {
+      "sha256": "8c921c7ea68da293795b13f8620fe69e32e911ae74c3bccb7e8bb3331f5fb2fc",
+      "uploadedSha256": "839678bc985f5b64db45504fe69dda6cdb099d58e8d886dc30fddac2b4f0044c",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/02.webp"
+    },
+    "dist/assets/reference-amenities-v36/06.webp": {
+      "sha256": "c71b85d2e3dec35a1aee35300977a2cf756be6462241f5adc6d86004613b6593",
+      "uploadedSha256": "1ea04c44abac3995b04e7058ae74ed948f0ea3dfa858f1dea4b5ff752a4d333a",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/06.webp"
+    },
+    "dist/assets/reference-amenities-v36/07.webp": {
+      "sha256": "44e8045a5fd729b307806ec5ab2b15bc481fa33dbe666c28976b74a3fd6ce943",
+      "uploadedSha256": "da7d050ccdfd6bf4f24b408a84ad80b864177ffcf17ca71c8d528af9ec33d531",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/07.webp"
+    },
+    "dist/assets/reference-amenities-v36/09.webp": {
+      "sha256": "60a7672d06e868de8c6407c79e0e4ab84246df75d31bf2a383720961f41aa761",
+      "uploadedSha256": "acf616b1f0b2c039d48e6a56f8f6c6c7c46c93dd469ffd52dcc62d289809a4bf",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/09.webp"
+    },
+    "dist/assets/reference-amenities-v36/10.webp": {
+      "sha256": "100296977eab634afc18895529d0cb0348b25150cf617c8c5819994eefd9620b",
+      "uploadedSha256": "1af4098ac0237a8a008a15400d4af6209d352325b6d4d324850f9f214a6ed6bf",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/10.webp"
+    },
+    "dist/assets/reference-amenities-v36/12.webp": {
+      "sha256": "b8049505d3a928f8d460967a657377ccd8add58ca9182b208ca2d1ccde54a059",
+      "uploadedSha256": "2ef72b7655428f596173b67848707f0048ddb3f119d8860a90d05446ae1e0dcc",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/12.webp"
+    },
+    "dist/assets/reference-amenities-v36/13.webp": {
+      "sha256": "3a390230889a718d0b4956fe450b45c80f7c1a251bd5726e11816137ddd71cf4",
+      "uploadedSha256": "88d4966b78c60a6a2586a1d8c95bf929202a203d8698a9a1d5789bd144a3456f",
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/13.webp"
+    }
+  },
+  "changedFiles": {
+    "AI-EDITING-POLICY.json": {
+      "before": "4ded29f36f15c89a8377e5a22da621a8c1d51d3892758f744252f4c0fb291cc2",
+      "after": "150a58bc0dcf855f4868e604a39787269301c6aae738f2a2f5e5daa7278a097b"
+    },
+    "BACKUP-INDEX-v36.json": {
+      "before": null,
+      "after": "36126bb9aa5a2ae1b4220ba24e6f44edd0b48059a04f527246fababc0c80212d"
+    },
+    "CHANGELOG-INTERIORS-v36.md": {
+      "before": null,
+      "after": "d9d500c6dfff181efd33a0a8fb2e0eb339535e01b8316ccb6353f7df0eb3015d"
+    },
+    "REPORT-v36.html": {
+      "before": null,
+      "after": "a7f65862d70bf197e129216cb0808ab51b2366991c2899fac869b11d7cbee2d1"
+    },
+    "dist/amenity-references-v36.js": {
+      "before": null,
+      "after": "00da90e8f336f99e4eee71560ab6b0576c1ec380320cff5e810a5e403ed3f86a"
+    },
+    "dist/apartment-model.js": {
+      "before": "3ed9440739626089034c7400f4a0d0ab8e8494784f5c0513b9c80af9b3092f59",
+      "after": "7e9adadddb5f9f9b5c7659fc82438ac754cc4b2508a2d0b9c88a185ba53cfd1e"
+    },
+    "dist/apartment-tour.js": {
+      "before": "9180b45093f6be29eff8e082a22a4f533501155ffe47b06d90b3fcca7cef5561",
+      "after": "cebb01d457e8631ed1b66a0738fe465fb222378ed0f00e1693ee45bf9611572e"
+    },
+    "dist/apartment3d.js": {
+      "before": "b97ab4bfbbac599ee1456cde654bd1ddc5619e477dd0760bb719ee9df53ea97a",
+      "after": "a7caf47cd8739d503ae6b79d539a587c8235400fe63e238b6ea4540c03a791dd"
+    },
+    "dist/architectural-lighting.js": {
+      "before": "8d7be9c95b863c1384b3c138d7e67e9fcc2e0f9857ae7ae958f982957a98e4c4",
+      "after": "2e24ae0201208d7be784d58ec550bfd1e6b1549e6b2b55e3614cceef089b6ea0"
+    },
+    "dist/arena-exterior.js": {
+      "before": "09170be67727c976ed74d770f6903442b9efaced38b97adbdc80e3dab329619c",
+      "after": "c8aff77708ac1422a044eab257ad41cd81f504757590b00ff935a093e0cbb579"
+    },
+    "dist/arena-media.js": {
+      "before": "71f4ba6e10ae6bce63942656e7aa3b76e7a386ac7bac4ab1f85d0016d7794462",
+      "after": "b91185cd1ddaf95af70698d600204a700097595cb51ad08dc0f5cf57797170b8"
+    },
+    "dist/arena-placement-v35.js": {
+      "before": "166d1ca10e51f841db0fdaa30442f006f0f0997a3722ecb5c99cf5a26421a661",
+      "after": "ce330245729ebffd60bf2b47b16fb049cf1d4cc2f5a5ce54432d104e37fd37d1"
+    },
+    "dist/assets/reference-amenities-v36/01.webp": {
+      "before": null,
+      "after": "12d498836a36315fbd763b5367d2be8fd6ad8c44b92f930541977fe255dc337f"
+    },
+    "dist/assets/reference-amenities-v36/02.webp": {
+      "before": null,
+      "after": "8c921c7ea68da293795b13f8620fe69e32e911ae74c3bccb7e8bb3331f5fb2fc"
+    },
+    "dist/assets/reference-amenities-v36/06.webp": {
+      "before": null,
+      "after": "c71b85d2e3dec35a1aee35300977a2cf756be6462241f5adc6d86004613b6593"
+    },
+    "dist/assets/reference-amenities-v36/07.webp": {
+      "before": null,
+      "after": "44e8045a5fd729b307806ec5ab2b15bc481fa33dbe666c28976b74a3fd6ce943"
+    },
+    "dist/assets/reference-amenities-v36/09.webp": {
+      "before": null,
+      "after": "60a7672d06e868de8c6407c79e0e4ab84246df75d31bf2a383720961f41aa761"
+    },
+    "dist/assets/reference-amenities-v36/10.webp": {
+      "before": null,
+      "after": "100296977eab634afc18895529d0cb0348b25150cf617c8c5819994eefd9620b"
+    },
+    "dist/assets/reference-amenities-v36/10_lobby.webp": {
+      "before": null,
+      "after": "c2e12a22089bf7419b50c26d3f549bd8c0182410088c6c6ada15e4d29251aefa"
+    },
+    "dist/assets/reference-amenities-v36/11_kolysochnaya.webp": {
+      "before": null,
+      "after": "170c45a5f95758d0a1c232a96ed6187a57d64668948423b97bc9915a4675c763"
+    },
+    "dist/assets/reference-amenities-v36/12.webp": {
+      "before": null,
+      "after": "b8049505d3a928f8d460967a657377ccd8add58ca9182b208ca2d1ccde54a059"
+    },
+    "dist/assets/reference-amenities-v36/13.webp": {
+      "before": null,
+      "after": "3a390230889a718d0b4956fe450b45c80f7c1a251bd5726e11816137ddd71cf4"
+    },
+    "dist/assets/reference-amenities-v36/1_lobby.webp": {
+      "before": null,
+      "after": "616f3e935e6266b174a43c648af37b44d081fcac3a46d49436a8ff374a177f83"
+    },
+    "dist/assets/reference-amenities-v36/3_lobby.webp": {
+      "before": null,
+      "after": "f9261fe9f86fd9a22277d5a661450126f38ae80b119fdbc71c81d508489de38e"
+    },
+    "dist/assets/reference-amenities-v36/4_lobby.webp": {
+      "before": null,
+      "after": "38a9490a7151e755e6b03c463fe029832c3a7577a272aed276c334af8b5b7a5f"
+    },
+    "dist/assets/reference-amenities-v36/5_lobby.webp": {
+      "before": null,
+      "after": "3697305916a0ea77a66feae4016dc52e104e8920ea6daf6bc4e1c9cfcc0ff6c8"
+    },
+    "dist/assets/reference-amenities-v36/8_lobby.jpg": {
+      "before": null,
+      "after": "3ef156010dc9a4a47d6285864698d88c820629cef0a24f01f7d8bafab287d715"
+    },
+    "dist/assets/reference-amenities-v36/KIDS.jpg": {
+      "before": null,
+      "after": "fc7c4b4a3265c3eb5c490ecccc964245b092b43ef5b1be3c212fc6dc2b077498"
+    },
+    "dist/assets/reference-amenities-v36/KITCHEN_9.jpg": {
+      "before": null,
+      "after": "be1f7894b8af420121262aa0f1d0b9a7f12148746c0706e098eae01c49d009d7"
+    },
+    "dist/assets/reference-amenities-v36/LOUNGE_FIN_3.jpg": {
+      "before": null,
+      "after": "7336ec0c4b34b6e9311d9bb2b4dd4430f69b18ea0fcef58228f302ea2726a100"
+    },
+    "dist/assets/reference-amenities-v36/YOGA_FIN.jpg": {
+      "before": null,
+      "after": "3796f1ccffe786dc5323fd3161ee286eafa95ff3b677ff6c5d3c6fe355ab16c2"
+    },
+    "dist/assets/reference-amenities-v36/garden.webp": {
+      "before": null,
+      "after": "a173dc3c3681d1bc79244b8528453e274398ae63ced3ba0acd3f684475f54d1c"
+    },
+    "dist/attribution.js": {
+      "before": "70a7339edf943e561455359240a5648ccd0082f4557dddd4c11c1444a93b5acf",
+      "after": "df0e70bd3b8b5581efcbe7003bd3693603861002c23a1a32131f54dd951365ec"
+    },
+    "dist/baked-authorship.js": {
+      "before": "61e6dac3b1623937d23a687628b55cce46ed1431a87c7d0621fcf02b4507b0c5",
+      "after": "c3baa07ee7e5a43bc636dd83657156e10c79020bbd38c15c2bb377b100758925"
+    },
+    "dist/cluster-map.js": {
+      "before": "fb07c1bf62e9db24c2ff5890069021a70fac81e6ab273b70d063ad5b41c60b13",
+      "after": "2c2bcc9cca1c5df2523e1925a8b50e51e1a3e439bfa89724fd9ad655bf8ab969"
+    },
+    "dist/commercial-frontage.js": {
+      "before": "fe3f1619669e1a1e549a7d3980dd31d1f4a7f8bd748df1acd280a25bc662ca6d",
+      "after": "7e4aa4b16fd951a45d6f3bddb5dc6d0ca5ddb8950505a27a8e1e3fbf86e8e7b0"
+    },
+    "dist/complex-life.js": {
+      "before": "996aeff4e8c8e3d6d00e915a49e785bf89ee4dc392b84d4e03de6a1961a62af6",
+      "after": "8d3eeed1b5708e3bd088c107bf4f1a9a9171466c9c0b133ca12b075648708f0b"
+    },
+    "dist/complex-model.js": {
+      "before": "c114324779a51c022683990e70147b1a59be6d302e85e3374ba1fc7682e6ba58",
+      "after": "be3843a4a57015084124dbbbd02a557ea3dc645aba9b64372542dbfb62e62ff6"
+    },
+    "dist/context-services.js": {
+      "before": "c383e6b31a1146e9349c678f4b02e864fd4561cc213517d09f473a455083220c",
+      "after": "f3c7e70335108fe0d83102a262241a5bf4de9d0392c1576c55990dc167d19033"
+    },
+    "dist/courtyard-passage.js": {
+      "before": "f0e03523397bf4dbd238bed938e4e9f8871a5e8fec91f679d32e9a30102d768f",
+      "after": "e516fc4ab5315151f2c37dce9b0ec67d620d74016228bf340de04bbc4070b1f9"
+    },
+    "dist/courtyard-pavilion.js": {
+      "before": "18115196cc466ed8a158b131dd5f884ab5dfbef2c44d203cb62757dcad33758d",
+      "after": "4c8ef5e2b978bb1ea0c5c63b98e722e6413fa9c8be2c9051e8ed8f281a435b28"
+    },
+    "dist/courtyard-program.js": {
+      "before": "3291c34378832ca7b82f67f29bd978fe8d2764bae5119cdd090d9b5e363e3a6d",
+      "after": "bd550c0a7cdfffe921fe585ab7546d21884232658f2bc20e149c3c30a7d1baf9"
+    },
+    "dist/courtyard-reference-layout.js": {
+      "before": "3fbb41b5396ca4fd3bef4c7fbb4165872e87ffb5893e9c6de349a392e9e3ae87",
+      "after": "60ea4af1aaffbe25cf08c91a1ce1c855dde5437305aad262022ede3c96a3cb66"
+    },
+    "dist/courtyard-revision.js": {
+      "before": "280cb63215c4fe55322ed35b6a92eb1c289ca3e5d4309cee36b4cae41c1c76f9",
+      "after": "1e0e59b146b70f7355b91a6b4117dcbbe0a25e46cee9e19651fc96f1f27a0945"
+    },
+    "dist/courtyard-source-v33.js": {
+      "before": "a527ddb89ecf2abc9320467d4df343d3cc7201a868b57cac15ef574f980cd7df",
+      "after": "eb86d861cc42b0624fea4891075edd2ba6391b636f97f9a8e300d5056a3239b1"
+    },
+    "dist/courtyard.js": {
+      "before": "c1f7310cb64f122ab9d066b3b02f09febfac03762428db6ce27e0a9b941fd572",
+      "after": "9f3d760ac0c80af2a5fc30d3454e167fa75a50abd4ff4b650caae8b0010998bf"
+    },
+    "dist/cyber-courtyard.js": {
+      "before": "bb898056876e950b377ca41b19b1b79bd7f4975775d811967a3014278c7a5682",
+      "after": "72c947b8d91914d536ff8794d9c23b5119bfcc98eb741e50204781780873db30"
+    },
+    "dist/cyber-experience.js": {
+      "before": "0f6d357081dcc0ab14a61c512113271bfc349d9c849c2c3a4dfd61d092e45f6e",
+      "after": "a9643a42b45abaf526d9ddc347ed7c9e17a47acbda4a393c9dd7778c870999d6"
+    },
+    "dist/cyber-garden-v35.js": {
+      "before": "921a8a58afd3d6cc0e30c00c3e300e4a25eee3e29e7e5437b17e0483e6250229",
+      "after": "d8b762623e4ff203ccb9c36ae92cab45b00bf83298233d23831e9b69c6b89142"
+    },
+    "dist/district-views.js": {
+      "before": "873238dc5b415d6f8d1c8ce2a101f66369b7b6f3fb3d4aa4d9261255f018aad8",
+      "after": "4110be0e43003c3f0427e181a04198571a6322e47fba4c7a63aedd5dc96fac07"
+    },
+    "dist/environment.js": {
+      "before": "7894cfeae0b28057177b6b6364f7abd58445934457101e3882409830a343401e",
+      "after": "83d7a54d1015d6275e68755eb3a0a876f038a97c7019cd6f97418b68fa9b250b"
+    },
+    "dist/exterior-interactions.js": {
+      "before": "4f81c0ad57c3763c46ec49941886fe890c03d46c360dbbac823b7dad107ecc1f",
+      "after": "c61060a50a45d3fafa6c411ef794eba088b6609932b2d200626a048d4be7b9b7"
+    },
+    "dist/exterior-roofs.js": {
+      "before": "79ce165e2d91c13e2bab606482a23883c96eb89382519b3db2f5d7daf9879db8",
+      "after": "91adc87fc250fc781bd37d492afcd2b61577695b439d1c3cbe222c6a6f563e42"
+    },
+    "dist/facade-detail.js": {
+      "before": "18dabc36818c74c16526b627dfbb373ed3eaf20a3266dc7823ad9906508346ce",
+      "after": "648716d4845102ecfee4f89a11d712473405d0d87f4fea70da0995a9c66923f7"
+    },
+    "dist/fitness-context-cut-v35.js": {
+      "before": "2c7ee541d4466f5ff35910e9a7b55f384f891701ab9b1d0afc3c5298148b33d1",
+      "after": "bae2b1a0b19e81db7e02a15946b83b6fd9339c65e429dbafa9260225ad0e5635"
+    },
+    "dist/forecourt-architecture.js": {
+      "before": "a4bdaba3fdb0bb2172d0619413bf10b72c9b530ee2fb0ae582424d0c5ec6dfc2",
+      "after": "770a8f79e6c113bd77f53e0706d555115e773ad464e3cb53aebf5a6229502885"
+    },
+    "dist/forecourt-cafes.js": {
+      "before": "372d0800c7c1becc99d24a893fcbeda33cbbfae07ddb207399220bb60543334f",
+      "after": "c3d82ff57ab2b33d6c12b4558e2f1d58249722c03f0b0779abfe8186aeb489b4"
+    },
+    "dist/forecourt-ground.js": {
+      "before": "eca0f107f008ce838c3878740282a947a84823676e14ac14d31ff29dbeaa0f13",
+      "after": "50944df9e73b470972364734ad4248d8a07d1644a9b7720db8542f48f8862be8"
+    },
+    "dist/forecourt-landscape.js": {
+      "before": "567690bcf7839f9fbe9c9f68e6fb6afab4155d1f9897b1268123b68ac6a0d0b8",
+      "after": "0bc9255bc0928b833365271331952c1e9568868acc8e6e0293d37ceb3fba96e2"
+    },
+    "dist/index.html": {
+      "before": "a3bbc9f7f7481c0d71de19c70a44988bd4a2fc4c705744980c8f914430cf3971",
+      "after": "d4d8b5fd1c5be4c92dd32f0f86a14d6018a5b2adb47571be173e81db8c4545c6"
+    },
+    "dist/landscape-materials.js": {
+      "before": "b8b6fbc7648e0c8300c9da478e3050e78f3486156062cefbcf5232ebaddfc638",
+      "after": "17c586bb003dfb23d9b2fe932d3614259d61744ab4dd493d3c522a41766f11da"
+    },
+    "dist/local-access.js": {
+      "before": "fbabf56e7bd51b25019bf7d2c0e6966c31b33d41b0bfbca5c77c4b2c4bc613bd",
+      "after": "3a6a0e2c10c466a33f74372f530bf9ec1cf71c66d4dd624347617edfe97439ac"
+    },
+    "dist/model-watermarks.js": {
+      "before": "0e134a8dd91f7a8219dc4149e543a2a26332a684693d6fb2684b8528857e8c04",
+      "after": "65f3b6d5bac293f01329681111f3583269cd83083b68b668c52fcb44a157302e"
+    },
+    "dist/neighbor-building-layout.js": {
+      "before": "cfee1860578645af065e71898cb471515e4fda020df8d2120032a5f6c970b81b",
+      "after": "c117c74c88abaf5874108bd2db7934ea880cfcb6f897001ac9528df8a7cd7687"
+    },
+    "dist/neighbor-buildings.js": {
+      "before": "31109a7446e436024b288b0a92f37186f59563736270bd468e517b83a6b3aafd",
+      "after": "5b229ec3dd621b3c02da20fbadcefc55c7a86c66622913ffd62524d2503c7923"
+    },
+    "dist/neighborhood.js": {
+      "before": "ae1437326d9062e755d9655905401952c00db446b786a52fbd730841420a301e",
+      "after": "4d4f60977d52513f5e9dea86ee921c19fd93be174728f1ee3ca86136d120018e"
+    },
+    "dist/night-lighting.js": {
+      "before": "361ac205546b2d796d7f554f2f2cf10bd8aa70851671d0704fb2a40bf2363779",
+      "after": "a18a27748fa3df47122fd32a97cdb42da23f9f7a7eadd8a98389af247485fa0a"
+    },
+    "dist/office-fitness-v35.js": {
+      "before": "9da417da676908e3f13b69ac53f4f29f5975f120d5e1ec3d6eae2bc9c3b8e40d",
+      "after": "7dba6b2b012edfbf64919ac7749a1ec0cf1aae60137cf4f1011ff0b3ccde8025"
+    },
+    "dist/office-terrace-v33.js": {
+      "before": "bc5811140b40e1aceac86c532a23d14e8850efd1fb1717270ff211a8b90fbac0",
+      "after": "280e0a785cf6a0fcd70cf0d7df247c093cf38a941defd504b25aa0c23749dddf"
+    },
+    "dist/onboarding.js": {
+      "before": "005136e8ece7dee506c7b959afa6405db0a0bb503aabc5b60f212c01e54c3db7",
+      "after": "f455a03f18b5c5cc6579b33bec08002bbb4dd909c741a74130edac0697933b1f"
+    },
+    "dist/parking-showroom-v36.js": {
+      "before": null,
+      "after": "3faa0a1b701a8ff20fbf6abfdff04ae00b65a8e2bde7b56eff672c3efc1c2f55"
+    },
+    "dist/plan-proof.js": {
+      "before": "6724f1969285717ca9418e587b1610a7016639d895df9b00be742f040c9ce885",
+      "after": "4fcbb9a3b556c61d53e729bb8b9804a7a678d72874286b91c3b0ea7e35a9015f"
+    },
+    "dist/play-bridge-walk.js": {
+      "before": "c70044a4aac2c23dff1d77a254db907217114ae67d1b9dfeb8040f48a6d61a95",
+      "after": "e81ddc952c5bca1364ffc68e531fb878249c974aee7a388b9d2fb0d426d935df"
+    },
+    "dist/podium-upper-cut.js": {
+      "before": "c7a831e53b4118af38decb08e8da31c24ca0191535a03cbe39d7343b4b1f6756",
+      "after": "066e1d58f94da6f7dbec353ef4c4c252b1aba34040700f28ace373d339c305ce"
+    },
+    "dist/public-realm.js": {
+      "before": "f82c00fe319220aaa06fec2b2d6ecdbde5ba7ba739cc8ac229c18406fd81ad34",
+      "after": "4947f7482870e0179bc6e608567a014584a9917e27fad3c14e53a9c914356a22"
+    },
+    "dist/realm-details.js": {
+      "before": "e643251466f35bc6166bf7dea82741cf9b90d7761825301f04858bdcf72f4def",
+      "after": "7678d5c3bef2621dc20c0d088fe664aa152b56ec519b3ac5c073a6d55cfb7182"
+    },
+    "dist/reference-backdrop.js": {
+      "before": "7f9fe5d0fdd20b42fcb25a7faf5aaf5ab908941afff5e05f2d9f32ed76902b8c",
+      "after": "a89ea69fa3f39c9653741a0a0c865d9d756339b0cb0e7ea9e4b2c0390ad70a9b"
+    },
+    "dist/reference-catalog.js": {
+      "before": "6ee9aafcd6127ec7e043364c5063052c9c3fbf5fa327662ae506143f5592eab3",
+      "after": "c8311bd3d40b625e9d100ad4485dcfe089a30383f8a1bf604a01be812ad963b8"
+    },
+    "dist/reference-entry.js": {
+      "before": "176a90d90ca2177cdbb15f14240584caac291ba8f57951a4c91e58d72f283e79",
+      "after": "c9f99318448372dcf0fd44ff019483d837e946f4bf9469b2ad9ef4fae668a197"
+    },
+    "dist/reference-explorer.js": {
+      "before": "bf7eb779b0d39e8eadd946c508e43f371c99129d392a1c59398135c7db4393bf",
+      "after": "36471200843626a07dc4afcd8a4c4380a3ac916c1a22047eeb610c074f00250e"
+    },
+    "dist/reference-gallery-v36.css": {
+      "before": null,
+      "after": "b710c011e13bca88045c79f41214be3ce16e16e157c3c01bb8fa5f0d511436a7"
+    },
+    "dist/reference-gallery-v36.js": {
+      "before": null,
+      "after": "35d2b4faac8f36e1445f5d11ecd71d797f75f19301c9682a17f50a689690194a"
+    },
+    "dist/resident-club-v36.js": {
+      "before": null,
+      "after": "65de31a2dbbe2814d38f87c540b35d4049416ebb71b3153565a22e57ea09703c"
+    },
+    "dist/resident-layout-v36.js": {
+      "before": null,
+      "after": "81253ef65a4c0e5d739ca9257dfcb7f48a241e66a09f51666e5a5a257adb3b59"
+    },
+    "dist/resident-lobby-v36.js": {
+      "before": null,
+      "after": "f7d5471d96d1cdac27cd8b0710d8afd9bf656160baeb5ee8c1ba2e42e8748049"
+    },
+    "dist/restaurant-terrace-v35.js": {
+      "before": "c08e372df4b5259232bb997437df902ba5f3a8d0bcd8e85bdabcf7e166f82578",
+      "after": "2bba91bd4cb882605df18364176139f38571d9df130c11bcc9177f00697afdec"
+    },
+    "dist/retail-signs.js": {
+      "before": "3a6c6f590df79ccfafa784af51fe32725b2b41e8cb2443b09ee98c10c68e919e",
+      "after": "2540acc321c98aaf763c3165c541be839d15d1a19dfce32e00b55f492236f748"
+    },
+    "dist/roof-fan-edge-v34.js": {
+      "before": "5fda712872505f808c17adc8f8b1b913d6ee1413230e56df64340c8a1bb20dcb",
+      "after": "ea2a6bcb38c5ad5d20ea5b7b56a54b9d4105d22da49db532ccc37c8deb410986"
+    },
+    "dist/sales-office.js": {
+      "before": "eab61c916177562b79a892d18c230213e874c4fa9f7d5189fbea0147b5433c89",
+      "after": "4f85b8ab54e0b23561b12eb775196a66ace1a02aef05c6b8e51542e64413ce07"
+    },
+    "dist/shop-interiors.js": {
+      "before": "c4952ddac62478d9ac07543c611b47d8550591c250abb0751febbf2641052df6",
+      "after": "27cdd5c77f67bdb4e097ce2a968e65ee869f87f917f5ed3d8d818bd28466389a"
+    },
+    "dist/showroom.js": {
+      "before": "2687bbb1ddefdf2e4e6d18ff604e5252bca52cf02e6c6b9feed1f6e896b1f83e",
+      "after": "24a906ab67fa0dc1eb3bcc7a6d9ffa3d25b4563d604611287334bdeecf438f11"
+    },
+    "dist/site-weather.js": {
+      "before": "ccadc75d916712629ac00931a9c1e6a49a71b2bf8b5b8b1f2586f47992efeb2b",
+      "after": "1adf0d25421d1fa0fbc1e90d61049426a7f8b1c107fd84c950ffa00292511131"
+    },
+    "dist/solar-analysis-panel.js": {
+      "before": "b27e134c543dc00b089b7f08a037c7d6ae8d2ad8ef2479f0923b3046ce2c12bd",
+      "after": "95d840050e51c332ea9fad8ded5d83584205cfb8e8395302bf11b9eeb29e8a61"
+    },
+    "dist/solar-clock.js": {
+      "before": "39f09a898a4b4d9e9a7f4563b2fccd1ae0d8180a8d690892fc69a4787dd6b55d",
+      "after": "26d2755b8ef26021a4e11bf6df09774c9629d643e70cfc14f071d9cb8769fae7"
+    },
+    "dist/solar-exposure.js": {
+      "before": "61baf7bac9e1fdb605d4835ac7b628066df3947b5f5f8c2614909b126d98a450",
+      "after": "5df4843496bd4899ca619a001eb9bbc655074bd1feb39e2a8323aa3cf6ffdd3d"
+    },
+    "dist/solar.js": {
+      "before": "ae22eab1eb89d0ade5f1e98a4d5e8105ffd156cab9f1b6027c9830f375973ed1",
+      "after": "fad61ef2c3109c9d0e603198de60f53ef9f17c85f3111bb409e358047163fac6"
+    },
+    "dist/spatial-instances.js": {
+      "before": "d528e505c36ba415cf07b68172e6b9bb72ab16e4397616aeefdb5301c0727f47",
+      "after": "3a37477e84b1543ceb5b93cf9a42cde95962253f1e450fd6474d341e574a29e0"
+    },
+    "dist/style.css": {
+      "before": "e3ce8720b8a0037632734368f765bcb4b7b06d0c5751cd9d725751abeb4ab47a",
+      "after": "e13162f0fff62b9d283d783d7d454fc0c49d6d26816f04bf949593b3930ca937"
+    },
+    "dist/surface-finishes.js": {
+      "before": "8b74a41f228781e4c49af6783876e4133443554b10e5adee4d20a0e4a5dc82ca",
+      "after": "e2c6fbf50a00b319e36a689814377c5a7ae794ea2dbbb3843e1fc6193a8c69ac"
+    },
+    "dist/terrace-access.js": {
+      "before": "be8ee0cd73751a37d78c1dafc9d0159d3144bdd68122a435643563f6772dcfc7",
+      "after": "449a58d0de59216ed623ba40e8b060bbe162bea690ab7b02871e0333b4bd620c"
+    },
+    "dist/terraces.js": {
+      "before": "067944d48e9bd3729997e9e989d8b0aff5a2b12cff4ebbe9c5ffbfd1d01c19c2",
+      "after": "22d66fb66ac5e8fba9578c3c6f061072c37b361e642e795a83e160f4cae4fcc2"
+    },
+    "dist/traffic.js": {
+      "before": "0396e94b40e25aebea9cce5238153b2e36b6e2a3bd51cbd76324f2c105a58e35",
+      "after": "2da79942c7a82630cc7b0968490fe04a225b2829750cc1708e9dca1dfc2cfc22"
+    },
+    "dist/transport-data.js": {
+      "before": "f22e892e068c2185c3bd8ca5a6050f9ba911a1568c9754eb6cd0f0f952e2cfa2",
+      "after": "095bae9605c85f937efd1d03830fd46d97b443b3c5f279905da391a68eae9995"
+    },
+    "dist/transport-infrastructure.js": {
+      "before": "a62fe6879a6bfe17622ba9cf049167a556bb84d80be7da910600a47f7b5e4373",
+      "after": "ef3fdbeb9cdb57e30216708b470f7f5cb7a1c0a32b8fb9c3db30aa87773a602b"
+    },
+    "dist/walking-tour.js": {
+      "before": "fd2b6c3a8bb37cef447348eb8f456bdc161888aa872f5e9920c4238243fa75b1",
+      "after": "e4860fe4aa753332fb79556557743e4e04f8bb8bc2ce0dce7ac1389fd9b347a0"
+    },
+    "dist/weather-data.js": {
+      "before": "7e07305a9875da85bfe41c6de2abcfd751c80ab3151ea034ea1a1811cb5ad2bf",
+      "after": "6060b344256510ceade51e32e7b979e208575952abab3bcb8c970a120f2752f1"
+    },
+    "references/amenities-and-parking-v36.json": {
+      "before": null,
+      "after": "efbb0d3d3c1616e6d338599f0e7127b541e2f5a8ea6123c8b5cebd349d07bc85"
+    },
+    "references/amenity-assets-download-v36.json": {
+      "before": null,
+      "after": "fdf4a74adb08ae86767d246de45f31f3ef673201a92fe2125054e23ee238c066"
+    },
+    "references/source-amenities-v36.json": {
+      "before": null,
+      "after": "9802d96142c8ea0ac06280ac3154b6c60beec2c760483b771d38a431ad8bb6da"
+    },
+    "tools/build-provenance-v36.py": {
+      "before": null,
+      "after": "644b2e3f814ea4f14f65f665d80b0d546a2be25d71f8300cf385ebde03988c19"
+    },
+    "tools/fetch-amenity-assets-v36.py": {
+      "before": null,
+      "after": "7924e25ce0db9b919dc026dab1b089307d8b829d110190910d30edb915b610cb"
+    },
+    "tools/finalize-v36.py": {
+      "before": null,
+      "after": "dfd8485b73f06311cb033bbbba07070da9d8205e495024a375725de5565a38b0"
+    },
+    "tools/finish-backup-v36.py": {
+      "before": null,
+      "after": "ecd2717f8483dbfd6df8382cd9817fb64a2063978f947aa82d7b9484dd208a19"
+    },
+    "tools/qa-v36/acceptance-mac.cjs": {
+      "before": null,
+      "after": "7cdd00e195d8345d1845cf4f073c43383b2ed482edc81990b8da44d16492032c"
+    },
+    "tools/qa-v36/acceptance.json": {
+      "before": null,
+      "after": "bd9681bd2f218aa15e93f93c38cc5c54fa779cbad9ac0dd443e9b297ea16f592"
+    },
+    "tools/qa-v36/club-cpu.json": {
+      "before": null,
+      "after": "ab9b0b40bbcb789d2ee8918cc66555dd22ed8d67f2032e5a96efc46c3490f368"
+    },
+    "tools/qa-v36/club-cpu.mjs": {
+      "before": null,
+      "after": "60138fe3cea51d42ca5d4a2d3aa66a84cfe32f3514a932c5b4e6206a60f981d2"
+    },
+    "tools/qa-v36/cpu-activities.cjs": {
+      "before": null,
+      "after": "85b3190e6d947cf3406b8223cea1e2ef060419b934cfb0a8b2f69277563d0b15"
+    },
+    "tools/qa-v36/cpu-activities.json": {
+      "before": null,
+      "after": "b54ab3fcd1d6a97e7b41ced2060e5514f3a91009615a67eb8fabc08519dcf335"
+    },
+    "tools/qa-v36/fitness-context-cpu.json": {
+      "before": null,
+      "after": "5404e7bf6e1a78e9e4a9cc5df5580ca83e2b989c0959e2511426d14d4e0b4628"
+    },
+    "tools/qa-v36/fitness-context-cpu.mjs": {
+      "before": null,
+      "after": "fe1c462c730bf0e3c4609965b71bb4a498607a847034ffe9603b8212b963e5b0"
+    },
+    "tools/qa-v36/fitness-cpu.json": {
+      "before": null,
+      "after": "446efa6349795b710345587320a5725d2173b9f8f08019119cd1960718df0556"
+    },
+    "tools/qa-v36/fitness-cpu.mjs": {
+      "before": null,
+      "after": "ae5c87fb97fb9f6ec61775fee46d2ee6b9a83e8bd607dbfb40d6874647cdceb0"
+    },
+    "tools/qa-v36/geometry-mac.cjs": {
+      "before": null,
+      "after": "1f5d1e85e6e0087a400f9bc3e526a49edbe0aaf1bc6efd4080fb49d76cae73bd"
+    },
+    "tools/qa-v36/geometry.json": {
+      "before": null,
+      "after": "6a261564fce8526615bc5311eb8d2f685eebb56a64f29227ba0395eaf009cbc0"
+    },
+    "tools/qa-v36/interaction-mac.cjs": {
+      "before": null,
+      "after": "1f3696d310fcf266711ec8c51ecffbebbc1b4404bed2a28559e9f5c366d3f533"
+    },
+    "tools/qa-v36/interaction.json": {
+      "before": null,
+      "after": "246f89dad26d673401f72756ef0df237f81f7c8ca67bd528e804e401c1ec0fe9"
+    },
+    "tools/qa-v36/lobby-cpu.json": {
+      "before": null,
+      "after": "428ddf6d8f307fa6e4930f0ea1c14a6c7368aa1be46a52b899e00d94e898b150"
+    },
+    "tools/qa-v36/lobby-cpu.mjs": {
+      "before": null,
+      "after": "4a4228b18530c2912d3a9cef7ca479028db0b26293d07a752be81aeced777ca6"
+    },
+    "tools/qa-v36/parking-cpu.json": {
+      "before": null,
+      "after": "a00b25463ea8e724f5710c499cc8a5b75f95707694fdfc632a7155ffd75da51d"
+    },
+    "tools/qa-v36/parking-cpu.mjs": {
+      "before": null,
+      "after": "6514bfb8512f6b3c9a0e1f250339b7cf52a4c4ace6bcf27197b7e44fbf1430a0"
+    },
+    "tools/qa-v36/performance-paired-mac.cjs": {
+      "before": null,
+      "after": "07b20c8d3805713641ebe2336e9b4eb273604b4d99a291e64d6ccba1f37fbc1b"
+    },
+    "tools/qa-v36/performance-paired.json": {
+      "before": null,
+      "after": "8481a70fb6593ef28f7a0a892356eec19d49a6caaf6900c2cf0843f72c58a3bc"
+    },
+    "tools/qa-v36/performance-summary.json": {
+      "before": null,
+      "after": "1c5a18c818f4c9cf0e09d590f78a3a079e4b9482c1b36cc039bc59d015840b7a"
+    },
+    "tools/qa-v36/visual-mac.cjs": {
+      "before": null,
+      "after": "f44ac30016b51535e50fc260c81d856d50443c16763e9051bdf121d2af66d9d6"
+    },
+    "tools/reference-study-v36.md": {
+      "before": null,
+      "after": "6eb3ff41a405a91024ea64ba24bab03796e1581aefc1afcbec1f12b8d00a4dbf"
+    }
+  },
+  "checkCounts": {
+    "geometry": 31,
+    "acceptance": 57,
+    "interaction": 154,
+    "lobby-cpu": 53,
+    "club-cpu": 32,
+    "parking-cpu": 42,
+    "fitness-cpu": 44,
+    "fitness-context-cpu": 18,
+    "cpu-activities": 7
+  },
+  "totalChecks": 438,
+  "checks": [
+    "tools/qa-v36/geometry.json",
+    "tools/qa-v36/acceptance.json",
+    "tools/qa-v36/interaction.json",
+    "tools/qa-v36/lobby-cpu.json",
+    "tools/qa-v36/club-cpu.json",
+    "tools/qa-v36/parking-cpu.json",
+    "tools/qa-v36/fitness-cpu.json",
+    "tools/qa-v36/fitness-context-cpu.json",
+    "tools/qa-v36/cpu-activities.json"
+  ],
+  "performance": "tools/qa-v36/performance-summary.json",
+  "limitsFile": "tools/reference-study-v36.md",
+  "sourceStudy": "references/source-amenities-v36.json",
+  "parkingEvidence": "references/amenities-and-parking-v36.json",
+  "arenaPlacement": "Preserved v35 arena registration; no new movement in v36",
+  "fitnessPlan": {
+    "unit": "3/5",
+    "advertisedAreaM2": 105.0,
+    "sourceFloor": 3,
+    "adaptedFloor": 1,
+    "adaptedFloorElevationScene": 0.24,
+    "status": "Approximate raster contour; authored fitout and floor adaptation, not a confirmed developer gym floor plan"
+  },
+  "fitnessContext": {
+    "module": "dist/fitness-context-cut-v35.js",
+    "scope": "Clone-only office0 section and local frame suppression",
+    "exteriorUnchanged": true,
+    "neighbouringPodiumPreserved": true,
+    "viewLimit": "Street view is partial because neighbouring two-storey podium remains visible"
+  },
+  "newInteriors": "Render-inspired authored room placements; missing working-drawing floor registration remains explicit",
+  "performanceMeasured": true
+}

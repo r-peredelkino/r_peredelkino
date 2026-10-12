@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="ru">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:,">
+<title>v31 · GPU shadow geometry QA</title>
+<style>
+body{margin:0;padding:20px;background:#14202e;color:#e2e9ef;font:14px/1.45 system-ui,sans-serif}h1{font-size:22px}button,select{font:inherit;padding:8px 12px;margin:0 6px 10px 0}canvas{display:block;max-width:100%;height:auto;background:#fff}pre{white-space:pre-wrap;max-width:1200px}small{display:block;color:#aebfce;max-width:1100px;margin-bottom:18px}
+</style>
+<h1>Проверка геометрии GPU-теней v31</h1>
+<small>Изолированные калибровочные объёмы. Реальный architectural-lighting.js и PCFSoftShadowMap. Освещение Lambert без фоновой составляющей; направление Солнца не подгоняется. Числа относятся к форме тени и дискретизации, а не к точности реконструкции квартала или FPS приложения.</small>
+<select id="case"></select><button id="run" disabled>Проверить выбранный случай</button>
+<p id="status">Загрузка модулей…</p><div id="viewport"></div><pre id="report"></pre>
+<script type="module">
+// This file can be served at tools/qa-v31/ inside the project. When staged next
+// to dist/index.html use ?dist=./ . Runtime source files are never rewritten.
+const sourceBase = new URL(new URLSearchParams(location.search).get('dist') || '../../dist/', location.href);
+
+/* CPU_HELPERS_BEGIN */
+const QA_CASES = [
+  {name:'user-dawn-box-full',sun:'user',shape:'box',height:10,length:6,width:10,view:'full',pixels:[1536,512]},
+  {name:'user-dawn-contact-wall',sun:'user',shape:'box',height:8,length:1,width:12,view:'contact',pixels:[1024,1024]},
+  {name:'summer-noon-box',sun:'summer',shape:'box',height:12,length:8,width:12,view:'full',pixels:[1024,768]},
+  {name:'winter-noon-box',sun:'winter',shape:'box',height:12,length:8,width:12,view:'full',pixels:[1536,768]},
+  {name:'low-025-column-full',sun:'low',shape:'cylinder',height:1,radius:.75,view:'full',pixels:[2048,256]},
+  {name:'low-025-contact-wall',sun:'low',shape:'box',height:3,length:1,width:12,view:'contact',pixels:[1024,1024]},
+  {name:'offview-dawn-100m-wall-tip',sun:'user',shape:'box',height:100,length:8,width:12,view:'tip',pixels:[1024,1024],requiresOffView:true},
+  {name:'offview-low-10m-wall-tip',sun:'low',shape:'box',height:10,length:4,width:12,view:'tip',pixels:[1024,1024],requiresOffView:true},
+  // Deliberately wrong QA-only controls: a trustworthy harness must reject them.
+  {name:'control-wrong-normal-bias',sun:'user',shape:'box',height:100,length:8,width:12,view:'tip',pixels:[1024,1024],requiresOffView:true,control:true,overrideNormalBias:.55},
+  {name:'control-wrong-depth-bias',sun:'user',shape:'box',height:8,length:1,width:12,view:'contact',pixels:[1024,1024],control:true,overrideDepthBias:-.08},
+];
+const dot3=(a,b)=>a[0]*b[0]+a[1]*b[1]+a[2]*b[2];
+function independentSunVector(solar,frame){
+  const a=solar.azimuth*Math.PI/180,e=solar.apparentElevation*Math.PI/180;
+  const east=Math.sin(a)*Math.cos(e),north=Math.cos(a)*Math.cos(e);
+  return[frame.eastWorld[0]*east+frame.northWorld[0]*north,Math.sin(e),frame.eastWorld[1]*east+frame.northWorld[1]*north];
+}
+function casePlan(config,solar,frame){
+  const ray=independentSunVector(solar,frame),horizontal=Math.hypot(ray[0],ray[2]);
+  if(!(ray[1]>0))throw new RangeError('The GPU footprint fixture requires the solar centre above the horizon');
+  const u=[-ray[0]/horizontal,0,-ray[2]/horizontal],v=[u[2],0,-u[0]];
+  const endOfBase=config.shape==='cylinder'?config.radius:config.length/2;
+  const shadowLength=config.height*horizontal/ray[1],tip=endOfBase+shadowLength;
+  let uMin,uMax;
+  if(config.view==='contact'){uMin=endOfBase-.25;uMax=endOfBase+7.75;}
+  else if(config.view==='tip'){uMin=tip-8;uMax=tip+8;}
+  else{const margin=Math.max(6,Math.min(12,shadowLength*.06));uMin=-endOfBase-margin;uMax=tip+margin;}
+  const viewWidth=uMax-uMin,viewHeight=viewWidth*config.pixels[1]/config.pixels[0];
+  const localRay=[dot3(ray,u),ray[1],dot3(ray,v)];
+  return{...config,solar,ray,u,v,localRay,endOfBase,shadowLength,tip,uMin,uMax,vMin:-viewHeight/2,vMax:viewHeight/2,
+    viewWidth,viewHeight,pixelWorld:[viewWidth/config.pixels[0],viewHeight/config.pixels[1]]};
+}
+function worldPoint(plan,u,v,y=0){return[plan.u[0]*u+plan.v[0]*v,y,plan.u[2]*u+plan.v[2]*v];}
+function baseContains(plan,u,v){
+  return plan.shape==='cylinder'?u*u+v*v<=plan.radius*plan.radius:
+    Math.abs(u)<=plan.length/2&&Math.abs(v)<=plan.width/2;
+}
+// Independent ray/solid equations. They do not use Three.Raycaster, the shadow
+// fitter, solar-exposure.js, the shadow texture, or a GPU-derived silhouette.
+function analyticBlocked(plan,u,v){
+  const [du,dy,dv]=plan.localRay;
+  let from=0,to=plan.height/dy;
+  if(plan.shape==='cylinder'){
+    const a=du*du+dv*dv,b=2*(u*du+v*dv),c=u*u+v*v-plan.radius*plan.radius;
+    const discriminant=b*b-4*a*c;if(discriminant<0)return false;
+    const root=Math.sqrt(Math.max(0,discriminant));
+    from=Math.max(from,(-b-root)/(2*a));to=Math.min(to,(-b+root)/(2*a));
+  }else{
+    for(const [origin,delta,half] of [[u,du,plan.length/2],[v,dv,plan.width/2]]){
+      if(Math.abs(delta)<1e-12){if(Math.abs(origin)>half)return false;continue;}
+      const a=(-half-origin)/delta,b=(half-origin)/delta;
+      from=Math.max(from,Math.min(a,b));to=Math.min(to,Math.max(a,b));
+    }
+  }
+  return to>=from&&to>1e-8;
+}
+function buildFixture(THREE,plan){
+  const root=new THREE.Group();root.name=`GPU fixture / ${plan.name}`;
+  const receiverGeometry=new THREE.PlaneGeometry(plan.viewWidth+2,plan.viewHeight+2);
+  const basis=new THREE.Matrix4().makeBasis(new THREE.Vector3(...plan.u),new THREE.Vector3(...plan.v),new THREE.Vector3(0,1,0));
+  receiverGeometry.applyMatrix4(basis);
+  const receiver=new THREE.Mesh(receiverGeometry,new THREE.MeshLambertMaterial({color:0xffffff,toneMapped:false}));
+  receiver.position.fromArray(worldPoint(plan,(plan.uMin+plan.uMax)/2,0));receiver.receiveShadow=true;receiver.name='Flat calibration receiver y=0';root.add(receiver);
+  const geometry=plan.shape==='cylinder'?new THREE.CylinderGeometry(plan.radius,plan.radius,plan.height,128,1,false):new THREE.BoxGeometry(plan.length,plan.height,plan.width);
+  // Visible to the real shadow pass, but neither colour nor depth is written in
+  // the camera pass. Therefore the paired images compare only the receiver.
+  const material=new THREE.MeshLambertMaterial({color:0xffffff,colorWrite:false,depthWrite:false,toneMapped:false});
+  const caster=new THREE.Mesh(geometry,material);caster.name='Known calibration solid';caster.position.y=plan.height/2;
+  caster.rotation.y=Math.atan2(-plan.u[2],plan.u[0]);caster.castShadow=true;root.add(caster);root.updateMatrixWorld(true);
+  const receiverBounds=new THREE.Box3().setFromPoints([
+    worldPoint(plan,plan.uMin,plan.vMin),worldPoint(plan,plan.uMin,plan.vMax),
+    worldPoint(plan,plan.uMax,plan.vMin),worldPoint(plan,plan.uMax,plan.vMax),
+  ].map(p=>new THREE.Vector3(...p)));
+  receiverBounds.min.y=-.001;receiverBounds.max.y=.001;
+  const camera=new THREE.OrthographicCamera(-plan.viewWidth/2,plan.viewWidth/2,plan.viewHeight/2,-plan.viewHeight/2,.1,Math.max(300,plan.height+220));
+  const target=new THREE.Vector3(...worldPoint(plan,(plan.uMin+plan.uMax)/2,0));
+  camera.position.copy(target).add(new THREE.Vector3(0,Math.max(120,plan.height+100),0));camera.up.set(...plan.v);camera.lookAt(target);camera.updateProjectionMatrix();camera.updateMatrixWorld(true);
+  return{root,receiver,caster,camera,receiverBounds};
+}
+function resolutionFor(plan,fit){
+  // Invert the light XY / ground UV Jacobian. At low sun, one shadow texel
+  // corresponds to roughly texel/sin(elevation) along a horizontal shadow.
+  const a=dot3(fit.lightSpaceRight,plan.u),b=dot3(fit.lightSpaceRight,plan.v);
+  const c=dot3(fit.lightSpaceUp,plan.u),d=dot3(fit.lightSpaceUp,plan.v),det=a*d-b*c;
+  if(Math.abs(det)<1e-12)throw new RangeError('Singular ground / light projection');
+  const texelU=(Math.abs(d)*fit.texelWorld[0]+Math.abs(b)*fit.texelWorld[1])/Math.abs(det);
+  const texelV=(Math.abs(c)*fit.texelWorld[0]+Math.abs(a)*fit.texelWorld[1])/Math.abs(det);
+  const tolerance=[3*texelU+2*plan.pixelWorld[0],3*texelV+2*plan.pixelWorld[1]];
+  return{receiverPixelWorld:plan.pixelWorld,shadowMapTexelLightWorld:fit.texelWorld,shadowTexelProjectedOnGround:[texelU,texelV],
+    boundaryToleranceWorld:tolerance,guardPixels:tolerance.map((n,i)=>Math.ceil(n/plan.pixelWorld[i])),
+    method:'3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification',
+    lightXYFromGroundUV:[a,b,c,d]};
+}
+const linearByte=Array.from({length:256},(_,i)=>{const v=i/255;return v<=.04045?v/12.92:((v+.055)/1.055)**2.4;});
+const luminance=(rgba,i)=>.2126*linearByte[rgba[i]]+.7152*linearByte[rgba[i+1]]+.0722*linearByte[rgba[i+2]];
+function integral(mask,width,height){
+  const stride=width+1,result=new Uint32Array(stride*(height+1));
+  for(let y=0;y<height;y++){let row=0;for(let x=0;x<width;x++){row+=mask[y*width+x];result[(y+1)*stride+x+1]=result[y*stride+x+1]+row;}}
+  return result;
+}
+const rectSum=(table,stride,x0,y0,x1,y1)=>table[y1*stride+x1]-table[y0*stride+x1]-table[y1*stride+x0]+table[y0*stride+x0];
+function analysePixels(plan,fit,withShadow,withoutShadow){
+  const [width,height]=plan.pixels,count=width*height,resolution=resolutionFor(plan,fit);
+  const expected=new Uint8Array(count),observed=new Uint8Array(count),valid=new Uint8Array(count),ratios=new Float32Array(count);
+  let invalidReference=0,validCount=0,intersection=0,union=0,minimumClearByte=255,maximumClearByte=0;
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){
+    const at=y*width+x,i=at*4,u=plan.uMin+(x+.5)*plan.pixelWorld[0],v=plan.vMin+(y+.5)*plan.pixelWorld[1];
+    const clear=luminance(withoutShadow,i),shade=luminance(withShadow,i);ratios[at]=clear>1e-8?shade/clear:NaN;
+    minimumClearByte=Math.min(minimumClearByte,withoutShadow[i],withoutShadow[i+1],withoutShadow[i+2]);maximumClearByte=Math.max(maximumClearByte,withoutShadow[i],withoutShadow[i+1],withoutShadow[i+2]);
+    if(baseContains(plan,u,v))continue;
+    if(clear<1e-5){invalidReference++;continue;}
+    valid[at]=1;validCount++;expected[at]=Number(analyticBlocked(plan,u,v));observed[at]=Number(ratios[at]<.5);
+    if(expected[at]&&observed[at])intersection++;if(expected[at]||observed[at])union++;
+  }
+  const expectedIntegral=integral(expected,width,height),validIntegral=integral(valid,width,height),[gx,gy]=resolution.guardPixels,stride=width+1;
+  let strictCount=0,mismatches=0,strictShadow=0,missedShadow=0,strictClear=0,falseShadow=0;
+  const diagnostic=new Uint8Array(count*4),expectedImage=new Uint8Array(count*4);
+  for(let y=0;y<height;y++)for(let x=0;x<width;x++){
+    const at=y*width+x,i=at*4;let strict=false;
+    if(valid[at]){
+      const x0=Math.max(0,x-gx),x1=Math.min(width,x+gx+1),y0=Math.max(0,y-gy),y1=Math.min(height,y+gy+1),area=(x1-x0)*(y1-y0);
+      const e=rectSum(expectedIntegral,stride,x0,y0,x1,y1),v=rectSum(validIntegral,stride,x0,y0,x1,y1);
+      strict=v===area&&(e===0||e===area);
+      if(strict){strictCount++;if(expected[at]){strictShadow++;if(!observed[at])missedShadow++;}else{strictClear++;if(observed[at])falseShadow++;}if(expected[at]!==observed[at])mismatches++;}
+    }
+    const colour=!valid[at]?[155,163,174]:expected[at]===observed[at]?(expected[at]?[36,70,101]:[242,245,248]):strict?(expected[at]?[230,57,57]:[185,49,209]):[241,191,70];
+    diagnostic.set([...colour,255],i);const e=!valid[at]?160:expected[at]?0:255;expectedImage.set([e,e,e,255],i);
+  }
+  const row=Math.max(0,Math.min(height-1,Math.floor((0-plan.vMin)/plan.pixelWorld[1])));
+  const profileV=plan.vMin+(row+.5)*plan.pixelWorld[1];let expectedFirst=null,expectedLast=null,actualFirst=null,actualLast=null;
+  for(let x=0;x<width;x++){
+    const at=row*width+x,u=plan.uMin+(x+.5)*plan.pixelWorld[0];if(!valid[at])continue;
+    if(expected[at]){expectedFirst??=u;expectedLast=u;}if(observed[at]){actualFirst??=u;actualLast=u;}
+  }
+  const contactMeasured=plan.uMin<plan.endOfBase&&plan.uMax>plan.endOfBase;
+  const tipMeasured=plan.uMin<plan.tip&&plan.uMax>plan.tip;
+  const contactGap=contactMeasured&&expectedFirst!==null&&actualFirst!==null?Math.max(0,actualFirst-expectedFirst):contactMeasured?Infinity:null;
+  const tipError=tipMeasured&&expectedLast!==null&&actualLast!==null?actualLast-expectedLast:tipMeasured?Infinity:null;
+  const profile={v:profileV,expectedFirstShadowU:expectedFirst,actualFirstShadowU:actualFirst,expectedLastShadowU:expectedLast,actualLastShadowU:actualLast,
+    contactMeasured,contactGapWorld:Number.isFinite(contactGap)?contactGap:null,contactMissing:contactMeasured&&!Number.isFinite(contactGap),
+    tipMeasured,tipErrorWorld:Number.isFinite(tipError)?tipError:null,tipMissing:tipMeasured&&!Number.isFinite(tipError),
+    expectedContactWorld:worldPoint(plan,plan.endOfBase,profileV),expectedTipWorld:worldPoint(plan,plan.tip,profileV)};
+  const gates={referenceVisible:invalidReference===0&&validCount>100,interiorShadowRepresented:strictShadow>=20,
+    interiorMismatch:mismatches/Math.max(1,strictCount)<=.01,shadowRecall:missedShadow/Math.max(1,strictShadow)<=.02,
+    falseShadow:falseShadow/Math.max(1,strictClear)<=.01,
+    contact:!contactMeasured||(Number.isFinite(contactGap)&&contactGap<=resolution.boundaryToleranceWorld[0]),
+    tip:!tipMeasured||(Number.isFinite(tipError)&&Math.abs(tipError)<=resolution.boundaryToleranceWorld[0])};
+  return{footprintPass:Object.values(gates).every(Boolean),gates,resolution,profile,
+    metrics:{validPixels:validCount,invalidReferencePixels:invalidReference,strictInteriorPixels:strictCount,strictShadowPixels:strictShadow,strictClearPixels:strictClear,
+      interiorMismatchPixels:mismatches,interiorMismatchFraction:mismatches/Math.max(1,strictCount),shadowRecall:1-missedShadow/Math.max(1,strictShadow),
+      falseShadowFraction:falseShadow/Math.max(1,strictClear),rawMaskIntersectionOverUnion:union?intersection/union:null,referenceEncodedRange:[minimumClearByte,maximumClearByte]},
+    diagnostic,expectedImage};
+}
+const CPU_HELPERS={QA_CASES,dot3,independentSunVector,casePlan,worldPoint,baseContains,analyticBlocked,buildFixture,resolutionFor,analysePixels};
+/* CPU_HELPERS_END */
+
+function encodePNG(rgba,width,height){
+  const c=document.createElement('canvas');c.width=width;c.height=height;const ctx=c.getContext('2d');
+  const flipped=new Uint8ClampedArray(rgba.length);for(let y=0;y<height;y++)flipped.set(rgba.subarray(y*width*4,(y+1)*width*4),(height-y-1)*width*4);
+  ctx.putImageData(new ImageData(flipped,width,height),0,0);return c.toDataURL('image/png');
+}
+async function sourceHash(name){
+  const response=await fetch(new URL(name,sourceBase),{cache:'no-store'});if(!response.ok)throw new Error(`Cannot read runtime source ${name}: ${response.status}`);
+  const buffer=await response.arrayBuffer(),digest=await crypto.subtle.digest('SHA-256',buffer);
+  return{file:name,bytes:buffer.byteLength,sha256:[...new Uint8Array(digest)].map(n=>n.toString(16).padStart(2,'0')).join('')};
+}
+try{
+  const [THREE,{createArchitecturalLighting},solar,{geoFrame}]=await Promise.all([
+    import(new URL('vendor/three.module.js',sourceBase).href),
+    import(new URL('architectural-lighting.js',sourceBase).href),
+    import(new URL('solar.js',sourceBase).href),import(new URL('geo-reference.js',sourceBase).href),
+  ]);
+  const renderer=new THREE.WebGLRenderer({antialias:false,alpha:false,preserveDrawingBuffer:true,powerPreference:'high-performance'});
+  renderer.setPixelRatio(1);renderer.outputColorSpace=THREE.SRGBColorSpace;renderer.toneMapping=THREE.NoToneMapping;
+  renderer.shadowMap.enabled=true;renderer.shadowMap.type=THREE.PCFSoftShadowMap;document.querySelector('#viewport').append(renderer.domElement);
+  const gl=renderer.getContext(),extension=gl.getExtension('WEBGL_debug_renderer_info');
+  const rendererInfo={renderer:extension?gl.getParameter(extension.UNMASKED_RENDERER_WEBGL):gl.getParameter(gl.RENDERER),vendor:extension?gl.getParameter(extension.UNMASKED_VENDOR_WEBGL):gl.getParameter(gl.VENDOR),
+    version:gl.getParameter(gl.VERSION),shadingLanguage:gl.getParameter(gl.SHADING_LANGUAGE_VERSION),maxTextureSize:gl.getParameter(gl.MAX_TEXTURE_SIZE),threeRevision:THREE.REVISION,
+    outputColorSpace:'SRGBColorSpace',toneMapping:'NoToneMapping',shadowType:'PCFSoftShadowMap',devicePixelRatio:1};
+  const dates={user:solar.moscowDate('2026-10-11',432),summer:solar.daylight('2026-06-21',55.6367,37.3525).noonUTC,winter:solar.daylight('2026-12-21',55.6367,37.3525).noonUTC};
+  const states=Object.fromEntries(Object.entries(dates).map(([key,date])=>[key,{...solar.solarPosition(date,55.6367,37.3525),dateUTC:new Date(date).toISOString(),type:'real Moscow instant',latitude:55.6367,longitude:37.3525}]));
+  states.low={azimuth:states.user.azimuth,apparentElevation:.25,type:'explicit calibration angle, not a claimed civil-time observation'};
+  const sourceHashes=await Promise.all(['architectural-lighting.js','solar-shadow-camera.js','solar.js','vendor/three.module.js'].map(sourceHash));
+  let running=false;
+  async function runCase(name){
+    if(running)throw new Error('Run GPU cases sequentially');const config=QA_CASES.find(c=>c.name===name);if(!config)throw new Error(`Unknown fixture ${name}`);
+    running=true;const started=performance.now(),plan=casePlan(config,states[config.sun],geoFrame),scene=new THREE.Scene();
+    const fixture=buildFixture(THREE,plan);scene.add(fixture.root);renderer.setSize(...config.pixels,false);
+    let rig=null,shadowDraws=0;
+    fixture.caster.onBeforeShadow=()=>shadowDraws++;
+    try{
+      rig=createArchitecturalLighting(scene,renderer,{modelRoot:fixture.root,receiverBounds:fixture.receiverBounds,mobile:false});
+      rig.set({azimuth:plan.solar.azimuth,elevation:plan.solar.apparentElevation,cloudCover:0});
+      const productionAmbient=rig.ambient.intensity;rig.ambient.intensity=0;
+      rig.focus(fixture.camera);
+      if(config.overrideNormalBias!==undefined)rig.sun.shadow.normalBias=config.overrideNormalBias;
+      if(config.overrideDepthBias!==undefined)rig.sun.shadow.bias=config.overrideDepthBias;
+      const fit=rig.getShadowState();
+      const viewFrustum=new THREE.Frustum().setFromProjectionMatrix(new THREE.Matrix4().multiplyMatrices(fixture.camera.projectionMatrix,fixture.camera.matrixWorldInverse));
+      const casterInView=viewFrustum.intersectsObject(fixture.caster);
+      let maxCasterDepthNDC=0;
+      const casterBox=new THREE.Box3().setFromObject(fixture.caster);
+      for(const x of [casterBox.min.x,casterBox.max.x])for(const y of [casterBox.min.y,casterBox.max.y])for(const z of [casterBox.min.z,casterBox.max.z])maxCasterDepthNDC=Math.max(maxCasterDepthNDC,Math.abs(new THREE.Vector3(x,y,z).project(rig.sun.shadow.camera).z));
+      const capture=casts=>{
+        fixture.caster.castShadow=casts;renderer.shadowMap.needsUpdate=true;rig.sun.shadow.needsUpdate=true;
+        renderer.render(scene,fixture.camera);gl.finish();
+        const pixels=new Uint8Array(config.pixels[0]*config.pixels[1]*4);gl.readPixels(0,0,...config.pixels,gl.RGBA,gl.UNSIGNED_BYTE,pixels);return pixels;
+      };
+      // Compile first. Both measured passes then use exactly the same light fit.
+      capture(true);shadowDraws=0;
+      const withShadow=capture(true),drawsWithShadow=shadowDraws,withoutShadow=capture(false);
+      const measured=analysePixels(plan,fit,withShadow,withoutShadow),directionError=Math.hypot(...fit.worldDirection.map((n,i)=>n-plan.ray[i]));
+      const glError=gl.getError(),geometryGates={directionPreserved:directionError<1e-10,casterDepthIncluded:maxCasterDepthNDC<=1+1e-7,
+        requiredOffView:!config.requiresOffView||!casterInView,shadowCasterSubmitted:drawsWithShadow>0,glError:glError===0};
+      const infrastructurePass=Object.values(geometryGates).every(Boolean);
+      const pass=infrastructurePass&&(config.control?!measured.footprintPass:measured.footprintPass);
+      const result={name,pass,status:!infrastructurePass?'INFRASTRUCTURE_FAIL':config.control?(measured.footprintPass?'CONTROL_NOT_DETECTED':'CONTROL_DETECTED'):(measured.footprintPass?'PASS':'FAIL'),
+        control:!!config.control,solar:plan.solar,fixture:{shape:plan.shape,height:plan.height,length:plan.length??null,width:plan.width??null,radius:plan.radius??null,
+          cylinderSegments:plan.shape==='cylinder'?128:null,cylinderRadialChordError:plan.shape==='cylinder'?plan.radius*(1-Math.cos(Math.PI/128)):null,
+          units:'calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy',baseCentre:[0,0,0],shadowLength:plan.shadowLength,shadowTipWorld:worldPoint(plan,plan.tip,0),basisU:plan.u,basisV:plan.v},
+        view:{pixels:config.pixels,groundUV:[plan.uMin,plan.uMax,plan.vMin,plan.vMax],receiverY:0,casterInView},
+        light:{normalBias:rig.sun.shadow.normalBias,depthBias:rig.sun.shadow.bias,depthBiasWorld:Math.abs(rig.sun.shadow.bias)*(fit.far-fit.near),normalBiasProjectedGround:rig.sun.shadow.normalBias/Math.tan(plan.solar.apparentElevation*Math.PI/180),
+          productionAmbientIntensity:productionAmbient,measurementAmbientIntensity:0,sunIntensity:rig.sun.intensity,shadowMap:rig.sun.shadow.mapSize.toArray(),fit},
+        geometryGates,directionError,maxCasterDepthNDC,drawsWithShadow,glError,footprintPass:measured.footprintPass,gates:measured.gates,resolution:measured.resolution,profile:measured.profile,metrics:measured.metrics,
+        elapsedMilliseconds:performance.now()-started,diagnosticLegend:{blue:'agreement on shadow',white:'agreement on sun',red:'missing shadow outside uncertainty band',purple:'extra shadow outside uncertainty band',yellow:'boundary disagreement within resolution band',gray:'solid footprint excluded'},
+        images:{withShadow:encodePNG(withShadow,...config.pixels),withoutShadow:encodePNG(withoutShadow,...config.pixels),expected:encodePNG(measured.expectedImage,...config.pixels),diagnostic:encodePNG(measured.diagnostic,...config.pixels)}};
+      fixture.caster.castShadow=true;renderer.shadowMap.needsUpdate=true;renderer.render(scene,fixture.camera);
+      window.qa.last={...result,images:undefined};document.querySelector('#report').textContent=JSON.stringify(window.qa.last,null,2);document.querySelector('#status').textContent=`${name}: ${result.status}`;
+      return result;
+    }finally{
+      rig?.dispose();scene.remove(fixture.root);fixture.root.traverse(o=>{o.geometry?.dispose();if(Array.isArray(o.material))o.material.forEach(m=>m.dispose());else o.material?.dispose();});running=false;
+    }
+  }
+  window.qa={ready:true,cases:QA_CASES.map(c=>({name:c.name,control:!!c.control})),runCase,rendererInfo,sourceHashes,
+    scope:'Native WebGL geometric shadow QA of the real v31 lighting rig on simple calibration solids; not application FPS, not measured site geometry'};
+  const selection=document.querySelector('#case');for(const c of QA_CASES){const option=document.createElement('option');option.value=c.name;option.textContent=c.name;selection.append(option);}
+  const run=document.querySelector('#run');run.disabled=false;run.onclick=async()=>{run.disabled=true;try{await runCase(selection.value);}catch(error){document.querySelector('#status').textContent=String(error);console.error(error);}finally{run.disabled=false;}};
+  document.querySelector('#status').textContent=`Готово · ${rendererInfo.renderer}`;
+}catch(error){window.qa={ready:false,error:String(error.stack||error)};document.querySelector('#status').textContent=String(error);console.error(error);}
+</script>
+</html>

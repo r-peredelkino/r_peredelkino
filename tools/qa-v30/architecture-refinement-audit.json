@@ -1,0 +1,500 @@
+{
+  "status": "reviewed with limitations; GPU B visually improved, not 1:1 certified",
+  "source_views": [
+    "2026-10-11 09.29.14",
+    "2026-10-11 09.29.18",
+    "2026-10-11 09.29.19",
+    "2026-10-11 09.29.22",
+    "2026-10-11 09.29.23",
+    "2026-10-11 09.29.28"
+  ],
+  "files": {
+    "frontage-zones.js": {
+      "before": "32a90fa009c44bd468364ec8fbec9213dda64e8442f59f1bdddcedbaefa5416e",
+      "gpuACodeSnapshot": "32a90fa009c44bd468364ec8fbec9213dda64e8442f59f1bdddcedbaefa5416e",
+      "after": "e9d66f449b9c385f0a96731b2b5bfbb05e0c2cb815c727a075884980e5cb26b8"
+    },
+    "commercial-frontage.js": {
+      "before": "f42d18d809c8c37aced4d4c2078c2bd76d3829ec6bab1c81838a2d8a52526ebb",
+      "gpuACodeSnapshot": "89fa0e02ca29cd3d8746cf14e57003b418819792d05b3e1643618b775eaa4fac",
+      "after": "fb80e67071f49540005960e0e308dad6897f8745713e2e7ee4f4bf5c6e619ee0"
+    },
+    "facade-detail.js": {
+      "before": "bb6239196368406755a5cb43893a22d27cdc276f27886f7d28f00c04d64ab719",
+      "gpuACodeSnapshot": "b1a216bf814f17a0415efa0937fc2ab142f9b43fd57dff73e43c84b4b06f79db",
+      "after": "1fb78b76aa24fce66d0f58191007821b77264272bcae4b0675b21ec46879264e"
+    },
+    "window-lighting.js": {
+      "before": "3f349e5c02f52f87af949363c7077af6cc922ccb0cb6f25184a088c763d2c217",
+      "gpuACodeSnapshot": "7017374496259671d190c3542ff59a0df1a7d409ef9524be3d950176a1a70796",
+      "after": "57667b1a1a17cf6bce71cb20ecf60207a879e4f1aeaa36006997654394cac44d"
+    },
+    "arena-exterior.js": {
+      "before": "2fa41e6b0e0f9353ff9e81ecd4d5174b3f01b6d6c6ea7da127921205c94bce91",
+      "gpuACodeSnapshot": "2f3c2a4bb2a63b1d44442fb73802ae731104bb699286241205b00a1b972cc1cd",
+      "after": "6619f48bed321a795ab435219ba183e5c902b6a5a106848b97522c1cab7a34cc"
+    },
+    "forecourt-architecture.js": {
+      "before": "f79a4eb814c154fad8cae4b2372264f53c544f3adfe122ca8907a50b1b73539d",
+      "gpuACodeSnapshot": "7be27ff341ba1bcf52f133d61788a2414df9f9e49048cf490f5d484aeab714e2",
+      "after": "17b766920486a4626d7b24cd192f1b8ec25f087569b22cd629b6579bd989f193"
+    },
+    "complex-model.js": {
+      "before": "96da5e1ff58d2834680f7a167495540d3f57d009b7132bd6a5a0d5a533ed1e0f",
+      "after": "594e6733767f9d58b69217e2a1c8f82fe87eac681e4d7b23673cf548615a93b8"
+    },
+    "exterior-roofs.js": {
+      "before": "57d2468563df18f11a5c8c8270445e49dd0a75278de515856890436ec9e69ded",
+      "after": "0a6e5b082abde0dda365488ab2c2657dc5808b10b59d5819dbd7758c319fe180"
+    },
+    "shop-interiors.js": {
+      "before": "356d8fe6305e3a72af0eaae88b89a11f22e1c62af4625a0a0b7a2cf73b051e3f",
+      "after": "1688793f791b2eecdc2c0759338f222acfd5c4f4a811e9019669e777bc0757f7",
+      "scope": "Remove only visible application-handle mask; furniture/colour atlas unchanged"
+    }
+  },
+  "changes": [
+    {
+      "id": "residential_ribbon",
+      "before": {
+        "projection": 0.18,
+        "wave": 0.28,
+        "peak_plan_offset": 0.46,
+        "profile": "cosine",
+        "height": 0.76
+      },
+      "after": {
+        "projection": 0.18,
+        "wave": 0.72,
+        "peak_plan_offset": 0.9,
+        "wavePlateau": 0.16,
+        "profile": "smooth shoulders between broad crests and troughs",
+        "height": 0.76
+      },
+      "basis": "09.29.18/23 show deeper, broad facade protrusions. Wave depth is a conservative visual estimate, not a measured dimension. Corner fade and source floor levels remain.",
+      "integration": "Root applied wave:.72 in complex-model.js."
+    },
+    {
+      "id": "shop_glazing",
+      "before": {
+        "upper_tint": "#b5c3ca",
+        "roughness": 0.3,
+        "metalness": 0.18,
+        "office_interior_backings": 0,
+        "painted_reflection_stripe": true
+      },
+      "after": {
+        "upper_tint": "#e1e6df",
+        "roughness": 0.27,
+        "metalness": 0.08,
+        "envMapIntensity": 0.45,
+        "office_interior_backings": 16,
+        "backing_offset": 0.055,
+        "painted_reflection_stripe": false
+      },
+      "basis": "Source upper commercial glazing remains legible. The upper atlas was already darker, making the extra blue-grey instance tint redundant. Office transparent glass previously revealed the solid dark podium."
+    },
+    {
+      "id": "interior_daylight",
+      "before": {
+        "daytime_indirect_atlas_factor": 0
+      },
+      "after": {
+        "lower_shop_atlas_factor": 0.055,
+        "upper_shop_atlas_factor": 0.075,
+        "residential_atlas_factor": 0.06,
+        "office_glass_factor": 0.01,
+        "material_emissiveIntensity": 2.8
+      },
+      "basis": "Retain room detail in exterior shade by adding a modest baked-indirect component. Existing night factor, per-room timing and masked panels are preserved. PBR scene reflections replace the painted stripe."
+    },
+    {
+      "id": "gallery_and_canopies",
+      "before": {
+        "white_painted_metalness": 0.24,
+        "gallery_glass_tint": "#b1c0c4",
+        "gallery_glass_roughness": 0.36,
+        "curved_slab_normals": "flat per polygon face"
+      },
+      "after": {
+        "white_painted_metalness": 0.06,
+        "gallery_glass_tint": "#c5d0c9",
+        "gallery_glass_roughness": 0.26,
+        "gallery_glass_envMapIntensity": 0.45,
+        "curved_slab_normals": "smoothed vertical walls, flat caps"
+      },
+      "basis": "Painted white components should remain diffuse; smooth source gallery/canopy perimeter should not show polygon shading. Straight pavilion corners remain sharp."
+    },
+    {
+      "id": "arena",
+      "before": {
+        "default_media": "blue greeting from promo_new.jpg",
+        "glass_color": "#3c4850",
+        "glass_metalness": 0.25,
+        "joint_color": "#637079"
+      },
+      "after": {
+        "default_media": "pale ivory / muted gold field observed in supplied panorama",
+        "promo_media": "Preserved via arenaMedia.setPreset(\"promo\")",
+        "glass_color": "#556362",
+        "glass_metalness": 0.08,
+        "glass_envMapIntensity": 0.45,
+        "joint_color": "#737975"
+      },
+      "basis": "Panorama and promo show different actual media treatments. New default follows the newly supplied images. Exact media artwork was not available; default is explicitly a tonal reconstruction without invented wording. Arena geometry remains unchanged."
+    }
+  ],
+  "preserved": {
+    "arena_radius_and_roof_profile": false,
+    "building_centres_and_base_footprints": true,
+    "window_bay_count_and_floor_datums": true,
+    "gallery_outline_and_section": true,
+    "night_per_room_schedule_and_masking": true,
+    "commercial_source_atlas": true,
+    "query_keys": "references30 set by root",
+    "retailLevelsA": {
+      "ground": [
+        0.24,
+        3.26
+      ],
+      "divider": [
+        3.26,
+        3.84
+      ],
+      "upper": [
+        3.84,
+        6.04
+      ],
+      "cornice": [
+        6.04,
+        6.6
+      ],
+      "roof": 6.64
+    },
+    "arena_outer_radius_and_overall_roof_height": true
+  },
+  "verification": {
+    "commercial_arena": "PASS; 193 paired upper bays, 885 rendered panes, same fascia/core intervals, outward visible screen, resource disposal",
+    "exterior_model": "PASS; curved window sampling, no frame/band intersections, crown triangle orientation, roof clearances and disposal",
+    "night_model": "Facade/night/wetness/shader assertions pass; inherited traffic test fails identically on immutable release-v29 at traffic.js signal calculation. Outside this change; no traffic edits.",
+    "same_camera_gpu": "Reviewed with limitations: source-matched forecourt/arena and additional pedestrian view. Improved appearance; 1:1 agreement not certified."
+  },
+  "currentRetailLevelsB": {
+    "ground": [
+      0.24,
+      3.16
+    ],
+    "divider": [
+      3.16,
+      3.94
+    ],
+    "upper": [
+      3.94,
+      6.04
+    ],
+    "cornice": [
+      6.04,
+      6.6
+    ],
+    "roof": 6.64
+  },
+  "gpuBRefinement": {
+    "source": [
+      "qa-v30/panorama-qa/forecourt-source.png",
+      "qa-v30/panorama-qa/arena-source.png"
+    ],
+    "gpuA": [
+      "qa-v30/scene-exports/candidate-facade-detail.png",
+      "qa-v30/scene-exports/candidate-arena-reference.png",
+      "qa-v30/scene-exports/candidate-forecourt-source-day.png"
+    ],
+    "observations": {
+      "bandPitchFractionSource": {
+        "sample": "forecourt-source x1250, y71–613, 5px horizontal median, neutral RGB minimum155; exclude cropped run",
+        "range": [
+          0.43,
+          0.47
+        ]
+      },
+      "bandPitchFractionGpuACloseup": {
+        "sample": "candidate-facade-detail x890, y75–889, same threshold",
+        "range": [
+          0.3,
+          0.37
+        ]
+      },
+      "caveat": "Source/gpuA closeup camera framing differs. Fractions support a visual section correction; they are not surveyed dimensions."
+    },
+    "section": {
+      "bandHeight": 1.08,
+      "windowHeightAllowance": 1.12,
+      "frameHeightAllowance": 1.22,
+      "windowCentreOffset": 0.38,
+      "floorDatumsUnchanged": true
+    },
+    "dayGlazing": {
+      "stylesRGB": [
+        [
+          116,
+          126,
+          115
+        ],
+        [
+          107,
+          119,
+          112
+        ],
+        [
+          134,
+          137,
+          126
+        ],
+        [
+          123,
+          129,
+          121
+        ]
+      ],
+      "residentialIndirectDaylight": 0.024,
+      "windowInstanceTints": [
+        "#9da99e",
+        "#8c9b91",
+        "#7c8d84"
+      ],
+      "opaqueInfillTints": [
+        "#565b58",
+        "#434b47"
+      ],
+      "nightSchedulePreserved": true
+    },
+    "fluting": {
+      "pitchModelUnits": 0.075,
+      "bumpScale": 0.009,
+      "mipmaps": true
+    },
+    "retailFascia": {
+      "previousHeight": 0.58,
+      "height": 0.78,
+      "centre": 3.55,
+      "overallHeightUnchanged": true
+    },
+    "arenaRoof": {
+      "previousRingRadii": [
+        0.966,
+        0.924
+      ],
+      "ringRadii": [
+        0.944,
+        0.811
+      ],
+      "measuredInnerDiameterFraction": "approximately .80 of roof in source projection",
+      "outerRadius": 19.04,
+      "topHeight": 8.66,
+      "seamMeshesUpdated": true
+    },
+    "arenaMedia": {
+      "source": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+      "node": "node1",
+      "nativeFaceSize": 3500,
+      "sourceCamera": {
+        "width": 1700,
+        "height": 1200,
+        "pan": -37,
+        "tilt": -37,
+        "horizontalFov": 58
+      },
+      "registration": [
+        [
+          0.42,
+          1080.0,
+          574.0,
+          1080.0,
+          623.0
+        ],
+        [
+          0.5,
+          1130.0,
+          563.0,
+          1130.0,
+          617.0
+        ],
+        [
+          0.58,
+          1180.0,
+          544.0,
+          1180.0,
+          592.0
+        ],
+        [
+          0.64,
+          1210.0,
+          523.0,
+          1210.0,
+          571.0
+        ],
+        [
+          0.72,
+          1240.0,
+          500.0,
+          1240.0,
+          533.0
+        ],
+        [
+          0.79,
+          1255.0,
+          481.0,
+          1255.0,
+          510.0
+        ],
+        [
+          0.84,
+          1263.0,
+          470.0,
+          1263.0,
+          489.0
+        ]
+      ],
+      "coveredMeshURange": [
+        0.42,
+        0.84
+      ],
+      "unknownSector": "Transparent; the existing neutral white shell remains visible",
+      "method": "Registered source-pixel rays, original cube JPEG sampling, bilinear reprojection",
+      "letteringRepainted": false,
+      "originalDeveloperMaterial": false,
+      "sourceTileHashes": {
+        "panorama/tiles/node1/cf_1/l_3/c_0/tile_0.jpg": "715780cbc64b38dd99b2e5a667097493ae51b629e470c629ccbe50290708ff99",
+        "panorama/tiles/node1/cf_1/l_3/c_0/tile_1.jpg": "bfe0dae63a510ae12f2e4d0197abd3234502f06a88bd753724524dac5a44eec1",
+        "panorama/tiles/node1/cf_1/l_3/c_0/tile_2.jpg": "b7c1feba07bdfee182defbafb2b830f8fe0e9d7067c9056f345b1448f6f94a00",
+        "panorama/tiles/node1/cf_1/l_3/c_0/tile_3.jpg": "b227eac64e04d16fa531504acb5ef49e9a8cd75cdb6a0b46f507d22e41d8d5d5",
+        "panorama/tiles/node1/cf_1/l_3/c_0/tile_4.jpg": "b9eb2eeeefe88d849a276c1d2c056dbf1e0bedf2af82b11e4f399b1bd74fc74f",
+        "panorama/tiles/node1/cf_1/l_3/c_0/tile_5.jpg": "f5bb4719873c3b255a1db4976cabb80488b234d8b1831c53b5eb194f3ba5b11e",
+        "panorama/tiles/node1/cf_1/l_3/c_0/tile_6.jpg": "80357d9b8f217e04e67a3467d0f0b93851607f11a83c84250722138af3adb6c6",
+        "panorama/tiles/node1/cf_1/l_3/c_1/tile_0.jpg": "5a7a30a2d799485dd905f2e62a78cfd5e880fdd618c4745444d9e1d305325637",
+        "panorama/tiles/node1/cf_1/l_3/c_1/tile_1.jpg": "8afe247a6d1ab80303dbeadd044ea2cb58994949ff91218bf034a6a9602ff13b",
+        "panorama/tiles/node1/cf_1/l_3/c_1/tile_2.jpg": "fc7328464d64ad968748a04c5c2f4793ee4d4f4835d925a4deb455be08b46f7a",
+        "panorama/tiles/node1/cf_1/l_3/c_1/tile_3.jpg": "8321c99c6e9285ee98347b7edc7e9ae42b2372d124fa9cc7ddfec680c6bab63d",
+        "panorama/tiles/node1/cf_1/l_3/c_1/tile_4.jpg": "ea2fc423070f7cfeb6cf0cdea7f331c59beb26c47fc6371a38fa6605de36a8df",
+        "panorama/tiles/node1/cf_1/l_3/c_1/tile_5.jpg": "7585d8088aabfa6d9ce14a7cc60989b74eb0bcc105e856113e1f64692532a6cf",
+        "panorama/tiles/node1/cf_1/l_3/c_1/tile_6.jpg": "f85722b512aeb506899b9eaafe9f34732a47e52799ffc3a82a0bf83fe9751fd7",
+        "panorama/tiles/node1/cf_1/l_3/c_2/tile_0.jpg": "e4590ff65091201f92dcf3fa53adbab4d6e5336a221ef549e7892d7f02e8c374",
+        "panorama/tiles/node1/cf_1/l_3/c_2/tile_1.jpg": "28535639077ad463d7ea826bf8247c7aee12a87521b9d6155893da37f0d1a041",
+        "panorama/tiles/node1/cf_1/l_3/c_2/tile_2.jpg": "f302c49780809d8a359904c8acaf9356dbad803d73aaf4dac77aadcf72d2ae0f",
+        "panorama/tiles/node1/cf_1/l_3/c_2/tile_3.jpg": "a4bd72ced61c2481f6d8de21d4d3c8be61d784353e997577ac2e48dd83a1f90e",
+        "panorama/tiles/node1/cf_1/l_3/c_2/tile_4.jpg": "f3ddc1177966a328f473f8cfb0d6ad735f828dcd61b2d425806f1ff04441e854",
+        "panorama/tiles/node1/cf_1/l_3/c_2/tile_5.jpg": "0097c850b6bfd40a340ac4377f8cf822b8d357ed1bb9517b36ab5ccacc4da773",
+        "panorama/tiles/node1/cf_1/l_3/c_2/tile_6.jpg": "723cfca959b992fc02a52351b0630a6fe1bd978e434ad55952fa91dd504f81ce",
+        "panorama/tiles/node1/cf_1/l_3/c_3/tile_0.jpg": "91f1996a156246dce291d2c63aabca70ee672645351ca2d28c01b82344d3b1e7",
+        "panorama/tiles/node1/cf_1/l_3/c_3/tile_1.jpg": "10583c66876320327c03b07fc8abbb3fae3e06931aafc62537e5854f2cf7b47c",
+        "panorama/tiles/node1/cf_1/l_3/c_3/tile_2.jpg": "991b7a5401298cac323b001190b58904d85ef58c688a218f01fa532284f5cc1b",
+        "panorama/tiles/node1/cf_1/l_3/c_3/tile_3.jpg": "2d2b504aef7c0bd61feff4c5e4df1eaeb871aa5bb0dd394f6a00587c8da1402d",
+        "panorama/tiles/node1/cf_1/l_3/c_3/tile_4.jpg": "81c4600749161428ec70dd795179c87da61e3799abeb01d6d1903ecb6573c72d",
+        "panorama/tiles/node1/cf_1/l_3/c_3/tile_5.jpg": "57fe5b4172f179e8371a7e4aedfaedc9be75992677f92ab779bb670a7df43756",
+        "panorama/tiles/node1/cf_1/l_3/c_3/tile_6.jpg": "1066130415112288d98ce0d25f4b4db58d27da84ac3a0658c22f35024247fdf6",
+        "panorama/tiles/node1/cf_1/l_3/c_4/tile_0.jpg": "2c8673a90fa17a32ce4507eedc51627be9f810af1e9b95b0e5e27d46b9dad54f",
+        "panorama/tiles/node1/cf_1/l_3/c_4/tile_1.jpg": "2217cd251b6c7c31aa51f720e0447db6ddbf1b46e65307ba11a5ece460e47d54",
+        "panorama/tiles/node1/cf_1/l_3/c_4/tile_2.jpg": "76f77e3b8ee17188dfe816aaae65a557aa96db554e8562f5fb7d53880c561be0",
+        "panorama/tiles/node1/cf_1/l_3/c_4/tile_3.jpg": "7e6d66478077a0c98c6d615bf0bccc91480be77fd411b3f50f3271d61bb60a19",
+        "panorama/tiles/node1/cf_1/l_3/c_4/tile_4.jpg": "7ae655f2798577906f9dd9f058fdfaaa12ab0e296140a1b9f03e8ee6abeffd11",
+        "panorama/tiles/node1/cf_1/l_3/c_4/tile_5.jpg": "fd18d30d45c2eb1b51e59c2e9db105747032a23f4fb5098fc2c8d84782e7a8d5",
+        "panorama/tiles/node1/cf_1/l_3/c_4/tile_6.jpg": "332370633034b0694e07ae6a240a487f7309a7ce302dd8525a2352b807883a8b",
+        "panorama/tiles/node1/cf_1/l_3/c_5/tile_0.jpg": "f198f802afbfc7c8f168fe6a8540d29f3875088d9fa6b673cd6567f9445f23c7",
+        "panorama/tiles/node1/cf_1/l_3/c_5/tile_1.jpg": "6d037cefeabf16a4c7822adf31341f875370e2cb01cfa277439379da744a19d7",
+        "panorama/tiles/node1/cf_1/l_3/c_5/tile_2.jpg": "b5da1e27c5b10dc4ff72fe16e4bfba45d43fe621fd393ffa605d2d047e62e6c2",
+        "panorama/tiles/node1/cf_1/l_3/c_5/tile_3.jpg": "331deb8cb4b3d948f870e5d428a6e9ec048054ee27d97164e046b4f36476af00",
+        "panorama/tiles/node1/cf_1/l_3/c_5/tile_4.jpg": "b106bdd027028a4f875f5df40d5e120da437dc1a633453ae81222fea691d6d6a",
+        "panorama/tiles/node1/cf_1/l_3/c_5/tile_5.jpg": "0042b2a8a7ef58789d42ad4dfad29a96d713ef76e43a66ebf986a8c2feb456b7",
+        "panorama/tiles/node1/cf_1/l_3/c_5/tile_6.jpg": "362c5b457966b1efdd9c194f097f9d79ca5000ed32e60400d84771720a801999",
+        "panorama/tiles/node1/cf_1/l_3/c_6/tile_0.jpg": "2f9b0d1d2f83885cae6b134663fc907a546612381e72dd95f7ff2f38b138434c",
+        "panorama/tiles/node1/cf_1/l_3/c_6/tile_1.jpg": "f04453f9ceeca6087ae3246828091d80a6b9b1822a4226d9cce51446ad289ea3",
+        "panorama/tiles/node1/cf_1/l_3/c_6/tile_2.jpg": "701e3d940b3c38c814ff3ac9b270af8df15f28bb218f36af4c345a2f3f14fddb",
+        "panorama/tiles/node1/cf_1/l_3/c_6/tile_3.jpg": "c9f27f39741fbb212ec70a2f26a743799657f5e0d1bda927906e16319fc35921",
+        "panorama/tiles/node1/cf_1/l_3/c_6/tile_4.jpg": "4c8e9856575a2040e7bfd161efb1f363d0f703029a4f68034321dbf7396a3670",
+        "panorama/tiles/node1/cf_1/l_3/c_6/tile_5.jpg": "38030fa7325d6262af6903e8025512909cd94be0389291cfdf47c9a4fab40f2a",
+        "panorama/tiles/node1/cf_1/l_3/c_6/tile_6.jpg": "05f1c05982185409dbec3569206f8da1449b728e74b0603a17b3e3a45eabc1a1",
+        "panorama/tiles/node1/cf_5/l_3/c_0/tile_0.jpg": "8308abd36cb0034a4538ecbb7f86ea3efbf184dc02ea06c13f1c762db6ca15b6",
+        "panorama/tiles/node1/cf_5/l_3/c_0/tile_1.jpg": "fb8a50fbc105059332f5451c8d5631d7599efbc3b9d04e9cefadfa60cc527a66",
+        "panorama/tiles/node1/cf_5/l_3/c_0/tile_2.jpg": "3dfcb147492d45c3ef700f1d2fc27bd06f6a7e3253f009291993d1e0393bf413",
+        "panorama/tiles/node1/cf_5/l_3/c_0/tile_3.jpg": "a26653b0124a854dc8c5c1a8495e343ae0ca579c29687e5a90af5ca9e04a326a",
+        "panorama/tiles/node1/cf_5/l_3/c_0/tile_4.jpg": "1cca5cb5c3ce5bb7476896e211c2dc8c25bf53150a73ed3722d7c69dacb3de88",
+        "panorama/tiles/node1/cf_5/l_3/c_0/tile_5.jpg": "f387453ec53444664fc0cc537c49e9dbd3fa55b35b389a9652825d7e417ebf62",
+        "panorama/tiles/node1/cf_5/l_3/c_0/tile_6.jpg": "ce5f6b2224aa5855d9731625a5bc7b9ccda3f34c8091f2f4b286f3786bfea8bf",
+        "panorama/tiles/node1/cf_5/l_3/c_1/tile_0.jpg": "6895a35b570f4fdeb52dbc8317ed25cc9b482fc7bdaf166e72b63fb6d9615b18",
+        "panorama/tiles/node1/cf_5/l_3/c_1/tile_1.jpg": "a4fce86af3c0bb2af6cc7c887e8d8d1142fead1e7bf99ec348fe2c76551b6b92",
+        "panorama/tiles/node1/cf_5/l_3/c_1/tile_2.jpg": "a59e9f69acc7fefc5df0f4f15a41c0b310d0e4e448917743d951acd0b81d01c9",
+        "panorama/tiles/node1/cf_5/l_3/c_1/tile_3.jpg": "307f40af2f5c3fdc9f6a96bb0f43a7be7d39704490e2fb61679cfdcda12601f4",
+        "panorama/tiles/node1/cf_5/l_3/c_1/tile_4.jpg": "40d5d8fcbeb3968dfe9e4ed73c67f5982e9399dd8b17912590a67a1a36f66983",
+        "panorama/tiles/node1/cf_5/l_3/c_1/tile_5.jpg": "4c58a62a2a974495f41a3d9fe4401d7c13e8189406b14083ff59f6d287eec580",
+        "panorama/tiles/node1/cf_5/l_3/c_1/tile_6.jpg": "c8b028b3a656afd681b3b55d7c6d2a626a7e53489c77f51f0a4a8b717ea121c5",
+        "panorama/tiles/node1/cf_5/l_3/c_2/tile_0.jpg": "8742f14bf39e6c03a87b0467f198058e1547e19f60acaef0a709cc5398efd210",
+        "panorama/tiles/node1/cf_5/l_3/c_2/tile_1.jpg": "0ead4d3255d9265f813484c77161ca8f3959ca908e8fcf8d0390a5896545966d",
+        "panorama/tiles/node1/cf_5/l_3/c_2/tile_2.jpg": "447b0232b962a9bd0ad189f80299fcf8abc6530af7ef664ae643a66ea749bf62",
+        "panorama/tiles/node1/cf_5/l_3/c_2/tile_3.jpg": "a64deb78b3a6d54e6cf955b21672c9171d1395cc671c612663dd7794fc1d3656",
+        "panorama/tiles/node1/cf_5/l_3/c_2/tile_4.jpg": "5d3eb5fb4125d913f0f1b53570770ada0e268718d6c6066ca80b4a7e5d91074e",
+        "panorama/tiles/node1/cf_5/l_3/c_2/tile_5.jpg": "2bd13db9df10157629db02ead8eb7a39c7997642366f6c3aff10337c3ba6d74a",
+        "panorama/tiles/node1/cf_5/l_3/c_2/tile_6.jpg": "f3e5a288243a70b11fc9f63850e5b0ebee47587b78821f70cc9c7587126f18f0",
+        "panorama/tiles/node1/cf_5/l_3/c_3/tile_0.jpg": "bc78c83fc7cca17416d337c27fdec5b41dd68a2cc6850b23ab15cdc4c2fe2444",
+        "panorama/tiles/node1/cf_5/l_3/c_3/tile_1.jpg": "720fed26ce8020c8659ca7f6a45faac0e76d41bfc35c9cddbc01a2b799118d31",
+        "panorama/tiles/node1/cf_5/l_3/c_3/tile_2.jpg": "84cf76290155945e91ed1de9ed590000604f00e7c9c5b77741d34850d88fd5f5",
+        "panorama/tiles/node1/cf_5/l_3/c_3/tile_3.jpg": "c9e9e157cb46597721460de64ffca60beb70572d147493ba85fd63187f2e55f4",
+        "panorama/tiles/node1/cf_5/l_3/c_3/tile_4.jpg": "ffc5598b066f9c47eb3d8afae95ef58ce67bf349103c32164cc395d263ede5aa",
+        "panorama/tiles/node1/cf_5/l_3/c_3/tile_5.jpg": "1cb8439201a233e1ec14364543d010c142946a13761cca33f8c6ba7ff00f3f73",
+        "panorama/tiles/node1/cf_5/l_3/c_3/tile_6.jpg": "a6cfb3dd5dc6aba74e7e1307a089a4ca0523865f9c151ed004df204c110b5faa",
+        "panorama/tiles/node1/cf_5/l_3/c_4/tile_0.jpg": "6f7bee2831810b0fff7efa1a47c88c8b2501c4f7916a13946aff7e309855c218",
+        "panorama/tiles/node1/cf_5/l_3/c_4/tile_1.jpg": "1444f9dffbb367e36d84f0646b1a653be3efbaeae3dfaeb508f3f1e5edce0db7",
+        "panorama/tiles/node1/cf_5/l_3/c_4/tile_2.jpg": "ef5484195c1af32fe29bc3ecd8b3df715311b2afbf763415a46ffe46692fb0e2",
+        "panorama/tiles/node1/cf_5/l_3/c_4/tile_3.jpg": "2d0b3ee67a29c6630ff7364c9d23e5ddad19e4eedcbd335c3e95ad476e6da923",
+        "panorama/tiles/node1/cf_5/l_3/c_4/tile_4.jpg": "b9350f2ea255872539904b1373c48522eb123593e32a9346988976539b514e88",
+        "panorama/tiles/node1/cf_5/l_3/c_4/tile_5.jpg": "1c2e93af1e13aee3976e1a288df25b6394d87a06215b73ddc2c20551554f9369",
+        "panorama/tiles/node1/cf_5/l_3/c_4/tile_6.jpg": "40518bdb314103761f1a9cb4327bd2d42e4464e750ad56cae7bee28721d164fc",
+        "panorama/tiles/node1/cf_5/l_3/c_5/tile_0.jpg": "7ac5dde3bfdd75b132c0896fbf452925b8b6095870756c2f76469e4c79c67e7f",
+        "panorama/tiles/node1/cf_5/l_3/c_5/tile_1.jpg": "3eceec0fee9001c0792989696efc34f8c14c1378ce397362c9e529c23b36d1cd",
+        "panorama/tiles/node1/cf_5/l_3/c_5/tile_2.jpg": "05c8fe41d19ef3f2ac3f1d7cc55ea94975f35149dad564bfbf0adac2afcc71d7",
+        "panorama/tiles/node1/cf_5/l_3/c_5/tile_3.jpg": "0c92679865de15915e2f4129f172ad68d8eb1f3eeef2c2422cb9e27d3e2828d9",
+        "panorama/tiles/node1/cf_5/l_3/c_5/tile_4.jpg": "97e97d87ecc86199567bd10ea79b2f94610bc84f54f5b8884e3cf18b3f1ae2f6",
+        "panorama/tiles/node1/cf_5/l_3/c_5/tile_5.jpg": "349b7e1bd846a157c0bd6d8c3752f0c3b5d467f04cc197eb7fc4309f0a597f01",
+        "panorama/tiles/node1/cf_5/l_3/c_5/tile_6.jpg": "a52ae186efed39c122cd08c3d6229bd9dfc1a77ba77b6636dc4e0e1428ebf5fe",
+        "panorama/tiles/node1/cf_5/l_3/c_6/tile_0.jpg": "a8622b9d3b5bbfeed3180ffb1f14588c4b94b6b43e1447d460d7020814637593",
+        "panorama/tiles/node1/cf_5/l_3/c_6/tile_1.jpg": "1265d553d5c0a7444e9a926b5ae1923592ed06474aa3d716c814e2333f3965e1",
+        "panorama/tiles/node1/cf_5/l_3/c_6/tile_2.jpg": "e457eb978e8c3cd536c1d5d5853b0ca5bb4c5c01d38a756afec274fd78df0b06",
+        "panorama/tiles/node1/cf_5/l_3/c_6/tile_3.jpg": "b103033a23b4a721ccb097b79d75c49074f88a4b6ccf2a65f7e3845f7c3fba58",
+        "panorama/tiles/node1/cf_5/l_3/c_6/tile_4.jpg": "2a60706e66f833ed04078be5de8d408f597bf8cff3ebe20b73fb302bc8762ae0",
+        "panorama/tiles/node1/cf_5/l_3/c_6/tile_5.jpg": "b33273f62b1914a54c629234612a32be7b561061ffca48e66a348a5244634452",
+        "panorama/tiles/node1/cf_5/l_3/c_6/tile_6.jpg": "e8808089f34451c77238b742501ec5d56c23214350ca3868a475d7daa2325129"
+      },
+      "output": "dist/assets/reference/arena-visible-media.png",
+      "outputSHA256": "98b795ef9dd4a2e5b6945e60d4f8ad31d374fafa52c8d7d4c3c64bd7879e9557"
+    },
+    "visibleWatermark": "Root removed model-watermarks geometry and generic visible texture ink. Removed visible handle from room atlas and its emissive shader too. UI, metadata and non-visible pixel bits remain. The faint commercial interior-atlas handle was also removed; its existing embedPixelSignature remains.",
+    "qa": {
+      "exterior_model": "PASS tools/qa-v30/architecture-b-exterior-cpu.txt",
+      "commercial_arena": "PASS tools/qa-v30/architecture-b-commercial-arena-cpu.txt",
+      "gpu": "Reviewed with limitations; actual GPU B images inspected; see tools/qa-v30/architecture-b-visual-review.md."
+    }
+  },
+  "stageNote": "The changes array records GPU A implementation. gpuBRefinement records the current B correction and supersedes those earlier parameters. GPU B is reviewed with limitations; see tools/qa-v30/architecture-b-visual-review.md.",
+  "productionPaths": {
+    "sourceTilesBase": "dist/assets",
+    "mediaGenerator": "tools/reproject-arena-media-v30.py",
+    "mediaMetadata": "tools/qa-v30/arena-media-reprojection.json",
+    "mediaOutput": "dist/assets/reference/arena-visible-media.png",
+    "sourceArenaExport": "tools/arena-v30/arena-source.png",
+    "reviewCapturePathNote": "qa-v30/panorama-qa and qa-v30/scene-exports in this audit identify the original review-workspace evidence. They are historical audit references, not generator dependencies."
+  },
+  "gpuBVisualReview": {
+    "status": "reviewed with limitations",
+    "oneToOneCertified": false,
+    "report": "tools/qa-v30/architecture-b-visual-review.md",
+    "images": {
+      "qa-v30/scene-exports/v30-b-forecourt-source-day.png": "3a1ac6cefa4269d7479a2f40b0c76b96a4cd4f91a667ef14e2f0b254b2c28049",
+      "qa-v30/scene-exports/v30-b-arena-source-matched.png": "430f9e8ef7e0f67f414cfecd05765035af6e6bc3681abc9109aec95629cedf8a",
+      "qa-v30/scene-exports/v30-b-promenade-eye.png": "d4b856595cbb197f6702b82a198f37eebd69c87fcbefb5b3fe428a9e9e7238c9",
+      "qa-v30/panorama-qa/forecourt-source.png": "c0d519984412213f7c32fe27d112d34ce894f0d946fd212d518c4e94cec5d0cf",
+      "qa-v30/panorama-qa/arena-source.png": "80c4eadef7d2b63e385d1b6ecc803ca06c6aa542795b6a1fad159116c48b632a"
+    },
+    "arenaProjectionObservation": "Slightly larger and shifted above/right in source-matched view; qualitative, not a physical dimension measurement.",
+    "cameraLimitation": "FOV and direction matched; camera position/scale still depend on assumed 60 m altitude and georegistration. Radius/height/centre and registration error cannot be separated from one silhouette.",
+    "pedestrianReference": "Additional render inspected; no exact source pedestrian camera pair.",
+    "runtimeChangedDuringReview": false
+  }
+}

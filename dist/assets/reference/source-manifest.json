@@ -1,0 +1,332 @@
+{
+  "asOf": "2026-10-09",
+  "scope": "Общедоступные первичные материалы. Получены GET без заявок, покупки, регистрации или обхода доступа.",
+  "sources": [
+    {
+      "title": "Главная: опубликованный текст, функции и первичные ссылки",
+      "url": "https://rodina-peredelkino.ru/",
+      "archivedFile": "index.html",
+      "retrievedAt": "2026-10-09",
+      "httpStatus": 200,
+      "bytes": 284080,
+      "sha256": "3240641e802faf0be261b6ce9ec58fb6316a82c5ac16748ca9cff3bf4aba557c"
+    },
+    {
+      "title": "Каталог опубликованных квартир, первая из 17 страниц",
+      "url": "https://rodina-peredelkino.ru/catalog/",
+      "archivedFile": "catalog.html",
+      "retrievedAt": "2026-10-09T09:18:32.989861+00:00",
+      "httpStatus": 200,
+      "bytes": 146434,
+      "sha256": "68e40aee6ee7a69621a04874a7712690ff1209c64c39e012dd33ef477ba3d58e"
+    },
+    {
+      "title": "Выбор пяти жилых корпусов: точные SVG области",
+      "url": "https://rodina-peredelkino.ru/genplan/",
+      "archivedFile": "genplan.html",
+      "retrievedAt": "2026-10-09T09:20:34.531002+00:00",
+      "httpStatus": 200,
+      "bytes": 37637,
+      "sha256": "64daf27816bfdb5271f9f633b3d5e2cc2bd9f3aa72ed2646b2a89bdde7c26035"
+    },
+    {
+      "title": "Публичные структуры этажей и квартир",
+      "url": "https://rodina-peredelkino.ru/genplan/1/6/",
+      "archivedFile": "genplan-1-6.html",
+      "retrievedAt": "2026-10-09T09:21:37.204866+00:00",
+      "httpStatus": 200,
+      "bytes": 142288,
+      "sha256": "9ea10d3903549b8560e3e5307f2feeb0fa2643f0cda7e391a1d5913d6638dc44"
+    },
+    {
+      "title": "Официальная презентация, 47 страниц",
+      "url": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "archivedFile": "presentation.pdf",
+      "retrievedAt": "2026-10-09T09:18:32.991314+00:00",
+      "httpStatus": 200,
+      "bytes": 15346070,
+      "sha256": "9520afc781211db3eff0168b096c767a94056fcc1912c5e558baa02e94b69d6b"
+    },
+    {
+      "title": "Фон выбора корпусов, 2560×1440",
+      "url": "https://rodina-peredelkino.ru/project/web/assets/images/webp/selector/selector-new.webp",
+      "archivedFile": "selector-new.webp",
+      "retrievedAt": "2026-10-09T09:28:49.011880+00:00",
+      "httpStatus": 200,
+      "bytes": 557356,
+      "sha256": "eaff4a260848218286784b2a359d9f5c632f2d0ea70914737b3a2e00cce3f2b9"
+    },
+    {
+      "title": "Отдельный фон главной страницы, 1920×1000",
+      "url": "https://rodina-peredelkino.ru/project/web/assets/images/webp/selector/selector.webp",
+      "archivedFile": "selector.webp",
+      "retrievedAt": "2026-10-09T09:18:32.991949+00:00",
+      "httpStatus": 200,
+      "bytes": 663550,
+      "sha256": "45835e697fd5f9f3b2424e1aa2b95255825bf57f23b2ea0a429467de93b55cb6"
+    },
+    {
+      "title": "Мобильный фон, 4000×2250",
+      "url": "https://rodina-peredelkino.ru/project/web/assets/images/jpeg/2025-06-30%2013.17.32.jpg",
+      "archivedFile": "selector-alt.jpg",
+      "retrievedAt": "2026-10-09T09:18:39.881949+00:00",
+      "httpStatus": 200,
+      "bytes": 7550927,
+      "sha256": "6ef86138e5c72a7796602a500e96583855b824937f77081a5ac60e8d50486772"
+    },
+    {
+      "title": "Официально встроенный панорамный тур",
+      "url": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+      "archivedFile": "pano-index.html",
+      "retrievedAt": "2026-10-09T09:18:45.902973+00:00",
+      "httpStatus": 200,
+      "bytes": 4640,
+      "sha256": "4c5cafe3656a49c8a569adbdfb223691e6751f26887e239b4d02045d9aeee6d5"
+    },
+    {
+      "title": "Конфигурация шести панорамных узлов",
+      "url": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/pano.xml?ts=52937626",
+      "archivedFile": "pano.xml",
+      "retrievedAt": "2026-10-09T09:20:34.532308+00:00",
+      "httpStatus": 200,
+      "bytes": 22594,
+      "sha256": "f5dff1bac007ce12f1119fdb975aa90663318864f52e22a23372f4c873f490e2"
+    },
+    {
+      "title": "CSS точного совмещения изображения и SVG",
+      "url": "https://rodina-peredelkino.ru/temp/1791300533_88934f1b94acc6313010d2ffe45b965c_main.min.css",
+      "archivedFile": "scripts/main.min.css",
+      "retrievedAt": "2026-10-09T09:28:59.878810+00:00",
+      "httpStatus": 200,
+      "bytes": 165123,
+      "sha256": "ac374578e5fd3088f634e3fc14d818648a9c8e337cbcd58e305a599f391e3df0"
+    },
+    {
+      "title": "Опубликованная политика конфиденциальности",
+      "url": "https://rodina-peredelkino.ru/politika-konfidencialnosti/",
+      "archivedFile": "privacy.html",
+      "retrievedAt": "2026-10-09T09:18:40.026639+00:00",
+      "httpStatus": 200,
+      "bytes": 42871,
+      "sha256": "a5a13f122448add61953e8cf50122167234d744c32d900e68058be86e5b3c602"
+    },
+    {
+      "title": "Опубликованная оферта",
+      "url": "https://rodina-peredelkino.ru/dogovor-oferta/",
+      "archivedFile": "offer.html",
+      "retrievedAt": "2026-10-09T09:18:40.878272+00:00",
+      "httpStatus": 200,
+      "bytes": 60741,
+      "sha256": "24f2d331ee133b90036c252dd869b46fe0f084574ee280a2708118fbeb68b630"
+    }
+  ],
+  "catalog": {
+    "sourceUrl": "https://rodina-peredelkino.ru/catalog/",
+    "publishedRecords": 203,
+    "pageCount": 17,
+    "byBuilding": {
+      "1": 16,
+      "2": 23,
+      "3": 63,
+      "4": 44,
+      "5": 57
+    },
+    "reservedRecords": 2,
+    "uniquePlanImages": 107,
+    "areaRangeM2": [
+      24.1,
+      96.9
+    ],
+    "bySourceRoomCode": {
+      "0": 17,
+      "2": 87,
+      "3": 90,
+      "4": 9
+    },
+    "localDataset": "assets/reference/catalog.json",
+    "imageUrlPattern": "https://rodina-peredelkino.ru/!upload/t_lots/{hash}.png",
+    "imageSources": "Полный sourceImageUrl есть в каждой карточке; исходные байты сохранены в assets/reference/apartment-plans/."
+  },
+  "floorPlans": {
+    "buildings": [
+      1,
+      2,
+      3,
+      4,
+      5
+    ],
+    "floorRanges": {
+      "1": [
+        2,
+        30
+      ],
+      "2": [
+        2,
+        30
+      ],
+      "3": [
+        2,
+        30
+      ],
+      "4": [
+        2,
+        31
+      ],
+      "5": [
+        2,
+        30
+      ]
+    },
+    "floorMappings": 146,
+    "unchangedSourceUriMappings": 146,
+    "uniqueSvgFiles": 43,
+    "svgXmlValid": 43,
+    "externalResourceReferences": 0,
+    "sourceUrlPattern": "https://rodina-peredelkino.ru/!upload/t_floor/{uuid}.svg",
+    "localFiles": "assets/plans/{uuid}.svg",
+    "slotMatchedApartments": 201,
+    "unmatchedApartments": [
+      "5-1403",
+      "5-1416"
+    ],
+    "contentComparisonWithMac": "Проверено 09.10.2026 через Desktop Commander только чтением: все 43 файла в /Users/n1estate/Downloads/RODINA-PEREDELKINO/dist/assets/plans/ побайтово совпадают по SHA256 с сегодняшними официальными SVG. Все 146 URI остались прежними.",
+    "matchingMacAssetHashes": 43
+  },
+  "genplan": {
+    "localDataset": "assets/reference/genplan.json",
+    "exactPathCount": 5,
+    "viewBox": [
+      0,
+      0,
+      1457,
+      780
+    ],
+    "imageDimensions": [
+      2560,
+      1440
+    ],
+    "imageFit": "xMidYMid slice",
+    "officialCss": {
+      "containerMargin": "0 1.467vw",
+      "viewport": "width:100%;height:52vw",
+      "image": "height:100%;min-width:100%;max-width:100%;object-fit:cover;object-position:50%",
+      "svg": "width:100%;height:100%;viewBox:0 0 1457 780;default xMidYMid meet",
+      "shortDesktop": "При высоте окна ≤800px и ширине ≥769px img и SVG получают общий scale(.8) вокруг центра.",
+      "mobile": "Официальный сайт меняет фон и скрывает paths при ширине ≤769px. В проекте сохраняется единая система координат desktop генплана."
+    },
+    "alignmentVerification": "Пять точных paths визуально проверены поверх центрально кадрированного фона: крыши, фасады и мосты совпадают. QA: selector-overlay.png.",
+    "anchors": "Позиции подписей выбраны внутри официальных областей. Это координаты интерфейса, а не геодезические точки."
+  },
+  "verifiedProgram": [
+    {
+      "source": "presentation.pdf",
+      "pages": [
+        5,
+        9
+      ],
+      "facts": "Пять жилых корпусов 30–31 этаж, офисный центр 25 этажей. Во дворе отдельно отмечены воркаут, событийная площадь и детский хаб."
+    },
+    {
+      "source": "presentation.pdf",
+      "pages": [
+        32
+      ],
+      "facts": "Событийная овальная площадка: навес, экран кинотеатра и посадочные места; световые кольца-качели рядом. Фонтан внутри этого навеса не изображён."
+    },
+    {
+      "source": "presentation.pdf",
+      "pages": [
+        33
+      ],
+      "facts": "Многоуровневый детский хаб с мостиками, горками, батутами, песочницей, качелями и бизибордами."
+    },
+    {
+      "source": "presentation.pdf",
+      "pages": [
+        34
+      ],
+      "facts": "Воркаут и настольный теннис показаны в одной спортивной зоне."
+    },
+    {
+      "source": "index.html",
+      "anchor": "SportPoint",
+      "facts": "Текст главной прямо перечисляет воркаут, настольный теннис, панна-футбол и короткую беговую дорожку для SportPoint."
+    },
+    {
+      "source": "presentation.pdf",
+      "pages": [
+        35
+      ],
+      "facts": "Сухой фонтан показан на открытом мощении перед входом корпуса 3. Интерактивные медиаколонны упомянуты для общественного бульвара перед ареной."
+    },
+    {
+      "source": "presentation.pdf",
+      "pages": [
+        43,
+        45
+      ],
+      "facts": "Квартиры с террасами на втором этаже, подземный паркинг, кладовые на −1 этаже, места для велосипедов и мотоциклов."
+    }
+  ],
+  "sourceIssues": [
+    {
+      "id": "missing-floor-contours",
+      "status": "source-inconsistency",
+      "apartments": [
+        "5-1403",
+        "5-1416"
+      ],
+      "details": "Корпус 5, этажи 5 и 6: cnt_floornumber=13, но официальный SVG c204d379-c1d3-4e5c-149f-17a2ce008aef.svg содержит alt1..12. Номера, slot, площадь и PNG сохранены. positionInFloorSource:false предотвращает выдуманную подсветку."
+    },
+    {
+      "id": "ambiguous-building-six",
+      "status": "excluded",
+      "details": "В служебных bldstats присутствует запись 6; _buildings[6] содержит восемь SVG этажей 3–10 без публичных lots. Публичный генплан и презентация показывают пять жилых корпусов. Эта запись не интерпретирована как шестой жилой корпус."
+    },
+    {
+      "id": "room-alt-mismatch",
+      "status": "resolved-by-cross-check",
+      "details": "HTML alt изображений часто неверно считает комнаты. В каталоге используется cnt_room, сверенный с видимым текстом каждой из 203 карточек."
+    },
+    {
+      "id": "placeholder-lot",
+      "status": "ignored",
+      "details": "Серверный HTML страницы выбора этажа содержит шаблонные номер и площадь до выполнения JavaScript. Данные получены из публичных структур каталога, а не из этого плейсхолдера."
+    },
+    {
+      "id": "declaration-not-refetched",
+      "status": "not-freshly-verified",
+      "sourceUrl": "https://наш.дом.рф/",
+      "details": "Главная ссылается на ЕИСЖС наш.дом.рф. Прямой доступ к страницам объектов в этой сессии дал 403; свежий PDF декларации не получен. Прежняя атрибуция 77-003147 от 07.09.2026 в building-levels.js/apartment-plans.js сохранена; её метры не выданы за заново проверенные данные."
+    },
+    {
+      "id": "marketing-vs-plan-slots",
+      "status": "separate-source-counts",
+      "details": "Презентация указывает 1692 квартиры; 146 поэтажных SVG суммарно содержат 1682 кликабельных alt-слота. Количество слотов не выдано за кадастровую инвентаризацию. Две опубликованные квартиры со slot13 действительно не имеют своего контура."
+    }
+  ],
+  "limits": [
+    "Снимок опубликованного каталога на 09.10.2026 включает две карточки с меткой «Бронь». Это не проверка доступности для сделки.",
+    "107 растровых изображений покрывают 203 публикации: одинаковые планы повторно используются источником.",
+    "Официальный тур Pano2VR предоставляет кубические панорамы, а не файл редактируемой 3D геометрии. Player и тайлы в проект не копировались.",
+    "Точные высоты, размеры окон и части реконструированной геометрии не выводятся из маркетинговых PNG/SVG. Две прежние интерактивные квартиры не расширены до 203 предположительных 3D моделей.",
+    "У презентации 47 страниц; PDF CreationDate 24.12.2025, тур имеет URL 2026-06-29. Дата скачивания не означает изменение этих проектных материалов."
+  ],
+  "verification": {
+    "pngFiles": 107,
+    "fullPngDecodePass": 107,
+    "pngIendPass": 107,
+    "visuallyReviewedContactSheets": 9,
+    "allImagesRecognizable": true,
+    "imageDimensions": {
+      "1241x1241": 106,
+      "1000x1000": 1
+    },
+    "pngBytes": 24401474,
+    "floorSvgBytes": 44925522,
+    "all203CardsCrossChecked": true,
+    "all203ImageFilesExist": true,
+    "all203FloorFilesExist": true,
+    "sourceFloorSlotExceptionsExplicit": true
+  }
+}

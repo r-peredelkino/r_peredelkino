@@ -1,0 +1,2624 @@
+{
+  "scope": "Native WebGL calibration of actual v31 architectural lighting and shadow fitter; not app FPS or measured building accuracy",
+  "url": "http://127.0.0.1:8091/candidate31/solar-shadow-gpu-harness.html?dist=./",
+  "startedUTC": "2026-10-11T10:01:58.542Z",
+  "errors": [],
+  "cases": [
+    {
+      "name": "user-dawn-box-full",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "elevation": 1.8029548340828827,
+        "geometricElevation": 1.8029548340828827,
+        "apparentElevation": 2.1000046436205273,
+        "refraction": 0.2970498095376445,
+        "equation": 13.19074695060389,
+        "declination": -7.010177134897191,
+        "hourAngle": -76.34981326234902,
+        "distanceAU": 0.9984217835708703,
+        "julianDay": 2461324.675,
+        "dateUTC": "2026-10-11T04:12:00.000Z",
+        "type": "real Moscow instant",
+        "latitude": 55.6367,
+        "longitude": 37.3525
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 10,
+        "length": 6,
+        "width": 10,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 272.7142577306083,
+        "shadowTipWorld": [
+          -266.3096429419984,
+          0,
+          -71.39696066392214
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          1536,
+          512
+        ],
+        "groundUV": [
+          -15,
+          287.7142577306083,
+          -50.45237628843472,
+          50.45237628843472
+        ],
+        "receiverY": 0,
+        "casterInView": true
+      },
+      "light": {
+        "normalBias": 0.00010993136909577677,
+        "depthBias": -9.20377300206325e-7,
+        "depthBiasWorld": 0.0002931503175887381,
+        "normalBiasProjectedGround": 0.0029979851724264294,
+        "productionAmbientIntensity": 0.5440001857448211,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.2026026111560584,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 24,
+          "worldDirection": [
+            0.9652412941158957,
+            0.036643789698592256,
+            0.2587788183178765
+          ],
+          "lightSpaceRight": [
+            0.25895273335368063,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.03539386983827509,
+            0.99932839080881,
+            -0.00948900950288791
+          ],
+          "receiverLightBounds": [
+            -50.45237628843482,
+            50.45237628843472,
+            -0.5506561738697001,
+            10.543940081957812
+          ],
+          "casterAndReceiverLightDepth": [
+            -287.52106283446983,
+            14.989962505921916
+          ],
+          "width": 106.36789360942544,
+          "height": 106.36789360942544,
+          "near": 0.1,
+          "far": 318.61102534039173,
+          "texelWorld": [
+            0.025968724025738632,
+            0.025968724025738632
+          ],
+          "snappedLightCenter": [
+            0,
+            4.985995012941817,
+            23.089962505921918
+          ],
+          "lightWorldPosition": [
+            22.110911631801226,
+            5.8287501030792805,
+            5.927881058227393
+          ],
+          "lightWorldTarget": [
+            21.14567033768533,
+            5.792106313380688,
+            5.669102239909517
+          ],
+          "casterBounds": {
+            "min": [
+              -4.692433650910476,
+              -0.5,
+              -6.106308173631163
+            ],
+            "max": [
+              4.692433650910476,
+              10.5,
+              6.106308173631163
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -290.96510362264524,
+              -0.001,
+              -123.23583893071248
+            ],
+            "max": [
+              27.553130664788952,
+              0.001,
+              52.615736466851374
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.8924619912065179,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.19707959487669813,
+          0.19707959487669813
+        ],
+        "shadowMapTexelLightWorld": [
+          0.025968724025738632,
+          0.025968724025738632
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.7086800857482345,
+          0.02596872402573875
+        ],
+        "boundaryToleranceWorld": [
+          2.5201994469980997,
+          0.47206536183061254
+        ],
+        "guardPixels": [
+          13,
+          3
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -1.6653345369377348e-16,
+          -1,
+          0.036643789698592256,
+          -5.204170427930421e-18
+        ]
+      },
+      "profile": {
+        "v": 0.09853979743834884,
+        "expectedFirstShadowU": 3.032782931217877,
+        "actualFirstShadowU": 3.032782931217877,
+        "expectedLastShadowU": 275.5938626456914,
+        "actualLastShadowU": 275.5938626456914,
+        "contactMeasured": true,
+        "contactGapWorld": 0,
+        "contactMissing": false,
+        "tipMeasured": true,
+        "tipErrorWorld": 0,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -2.9231871340328506,
+          0,
+          -0.6816795956341936
+        ],
+        "expectedTipWorld": [
+          -266.3351600918892,
+          0,
+          -71.3017820594953
+        ]
+      },
+      "metrics": {
+        "validPixels": 784932,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 765544,
+        "strictShadowPixels": 59752,
+        "strictClearPixels": 705792,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 1,
+        "referenceEncodedRange": [
+          15,
+          31
+        ]
+      },
+      "elapsedMilliseconds": 848.8999999985099,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "user-dawn-box-full-withShadow.png",
+        "withoutShadow": "user-dawn-box-full-withoutShadow.png",
+        "expected": "user-dawn-box-full-expected.png",
+        "diagnostic": "user-dawn-box-full-diagnostic.png"
+      }
+    },
+    {
+      "name": "user-dawn-contact-wall",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "elevation": 1.8029548340828827,
+        "geometricElevation": 1.8029548340828827,
+        "apparentElevation": 2.1000046436205273,
+        "refraction": 0.2970498095376445,
+        "equation": 13.19074695060389,
+        "declination": -7.010177134897191,
+        "hourAngle": -76.34981326234902,
+        "distanceAU": 0.9984217835708703,
+        "julianDay": 2461324.675,
+        "dateUTC": "2026-10-11T04:12:00.000Z",
+        "type": "real Moscow instant",
+        "latitude": 55.6367,
+        "longitude": 37.3525
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 8,
+        "length": 1,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 218.17140618448664,
+        "shadowTipWorld": [
+          -211.21252336364202,
+          0,
+          -56.625558337765725
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          1024,
+          1024
+        ],
+        "groundUV": [
+          0.25,
+          8.25,
+          -4,
+          4
+        ],
+        "receiverY": 0,
+        "casterInView": true
+      },
+      "light": {
+        "normalBias": 0.00010993136909577677,
+        "depthBias": -0.000010226031850182097,
+        "depthBiasWorld": 0.0002931503175887381,
+        "normalBiasProjectedGround": 0.0029979851724264294,
+        "productionAmbientIntensity": 0.5440001857448211,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.2026026111560584,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.9652412941158957,
+            0.036643789698592256,
+            0.2587788183178765
+          ],
+          "lightSpaceRight": [
+            0.25895273335368063,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.03539386983827509,
+            0.99932839080881,
+            -0.00948900950288791
+          ],
+          "receiverLightBounds": [
+            -4.000000000000028,
+            3.9999999999999742,
+            0.008161619033834312,
+            0.30331059340419964
+          ],
+          "casterAndReceiverLightDepth": [
+            -8.244495867962378,
+            4.422568921545188
+          ],
+          "width": 12.109059259838634,
+          "height": 12.109059259838634,
+          "near": 0.1,
+          "far": 28.767064789507565,
+          "texelWorld": [
+            0.0029563132958590416,
+            0.0029563132958590416
+          ],
+          "snappedLightCenter": [
+            0,
+            0.1566846046805292,
+            12.522568921545188
+          ],
+          "lightWorldPosition": [
+            12.08175495698405,
+            0.6154537559071369,
+            3.2390888061188594
+          ],
+          "lightWorldTarget": [
+            11.116513662868154,
+            0.5788099662085446,
+            2.980309987800983
+          ],
+          "casterBounds": {
+            "min": [
+              -2.5366613974790964,
+              -0.5,
+              -6.424816334960986
+            ],
+            "max": [
+              2.5366613974790964,
+              8.5,
+              6.424816334960986
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -9.004403389805422,
+              -0.001,
+              -5.9999200290239605
+            ],
+            "max": [
+              0.7943384347362158,
+              0.001,
+              3.7988217955176764
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.3978921794445469,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.0078125,
+          0.0078125
+        ],
+        "shadowMapTexelLightWorld": [
+          0.0029563132958590416,
+          0.0029563132958590416
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.08067706206633464,
+          0.002956313295859055
+        ],
+        "boundaryToleranceWorld": [
+          0.25765618619900393,
+          0.024493939887577164
+        ],
+        "guardPixels": [
+          33,
+          4
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -1.6653345369377348e-16,
+          -1,
+          0.036643789698592256,
+          -5.204170427930421e-18
+        ]
+      },
+      "profile": {
+        "v": 0.00390625,
+        "expectedFirstShadowU": 0.50390625,
+        "actualFirstShadowU": 0.50390625,
+        "expectedLastShadowU": 8.24609375,
+        "actualLastShadowU": 8.24609375,
+        "contactMeasured": true,
+        "contactGapWorld": 0,
+        "contactMissing": false,
+        "tipMeasured": false,
+        "tipErrorWorld": null,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -0.4839565314716749,
+          0,
+          -0.12570335888498857
+        ],
+        "expectedTipWorld": [
+          -211.2135348977567,
+          0,
+          -56.621785329973875
+        ]
+      },
+      "metrics": {
+        "validPixels": 1015808,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 982016,
+        "strictShadowPixels": 982016,
+        "strictClearPixels": 0,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 1,
+        "referenceEncodedRange": [
+          15,
+          31
+        ]
+      },
+      "elapsedMilliseconds": 176.70000000298023,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "user-dawn-contact-wall-withShadow.png",
+        "withoutShadow": "user-dawn-contact-wall-withoutShadow.png",
+        "expected": "user-dawn-contact-wall-expected.png",
+        "diagnostic": "user-dawn-contact-wall-diagnostic.png"
+      }
+    },
+    {
+      "name": "summer-noon-box",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 180.00000000046316,
+        "elevation": 57.80142321282974,
+        "geometricElevation": 57.80142321282974,
+        "apparentElevation": 57.81158100102169,
+        "refraction": 0.0101577881919509,
+        "equation": -1.8019872222311566,
+        "declination": 23.43812321282975,
+        "hourAngle": 2.6898305804934353e-10,
+        "distanceAU": 1.0162328135366823,
+        "julianDay": 2461212.897494436,
+        "dateUTC": "2026-06-21T09:32:23.519Z",
+        "type": "real Moscow instant",
+        "latitude": 55.6367,
+        "longitude": 37.3525
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 12,
+        "length": 8,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 7.5534163403766685,
+        "shadowTipWorld": [
+          -0.04086534279334633,
+          0,
+          -11.553344068183938
+        ],
+        "basisU": [
+          -0.0035370786951155636,
+          0,
+          -0.9999937445175868
+        ],
+        "basisV": [
+          -0.9999937445175868,
+          0,
+          0.0035370786951155636
+        ]
+      },
+      "view": {
+        "pixels": [
+          1024,
+          768
+        ],
+        "groundUV": [
+          -10,
+          17.553416340376668,
+          -10.33253112764125,
+          10.33253112764125
+        ],
+        "receiverY": 0,
+        "casterInView": true
+      },
+      "light": {
+        "normalBias": 0.0025389025719307727,
+        "depthBias": -0.00017653735861237677,
+        "depthBiasWorld": 0.006770406858482061,
+        "normalBiasProjectedGround": 0.0015981156811205207,
+        "productionAmbientIntensity": 0.6599999999999999,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 3.469642400468721,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 20,
+          "worldDirection": [
+            0.0018842203093404975,
+            0.8463008573102576,
+            0.5327018947119945
+          ],
+          "lightSpaceRight": [
+            0.9999937445175865,
+            0,
+            -0.0035370786951155627
+          ],
+          "lightSpaceUp": [
+            -0.002993432732050149,
+            0.5327052270401736,
+            -0.8462955632901284
+          ],
+          "receiverLightBounds": [
+            -10.33253112764125,
+            10.33253112764125,
+            -8.463541278329622,
+            14.856004002811707
+          ],
+          "casterAndReceiverLightDepth": [
+            -9.351642937788364,
+            12.999485184321184
+          ],
+          "width": 26.68542335377137,
+          "height": 26.68542335377137,
+          "near": 0.1,
+          "far": 38.45112812210955,
+          "texelWorld": [
+            0.006514995935979338,
+            0.006514995935979338
+          ],
+          "snappedLightCenter": [
+            0,
+            3.198863004565855,
+            21.099485184321185
+          ],
+          "lightWorldPosition": [
+            0.030180497277715188,
+            19.560563443413763,
+            8.532552166798538
+          ],
+          "lightWorldTarget": [
+            0.02829627696837469,
+            18.714262586103505,
+            7.999850272086544
+          ],
+          "casterBounds": {
+            "min": [
+              -6.514110781885982,
+              -0.5,
+              -4.52119745024104
+            ],
+            "max": [
+              6.514110781885982,
+              12.5,
+              4.52119745024104
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -10.394554307638536,
+              -0.001,
+              -17.589853511007657
+            ],
+            "max": [
+              10.367837279625652,
+              0.001,
+              10.036484420894068
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 0,
+      "maxCasterDepthNDC": 0.5467959399527689,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.02690763314489909,
+          0.02690763314489909
+        ],
+        "shadowMapTexelLightWorld": [
+          0.006514995935979338,
+          0.006514995935979338
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.007698203162272009,
+          0.00651499593597934
+        ],
+        "boundaryToleranceWorld": [
+          0.0769098757766142,
+          0.0733602540977362
+        ],
+        "guardPixels": [
+          3,
+          3
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          4.336808689942018e-19,
+          -0.9999999999999998,
+          0.8463008573102577,
+          4.336808689942018e-19
+        ]
+      },
+      "profile": {
+        "v": 0.013453816572450705,
+        "expectedFirstShadowU": 4.005423051919976,
+        "actualFirstShadowU": 4.005423051919976,
+        "expectedLastShadowU": 11.539560332491721,
+        "actualLastShadowU": 11.539560332491721,
+        "contactMeasured": true,
+        "contactGapWorld": 0,
+        "contactMissing": false,
+        "tipMeasured": true,
+        "tipErrorWorld": 0,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -0.027602047192800003,
+          0,
+          -3.9999273908623807
+        ],
+        "expectedTipWorld": [
+          -0.054319075205684075,
+          0,
+          -11.553296480975972
+        ]
+      },
+      "metrics": {
+        "validPixels": 653970,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 643464,
+        "strictShadowPixels": 121000,
+        "strictClearPixels": 522464,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 1,
+        "referenceEncodedRange": [
+          216,
+          248
+        ]
+      },
+      "elapsedMilliseconds": 166,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "summer-noon-box-withShadow.png",
+        "withoutShadow": "summer-noon-box-withoutShadow.png",
+        "expected": "summer-noon-box-expected.png",
+        "diagnostic": "summer-noon-box-diagnostic.png"
+      }
+    },
+    {
+      "name": "winter-noon-box",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 179.99999999996976,
+        "elevation": 10.926337323920013,
+        "geometricElevation": 10.926337323920013,
+        "apparentElevation": 11.007324731277713,
+        "refraction": 0.08098740735769973,
+        "equation": 1.9750544106777914,
+        "declination": -23.436962676079993,
+        "hourAngle": -3.240074875066057e-11,
+        "distanceAU": 0.9837754550813896,
+        "julianDay": 2461395.89487149,
+        "dateUTC": "2026-12-21T09:28:36.896Z",
+        "type": "real Moscow instant",
+        "latitude": 55.6367,
+        "longitude": 37.3525
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 12,
+        "length": 8,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 61.69253995178309,
+        "shadowTipWorld": [
+          -0.23235968405720603,
+          0,
+          -65.69212901325274
+        ],
+        "basisU": [
+          -0.003537078703727288,
+          0,
+          -0.9999937445175563
+        ],
+        "basisV": [
+          -0.9999937445175563,
+          0,
+          0.003537078703727288
+        ]
+      },
+      "view": {
+        "pixels": [
+          1536,
+          768
+        ],
+        "groundUV": [
+          -10,
+          71.69253995178309,
+          -20.423134987945772,
+          20.423134987945772
+        ],
+        "receiverY": 0,
+        "casterInView": true
+      },
+      "light": {
+        "normalBias": 0.0005728034571038597,
+        "depthBias": -0.000015879777360940777,
+        "depthBiasWorld": 0.0015274758856102925,
+        "normalBiasProjectedGround": 0.002944808346824945,
+        "productionAmbientIntensity": 0.6599999999999999,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.6346165599636024,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.0034720062967038556,
+            0.19093448570128654,
+            0.9815966418760106
+          ],
+          "lightSpaceRight": [
+            0.9999937445175563,
+            0,
+            -0.003537078703726843
+          ],
+          "lightSpaceUp": [
+            -0.0006753503031810581,
+            0.9816027822749819,
+            -0.19093329131396333
+          ],
+          "receiverLightBounds": [
+            -20.42313498794582,
+            20.423134987945758,
+            -1.9103264597951513,
+            13.689559847094918
+          ],
+          "casterAndReceiverLightDepth": [
+            -70.37378761951626,
+            9.81621875723556
+          ],
+          "width": 44.820352759188964,
+          "height": 44.820352759188964,
+          "near": 0.1,
+          "far": 96.29000637675182,
+          "texelWorld": [
+            0.010942468935348868,
+            0.010942468935348868
+          ],
+          "snappedLightCenter": [
+            0,
+            5.8870482872176915,
+            17.916218757235562
+          ],
+          "lightWorldPosition": [
+            0.05822940449263161,
+            9.199566992244568,
+            16.462466661615714
+          ],
+          "lightWorldTarget": [
+            0.05475739819592775,
+            9.008632506543282,
+            15.480870019739704
+          ],
+          "casterBounds": {
+            "min": [
+              -6.514110781920246,
+              -0.5,
+              -4.521197450292588
+            ],
+            "max": [
+              6.514110781920246,
+              12.5,
+              4.521197450292588
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -20.67658938766298,
+              -0.001,
+              -71.76432971618728
+            ],
+            "max": [
+              20.45837801842068,
+              0.001,
+              10.072175681004774
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 4.506228053395857e-16,
+      "maxCasterDepthNDC": 0.7597062227125116,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.05318524736444211,
+          0.05318524736444211
+        ],
+        "shadowMapTexelLightWorld": [
+          0.010942468935348868,
+          0.010942468935348868
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.05731007101811959,
+          0.010942468935348892
+        ],
+        "boundaryToleranceWorld": [
+          0.278300707783243,
+          0.1391979015349309
+        ],
+        "guardPixels": [
+          6,
+          3
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -4.44956571588051e-16,
+          -1,
+          0.19093448570128652,
+          -8.500145032286355e-17
+        ]
+      },
+      "profile": {
+        "v": 0.026592623682219596,
+        "expectedFirstShadowU": 4.014312680530496,
+        "actualFirstShadowU": 4.014312680530496,
+        "expectedLastShadowU": 65.6560143759189,
+        "actualLastShadowU": 65.6560143759189,
+        "contactMeasured": true,
+        "contactGapWorld": 0,
+        "contactMissing": false,
+        "tipMeasured": true,
+        "tipErrorWorld": 0,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -0.04074077214743817,
+          0,
+          -3.9998809178673227
+        ],
+        "expectedTipWorld": [
+          -0.25895214138973505,
+          0,
+          -65.69203495304984
+        ]
+      },
+      "metrics": {
+        "validPixels": 1145748,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 1125504,
+        "strictShadowPixels": 252560,
+        "strictClearPixels": 872944,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 1,
+        "referenceEncodedRange": [
+          52,
+          89
+        ]
+      },
+      "elapsedMilliseconds": 167.39999999850988,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "winter-noon-box-withShadow.png",
+        "withoutShadow": "winter-noon-box-withoutShadow.png",
+        "expected": "winter-noon-box-expected.png",
+        "diagnostic": "winter-noon-box-diagnostic.png"
+      }
+    },
+    {
+      "name": "low-025-column-full",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "apparentElevation": 0.25,
+        "type": "explicit calibration angle, not a claimed civil-time observation"
+      },
+      "fixture": {
+        "shape": "cylinder",
+        "height": 1,
+        "length": null,
+        "width": null,
+        "radius": 0.75,
+        "cylinderSegments": 128,
+        "cylinderRadialChordError": 0.00022588597784681252,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 229.1816636094399,
+        "shadowTipWorld": [
+          -222.08869334830868,
+          0,
+          -59.541432776223445
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          2048,
+          256
+        ],
+        "groundUV": [
+          -12.75,
+          241.9316636094399,
+          -15.917603975589994,
+          15.917603975589994
+        ],
+        "receiverY": 0,
+        "casterInView": true
+      },
+      "light": {
+        "normalBias": 0.000013089927854239714,
+        "depthBias": -1.2895881210811348e-7,
+        "depthBiasWorld": 0.00003490647427797257,
+        "normalBiasProjectedGround": 0.0029999714421622037,
+        "productionAmbientIntensity": 0.47,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.1122172659972904,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.9658808001374247,
+            0.004363309284746571,
+            0.25895026831029533
+          ],
+          "lightSpaceRight": [
+            0.2589527333536807,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.004214476781979518,
+            0.9999904807207346,
+            -0.001129890865752618
+          ],
+          "receiverLightBounds": [
+            -15.917603975590069,
+            15.917603975589973,
+            -0.05663218386124438,
+            1.0566226645819787
+          ],
+          "casterAndReceiverLightDepth": [
+            -241.92936495768015,
+            12.749882992498694
+          ],
+          "width": 35.013587940261715,
+          "height": 35.013587940261715,
+          "near": 0.1,
+          "far": 270.77924795017884,
+          "texelWorld": [
+            0.008548239243227958,
+            0.008548239243227958
+          ],
+          "snappedLightCenter": [
+            0,
+            0.49579787610722154,
+            20.849882992498696
+          ],
+          "lightWorldPosition": [
+            20.136412138928915,
+            0.5867676445158289,
+            5.398522597654328
+          ],
+          "lightWorldTarget": [
+            19.17053133879149,
+            0.5824043352310823,
+            5.139572329344032
+          ],
+          "casterBounds": {
+            "min": [
+              -1.4186320460507786,
+              -0.5,
+              -1.4186320460507786
+            ],
+            "max": [
+              1.4186320460507786,
+              1.5,
+              1.4186320460507786
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -237.80128034279744,
+              -0.001,
+              -78.02351999631017
+            ],
+            "max": [
+              16.43700449052425,
+              0.001,
+              18.676301770101976
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.8550287784429595,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.12435628105929683,
+          0.12435628105929683
+        ],
+        "shadowMapTexelLightWorld": [
+          0.008548239243227958,
+          0.008548239243227958
+        ],
+        "shadowTexelProjectedOnGround": [
+          1.9591183400890764,
+          0.008548239243228391
+        ],
+        "boundaryToleranceWorld": [
+          6.126067582385823,
+          0.27435727984827885
+        ],
+        "guardPixels": [
+          50,
+          3
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -2.220446049250313e-16,
+          -1,
+          0.004363309284746571,
+          -1.0842021724855044e-18
+        ]
+      },
+      "profile": {
+        "v": 0.06217814052964776,
+        "expectedFirstShadowU": 0.8670127759930022,
+        "actualFirstShadowU": 0.8670127759930022,
+        "expectedLastShadowU": 229.80692620615847,
+        "actualLastShadowU": 229.06078851980268,
+        "contactMeasured": true,
+        "contactGapWorld": 0,
+        "contactMissing": false,
+        "tipMeasured": true,
+        "tipErrorWorld": -0.7461376863557803,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -0.7405186954805196,
+          0,
+          -0.134157306187751
+        ],
+        "expectedTipWorld": [
+          -222.10479454775367,
+          0,
+          -59.48137553239594
+        ]
+      },
+      "metrics": {
+        "validPixels": 524176,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 499580,
+        "strictShadowPixels": 10440,
+        "strictClearPixels": 489140,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 0.9971960926193922,
+        "referenceEncodedRange": [
+          2,
+          5
+        ]
+      },
+      "elapsedMilliseconds": 91.19999999552965,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "low-025-column-full-withShadow.png",
+        "withoutShadow": "low-025-column-full-withoutShadow.png",
+        "expected": "low-025-column-full-expected.png",
+        "diagnostic": "low-025-column-full-diagnostic.png"
+      }
+    },
+    {
+      "name": "low-025-contact-wall",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "apparentElevation": 0.25,
+        "type": "explicit calibration angle, not a claimed civil-time observation"
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 3,
+        "length": 1,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 687.5449908283197,
+        "shadowTipWorld": [
+          -664.5757725541765,
+          0,
+          -178.1711310453014
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          1024,
+          1024
+        ],
+        "groundUV": [
+          0.25,
+          8.25,
+          -4,
+          4
+        ],
+        "receiverY": 0,
+        "casterInView": true
+      },
+      "light": {
+        "normalBias": 0.000013089927854239714,
+        "depthBias": -0.0000012300099475967939,
+        "depthBiasWorld": 0.00003490647427797257,
+        "normalBiasProjectedGround": 0.0029999714421622037,
+        "productionAmbientIntensity": 0.47,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.1122172659972904,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.9658808001374247,
+            0.004363309284746571,
+            0.25895026831029533
+          ],
+          "lightSpaceRight": [
+            0.2589527333536807,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.004214476781979518,
+            0.9999904807207346,
+            -0.001129890865752618
+          ],
+          "receiverLightBounds": [
+            -4.000000000000028,
+            3.9999999999999742,
+            0.00009083684046111169,
+            0.03699729207988471
+          ],
+          "casterAndReceiverLightDepth": [
+            -8.249925829255343,
+            4.129092036553956
+          ],
+          "width": 12.109059259838634,
+          "height": 12.109059259838634,
+          "near": 0.1,
+          "far": 28.479017865809297,
+          "texelWorld": [
+            0.0029563132958590416,
+            0.0029563132958590416
+          ],
+          "snappedLightCenter": [
+            0,
+            0.01773787977515425,
+            12.229092036553956
+          ],
+          "lightWorldPosition": [
+            11.81177044533847,
+            0.07109702175043933,
+            3.1667066221886073
+          ],
+          "lightWorldTarget": [
+            10.845889645201044,
+            0.06673371246569276,
+            2.907756353878312
+          ],
+          "casterBounds": {
+            "min": [
+              -2.5366613974790964,
+              -0.5,
+              -6.424816334960986
+            ],
+            "max": [
+              2.5366613974790964,
+              3.5,
+              6.424816334960986
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -9.004403389805422,
+              -0.001,
+              -5.9999200290239605
+            ],
+            "max": [
+              0.7943384347362158,
+              0.001,
+              3.7988217955176764
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.3928896884592332,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.0078125,
+          0.0078125
+        ],
+        "shadowMapTexelLightWorld": [
+          0.0029563132958590416,
+          0.0029563132958590416
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.6775392489810058,
+          0.002956313295859192
+        ],
+        "boundaryToleranceWorld": [
+          2.0482427469430173,
+          0.024493939887577577
+        ],
+        "guardPixels": [
+          263,
+          4
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -2.220446049250313e-16,
+          -1,
+          0.004363309284746571,
+          -1.0842021724855044e-18
+        ]
+      },
+      "profile": {
+        "v": 0.00390625,
+        "expectedFirstShadowU": 0.50390625,
+        "actualFirstShadowU": 0.50390625,
+        "expectedLastShadowU": 8.24609375,
+        "actualLastShadowU": 8.24609375,
+        "contactMeasured": true,
+        "contactGapWorld": 0,
+        "contactMissing": false,
+        "tipMeasured": false,
+        "tipErrorWorld": null,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -0.4839565314716749,
+          0,
+          -0.12570335888498857
+        ],
+        "expectedTipWorld": [
+          -664.5767840882912,
+          0,
+          -178.16735803750953
+        ]
+      },
+      "metrics": {
+        "validPixels": 1015808,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 746496,
+        "strictShadowPixels": 746496,
+        "strictClearPixels": 0,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 1,
+        "referenceEncodedRange": [
+          2,
+          5
+        ]
+      },
+      "elapsedMilliseconds": 173.70000000298023,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "low-025-contact-wall-withShadow.png",
+        "withoutShadow": "low-025-contact-wall-withoutShadow.png",
+        "expected": "low-025-contact-wall-expected.png",
+        "diagnostic": "low-025-contact-wall-diagnostic.png"
+      }
+    },
+    {
+      "name": "offview-dawn-100m-wall-tip",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "elevation": 1.8029548340828827,
+        "geometricElevation": 1.8029548340828827,
+        "apparentElevation": 2.1000046436205273,
+        "refraction": 0.2970498095376445,
+        "equation": 13.19074695060389,
+        "declination": -7.010177134897191,
+        "hourAngle": -76.34981326234902,
+        "distanceAU": 0.9984217835708703,
+        "julianDay": 2461324.675,
+        "dateUTC": "2026-10-11T04:12:00.000Z",
+        "type": "real Moscow instant",
+        "latitude": 55.6367,
+        "longitude": 37.3525
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 100,
+        "length": 8,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 2727.1425773060832,
+        "shadowTipWorld": [
+          -2637.983289557419,
+          0,
+          -707.2368355720258
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          1024,
+          1024
+        ],
+        "groundUV": [
+          2723.1425773060832,
+          2739.1425773060832,
+          -8,
+          8
+        ],
+        "receiverY": 0,
+        "casterInView": false
+      },
+      "light": {
+        "normalBias": 0.00010993136909577677,
+        "depthBias": -1.060373683265373e-7,
+        "depthBiasWorld": 0.0002931503175887381,
+        "normalBiasProjectedGround": 0.0029979851724264294,
+        "productionAmbientIntensity": 0.5440001857448211,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.2026026111560584,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.9652412941158957,
+            0.036643789698592256,
+            0.2587788183178765
+          ],
+          "lightSpaceRight": [
+            0.25895273335368063,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.03539386983827509,
+            0.99932839080881,
+            -0.00948900950288791
+          ],
+          "receiverLightBounds": [
+            -8.000000000000568,
+            7.999999999999659,
+            99.78526459369581,
+            100.37356388565493
+          ],
+          "casterAndReceiverLightDepth": [
+            -2737.3029806189743,
+            11.291446941646512
+          ],
+          "width": 19.358149833777777,
+          "height": 19.358149833777777,
+          "near": 0.1,
+          "far": 2764.6944275606206,
+          "texelWorld": [
+            0.0047261107992621525,
+            0.0047261107992621525
+          ],
+          "snappedLightCenter": [
+            0,
+            100.08012228517534,
+            19.391446941646514
+          ],
+          "lightWorldPosition": [
+            15.175202519174457,
+            100.7234836588743,
+            4.068434493618873
+          ],
+          "lightWorldTarget": [
+            14.209961225058562,
+            100.68683986917571,
+            3.8096556753009962
+          ],
+          "casterBounds": {
+            "min": [
+              -5.9172763789781815,
+              -0.5,
+              -7.3311509016988685
+            ],
+            "max": [
+              5.9172763789781815,
+              100.5,
+              7.3311509016988685
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -2647.7820313819607,
+              -0.001,
+              -717.0355773965674
+            ],
+            "max": [
+              -2628.1845477328775,
+              0.001,
+              -697.4380937474842
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.9937565294460342,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.015625,
+          0.015625
+        ],
+        "shadowMapTexelLightWorld": [
+          0.0047261107992621525,
+          0.0047261107992621525
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.1289744002499751,
+          0.004726110799262174
+        ],
+        "boundaryToleranceWorld": [
+          0.41817320074992537,
+          0.04542833239778652
+        ],
+        "guardPixels": [
+          27,
+          3
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -1.6653345369377348e-16,
+          -1,
+          0.036643789698592256,
+          -5.204170427930421e-18
+        ]
+      },
+      "profile": {
+        "v": 0.0078125,
+        "expectedFirstShadowU": 2723.1503898060832,
+        "actualFirstShadowU": 2723.1503898060832,
+        "expectedLastShadowU": 2731.1347648060832,
+        "actualLastShadowU": 2731.1503898060832,
+        "contactMeasured": false,
+        "contactGapWorld": null,
+        "contactMissing": false,
+        "tipMeasured": true,
+        "tipErrorWorld": 0.015625,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -3.865583047085422,
+          0,
+          -1.0282649178310186
+        ],
+        "expectedTipWorld": [
+          -2637.9853126256485,
+          0,
+          -707.2292895564422
+        ]
+      },
+      "metrics": {
+        "validPixels": 1048576,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 1000960,
+        "strictShadowPixels": 369570,
+        "strictClearPixels": 631390,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 0.9980506822612085,
+        "referenceEncodedRange": [
+          15,
+          31
+        ]
+      },
+      "elapsedMilliseconds": 163.39999999850988,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "offview-dawn-100m-wall-tip-withShadow.png",
+        "withoutShadow": "offview-dawn-100m-wall-tip-withoutShadow.png",
+        "expected": "offview-dawn-100m-wall-tip-expected.png",
+        "diagnostic": "offview-dawn-100m-wall-tip-diagnostic.png"
+      }
+    },
+    {
+      "name": "offview-low-10m-wall-tip",
+      "pass": true,
+      "status": "PASS",
+      "control": false,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "apparentElevation": 0.25,
+        "type": "explicit calibration angle, not a claimed civil-time observation"
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 10,
+        "length": 4,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 2291.816636094399,
+        "shadowTipWorld": [
+          -2215.57453851216,
+          0,
+          -593.9900877287893
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          1024,
+          1024
+        ],
+        "groundUV": [
+          2285.816636094399,
+          2301.816636094399,
+          -8,
+          8
+        ],
+        "receiverY": 0,
+        "casterInView": false
+      },
+      "light": {
+        "normalBias": 0.000013089927854239714,
+        "depthBias": -1e-7,
+        "depthBiasWorld": 0.00023234543497449602,
+        "normalBiasProjectedGround": 0.0029999714421622037,
+        "productionAmbientIntensity": 0.47,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.1122172659972904,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 20,
+          "worldDirection": [
+            0.9658808001374247,
+            0.004363309284746571,
+            0.25895026831029533
+          ],
+          "lightSpaceRight": [
+            0.2589527333536807,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.004214476781979518,
+            0.9999904807207346,
+            -0.001129890865752618
+          ],
+          "receiverLightBounds": [
+            -8.000000000000568,
+            7.999999999999432,
+            9.97272496101814,
+            10.044537890535535
+          ],
+          "casterAndReceiverLightDepth": [
+            -2301.794728822332,
+            5.659620922628283
+          ],
+          "width": 19.358149833777777,
+          "height": 19.358149833777777,
+          "near": 0.1,
+          "far": 2323.5543497449603,
+          "texelWorld": [
+            0.0047261107992621525,
+            0.0047261107992621525
+          ],
+          "snappedLightCenter": [
+            0,
+            10.009902672837239,
+            13.759620922628283
+          ],
+          "lightWorldPosition": [
+            13.247967163931309,
+            10.069844867504575,
+            3.5517474321654356
+          ],
+          "lightWorldTarget": [
+            12.282086363793884,
+            10.065481558219828,
+            3.2927971638551403
+          ],
+          "casterBounds": {
+            "min": [
+              -3.9854963895501325,
+              -0.5,
+              -6.813245434991507
+            ],
+            "max": [
+              3.9854963895501325,
+              10.5,
+              6.813245434991507
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -2225.3732803367016,
+              -0.001,
+              -603.7888295533309
+            ],
+            "max": [
+              -2205.7757966876184,
+              0.001,
+              -584.1913459042477
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.9925846641318243,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": true,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": true,
+        "shadowRecall": true,
+        "falseShadow": true,
+        "contact": true,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.015625,
+          0.015625
+        ],
+        "shadowMapTexelLightWorld": [
+          0.0047261107992621525,
+          0.0047261107992621525
+        ],
+        "shadowTexelProjectedOnGround": [
+          1.083148246168081,
+          0.004726110799262393
+        ],
+        "boundaryToleranceWorld": [
+          3.280694738504243,
+          0.04542833239778718
+        ],
+        "guardPixels": [
+          210,
+          3
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -2.220446049250313e-16,
+          -1,
+          0.004363309284746571,
+          -1.0842021724855044e-18
+        ]
+      },
+      "profile": {
+        "v": 0.0078125,
+        "expectedFirstShadowU": 2285.824448594399,
+        "actualFirstShadowU": 2285.824448594399,
+        "expectedLastShadowU": 2293.808823594399,
+        "actualLastShadowU": 2294.074448594399,
+        "contactMeasured": false,
+        "contactGapWorld": null,
+        "contactMissing": false,
+        "tipMeasured": true,
+        "tipErrorWorld": 0.265625,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -1.933803057657374,
+          0,
+          -0.5103594511236577
+        ],
+        "expectedTipWorld": [
+          -2215.5765615803894,
+          0,
+          -593.9825417132056
+        ]
+      },
+      "metrics": {
+        "validPixels": 1048576,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 719872,
+        "strictShadowPixels": 230124,
+        "strictClearPixels": 489748,
+        "interiorMismatchPixels": 0,
+        "interiorMismatchFraction": 0,
+        "shadowRecall": 1,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 0.9678638941398866,
+        "referenceEncodedRange": [
+          2,
+          5
+        ]
+      },
+      "elapsedMilliseconds": 147.29999999701977,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "offview-low-10m-wall-tip-withShadow.png",
+        "withoutShadow": "offview-low-10m-wall-tip-withoutShadow.png",
+        "expected": "offview-low-10m-wall-tip-expected.png",
+        "diagnostic": "offview-low-10m-wall-tip-diagnostic.png"
+      }
+    },
+    {
+      "name": "control-wrong-normal-bias",
+      "pass": true,
+      "status": "CONTROL_DETECTED",
+      "control": true,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "elevation": 1.8029548340828827,
+        "geometricElevation": 1.8029548340828827,
+        "apparentElevation": 2.1000046436205273,
+        "refraction": 0.2970498095376445,
+        "equation": 13.19074695060389,
+        "declination": -7.010177134897191,
+        "hourAngle": -76.34981326234902,
+        "distanceAU": 0.9984217835708703,
+        "julianDay": 2461324.675,
+        "dateUTC": "2026-10-11T04:12:00.000Z",
+        "type": "real Moscow instant",
+        "latitude": 55.6367,
+        "longitude": 37.3525
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 100,
+        "length": 8,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 2727.1425773060832,
+        "shadowTipWorld": [
+          -2637.983289557419,
+          0,
+          -707.2368355720258
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          1024,
+          1024
+        ],
+        "groundUV": [
+          2723.1425773060832,
+          2739.1425773060832,
+          -8,
+          8
+        ],
+        "receiverY": 0,
+        "casterInView": false
+      },
+      "light": {
+        "normalBias": 0.55,
+        "depthBias": -1.060373683265373e-7,
+        "depthBiasWorld": 0.0002931503175887381,
+        "normalBiasProjectedGround": 14.999284175183458,
+        "productionAmbientIntensity": 0.5440001857448211,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.2026026111560584,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.9652412941158957,
+            0.036643789698592256,
+            0.2587788183178765
+          ],
+          "lightSpaceRight": [
+            0.25895273335368063,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.03539386983827509,
+            0.99932839080881,
+            -0.00948900950288791
+          ],
+          "receiverLightBounds": [
+            -8.000000000000568,
+            7.999999999999659,
+            99.78526459369581,
+            100.37356388565493
+          ],
+          "casterAndReceiverLightDepth": [
+            -2737.3029806189743,
+            11.291446941646512
+          ],
+          "width": 19.358149833777777,
+          "height": 19.358149833777777,
+          "near": 0.1,
+          "far": 2764.6944275606206,
+          "texelWorld": [
+            0.0047261107992621525,
+            0.0047261107992621525
+          ],
+          "snappedLightCenter": [
+            0,
+            100.08012228517534,
+            19.391446941646514
+          ],
+          "lightWorldPosition": [
+            15.175202519174457,
+            100.7234836588743,
+            4.068434493618873
+          ],
+          "lightWorldTarget": [
+            14.209961225058562,
+            100.68683986917571,
+            3.8096556753009962
+          ],
+          "casterBounds": {
+            "min": [
+              -5.9172763789781815,
+              -0.5,
+              -7.3311509016988685
+            ],
+            "max": [
+              5.9172763789781815,
+              100.5,
+              7.3311509016988685
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -2647.7820313819607,
+              -0.001,
+              -717.0355773965674
+            ],
+            "max": [
+              -2628.1845477328775,
+              0.001,
+              -697.4380937474842
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.9937565294460342,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": false,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": false,
+        "shadowRecall": false,
+        "falseShadow": true,
+        "contact": true,
+        "tip": false
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.015625,
+          0.015625
+        ],
+        "shadowMapTexelLightWorld": [
+          0.0047261107992621525,
+          0.0047261107992621525
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.1289744002499751,
+          0.004726110799262174
+        ],
+        "boundaryToleranceWorld": [
+          0.41817320074992537,
+          0.04542833239778652
+        ],
+        "guardPixels": [
+          27,
+          3
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -1.6653345369377348e-16,
+          -1,
+          0.036643789698592256,
+          -5.204170427930421e-18
+        ]
+      },
+      "profile": {
+        "v": 0.0078125,
+        "expectedFirstShadowU": 2723.1503898060832,
+        "actualFirstShadowU": null,
+        "expectedLastShadowU": 2731.1347648060832,
+        "actualLastShadowU": null,
+        "contactMeasured": false,
+        "contactGapWorld": null,
+        "contactMissing": false,
+        "tipMeasured": true,
+        "tipErrorWorld": null,
+        "tipMissing": true,
+        "expectedContactWorld": [
+          -3.865583047085422,
+          0,
+          -1.0282649178310186
+        ],
+        "expectedTipWorld": [
+          -2637.9853126256485,
+          0,
+          -707.2292895564422
+        ]
+      },
+      "metrics": {
+        "validPixels": 1048576,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 1000960,
+        "strictShadowPixels": 369570,
+        "strictClearPixels": 631390,
+        "interiorMismatchPixels": 369570,
+        "interiorMismatchFraction": 0.3692155530690537,
+        "shadowRecall": 0,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 0,
+        "referenceEncodedRange": [
+          15,
+          31
+        ]
+      },
+      "elapsedMilliseconds": 195.5,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "control-wrong-normal-bias-withShadow.png",
+        "withoutShadow": "control-wrong-normal-bias-withoutShadow.png",
+        "expected": "control-wrong-normal-bias-expected.png",
+        "diagnostic": "control-wrong-normal-bias-diagnostic.png"
+      }
+    },
+    {
+      "name": "control-wrong-depth-bias",
+      "pass": true,
+      "status": "CONTROL_DETECTED",
+      "control": true,
+      "solar": {
+        "azimuth": 105.2105902312324,
+        "elevation": 1.8029548340828827,
+        "geometricElevation": 1.8029548340828827,
+        "apparentElevation": 2.1000046436205273,
+        "refraction": 0.2970498095376445,
+        "equation": 13.19074695060389,
+        "declination": -7.010177134897191,
+        "hourAngle": -76.34981326234902,
+        "distanceAU": 0.9984217835708703,
+        "julianDay": 2461324.675,
+        "dateUTC": "2026-10-11T04:12:00.000Z",
+        "type": "real Moscow instant",
+        "latitude": 55.6367,
+        "longitude": 37.3525
+      },
+      "fixture": {
+        "shape": "box",
+        "height": 8,
+        "length": 1,
+        "width": 12,
+        "radius": null,
+        "cylinderSegments": null,
+        "cylinderRadialChordError": null,
+        "units": "calibration world units (one fixture unit is defined as one metre); independent of reconstructed model height accuracy",
+        "baseCentre": [
+          0,
+          0,
+          0
+        ],
+        "shadowLength": 218.17140618448664,
+        "shadowTipWorld": [
+          -211.21252336364202,
+          0,
+          -56.625558337765725
+        ],
+        "basisU": [
+          -0.9658899947140241,
+          0,
+          -0.25895273335368046
+        ],
+        "basisV": [
+          -0.25895273335368046,
+          0,
+          0.9658899947140241
+        ]
+      },
+      "view": {
+        "pixels": [
+          1024,
+          1024
+        ],
+        "groundUV": [
+          0.25,
+          8.25,
+          -4,
+          4
+        ],
+        "receiverY": 0,
+        "casterInView": true
+      },
+      "light": {
+        "normalBias": 0.00010993136909577677,
+        "depthBias": -0.08,
+        "depthBiasWorld": 2.293365183160605,
+        "normalBiasProjectedGround": 0.0029979851724264294,
+        "productionAmbientIntensity": 0.5440001857448211,
+        "measurementAmbientIntensity": 0,
+        "sunIntensity": 1.2026026111560584,
+        "shadowMap": [
+          4096,
+          4096
+        ],
+        "fit": {
+          "receiverVisible": true,
+          "receiverVertexCount": 16,
+          "worldDirection": [
+            0.9652412941158957,
+            0.036643789698592256,
+            0.2587788183178765
+          ],
+          "lightSpaceRight": [
+            0.25895273335368063,
+            0,
+            -0.9658899947140241
+          ],
+          "lightSpaceUp": [
+            -0.03539386983827509,
+            0.99932839080881,
+            -0.00948900950288791
+          ],
+          "receiverLightBounds": [
+            -4.000000000000028,
+            3.9999999999999742,
+            0.008161619033834312,
+            0.30331059340419964
+          ],
+          "casterAndReceiverLightDepth": [
+            -8.244495867962378,
+            4.422568921545188
+          ],
+          "width": 12.109059259838634,
+          "height": 12.109059259838634,
+          "near": 0.1,
+          "far": 28.767064789507565,
+          "texelWorld": [
+            0.0029563132958590416,
+            0.0029563132958590416
+          ],
+          "snappedLightCenter": [
+            0,
+            0.1566846046805292,
+            12.522568921545188
+          ],
+          "lightWorldPosition": [
+            12.08175495698405,
+            0.6154537559071369,
+            3.2390888061188594
+          ],
+          "lightWorldTarget": [
+            11.116513662868154,
+            0.5788099662085446,
+            2.980309987800983
+          ],
+          "casterBounds": {
+            "min": [
+              -2.5366613974790964,
+              -0.5,
+              -6.424816334960986
+            ],
+            "max": [
+              2.5366613974790964,
+              8.5,
+              6.424816334960986
+            ]
+          },
+          "receiverBounds": {
+            "min": [
+              -9.004403389805422,
+              -0.001,
+              -5.9999200290239605
+            ],
+            "max": [
+              0.7943384347362158,
+              0.001,
+              3.7988217955176764
+            ]
+          },
+          "geometryChanged": false
+        }
+      },
+      "geometryGates": {
+        "directionPreserved": true,
+        "casterDepthIncluded": true,
+        "requiredOffView": true,
+        "shadowCasterSubmitted": true,
+        "glError": true
+      },
+      "directionError": 2.220446049250313e-16,
+      "maxCasterDepthNDC": 0.3978921794445469,
+      "drawsWithShadow": 1,
+      "glError": 0,
+      "footprintPass": false,
+      "gates": {
+        "referenceVisible": true,
+        "interiorShadowRepresented": true,
+        "interiorMismatch": false,
+        "shadowRecall": false,
+        "falseShadow": true,
+        "contact": false,
+        "tip": true
+      },
+      "resolution": {
+        "receiverPixelWorld": [
+          0.0078125,
+          0.0078125
+        ],
+        "shadowMapTexelLightWorld": [
+          0.0029563132958590416,
+          0.0029563132958590416
+        ],
+        "shadowTexelProjectedOnGround": [
+          0.08067706206633464,
+          0.002956313295859055
+        ],
+        "boundaryToleranceWorld": [
+          0.25765618619900393,
+          0.024493939887577164
+        ],
+        "guardPixels": [
+          33,
+          4
+        ],
+        "method": "3 projected PCF shadow texels + 2 receiver pixels; uncertainty is excluded from strict interior classification",
+        "lightXYFromGroundUV": [
+          -1.6653345369377348e-16,
+          -1,
+          0.036643789698592256,
+          -5.204170427930421e-18
+        ]
+      },
+      "profile": {
+        "v": 0.00390625,
+        "expectedFirstShadowU": 0.50390625,
+        "actualFirstShadowU": 2.79296875,
+        "expectedLastShadowU": 8.24609375,
+        "actualLastShadowU": 8.24609375,
+        "contactMeasured": true,
+        "contactGapWorld": 2.2890625,
+        "contactMissing": false,
+        "tipMeasured": false,
+        "tipErrorWorld": null,
+        "tipMissing": false,
+        "expectedContactWorld": [
+          -0.4839565314716749,
+          0,
+          -0.12570335888498857
+        ],
+        "expectedTipWorld": [
+          -211.2135348977567,
+          0,
+          -56.621785329973875
+        ]
+      },
+      "metrics": {
+        "validPixels": 1015808,
+        "invalidReferencePixels": 0,
+        "strictInteriorPixels": 982016,
+        "strictShadowPixels": 982016,
+        "strictClearPixels": 0,
+        "interiorMismatchPixels": 266240,
+        "interiorMismatchFraction": 0.2711157455683003,
+        "shadowRecall": 0.7288842544316997,
+        "falseShadowFraction": 0,
+        "rawMaskIntersectionOverUnion": 0.7046370967741935,
+        "referenceEncodedRange": [
+          15,
+          31
+        ]
+      },
+      "elapsedMilliseconds": 154.69999999552965,
+      "diagnosticLegend": {
+        "blue": "agreement on shadow",
+        "white": "agreement on sun",
+        "red": "missing shadow outside uncertainty band",
+        "purple": "extra shadow outside uncertainty band",
+        "yellow": "boundary disagreement within resolution band",
+        "gray": "solid footprint excluded"
+      },
+      "artifacts": {
+        "withShadow": "control-wrong-depth-bias-withShadow.png",
+        "withoutShadow": "control-wrong-depth-bias-withoutShadow.png",
+        "expected": "control-wrong-depth-bias-expected.png",
+        "diagnostic": "control-wrong-depth-bias-diagnostic.png"
+      }
+    }
+  ],
+  "rendererInfo": {
+    "renderer": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+    "vendor": "Google Inc. (Apple)",
+    "version": "WebGL 2.0 (OpenGL ES 3.0 Chromium)",
+    "shadingLanguage": "WebGL GLSL ES 3.00 (OpenGL ES GLSL ES 3.0 Chromium)",
+    "maxTextureSize": 16384,
+    "threeRevision": "170",
+    "outputColorSpace": "SRGBColorSpace",
+    "toneMapping": "NoToneMapping",
+    "shadowType": "PCFSoftShadowMap",
+    "devicePixelRatio": 1
+  },
+  "sourceHashes": [
+    {
+      "file": "architectural-lighting.js",
+      "bytes": 6866,
+      "sha256": "42ae7288a3fd8f394d21f315d363c5016c692767f2f6a23066be46b649f84a3b"
+    },
+    {
+      "file": "solar-shadow-camera.js",
+      "bytes": 11577,
+      "sha256": "c57df4be0750b13e7fd5b057cd12102020513a7984a092686d89b21b20284ad5"
+    },
+    {
+      "file": "solar.js",
+      "bytes": 11848,
+      "sha256": "8bd58e25f8a59280f7e17c8de67db4a1806f67b5ea302f502ba2109d55da1447"
+    },
+    {
+      "file": "vendor/three.module.js",
+      "bytes": 1314681,
+      "sha256": "ce1fa418de16a19495a9f72495580e3015d7745c296d3ce0485897f902ddedfb"
+    }
+  ],
+  "softwareRendererDetected": false,
+  "hardwareRendererEvidence": true,
+  "completedUTC": "2026-10-11T10:02:01.449Z",
+  "pass": true,
+  "status": "PASS"
+}

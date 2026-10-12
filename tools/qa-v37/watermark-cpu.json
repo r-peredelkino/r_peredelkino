@@ -1,0 +1,275 @@
+{
+  "pass": true,
+  "revision": 37,
+  "checks": [
+    {
+      "name": "Own bitmap spells the exact requested handle in physical cells",
+      "pass": true
+    },
+    {
+      "name": "Each of six original building contours carries independent plinth and roof marks",
+      "pass": true
+    },
+    {
+      "name": "No extra label node, draw call or texture is introduced",
+      "pass": true
+    },
+    {
+      "name": "Physical additions remain below fifty thousand triangles",
+      "pass": true
+    },
+    {
+      "name": "Source shared facade/instance materials remain unmodified",
+      "pass": true
+    },
+    {
+      "name": "building-0/mineral-plinth preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-0/mineral-plinth is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-0/mineral-plinth relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079958064806784
+    },
+    {
+      "name": "building-0/inset-roof preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-0/inset-roof is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-0/inset-roof relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079999403953555
+    },
+    {
+      "name": "building-1/mineral-plinth preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-1/mineral-plinth is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-1/mineral-plinth relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10080011569188843
+    },
+    {
+      "name": "building-1/inset-roof preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-1/inset-roof is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-1/inset-roof relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079999403953555
+    },
+    {
+      "name": "building-2/mineral-plinth preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-2/mineral-plinth is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-2/mineral-plinth relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10080024196077648
+    },
+    {
+      "name": "building-2/inset-roof preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-2/inset-roof is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-2/inset-roof relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079999403953555
+    },
+    {
+      "name": "building-3/mineral-plinth preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-3/mineral-plinth is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-3/mineral-plinth relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079973350712092
+    },
+    {
+      "name": "building-3/inset-roof preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-3/inset-roof is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-3/inset-roof relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079999403953555
+    },
+    {
+      "name": "building-4/mineral-plinth preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-4/mineral-plinth is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-4/mineral-plinth relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10080042589342872
+    },
+    {
+      "name": "building-4/inset-roof preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-4/inset-roof is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-4/inset-roof relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079999403953555
+    },
+    {
+      "name": "building-5/mineral-plinth preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-5/mineral-plinth is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-5/mineral-plinth relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079990683390652
+    },
+    {
+      "name": "building-5/inset-roof preserves the complete existing owned geometry",
+      "pass": true
+    },
+    {
+      "name": "building-5/inset-roof is physically decoded from actual vertex positions",
+      "pass": true
+    },
+    {
+      "name": "building-5/inset-roof relief is attached to its genuine original surface",
+      "pass": true,
+      "surfaceDistance": 0.10079999403953555
+    },
+    {
+      "name": "Three independent apartment floor/furniture surfaces are physically marked",
+      "pass": true
+    },
+    {
+      "name": "A rotated XY ShapeGeometry floor keeps its orientation and batching tag",
+      "pass": true
+    },
+    {
+      "name": "Sub-millimetre hidden vertex signatures retain physical decoding",
+      "pass": true
+    },
+    {
+      "name": "Existing texture LSB provenance is unchanged",
+      "pass": true
+    },
+    {
+      "name": "Physical geometry survives ObjectLoader without any provenance metadata",
+      "pass": true
+    },
+    {
+      "name": "OBJ-style six-decimal vertices alone recover the handle",
+      "pass": true
+    },
+    {
+      "name": "Reordered vertices recover the mark without startVertex metadata",
+      "pass": true
+    },
+    {
+      "name": "An unmarked source geometry cannot pass the physical decoder",
+      "pass": true
+    },
+    {
+      "name": "Removing one cuboid fails the completeness check",
+      "pass": true
+    },
+    {
+      "name": "Deleting a single carrier leaves eleven other complete physical marks",
+      "pass": true
+    },
+    {
+      "name": "Automatic surface fitting avoids real central holes",
+      "pass": true
+    },
+    {
+      "name": "A rejected transparent carrier cannot partially modify valid surfaces",
+      "pass": true
+    },
+    {
+      "name": "Large meshes and instance facades are never unpacked",
+      "pass": true
+    },
+    {
+      "name": "Repeated installation cannot duplicate pixel geometry",
+      "pass": true
+    },
+    {
+      "name": "Helper disposal is idempotent and leaves parent-owned geometry/materials alive",
+      "pass": true
+    },
+    {
+      "name": "Parent scene disposes each carrier resource once",
+      "pass": true
+    },
+    {
+      "name": "All appended positions/normals and bounds remain finite",
+      "pass": true
+    },
+    {
+      "name": "Main helper releases its refs and brand texture exactly once",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "revision": 37,
+    "handle": "@r_peredelkino",
+    "physical": true,
+    "carriers": 12,
+    "marks": 12,
+    "voxels": 2052,
+    "addedVertices": 49248,
+    "addedTriangles": 24624,
+    "additionalObjects": 0,
+    "additionalMaterials": 12,
+    "additionalTextures": 0,
+    "additionalDrawCalls": 0,
+    "maxRelief": 0.012,
+    "technicalCopyLock": false,
+    "sourceVerticesPreserved": true,
+    "interiorMarks": 3,
+    "physicalPixelDecode": "@r_peredelkino",
+    "serialization": "Three.js ObjectLoader without userData/rpAuthor; OBJ six decimals",
+    "carrierMaterialsOwnedByScene": true
+  }
+}

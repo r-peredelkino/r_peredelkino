@@ -1,0 +1,208 @@
+{
+  "errors": [],
+  "failedResponses": [],
+  "scenes": [],
+  "interactions": [],
+  "checks": [
+    {
+      "name": "default-entry-original",
+      "pass": true,
+      "details": {
+        "mapView": "original",
+        "mapBuilding": 1,
+        "mapFloor": 6,
+        "page": "map",
+        "original": true,
+        "overlayCount": 1,
+        "bodyClass": "spatial-map-open reference-open",
+        "welcomeHidden": true,
+        "appInert": true,
+        "desktopInert": true,
+        "focus": {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "rx-close",
+          "text": "← К карте"
+        },
+        "clusterCamera": "object",
+        "canvasCount": 0
+      }
+    },
+    {
+      "name": "panorama-nav-isolated-from-global-nav",
+      "pass": true,
+      "details": {
+        "x": 28,
+        "y": 101,
+        "width": 536.046875,
+        "height": 43.796875,
+        "bottom": "755.203px",
+        "buttons": [
+          {
+            "width": 91.71875,
+            "height": 33.796875
+          },
+          {
+            "width": 61.125,
+            "height": 33.796875
+          },
+          {
+            "width": 68.40625,
+            "height": 33.796875
+          },
+          {
+            "width": 117.125,
+            "height": 33.796875
+          },
+          {
+            "width": 69.875,
+            "height": 33.796875
+          },
+          {
+            "width": 98.796875,
+            "height": 33.796875
+          }
+        ]
+      }
+    },
+    {
+      "name": "close-restores-main-surfaces",
+      "pass": true,
+      "details": {
+        "mapView": "original",
+        "mapBuilding": 1,
+        "mapFloor": 6,
+        "page": "map",
+        "original": false,
+        "overlayCount": 0,
+        "bodyClass": "spatial-map-open",
+        "welcomeHidden": true,
+        "appInert": false,
+        "desktopInert": false,
+        "focus": {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "active",
+          "text": "Оригинал"
+        },
+        "clusterCamera": "object",
+        "canvasCount": 0
+      }
+    },
+    {
+      "name": "focus-accessible-after-close",
+      "pass": true,
+      "details": {
+        "tag": "BUTTON",
+        "inert": false,
+        "visible": true
+      }
+    },
+    {
+      "name": "opener-focus-after-close",
+      "pass": true,
+      "details": {
+        "tag": "BUTTON",
+        "id": "",
+        "cls": "original-entry",
+        "text": "Открыть панорамную картуИсходные изображения застройщика↗"
+      }
+    },
+    {
+      "name": "original-genplan-to-corpus-floor",
+      "pass": true,
+      "details": {
+        "mapView": "floor",
+        "mapBuilding": 3,
+        "mapFloor": 2,
+        "page": "map",
+        "original": false,
+        "overlayCount": 0,
+        "bodyClass": "spatial-map-open",
+        "welcomeHidden": true,
+        "appInert": false,
+        "desktopInert": false,
+        "focus": {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "active",
+          "text": "Этажи"
+        },
+        "clusterCamera": "object",
+        "canvasCount": 0
+      }
+    },
+    {
+      "name": "original-plan-opens",
+      "pass": true,
+      "details": {
+        "open": true,
+        "title": "Планировка: корпус 3, квартира 676",
+        "url": "assets/reference/apartment-plans/bd9cc88752717cf63c9fe4983abcd626.png",
+        "width": 1241,
+        "height": 1241,
+        "sourceLink": "https://rodina-peredelkino.ru/catalog/3-676/"
+      }
+    },
+    {
+      "name": "plan-to-floor-selection",
+      "pass": true,
+      "details": {
+        "id": "3-676",
+        "building": 3,
+        "floor": 2,
+        "appInert": false,
+        "selectionText": "Квартира № 676 · корпус 3 · 2 этажКонтур этой квартиры выделен оранжевой обводкой.",
+        "svg": true
+      }
+    },
+    {
+      "name": "all-203-published-plans-accessible",
+      "pass": true,
+      "details": {
+        "count": "203 из 203 планировок",
+        "cards": 12,
+        "buildings": [
+          "",
+          "1",
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "source": "203 опубликованные карточки · 09.10.2026.Каталог на сайте застройщика ↗"
+      }
+    },
+    {
+      "name": "corpus3-catalog-not-demo-restricted",
+      "pass": true,
+      "details": "63 из 203 планировок"
+    },
+    {
+      "name": "escape-return-no-inert-lock",
+      "pass": true,
+      "details": {
+        "mapView": "original",
+        "mapBuilding": 3,
+        "mapFloor": 2,
+        "page": "map",
+        "original": false,
+        "overlayCount": 0,
+        "bodyClass": "spatial-map-open",
+        "welcomeHidden": true,
+        "appInert": false,
+        "desktopInert": false,
+        "focus": {
+          "tag": "BUTTON",
+          "id": "",
+          "cls": "",
+          "text": "Родина Переделкино в оригиналеОсмотрите проект с опубликованных панорамных точек. Внутри — метки объектов, дневной и веч"
+        },
+        "clusterCamera": "object",
+        "canvasCount": 0
+      }
+    }
+  ],
+  "skipped3D": "GPU view checked separately: earlier real mount passed, SwiftShader screenshot timed out; native Mac acceptance belongs to root.",
+  "pass": true
+}

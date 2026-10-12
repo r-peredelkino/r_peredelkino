@@ -1,0 +1,17 @@
+{
+  "courtyard": {
+    "beforeMeanMS": 37.96111111111111,
+    "afterMeanMS": 38.70166666666667,
+    "changePercent": 1.9508268696033948
+  },
+  "forecourt": {
+    "beforeMeanMS": 38.979444444444454,
+    "afterMeanMS": 39.07222222222222,
+    "changePercent": 0.23801718854665754
+  },
+  "facade": {
+    "beforeMeanMS": 55.92333333333333,
+    "afterMeanMS": 55.738333333333316,
+    "changePercent": -0.33081003755144334
+  }
+}

@@ -1,0 +1,4621 @@
+{
+  "version": 29,
+  "complete": true,
+  "coordinateConvention": "Native published face pixels, origin top-left; pixel centres; sourceHeightMeters is feature height above reference ground. Values are not model units.",
+  "sources": {
+    "node1-face3": {
+      "path": "qa-v29/references/panorama/faces/node1-face3.jpg",
+      "node": "node1",
+      "face": 3,
+      "width": 3500,
+      "height": 3500
+    },
+    "node1-face5": {
+      "path": "qa-v29/references/panorama/faces/node1-face5.jpg",
+      "node": "node1",
+      "face": 5,
+      "width": 3500,
+      "height": 3500
+    },
+    "node1-perspective": {
+      "path": "qa-v29/references/panorama/node1-forecourt-perspective.png",
+      "node": "node1",
+      "width": 1700,
+      "height": 1200,
+      "yawRight": -45,
+      "tiltUp": -34,
+      "horizontalFov": 54
+    }
+  },
+  "roadReference": {
+    "osmWayId": 49155461,
+    "moveOSMAxis": false,
+    "siteCurbTop": [
+      {
+        "id": "frontage-site-curb-north",
+        "source": "node1-face3",
+        "sourceHeightMeters": 0,
+        "points": [
+          [
+            2549.545,
+            2550
+          ],
+          [
+            2615.869,
+            2650
+          ],
+          [
+            2682.194,
+            2750
+          ],
+          [
+            2748.518,
+            2850
+          ],
+          [
+            2814.843,
+            2950
+          ],
+          [
+            2881.167,
+            3050
+          ],
+          [
+            2947.492,
+            3150
+          ],
+          [
+            3013.816,
+            3250
+          ],
+          [
+            3080.141,
+            3350
+          ],
+          [
+            3146.465,
+            3450
+          ],
+          [
+            3179.627,
+            3500
+          ]
+        ],
+        "confidence": "high",
+        "method": "median9row luminance-rise edge, robust straight line fit44samples",
+        "medianResidualPixels": 1.1208957012445353
+      },
+      {
+        "id": "frontage-site-curb-central",
+        "source": "node1-face5",
+        "sourceHeightMeters": 0,
+        "points": [
+          [
+            0,
+            317.647
+          ],
+          [
+            500,
+            393.902
+          ],
+          [
+            1000,
+            470.157
+          ],
+          [
+            1500,
+            546.412
+          ],
+          [
+            2000,
+            622.667
+          ],
+          [
+            2500,
+            698.922
+          ],
+          [
+            3000,
+            775.177
+          ],
+          [
+            3500,
+            851.432
+          ]
+        ],
+        "confidence": "high",
+        "method": "median11column luminance-drop edge, robust straight line fit97samples",
+        "medianResidualPixels": 1.141882382083736
+      }
+    ],
+    "sourceLaneDivider": [
+      {
+        "id": "frontage-lane-centres",
+        "source": "node1-face5",
+        "sourceHeightMeters": 0,
+        "points": [
+          [
+            129.523,
+            458.477
+          ],
+          [
+            342.341,
+            489.168
+          ],
+          [
+            1845.045,
+            708.723
+          ],
+          [
+            2076.061,
+            743.959
+          ],
+          [
+            2303.754,
+            778.731
+          ],
+          [
+            2516.389,
+            810.744
+          ],
+          [
+            2738.107,
+            843.197
+          ],
+          [
+            2961.315,
+            876.646
+          ],
+          [
+            3184.346,
+            910.569
+          ]
+        ],
+        "confidence": "high-visible-dashes; occluded intervalbetween342and1845",
+        "method": "white paintconnectedcomponentsfilteredandvisuallyidentified"
+      }
+    ],
+    "calibrationNote": "Published uncorrected GPS/heading/60m projected road divider is about0.4–3.0m NW of OSM axis across face5. Fit pixel→fixed scene; never move OSM geometry. Site curb edge fit is pale pavement boundary; gutter/shadow toe lies roughly8–18pixels roadward."
+  },
+  "areas": [
+    {
+      "id": "opposite-parking-north",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2225,
+          2632
+        ],
+        [
+          2495,
+          2647
+        ],
+        [
+          2950,
+          3500
+        ],
+        [
+          2386,
+          3500
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "clippedAtImageEdge": true,
+      "kind": "parking",
+      "perspectivePoints": [
+        [
+          13.396,
+          461.86
+        ],
+        [
+          246.422,
+          393.448
+        ],
+        [
+          610.181,
+          774.776
+        ],
+        [
+          297.119,
+          955.601
+        ]
+      ]
+    },
+    {
+      "id": "opposite-parking-central",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          0,
+          551
+        ],
+        [
+          1235,
+          720
+        ],
+        [
+          2300,
+          878
+        ],
+        [
+          3500,
+          1056
+        ],
+        [
+          3500,
+          1450
+        ],
+        [
+          2000,
+          1330
+        ],
+        [
+          1600,
+          1260
+        ],
+        [
+          1040,
+          1240
+        ],
+        [
+          0,
+          1114
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "clippedAtImageEdge": true,
+      "kind": "parking",
+      "perspectivePoints": [
+        [
+          609.373,
+          775.242
+        ],
+        [
+          1172.001,
+          1343.676
+        ],
+        [
+          2287.155,
+          2492.375
+        ],
+        [
+          8881.046,
+          9284.448
+        ],
+        [
+          19743.869,
+          26988.502
+        ],
+        [
+          1582.884,
+          2741.924
+        ],
+        [
+          1145.888,
+          2076.594
+        ],
+        [
+          710.164,
+          1554.026
+        ],
+        [
+          296.601,
+          955.9
+        ]
+      ]
+    },
+    {
+      "id": "parking-walk-north",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2458,
+          2647
+        ],
+        [
+          2495,
+          2647
+        ],
+        [
+          2950,
+          3500
+        ],
+        [
+          2880,
+          3500
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "clippedAtImageEdge": true,
+      "note": "Narrow strip is inside the parking-side road curb; joins cf5 y551..621 at the cube seam.",
+      "kind": "sidewalk",
+      "perspectivePoints": [
+        [
+          217.228,
+          403.709
+        ],
+        [
+          246.422,
+          393.448
+        ],
+        [
+          610.181,
+          774.776
+        ],
+        [
+          575.544,
+          794.782
+        ]
+      ]
+    },
+    {
+      "id": "parking-west-tongue",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          0,
+          551
+        ],
+        [
+          1235,
+          720
+        ],
+        [
+          1329,
+          853
+        ],
+        [
+          1334,
+          933
+        ],
+        [
+          1309,
+          1032
+        ],
+        [
+          1287,
+          1055
+        ],
+        [
+          1268,
+          1068
+        ],
+        [
+          1194,
+          1060
+        ],
+        [
+          1170,
+          1043
+        ],
+        [
+          1164,
+          1008
+        ],
+        [
+          1167,
+          963
+        ],
+        [
+          1182,
+          871
+        ],
+        [
+          1200,
+          773
+        ],
+        [
+          0,
+          621
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "clippedAtImageEdge": true,
+      "kind": "sidewalk",
+      "perspectivePoints": [
+        [
+          609.373,
+          775.242
+        ],
+        [
+          1172.001,
+          1343.676
+        ],
+        [
+          1170.237,
+          1485.776
+        ],
+        [
+          1127.617,
+          1544.707
+        ],
+        [
+          1046.644,
+          1598.897
+        ],
+        [
+          1014.675,
+          1599.648
+        ],
+        [
+          991.591,
+          1595.146
+        ],
+        [
+          942.022,
+          1535.471
+        ],
+        [
+          935.972,
+          1506.876
+        ],
+        [
+          954.265,
+          1479.063
+        ],
+        [
+          984.606,
+          1451.349
+        ],
+        [
+          1050.38,
+          1402.483
+        ],
+        [
+          1118.401,
+          1354.207
+        ],
+        [
+          574.701,
+          795.269
+        ]
+      ]
+    },
+    {
+      "id": "parking-central-island",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          1810,
+          888
+        ],
+        [
+          1840,
+          865
+        ],
+        [
+          1880,
+          859
+        ],
+        [
+          1915,
+          875
+        ],
+        [
+          1950,
+          910
+        ],
+        [
+          1990,
+          946
+        ],
+        [
+          2015,
+          983
+        ],
+        [
+          2012,
+          1035
+        ],
+        [
+          1987,
+          1110
+        ],
+        [
+          1965,
+          1145
+        ],
+        [
+          1910,
+          1170
+        ],
+        [
+          1830,
+          1163
+        ],
+        [
+          1773,
+          1160
+        ],
+        [
+          1754,
+          1139
+        ],
+        [
+          1734,
+          1079
+        ],
+        [
+          1742,
+          1040
+        ],
+        [
+          1752,
+          991
+        ],
+        [
+          1768,
+          953
+        ],
+        [
+          1785,
+          914
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "kind": "island",
+      "perspectivePoints": [
+        [
+          1600.528,
+          1905.938
+        ],
+        [
+          1645.956,
+          1912.848
+        ],
+        [
+          1695.206,
+          1946.977
+        ],
+        [
+          1729.416,
+          2000.001
+        ],
+        [
+          1756.1,
+          2076.594
+        ],
+        [
+          1790.571,
+          2165.191
+        ],
+        [
+          1806.328,
+          2242.063
+        ],
+        [
+          1776.258,
+          2305.995
+        ],
+        [
+          1701.482,
+          2374.351
+        ],
+        [
+          1651.139,
+          2392.667
+        ],
+        [
+          1562.538,
+          2350.743
+        ],
+        [
+          1466.494,
+          2235.701
+        ],
+        [
+          1401.322,
+          2161.579
+        ],
+        [
+          1393.39,
+          2114.337
+        ],
+        [
+          1409.09,
+          2024.665
+        ],
+        [
+          1441.452,
+          1991.534
+        ],
+        [
+          1480.884,
+          1951.055
+        ],
+        [
+          1519.608,
+          1928.791
+        ],
+        [
+          1559.272,
+          1906.922
+        ]
+      ]
+    },
+    {
+      "id": "parking-east-linear-walk",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2300,
+          878
+        ],
+        [
+          3500,
+          1056
+        ],
+        [
+          3500,
+          1124
+        ],
+        [
+          2375,
+          956
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "clippedAtImageEdge": true,
+      "kind": "sidewalk",
+      "perspectivePoints": [
+        [
+          2287.155,
+          2492.375
+        ],
+        [
+          8881.046,
+          9284.448
+        ],
+        [
+          9633.013,
+          10509.992
+        ],
+        [
+          2403.588,
+          2743.702
+        ]
+      ]
+    },
+    {
+      "id": "parking-highway-walk",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          1040,
+          1240
+        ],
+        [
+          1600,
+          1247
+        ],
+        [
+          2040,
+          1305
+        ],
+        [
+          3500,
+          1450
+        ],
+        [
+          3500,
+          1525
+        ],
+        [
+          1995,
+          1375
+        ],
+        [
+          1590,
+          1320
+        ],
+        [
+          1040,
+          1310
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "clippedAtImageEdge": true,
+      "kind": "sidewalk",
+      "perspectivePoints": [
+        [
+          710.164,
+          1554.026
+        ],
+        [
+          1155.498,
+          2062.02
+        ],
+        [
+          1660.652,
+          2768.806
+        ],
+        [
+          19743.869,
+          26988.502
+        ],
+        [
+          28578.154,
+          41386.479
+        ],
+        [
+          1543.25,
+          2814.606
+        ],
+        [
+          1090.078,
+          2134.21
+        ],
+        [
+          656.725,
+          1605.681
+        ]
+      ]
+    },
+    {
+      "id": "office-nine-bay-pad",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2694,
+          2486
+        ],
+        [
+          2735,
+          2489
+        ],
+        [
+          2897,
+          2497
+        ],
+        [
+          3094,
+          2510
+        ],
+        [
+          3165,
+          2517
+        ],
+        [
+          3190,
+          2524
+        ],
+        [
+          3216,
+          2541
+        ],
+        [
+          3260,
+          2565
+        ],
+        [
+          3278,
+          2594
+        ],
+        [
+          3183,
+          2605
+        ],
+        [
+          3160,
+          2602
+        ],
+        [
+          3050,
+          2576
+        ],
+        [
+          2940,
+          2561
+        ],
+        [
+          2830,
+          2547
+        ],
+        [
+          2753,
+          2536
+        ],
+        [
+          2710,
+          2524
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "note": "Rear and planted edge partly hidden by foliage; do not claim surveyed boundary. Access outside visible pad not inferred.",
+      "kind": "parking",
+      "perspectivePoints": [
+        [
+          372.363,
+          218.474
+        ],
+        [
+          402.422,
+          211.98
+        ],
+        [
+          513.713,
+          184.927
+        ],
+        [
+          635.894,
+          157.652
+        ],
+        [
+          676.807,
+          150.198
+        ],
+        [
+          691.002,
+          150.863
+        ],
+        [
+          705.86,
+          158.365
+        ],
+        [
+          730.163,
+          167.433
+        ],
+        [
+          740.366,
+          184.056
+        ],
+        [
+          690.264,
+          208.494
+        ],
+        [
+          677.581,
+          210.681
+        ],
+        [
+          613.886,
+          213.292
+        ],
+        [
+          546.412,
+          224.162
+        ],
+        [
+          474.367,
+          236.538
+        ],
+        [
+          420.777,
+          244.796
+        ],
+        [
+          388.925,
+          245.017
+        ]
+      ]
+    }
+  ],
+  "curbs": [
+    {
+      "id": "parking-north-end-curb",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2225,
+          2632
+        ],
+        [
+          2495,
+          2647
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": false,
+      "perspectivePoints": [
+        [
+          13.396,
+          461.86
+        ],
+        [
+          246.422,
+          393.448
+        ]
+      ]
+    },
+    {
+      "id": "parking-north-highway-curb",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2225,
+          2632
+        ],
+        [
+          2386,
+          3500
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": false,
+      "perspectivePoints": [
+        [
+          13.396,
+          461.86
+        ],
+        [
+          297.119,
+          955.601
+        ]
+      ]
+    },
+    {
+      "id": "parking-north-service-curb",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2458,
+          2647
+        ],
+        [
+          2880,
+          3500
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": false,
+      "perspectivePoints": [
+        [
+          217.228,
+          403.709
+        ],
+        [
+          575.544,
+          794.782
+        ]
+      ]
+    },
+    {
+      "id": "parking-north-road-curb",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2495,
+          2647
+        ],
+        [
+          2950,
+          3500
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": false,
+      "perspectivePoints": [
+        [
+          246.422,
+          393.448
+        ],
+        [
+          610.181,
+          774.776
+        ]
+      ]
+    },
+    {
+      "id": "parking-west-tongue-curb",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          0,
+          551
+        ],
+        [
+          1235,
+          720
+        ],
+        [
+          1329,
+          853
+        ],
+        [
+          1334,
+          933
+        ],
+        [
+          1309,
+          1032
+        ],
+        [
+          1287,
+          1055
+        ],
+        [
+          1268,
+          1068
+        ],
+        [
+          1194,
+          1060
+        ],
+        [
+          1170,
+          1043
+        ],
+        [
+          1164,
+          1008
+        ],
+        [
+          1167,
+          963
+        ],
+        [
+          1182,
+          871
+        ],
+        [
+          1200,
+          773
+        ],
+        [
+          0,
+          621
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "omitEdges": [
+        [
+          13,
+          0
+        ]
+      ],
+      "perspectivePoints": [
+        [
+          609.373,
+          775.242
+        ],
+        [
+          1172.001,
+          1343.676
+        ],
+        [
+          1170.237,
+          1485.776
+        ],
+        [
+          1127.617,
+          1544.707
+        ],
+        [
+          1046.644,
+          1598.897
+        ],
+        [
+          1014.675,
+          1599.648
+        ],
+        [
+          991.591,
+          1595.146
+        ],
+        [
+          942.022,
+          1535.471
+        ],
+        [
+          935.972,
+          1506.876
+        ],
+        [
+          954.265,
+          1479.063
+        ],
+        [
+          984.606,
+          1451.349
+        ],
+        [
+          1050.38,
+          1402.483
+        ],
+        [
+          1118.401,
+          1354.207
+        ],
+        [
+          574.701,
+          795.269
+        ]
+      ]
+    },
+    {
+      "id": "parking-central-island-curb",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          1810,
+          888
+        ],
+        [
+          1840,
+          865
+        ],
+        [
+          1880,
+          859
+        ],
+        [
+          1915,
+          875
+        ],
+        [
+          1950,
+          910
+        ],
+        [
+          1990,
+          946
+        ],
+        [
+          2015,
+          983
+        ],
+        [
+          2012,
+          1035
+        ],
+        [
+          1987,
+          1110
+        ],
+        [
+          1965,
+          1145
+        ],
+        [
+          1910,
+          1170
+        ],
+        [
+          1830,
+          1163
+        ],
+        [
+          1773,
+          1160
+        ],
+        [
+          1754,
+          1139
+        ],
+        [
+          1734,
+          1079
+        ],
+        [
+          1742,
+          1040
+        ],
+        [
+          1752,
+          991
+        ],
+        [
+          1768,
+          953
+        ],
+        [
+          1785,
+          914
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "perspectivePoints": [
+        [
+          1600.528,
+          1905.938
+        ],
+        [
+          1645.956,
+          1912.848
+        ],
+        [
+          1695.206,
+          1946.977
+        ],
+        [
+          1729.416,
+          2000.001
+        ],
+        [
+          1756.1,
+          2076.594
+        ],
+        [
+          1790.571,
+          2165.191
+        ],
+        [
+          1806.328,
+          2242.063
+        ],
+        [
+          1776.258,
+          2305.995
+        ],
+        [
+          1701.482,
+          2374.351
+        ],
+        [
+          1651.139,
+          2392.667
+        ],
+        [
+          1562.538,
+          2350.743
+        ],
+        [
+          1466.494,
+          2235.701
+        ],
+        [
+          1401.322,
+          2161.579
+        ],
+        [
+          1393.39,
+          2114.337
+        ],
+        [
+          1409.09,
+          2024.665
+        ],
+        [
+          1441.452,
+          1991.534
+        ],
+        [
+          1480.884,
+          1951.055
+        ],
+        [
+          1519.608,
+          1928.791
+        ],
+        [
+          1559.272,
+          1906.922
+        ]
+      ]
+    },
+    {
+      "id": "parking-east-walk-curb",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3500,
+          1124
+        ],
+        [
+          2375,
+          956
+        ],
+        [
+          2300,
+          878
+        ],
+        [
+          3500,
+          1056
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": false,
+      "perspectivePoints": [
+        [
+          9633.013,
+          10509.992
+        ],
+        [
+          2403.588,
+          2743.702
+        ],
+        [
+          2287.155,
+          2492.375
+        ],
+        [
+          8881.046,
+          9284.448
+        ]
+      ]
+    },
+    {
+      "id": "parking-highway-walk-curb",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          1040,
+          1310
+        ],
+        [
+          1590,
+          1320
+        ],
+        [
+          1995,
+          1375
+        ],
+        [
+          3500,
+          1525
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": false,
+      "perspectivePoints": [
+        [
+          656.725,
+          1605.681
+        ],
+        [
+          1090.078,
+          2134.21
+        ],
+        [
+          1543.25,
+          2814.606
+        ],
+        [
+          28578.154,
+          41386.479
+        ]
+      ]
+    },
+    {
+      "id": "office-pad-plant-edge",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3278,
+          2594
+        ],
+        [
+          3183,
+          2605
+        ],
+        [
+          3160,
+          2602
+        ],
+        [
+          3050,
+          2576
+        ],
+        [
+          2940,
+          2561
+        ],
+        [
+          2830,
+          2547
+        ],
+        [
+          2753,
+          2536
+        ],
+        [
+          2710,
+          2524
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": false,
+      "perspectivePoints": [
+        [
+          740.366,
+          184.056
+        ],
+        [
+          690.264,
+          208.494
+        ],
+        [
+          677.581,
+          210.681
+        ],
+        [
+          613.886,
+          213.292
+        ],
+        [
+          546.412,
+          224.162
+        ],
+        [
+          474.367,
+          236.538
+        ],
+        [
+          420.777,
+          244.796
+        ],
+        [
+          388.925,
+          245.017
+        ]
+      ]
+    }
+  ],
+  "markings": [
+    {
+      "id": "office-bay-boundary-01",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2698,
+          2493
+        ],
+        [
+          2725,
+          2525
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          376.22,
+          223.193
+        ],
+        [
+          399.756,
+          242.459
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-02",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2731,
+          2496
+        ],
+        [
+          2761,
+          2528
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          400.432,
+          218.385
+        ],
+        [
+          425.416,
+          236.879
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-03",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2767,
+          2499
+        ],
+        [
+          2797,
+          2531
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          426.245,
+          213.038
+        ],
+        [
+          450.514,
+          231.42
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-04",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2799,
+          2502
+        ],
+        [
+          2830,
+          2534
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          448.747,
+          208.643
+        ],
+        [
+          473.067,
+          226.711
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-05",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2834,
+          2505
+        ],
+        [
+          2865,
+          2537
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          472.825,
+          203.719
+        ],
+        [
+          496.481,
+          221.681
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-06",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2868,
+          2509
+        ],
+        [
+          2900,
+          2540
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          495.831,
+          199.863
+        ],
+        [
+          519.409,
+          216.755
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-07",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2903,
+          2512
+        ],
+        [
+          2934,
+          2543
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          518.916,
+          195.133
+        ],
+        [
+          541.239,
+          212.131
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-08",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2936,
+          2515
+        ],
+        [
+          2969,
+          2546
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          540.26,
+          190.891
+        ],
+        [
+          563.254,
+          207.401
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-09",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          2970,
+          2519
+        ],
+        [
+          3006,
+          2549
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          561.885,
+          187.282
+        ],
+        [
+          586.035,
+          202.38
+        ]
+      ]
+    },
+    {
+      "id": "office-bay-boundary-10",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3004,
+          2521
+        ],
+        [
+          3042,
+          2552
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "widthMeters": 0.1,
+      "kind": "bay",
+      "perspectivePoints": [
+        [
+          582.937,
+          182.273
+        ],
+        [
+          607.747,
+          197.653
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-01",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3105,
+          2516
+        ],
+        [
+          3148,
+          2518
+        ],
+        [
+          3156,
+          2525
+        ],
+        [
+          3114,
+          2521
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          642.594,
+          160.041
+        ],
+        [
+          667.28,
+          153.876
+        ],
+        [
+          672.098,
+          157.483
+        ],
+        [
+          648.038,
+          162.046
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-02",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3114,
+          2526
+        ],
+        [
+          3158,
+          2527
+        ],
+        [
+          3167,
+          2534
+        ],
+        [
+          3121,
+          2530
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          648.287,
+          165.647
+        ],
+        [
+          673.307,
+          158.559
+        ],
+        [
+          678.638,
+          161.955
+        ],
+        [
+          652.493,
+          167.265
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-03",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3124,
+          2533
+        ],
+        [
+          3170,
+          2537
+        ],
+        [
+          3178,
+          2543
+        ],
+        [
+          3130,
+          2539
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          654.351,
+          168.875
+        ],
+        [
+          680.432,
+          163.553
+        ],
+        [
+          685.112,
+          166.383
+        ],
+        [
+          658.049,
+          172.082
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-04",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3134,
+          2541
+        ],
+        [
+          3180,
+          2545
+        ],
+        [
+          3189,
+          2550
+        ],
+        [
+          3141,
+          2548
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          660.409,
+          172.787
+        ],
+        [
+          686.297,
+          167.439
+        ],
+        [
+          691.447,
+          169.366
+        ],
+        [
+          664.68,
+          176.495
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-05",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3145,
+          2549
+        ],
+        [
+          3192,
+          2554
+        ],
+        [
+          3201,
+          2560
+        ],
+        [
+          3152,
+          2556
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          666.974,
+          176.483
+        ],
+        [
+          693.243,
+          171.637
+        ],
+        [
+          698.379,
+          174.236
+        ],
+        [
+          671.202,
+          180.161
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-06",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3156,
+          2557
+        ],
+        [
+          3204,
+          2562
+        ],
+        [
+          3214,
+          2568
+        ],
+        [
+          3165,
+          2565
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          673.477,
+          180.145
+        ],
+        [
+          700.082,
+          175.097
+        ],
+        [
+          705.707,
+          177.494
+        ],
+        [
+          678.812,
+          184.131
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-07",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3169,
+          2565
+        ],
+        [
+          3217,
+          2570
+        ],
+        [
+          3227,
+          2577
+        ],
+        [
+          3177,
+          2572
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          681.024,
+          183.412
+        ],
+        [
+          707.392,
+          178.348
+        ],
+        [
+          712.992,
+          181.406
+        ],
+        [
+          685.711,
+          186.85
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-08",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3181,
+          2574
+        ],
+        [
+          3230,
+          2578
+        ],
+        [
+          3239,
+          2585
+        ],
+        [
+          3190,
+          2581
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          687.983,
+          187.519
+        ],
+        [
+          714.627,
+          181.565
+        ],
+        [
+          719.638,
+          184.77
+        ],
+        [
+          693.165,
+          190.743
+        ]
+      ]
+    },
+    {
+      "id": "office-zebra-stripe-09",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          3193,
+          2582
+        ],
+        [
+          3241,
+          2586
+        ],
+        [
+          3251,
+          2592
+        ],
+        [
+          3202,
+          2589
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "closed": true,
+      "kind": "zebra",
+      "perspectivePoints": [
+        [
+          694.834,
+          190.894
+        ],
+        [
+          720.729,
+          185.101
+        ],
+        [
+          726.19,
+          187.423
+        ],
+        [
+          699.963,
+          194.09
+        ]
+      ]
+    }
+  ],
+  "cars": [
+    {
+      "id": "office-occupied-01",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2730,
+        2507
+      ],
+      "forward": [
+        2714,
+        2486
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "bayNumber": 1,
+      "perspectiveCenter": [
+        401.084,
+        227.274
+      ]
+    },
+    {
+      "id": "office-occupied-02",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2772,
+        2511
+      ],
+      "forward": [
+        2756,
+        2490
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "bayNumber": 2,
+      "perspectiveCenter": [
+        431.11,
+        221.338
+      ]
+    },
+    {
+      "id": "office-occupied-03",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2810,
+        2514
+      ],
+      "forward": [
+        2794,
+        2493
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "bayNumber": 3,
+      "perspectiveCenter": [
+        457.542,
+        215.623
+      ]
+    },
+    {
+      "id": "office-occupied-04",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2867,
+        2518
+      ],
+      "forward": [
+        2851,
+        2497
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "bayNumber": 5,
+      "perspectiveCenter": [
+        496.017,
+        206.915
+      ]
+    },
+    {
+      "id": "office-occupied-05",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2904,
+        2522
+      ],
+      "forward": [
+        2888,
+        2501
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "bayNumber": 6,
+      "perspectiveCenter": [
+        520.426,
+        202.473
+      ]
+    },
+    {
+      "id": "office-occupied-06",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2939,
+        2525
+      ],
+      "forward": [
+        2923,
+        2504
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "bayNumber": 7,
+      "perspectiveCenter": [
+        542.954,
+        197.778
+      ]
+    },
+    {
+      "id": "parking-north-highway-01",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2268,
+        2654
+      ],
+      "forward": [
+        2296,
+        2663
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#a82c33",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        58.114,
+        465.796
+      ]
+    },
+    {
+      "id": "parking-north-highway-02",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2276,
+        2679
+      ],
+      "forward": [
+        2306,
+        2688
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#263c4e",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        71.171,
+        482.943
+      ]
+    },
+    {
+      "id": "parking-north-highway-03",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2280,
+        2704
+      ],
+      "forward": [
+        2310,
+        2712
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        80.486,
+        501.033
+      ]
+    },
+    {
+      "id": "parking-north-highway-04",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2291,
+        2725
+      ],
+      "forward": [
+        2321,
+        2733
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        94.762,
+        513.516
+      ]
+    },
+    {
+      "id": "parking-north-highway-05",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2290,
+        2745
+      ],
+      "forward": [
+        2323,
+        2754
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        98.352,
+        528.906
+      ]
+    },
+    {
+      "id": "parking-north-highway-06",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2303,
+        2767
+      ],
+      "forward": [
+        2338,
+        2777
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#aeb7ba",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        114.139,
+        541.023
+      ]
+    },
+    {
+      "id": "parking-north-highway-07",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2312,
+        2790
+      ],
+      "forward": [
+        2278,
+        2787
+      ],
+      "lengthMeters": 3.75,
+      "widthMeters": 1.68,
+      "heightMeters": 1.73,
+      "color": "#2d76b8",
+      "bodyStyle": "van",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "dimensionBasis": "Relative silhouette and size in the source image; not surveyed or manufacturer dimensions.",
+      "perspectiveCenter": [
+        126.503,
+        554.925
+      ]
+    },
+    {
+      "id": "parking-north-highway-08",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2320,
+        2820
+      ],
+      "forward": [
+        2354,
+        2829
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#aeb7ba",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        139.242,
+        573.899
+      ]
+    },
+    {
+      "id": "parking-north-highway-09",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2315,
+        2844
+      ],
+      "forward": [
+        2350,
+        2854
+      ],
+      "lengthMeters": 4.0,
+      "widthMeters": 1.76,
+      "heightMeters": 1.5,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "dimensionBasis": "Relative silhouette and size in the source image; not surveyed or manufacturer dimensions.",
+      "perspectiveCenter": [
+        140.03,
+        592.564
+      ]
+    },
+    {
+      "id": "parking-north-highway-10",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2330,
+        2863
+      ],
+      "forward": [
+        2365,
+        2874
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        155.854,
+        600.869
+      ]
+    },
+    {
+      "id": "parking-north-highway-11",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2334,
+        2891
+      ],
+      "forward": [
+        2369,
+        2901
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        164.428,
+        618.838
+      ]
+    },
+    {
+      "id": "parking-north-highway-12",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2338,
+        2921
+      ],
+      "forward": [
+        2373,
+        2931
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#858e94",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        173.222,
+        637.833
+      ]
+    },
+    {
+      "id": "parking-north-highway-13",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2345,
+        2948
+      ],
+      "forward": [
+        2380,
+        2958
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        183.609,
+        653.474
+      ]
+    },
+    {
+      "id": "parking-north-highway-14",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2338,
+        2981
+      ],
+      "forward": [
+        2373,
+        2993
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        184.239,
+        677.5
+      ]
+    },
+    {
+      "id": "parking-north-highway-15",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2358,
+        3021
+      ],
+      "forward": [
+        2396,
+        3032
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        206.341,
+        696.352
+      ]
+    },
+    {
+      "id": "parking-north-highway-16",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2370,
+        3058
+      ],
+      "forward": [
+        2408,
+        3069
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#263c4e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        221.42,
+        715.477
+      ]
+    },
+    {
+      "id": "parking-north-highway-17",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2384,
+        3106
+      ],
+      "forward": [
+        2424,
+        3119
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#263c4e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        239.286,
+        740.095
+      ]
+    },
+    {
+      "id": "parking-north-highway-18",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2390,
+        3151
+      ],
+      "forward": [
+        2430,
+        3164
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        250.535,
+        764.92
+      ]
+    },
+    {
+      "id": "parking-north-highway-19",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2396,
+        3202
+      ],
+      "forward": [
+        2440,
+        3214
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        262.382,
+        792.559
+      ]
+    },
+    {
+      "id": "parking-north-highway-20",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2419,
+        3270
+      ],
+      "forward": [
+        2462,
+        3284
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        287.672,
+        822.943
+      ]
+    },
+    {
+      "id": "parking-north-highway-21",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2431,
+        3331
+      ],
+      "forward": [
+        2475,
+        3345
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        303.809,
+        852.06
+      ]
+    },
+    {
+      "id": "parking-north-highway-22",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2453,
+        3394
+      ],
+      "forward": [
+        2497,
+        3408
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        325.953,
+        877.704
+      ]
+    },
+    {
+      "id": "parking-north-highway-23",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2477,
+        3448
+      ],
+      "forward": [
+        2522,
+        3460
+      ],
+      "lengthMeters": 4.75,
+      "widthMeters": 1.92,
+      "heightMeters": 1.95,
+      "color": "#aeb7ba",
+      "bodyStyle": "van",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "dimensionBasis": "Relative silhouette and size in the source image; not surveyed or manufacturer dimensions.",
+      "perspectiveCenter": [
+        347.386,
+        897.077
+      ]
+    },
+    {
+      "id": "parking-north-service-01",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2445,
+        2656
+      ],
+      "forward": [
+        2419,
+        2653
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        208.482,
+        414.281
+      ]
+    },
+    {
+      "id": "parking-north-service-02",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2447,
+        2681
+      ],
+      "forward": [
+        2419,
+        2677
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#263c4e",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        214.655,
+        432.721
+      ]
+    },
+    {
+      "id": "parking-north-service-03",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2458,
+        2702
+      ],
+      "forward": [
+        2432,
+        2699
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        227.08,
+        445.296
+      ]
+    },
+    {
+      "id": "parking-north-service-04",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2481,
+        2728
+      ],
+      "forward": [
+        2455,
+        2725
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        249.345,
+        457.839
+      ]
+    },
+    {
+      "id": "parking-north-service-05",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2491,
+        2751
+      ],
+      "forward": [
+        2466,
+        2748
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#d6af23",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        260.745,
+        471.629
+      ]
+    },
+    {
+      "id": "parking-north-service-06",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2503,
+        2775
+      ],
+      "forward": [
+        2475,
+        2771
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        273.58,
+        485.295
+      ]
+    },
+    {
+      "id": "parking-north-service-07",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2517,
+        2800
+      ],
+      "forward": [
+        2489,
+        2796
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#aeb7ba",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        287.778,
+        498.805
+      ]
+    },
+    {
+      "id": "parking-north-service-08",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2540,
+        2831
+      ],
+      "forward": [
+        2508,
+        2827
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#a82c33",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        309.001,
+        513.516
+      ]
+    },
+    {
+      "id": "parking-north-service-09",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2542,
+        2860
+      ],
+      "forward": [
+        2512,
+        2857
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#e9eeec",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        314.569,
+        532.595
+      ]
+    },
+    {
+      "id": "parking-north-service-10",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2557,
+        2897
+      ],
+      "forward": [
+        2527,
+        2893
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        330.201,
+        552.796
+      ]
+    },
+    {
+      "id": "parking-north-service-11",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2570,
+        2928
+      ],
+      "forward": [
+        2535,
+        2924
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        343.265,
+        569.17
+      ]
+    },
+    {
+      "id": "parking-north-service-12",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2575,
+        2966
+      ],
+      "forward": [
+        2540,
+        2961
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        351.547,
+        591.996
+      ]
+    },
+    {
+      "id": "parking-north-service-13",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2602,
+        3005
+      ],
+      "forward": [
+        2565,
+        3000
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#78424f",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        374.257,
+        608.34
+      ]
+    },
+    {
+      "id": "parking-north-service-14",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2624,
+        3045
+      ],
+      "forward": [
+        2586,
+        3040
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#263c4e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        393.131,
+        626.235
+      ]
+    },
+    {
+      "id": "parking-north-service-15",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2649,
+        3132
+      ],
+      "forward": [
+        2609,
+        3128
+      ],
+      "lengthMeters": 4.45,
+      "widthMeters": 1.82,
+      "heightMeters": 1.84,
+      "color": "#e9eeec",
+      "bodyStyle": "van",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "dimensionBasis": "Relative silhouette and size in the source image; not surveyed or manufacturer dimensions.",
+      "perspectiveCenter": [
+        418.227,
+        670.142
+      ]
+    },
+    {
+      "id": "parking-north-service-16",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2673,
+        3189
+      ],
+      "forward": [
+        2633,
+        3183
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        438.514,
+        695.332
+      ]
+    },
+    {
+      "id": "parking-north-service-17",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2711,
+        3242
+      ],
+      "forward": [
+        2669,
+        3235
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        465.806,
+        713.177
+      ]
+    },
+    {
+      "id": "parking-north-service-18",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2732,
+        3288
+      ],
+      "forward": [
+        2687,
+        3281
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#38616c",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        481.794,
+        731.634
+      ]
+    },
+    {
+      "id": "parking-north-service-19",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2783,
+        3344
+      ],
+      "forward": [
+        2737,
+        3337
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#e9eeec",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        514.555,
+        745.789
+      ]
+    },
+    {
+      "id": "parking-north-service-20",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2800,
+        3410
+      ],
+      "forward": [
+        2752,
+        3402
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#20282e",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        528.466,
+        774.272
+      ]
+    },
+    {
+      "id": "parking-north-service-21",
+      "source": "node1-face3",
+      "sourceHeightMeters": 1.45,
+      "center": [
+        2826,
+        3471
+      ],
+      "forward": [
+        2778,
+        3463
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#aeb7ba",
+      "bodyStyle": "hatch",
+      "confidence": "Individually inspected visible roof-centre and long-axis estimate; dimensions and colour approximate.",
+      "perspectiveCenter": [
+        546.222,
+        796.638
+      ]
+    },
+    {
+      "id": "parking-central-service-01",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        40,
+        653
+      ],
+      "forward": [
+        45,
+        688
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#858e94",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        573.877,
+        816.522
+      ]
+    },
+    {
+      "id": "parking-central-service-02",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        124,
+        675
+      ],
+      "forward": [
+        129,
+        710
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#858e94",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        595.744,
+        849.085
+      ]
+    },
+    {
+      "id": "parking-central-service-03",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        204,
+        685
+      ],
+      "forward": [
+        209,
+        720
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        623.323,
+        877.999
+      ]
+    },
+    {
+      "id": "parking-central-service-04",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        356,
+        712
+      ],
+      "forward": [
+        361,
+        747
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#78424f",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        674.793,
+        939.279
+      ]
+    },
+    {
+      "id": "parking-central-service-05",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        423,
+        713
+      ],
+      "forward": [
+        428,
+        748
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        704.782,
+        963.984
+      ]
+    },
+    {
+      "id": "parking-central-service-06",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        490,
+        731
+      ],
+      "forward": [
+        495,
+        766
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        726.645,
+        996.063
+      ]
+    },
+    {
+      "id": "parking-central-service-07",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        557,
+        745
+      ],
+      "forward": [
+        562,
+        780
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#858e94",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        751.655,
+        1027.945
+      ]
+    },
+    {
+      "id": "parking-central-service-08",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        638,
+        757
+      ],
+      "forward": [
+        643,
+        792
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        786.04,
+        1066.238
+      ]
+    },
+    {
+      "id": "parking-central-service-09",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        713,
+        758
+      ],
+      "forward": [
+        718,
+        793
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#38616c",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        825.009,
+        1098.961
+      ]
+    },
+    {
+      "id": "parking-central-service-10",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        797,
+        780
+      ],
+      "forward": [
+        802,
+        815
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#e9eeec",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        859.025,
+        1146.915
+      ]
+    },
+    {
+      "id": "parking-central-service-11",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        875,
+        806
+      ],
+      "forward": [
+        880,
+        841
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#526663",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        889.314,
+        1196.797
+      ]
+    },
+    {
+      "id": "parking-central-service-12",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        950,
+        809
+      ],
+      "forward": [
+        955,
+        844
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#a82c33",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        932.72,
+        1236.205
+      ]
+    },
+    {
+      "id": "parking-central-service-13",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        1028,
+        811
+      ],
+      "forward": [
+        1033,
+        846
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#323b42",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        980.654,
+        1278.543
+      ]
+    },
+    {
+      "id": "parking-central-service-14",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        1098,
+        810
+      ],
+      "forward": [
+        1103,
+        845
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        1027.25,
+        1316.728
+      ]
+    },
+    {
+      "id": "parking-central-service-15",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        1168,
+        895
+      ],
+      "forward": [
+        1173,
+        930
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#2d76b8",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        1026.403,
+        1408.692
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-01",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        52,
+        1025
+      ],
+      "forward": [
+        47,
+        990
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#78424f",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        370.949,
+        942.501
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-02",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        143,
+        1044
+      ],
+      "forward": [
+        138,
+        1009
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        394.118,
+        983.067
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-03",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        217,
+        1048
+      ],
+      "forward": [
+        212,
+        1013
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#20282e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        421.104,
+        1013.217
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-04",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        350,
+        1070
+      ],
+      "forward": [
+        345,
+        1035
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#858e94",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        462.978,
+        1076.855
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-05",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        422,
+        1079
+      ],
+      "forward": [
+        417,
+        1044
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#2d76b8",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        489.009,
+        1112.252
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-06",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        487,
+        1103
+      ],
+      "forward": [
+        482,
+        1068
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#323b42",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        503.098,
+        1152.991
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-07",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        553,
+        1102
+      ],
+      "forward": [
+        548,
+        1067
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#323b42",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        535.063,
+        1184.049
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-08",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        623,
+        1133
+      ],
+      "forward": [
+        618,
+        1098
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#aeb7ba",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        548.755,
+        1234.656
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-09",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        690,
+        1134
+      ],
+      "forward": [
+        685,
+        1099
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        582.351,
+        1270.45
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-10",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        769,
+        1143
+      ],
+      "forward": [
+        764,
+        1108
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#e9eeec",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        618.388,
+        1318.991
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-11",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        843,
+        1139
+      ],
+      "forward": [
+        838,
+        1104
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#858e94",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        662.569,
+        1359.517
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-12",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        911,
+        1184
+      ],
+      "forward": [
+        906,
+        1149
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        670.755,
+        1428.834
+      ]
+    },
+    {
+      "id": "parking-central-highway-west-13",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        980,
+        1187
+      ],
+      "forward": [
+        975,
+        1152
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#e9eeec",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        710.717,
+        1475.723
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-01",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        1675,
+        1091
+      ],
+      "forward": [
+        1670,
+        1056
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#323b42",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        1338.67,
+        1974.768
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-02",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2070,
+        1165
+      ],
+      "forward": [
+        2065,
+        1130
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#858e94",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        1791.439,
+        2581.357
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-03",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2157,
+        1200
+      ],
+      "forward": [
+        2152,
+        1165
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#858e94",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        1912.651,
+        2790.632
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-04",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2250,
+        1214
+      ],
+      "forward": [
+        2245,
+        1179
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#2d76b8",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        2072.669,
+        2998.838
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-05",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2340,
+        1228
+      ],
+      "forward": [
+        2335,
+        1193
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#78424f",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        2247.721,
+        3227.889
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-06",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2410,
+        1247
+      ],
+      "forward": [
+        2405,
+        1212
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#263c4e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        2397.964,
+        3448.935
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-07",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2485,
+        1255
+      ],
+      "forward": [
+        2480,
+        1220
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#a82c33",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        2582.336,
+        3679.903
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-08",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2563,
+        1273
+      ],
+      "forward": [
+        2558,
+        1238
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#2d76b8",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        2797.814,
+        3982.938
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-09",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2634,
+        1283
+      ],
+      "forward": [
+        2629,
+        1248
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#263c4e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        3022.024,
+        4274.79
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-10",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2714,
+        1299
+      ],
+      "forward": [
+        2709,
+        1264
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#e9eeec",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        3314.016,
+        4673.682
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-11",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2795,
+        1310
+      ],
+      "forward": [
+        2790,
+        1275
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        3659.717,
+        5123.542
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-12",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2873,
+        1325
+      ],
+      "forward": [
+        2868,
+        1290
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        4059.709,
+        5664.992
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-13",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        2950,
+        1340
+      ],
+      "forward": [
+        2945,
+        1305
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.66,
+      "color": "#e9eeec",
+      "bodyStyle": "hatch",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        4538.004,
+        6313.439
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-14",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        3030,
+        1350
+      ],
+      "forward": [
+        3025,
+        1315
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#e9eeec",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        5137.785,
+        7094.242
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-15",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        3375,
+        1390
+      ],
+      "forward": [
+        3370,
+        1355
+      ],
+      "lengthMeters": 4.55,
+      "widthMeters": 1.85,
+      "heightMeters": 1.48,
+      "color": "#263c4e",
+      "bodyStyle": "sedan",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        10752.936,
+        14368.028
+      ]
+    },
+    {
+      "id": "parking-central-highway-east-16",
+      "source": "node1-face5",
+      "sourceHeightMeters": 1.2,
+      "center": [
+        3456,
+        1403
+      ],
+      "forward": [
+        3451,
+        1368
+      ],
+      "lengthMeters": 5.1,
+      "widthMeters": 1.85,
+      "heightMeters": 1.98,
+      "color": "#e9eeec",
+      "bodyStyle": "van",
+      "confidence": "Roof-centre estimate from source photograph; angle and dimensions estimated, colour approximated.",
+      "perspectiveCenter": [
+        14204.841,
+        18894.077
+      ]
+    }
+  ],
+  "lamps": [
+    {
+      "id": "frontage-existing-streetlamp-01",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "basePixel": [
+        2628,
+        2679
+      ],
+      "heightMeters": 10.0,
+      "headingRelativeRoad": "over roadway",
+      "confidence": "Pole base approximated from visible curb intersection; physical height not published.",
+      "perspectiveBase": [
+        350.613,
+        381.936
+      ]
+    },
+    {
+      "id": "frontage-existing-streetlamp-02",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "basePixel": [
+        2842,
+        2991
+      ],
+      "heightMeters": 10.0,
+      "headingRelativeRoad": "over roadway",
+      "confidence": "Pole base approximated from visible curb intersection; physical height not published.",
+      "perspectiveBase": [
+        520.937,
+        532.575
+      ]
+    },
+    {
+      "id": "frontage-existing-streetlamp-03",
+      "source": "node1-face3",
+      "sourceHeightMeters": 0,
+      "basePixel": [
+        3092,
+        3368
+      ],
+      "heightMeters": 10.0,
+      "headingRelativeRoad": "over roadway",
+      "confidence": "Pole base approximated from visible curb intersection; physical height not published.",
+      "perspectiveBase": [
+        672.641,
+        672.537
+      ]
+    },
+    {
+      "id": "frontage-existing-streetlamp-04",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "basePixel": [
+        102,
+        341
+      ],
+      "heightMeters": 10.0,
+      "headingRelativeRoad": "over roadway",
+      "confidence": "Pole base approximated from visible curb intersection; physical height not published.",
+      "perspectiveBase": [
+        747.724,
+        745.508
+      ]
+    },
+    {
+      "id": "frontage-existing-streetlamp-05",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "basePixel": [
+        876,
+        463
+      ],
+      "heightMeters": 10.0,
+      "headingRelativeRoad": "over roadway",
+      "confidence": "Pole base approximated from visible curb intersection; physical height not published.",
+      "perspectiveBase": [
+        1066.524,
+        1042.957
+      ]
+    },
+    {
+      "id": "frontage-existing-streetlamp-06",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "basePixel": [
+        1738,
+        585
+      ],
+      "heightMeters": 10.0,
+      "headingRelativeRoad": "over roadway",
+      "confidence": "Pole base approximated from visible curb intersection; physical height not published.",
+      "perspectiveBase": [
+        1664.911,
+        1585.456
+      ]
+    },
+    {
+      "id": "frontage-existing-streetlamp-07",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "basePixel": [
+        2604,
+        723
+      ],
+      "heightMeters": 10.0,
+      "headingRelativeRoad": "over roadway",
+      "confidence": "Pole base approximated from visible curb intersection; physical height not published.",
+      "perspectiveBase": [
+        2905.095,
+        2736.6
+      ]
+    }
+  ],
+  "openings": [
+    {
+      "id": "parking-west-driveway",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          1252,
+          700
+        ],
+        [
+          1805,
+          779
+        ],
+        [
+          1808,
+          935
+        ],
+        [
+          1688,
+          1090
+        ],
+        [
+          1354,
+          1055
+        ],
+        [
+          1332,
+          857
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "note": "Visible wide asphalt opening; ground flow only, no inferred animated route.",
+      "perspectivePoints": [
+        [
+          1194.849,
+          1341.933
+        ],
+        [
+          1648.376,
+          1798.672
+        ],
+        [
+          1573.808,
+          1951.055
+        ],
+        [
+          1352.912,
+          1987.321
+        ],
+        [
+          1067.546,
+          1651.255
+        ],
+        [
+          1170.315,
+          1490.502
+        ]
+      ]
+    },
+    {
+      "id": "parking-east-driveway",
+      "source": "node1-face5",
+      "sourceHeightMeters": 0,
+      "points": [
+        [
+          1909,
+          795
+        ],
+        [
+          2341,
+          855
+        ],
+        [
+          2385,
+          962
+        ],
+        [
+          2195,
+          1116
+        ],
+        [
+          2020,
+          1072
+        ],
+        [
+          1990,
+          936
+        ]
+      ],
+      "confidence": "source trace; partly occluded boundaries estimated",
+      "pixelAccuracyApproximate": 4,
+      "note": "Visible asphalt throat around central island.",
+      "perspectivePoints": [
+        [
+          1759.133,
+          1911.858
+        ],
+        [
+          2365.571,
+          2519.919
+        ],
+        [
+          2421.66,
+          2772.424
+        ],
+        [
+          2018.495,
+          2708.496
+        ],
+        [
+          1768.239,
+          2367.367
+        ],
+        [
+          1795.348,
+          2153.19
+        ]
+      ]
+    }
+  ],
+  "counts": {
+    "areas": 8,
+    "curbs": 9,
+    "markings": 19,
+    "cars": 94,
+    "lamps": 7,
+    "openings": 2
+  },
+  "officeParking": {
+    "bayCount": 9,
+    "occupiedBayNumbers": [
+      1,
+      2,
+      3,
+      5,
+      6,
+      7
+    ],
+    "emptyBayNumbers": [
+      4,
+      8,
+      9
+    ],
+    "zebraStripeCount": 9
+  },
+  "notes": [
+    "Source traces preserve visible geometry; hiding/roof-centre placement is flagged individually. No new lane legality or live route is inferred.",
+    "Area and curb boundaries split at the cf3/cf5 seam. Do not place curb caps across their shared image-edge seam.",
+    "Long opposite parking has no consistently legible individual bay paint; only observed office-pad bay paint is supplied.",
+    "Separate moving blue SUV visible in the nine-bay-pad render is excluded from parked-car population.",
+    "All source polygons are ground-reference traces. Root converts them through its fixed-road/fixed-frontage registration; no direct OSM geometry modification is authorized by this file."
+  ]
+}

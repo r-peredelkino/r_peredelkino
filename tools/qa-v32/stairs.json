@@ -1,0 +1,20 @@
+{
+  "pass": true,
+  "upper": {
+    "position": {
+      "x": 6.9997999999999925,
+      "z": -4,
+      "blocked": false
+    },
+    "height": 3.58
+  },
+  "lower": {
+    "position": {
+      "x": 6.9997999999999925,
+      "z": 5.632799999999997,
+      "blocked": false
+    },
+    "height": 0,
+    "free": true
+  }
+}

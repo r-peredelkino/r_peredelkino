@@ -1,0 +1,108 @@
+{
+  "scope": "Read-only initial scene probe before root corrected bucket.sky flags; retained from the first audit run.",
+  "sky": [
+    {
+      "name": "",
+      "path": "RODINA_PEREDelkino/Clouds, birds and residents[24]/Mesh[58]",
+      "kind": "cloud",
+      "instanced": true,
+      "count": 35,
+      "cast": false,
+      "receive": true,
+      "bounds": {
+        "min": [
+          -63.64137511406497,
+          137.52499340474606,
+          -227.23828015853692
+        ],
+        "max": [
+          204.2248047678837,
+          168.64000546216965,
+          192.45240137982924
+        ],
+        "size": [
+          267.8661798819487,
+          31.1150120574236,
+          419.69068153836616
+        ]
+      }
+    },
+    {
+      "name": "",
+      "path": "RODINA_PEREDelkino/Clouds, birds and residents[24]/Mesh[59]",
+      "kind": "bird-body",
+      "instanced": true,
+      "count": 9,
+      "cast": false,
+      "receive": true,
+      "bounds": {
+        "min": [
+          -94.07400873965881,
+          102.93262754611695,
+          -96.1008798017663
+        ],
+        "max": [
+          94.2154040604998,
+          127.07825121967095,
+          59.081900015151504
+        ],
+        "size": [
+          188.2894128001586,
+          24.145623673554,
+          155.1827798169178
+        ]
+      }
+    },
+    {
+      "name": "",
+      "path": "RODINA_PEREDelkino/Clouds, birds and residents[24]/Mesh[60]",
+      "kind": "bird-wing",
+      "instanced": true,
+      "count": 18,
+      "cast": false,
+      "receive": true,
+      "bounds": {
+        "min": [
+          -95.0063347308472,
+          103.0347671508789,
+          -97.02340778370868
+        ],
+        "max": [
+          95.01688273364896,
+          126.97621154785156,
+          59.99749975442887
+        ],
+        "size": [
+          190.02321746449616,
+          23.941444396972656,
+          157.02090753813755
+        ]
+      }
+    }
+  ],
+  "unfilteredReceiverBounds": {
+    "min": [
+      -3677.08203125,
+      -3.000000000000007,
+      -3677.08203125
+    ],
+    "max": [
+      3677.08203125,
+      169.14000546216965,
+      3677.08203125
+    ],
+    "size": [
+      7354.1640625,
+      172.14000546216965,
+      7354.1640625
+    ],
+    "padding": 0.5,
+    "coverage": {
+      "completeReceiverMeshes": 1641,
+      "coreReceiverMeshesOmitted": []
+    }
+  },
+  "initialChecks": 360,
+  "maxReceiverOutside": 0,
+  "maxCasterDepthOutside": 0
+}

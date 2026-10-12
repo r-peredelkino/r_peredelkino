@@ -1,0 +1,151 @@
+{
+  "revision": 37,
+  "recordedUTC": "2026-10-12T09:34:02.750271+00:00",
+  "recordedMoscow": "2026-10-12T12:34:02.750271+03:00",
+  "baselineBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v36-before-v37-20261012-105412",
+  "baselineVerifiedFiles": 2220,
+  "releaseBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v37-20261012-123402",
+  "completionLedger": "BACKUP-INDEX-v37-completed.json in the reviewed export",
+  "entries": [
+    {
+      "name": "RODINA-PEREDELKINO-backup-v22-20261009-072508",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v22-20261009-072508",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v23-20261009-084157",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v23-20261009-084157",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v24-20261009-101758",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v24-20261009-101758",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v25-20261010-190829",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v25-20261010-190829",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v26-20261010-201744",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v26-20261010-201744",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v27-20261010-214028",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v27-20261010-214028",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v28-20261010-232612",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v28-20261010-232612",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v29-20261011-081439",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v29-20261011-081439",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v30-20261011-101318-602757",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v30-20261011-101318-602757",
+      "state": "Historical snapshot retained; not rehashed in v37"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v31-20261011-134504",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v31-20261011-134504",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "b7776e9d024513996e4a934cb9210c8d794d0e8a4f792c415ce22a50e3c36d46",
+      "recordedFileCount": null,
+      "recordedUTC": "2026-10-11T10:45:06.530832+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v32-20261011-143650",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v32-20261011-143650",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "51401b8b1ce7ae052050e215fcb8dc5d4b46de552e8e8a86b218651b49ce6284",
+      "recordedFileCount": null,
+      "recordedUTC": "2026-10-11T11:43:39.996757+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v32-before-v33-20261011-193940",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v32-before-v33-20261011-193940",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "904def7941868d12a0ab43f8ca0183e4723d9bb3c496d8baf3a72bc667df52ce",
+      "recordedFileCount": null,
+      "recordedUTC": "2026-10-11T16:39:44.061004+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v33-20261011-205731",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v33-20261011-205731",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "ce3d257d7d4b0b05d0da87baf35a53d5317433c7449c59799aa9acbac85ccba8",
+      "recordedFileCount": 2088,
+      "recordedUTC": "2026-10-11T18:05:27.551936+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v33-before-v34-20261011-220059",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v33-before-v34-20261011-220059",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "09748cacba76c47c6af96a98a4d94f004318c3a3a8fb785736b764fbc0f64e49",
+      "recordedFileCount": 2088,
+      "recordedUTC": null
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v34-20261011-223859",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v34-20261011-223859",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "4c5e56833836069f7d8a57e6ddf4dc28c78c08d7e7c3d5f255b0f4febdb449aa",
+      "recordedFileCount": 2118,
+      "recordedUTC": "2026-10-11T19:40:56.002415+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v34-before-v35-20261011-235859",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v34-before-v35-20261011-235859",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "06770ad64a356c0707429cb9f279d5a5ff78089e1ce3232d319e182c880213b3",
+      "recordedFileCount": 2118,
+      "recordedUTC": "2026-10-11T20:59:01.986327+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v35-20261012-004604",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v35-20261012-004604",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "46796faa12d629d9f14ad29b756ab6f1b9dc9d77611889059e4c67d0d74d9177",
+      "recordedFileCount": 2159,
+      "recordedUTC": "2026-10-11T21:50:32.319632+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v35-before-v36-20261012-010916",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v35-before-v36-20261012-010916",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "0a4a51f9ecbd3b1e9480b6b9dde7d8e88ac98f967ce894ea0f320a712dff1775",
+      "recordedFileCount": null,
+      "recordedUTC": "2026-10-11T22:09:16.834758+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v36-20261012-015752",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v36-20261012-015752",
+      "state": "Historical snapshot retained; not rehashed in v37",
+      "manifestSHA256": "f5f996cb5eec5c37562c50751846efe987c5138672ed5ad81a67047ea7e52a9b",
+      "recordedFileCount": 2220,
+      "recordedUTC": "2026-10-11T23:01:56.109129+00:00"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v36-before-v37-20261012-105412",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v36-before-v37-20261012-105412",
+      "state": "Every recorded baseline file verified by SHA-256 in this preparation",
+      "manifestSHA256": "c10bcb2ad1dcd6252b3eb5a3afedf6249ee4eeda60b5200c928b0a0b46ebe8cc",
+      "recordedFileCount": 2220,
+      "recordedUTC": "2026-10-12T07:54:12.831354+00:00",
+      "verifiedFiles": 2220
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v37-20261012-123402",
+      "path": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v37-20261012-123402",
+      "state": "Reserved final v37 snapshot",
+      "completionEvidence": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v37-20261012-123402/BACKUP-SHA256.json"
+    }
+  ]
+}

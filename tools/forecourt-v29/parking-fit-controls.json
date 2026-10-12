@@ -1,0 +1,792 @@
+{
+  "source": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+  "node": "node1",
+  "sourceLines": [
+    {
+      "source": "node1-face3",
+      "roadWayId": 231671394,
+      "points": [
+        [
+          2200,
+          2650
+        ],
+        [
+          2218,
+          2750
+        ],
+        [
+          2245,
+          2900
+        ],
+        [
+          2273,
+          3050
+        ],
+        [
+          2301,
+          3200
+        ],
+        [
+          2328,
+          3350
+        ],
+        [
+          2355,
+          3490
+        ]
+      ],
+      "identification": "Visible highway asphalt-to-grass white curb, left of the parked cars; source scanlines reviewed.",
+      "pixelAccuracyApproximate": 2
+    },
+    {
+      "source": "node1-face5",
+      "roadWayId": 231671394,
+      "points": [
+        [
+          0,
+          1143
+        ],
+        [
+          500,
+          1218
+        ],
+        [
+          900,
+          1275
+        ],
+        [
+          1040,
+          1310
+        ],
+        [
+          1590,
+          1320
+        ],
+        [
+          1995,
+          1375
+        ],
+        [
+          2750,
+          1450
+        ],
+        [
+          3500,
+          1525
+        ]
+      ],
+      "identification": "Highway asphalt edge below grass strip / pale sidewalk; inspected source cube face5.",
+      "pixelAccuracyApproximate": 5
+    },
+    {
+      "source": "node1-face3",
+      "roadWayId": 49155461,
+      "points": [
+        [
+          2495,
+          2647
+        ],
+        [
+          2549,
+          2750
+        ],
+        [
+          2628,
+          2900
+        ],
+        [
+          2708,
+          3050
+        ],
+        [
+          2783,
+          3200
+        ],
+        [
+          2864,
+          3350
+        ],
+        [
+          2950,
+          3500
+        ]
+      ],
+      "identification": "Service-road parking-side curb, opposite the purple-line forecourt. Visible narrow walkway belongs inside this boundary.",
+      "pixelAccuracyApproximate": 3
+    },
+    {
+      "source": "node1-face5",
+      "roadWayId": 49155461,
+      "points": [
+        [
+          0,
+          551
+        ],
+        [
+          500,
+          619
+        ],
+        [
+          1000,
+          687
+        ],
+        [
+          1235,
+          720
+        ],
+        [
+          1805,
+          801
+        ],
+        [
+          2341,
+          882
+        ],
+        [
+          2900,
+          968
+        ],
+        [
+          3500,
+          1056
+        ]
+      ],
+      "identification": "Parking-side service-road edge; straight continuation across the two driveway throats, sidewalk top outside those gaps.",
+      "pixelAccuracyApproximate": 4
+    }
+  ],
+  "controls": [
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2200,
+        2650
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -8.00508,
+        -147.27803
+      ],
+      "targetWorld": [
+        -8.39438,
+        -147.64058
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 2,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2218,
+        2750
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -15.22656,
+        -139.46202
+      ],
+      "targetWorld": [
+        -15.64666,
+        -139.85326
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 2,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2245,
+        2900
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -23.70497,
+        -130.28559
+      ],
+      "targetWorld": [
+        -24.16124,
+        -130.71051
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 2,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2273,
+        3050
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -30.19286,
+        -123.20312
+      ],
+      "targetWorld": [
+        -30.70694,
+        -123.68188
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 2,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2301,
+        3200
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -35.3389,
+        -117.58548
+      ],
+      "targetWorld": [
+        -35.89884,
+        -118.10695
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 2,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2328,
+        3350
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -39.54856,
+        -113.03941
+      ],
+      "targetWorld": [
+        -40.12139,
+        -113.57288
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 2,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2355,
+        3490
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -42.77625,
+        -109.47261
+      ],
+      "targetWorld": [
+        -43.39944,
+        -110.05298
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 2,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        0,
+        1143
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -43.00652,
+        -109.2525
+      ],
+      "targetWorld": [
+        -43.61617,
+        -109.82026
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        500,
+        1218
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -53.43792,
+        -97.62981
+      ],
+      "targetWorld": [
+        -54.25789,
+        -98.39344
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        900,
+        1275
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -61.70566,
+        -88.28069
+      ],
+      "targetWorld": [
+        -62.76074,
+        -89.26328
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        1040,
+        1310
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -64.98758,
+        -85.26425
+      ],
+      "targetWorld": [
+        -65.7895,
+        -86.01108
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        1590,
+        1320
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -74.59203,
+        -71.24726
+      ],
+      "targetWorld": [
+        -77.24125,
+        -73.71446
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        1995,
+        1375
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -82.89315,
+        -61.73517
+      ],
+      "targetWorld": [
+        -85.84089,
+        -64.48038
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        2750,
+        1450
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -97.65793,
+        -43.53492
+      ],
+      "targetWorld": [
+        -101.76611,
+        -47.34655
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "highway-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        3500,
+        1525
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -112.33775,
+        -25.46363
+      ],
+      "targetWorld": [
+        -117.56746,
+        -30.31583
+      ],
+      "roadWayId": 231671394,
+      "targetOffsetFromAxis": 4.649751464946205,
+      "pixelAccuracyApproximate": 5,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2495,
+        2647
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        7.10076,
+        -137.74663
+      ],
+      "targetWorld": [
+        9.94221,
+        -135.05493
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 3,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2549,
+        2750
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -0.29261,
+        -129.62337
+      ],
+      "targetWorld": [
+        2.3898,
+        -127.08233
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 3,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2628,
+        2900
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -8.67785,
+        -120.38556
+      ],
+      "targetWorld": [
+        -6.18818,
+        -118.0271
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 3,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2708,
+        3050
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -15.09406,
+        -113.25586
+      ],
+      "targetWorld": [
+        -12.78238,
+        -111.06602
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 3,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2783,
+        3200
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -20.33884,
+        -107.70328
+      ],
+      "targetWorld": [
+        -17.92499,
+        -105.50458
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 3,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2864,
+        3350
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -24.43131,
+        -103.07999
+      ],
+      "targetWorld": [
+        -22.08236,
+        -100.9404
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 3,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face3",
+      "pixel": [
+        2950,
+        3500
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -27.69348,
+        -99.1641
+      ],
+      "targetWorld": [
+        -25.51106,
+        -97.1762
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 3,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        0,
+        551
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -27.73623,
+        -99.19226
+      ],
+      "targetWorld": [
+        -25.51643,
+        -97.17031
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        500,
+        619
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -37.98707,
+        -87.45062
+      ],
+      "targetWorld": [
+        -36.01009,
+        -85.64984
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        1000,
+        687
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -48.23791,
+        -75.70898
+      ],
+      "targetWorld": [
+        -46.50374,
+        -74.12938
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        1235,
+        720
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -53.08264,
+        -70.20809
+      ],
+      "targetWorld": [
+        -51.43913,
+        -68.71106
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        1805,
+        801
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -64.85836,
+        -56.88176
+      ],
+      "targetWorld": [
+        -63.54344,
+        -55.6344
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        2341,
+        882
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -76.0563,
+        -44.43244
+      ],
+      "targetWorld": [
+        -75.06335,
+        -43.49051
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        2900,
+        968
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -87.77407,
+        -31.47482
+      ],
+      "targetWorld": [
+        -87.08328,
+        -30.81953
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    },
+    {
+      "kind": "service-parking-side-curb",
+      "source": "node1-face5",
+      "pixel": [
+        3500,
+        1056
+      ],
+      "sourceHeightMeters": 0,
+      "rawWorld": [
+        -100.24017,
+        -17.49361
+      ],
+      "targetWorld": [
+        -99.96874,
+        -17.23613
+      ],
+      "roadWayId": 49155461,
+      "targetOffsetFromAxis": 3.118167643297471,
+      "pixelAccuracyApproximate": 4,
+      "correspondence": "Nearest along-road station under existing GPS fit; target is unchanged road edge plus half curb width."
+    }
+  ],
+  "recommendation": "Use for a separate roadside-only displacement fit combined with the existing site curb controls. Do not feed new highway observations into the forecourt/building fit without reviewing it.",
+  "rampCaveat": "OSM connector1131102991 crosses the photographed southern parking row under the fixed map registration. New highway controls alone cannot solve this topology conflict. Preserve source poses and document any parking-specific bounded placement around its existing corridor; do not delete cars or move road axes silently."
+}

@@ -1,0 +1,1415 @@
+{
+  "revision": 37,
+  "pass": true,
+  "checkCount": 150,
+  "checks": [
+    {
+      "name": "Every furnished example is a genuinely published apartment record",
+      "pass": true,
+      "details": {
+        "examples": [
+          "1-59",
+          "1-81",
+          "1-324",
+          "1-325",
+          "1-326",
+          "1-328",
+          "1-330",
+          "2-345",
+          "2-588",
+          "2-590",
+          "2-591",
+          "2-592",
+          "2-594",
+          "2-595",
+          "2-596",
+          "2-598",
+          "4-1071"
+        ]
+      }
+    },
+    {
+      "name": "All 203 original 2D records remain available without invented 3D clones",
+      "pass": true,
+      "details": {
+        "originalRecords": 203,
+        "threeD": 17,
+        "twoD": 186
+      }
+    },
+    {
+      "name": "The fifteen additions have distinct actual source images and traced geometry",
+      "pass": true,
+      "details": {
+        "additions": 15
+      }
+    },
+    {
+      "name": "Published studio, two, three and four-room classes all have furnished examples",
+      "pass": true,
+      "details": {
+        "classes": [
+          0,
+          3,
+          4,
+          2
+        ]
+      }
+    },
+    {
+      "name": "The legacy source 59 and 81 keep their exact rigid location",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 24.7,
+        "modelArea": 24.700000000000003
+      }
+    },
+    {
+      "name": "1-59 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -1.3865794507,
+          "z": -50.869761776,
+          "y": 19.12,
+          "angle": 1.1961343558,
+          "building": 1,
+          "floor": 6,
+          "slot": 7
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "1-59 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 7
+      }
+    },
+    {
+      "name": "1-59 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "1-59 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 82.7,
+        "modelArea": 82.69999999999999
+      }
+    },
+    {
+      "name": "1-81 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -11.474947308697,
+          "z": -64.900292892738,
+          "y": 25.12,
+          "angle": -2.656204764522,
+          "building": 1,
+          "floor": 8,
+          "slot": 3
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "1-81 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 26
+      }
+    },
+    {
+      "name": "1-81 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 2
+      }
+    },
+    {
+      "name": "1-81 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 24.1,
+        "modelArea": 24.099999999999994
+      }
+    },
+    {
+      "name": "2-345 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -34.12199774518134,
+          "z": -19.494251619009795,
+          "y": 6.760000000000001,
+          "angle": 2.033966549805689,
+          "building": 2,
+          "floor": 2,
+          "slot": 8
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-345 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 8
+      }
+    },
+    {
+      "name": "2-345 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-345 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/2b284e4b0890f9198dd94f398660d780.png",
+        "floor": "assets/plans/a42c6ead-1b61-5045-962c-af1844b6cd00.svg",
+        "slot": 8
+      }
+    },
+    {
+      "name": "2-345 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 15,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-345 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 4,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-345 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 1
+      }
+    },
+    {
+      "name": "2-588 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 46.3,
+        "modelArea": 46.3
+      }
+    },
+    {
+      "name": "2-588 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -41.68814878856616,
+          "z": -35.67814262434143,
+          "y": 67.00827586206897,
+          "angle": 2.688959596030394,
+          "building": 2,
+          "floor": 22,
+          "slot": 2
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-588 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 10
+      }
+    },
+    {
+      "name": "2-588 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-588 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/6587ad2176bf0b00f8abd9b710fc8fc3.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 2
+      }
+    },
+    {
+      "name": "2-588 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 23,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-588 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 5,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-588 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 2
+      }
+    },
+    {
+      "name": "2-591 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 39.3,
+        "modelArea": 39.3
+      }
+    },
+    {
+      "name": "2-591 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -22.003638155613277,
+          "z": -19.340723724543423,
+          "y": 67.00827586206897,
+          "angle": 1.5904292899070214,
+          "building": 2,
+          "floor": 22,
+          "slot": 5
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-591 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 11
+      }
+    },
+    {
+      "name": "2-591 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-591 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/a81dc03d42a0d6e4696e1670df27b5a5.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 5
+      }
+    },
+    {
+      "name": "2-591 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 22,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-591 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 5,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-591 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 2
+      }
+    },
+    {
+      "name": "2-592 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 27.5,
+        "modelArea": 27.5
+      }
+    },
+    {
+      "name": "2-592 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -26.487305750961234,
+          "z": -19.211360463739307,
+          "y": 67.00827586206897,
+          "angle": 2.0443947603626005,
+          "building": 2,
+          "floor": 22,
+          "slot": 6
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-592 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 8
+      }
+    },
+    {
+      "name": "2-592 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-592 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/a1779e66a92571d4924ed7bda3a92f7b.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 6
+      }
+    },
+    {
+      "name": "2-592 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 15,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-592 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 4,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-592 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 1
+      }
+    },
+    {
+      "name": "2-594 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 47.3,
+        "modelArea": 47.29999999999999
+      }
+    },
+    {
+      "name": "2-594 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -34.52733800794437,
+          "z": -19.77038086822181,
+          "y": 67.00827586206897,
+          "angle": 1.5881862995369023,
+          "building": 2,
+          "floor": 22,
+          "slot": 8
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-594 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 8
+      }
+    },
+    {
+      "name": "2-594 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-594 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/e64c909fae0f5a1bd51a433d2d604007.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 8
+      }
+    },
+    {
+      "name": "2-594 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 22,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-594 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 5,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-594 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 2
+      }
+    },
+    {
+      "name": "2-595 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 38.8,
+        "modelArea": 38.8
+      }
+    },
+    {
+      "name": "2-595 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -40.16660070239601,
+          "z": -19.56024415507181,
+          "y": 67.00827586206897,
+          "angle": 1.530134504452901,
+          "building": 2,
+          "floor": 22,
+          "slot": 9
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-595 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 11
+      }
+    },
+    {
+      "name": "2-595 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-595 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/34cafa5ed8da46eab84c40fb0be84cf3.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 9
+      }
+    },
+    {
+      "name": "2-595 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 21,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-595 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 5,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-595 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 2
+      }
+    },
+    {
+      "name": "2-598 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 53,
+        "modelArea": 53.00000000000001
+      }
+    },
+    {
+      "name": "2-598 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -43.71752881210716,
+          "z": -27.853484046534785,
+          "y": 67.00827586206897,
+          "angle": 2.6409765045715226,
+          "building": 2,
+          "floor": 22,
+          "slot": 12
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-598 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 12
+      }
+    },
+    {
+      "name": "2-598 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-598 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/1d8400b5b0c0326e5c1344c7031293d2.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 12
+      }
+    },
+    {
+      "name": "2-598 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 21,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-598 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 6,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-598 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 2
+      }
+    },
+    {
+      "name": "4-1071 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 25.4,
+        "modelArea": 25.399999999999995
+      }
+    },
+    {
+      "name": "4-1071 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": 2.510440448436935,
+          "z": 63.64860730079794,
+          "y": 18.408,
+          "angle": -0.7060856152059093,
+          "building": 4,
+          "floor": 6,
+          "slot": 9
+        },
+        "towerFloors": 31
+      }
+    },
+    {
+      "name": "4-1071 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 6
+      }
+    },
+    {
+      "name": "4-1071 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "4-1071 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/359c84f3a3db0f68e98ace0a5cf9d85b.png",
+        "floor": "assets/plans/1b796a47-a308-7e67-db2b-a2dc5c434d0a.svg",
+        "slot": 9
+      }
+    },
+    {
+      "name": "4-1071 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 13,
+        "outside": []
+      }
+    },
+    {
+      "name": "4-1071 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 4,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "4-1071 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 1
+      }
+    },
+    {
+      "name": "2-596 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 64.6,
+        "modelArea": 64.59999999999998
+      }
+    },
+    {
+      "name": "2-596 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -47.41334174005232,
+          "z": -21.232805266300215,
+          "y": 67.00827586206897,
+          "angle": 2.217885160053217,
+          "building": 2,
+          "floor": 22,
+          "slot": 10
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-596 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 17
+      }
+    },
+    {
+      "name": "2-596 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-596 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/0617218368c4911b7ce3af2a35e16c3e.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 10
+      }
+    },
+    {
+      "name": "2-596 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 24,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-596 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 7,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-596 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 9
+      }
+    },
+    {
+      "name": "2-590 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 72.8,
+        "modelArea": 72.79999999999998
+      }
+    },
+    {
+      "name": "2-590 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -21.964670275506705,
+          "z": -21.582584378005336,
+          "y": 67.00827586206897,
+          "angle": 2.4114596137241584,
+          "building": 2,
+          "floor": 22,
+          "slot": 4
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "2-590 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 16
+      }
+    },
+    {
+      "name": "2-590 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "2-590 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/d6be5f58058cf42ef6afb21592bb90e0.png",
+        "floor": "assets/plans/779158c9-fed2-b9fb-cab5-8038758d12c6.svg",
+        "slot": 4
+      }
+    },
+    {
+      "name": "2-590 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 28,
+        "outside": []
+      }
+    },
+    {
+      "name": "2-590 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 8,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "2-590 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 8
+      }
+    },
+    {
+      "name": "1-324 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 96.2,
+        "modelArea": 96.20000000000002
+      }
+    },
+    {
+      "name": "1-324 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -9.72421109284225,
+          "z": -59.283963027261,
+          "y": 88.12,
+          "angle": -2.2783593792506966,
+          "building": 1,
+          "floor": 29,
+          "slot": 1
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "1-324 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 19
+      }
+    },
+    {
+      "name": "1-324 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "1-324 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/6660ede0f3d7979007e889d70bb294e4.png",
+        "floor": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "slot": 1
+      }
+    },
+    {
+      "name": "1-324 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 38,
+        "outside": []
+      }
+    },
+    {
+      "name": "1-324 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 11,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "1-324 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 4
+      }
+    },
+    {
+      "name": "1-325 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 87,
+        "modelArea": 87
+      }
+    },
+    {
+      "name": "1-325 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -11.842925993209985,
+          "z": -64.92997094835408,
+          "y": 88.12,
+          "angle": -2.6414290520125814,
+          "building": 1,
+          "floor": 29,
+          "slot": 2
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "1-325 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 25
+      }
+    },
+    {
+      "name": "1-325 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 2
+      }
+    },
+    {
+      "name": "1-325 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/999ae194f32451e24a98089221e0c2d5.png",
+        "floor": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "slot": 2
+      }
+    },
+    {
+      "name": "1-325 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 35,
+        "outside": []
+      }
+    },
+    {
+      "name": "1-325 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 8,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "1-325 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 11
+      }
+    },
+    {
+      "name": "1-326 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 75.7,
+        "modelArea": 75.7
+      }
+    },
+    {
+      "name": "1-326 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -3.9938666124800397,
+          "z": -69.86163176607946,
+          "y": 88.12,
+          "angle": -2.70106531879157,
+          "building": 1,
+          "floor": 29,
+          "slot": 3
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "1-326 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 17
+      }
+    },
+    {
+      "name": "1-326 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 1
+      }
+    },
+    {
+      "name": "1-326 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/d9898ff18e6082b1fe45731dd1fade1a.png",
+        "floor": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "slot": 3
+      }
+    },
+    {
+      "name": "1-326 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 29,
+        "outside": []
+      }
+    },
+    {
+      "name": "1-326 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 8,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "1-326 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 9
+      }
+    },
+    {
+      "name": "1-328 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 89.9,
+        "modelArea": 89.90000000000002
+      }
+    },
+    {
+      "name": "1-328 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": 2.462126921770622,
+          "z": -55.16530826525768,
+          "y": 88.12,
+          "angle": -2.9792632538945676,
+          "building": 1,
+          "floor": 29,
+          "slot": 5
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "1-328 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 13
+      }
+    },
+    {
+      "name": "1-328 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 2
+      }
+    },
+    {
+      "name": "1-328 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/87cca2db9cdc6d6eb4219bab762c56ce.png",
+        "floor": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "slot": 5
+      }
+    },
+    {
+      "name": "1-328 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 39,
+        "outside": []
+      }
+    },
+    {
+      "name": "1-328 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 10,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "1-328 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 4
+      }
+    },
+    {
+      "name": "1-330 keeps published area after uniform raster calibration",
+      "pass": true,
+      "details": {
+        "publishedArea": 95,
+        "modelArea": 95
+      }
+    },
+    {
+      "name": "1-330 uses the actual building and floor pitch",
+      "pass": true,
+      "details": {
+        "placement": {
+          "x": -1.828642404645267,
+          "z": -52.73076799807527,
+          "y": 88.12,
+          "angle": -2.310551999012277,
+          "building": 1,
+          "floor": 29,
+          "slot": 7
+        },
+        "towerFloors": 30
+      }
+    },
+    {
+      "name": "1-330 has a finite simple walkable floor boundary",
+      "pass": true,
+      "details": {
+        "points": 15
+      }
+    },
+    {
+      "name": "1-330 has an actual television fixture",
+      "pass": true,
+      "details": {
+        "televisions": 2
+      }
+    },
+    {
+      "name": "1-330 is labelled as a reconstruction, while source pixels remain foreign",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 retains independently identified raster and numbered SVG evidence",
+      "pass": true,
+      "details": {
+        "image": "assets/reference/apartment-plans/67a73ab00866cdc5226a1bb7141fb014.png",
+        "floor": "assets/plans/d6b33ae1-e73c-47da-4e0d-6b1116f2c9c3.svg",
+        "slot": 7
+      }
+    },
+    {
+      "name": "1-330 every furnished footprint remains inside the actual floor boundary",
+      "pass": true,
+      "details": {
+        "fixtures": 37,
+        "outside": []
+      }
+    },
+    {
+      "name": "1-330 room floor patches never cross the apartment boundary",
+      "pass": true,
+      "details": {
+        "rooms": 11,
+        "roomIssues": []
+      }
+    },
+    {
+      "name": "1-330 glazing ends lie on the same source-traced facade boundary",
+      "pass": true,
+      "details": {
+        "panes": 4
+      }
+    }
+  ],
+  "examples": [
+    {
+      "id": "1-59",
+      "building": 1,
+      "floor": 6,
+      "slot": 7,
+      "area": 24.7,
+      "rooms": 0
+    },
+    {
+      "id": "1-81",
+      "building": 1,
+      "floor": 8,
+      "slot": 3,
+      "area": 82.7,
+      "rooms": 3
+    },
+    {
+      "id": "1-324",
+      "building": 1,
+      "floor": 29,
+      "slot": 1,
+      "area": 96.2,
+      "rooms": 4
+    },
+    {
+      "id": "1-325",
+      "building": 1,
+      "floor": 29,
+      "slot": 2,
+      "area": 87,
+      "rooms": 3
+    },
+    {
+      "id": "1-326",
+      "building": 1,
+      "floor": 29,
+      "slot": 3,
+      "area": 75.7,
+      "rooms": 3
+    },
+    {
+      "id": "1-328",
+      "building": 1,
+      "floor": 29,
+      "slot": 5,
+      "area": 89.9,
+      "rooms": 4
+    },
+    {
+      "id": "1-330",
+      "building": 1,
+      "floor": 29,
+      "slot": 7,
+      "area": 95,
+      "rooms": 4
+    },
+    {
+      "id": "2-345",
+      "building": 2,
+      "floor": 2,
+      "slot": 8,
+      "area": 24.1,
+      "rooms": 0
+    },
+    {
+      "id": "2-588",
+      "building": 2,
+      "floor": 22,
+      "slot": 2,
+      "area": 46.3,
+      "rooms": 2
+    },
+    {
+      "id": "2-590",
+      "building": 2,
+      "floor": 22,
+      "slot": 4,
+      "area": 72.8,
+      "rooms": 3
+    },
+    {
+      "id": "2-591",
+      "building": 2,
+      "floor": 22,
+      "slot": 5,
+      "area": 39.3,
+      "rooms": 2
+    },
+    {
+      "id": "2-592",
+      "building": 2,
+      "floor": 22,
+      "slot": 6,
+      "area": 27.5,
+      "rooms": 0
+    },
+    {
+      "id": "2-594",
+      "building": 2,
+      "floor": 22,
+      "slot": 8,
+      "area": 47.3,
+      "rooms": 2
+    },
+    {
+      "id": "2-595",
+      "building": 2,
+      "floor": 22,
+      "slot": 9,
+      "area": 38.8,
+      "rooms": 2
+    },
+    {
+      "id": "2-596",
+      "building": 2,
+      "floor": 22,
+      "slot": 10,
+      "area": 64.6,
+      "rooms": 3
+    },
+    {
+      "id": "2-598",
+      "building": 2,
+      "floor": 22,
+      "slot": 12,
+      "area": 53,
+      "rooms": 2
+    },
+    {
+      "id": "4-1071",
+      "building": 4,
+      "floor": 6,
+      "slot": 9,
+      "area": 25.4,
+      "rooms": 0
+    }
+  ],
+  "timestamp": "2026-10-12T08:34:23.540Z"
+}

@@ -1,0 +1,23 @@
+{
+  "forecourt": {
+    "beforeMeanMS": 52.405,
+    "afterMeanMS": 41.757777777777775,
+    "frameTimeReductionPercent": 20.317187715336754,
+    "beforeTriangles": 12824382,
+    "afterTriangles": 10043454
+  },
+  "facade": {
+    "beforeMeanMS": 70.73777777777778,
+    "afterMeanMS": 54.44222222222223,
+    "frameTimeReductionPercent": 23.036566976627288,
+    "beforeTriangles": 12847642,
+    "afterTriangles": 10477498
+  },
+  "arena": {
+    "beforeMeanMS": 57.21944444444446,
+    "afterMeanMS": 40.46166666666666,
+    "frameTimeReductionPercent": 29.286858585368257,
+    "beforeTriangles": 12485030,
+    "afterTriangles": 9955318
+  }
+}

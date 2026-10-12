@@ -1,0 +1,52 @@
+{
+  "recordedUTC": "2026-10-11T11:36:50.310314+00:00",
+  "installedRevision": 32,
+  "baselineBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v31-20261011-134504",
+  "plannedVerifiedReleaseBackup": "/Users/n1estate/Downloads/RODINA-PEREDELKINO-backup-v32-20261011-143650",
+  "entries": [
+    {
+      "name": "RODINA-PEREDELKINO-backup-v22-20261009-072508",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v23-20261009-084157",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v24-20261009-101758",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v25-20261010-190829",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v26-20261010-201744",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v27-20261010-214028",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v28-20261010-232612",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v29-20261011-081439",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v30-20261011-101318-602757",
+      "verification": "existing backup, contents not reverified in this revision"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v31-20261011-134504",
+      "verification": "all files SHA-256 matched installed v31"
+    },
+    {
+      "name": "RODINA-PEREDELKINO-backup-v32-20261011-143650",
+      "verification": "created and verified after final installed acceptance; see BACKUP-SHA256.json"
+    }
+  ]
+}

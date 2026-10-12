@@ -1,0 +1,113 @@
+{
+  "version": 29,
+  "sourceInputSHA256": "c22c0f2f7ef58d68909a2196c5aeda774c52dc2b32c1ec77bbc885ecf712c5ae",
+  "routeLength": 237.80033538639952,
+  "routePointCount": 42,
+  "originalRoutesRetained": [
+    0,
+    1
+  ],
+  "preservedOriginalThirdVertices": [
+    4,
+    6
+  ],
+  "preservedThirdRouteLength": 65.88392120411841,
+  "preservedThirdRouteParts": [
+    {
+      "points": [
+        [
+          -47.15201,
+          -45.4602
+        ],
+        [
+          -53.76,
+          -39.2
+        ],
+        [
+          -57.68388,
+          -35.0749
+        ]
+      ],
+      "length": 14.79577643414645,
+      "oldDistanceStart": 92.38007271700437
+    },
+    {
+      "points": [
+        [
+          -61.70727,
+          -30.84517
+        ],
+        [
+          -75.49879,
+          -16.3464
+        ]
+      ],
+      "length": 20.010503462414764,
+      "oldDistanceStart": 113.01350715033364
+    },
+    {
+      "points": [
+        [
+          -75.99728,
+          -15.77261
+        ],
+        [
+          -88.27145,
+          -1.33241
+        ]
+      ],
+      "length": 18.95190196989914,
+      "oldDistanceStart": 133.78428338896362
+    },
+    {
+      "points": [
+        [
+          -92.13443,
+          3.21227
+        ],
+        [
+          -94.64,
+          6.16
+        ],
+        [
+          -95.99745,
+          14.30467
+        ]
+      ],
+      "length": 12.125739337658048,
+      "oldDistanceStart": 158.70080802672052
+    }
+  ],
+  "uncontinuedParts": [
+    {
+      "oldDistanceStart": 201.06152386410423,
+      "reason": "No safe continuation across the intervening road or blocked corridor"
+    }
+  ],
+  "destination": {
+    "name": "Площадь",
+    "point": [
+      14.0,
+      -102.0
+    ],
+    "look": [
+      24.06714,
+      -104.12436
+    ]
+  },
+  "gridStep": 0.4,
+  "gridExpansions": 26038,
+  "checks": {
+    "verifiedRadius": 0.48,
+    "planningClearance": 0.56,
+    "outsidePavingArea": 0.0,
+    "roadOverlapArea": 0.0,
+    "obstacleOverlapArea": 0.0,
+    "minimumObstacleClearance": 0.559403210087795,
+    "minimumPavingBoundaryClearance": 1.2894516227148962,
+    "destinationFree": true,
+    "collisions": [],
+    "obstacleRecords": 1938,
+    "passed": true
+  }
+}

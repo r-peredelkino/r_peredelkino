@@ -1,0 +1,1253 @@
+{
+  "source": {
+    "url": "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/",
+    "node": "node1",
+    "image": "arena-source.png",
+    "sha256": "80c4eadef7d2b63e385d1b6ecc803ca06c6aa542795b6a1fad159116c48b632a",
+    "camera": {
+      "position": [
+        -88.38121210004893,
+        54.055899587602426,
+        -74.43182231121628
+      ],
+      "target": [
+        -64.291,
+        -6.86323
+      ],
+      "horizontalFov": 58,
+      "verticalFov": 42.73852457859029,
+      "pan": -37,
+      "tilt": -37,
+      "pannorth": 123.58,
+      "imageSize": [
+        1700,
+        1200
+      ]
+    },
+    "assumptions": [
+      "Altitude 60 m is treated as AGL, matching v29 registration.",
+      "Bed boundaries are hand-traced from visible source edges on an approximately flat ground plane.",
+      "Occluded tree feet, plant heights and lamp heights are estimates; retained architecture and carriageways are fixed.",
+      "Five beds need explicit local translations of 0.25 to 2.25 scene metres because the fixed promenade is narrower than the raw panorama plane fit.",
+      "Contours retain more than 99.5% of traced area after local registration, and are clipped to the pedestrian surface with a 0.30 m building gap."
+    ]
+  },
+  "pixelIslands": [
+    {
+      "id": "arena-south-tree-garden",
+      "outer": [
+        [
+          297,
+          1108
+        ],
+        [
+          314,
+          1084
+        ],
+        [
+          339,
+          1070
+        ],
+        [
+          362,
+          1068
+        ],
+        [
+          397,
+          1077
+        ],
+        [
+          431,
+          1086
+        ],
+        [
+          470,
+          1079
+        ],
+        [
+          492,
+          1097
+        ],
+        [
+          491,
+          1124
+        ],
+        [
+          470,
+          1147
+        ],
+        [
+          439,
+          1155
+        ],
+        [
+          400,
+          1144
+        ],
+        [
+          371,
+          1137
+        ],
+        [
+          337,
+          1140
+        ],
+        [
+          310,
+          1125
+        ]
+      ],
+      "canopyHeightMeters": 0.86
+    },
+    {
+      "id": "arena-central-tree-garden",
+      "outer": [
+        [
+          651,
+          993
+        ],
+        [
+          650,
+          975
+        ],
+        [
+          669,
+          951
+        ],
+        [
+          701,
+          930
+        ],
+        [
+          724,
+          910
+        ],
+        [
+          750,
+          881
+        ],
+        [
+          775,
+          859
+        ],
+        [
+          799,
+          861
+        ],
+        [
+          821,
+          883
+        ],
+        [
+          846,
+          904
+        ],
+        [
+          871,
+          906
+        ],
+        [
+          900,
+          882
+        ],
+        [
+          926,
+          883
+        ],
+        [
+          941,
+          902
+        ],
+        [
+          935,
+          926
+        ],
+        [
+          902,
+          948
+        ],
+        [
+          856,
+          974
+        ],
+        [
+          803,
+          995
+        ],
+        [
+          748,
+          1008
+        ],
+        [
+          706,
+          1008
+        ],
+        [
+          674,
+          1002
+        ]
+      ],
+      "canopyHeightMeters": 0.94
+    },
+    {
+      "id": "arena-storefront-pocket-west",
+      "outer": [
+        [
+          906,
+          746
+        ],
+        [
+          922,
+          733
+        ],
+        [
+          948,
+          727
+        ],
+        [
+          969,
+          731
+        ],
+        [
+          982,
+          744
+        ],
+        [
+          977,
+          758
+        ],
+        [
+          959,
+          772
+        ],
+        [
+          936,
+          778
+        ],
+        [
+          916,
+          770
+        ],
+        [
+          903,
+          758
+        ]
+      ],
+      "canopyHeightMeters": 0.83
+    },
+    {
+      "id": "arena-storefront-pocket-east",
+      "outer": [
+        [
+          1060,
+          684
+        ],
+        [
+          1069,
+          668
+        ],
+        [
+          1090,
+          657
+        ],
+        [
+          1115,
+          657
+        ],
+        [
+          1136,
+          667
+        ],
+        [
+          1155,
+          680
+        ],
+        [
+          1162,
+          691
+        ],
+        [
+          1148,
+          707
+        ],
+        [
+          1135,
+          719
+        ],
+        [
+          1107,
+          718
+        ],
+        [
+          1085,
+          706
+        ]
+      ],
+      "canopyHeightMeters": 0.92
+    },
+    {
+      "id": "arena-east-tree-garden",
+      "outer": [
+        [
+          987,
+          880
+        ],
+        [
+          987,
+          859
+        ],
+        [
+          1002,
+          840
+        ],
+        [
+          1027,
+          823
+        ],
+        [
+          1037,
+          804
+        ],
+        [
+          1050,
+          786
+        ],
+        [
+          1072,
+          776
+        ],
+        [
+          1090,
+          778
+        ],
+        [
+          1113,
+          791
+        ],
+        [
+          1130,
+          811
+        ],
+        [
+          1126,
+          837
+        ],
+        [
+          1103,
+          857
+        ],
+        [
+          1065,
+          876
+        ],
+        [
+          1025,
+          889
+        ],
+        [
+          1004,
+          893
+        ]
+      ],
+      "canopyHeightMeters": 0.94
+    },
+    {
+      "id": "arena-burgundy-cream-garden",
+      "kind": "flowerbed",
+      "canopyHeightMeters": 0.73,
+      "outer": [
+        [
+          1189,
+          797
+        ],
+        [
+          1189,
+          783
+        ],
+        [
+          1200,
+          756
+        ],
+        [
+          1212,
+          730
+        ],
+        [
+          1226,
+          724
+        ],
+        [
+          1245,
+          724
+        ],
+        [
+          1269,
+          733
+        ],
+        [
+          1291,
+          741
+        ],
+        [
+          1305,
+          753
+        ],
+        [
+          1307,
+          760
+        ],
+        [
+          1286,
+          773
+        ],
+        [
+          1254,
+          784
+        ],
+        [
+          1220,
+          796
+        ],
+        [
+          1199,
+          804
+        ]
+      ],
+      "patches": [
+        {
+          "id": "arena-red-lower",
+          "outer": [
+            [
+              1189,
+              797
+            ],
+            [
+              1190,
+              780
+            ],
+            [
+              1200,
+              758
+            ],
+            [
+              1214,
+              763
+            ],
+            [
+              1229,
+              777
+            ],
+            [
+              1221,
+              793
+            ],
+            [
+              1199,
+              804
+            ]
+          ]
+        },
+        {
+          "id": "arena-red-upper",
+          "outer": [
+            [
+              1217,
+              729
+            ],
+            [
+              1233,
+              723
+            ],
+            [
+              1249,
+              727
+            ],
+            [
+              1254,
+              742
+            ],
+            [
+              1243,
+              748
+            ],
+            [
+              1227,
+              742
+            ]
+          ]
+        },
+        {
+          "id": "arena-red-east",
+          "outer": [
+            [
+              1270,
+              734
+            ],
+            [
+              1289,
+              740
+            ],
+            [
+              1304,
+              751
+            ],
+            [
+              1307,
+              760
+            ],
+            [
+              1291,
+              769
+            ],
+            [
+              1283,
+              760
+            ],
+            [
+              1278,
+              747
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "id": "arena-entrance-island-west",
+      "outer": [
+        [
+          1228,
+          683
+        ],
+        [
+          1232,
+          664
+        ],
+        [
+          1248,
+          652
+        ],
+        [
+          1265,
+          640
+        ],
+        [
+          1286,
+          642
+        ],
+        [
+          1301,
+          654
+        ],
+        [
+          1306,
+          670
+        ],
+        [
+          1293,
+          684
+        ],
+        [
+          1271,
+          692
+        ],
+        [
+          1249,
+          695
+        ],
+        [
+          1233,
+          690
+        ]
+      ],
+      "canopyHeightMeters": 0.94
+    },
+    {
+      "id": "arena-entrance-island-east",
+      "outer": [
+        [
+          1344,
+          650
+        ],
+        [
+          1345,
+          634
+        ],
+        [
+          1354,
+          620
+        ],
+        [
+          1374,
+          612
+        ],
+        [
+          1395,
+          619
+        ],
+        [
+          1412,
+          635
+        ],
+        [
+          1417,
+          651
+        ],
+        [
+          1408,
+          668
+        ],
+        [
+          1392,
+          678
+        ],
+        [
+          1377,
+          682
+        ],
+        [
+          1358,
+          674
+        ]
+      ],
+      "canopyHeightMeters": 1.03
+    },
+    {
+      "id": "arena-north-entry-garden",
+      "outer": [
+        [
+          1360,
+          557
+        ],
+        [
+          1357,
+          540
+        ],
+        [
+          1341,
+          523
+        ],
+        [
+          1329,
+          506
+        ],
+        [
+          1321,
+          484
+        ],
+        [
+          1330,
+          471
+        ],
+        [
+          1350,
+          475
+        ],
+        [
+          1370,
+          492
+        ],
+        [
+          1401,
+          507
+        ],
+        [
+          1437,
+          497
+        ],
+        [
+          1474,
+          491
+        ],
+        [
+          1497,
+          502
+        ],
+        [
+          1514,
+          520
+        ],
+        [
+          1512,
+          538
+        ],
+        [
+          1475,
+          550
+        ],
+        [
+          1445,
+          566
+        ],
+        [
+          1411,
+          576
+        ],
+        [
+          1380,
+          573
+        ]
+      ],
+      "canopyHeightMeters": 1.02
+    }
+  ],
+  "pixelTrees": [
+    {
+      "id": "arena-tree-south",
+      "island": "arena-south-tree-garden",
+      "base": [
+        362,
+        1114
+      ],
+      "heightMeters": 6.2,
+      "crownRadiusMeters": 1.8
+    },
+    {
+      "id": "arena-tree-central-west",
+      "island": "arena-central-tree-garden",
+      "base": [
+        704,
+        980
+      ],
+      "heightMeters": 6.7,
+      "crownRadiusMeters": 2.15
+    },
+    {
+      "id": "arena-tree-central-east",
+      "island": "arena-central-tree-garden",
+      "base": [
+        839,
+        954
+      ],
+      "heightMeters": 7.3,
+      "crownRadiusMeters": 2.1
+    },
+    {
+      "id": "arena-tree-east-west",
+      "island": "arena-east-tree-garden",
+      "base": [
+        1035,
+        866
+      ],
+      "heightMeters": 5.8,
+      "crownRadiusMeters": 1.75
+    },
+    {
+      "id": "arena-tree-east-east",
+      "island": "arena-east-tree-garden",
+      "base": [
+        1090,
+        836
+      ],
+      "heightMeters": 6.6,
+      "crownRadiusMeters": 1.85
+    }
+  ],
+  "pixelLines": [
+    {
+      "id": "arena-purple-south",
+      "color": "purple",
+      "points": [
+        [
+          29,
+          1175
+        ],
+        [
+          67,
+          1136
+        ],
+        [
+          104,
+          1115
+        ],
+        [
+          170,
+          1111
+        ],
+        [
+          250,
+          1104
+        ],
+        [
+          301,
+          1079
+        ],
+        [
+          334,
+          1048
+        ],
+        [
+          360,
+          1029
+        ],
+        [
+          394,
+          1011
+        ],
+        [
+          455,
+          1019
+        ],
+        [
+          492,
+          1026
+        ],
+        [
+          519,
+          1022
+        ],
+        [
+          552,
+          1003
+        ],
+        [
+          589,
+          969
+        ],
+        [
+          621,
+          944
+        ],
+        [
+          655,
+          925
+        ]
+      ],
+      "widthMeters": 0.066
+    },
+    {
+      "id": "arena-purple-central",
+      "color": "purple",
+      "points": [
+        [
+          910,
+          869
+        ],
+        [
+          921,
+          839
+        ],
+        [
+          940,
+          816
+        ],
+        [
+          960,
+          806
+        ],
+        [
+          980,
+          807
+        ],
+        [
+          1006,
+          818
+        ]
+      ],
+      "widthMeters": 0.066
+    },
+    {
+      "id": "arena-purple-east",
+      "color": "purple",
+      "points": [
+        [
+          1134,
+          782
+        ],
+        [
+          1152,
+          785
+        ],
+        [
+          1167,
+          768
+        ],
+        [
+          1176,
+          741
+        ],
+        [
+          1191,
+          716
+        ],
+        [
+          1216,
+          706
+        ],
+        [
+          1246,
+          713
+        ],
+        [
+          1268,
+          710
+        ],
+        [
+          1282,
+          689
+        ]
+      ],
+      "widthMeters": 0.066
+    },
+    {
+      "id": "arena-purple-entrance",
+      "color": "purple",
+      "points": [
+        [
+          1231,
+          687
+        ],
+        [
+          1224,
+          674
+        ],
+        [
+          1225,
+          654
+        ],
+        [
+          1237,
+          627
+        ],
+        [
+          1248,
+          596
+        ],
+        [
+          1241,
+          568
+        ],
+        [
+          1256,
+          537
+        ]
+      ],
+      "widthMeters": 0.066
+    },
+    {
+      "id": "arena-white-south",
+      "color": "white",
+      "points": [
+        [
+          213,
+          1131
+        ],
+        [
+          238,
+          1094
+        ],
+        [
+          275,
+          1061
+        ],
+        [
+          311,
+          1029
+        ],
+        [
+          342,
+          1004
+        ],
+        [
+          380,
+          992
+        ],
+        [
+          419,
+          1005
+        ],
+        [
+          455,
+          1011
+        ],
+        [
+          489,
+          1008
+        ],
+        [
+          520,
+          996
+        ],
+        [
+          545,
+          976
+        ],
+        [
+          583,
+          956
+        ],
+        [
+          621,
+          937
+        ]
+      ],
+      "widthMeters": 0.045
+    },
+    {
+      "id": "arena-white-center",
+      "color": "white",
+      "points": [
+        [
+          809,
+          905
+        ],
+        [
+          830,
+          898
+        ],
+        [
+          852,
+          886
+        ],
+        [
+          879,
+          866
+        ],
+        [
+          905,
+          840
+        ],
+        [
+          928,
+          815
+        ],
+        [
+          951,
+          798
+        ],
+        [
+          980,
+          796
+        ],
+        [
+          1008,
+          807
+        ]
+      ],
+      "widthMeters": 0.045
+    },
+    {
+      "id": "arena-white-east",
+      "color": "white",
+      "points": [
+        [
+          1135,
+          779
+        ],
+        [
+          1146,
+          742
+        ],
+        [
+          1162,
+          710
+        ],
+        [
+          1190,
+          696
+        ],
+        [
+          1218,
+          701
+        ],
+        [
+          1241,
+          711
+        ],
+        [
+          1263,
+          712
+        ],
+        [
+          1285,
+          698
+        ],
+        [
+          1304,
+          672
+        ]
+      ],
+      "widthMeters": 0.045
+    }
+  ],
+  "pixelLamps": [
+    [
+      219,
+      1068
+    ],
+    [
+      618,
+      929
+    ],
+    [
+      898,
+      929
+    ],
+    [
+      1070,
+      873
+    ],
+    [
+      1139,
+      717
+    ],
+    [
+      1243,
+      691
+    ],
+    [
+      1386,
+      675
+    ],
+    [
+      1391,
+      565
+    ]
+  ],
+  "pixelReplacementZone": [
+    [
+      0,
+      1199
+    ],
+    [
+      458,
+      1199
+    ],
+    [
+      1699,
+      685
+    ],
+    [
+      1659,
+      459
+    ],
+    [
+      1496,
+      451
+    ],
+    [
+      1302,
+      450
+    ],
+    [
+      1247,
+      603
+    ],
+    [
+      1223,
+      654
+    ],
+    [
+      1018,
+      760
+    ],
+    [
+      611,
+      936
+    ],
+    [
+      0,
+      1104
+    ]
+  ],
+  "checks": [
+    {
+      "id": "arena-south-tree-garden",
+      "rawArea": 23.0491,
+      "area": 22.9814,
+      "clipLoss": 0.0677,
+      "registrationShift": [
+        1.32583,
+        1.32583
+      ],
+      "minimumBuildingGap": 6.5907
+    },
+    {
+      "id": "arena-central-tree-garden",
+      "rawArea": 66.0217,
+      "area": 65.7218,
+      "clipLoss": 0.2999,
+      "registrationShift": [
+        0.7955,
+        0.7955
+      ],
+      "minimumBuildingGap": 4.4757
+    },
+    {
+      "id": "arena-storefront-pocket-west",
+      "rawArea": 11.6945,
+      "area": 11.6945,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        -0.20787,
+        -0.13889
+      ],
+      "minimumBuildingGap": 0.3107
+    },
+    {
+      "id": "arena-storefront-pocket-east",
+      "rawArea": 20.6993,
+      "area": 20.6271,
+      "clipLoss": 0.0722,
+      "registrationShift": [
+        -1.59099,
+        -1.59099
+      ],
+      "minimumBuildingGap": 0.3
+    },
+    {
+      "id": "arena-east-tree-garden",
+      "rawArea": 33.5587,
+      "area": 33.5587,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        0.41573,
+        0.27779
+      ],
+      "minimumBuildingGap": 5.4841
+    },
+    {
+      "id": "arena-burgundy-cream-garden",
+      "rawArea": 22.5226,
+      "area": 22.5226,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 6.1023
+    },
+    {
+      "id": "arena-entrance-island-west",
+      "rawArea": 15.2035,
+      "area": 15.2035,
+      "clipLoss": 0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 2.9329
+    },
+    {
+      "id": "arena-entrance-island-east",
+      "rawArea": 19.4481,
+      "area": 19.4481,
+      "clipLoss": -0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 5.4858
+    },
+    {
+      "id": "arena-north-entry-garden",
+      "rawArea": 80.663,
+      "area": 80.663,
+      "clipLoss": -0.0,
+      "registrationShift": [
+        0.0,
+        0.0
+      ],
+      "minimumBuildingGap": 3.1345
+    }
+  ]
+}

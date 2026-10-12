@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tour apprev="21010" hassounds="0" start="node3" appversion="7.1.11">
+  <panorama id="node1">
+    <input levelingroll="0" levelingpitch="0" height="3500" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltilesize="510" width="3500" leveltileurl="tiles/node1/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" height="3500" preload="0" width="3500"/>
+      <level predecode="0" height="1750" preload="0" width="1750"/>
+      <level predecode="0" height="875" preload="0" width="875"/>
+      <level predecode="1" height="437" preload="1" width="437"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-236.42">
+      <start tilt="0.19" pan="6.68" projection="4" fov="76.91"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" pan="360" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="09.08.2024 12:23" source="p1d" latitude="55.637298" heading="-236.42" customnodeid="p1d_after" author="" tags="after|day" title="Вид 1 день" copyright="" description="" info="" altitude="60.00" longitude="37.351367" nodeid="node1" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label background="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" border="1" textcolor="0x000000" width="180"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" pan="-347.075" target="$fwd" distance="296.527" tilt="13.7945" title="Вид 2 день" skinid="ht_node" description="" url="{node3}"/>
+      <hotspot tilt="-14.68" title="Метро &quot;Новопеределкино&quot;" id="Point01" skinid="metro" description="" url="" pan="-283.78" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" delay="none" enabled="1" zoomafteroutfov="20" softedge="0" zoomin="0" blendcolor="0x000000" zoomafterinfov="90" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" invertwheel="1" contextvr="1" invertcontrol="1" zoomcentercursor="1" sensitivity="8" hideabout="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node2">
+    <input levelingroll="0" levelingpitch="0" height="3500" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltilesize="510" width="3500" leveltileurl="tiles/node2/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" height="3500" preload="0" width="3500"/>
+      <level predecode="0" height="1750" preload="0" width="1750"/>
+      <level predecode="0" height="875" preload="0" width="875"/>
+      <level predecode="1" height="437" preload="1" width="437"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="123.87">
+      <start tilt="0" pan="6.68" projection="4" fov="76.91"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" pan="360" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="09.08.2024 19:41" source="p1e" latitude="55.637231" heading="123.87" customnodeid="p1e_after" author="" tags="after|evening" title="Вид 1 вечер" copyright="" description="" info="" altitude="60.00" longitude="37.351266" nodeid="node2" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label background="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" border="1" textcolor="0x000000" width="180"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" pan="18.4877" target="$fwd" distance="300.415" tilt="13.4744" title="Вид 2 день" skinid="ht_node" description="" url="{node3}"/>
+      <hotspot tilt="-14.75" title="Метро &quot;Новопеределкино&quot;" id="Point01" skinid="metro" description="" url="" pan="-283.5" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" delay="none" enabled="1" zoomafteroutfov="20" softedge="0" zoomin="0" blendcolor="0x000000" zoomafterinfov="90" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" invertwheel="1" contextvr="1" invertcontrol="1" zoomcentercursor="1" sensitivity="8" hideabout="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node3">
+    <input levelingroll="0" levelingpitch="0" height="3500" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltilesize="510" width="3500" leveltileurl="tiles/node3/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" height="3500" preload="0" width="3500"/>
+      <level predecode="0" height="1750" preload="0" width="1750"/>
+      <level predecode="0" height="875" preload="0" width="875"/>
+      <level predecode="1" height="437" preload="1" width="437"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-81.16">
+      <start tilt="-19.87" pan="1.9" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" pan="360" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="09.08.2024 12:25" source="p2" latitude="55.636534" heading="-81.16" customnodeid="p2_after" author="" tags="after" title="Вид 2 день" copyright="" description="" info="" altitude="130.00" longitude="37.355754" nodeid="node3" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label background="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" border="1" textcolor="0x000000" width="180"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot tilt="-10.12" title="Детский сад №1467" id="Point01" skinid="detsad" description="" url="" pan="-7.05" target=""/>
+      <hotspot tilt="-25.14" title="Детский сад №1015" id="Point01" skinid="detsad" description="" url="" pan="-131.52" target=""/>
+      <hotspot tilt="-26.27" title="Метро &quot;Новопеределкино&quot;" id="Point01" skinid="metro" description="" url="" pan="-55.39" target=""/>
+      <hotspot tilt="-6.42" title="Детский сад №1018" id="Point01" skinid="detsad" description="" url="" pan="-50.61" target=""/>
+      <hotspot tilt="-4.69" title="Детский сад №1238" id="Point01" skinid="detsad" description="" url="" pan="-15.6" target=""/>
+      <hotspot tilt="-5.18" title="Школа №1238" id="Point01" skinid="school" description="" url="" pan="-6.18" target=""/>
+      <hotspot tilt="-9.25" title="Школа №1467" id="Point01" skinid="school" description="" url="" pan="-21.84" target=""/>
+      <hotspot tilt="-11.64" title="Школа №1018" id="Point01" skinid="school" description="" url="" pan="-47.42" target=""/>
+      <hotspot tilt="-11.99" title="Школа №1015" id="Point01" skinid="school" description="" url="" pan="-125.36" target=""/>
+      <hotspot tilt="-6.13" title="Школа №1596" id="Point01" skinid="school" description="" url="" pan="-137.7" target=""/>
+      <hotspot tilt="-2.61" title="Школа №1788" id="Point01" skinid="school" description="" url="" pan="-341.51" target=""/>
+      <hotspot tilt="-2.76" title="Чоботовский лес" id="Point01" skinid="park" description="" url="" pan="-90.88" target=""/>
+      <hotspot tilt="-13.35" title="Детский парк &quot;Буратино&quot;" id="Point01" skinid="park" description="" url="" pan="-173.68" target=""/>
+      <hotspot tilt="-19.06" title="Ульяновский лесопарк" id="Point01" skinid="park" description="" url="" pan="-290.54" target=""/>
+      <hotspot tilt="-2.93" title="Боровский парк" id="Point01" skinid="park" description="" url="" pan="-310.94" target=""/>
+      <hotspot tilt="-16.29" title="Фитнес-клуб &quot;Олимпик&quot;" id="Point01" skinid="sport" description="" url="" pan="-92.09" target=""/>
+      <hotspot tilt="-7.93" title="Спортивный комплекс &quot;Арктика&quot;" id="Point01" skinid="sport" description="" url="" pan="-202.33" target=""/>
+      <hotspot tilt="-3.75" title="Горнолыжный склон &quot;Новопеределкино&quot;" id="Point01" skinid="snowboard" description="" url="" pan="-206.58" target=""/>
+      <hotspot tilt="-6.33" title="Каток &quot;Радужный&quot;" id="Point01" skinid="ice_skate" description="" url="" pan="-70.58" target=""/>
+      <hotspot tilt="-7.43" title="Бассейн &quot;Радужный&quot;" id="Point01" skinid="pool" description="" url="" pan="-72.44" target=""/>
+      <hotspot tilt="-1.33" title="Комплекс музеев &quot;Переделкино&quot;" id="Point01" skinid="museum" description="" url="" pan="-43.16" target=""/>
+      <hotspot id="Point02" pan="-7.2289" target="$fwd" distance="296.527" tilt="-13.7445" title="Вид 1 день" skinid="ht_node" description="" url="{node1}"/>
+      <hotspot tilt="-6.46" title="Теннисный парк &quot;Орбита&quot;" id="Point01" skinid="tennis" description="" url="" pan="-75.12" target=""/>
+      <hotspot tilt="-15.9" title="Детский сад GYMKIDs" id="Point01" skinid="detsad" description="" url="" pan="-94.59" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" delay="none" enabled="1" zoomafteroutfov="20" softedge="0" zoomin="0" blendcolor="0x000000" zoomafterinfov="90" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" invertwheel="1" contextvr="1" invertcontrol="1" zoomcentercursor="1" sensitivity="8" hideabout="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node4">
+    <input levelingroll="0" levelingpitch="0" height="3000" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltilesize="510" width="3000" leveltileurl="tiles/node4/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" height="3000" preload="0" width="3000"/>
+      <level predecode="0" height="1500" preload="0" width="1500"/>
+      <level predecode="0" height="750" preload="0" width="750"/>
+      <level predecode="1" height="375" preload="1" width="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-236.418">
+      <start tilt="0" pan="6.68" projection="4" fov="76.91"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" pan="360" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="09.08.2024 12:23" source="p1d" latitude="55.637298" heading="-236.418" customnodeid="p1d_before" author="" tags="before" title="Вид 1 день" copyright="" description="" info="" altitude="60.00" longitude="37.351367" nodeid="node4" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label background="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" border="1" textcolor="0x000000" width="180"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" pan="-343.563" target="$fwd" distance="296.527" tilt="13.6545" title="Вид 2 день" skinid="ht_node" description="" url="{node6}"/>
+      <hotspot tilt="-14.59" title="Метро &quot;Новопеределкино&quot;" id="Point01" skinid="metro" description="" url="" pan="-283.8" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" delay="none" enabled="1" zoomafteroutfov="20" softedge="0" zoomin="0" blendcolor="0x000000" zoomafterinfov="90" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" invertwheel="1" contextvr="1" invertcontrol="1" zoomcentercursor="1" sensitivity="8" hideabout="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node5">
+    <input levelingroll="0" levelingpitch="0" height="3000" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltilesize="510" width="3000" leveltileurl="tiles/node5/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" height="3000" preload="0" width="3000"/>
+      <level predecode="0" height="1500" preload="0" width="1500"/>
+      <level predecode="0" height="750" preload="0" width="750"/>
+      <level predecode="1" height="375" preload="1" width="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="123.872">
+      <start tilt="0" pan="0" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" pan="360" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="09.08.2024 19:41" source="p1e" latitude="55.637231" heading="123.872" customnodeid="p1e_before" author="" tags="before|evening" title="Вид 1 вечер" copyright="" description="" info="" altitude="60.00" longitude="37.351266" nodeid="node5" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label background="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" border="1" textcolor="0x000000" width="180"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot id="Point01" pan="18.4897" target="$fwd" distance="300.415" tilt="13.4744" title="Вид 2 день" skinid="ht_node" description="" url="{node6}"/>
+      <hotspot tilt="-13.27" title="Метро &quot;Новопеределкино&quot;" id="Point01" skinid="metro" description="" url="" pan="-283.89" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" delay="none" enabled="1" zoomafteroutfov="20" softedge="0" zoomin="0" blendcolor="0x000000" zoomafterinfov="90" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" invertwheel="1" contextvr="1" invertcontrol="1" zoomcentercursor="1" sensitivity="8" hideabout="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <panorama id="node6">
+    <input levelingroll="0" levelingpitch="0" height="3000" levelbiashidpi="1.000" levelbias="0.400" overlap="1" leveltilesize="510" width="3000" leveltileurl="tiles/node6/cf_%c/l_%l/c_%x/tile_%y.jpg">
+      <level predecode="0" height="3000" preload="0" width="3000"/>
+      <level predecode="0" height="1500" preload="0" width="1500"/>
+      <level predecode="0" height="750" preload="0" width="750"/>
+      <level predecode="1" height="375" preload="1" width="375"/>
+      <preview strip="1" color="0x808080"/>
+    </input>
+    <view fovmode="0" pannorth="-81.159">
+      <start tilt="-19.87" pan="1.9" projection="4" fov="70"/>
+      <flyin tilt="-90" pan="0" projection="9" fov="170"/>
+      <min tilt="-90" fovpixel="2" pan="0"/>
+      <max tilt="90" pan="360" fovstereographic="270" fovfisheye="360" scaletofit="1" fov="120"/>
+    </view>
+    <userdata datetime="09.08.2024 12:25" source="p2" latitude="55.636534" heading="-81.159" customnodeid="p2_before" author="" tags="before" title="Вид 2 день" copyright="" description="" info="" altitude="130.00" longitude="37.355754" nodeid="node6" comment=""/>
+    <hotspots height="20" smoothmovement="0" width="180" wordwrap="1">
+      <label background="1" backgroundcolor="0xffffff" bordercolor="0x000000" height="20" textalpha="1" borderradius="1" borderalpha="1" wordwrap="1" enabled="1" backgroundalpha="1" border="1" textcolor="0x000000" width="180"/>
+      <polystyle mode="0" backgroundcolor="0x0000ff" handcursor="1" bordercolor="0x0000ff" backgroundalpha="0.25098" borderalpha="1"/>
+      <hotspot tilt="-10.12" title="Детский сад №1467" id="Point01" skinid="detsad" description="" url="" pan="-7.05" target=""/>
+      <hotspot tilt="-25.14" title="Детский сад №1015" id="Point01" skinid="detsad" description="" url="" pan="-131.52" target=""/>
+      <hotspot tilt="-26.27" title="Метро &quot;Новопеределкино&quot;" id="Point01" skinid="metro" description="" url="" pan="-55.39" target=""/>
+      <hotspot tilt="-6.42" title="Детский сад №1018" id="Point01" skinid="detsad" description="" url="" pan="-50.61" target=""/>
+      <hotspot tilt="-4.69" title="Детский сад №1238" id="Point01" skinid="detsad" description="" url="" pan="-15.6" target=""/>
+      <hotspot tilt="-5.18" title="Школа №1238" id="Point01" skinid="school" description="" url="" pan="-6.18" target=""/>
+      <hotspot tilt="-9.25" title="Школа №1467" id="Point01" skinid="school" description="" url="" pan="-21.84" target=""/>
+      <hotspot tilt="-11.64" title="Школа №1018" id="Point01" skinid="school" description="" url="" pan="-47.42" target=""/>
+      <hotspot tilt="-11.99" title="Школа №1015" id="Point01" skinid="school" description="" url="" pan="-125.36" target=""/>
+      <hotspot tilt="-6.13" title="Школа №1596" id="Point01" skinid="school" description="" url="" pan="-137.7" target=""/>
+      <hotspot tilt="-2.61" title="Школа №1788" id="Point01" skinid="school" description="" url="" pan="-341.51" target=""/>
+      <hotspot tilt="-2.76" title="Чоботовский лес" id="Point01" skinid="park" description="" url="" pan="-90.88" target=""/>
+      <hotspot tilt="-12.08" title="Детский парк &quot;Буратино&quot;" id="Point01" skinid="park" description="" url="" pan="-176.1" target=""/>
+      <hotspot tilt="-19.06" title="Ульяновский лесопарк" id="Point01" skinid="park" description="" url="" pan="-290.54" target=""/>
+      <hotspot tilt="-2.93" title="Боровский парк" id="Point01" skinid="park" description="" url="" pan="-310.94" target=""/>
+      <hotspot tilt="-17.02" title="Фитнес-клуб &quot;Олимпик&quot;" id="Point01" skinid="sport" description="" url="" pan="-94.12" target=""/>
+      <hotspot tilt="-8.07" title="Спортивный комплекс &quot;Арктика&quot;" id="Point01" skinid="sport" description="" url="" pan="-202.96" target=""/>
+      <hotspot tilt="-3.75" title="Горнолыжный склон &quot;Новопеределкино&quot;" id="Point01" skinid="snowboard" description="" url="" pan="-206.58" target=""/>
+      <hotspot tilt="-6.95" title="Каток &quot;Радужный&quot;" id="Point01" skinid="ice_skate" description="" url="" pan="-71.7" target=""/>
+      <hotspot tilt="-8.12" title="Бассейн &quot;Радужный&quot;" id="Point01" skinid="pool" description="" url="" pan="-73.91" target=""/>
+      <hotspot tilt="-1.33" title="Комплекс музеев &quot;Переделкино&quot;" id="Point01" skinid="museum" description="" url="" pan="-43.16" target=""/>
+      <hotspot id="Point02" pan="-8.3079" target="$fwd" distance="296.527" tilt="-13.6545" title="Вид 1 день" skinid="ht_node" description="" url="{node4}"/>
+      <hotspot tilt="-7.04" title="Теннисный парк &quot;Орбита&quot;" id="Point01" skinid="tennis" description="" url="" pan="-76.35" target=""/>
+      <hotspot tilt="-16.24" title="Детский сад GYMKIDs" id="Point01" skinid="detsad" description="" url="" pan="-96.85" target=""/>
+    </hotspots>
+    <media/>
+    <transition zoomoutpause="1" blendtime="1" zoomfov="20" zoomspeed="2" type="crossdissolve" delay="none" enabled="1" zoomafteroutfov="20" softedge="0" zoomin="0" blendcolor="0x000000" zoomafterinfov="90" zoomout="0"/>
+    <animation syncanimationwithvideo="0" animsequence="Animation01" clipsrandom="0" useinautorotation="0"/>
+    <control simulatemass="1" rubberband="0" lockedkeyboard="0" lockedmouse="0" invertwheel="1" contextvr="1" invertcontrol="1" zoomcentercursor="1" sensitivity="8" hideabout="0" speedwheel="1" contextfullscreen="1" contextprojections="0" dblclickfullscreen="0" lockedwheel="0" lockedkeyboardzoom="0"/>
+  </panorama>
+  <masternode>
+    <userdata author="" tags="" title="" copyright="" description="" comment=""/>
+    <animationsequences>
+      <sequence title="Animation01"/>
+    </animationsequences>
+  </masternode>
+</tour>

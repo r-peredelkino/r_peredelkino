@@ -1,0 +1,3052 @@
+{
+  "revision": 37,
+  "pass": true,
+  "checkCount": 173,
+  "checks": [
+    {
+      "name": "All personally identified official layouts are available",
+      "pass": true
+    },
+    {
+      "name": "1-59 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 24.7,
+      "placement": {
+        "x": -1.3865794507,
+        "z": -50.869761776,
+        "y": 19.12,
+        "angle": 1.1961343558,
+        "building": 1,
+        "floor": 6,
+        "slot": 7
+      }
+    },
+    {
+      "name": "1-59 keeps the verified original rigid orientation",
+      "pass": true
+    },
+    {
+      "name": "1-59 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999991,
+        "head": 2.699999999999999,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999989,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "1-59 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 9.316855979807972e-07,
+      "maxVerticalError": 5.245208751780694e-07,
+      "renderedVertices": 96,
+      "previousPaneGap": 0.1908395214353467
+    },
+    {
+      "name": "1-59 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 3.786378385448116e-07,
+      "rayDistance": 0.6000003786378361
+    },
+    {
+      "name": "1-59 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 4,
+      "opening": {
+        "sill": 0.794999999999999,
+        "head": 2.7249999999999988,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "1-59 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Жилая зона",
+          "point": {
+            "x": -1.7224868181914408,
+            "z": -0.5416253185511454
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": 0.47751318180855973,
+            "z": -0.5416253185511454
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": 2.3775131818085606,
+            "z": 0.2583746814488546
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": 2.1775131818085605,
+            "z": 1.7583746814488552
+          }
+        }
+      ]
+    },
+    {
+      "name": "1-59 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 4,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Apartment room floor 1",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "1-59 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "1-59 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 62,
+      "bad": []
+    },
+    {
+      "name": "1-81 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 82.7,
+      "placement": {
+        "x": -11.474947308697,
+        "z": -64.900292892738,
+        "y": 25.12,
+        "angle": -2.656204764522,
+        "building": 1,
+        "floor": 8,
+        "slot": 3
+      }
+    },
+    {
+      "name": "1-81 keeps the verified original rigid orientation",
+      "pass": true
+    },
+    {
+      "name": "1-81 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999991,
+        "head": 2.699999999999999,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999989,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "1-81 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 4.206830763458272e-05,
+      "maxVerticalError": 5.245208751780694e-07,
+      "renderedVertices": 1056,
+      "previousPaneGap": 0.7036392014346159
+    },
+    {
+      "name": "1-81 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 8.777846915120758e-08,
+      "rayDistance": 0.5999999122215265
+    },
+    {
+      "name": "1-81 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 44,
+      "opening": {
+        "sill": 0.794999999999999,
+        "head": 2.7249999999999988,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "1-81 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": -5.15704899938493,
+            "z": 1.7184078251573431
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -2.957048999384933,
+            "z": 2.6184078251573437
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 2.3429510006150696,
+            "z": 1.7184078251573431
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": 3.5429510006150706,
+            "z": -1.0815921748426574
+          }
+        },
+        {
+          "name": "Спальня 3",
+          "point": {
+            "x": 5.842951000615065,
+            "z": 1.9184078251573433
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -0.4570489993849314,
+            "z": -0.7815921748426574
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": 1.9429510006150694,
+            "z": -0.9815921748426574
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": -2.4570489993849325,
+            "z": 0.8184078251573425
+          }
+        }
+      ]
+    },
+    {
+      "name": "1-81 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 2,
+      "lights": 8,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "1-81 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "1-81 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 86,
+      "bad": []
+    },
+    {
+      "name": "2-345 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 24.099999999999994,
+      "placement": {
+        "x": -34.12199774518134,
+        "z": -19.494251619009795,
+        "y": 6.760000000000001,
+        "angle": 2.033966549805689,
+        "building": 2,
+        "floor": 2,
+        "slot": 8
+      }
+    },
+    {
+      "name": "2-345 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 0.5690343860376609,
+      "windowFacadeRMS": 0.28570233465253414
+    },
+    {
+      "name": "2-345 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.82,
+        "head": 2.712413793103448,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241378,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-345 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 6.939007493260963e-07,
+      "maxVerticalError": 7.099940861898801e-07,
+      "renderedVertices": 96,
+      "previousPaneGap": 0.5281329589816204
+    },
+    {
+      "name": "2-345 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 5.2752252121340596e-09,
+      "rayDistance": 0.599999994724774
+    },
+    {
+      "name": "2-345 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 4,
+      "opening": {
+        "sill": 0.7949999999999999,
+        "head": 2.737413793103448,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-345 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Жилая зона",
+          "point": {
+            "x": -2.415937912756626,
+            "z": 0.0657448541197756
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -0.21593791275662474,
+            "z": 0.4657448541197756
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": 1.884062087243376,
+            "z": 0.6657448541197756
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": 2.9840620872433767,
+            "z": -0.7342551458802243
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-345 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 4,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-345 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-345 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 63,
+      "bad": []
+    },
+    {
+      "name": "2-588 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 46.29999999999999,
+      "placement": {
+        "x": -41.68814878856616,
+        "z": -35.67814262434143,
+        "y": 67.00827586206897,
+        "angle": 2.688959596030394,
+        "building": 2,
+        "floor": 22,
+        "slot": 2
+      }
+    },
+    {
+      "name": "2-588 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.047429278654981,
+      "windowFacadeRMS": 0.049243793665218256
+    },
+    {
+      "name": "2-588 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-588 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 4.781500136972862e-06,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 240,
+      "previousPaneGap": 0.18343954246908797
+    },
+    {
+      "name": "2-588 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 4.061946223521782e-07,
+      "rayDistance": 0.6000004061946206
+    },
+    {
+      "name": "2-588 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 10,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-588 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -1.0809106534927237,
+            "z": -2.1653319280164443
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 3.219089346507278,
+            "z": -1.4653319280164436
+          }
+        },
+        {
+          "name": "Спальня",
+          "point": {
+            "x": 3.419089346507278,
+            "z": 1.0346680719835566
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -1.9809106534927245,
+            "z": 1.8346680719835573
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": -2.8809106534927253,
+            "z": -0.16533192801644345
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-588 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 5,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-588 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-588 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 68,
+      "bad": []
+    },
+    {
+      "name": "2-591 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 39.300000000000004,
+      "placement": {
+        "x": -22.003638155613277,
+        "z": -19.340723724543423,
+        "y": 67.00827586206897,
+        "angle": 1.5904292899070214,
+        "building": 2,
+        "floor": 22,
+        "slot": 5
+      }
+    },
+    {
+      "name": "2-591 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.1208705145903022,
+      "windowFacadeRMS": 0.09149411063274578
+    },
+    {
+      "name": "2-591 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-591 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 8.168809033632791e-07,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 240,
+      "previousPaneGap": 0.16860253928024338
+    },
+    {
+      "name": "2-591 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 3.925783210517818e-07,
+      "rayDistance": 0.6000003925783205
+    },
+    {
+      "name": "2-591 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 10,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-591 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -0.4492935109323304,
+            "z": -1.9403684526923626
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": -0.4492935109323304,
+            "z": -0.5403684526923619
+          }
+        },
+        {
+          "name": "Спальня",
+          "point": {
+            "x": -0.4492935109323304,
+            "z": 1.9596315473076389
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": 2.0507064890676703,
+            "z": 0.859631547307638
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": 1.7507064890676702,
+            "z": -1.340368452692362
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-591 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 5,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-591 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-591 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 68,
+      "bad": []
+    },
+    {
+      "name": "2-592 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 27.499999999999996,
+      "placement": {
+        "x": -26.487305750961234,
+        "z": -19.211360463739307,
+        "y": 67.00827586206897,
+        "angle": 2.0443947603626005,
+        "building": 2,
+        "floor": 22,
+        "slot": 6
+      }
+    },
+    {
+      "name": "2-592 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 0.5869813105059076,
+      "windowFacadeRMS": 0.30841463518314666
+    },
+    {
+      "name": "2-592 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-592 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 1.2474660634005796e-06,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 96,
+      "previousPaneGap": 0.5495199393925314
+    },
+    {
+      "name": "2-592 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 1.1433387432400652e-07,
+      "rayDistance": 0.6000001143338737
+    },
+    {
+      "name": "2-592 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 4,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-592 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Жилая зона",
+          "point": {
+            "x": -2.177488918993857,
+            "z": 0.00527890577312215
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -0.07748891899385607,
+            "z": -0.7947210942268778
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": 2.1225110810061447,
+            "z": 0.8052789057731221
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": 3.1225110810061456,
+            "z": -0.4947210942268778
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-592 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 4,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-592 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-592 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 63,
+      "bad": []
+    },
+    {
+      "name": "2-594 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 47.29999999999999,
+      "placement": {
+        "x": -34.52733800794437,
+        "z": -19.77038086822181,
+        "y": 67.00827586206897,
+        "angle": 1.5881862995369023,
+        "building": 2,
+        "floor": 22,
+        "slot": 8
+      }
+    },
+    {
+      "name": "2-594 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.1068926968343888,
+      "windowFacadeRMS": 0.11205352431679243
+    },
+    {
+      "name": "2-594 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-594 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 8.552268008916716e-07,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 240,
+      "previousPaneGap": 0.13740745948577468
+    },
+    {
+      "name": "2-594 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 3.421057447388175e-07,
+      "rayDistance": 0.6000003421057407
+    },
+    {
+      "name": "2-594 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 10,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-594 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": -0.6647695856086067,
+            "z": -1.2226954354575392
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": 2.235230414391394,
+            "z": -2.22269543545754
+          }
+        },
+        {
+          "name": "Спальня",
+          "point": {
+            "x": -0.36476958560860673,
+            "z": 0.9773045645424607
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": 1.735230414391394,
+            "z": 2.477304564542462
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": 2.6352304143913945,
+            "z": 0.6773045645424608
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-594 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 5,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-594 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-594 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 66,
+      "bad": []
+    },
+    {
+      "name": "2-595 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 38.8,
+      "placement": {
+        "x": -40.16660070239601,
+        "z": -19.56024415507181,
+        "y": 67.00827586206897,
+        "angle": 1.530134504452901,
+        "building": 2,
+        "floor": 22,
+        "slot": 9
+      }
+    },
+    {
+      "name": "2-595 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.166778623532811,
+      "windowFacadeRMS": 0.030238854714612382
+    },
+    {
+      "name": "2-595 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-595 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 8.358190355427198e-07,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 240,
+      "previousPaneGap": 0.14220063476311753
+    },
+    {
+      "name": "2-595 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 2.767287554425614e-07,
+      "rayDistance": 0.6000002767287546
+    },
+    {
+      "name": "2-595 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 10,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-595 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": -1.6477121654991902,
+            "z": -1.3398182160481875
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": 0.6522878345008102,
+            "z": -0.8398182160481873
+          }
+        },
+        {
+          "name": "Спальня",
+          "point": {
+            "x": -0.8477121654991897,
+            "z": 1.2601817839518128
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": 1.7522878345008108,
+            "z": 2.860181783951814
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": 1.5522878345008106,
+            "z": 1.2601817839518128
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-595 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 5,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-595 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-595 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 66,
+      "bad": []
+    },
+    {
+      "name": "2-598 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 53,
+      "placement": {
+        "x": -43.71752881210716,
+        "z": -27.853484046534785,
+        "y": 67.00827586206897,
+        "angle": 2.6409765045715226,
+        "building": 2,
+        "floor": 22,
+        "slot": 12
+      }
+    },
+    {
+      "name": "2-598 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 0.9640239939728279,
+      "windowFacadeRMS": 0.13467861230074052
+    },
+    {
+      "name": "2-598 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-598 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 1.6503998038697147e-06,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 192,
+      "previousPaneGap": 0.31844202133289734
+    },
+    {
+      "name": "2-598 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 1.089380505005186e-07,
+      "rayDistance": 0.5999998910619557
+    },
+    {
+      "name": "2-598 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 8,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-598 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -0.24330253082076322,
+            "z": -1.7394400920824435
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 3.1566974691792384,
+            "z": -0.939440092082443
+          }
+        },
+        {
+          "name": "Спальня",
+          "point": {
+            "x": 2.0566974691792375,
+            "z": 0.6605599079175569
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -0.8433025308207631,
+            "z": 1.7605599079175576
+          }
+        },
+        {
+          "name": "Гардеробная",
+          "point": {
+            "x": -2.6433025308207645,
+            "z": 1.7605599079175576
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": -3.043302530820765,
+            "z": 0.16055990791755695
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-598 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 6,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-598 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-598 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 72,
+      "bad": []
+    },
+    {
+      "name": "4-1071 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 25.39999999999999,
+      "placement": {
+        "x": 2.510440448436935,
+        "z": 63.64860730079794,
+        "y": 18.408,
+        "angle": -0.7060856152059093,
+        "building": 4,
+        "floor": 6,
+        "slot": 9
+      }
+    },
+    {
+      "name": "4-1071 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 0.27980033344375305,
+      "windowFacadeRMS": 0.09473743499645887
+    },
+    {
+      "name": "4-1071 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999991,
+        "head": 2.6119999999999988,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.685439999999999,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "4-1071 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 8.22229150164934e-07,
+      "maxVerticalError": 4.882812487672084e-07,
+      "renderedVertices": 144,
+      "previousPaneGap": 0.23280911213751337
+    },
+    {
+      "name": "4-1071 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 2.3170690971825968e-07,
+      "rayDistance": 0.600000231706906
+    },
+    {
+      "name": "4-1071 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 6,
+      "opening": {
+        "sill": 0.794999999999999,
+        "head": 2.6369999999999987,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "4-1071 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Жилая зона",
+          "point": {
+            "x": 1.1880299226605289,
+            "z": 0.090673619140621
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": 0.7880299226605287,
+            "z": -1.109326380859379
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -2.011970077339472,
+            "z": -1.109326380859379
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": -2.8119700773394727,
+            "z": 0.39067361914062104
+          }
+        }
+      ]
+    },
+    {
+      "name": "4-1071 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 4,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "4-1071 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "4-1071 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 61,
+      "bad": []
+    },
+    {
+      "name": "2-596 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 64.59999999999998,
+      "placement": {
+        "x": -47.41334174005232,
+        "z": -21.232805266300215,
+        "y": 67.00827586206897,
+        "angle": 2.217885160053217,
+        "building": 2,
+        "floor": 22,
+        "slot": 10
+      }
+    },
+    {
+      "name": "2-596 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.2943052716270202,
+      "windowFacadeRMS": 0.37813791840142924
+    },
+    {
+      "name": "2-596 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-596 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 2.8614124795172684e-05,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 768,
+      "previousPaneGap": 1.0119931417704318
+    },
+    {
+      "name": "2-596 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 6.302469343787606e-08,
+      "rayDistance": 0.600000063024696
+    },
+    {
+      "name": "2-596 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 32,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-596 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -2.0433127184136675,
+            "z": -2.7230130714153344
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 0.1566872815863333,
+            "z": -2.5230130714153343
+          }
+        },
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": -1.8433127184136673,
+            "z": 1.5769869285846674
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": 3.056687281586335,
+            "z": -0.42301307141533306
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": 0.9566872815863332,
+            "z": 1.8769869285846676
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": -0.4433127184136667,
+            "z": 0.27698692858466695
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": -0.5433127184136667,
+            "z": 3.776986928584669
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-596 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 7,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-596 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-596 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 76,
+      "bad": []
+    },
+    {
+      "name": "2-590 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 72.8,
+      "placement": {
+        "x": -21.964670275506705,
+        "z": -21.582584378005336,
+        "y": 67.00827586206897,
+        "angle": 2.4114596137241584,
+        "building": 2,
+        "floor": 22,
+        "slot": 4
+      }
+    },
+    {
+      "name": "2-590 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.0203881323021422,
+      "windowFacadeRMS": 0.268744594360142
+    },
+    {
+      "name": "2-590 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "2-590 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 0.00010060989751946783,
+      "maxVerticalError": 7.099940906307722e-07,
+      "renderedVertices": 768,
+      "previousPaneGap": 0.36545129938977344
+    },
+    {
+      "name": "2-590 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 3.4283293704482103e-07,
+      "rayDistance": 0.5999996571670615
+    },
+    {
+      "name": "2-590 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 32,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.7374137931034435,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "2-590 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": -6.063521279816069,
+            "z": 0.9983908656746203
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -3.163521279816075,
+            "z": 1.3983908656746207
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -0.5635212798160733,
+            "z": 1.8983908656746211
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 2.936478720183928,
+            "z": 1.5983908656746209
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": 4.636478720183927,
+            "z": 0.5983908656746204
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": -0.5635212798160733,
+            "z": -1.8016091343253802
+          }
+        },
+        {
+          "name": "Постирочная",
+          "point": {
+            "x": 0.9364787201839266,
+            "z": -1.60160913432538
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": 2.536478720183928,
+            "z": -0.1016091343253796
+          }
+        }
+      ]
+    },
+    {
+      "name": "2-590 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 8,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "2-590 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "2-590 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 82,
+      "bad": []
+    },
+    {
+      "name": "1-324 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 96.20000000000002,
+      "placement": {
+        "x": -9.72421109284225,
+        "z": -59.283963027261,
+        "y": 88.12,
+        "angle": -2.2783593792506966,
+        "building": 1,
+        "floor": 29,
+        "slot": 1
+      }
+    },
+    {
+      "name": "1-324 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.0772872498912531,
+      "windowFacadeRMS": 0.10753043602048781
+    },
+    {
+      "name": "1-324 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "1-324 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 1.9447731270858574e-06,
+      "maxVerticalError": 5.245208787307831e-07,
+      "renderedVertices": 480,
+      "previousPaneGap": 0.03594457862982243
+    },
+    {
+      "name": "1-324 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 1.1232737414196168e-07,
+      "rayDistance": 0.600000112327371
+    },
+    {
+      "name": "1-324 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 20,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.724999999999995,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "1-324 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -0.5898480986464741,
+            "z": -4.881218852438477
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 1.6101519013535264,
+            "z": -4.6812188524384775
+          }
+        },
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": 4.010151901353528,
+            "z": -2.6812188524384784
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": 3.2101519013535276,
+            "z": 1.7187811475615236
+          }
+        },
+        {
+          "name": "Спальня 3",
+          "point": {
+            "x": 1.110151901353526,
+            "z": 4.718781147561523
+          }
+        },
+        {
+          "name": "Гардеробная 1",
+          "point": {
+            "x": -1.7898480986464747,
+            "z": -0.881218852438477
+          }
+        },
+        {
+          "name": "Гардеробная 2",
+          "point": {
+            "x": -1.089848098646474,
+            "z": 1.6187811475615235
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -1.089848098646474,
+            "z": 3.3187811475615248
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": -1.4898480986464744,
+            "z": 5.41878114756152
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": 0.01015190135352581,
+            "z": 2.0187811475615236
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": -3.289848098646476,
+            "z": -5.881218852438473
+          }
+        }
+      ]
+    },
+    {
+      "name": "1-324 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 11,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "1-324 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "1-324 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 96,
+      "bad": []
+    },
+    {
+      "name": "1-325 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 87,
+      "placement": {
+        "x": -11.842925993209985,
+        "z": -64.92997094835408,
+        "y": 88.12,
+        "angle": -2.6414290520125814,
+        "building": 1,
+        "floor": 29,
+        "slot": 2
+      }
+    },
+    {
+      "name": "1-325 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.4894605158910297,
+      "windowFacadeRMS": 0.36530208499773287
+    },
+    {
+      "name": "1-325 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "1-325 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 2.6575144956417613e-05,
+      "maxVerticalError": 5.245208787307831e-07,
+      "renderedVertices": 960,
+      "previousPaneGap": 0.5871529527786331
+    },
+    {
+      "name": "1-325 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 1.9935978341525185e-07,
+      "rayDistance": 0.6000001993597796
+    },
+    {
+      "name": "1-325 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 40,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.724999999999995,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "1-325 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": -5.1789099940087375,
+            "z": 1.5257794765221846
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -2.57890999400874,
+            "z": 3.0257794765221857
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 2.521090005991262,
+            "z": 0.7257794765221841
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": 3.421090005991263,
+            "z": -1.274220523477816
+          }
+        },
+        {
+          "name": "Спальня 3",
+          "point": {
+            "x": 6.621090005991254,
+            "z": 1.4257794765221845
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -0.3789099940087389,
+            "z": -0.7742205234778158
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": 2.121090005991262,
+            "z": -0.9742205234778157
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": -2.57890999400874,
+            "z": 0.6257794765221841
+          }
+        }
+      ]
+    },
+    {
+      "name": "1-325 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 2,
+      "lights": 8,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "1-325 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "1-325 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 86,
+      "bad": []
+    },
+    {
+      "name": "1-326 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 75.7,
+      "placement": {
+        "x": -3.9938666124800397,
+        "z": -69.86163176607946,
+        "y": 88.12,
+        "angle": -2.70106531879157,
+        "building": 1,
+        "floor": 29,
+        "slot": 3
+      }
+    },
+    {
+      "name": "1-326 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.5781342066732231,
+      "windowFacadeRMS": 0.40090497598897323
+    },
+    {
+      "name": "1-326 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "1-326 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 3.1373445909687896e-05,
+      "maxVerticalError": 5.245208787307831e-07,
+      "renderedVertices": 864,
+      "previousPaneGap": 0.6400393464878732
+    },
+    {
+      "name": "1-326 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 1.8368355896045273e-07,
+      "rayDistance": 0.6000001836835628
+    },
+    {
+      "name": "1-326 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 36,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.724999999999995,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "1-326 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": -6.593915394154578,
+            "z": 1.000635744314773
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": -3.5939153941545867,
+            "z": 1.4006357443147734
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -0.8939153941545845,
+            "z": 2.200635744314774
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 2.6060846058454166,
+            "z": 1.2006357443147733
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": 4.606084605845416,
+            "z": 0.10063574431477307
+          }
+        },
+        {
+          "name": "Санузел",
+          "point": {
+            "x": -0.5939153941545846,
+            "z": -1.8993642556852275
+          }
+        },
+        {
+          "name": "Постирочная",
+          "point": {
+            "x": 0.9060846058454153,
+            "z": -1.6993642556852273
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": 2.7060846058454167,
+            "z": -0.09936425568522694
+          }
+        }
+      ]
+    },
+    {
+      "name": "1-326 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 1,
+      "lights": 8,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "1-326 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "1-326 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 82,
+      "bad": []
+    },
+    {
+      "name": "1-328 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 89.90000000000002,
+      "placement": {
+        "x": 2.462126921770622,
+        "z": -55.16530826525768,
+        "y": 88.12,
+        "angle": -2.9792632538945676,
+        "building": 1,
+        "floor": 29,
+        "slot": 5
+      }
+    },
+    {
+      "name": "1-328 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.2553371856758702,
+      "windowFacadeRMS": 0.16696396916561704
+    },
+    {
+      "name": "1-328 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "1-328 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 8.391144845089016e-07,
+      "maxVerticalError": 5.245208787307831e-07,
+      "renderedVertices": 528,
+      "previousPaneGap": 0.10032480793232086
+    },
+    {
+      "name": "1-328 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 1.1297421850245736e-07,
+      "rayDistance": 0.6000001129742187
+    },
+    {
+      "name": "1-328 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 22,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.724999999999995,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "1-328 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": 0.13294216589304908,
+            "z": -5.140258019453996
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": -0.9670578341069508,
+            "z": -1.6402580194539977
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": -1.367057834106951,
+            "z": 1.2597419805460028
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": 2.0329421658930498,
+            "z": 1.0597419805460027
+          }
+        },
+        {
+          "name": "Спальня 3",
+          "point": {
+            "x": -3.2670578341069527,
+            "z": 4.459741980546004
+          }
+        },
+        {
+          "name": "Ванная",
+          "point": {
+            "x": 1.93294216589305,
+            "z": 5.3597419805460005
+          }
+        },
+        {
+          "name": "Ванная 2",
+          "point": {
+            "x": 1.6329421658930496,
+            "z": -2.2402580194539983
+          }
+        },
+        {
+          "name": "Гардеробная",
+          "point": {
+            "x": 1.2329421658930493,
+            "z": -4.940258019453997
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": 0.23294216589304909,
+            "z": -1.7402580194539978
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": 1.6329421658930496,
+            "z": 3.3597419805460045
+          }
+        }
+      ]
+    },
+    {
+      "name": "1-328 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 2,
+      "lights": 10,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "1-328 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "1-328 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 92,
+      "bad": []
+    },
+    {
+      "name": "1-330 uses its source corpus, floor, slot and metric area",
+      "pass": true,
+      "area": 95,
+      "placement": {
+        "x": -1.828642404645267,
+        "z": -52.73076799807527,
+        "y": 88.12,
+        "angle": -2.310551999012277,
+        "building": 1,
+        "floor": 29,
+        "slot": 7
+      }
+    },
+    {
+      "name": "1-330 registers the identified official SVG slot without area distortion",
+      "pass": true,
+      "fitRMS": 1.194733072433058,
+      "windowFacadeRMS": 0.1184765554777626
+    },
+    {
+      "name": "1-330 glazing copies the unchanged tower section and dark framing",
+      "pass": true,
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      }
+    },
+    {
+      "name": "1-330 actual rendered curved glass is attached to the tower pane surface",
+      "pass": true,
+      "maxPaneGap": 1.6572410431419825e-06,
+      "maxVerticalError": 5.245208787307831e-07,
+      "renderedVertices": 480,
+      "previousPaneGap": 0.10229714006460199
+    },
+    {
+      "name": "1-330 actual world-space view ray meets the source-aligned glass",
+      "pass": true,
+      "worldDelta": 5.078011769170824e-07,
+      "rayDistance": 0.600000507801179
+    },
+    {
+      "name": "1-330 finite aperture opens glass and retains adjacent storeys and sill",
+      "pass": true,
+      "segments": 20,
+      "opening": {
+        "sill": 0.7949999999999955,
+        "head": 2.724999999999995,
+        "halfDepth": 0.28,
+        "edgeAllowance": 0.035
+      }
+    },
+    {
+      "name": "1-330 provides safe walking points for all reconstructed rooms",
+      "pass": true,
+      "rooms": [
+        {
+          "name": "Спальня 1",
+          "point": {
+            "x": 1.04074927105226,
+            "z": -4.481765414601556
+          }
+        },
+        {
+          "name": "Гардеробная",
+          "point": {
+            "x": -0.4592507289477401,
+            "z": -4.281765414601557
+          }
+        },
+        {
+          "name": "Спальня 2",
+          "point": {
+            "x": 4.240749271052262,
+            "z": -0.9817654146015548
+          }
+        },
+        {
+          "name": "Холл",
+          "point": {
+            "x": 0.4407492710522599,
+            "z": -2.0817654146015556
+          }
+        },
+        {
+          "name": "Ванная 1",
+          "point": {
+            "x": -0.5592507289477401,
+            "z": -1.0817654146015547
+          }
+        },
+        {
+          "name": "Кухня",
+          "point": {
+            "x": -1.15925072894774,
+            "z": 1.7182345853984458
+          }
+        },
+        {
+          "name": "Гостиная",
+          "point": {
+            "x": 2.340749271052261,
+            "z": 2.018234585398446
+          }
+        },
+        {
+          "name": "Спальня 3",
+          "point": {
+            "x": 4.140749271052262,
+            "z": 4.118234585398447
+          }
+        },
+        {
+          "name": "Ванная 2",
+          "point": {
+            "x": -1.2592507289477401,
+            "z": 5.818234585398441
+          }
+        },
+        {
+          "name": "Гардеробная 2",
+          "point": {
+            "x": -2.8592507289477416,
+            "z": 5.418234585398443
+          }
+        },
+        {
+          "name": "Прихожая",
+          "point": {
+            "x": -1.4592507289477403,
+            "z": 4.3182345853984465
+          }
+        }
+      ]
+    },
+    {
+      "name": "1-330 retains actual dynamic fixtures and exact physical pixel marks",
+      "pass": true,
+      "televisions": 2,
+      "lights": 11,
+      "marks": [
+        {
+          "carrierName": "Apartment room floor 0",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        },
+        {
+          "carrierName": "Batched courtyard furniture",
+          "text": "@r_peredelkino",
+          "complete": true,
+          "expectedPixels": 171,
+          "recoveredPixels": 171
+        }
+      ]
+    },
+    {
+      "name": "1-330 source metric geometry and raster furniture stay unchanged",
+      "pass": true
+    },
+    {
+      "name": "1-330 disposes each live geometry, material and texture once",
+      "pass": true,
+      "resources": 96,
+      "bad": []
+    },
+    {
+      "name": "Facade aperture cloning isolates source material and compiles source-aligned heights",
+      "pass": true
+    },
+    {
+      "name": "Closing a finite apartment opening restores source references and releases its clone once",
+      "pass": true
+    }
+  ],
+  "plans": [
+    {
+      "id": "1-59",
+      "area": 24.7,
+      "placement": {
+        "x": -1.3865794507,
+        "z": -50.869761776,
+        "y": 19.12,
+        "angle": 1.1961343558,
+        "building": 1,
+        "floor": 6,
+        "slot": 7
+      },
+      "profile": {
+        "sill": 0.8199999999999991,
+        "head": 2.699999999999999,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999989,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 9.316855979807972e-07,
+      "previousPaneGap": 0.1908395214353467,
+      "apertureSegments": 4
+    },
+    {
+      "id": "1-81",
+      "area": 82.7,
+      "placement": {
+        "x": -11.474947308697,
+        "z": -64.900292892738,
+        "y": 25.12,
+        "angle": -2.656204764522,
+        "building": 1,
+        "floor": 8,
+        "slot": 3
+      },
+      "profile": {
+        "sill": 0.8199999999999991,
+        "head": 2.699999999999999,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999989,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 4.206830763458272e-05,
+      "previousPaneGap": 0.7036392014346159,
+      "apertureSegments": 44
+    },
+    {
+      "id": "2-345",
+      "area": 24.099999999999994,
+      "placement": {
+        "x": -34.12199774518134,
+        "z": -19.494251619009795,
+        "y": 6.760000000000001,
+        "angle": 2.033966549805689,
+        "building": 2,
+        "floor": 2,
+        "slot": 8
+      },
+      "profile": {
+        "sill": 0.82,
+        "head": 2.712413793103448,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241378,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 6.939007493260963e-07,
+      "previousPaneGap": 0.5281329589816204,
+      "apertureSegments": 4
+    },
+    {
+      "id": "2-588",
+      "area": 46.29999999999999,
+      "placement": {
+        "x": -41.68814878856616,
+        "z": -35.67814262434143,
+        "y": 67.00827586206897,
+        "angle": 2.688959596030394,
+        "building": 2,
+        "floor": 22,
+        "slot": 2
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 4.781500136972862e-06,
+      "previousPaneGap": 0.18343954246908797,
+      "apertureSegments": 10
+    },
+    {
+      "id": "2-591",
+      "area": 39.300000000000004,
+      "placement": {
+        "x": -22.003638155613277,
+        "z": -19.340723724543423,
+        "y": 67.00827586206897,
+        "angle": 1.5904292899070214,
+        "building": 2,
+        "floor": 22,
+        "slot": 5
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 8.168809033632791e-07,
+      "previousPaneGap": 0.16860253928024338,
+      "apertureSegments": 10
+    },
+    {
+      "id": "2-592",
+      "area": 27.499999999999996,
+      "placement": {
+        "x": -26.487305750961234,
+        "z": -19.211360463739307,
+        "y": 67.00827586206897,
+        "angle": 2.0443947603626005,
+        "building": 2,
+        "floor": 22,
+        "slot": 6
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 1.2474660634005796e-06,
+      "previousPaneGap": 0.5495199393925314,
+      "apertureSegments": 4
+    },
+    {
+      "id": "2-594",
+      "area": 47.29999999999999,
+      "placement": {
+        "x": -34.52733800794437,
+        "z": -19.77038086822181,
+        "y": 67.00827586206897,
+        "angle": 1.5881862995369023,
+        "building": 2,
+        "floor": 22,
+        "slot": 8
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 8.552268008916716e-07,
+      "previousPaneGap": 0.13740745948577468,
+      "apertureSegments": 10
+    },
+    {
+      "id": "2-595",
+      "area": 38.8,
+      "placement": {
+        "x": -40.16660070239601,
+        "z": -19.56024415507181,
+        "y": 67.00827586206897,
+        "angle": 1.530134504452901,
+        "building": 2,
+        "floor": 22,
+        "slot": 9
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 8.358190355427198e-07,
+      "previousPaneGap": 0.14220063476311753,
+      "apertureSegments": 10
+    },
+    {
+      "id": "2-598",
+      "area": 53,
+      "placement": {
+        "x": -43.71752881210716,
+        "z": -27.853484046534785,
+        "y": 67.00827586206897,
+        "angle": 2.6409765045715226,
+        "building": 2,
+        "floor": 22,
+        "slot": 12
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 1.6503998038697147e-06,
+      "previousPaneGap": 0.31844202133289734,
+      "apertureSegments": 8
+    },
+    {
+      "id": "4-1071",
+      "area": 25.39999999999999,
+      "placement": {
+        "x": 2.510440448436935,
+        "z": 63.64860730079794,
+        "y": 18.408,
+        "angle": -0.7060856152059093,
+        "building": 4,
+        "floor": 6,
+        "slot": 9
+      },
+      "profile": {
+        "sill": 0.8199999999999991,
+        "head": 2.6119999999999988,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.685439999999999,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 8.22229150164934e-07,
+      "previousPaneGap": 0.23280911213751337,
+      "apertureSegments": 6
+    },
+    {
+      "id": "2-596",
+      "area": 64.59999999999998,
+      "placement": {
+        "x": -47.41334174005232,
+        "z": -21.232805266300215,
+        "y": 67.00827586206897,
+        "angle": 2.217885160053217,
+        "building": 2,
+        "floor": 22,
+        "slot": 10
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 2.8614124795172684e-05,
+      "previousPaneGap": 1.0119931417704318,
+      "apertureSegments": 32
+    },
+    {
+      "id": "2-590",
+      "area": 72.8,
+      "placement": {
+        "x": -21.964670275506705,
+        "z": -21.582584378005336,
+        "y": 67.00827586206897,
+        "angle": 2.4114596137241584,
+        "building": 2,
+        "floor": 22,
+        "slot": 4
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.7124137931034435,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7476965517241334,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 0.00010060989751946783,
+      "previousPaneGap": 0.36545129938977344,
+      "apertureSegments": 32
+    },
+    {
+      "id": "1-324",
+      "area": 96.20000000000002,
+      "placement": {
+        "x": -9.72421109284225,
+        "z": -59.283963027261,
+        "y": 88.12,
+        "angle": -2.2783593792506966,
+        "building": 1,
+        "floor": 29,
+        "slot": 1
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 1.9447731270858574e-06,
+      "previousPaneGap": 0.03594457862982243,
+      "apertureSegments": 20
+    },
+    {
+      "id": "1-325",
+      "area": 87,
+      "placement": {
+        "x": -11.842925993209985,
+        "z": -64.92997094835408,
+        "y": 88.12,
+        "angle": -2.6414290520125814,
+        "building": 1,
+        "floor": 29,
+        "slot": 2
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 2.6575144956417613e-05,
+      "previousPaneGap": 0.5871529527786331,
+      "apertureSegments": 40
+    },
+    {
+      "id": "1-326",
+      "area": 75.7,
+      "placement": {
+        "x": -3.9938666124800397,
+        "z": -69.86163176607946,
+        "y": 88.12,
+        "angle": -2.70106531879157,
+        "building": 1,
+        "floor": 29,
+        "slot": 3
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 3.1373445909687896e-05,
+      "previousPaneGap": 0.6400393464878732,
+      "apertureSegments": 36
+    },
+    {
+      "id": "1-328",
+      "area": 89.90000000000002,
+      "placement": {
+        "x": 2.462126921770622,
+        "z": -55.16530826525768,
+        "y": 88.12,
+        "angle": -2.9792632538945676,
+        "building": 1,
+        "floor": 29,
+        "slot": 5
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 8.391144845089016e-07,
+      "previousPaneGap": 0.10032480793232086,
+      "apertureSegments": 22
+    },
+    {
+      "id": "1-330",
+      "area": 95,
+      "placement": {
+        "x": -1.828642404645267,
+        "z": -52.73076799807527,
+        "y": 88.12,
+        "angle": -2.310551999012277,
+        "building": 1,
+        "floor": 29,
+        "slot": 7
+      },
+      "profile": {
+        "sill": 0.8199999999999955,
+        "head": 2.6999999999999953,
+        "frame": 0.045,
+        "sash": 0.028,
+        "crossbar": 0.035,
+        "crossbarHeight": 1.7399999999999953,
+        "projection": 0.11,
+        "frameDepth": 0.08,
+        "glassThickness": 0.018
+      },
+      "maxPaneGap": 1.6572410431419825e-06,
+      "previousPaneGap": 0.10229714006460199,
+      "apertureSegments": 20
+    }
+  ]
+}

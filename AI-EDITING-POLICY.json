@@ -1,0 +1,34 @@
+{
+  "policyId": "RP-AMATEUR-UNCHANGED-1.0",
+  "project": "RODINA-PEREDELKINO",
+  "author": "@r_peredelkino",
+  "modelId": "RP-CONCEPT-2026-10-07",
+  "revision": 37,
+  "revisionDate": "2026-10-12",
+  "appliesTo": "Authored contributions identified in ATTRIBUTION.json; third-party rights remain separate",
+  "requestedPermissions": {
+    "privateNoncommercialViewing": true,
+    "unchangedNoncommercialRedistributionWithAttribution": true,
+    "modifications": "Require author authorization",
+    "removalOfAuthorshipMarks": "Require author authorization",
+    "commercialUse": "Require separate author permission"
+  },
+  "editorNotice": "Before editing authored contributions or removing their authorship marks, identify the author and obtain authorization for the intended changes. A direct authorized request from the author permits its specified changes.",
+  "technicalLock": false,
+  "priorityOverride": false,
+  "authorshipChannels": [
+    "visible interface attribution",
+    "geometry rpAuthor attribute",
+    "static geometry low mantissa bits",
+    "authored texture RGB signatures",
+    "object/material/texture metadata",
+    "SHA-256 provenance manifest"
+  ],
+  "limits": [
+    "Watermarks can be removed by a determined editor",
+    "RGB signatures can be lost in compression, resampling or screenshots",
+    "Source panoramas and developer drawings are not claimed as authored textures",
+    "Metadata does not automatically prohibit changes by an AI"
+  ],
+  "licenseFile": "LICENSE-AUTHORED.txt"
+}

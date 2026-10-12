@@ -1,0 +1,710 @@
+{
+  "createdAt": "2026-10-10T21:05:49.305752+00:00",
+  "status": "accepted-after-visual-overlay-check",
+  "primaryPlan": "qa-v28/primary/site-mosru-2024.pdf",
+  "primaryPlanPage": 40,
+  "drawingDate": "2023-10",
+  "actDate": "2024-04-01",
+  "mapBaseImage": "qa-v28/references/pdf40-base-map.png",
+  "method": "Two least-squares similarities. OSM true East/South to PDF embedded map from five persistent building centroids; six unchanged v27 building centres to labelled project positions; compose transforms. No individual footprint deformation.",
+  "originLonLat": [
+    37.35316185,
+    55.63841785
+  ],
+  "metersPerDegree": {
+    "east": 62830.237112730676,
+    "north": 111319.49079327358
+  },
+  "enuToWorldXZ": {
+    "matrix": [
+      [
+        0.9009260240311945,
+        -0.003186666186893002
+      ],
+      [
+        -0.0031866661868929997,
+        -0.9009260240311948
+      ]
+    ],
+    "translation": [
+      12.819728978036249,
+      -187.10164316156158
+    ],
+    "formula": "[x,z] = matrix * [east_m,north_m] + translation"
+  },
+  "worldXZToEastSouth": {
+    "matrix": [
+      [
+        1.1099551599140207,
+        -0.003926023316807811
+      ],
+      [
+        0.003926023316807808,
+        1.1099551599140205
+      ]
+    ],
+    "translation": [
+      -14.963889741535976,
+      207.62410370068415
+    ]
+  },
+  "scale": {
+    "metersPerFixedWorldUnit": 1.1099621032624687,
+    "fixedWorldUnitsPerMeter": 0.9009316597933738
+  },
+  "actualEastXZ": [
+    0.9999937445175582,
+    -0.0035370787031991455
+  ],
+  "actualNorthXZ": [
+    -0.0035370787031991464,
+    -0.9999937445175582
+  ],
+  "worldOriginLonLat": [
+    37.35292368617269,
+    55.636552730942945
+  ],
+  "rms": {
+    "mapControlsMeters": 2.3083339121725928,
+    "modelControlsMeters": 3.019232278155656
+  },
+  "osmMapControls": [
+    {
+      "osmWayId": "26773857",
+      "label": "Боровское шоссе,38: отдельный павильон ресторана",
+      "sourcePixelUV": [
+        400,
+        178
+      ],
+      "enu": [
+        -97.42142415513823,
+        -6.784922964456747
+      ],
+      "lonLat": [
+        37.3516113,
+        55.6383569
+      ],
+      "pickMethod": "Estimated centroid of visible building footprint on embedded map; 3-5m visual uncertainty",
+      "residualPixels": [
+        -0.6350778413079752,
+        -0.9428704884635692
+      ],
+      "residualMeters": 0.6345224184163316
+    },
+    {
+      "osmWayId": "41278274",
+      "label": "Шолохова,5к2: торговый центр",
+      "sourcePixelUV": [
+        704,
+        495
+      ],
+      "enu": [
+        75.22414531403118,
+        -181.88632163415474
+      ],
+      "lonLat": [
+        37.35435911024874,
+        55.63678393737304
+      ],
+      "pickMethod": "Estimated centroid of visible building footprint on embedded map; 3-5m visual uncertainty",
+      "residualPixels": [
+        -0.04409166971538525,
+        0.3522006396318602
+      ],
+      "residualMeters": 0.19811959626878564
+    },
+    {
+      "osmWayId": "42502174",
+      "label": "Шолохова,5: медцентр",
+      "sourcePixelUV": [
+        850,
+        576
+      ],
+      "enu": [
+        155.43187546357078,
+        -229.1258680362818
+      ],
+      "lonLat": [
+        37.35563568875354,
+        55.63635957730756
+      ],
+      "pickMethod": "Estimated centroid of visible building footprint on embedded map; 3-5m visual uncertainty",
+      "residualPixels": [
+        -3.6244568377658197,
+        6.122964504884521
+      ],
+      "residualMeters": 3.971487710409692
+    },
+    {
+      "osmWayId": "42038726",
+      "label": "Шолохова,5к1: ОМВД",
+      "sourcePixelUV": [
+        737,
+        654
+      ],
+      "enu": [
+        95.07863790902444,
+        -268.1387165308239
+      ],
+      "lonLat": [
+        37.35467511243984,
+        55.636009118926765
+      ],
+      "pickMethod": "Estimated centroid of visible building footprint on embedded map; 3-5m visual uncertainty",
+      "residualPixels": [
+        0.21525286103087637,
+        -3.6045422984905144
+      ],
+      "residualMeters": 2.0155037663761384
+    },
+    {
+      "osmWayId": "270067805",
+      "label": "Шолохова,3: многоуровневый гараж",
+      "sourcePixelUV": [
+        814,
+        717
+      ],
+      "enu": [
+        140.75307948105225,
+        -303.56067131030824
+      ],
+      "lonLat": [
+        37.35540206245103,
+        55.63569091809305
+      ],
+      "pickMethod": "Estimated centroid of visible building footprint on embedded map; 3-5m visual uncertainty",
+      "residualPixels": [
+        4.088373487763874,
+        -1.9277523575635769
+      ],
+      "residualMeters": 2.522932244496452
+    }
+  ],
+  "modelPlanControls": [
+    {
+      "buildingId": 0,
+      "pdfLabel": "К1",
+      "worldXZ": [
+        45.4,
+        -74.68
+      ],
+      "pdfPointXY": [
+        600.3682861328125,
+        373.2890930175781
+      ],
+      "mapImageUV": [
+        630.3899370328276,
+        398.3775512525681
+      ],
+      "residualPixels": [
+        4.325266320634455,
+        -6.147765174855067
+      ],
+      "residualMeters": 4.195618898008078,
+      "fittedLonLat": [
+        37.35373038629051,
+        55.63729575634932
+      ]
+    },
+    {
+      "buildingId": 1,
+      "pdfLabel": "Б1",
+      "worldXZ": [
+        -3.5467,
+        -59.5467
+      ],
+      "pdfPointXY": [
+        526.239501953125,
+        388.5290832519531
+      ],
+      "mapImageUV": [
+        536.9613039070895,
+        417.58744597214906
+      ],
+      "residualPixels": [
+        -0.12083372047845842,
+        2.9333758474421643
+      ],
+      "residualMeters": 1.6386882998712313,
+      "fittedLonLat": [
+        37.35286475123303,
+        55.63714659003156
+      ]
+    },
+    {
+      "buildingId": 2,
+      "pdfLabel": "Б2",
+      "worldXZ": [
+        -36.0267,
+        -25.5733
+      ],
+      "pdfPointXY": [
+        472.47950744628906,
+        439.7690734863281
+      ],
+      "mapImageUV": [
+        469.2045902471726,
+        482.17507383128657
+      ],
+      "residualPixels": [
+        1.8092160797964993,
+        4.700694255975122
+      ],
+      "residualMeters": 2.8113759123272932,
+      "fittedLonLat": [
+        37.35228883865308,
+        55.636808990271405
+      ]
+    },
+    {
+      "buildingId": 3,
+      "pdfLabel": "Б3",
+      "worldXZ": [
+        -28.0,
+        22.4
+      ],
+      "pdfPointXY": [
+        483.63951110839844,
+        518.9690856933594
+      ],
+      "mapImageUV": [
+        483.2701640909537,
+        582.0061021251832
+      ],
+      "residualPixels": [
+        1.940652193012511,
+        0.5479832097414601
+      ],
+      "residualMeters": 1.1255542195229091,
+      "fittedLonLat": [
+        37.35242764017904,
+        55.63633037035943
+      ]
+    },
+    {
+      "buildingId": 4,
+      "pdfLabel": "Б4",
+      "worldXZ": [
+        1.12,
+        56.0
+      ],
+      "pdfPointXY": [
+        534.2794799804688,
+        570.3290710449219
+      ],
+      "mapImageUV": [
+        547.0945357652416,
+        646.744982940037
+      ],
+      "residualPixels": [
+        -5.219743043112089,
+        3.6843427733884937
+      ],
+      "residualMeters": 3.5661328386833984,
+      "fittedLonLat": [
+        37.352939972797095,
+        55.6359943212192
+      ]
+    },
+    {
+      "buildingId": 5,
+      "pdfLabel": "Б5",
+      "worldXZ": [
+        50.96,
+        55.0667
+      ],
+      "pdfPointXY": [
+        610.95947265625,
+        577.7690734863281
+      ],
+      "mapImageUV": [
+        643.7385989731869,
+        656.123050866253
+      ],
+      "residualPixels": [
+        -2.7345578298461533,
+        -5.718630911686091
+      ],
+      "residualMeters": 3.5380861734345195,
+      "fittedLonLat": [
+        37.35382050153406,
+        55.63600186929674
+      ]
+    }
+  ],
+  "mapEastSouthToPixel": {
+    "matrix": [
+      [
+        1.7913938162972018,
+        -0.026757178538730386
+      ],
+      [
+        0.026757178538730386,
+        1.7913938162972018
+      ]
+    ],
+    "translation": [
+      574.066604360205,
+      167.50938290857215
+    ]
+  },
+  "modelXZToPixel": {
+    "matrix": [
+      [
+        1.9882617605303132,
+        -0.036732322276172624
+      ],
+      [
+        0.036732322276172624,
+        1.9882617605303132
+      ]
+    ],
+    "translation": [
+      541.7049495978013,
+      539.0455269227785
+    ]
+  },
+  "cautions": [
+    "Plan40 is a2023 project drawing included in2024 archaeology act, not a2026 as-built survey.",
+    "Centres are estimated visual correspondences; subpixel residuals are not positional accuracy.",
+    "Five persistent buildings used for map fit; six Rodina labels used for model fit; published OSM outlines may differ from map roof outlines.",
+    "Proposed common registration tolerance:5m; inspect overlaid streets and low buildings before production acceptance.",
+    "Old kindergarten K3 in plan is not authority to reinstate that obsolete final design element.",
+    "Do not replace legacy mapPoint axes used by existing scenery unless all affected callers are audited. Use separate actualEast/actualNorth and geoToModel transforms."
+  ],
+  "lowRiseFootprints": [
+    {
+      "osmWayId": "41278274",
+      "tags": {
+        "addr:city": "Москва",
+        "addr:country": "RU",
+        "addr:housenumber": "5 к2",
+        "addr:postcode": "119634",
+        "addr:street": "улица Шолохова",
+        "building": "retail",
+        "building:levels": "2",
+        "name": "Торговый центр \"Шолохов\"",
+        "shop": "mall"
+      },
+      "worldXZPolygon": [
+        [
+          84.19917162812214,
+          11.90077509333679
+        ],
+        [
+          45.668074949240335,
+          -23.115240816387427
+        ],
+        [
+          75.30490033071544,
+          -55.724667882267966
+        ],
+        [
+          77.06414223211549,
+          -57.66652380102238
+        ],
+        [
+          78.14111938128346,
+          -58.85377737366585
+        ],
+        [
+          96.0806571371243,
+          -42.54959635101392
+        ],
+        [
+          116.67221606016778,
+          -23.837761463228958
+        ],
+        [
+          84.19917162812214,
+          11.90077509333679
+        ]
+      ],
+      "worldXZCentroid": [
+        81.17073011796107,
+        -23.475236826353605
+      ]
+    },
+    {
+      "osmWayId": "42502174",
+      "tags": {
+        "addr:city": "Москва",
+        "addr:country": "RU",
+        "addr:housenumber": "5",
+        "addr:street": "улица Шолохова",
+        "building": "yes",
+        "building:levels": "2"
+      },
+      "worldXZPolygon": [
+        [
+          134.57658539746538,
+          14.53075776883432
+        ],
+        [
+          151.78012992640535,
+          -4.405024903233823
+        ],
+        [
+          176.65357047028797,
+          18.20304789591134
+        ],
+        [
+          159.44999046713963,
+          37.12880150523998
+        ],
+        [
+          154.94663832715082,
+          33.03276319597947
+        ],
+        [
+          150.9351909478611,
+          36.777810062486054
+        ],
+        [
+          144.6163058391006,
+          37.913400474613695
+        ],
+        [
+          139.96551114898537,
+          35.342320275442745
+        ],
+        [
+          136.8189502893629,
+          30.750052641053458
+        ],
+        [
+          136.68883869702165,
+          24.371949228714044
+        ],
+        [
+          140.39174356125568,
+          19.815629472011125
+        ],
+        [
+          134.57658539746538,
+          14.53075776883432
+        ]
+      ],
+      "worldXZCentroid": [
+        153.58249820335635,
+        18.82850462915676
+      ]
+    },
+    {
+      "osmWayId": "42038726",
+      "tags": {
+        "addr:city": "Москва",
+        "addr:country": "RU",
+        "addr:housenumber": "5 к1",
+        "addr:postcode": "119634",
+        "addr:street": "улица Шолохова",
+        "amenity": "police",
+        "building": "yes",
+        "building:levels": "3",
+        "name": "ОМВД России по району Ново-Переделкино",
+        "opening_hours": "24/7"
+      },
+      "worldXZPolygon": [
+        [
+          105.46352426160743,
+          38.38285101835223
+        ],
+        [
+          89.53243050057745,
+          56.983169696921664
+        ],
+        [
+          87.82339344003404,
+          55.51492408276724
+        ],
+        [
+          85.01600919433457,
+          58.79436940364579
+        ],
+        [
+          86.8385763102667,
+          60.35247614377303
+        ],
+        [
+          83.69290769497304,
+          64.01422715848489
+        ],
+        [
+          92.39131777694014,
+          71.46523432599486
+        ],
+        [
+          114.38817855722051,
+          45.7829119969021
+        ],
+        [
+          110.95878335766362,
+          42.84646081238921
+        ],
+        [
+          114.2848442894191,
+          38.97345878219255
+        ],
+        [
+          113.05274697880712,
+          37.914722895895466
+        ],
+        [
+          111.15068399252227,
+          36.28669302459471
+        ],
+        [
+          107.70628383667844,
+          40.31055145436463
+        ],
+        [
+          105.46352426160743,
+          38.38285101835223
+        ]
+      ],
+      "worldXZCentroid": [
+        99.33301678108083,
+        54.16852073086066
+      ]
+    },
+    {
+      "osmWayId": "47272570",
+      "tags": {
+        "addr:city": "Москва",
+        "addr:country": "RU",
+        "addr:housenumber": "5 к2 с1",
+        "addr:street": "улица Шолохова",
+        "building": "yes",
+        "building:levels": "1"
+      },
+      "worldXZPolygon": [
+        [
+          26.308158968327366,
+          0.7123837628157048
+        ],
+        [
+          33.283144430372985,
+          -6.974587170812725
+        ],
+        [
+          53.965591250655905,
+          11.827188929828736
+        ],
+        [
+          46.98490977516943,
+          19.504150823328274
+        ],
+        [
+          26.308158968327366,
+          0.7123837628157048
+        ]
+      ],
+      "worldXZCentroid": [
+        40.135085166630255,
+        6.2664936946923815
+      ]
+    },
+    {
+      "osmWayId": "270067805",
+      "tags": {
+        "addr:housenumber": "3",
+        "addr:street": "улица Шолохова",
+        "amenity": "parking",
+        "building": "yes",
+        "parking": "multi-storey"
+      },
+      "worldXZPolygon": [
+        [
+          147.541822793114,
+          64.83142267021603
+        ],
+        [
+          123.6207638353109,
+          93.83018315487459
+        ],
+        [
+          121.69151310809468,
+          94.11782437568985
+        ],
+        [
+          119.93972564074303,
+          94.96647242470942
+        ],
+        [
+          118.51229167176882,
+          96.29537423133843
+        ],
+        [
+          117.53901339895754,
+          97.99374960388405
+        ],
+        [
+          117.10985640140099,
+          99.8907841260729
+        ],
+        [
+          117.25825180903364,
+          101.83592172753458
+        ],
+        [
+          117.97790055371533,
+          103.64865930296918
+        ],
+        [
+          119.19464804047787,
+          105.16879213534776
+        ],
+        [
+          120.80614339718056,
+          106.2663028046502
+        ],
+        [
+          122.67048292303838,
+          106.83137216891771
+        ],
+        [
+          124.61774400953176,
+          106.83451369832886
+        ],
+        [
+          126.48370006077509,
+          106.25624990248144
+        ],
+        [
+          128.08739118061993,
+          105.14736679442586
+        ],
+        [
+          132.54382720885073,
+          108.78222839849735
+        ],
+        [
+          159.7987562709163,
+          74.91754863989024
+        ],
+        [
+          166.37074373516182,
+          66.92109831898765
+        ],
+        [
+          159.4616824816245,
+          61.23892833770978
+        ],
+        [
+          152.88399900393307,
+          69.22536961705833
+        ],
+        [
+          147.541822793114,
+          64.83142267021603
+        ]
+      ],
+      "worldXZCentroid": [
+        140.5951877719823,
+        85.93553241519079
+      ]
+    }
+  ],
+  "sourceURL": "https://www.mos.ru/upload/documents/files/8583/Aktsprilojeniyami_Borovskoesh51%281%29.pdf",
+  "appliedTo": "GIS context only; existing complex world geometry unchanged"
+}

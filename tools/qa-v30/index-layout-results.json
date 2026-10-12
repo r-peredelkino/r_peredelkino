@@ -1,0 +1,107 @@
+{
+  "errors": [],
+  "failedResponses": [],
+  "scenes": [],
+  "interactions": [],
+  "checks": [
+    {
+      "name": "index-panorama-layout-desktop",
+      "pass": true,
+      "details": {
+        "nav": {
+          "x": 28,
+          "y": 101,
+          "width": 536.046875,
+          "height": 43.796875,
+          "bottom": "755.203px"
+        },
+        "layerWidth": 1280,
+        "scrollWidth": 1280,
+        "buttons": [
+          {
+            "width": 91.71875,
+            "height": 33.796875
+          },
+          {
+            "width": 61.125,
+            "height": 33.796875
+          },
+          {
+            "width": 68.40625,
+            "height": 33.796875
+          },
+          {
+            "width": 117.125,
+            "height": 33.796875
+          },
+          {
+            "width": 69.875,
+            "height": 33.796875
+          },
+          {
+            "width": 98.796875,
+            "height": 33.796875
+          }
+        ],
+        "closeText": "← К карте"
+      }
+    },
+    {
+      "name": "index-panorama-layout-mobile",
+      "pass": true,
+      "details": {
+        "nav": {
+          "x": 15,
+          "y": 99,
+          "width": 360,
+          "height": 37.5,
+          "bottom": "707.5px"
+        },
+        "layerWidth": 390,
+        "scrollWidth": 390,
+        "buttons": [
+          {
+            "width": 74.765625,
+            "height": 29.5
+          },
+          {
+            "width": 49.265625,
+            "height": 29.5
+          },
+          {
+            "width": 55.34375,
+            "height": 29.5
+          },
+          {
+            "width": 95.9375,
+            "height": 29.5
+          },
+          {
+            "width": 56.5625,
+            "height": 29.5
+          },
+          {
+            "width": 80.828125,
+            "height": 29.5
+          }
+        ],
+        "closeText": "← К карте"
+      }
+    },
+    {
+      "name": "index-mobile-genplan",
+      "pass": true,
+      "details": {
+        "labels": [
+          "Открыть планы корпуса 1",
+          "Открыть планы корпуса 2",
+          "Открыть планы корпуса 3",
+          "Открыть планы корпуса 4",
+          "Открыть планы корпуса 5"
+        ],
+        "width": 360
+      }
+    }
+  ],
+  "pass": true
+}

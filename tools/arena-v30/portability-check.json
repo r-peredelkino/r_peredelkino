@@ -1,0 +1,15 @@
+{
+  "pass": true,
+  "renamedProject": true,
+  "workingDirectoryOutsideProject": true,
+  "mode": "--check (no writes)",
+  "runtimeSha256": "5c118775f4018f2bfbe57e883ce5b24888540910b33ed35bdbdef98f34f07ac9",
+  "runtimeFilesUnchanged": {
+    "botanical-geometry.js": true,
+    "forecourt-landscape.js": true,
+    "landscape-materials.js": true,
+    "neighborhood.js": true,
+    "public-realm.js": true,
+    "arena-landscape-data.js": true
+  }
+}

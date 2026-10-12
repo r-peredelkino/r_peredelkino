@@ -1,0 +1,135 @@
+{
+  "revision": 34,
+  "pass": true,
+  "checks": [
+    {
+      "name": "Arena contact at every sampled height 3.94–6.04",
+      "pass": true,
+      "details": {
+        "heightSamples": 41,
+        "angularSamples": 192,
+        "sourceAbutmentSamples": 6013,
+        "misses": 0,
+        "largestExposedGap": 0,
+        "smallestConcealedUnderlap": 0.02400000000000091
+      }
+    },
+    {
+      "name": "Arena contact at every sampled height 6.04–6.6",
+      "pass": true,
+      "details": {
+        "heightSamples": 41,
+        "angularSamples": 192,
+        "sourceAbutmentSamples": 6039,
+        "misses": 0,
+        "largestExposedGap": 0,
+        "smallestConcealedUnderlap": 0.02400000000000091
+      }
+    },
+    {
+      "name": "Arena contact at every sampled height 6.56–6.64",
+      "pass": true,
+      "details": {
+        "heightSamples": 41,
+        "angularSamples": 192,
+        "sourceAbutmentSamples": 6109,
+        "misses": 0,
+        "largestExposedGap": 0,
+        "smallestConcealedUnderlap": 0.02400000000000091
+      }
+    },
+    {
+      "name": "Gravel and slab use their own actual vertical datum",
+      "pass": true,
+      "details": {
+        "roofCut": 19.62562922325975,
+        "slabCut": 19.630472400999164
+      }
+    },
+    {
+      "name": "Both upper shoulder bays remain and reach the capsule",
+      "pass": true,
+      "details": {
+        "upperBays": 211,
+        "partialBays": [
+          {
+            "width": 1.2296391970640435,
+            "sourceWidth": 2.219382425834396
+          },
+          {
+            "width": 0.6841396939184862,
+            "sourceWidth": 2.2523497026958865
+          }
+        ],
+        "contactEnds": 2,
+        "largestExposedGap": 0
+      }
+    },
+    {
+      "name": "A crossed bay preserves both visible ends instead of deleting the whole bay",
+      "pass": true,
+      "details": {
+        "sourceWidth": 12,
+        "visibleWidths": [
+          1.538183271506968,
+          1.5381832715069699
+        ]
+      }
+    },
+    {
+      "name": "The unchanged fan is solid throughout the 4–5 connection",
+      "pass": true,
+      "details": {
+        "raySamples": 303,
+        "hits": 303,
+        "retainedArchitecturalOpenings": 5,
+        "removedZeroAreaTriangles": 8
+      }
+    },
+    {
+      "name": "Fan trim follows source edges with no Catmull overshoot",
+      "pass": true,
+      "details": {
+        "maximumCentrelineDeviation": 3.04820634512023e-06,
+        "segments": 2091
+      }
+    },
+    {
+      "name": "New architectural geometries have finite arrays and valid normals",
+      "pass": true,
+      "details": {
+        "invalid": 0,
+        "shortNormals": 0
+      }
+    },
+    {
+      "name": "The arena shell profile is numerically identical to v33",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Source complex-footprints.js remains byte-identical",
+      "pass": true,
+      "details": {
+        "sha256": "99321bb7a316f1a705e7a1c6d16ea03078d5ac6a46e4e8aae3c4d6e21df27c5b"
+      }
+    },
+    {
+      "name": "Source public-realm-layout.js remains byte-identical",
+      "pass": true,
+      "details": {
+        "sha256": "fbbfca76ddb5b5f1bb666b0c9506f8acc5ce0314be7d8f61fefb99c54f9bda71"
+      }
+    },
+    {
+      "name": "Ground retail panes and existing exterior doors stay unchanged",
+      "pass": true,
+      "details": {
+        "groundBays": 248,
+        "existingDoors": 48,
+        "upperBefore": 193,
+        "upperAfter": 211
+      }
+    }
+  ]
+}

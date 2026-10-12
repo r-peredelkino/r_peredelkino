@@ -1,0 +1,38 @@
+{
+  "courtyard": {
+    "beforeMeanMS": 41.57222222222222,
+    "afterMeanMS": 38.05444444444444,
+    "frameTimeReductionPercent": 8.461846852866504,
+    "beforeTriangles": 8619402,
+    "afterTriangles": 8026765
+  },
+  "forecourt": {
+    "beforeMeanMS": 40.739444444444445,
+    "afterMeanMS": 39.257777777777775,
+    "frameTimeReductionPercent": 3.636933902442357,
+    "beforeTriangles": 10082774,
+    "afterTriangles": 9617192
+  },
+  "facade": {
+    "beforeMeanMS": 58.97944444444444,
+    "afterMeanMS": 56.849999999999994,
+    "frameTimeReductionPercent": 3.6104857624596156,
+    "beforeTriangles": 11129178,
+    "afterTriangles": 10666144
+  },
+  "method": {
+    "architecture": "arm64",
+    "gpu": "Apple M2 / ANGLE Metal",
+    "viewport": [
+      1500,
+      1000
+    ],
+    "dpr": 1,
+    "date": "2026-07-15",
+    "minutes": 720,
+    "quality": "full",
+    "pairedRepeats": 2,
+    "framesPerView": 90,
+    "measurement": "requestAnimationFrame intervals; same camera controls and scene time, no FPS guarantee"
+  }
+}

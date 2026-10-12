@@ -1,0 +1,398 @@
+{
+  "pass": true,
+  "checks": [
+    {
+      "name": "lobby 1 source/concept status",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 entry spawn clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 focus clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 concierge clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 concierge accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 lift clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 lift accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 parcel clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 parcel accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 exit clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 exit accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 1 finite geometry",
+      "pass": true,
+      "meshes": 41,
+      "geometries": 41,
+      "bad": []
+    },
+    {
+      "name": "lobby 2 source/concept status",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 entry spawn clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 focus clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 concierge clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 concierge accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 lift clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 lift accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 parcel clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 parcel accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 exit clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 exit accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 2 finite geometry",
+      "pass": true,
+      "meshes": 41,
+      "geometries": 41,
+      "bad": []
+    },
+    {
+      "name": "lobby 3 source/concept status",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 entry spawn clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 focus clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 concierge clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 concierge accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 lift clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 lift accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 parcel clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 parcel accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 exit clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 exit accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 3 finite geometry",
+      "pass": true,
+      "meshes": 41,
+      "geometries": 41,
+      "bad": []
+    },
+    {
+      "name": "lobby 4 source/concept status",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 entry spawn clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 focus clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 concierge clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 concierge accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 lift clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 lift accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 parcel clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 parcel accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 exit clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 exit accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 4 finite geometry",
+      "pass": true,
+      "meshes": 41,
+      "geometries": 41,
+      "bad": []
+    },
+    {
+      "name": "lobby 5 source/concept status",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 entry spawn clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 focus clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 concierge clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 concierge accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 lift clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 lift accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 parcel clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 parcel accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 exit clear",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 exit accessible",
+      "pass": true
+    },
+    {
+      "name": "lobby 5 finite geometry",
+      "pass": true,
+      "meshes": 41,
+      "geometries": 41,
+      "bad": []
+    },
+    {
+      "name": "office 0 source/concept status",
+      "pass": true
+    },
+    {
+      "name": "office 0 entry spawn clear",
+      "pass": true
+    },
+    {
+      "name": "office 0 focus clear",
+      "pass": true
+    },
+    {
+      "name": "office 0 reception clear",
+      "pass": true
+    },
+    {
+      "name": "office 0 reception accessible",
+      "pass": true
+    },
+    {
+      "name": "office 0 meeting clear",
+      "pass": true
+    },
+    {
+      "name": "office 0 meeting accessible",
+      "pass": true
+    },
+    {
+      "name": "office 0 cowork clear",
+      "pass": true
+    },
+    {
+      "name": "office 0 cowork accessible",
+      "pass": true
+    },
+    {
+      "name": "office 0 exit clear",
+      "pass": true
+    },
+    {
+      "name": "office 0 exit accessible",
+      "pass": true
+    },
+    {
+      "name": "office 0 meeting threshold clear",
+      "pass": true
+    },
+    {
+      "name": "office 0 meeting inside accessible",
+      "pass": true
+    },
+    {
+      "name": "office 0 finite geometry",
+      "pass": true,
+      "meshes": 106,
+      "geometries": 106,
+      "bad": []
+    },
+    {
+      "name": "sales sales-office source/concept status",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office entry spawn clear",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office focus clear",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office sales-reception clear",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office sales-reception accessible",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office sales-consultation clear",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office sales-consultation accessible",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office sales-project clear",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office sales-project accessible",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office exit clear",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office exit accessible",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office inner pavilion bounds",
+      "pass": true
+    },
+    {
+      "name": "sales sales-office finite geometry",
+      "pass": true,
+      "meshes": 46,
+      "geometries": 46,
+      "bad": []
+    },
+    {
+      "name": "arena 10 5v5 concept",
+      "pass": true
+    },
+    {
+      "name": "arena 10 POI finite",
+      "pass": true
+    },
+    {
+      "name": "arena 15 5v5 concept",
+      "pass": true
+    },
+    {
+      "name": "arena 15 POI finite",
+      "pass": true
+    },
+    {
+      "name": "arena 24 5v5 concept",
+      "pass": true
+    },
+    {
+      "name": "arena 24 POI finite",
+      "pass": true
+    }
+  ]
+}

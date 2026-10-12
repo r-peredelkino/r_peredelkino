@@ -1,0 +1,1102 @@
+{
+  "schemaVersion": 1,
+  "revision": 36,
+  "studiedAtUTC": "2026-10-11T22:08:47.581352+00:00",
+  "studiedAtMoscow": "2026-10-12T01:08:47.581352+03:00",
+  "images": [
+    {
+      "path": "dist/assets/reference-amenities-v36/garden.webp",
+      "originalName": "garden.webp",
+      "sha256": "a173dc3c3681d1bc79244b8528453e274398ae63ced3ba0acd3f684475f54d1c",
+      "bytes": 489952,
+      "width": 2560,
+      "height": 1536,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/architecture/garden.webp",
+      "officialSha256": "a173dc3c3681d1bc79244b8528453e274398ae63ced3ba0acd3f684475f54d1c",
+      "officialBytes": 489952,
+      "officialDimensions": [
+        2560,
+        1536
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 1.743927001953125
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "courtyard",
+      "observations": [
+        "Continuous white rounded canopy on slender columns, perforated underside.",
+        "Ring-shaped swing seats, metallic cylindrical planter, many planted islands and curved paving lines."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "garden.webp",
+      "uploadedSha256": "cdbc17a19a978fa59ec203fc969ea69e2ece8464e16d1af3c31e5871fbcac30b",
+      "uploadedBytes": 4218408,
+      "uploadedDimensions": [
+        2048,
+        1228
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_3eee7c4acbd8819191679c14097df5ee",
+      "roomIds": [
+        "garden"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/1_lobby.webp",
+      "originalName": "1_lobby.webp",
+      "sha256": "616f3e935e6266b174a43c648af37b44d081fcac3a46d49436a8ff374a177f83",
+      "bytes": 453724,
+      "width": 2560,
+      "height": 3200,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/1_lobby.webp",
+      "officialSha256": "616f3e935e6266b174a43c648af37b44d081fcac3a46d49436a8ff374a177f83",
+      "officialBytes": 453724,
+      "officialDimensions": [
+        2560,
+        3200
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.518774668375651
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "entrance-lobby",
+      "observations": [
+        "White rounded modular sofa, pale wood armchairs, dark blue irregular rug and chrome coffee table.",
+        "Suspended undulating grid of small warm-white lights, glass/chrome vertical screen and full-height windows."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "1_lobby.webp",
+      "uploadedSha256": "0994a0019940c389ef2a49d0c8faaa75be075107f269919b3b5dd69cd3d1f33c",
+      "uploadedBytes": 3755426,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_1873e71d948c8191b6b3d3a0f3bd2973",
+      "roomIds": [
+        "lobby"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/3_lobby.webp",
+      "originalName": "3_lobby.webp",
+      "sha256": "f9261fe9f86fd9a22277d5a661450126f38ae80b119fdbc71c81d508489de38e",
+      "bytes": 804544,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/3_lobby.webp",
+      "officialSha256": "f9261fe9f86fd9a22277d5a661450126f38ae80b119fdbc71c81d508489de38e",
+      "officialBytes": 804544,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.7701212565104166
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "entrance-lobby",
+      "observations": [
+        "Suspended wave of light beads, full-height glazing, pale walls, indoor tree in brushed-metal planter.",
+        "Blue gradient artwork, white seating with pale wood sides, metal floor task lamps and low chrome table."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "3_lobby.webp",
+      "uploadedSha256": "b802d806c6f7ebee661296e272ebe142796a9dfc8763c2a484918894cd91fd41",
+      "uploadedBytes": 5490349,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_41ae4f1e849c81919d43c3e231606453",
+      "roomIds": [
+        "lobby"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/4_lobby.webp",
+      "originalName": "4_lobby.webp",
+      "sha256": "38a9490a7151e755e6b03c463fe029832c3a7577a272aed276c334af8b5b7a5f",
+      "bytes": 634260,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/4_lobby.webp",
+      "officialSha256": "38a9490a7151e755e6b03c463fe029832c3a7577a272aed276c334af8b5b7a5f",
+      "officialBytes": 634260,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.6573143005371094
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "entrance-lobby-passage",
+      "observations": [
+        "Wood and reflective vertical screens separate the entry route from seating.",
+        "Tall windows, white curved seating, blue rug and suspended light wave remain visible along the passage."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "4_lobby.webp",
+      "uploadedSha256": "111c913b96eda0c950d0ccacccae3fadc7b10f7ab314f79af75f9bfcf3850f5c",
+      "uploadedBytes": 4979552,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_25587a2e0e18819181f75163fadece49",
+      "roomIds": [
+        "lobby",
+        "corridor"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/5_lobby.webp",
+      "originalName": "5_lobby.webp",
+      "sha256": "3697305916a0ea77a66feae4016dc52e104e8920ea6daf6bc4e1c9cfcc0ff6c8",
+      "bytes": 447312,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/5_lobby.webp",
+      "officialSha256": "3697305916a0ea77a66feae4016dc52e104e8920ea6daf6bc4e1c9cfcc0ff6c8",
+      "officialBytes": 447312,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.32764943440755206
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "entrance-lift-route",
+      "observations": [
+        "High passage with three apparent lift-door portals, warm timber paneling and white upper walls.",
+        "Dark metal frames, pale tiled floor, small recessed lights and blue pebble artwork at the end."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "5_lobby.webp",
+      "uploadedSha256": "04eb7d539e08f7461ddba0426cb7b6b03349b09eb93f1082b4aed5b37d3c176e",
+      "uploadedBytes": 4483873,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_6ead118c31d88191bc119bedf2077131",
+      "roomIds": [
+        "lobby",
+        "lift"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/8_lobby.jpg",
+      "originalName": "8_lobby.jpg",
+      "sha256": "3ef156010dc9a4a47d6285864698d88c820629cef0a24f01f7d8bafab287d715",
+      "bytes": 425659,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/8_lobby.jpg",
+      "officialSha256": "3ef156010dc9a4a47d6285864698d88c820629cef0a24f01f7d8bafab287d715",
+      "officialBytes": 425659,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.43348948160807294
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "hand-wash",
+      "observations": [
+        "Human hand-wash alcove with large mirror and cool-blue lower backlight.",
+        "Small square white basin on a raised ledge; very tall tubular suspended faucet; mirror icons for air, paper and soap."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "8_lobby.jpg",
+      "uploadedSha256": "49911cb274a569e2e560266c19ad81074a5e2e1735a223ae5b56e2d5ba6a27dc",
+      "uploadedBytes": 534533,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "JPEG",
+      "mediaFormat": "JPEG",
+      "mimeType": "image/jpeg",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_b96fbfb2feb8819186118a8b71f5dff1",
+      "roomIds": [
+        "washStroller",
+        "hand-wash"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/10_lobby.webp",
+      "originalName": "10_lobby.webp",
+      "sha256": "c2e12a22089bf7419b50c26d3f549bd8c0182410088c6c6ada15e4d29251aefa",
+      "bytes": 537990,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/10_lobby.webp",
+      "officialSha256": "c2e12a22089bf7419b50c26d3f549bd8c0182410088c6c6ada15e4d29251aefa",
+      "officialBytes": 537990,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.3532600402832031
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "paw-wash-and-washbasin",
+      "observations": [
+        "Dedicated floor grille for paw washing, low wall tap and metal dispenser/bin.",
+        "Separate human-height angular basin and faucet, pale timber lower wall paneling and gray upper walls."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "10_lobby.webp",
+      "uploadedSha256": "65fac015ad54a9b0d071997c78f489fa1e027c4df950a5047a8c560ae3b094e8",
+      "uploadedBytes": 4444975,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_b22cd8d23da081919988c42ded925ab8",
+      "roomIds": [
+        "washStroller",
+        "paw-wash"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/11_kolysochnaya.webp",
+      "originalName": "11_kolysochnaya.webp",
+      "sha256": "170c45a5f95758d0a1c232a96ed6187a57d64668948423b97bc9915a4675c763",
+      "bytes": 451002,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/11_kolysochnaya.webp",
+      "officialSha256": "170c45a5f95758d0a1c232a96ed6187a57d64668948423b97bc9915a4675c763",
+      "officialBytes": 451002,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.32806650797526044
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "stroller-bicycle-scooter-storage",
+      "observations": [
+        "Individual stroller bays and low brushed-metal cubbies.",
+        "Two vertical bicycle wheels on wall support, hooks, upper cabinets and high exterior glazing."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "11_kolysochnaya.webp",
+      "uploadedSha256": "fc5805bc06ef153b93c8f2ae885ad20a42530c944f82f43ea72af1d2b05b88b3",
+      "uploadedBytes": 4299929,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_166d0c70ba94819188811fba57cc8653",
+      "roomIds": [
+        "washStroller",
+        "stroller"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/KIDS.jpg",
+      "originalName": "KIDS.jpg",
+      "sha256": "fc7c4b4a3265c3eb5c490ecccc964245b092b43ef5b1be3c212fc6dc2b077498",
+      "bytes": 524583,
+      "width": 2400,
+      "height": 1792,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/KIDS.jpg",
+      "officialSha256": "fc7c4b4a3265c3eb5c490ecccc964245b092b43ef5b1be3c212fc6dc2b077498",
+      "officialBytes": 524583,
+      "officialDimensions": [
+        2400,
+        1792
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.6970990498860677
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "kids-room",
+      "observations": [
+        "Rounded olive upholstered perimeter seating; animal murals; blue climbing holds on timber wall.",
+        "Suspended milky globe lights, blue soft furniture/carpets, mustard crash mat and small wooden toys."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "KIDS.jpg",
+      "uploadedSha256": "33200920a1bb6c0d4bdf73eda3133495978d7bc786b976b3b756390f8ade8962",
+      "uploadedBytes": 551068,
+      "uploadedDimensions": [
+        2048,
+        1529
+      ],
+      "uploadedMediaFormat": "JPEG",
+      "mediaFormat": "JPEG",
+      "mimeType": "image/jpeg",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_490158f58d64819197a64de7d0a8ad4a",
+      "roomIds": [
+        "kids"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/KITCHEN_9.jpg",
+      "originalName": "KITCHEN_9.jpg",
+      "sha256": "be1f7894b8af420121262aa0f1d0b9a7f12148746c0706e098eae01c49d009d7",
+      "bytes": 418473,
+      "width": 2400,
+      "height": 1792,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/KITCHEN_9.jpg",
+      "officialSha256": "be1f7894b8af420121262aa0f1d0b9a7f12148746c0706e098eae01c49d009d7",
+      "officialBytes": 418473,
+      "officialDimensions": [
+        2400,
+        1792
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.5934308369954427
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "coffee-coworking-kitchen",
+      "observations": [
+        "Cobalt cabinetry with pale blue illuminated backsplash and purple-blue under-bar light.",
+        "Three tall brown seats, repeated curved blue pendant, black tap, glassware and full-height courtyard-facing window."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "KITCHEN_9.jpg",
+      "uploadedSha256": "db8b21654ca902e1b0c570375f4fe96f462939f076def679a5f4f81c7e80a42b",
+      "uploadedBytes": 457180,
+      "uploadedDimensions": [
+        2048,
+        1529
+      ],
+      "uploadedMediaFormat": "JPEG",
+      "mediaFormat": "JPEG",
+      "mimeType": "image/jpeg",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_3ea9c3da5d008191934e5344445ce298",
+      "roomIds": [
+        "coffee"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/LOUNGE_FIN_3.jpg",
+      "originalName": "LOUNGE_FIN_3.jpg",
+      "sha256": "7336ec0c4b34b6e9311d9bb2b4dd4430f69b18ea0fcef58228f302ea2726a100",
+      "bytes": 604041,
+      "width": 2528,
+      "height": 1696,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/LOUNGE_FIN_3.jpg",
+      "officialSha256": "7336ec0c4b34b6e9311d9bb2b4dd4430f69b18ea0fcef58228f302ea2726a100",
+      "officialBytes": 604041,
+      "officialDimensions": [
+        2528,
+        1696
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 1.24090576171875
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "resident-lounge",
+      "observations": [
+        "Curved cream sofa, brown armchair, chrome pedestal coffee table, blue woodgrain wall.",
+        "Three warm vertical sconces, chrome wave panel and sculptural blue side lamp."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "LOUNGE_FIN_3.jpg",
+      "uploadedSha256": "3b2ab66f5938f85045219348e7333358eb77caaa10be5e5ccfce2ab68ae0cceb",
+      "uploadedBytes": 625762,
+      "uploadedDimensions": [
+        2048,
+        1373
+      ],
+      "uploadedMediaFormat": "JPEG",
+      "mediaFormat": "JPEG",
+      "mimeType": "image/jpeg",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_6763c4d16cec8191b44dd735b2680f38",
+      "roomIds": [
+        "lounge"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/YOGA_FIN.jpg",
+      "originalName": "YOGA_FIN.jpg",
+      "sha256": "3796f1ccffe786dc5323fd3161ee286eafa95ff3b677ff6c5d3c6fe355ab16c2",
+      "bytes": 283390,
+      "width": 2000,
+      "height": 1532,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/lobby/YOGA_FIN.jpg",
+      "officialSha256": "3796f1ccffe786dc5323fd3161ee286eafa95ff3b677ff6c5d3c6fe355ab16c2",
+      "officialBytes": 283390,
+      "officialDimensions": [
+        2000,
+        1532
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.0
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "individual-training-yoga",
+      "observations": [
+        "Timber ceiling/wall frame, full-height courtyard glazing with sheer curtains and mirrored side wall.",
+        "Tan exercise mats/bolsters and small wooden exercise weights; no large exercise machines."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "YOGA_FIN.jpg",
+      "uploadedSha256": "3796f1ccffe786dc5323fd3161ee286eafa95ff3b677ff6c5d3c6fe355ab16c2",
+      "uploadedBytes": 283390,
+      "uploadedDimensions": [
+        2000,
+        1532
+      ],
+      "uploadedMediaFormat": "JPEG",
+      "mediaFormat": "JPEG",
+      "mimeType": "image/jpeg",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_5e1b7b6422ec8191a2271e615e079b82",
+      "roomIds": [
+        "yoga",
+        "fitness"
+      ],
+      "uploadedByteIdenticalToOfficial": true,
+      "uploadedPixelIdenticalToOfficial": true
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/01.webp",
+      "originalName": "01.webp",
+      "sha256": "12d498836a36315fbd763b5367d2be8fd6ad8c44b92f930541977fe255dc337f",
+      "bytes": 711816,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/01.webp",
+      "officialSha256": "12d498836a36315fbd763b5367d2be8fd6ad8c44b92f930541977fe255dc337f",
+      "officialBytes": 711816,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.6707229614257812
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "lift-cabin-and-portal",
+      "observations": [
+        "Open metal-framed elevator with stainless walls, horizontal handrail and illuminated ceiling.",
+        "Oak wall panels, metallic slatted ceiling and pale flecked stone floor."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "01.webp",
+      "uploadedSha256": "4e242152d3fb772718f242eba85433da789f727807f5e4ff85c5edf2bcf106ff",
+      "uploadedBytes": 4727568,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_7966334b91088191b496ceda8e2a0bae",
+      "roomIds": [
+        "lift"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/02.webp",
+      "originalName": "02.webp",
+      "sha256": "8c921c7ea68da293795b13f8620fe69e32e911ae74c3bccb7e8bb3331f5fb2fc",
+      "bytes": 947472,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/02.webp",
+      "officialSha256": "8c921c7ea68da293795b13f8620fe69e32e911ae74c3bccb7e8bb3331f5fb2fc",
+      "officialBytes": 947472,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 1,
+        "resizedMeanRGBDifference": 0.7542546590169271
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "lift-hall",
+      "observations": [
+        "Open elevator cabin followed by at least two closed stainless lift doors.",
+        "Oak panel divisions, metallic slatted ceiling, recessed lights and glazed corridor door."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "02.webp",
+      "uploadedSha256": "839678bc985f5b64db45504fe69dda6cdb099d58e8d886dc30fddac2b4f0044c",
+      "uploadedBytes": 5120187,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_67c5ca75ce208191a12785ed2a7d1015",
+      "roomIds": [
+        "lift"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/06.webp",
+      "originalName": "06.webp",
+      "sha256": "c71b85d2e3dec35a1aee35300977a2cf756be6462241f5adc6d86004613b6593",
+      "bytes": 641094,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/06.webp",
+      "officialSha256": "c71b85d2e3dec35a1aee35300977a2cf756be6462241f5adc6d86004613b6593",
+      "officialBytes": 641094,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 1.2135887145996094
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "lift-hall",
+      "observations": [
+        "Three apparent stainless lift portals on one wall and apartment wayfinding opposite.",
+        "Oak wall panels, metal slatted ceiling, pale stone floor and glazed end door."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "06.webp",
+      "uploadedSha256": "1ea04c44abac3995b04e7058ae74ed948f0ea3dfa858f1dea4b5ff752a4d333a",
+      "uploadedBytes": 4392265,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_e114150aea38819186ea3d3ee547fd5a",
+      "roomIds": [
+        "lift"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/07.webp",
+      "originalName": "07.webp",
+      "sha256": "44e8045a5fd729b307806ec5ab2b15bc481fa33dbe666c28976b74a3fd6ce943",
+      "bytes": 512240,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/07.webp",
+      "officialSha256": "44e8045a5fd729b307806ec5ab2b15bc481fa33dbe666c28976b74a3fd6ce943",
+      "officialBytes": 512240,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 1,
+        "resizedMeanRGBDifference": 0.5668767293294271
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "lift-hall",
+      "observations": [
+        "Open and closed lift portals adjacent with call buttons between.",
+        "Oak paneling, brushed-metal framing, pale flecked floor tiles and slatted ceiling."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "07.webp",
+      "uploadedSha256": "da7d050ccdfd6bf4f24b408a84ad80b864177ffcf17ca71c8d528af9ec33d531",
+      "uploadedBytes": 4112650,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_9dcde1925b088191bcace8782a02487a",
+      "roomIds": [
+        "lift"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/09.webp",
+      "originalName": "09.webp",
+      "sha256": "60a7672d06e868de8c6407c79e0e4ab84246df75d31bf2a383720961f41aa761",
+      "bytes": 708786,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/09.webp",
+      "officialSha256": "60a7672d06e868de8c6407c79e0e4ab84246df75d31bf2a383720961f41aa761",
+      "officialBytes": 708786,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 4,
+        "resizedMeanRGBDifference": 0.7905845642089844
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "apartment-corridor",
+      "observations": [
+        "Oak apartment doors alternate with light-gray full-height wall panels.",
+        "Metal slatted ceiling, suspended spots, pale stone floor and metal/glazed entrance edge."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "09.webp",
+      "uploadedSha256": "acf616b1f0b2c039d48e6a56f8f6c6c7c46c93dd469ffd52dcc62d289809a4bf",
+      "uploadedBytes": 4413562,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_a40a9e8835048191a975cafe86b7b2af",
+      "roomIds": [
+        "apartmentHall"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/10.webp",
+      "originalName": "10.webp",
+      "sha256": "100296977eab634afc18895529d0cb0348b25150cf617c8c5819994eefd9620b",
+      "bytes": 932310,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/10.webp",
+      "officialSha256": "100296977eab634afc18895529d0cb0348b25150cf617c8c5819994eefd9620b",
+      "officialBytes": 932310,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.5801849365234375
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "apartment-door",
+      "observations": [
+        "Oak flush door with metal lever/lock, number plaque 706 and side push button.",
+        "Oak surround within light-gray paneling and pale stone flooring."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "10.webp",
+      "uploadedSha256": "1af4098ac0237a8a008a15400d4af6209d352325b6d4d324850f9f214a6ed6bf",
+      "uploadedBytes": 5075841,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_13a6295825808191a07746e1867da5f4",
+      "roomIds": [
+        "apartmentHall"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/12.webp",
+      "originalName": "12.webp",
+      "sha256": "b8049505d3a928f8d460967a657377ccd8add58ca9182b208ca2d1ccde54a059",
+      "bytes": 712188,
+      "width": 2400,
+      "height": 3000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/12.webp",
+      "officialSha256": "b8049505d3a928f8d460967a657377ccd8add58ca9182b208ca2d1ccde54a059",
+      "officialBytes": 712188,
+      "officialDimensions": [
+        2400,
+        3000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.6197725931803385
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "apartment-corridor",
+      "observations": [
+        "Short apartment corridor with oak doors on both sides and door 711 at the end.",
+        "Apartment number plaques, narrow suspended spots, slatted ceiling and pale stone floor."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "12.webp",
+      "uploadedSha256": "2ef72b7655428f596173b67848707f0048ddb3f119d8860a90d05446ae1e0dcc",
+      "uploadedBytes": 4371076,
+      "uploadedDimensions": [
+        1638,
+        2048
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_364508cde1b081919e7e437d0fd0afd5",
+      "roomIds": [
+        "apartmentHall"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    },
+    {
+      "path": "dist/assets/reference-amenities-v36/13.webp",
+      "originalName": "13.webp",
+      "sha256": "3a390230889a718d0b4956fe450b45c80f7c1a251bd5726e11816137ddd71cf4",
+      "bytes": 411132,
+      "width": 3000,
+      "height": 2000,
+      "sourceUrl": "https://rodina-peredelkino.ru/project/web/assets/images/webp/type/13.webp",
+      "officialSha256": "3a390230889a718d0b4956fe450b45c80f7c1a251bd5726e11816137ddd71cf4",
+      "officialBytes": 411132,
+      "officialDimensions": [
+        3000,
+        2000
+      ],
+      "visualComparison": {
+        "method": "64-bit difference hash plus mean RGB absolute difference after resizing both to 512x512; supports visual-source association, does not prove byte identity",
+        "dHashHammingDistance": 0,
+        "resizedMeanRGBDifference": 0.5370534261067709
+      },
+      "rights": {
+        "classification": "Unmodified third-party developer visualization from official public website; matching reference supplied by user",
+        "modelAuthor": false,
+        "modifyOriginal": false,
+        "developerAttribution": "Группа Родина / Родина Переделкино",
+        "notAnAuthoredModelTexture": true,
+        "userUploadedOriginalUntouched": true
+      },
+      "subject": "underground-parking",
+      "observations": [
+        "White bay markings with visible numbers 111, 112 and 113; numbers are not total capacity.",
+        "Concrete columns with protective trims, overhead pipework and linear luminaires.",
+        "Gold and purple lighting zones, road arrows and transverse drainage grille."
+      ],
+      "inspected": true,
+      "evidenceType": "visual-reference-not-dimensioned-plan",
+      "uploadedName": "13.webp",
+      "uploadedSha256": "88d4966b78c60a6a2586a1d8c95bf929202a203d8698a9a1d5789bd144a3456f",
+      "uploadedBytes": 3850477,
+      "uploadedDimensions": [
+        2048,
+        1365
+      ],
+      "uploadedMediaFormat": "PNG",
+      "mediaFormat": "WEBP",
+      "mimeType": "image/webp",
+      "runtimeVersion": "Exact unchanged official web asset, downloaded from sourceUrl; not a derivative edit of the uploaded original",
+      "runtimeByteIdenticalToOfficial": true,
+      "libraryOriginalId": "libfile_650fa041f3f4819199aaccb565c10e1d",
+      "roomIds": [
+        "parking"
+      ],
+      "uploadedByteIdenticalToOfficial": false,
+      "uploadedPixelIdenticalToOfficial": false
+    }
+  ],
+  "sources": [
+    {
+      "id": "developer-home",
+      "url": "https://rodina-peredelkino.ru/",
+      "kind": "official-developer-website",
+      "retrievedSha256": "7cf840cbccc16f639d2e522e15e09c3ea5b553717873050535cd014f0635b2af",
+      "webReference": "turn20view0",
+      "verification": "HTTP download plus web open; official image URLs parsed from downloaded HTML",
+      "byteLength": 284080
+    },
+    {
+      "id": "developer-brochure",
+      "url": "https://rodina-peredelkino.ru/project/web/assets/rodina_peredelkino.pdf",
+      "kind": "official-developer-brochure",
+      "retrievedSha256": "9520afc781211db3eff0168b096c767a94056fcc1912c5e558baa02e94b69d6b",
+      "byteLength": 15346070,
+      "pdfPages": 47,
+      "verification": "HTTP download, pypdf text inspection, visually rendered pages 38,39,40,41,45",
+      "notWorkingDrawings": true
+    }
+  ],
+  "originalUploadsPreserved": true,
+  "sourceAssociation": "Uploaded originals and official downloads have separate hashes. Nineteen uploaded files were resized/recompressed; YOGA_FIN.jpg is byte-identical. Visual association is documented, not mislabeled as file identity.",
+  "designScope": "Images establish appearance and amenity functions, not surveyed dimensions or exact room coordinates.",
+  "runtimePublicImageTotalBytes": 11651968,
+  "uploadedOriginalImageTotalBytes": 70188071,
+  "imagePolicy": "Runtime gallery uses exact official public web assets to reduce transfer size. All uploaded originals remain untouched; runtime and original hashes are separately recorded."
+}

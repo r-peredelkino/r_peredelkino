@@ -1,0 +1,2276 @@
+{
+  "createdAt": "2026-10-11T09:31:10.018Z",
+  "distSource": "rodina-v30",
+  "threeRevision": "170",
+  "inputSHA256": {
+    "geo-reference.js": "eb51f52c22fc8a5173811e50b86a59d75f37f4f92d99521b937984b427adbfd8",
+    "solar.js": "b3cf7cba9b500b96ed5f9d427356cb7df5b1bc0350895c1591108fa88a2a9968",
+    "complex-footprints.js": "99321bb7a316f1a705e7a1c6d16ea03078d5ac6a46e4e8aae3c4d6e21df27c5b",
+    "building-levels.js": "35cf60af34c583eb559cb0df4e257cb269ab036ad127f921b6e55e3102c39de0",
+    "neighbor-building-layout.js": "e82adca5400a9a50c0c041949233c7017ff6bad30f15230e0f01b65e25639274",
+    "neighbor-buildings.js": "682b8ababdda5cbdd18fbf7419d69e5009bef557f9c5ec34e432ecb722d50103",
+    "architectural-lighting.js": "764c0eb9ca561acb6244e5228f92492492d8a270770af184606b34fd6d53c8e2",
+    "environment.js": "bba1f5f4cde73a3068bfd3632b027e8ca17a2d40ab72266fab8e763922047dc7",
+    "cluster-map.js": "146086c5dabe464149d540c82548713de6c700fb78144c625050557069820bbe",
+    "onboarding.js": "c7395724b809f5af070e3e54ee56c0dfaa8c4a1049fe795487d8199938ebe94d",
+    "apartment3d.js": "937527667311cbb6ca0dffd0be1209636272d2958e9449c4c5dfd853a9eeb940"
+  },
+  "geo": {
+    "frameVersion": 28,
+    "geographicNorth": [
+      -0.0035370787031991464,
+      -0.9999937445175582
+    ],
+    "geographicEast": [
+      0.9999937445175582,
+      -0.0035370787031991455
+    ],
+    "axisNorms": [
+      1,
+      1
+    ],
+    "axisDot": -8.673617379884035e-19,
+    "clockwiseWorldNorthFromMinusZDegrees": -0.202660104,
+    "legacyNorthAngleToTrueNorthDegrees": 134.402474771,
+    "metersPerWorldUnit": 1.1099621032624687,
+    "worldUnitsPerMeter": 0.9009316597933738,
+    "accuracyMetersApproximate": 5,
+    "locations": [
+      {
+        "label": "model-origin",
+        "longitude": 37.35292368617269,
+        "latitude": 55.636552730942945,
+        "worldXYZ": [
+          0,
+          0,
+          0
+        ],
+        "distanceFromModelOriginMeters": 0
+      },
+      {
+        "label": "user-shademap",
+        "longitude": 37.3521,
+        "latitude": 55.63666,
+        "worldXYZ": [
+          -46.663134164,
+          0,
+          -10.593163293
+        ],
+        "distanceFromModelOriginMeters": 53.112158675
+      },
+      {
+        "label": "user-suncalc",
+        "longitude": 37.3525,
+        "latitude": 55.6367,
+        "worldXYZ": [
+          -24.035165402,
+          0,
+          -14.684875939
+        ],
+        "distanceFromModelOriginMeters": 31.263413308
+      }
+    ],
+    "maximumRoundTripDegrees": 7.105427357601002e-15
+  },
+  "topView": {
+    "old": {
+      "geographicNorthInScreenXY": [
+        -14.288849169,
+        -13.993883994
+      ],
+      "clockwiseDegreesFromScreenUp": -134.402474759
+    },
+    "corrected": {
+      "geographicNorthInScreenXY": [
+        0,
+        19.999999992
+      ],
+      "clockwiseDegreesFromScreenUp": 0
+    }
+  },
+  "cardinal": [
+    {
+      "azimuth": 0,
+      "worldDirection": [
+        -0.003537079,
+        0,
+        -0.999993745
+      ],
+      "geographicEast": 0,
+      "geographicNorth": 1
+    },
+    {
+      "azimuth": 90,
+      "worldDirection": [
+        0.999993745,
+        0,
+        -0.003537079
+      ],
+      "geographicEast": 1,
+      "geographicNorth": 0
+    },
+    {
+      "azimuth": 180,
+      "worldDirection": [
+        0.003537079,
+        0,
+        0.999993745
+      ],
+      "geographicEast": 0,
+      "geographicNorth": -1
+    },
+    {
+      "azimuth": 270,
+      "worldDirection": [
+        -0.999993745,
+        0,
+        0.003537079
+      ],
+      "geographicEast": -1,
+      "geographicNorth": 0
+    }
+  ],
+  "buildings": [
+    {
+      "id": 0,
+      "floors": 25,
+      "worldCenterXZ": [
+        45.4,
+        -74.68
+      ],
+      "lonLat": [
+        37.353730386,
+        55.637295756
+      ],
+      "wallHeightWorld": 80,
+      "wallHeightMetersIfIsotropic": 88.796968261,
+      "upperRoofWorld": 81.55,
+      "upperRoofMetersIfIsotropic": 90.517409521,
+      "footprintWorldBounds": [
+        33.6,
+        59.1248,
+        -103.2578,
+        -46.6146
+      ],
+      "source": "Traced engineering-layout.json; height is an estimate, not a verified real-metre input."
+    },
+    {
+      "id": 1,
+      "floors": 30,
+      "worldCenterXZ": [
+        -3.5467,
+        -59.5467
+      ],
+      "lonLat": [
+        37.352864751,
+        55.63714659
+      ],
+      "wallHeightWorld": 94,
+      "wallHeightMetersIfIsotropic": 104.336437707,
+      "upperRoofWorld": 95.835,
+      "upperRoofMetersIfIsotropic": 106.373218166,
+      "footprintWorldBounds": [
+        -19.2595,
+        7.5015,
+        -74.8846,
+        -41.0169
+      ],
+      "source": "Traced engineering-layout.json; height is an estimate, not a verified real-metre input."
+    },
+    {
+      "id": 2,
+      "floors": 30,
+      "worldCenterXZ": [
+        -36.0267,
+        -25.5733
+      ],
+      "lonLat": [
+        37.352288839,
+        55.63680899
+      ],
+      "wallHeightWorld": 94,
+      "wallHeightMetersIfIsotropic": 104.336437707,
+      "upperRoofWorld": 95.835,
+      "upperRoofMetersIfIsotropic": 106.373218166,
+      "footprintWorldBounds": [
+        -52.5045,
+        -15.119,
+        -41.58,
+        -15.8848
+      ],
+      "source": "Traced engineering-layout.json; height is an estimate, not a verified real-metre input."
+    },
+    {
+      "id": 3,
+      "floors": 30,
+      "worldCenterXZ": [
+        -28,
+        22.4
+      ],
+      "lonLat": [
+        37.35242764,
+        55.63633037
+      ],
+      "wallHeightWorld": 94,
+      "wallHeightMetersIfIsotropic": 104.336437707,
+      "upperRoofWorld": 95.835,
+      "upperRoofMetersIfIsotropic": 106.373218166,
+      "footprintWorldBounds": [
+        -50.1169,
+        -12.8613,
+        6.0732,
+        31.92
+      ],
+      "source": "Traced engineering-layout.json; height is an estimate, not a verified real-metre input."
+    },
+    {
+      "id": 4,
+      "floors": 31,
+      "worldCenterXZ": [
+        1.12,
+        56
+      ],
+      "lonLat": [
+        37.352939973,
+        55.635994321
+      ],
+      "wallHeightWorld": 94,
+      "wallHeightMetersIfIsotropic": 104.336437707,
+      "upperRoofWorld": 95.835,
+      "upperRoofMetersIfIsotropic": 106.373218166,
+      "footprintWorldBounds": [
+        -10.2414,
+        19.3712,
+        39.942,
+        75.8012
+      ],
+      "source": "Traced engineering-layout.json; height is an estimate, not a verified real-metre input."
+    },
+    {
+      "id": 5,
+      "floors": 30,
+      "worldCenterXZ": [
+        50.96,
+        55.0667
+      ],
+      "lonLat": [
+        37.353820502,
+        55.636001869
+      ],
+      "wallHeightWorld": 94,
+      "wallHeightMetersIfIsotropic": 104.336437707,
+      "upperRoofWorld": 95.835,
+      "upperRoofMetersIfIsotropic": 106.373218166,
+      "footprintWorldBounds": [
+        34.153,
+        60.9355,
+        41.1308,
+        73.6926
+      ],
+      "source": "Traced engineering-layout.json; height is an estimate, not a verified real-metre input."
+    }
+  ],
+  "neighbors": [
+    {
+      "id": "osm-way-41278293",
+      "address": "Боровское шоссе, 47",
+      "osmWayId": 41278293,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T10:01:03Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          100.162589872,
+          -175.200047157
+        ],
+        [
+          113.096330071,
+          -170.612310199
+        ],
+        [
+          129.034988695,
+          -215.880266789
+        ],
+        [
+          170.994930878,
+          -235.695921195
+        ],
+        [
+          165.143726392,
+          -247.971009504
+        ],
+        [
+          122.74502908,
+          -227.371526504
+        ],
+        [
+          125.031755506,
+          -222.615750539
+        ],
+        [
+          122.159500467,
+          -221.67287659
+        ],
+        [
+          120.624141304,
+          -218.849244015
+        ],
+        [
+          116.33223093,
+          -220.779725586
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41278310",
+      "address": "Боровское шоссе, 45",
+      "osmWayId": 41278310,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T10:01:03Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          190.154428039,
+          -240.968838892
+        ],
+        [
+          199.341250252,
+          -250.669470934
+        ],
+        [
+          235.669991556,
+          -217.360656237
+        ],
+        [
+          231.827473519,
+          -213.866936593
+        ],
+        [
+          234.185962526,
+          -211.227573148
+        ],
+        [
+          234.128820088,
+          -208.178497847
+        ],
+        [
+          239.697797759,
+          -208.47901315
+        ],
+        [
+          242.511614954,
+          -160.328804657
+        ],
+        [
+          228.31155602,
+          -159.646738767
+        ],
+        [
+          225.62629944,
+          -208.258744644
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41278378",
+      "address": "улица Шолохова, 10",
+      "osmWayId": 41278378,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T10:01:03Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          190.281296414,
+          -110.680105055
+        ],
+        [
+          142.897325146,
+          -108.797512006
+        ],
+        [
+          142.686952529,
+          -113.861507886
+        ],
+        [
+          140.078188737,
+          -113.641667475
+        ],
+        [
+          137.802210874,
+          -115.358637465
+        ],
+        [
+          134.310539868,
+          -111.896246366
+        ],
+        [
+          97.746716437,
+          -144.452040448
+        ],
+        [
+          107.220204161,
+          -154.725350178
+        ],
+        [
+          143.9325851,
+          -121.778943223
+        ],
+        [
+          189.915012878,
+          -123.014710833
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41277643",
+      "address": "улица Шолохова, 7",
+      "osmWayId": 41277643,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T09:31:45Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          -197.493080522,
+          -120.260381387
+        ],
+        [
+          -232.088809872,
+          -153.324596221
+        ],
+        [
+          -228.877824575,
+          -156.124068091
+        ],
+        [
+          -231.123244685,
+          -158.803948224
+        ],
+        [
+          -231.015299286,
+          -161.893319972
+        ],
+        [
+          -236.376681632,
+          -162.115056736
+        ],
+        [
+          -237.312085606,
+          -188.117432857
+        ],
+        [
+          -238.109229347,
+          -210.239002224
+        ],
+        [
+          -233.762573484,
+          -210.43490217
+        ],
+        [
+          -233.660075783,
+          -213.46407952
+        ],
+        [
+          -232.123865248,
+          -216.047014593
+        ],
+        [
+          -235.350474289,
+          -219.265000319
+        ],
+        [
+          -203.222545402,
+          -254.952170227
+        ],
+        [
+          -199.541993507,
+          -251.424885312
+        ],
+        [
+          -197.263010705,
+          -253.659426061
+        ],
+        [
+          -194.343804081,
+          -254.131094242
+        ],
+        [
+          -194.33847314,
+          -259.02535689
+        ],
+        [
+          -168.19930751,
+          -259.45880615
+        ],
+        [
+          -145.620443901,
+          -259.829516322
+        ],
+        [
+          -145.63670571,
+          -254.824893941
+        ],
+        [
+          -143.118546025,
+          -255.054443064
+        ],
+        [
+          -140.938016911,
+          -253.116493325
+        ],
+        [
+          -137.780637005,
+          -256.667964694
+        ],
+        [
+          -102.631309938,
+          -223.92664201
+        ],
+        [
+          -111.342895143,
+          -214.297895245
+        ],
+        [
+          -146.012196239,
+          -245.757179753
+        ],
+        [
+          -167.04067506,
+          -245.562449646
+        ],
+        [
+          -194.193751275,
+          -245.315968655
+        ],
+        [
+          -225.023516284,
+          -210.696484422
+        ],
+        [
+          -224.374433417,
+          -188.825121052
+        ],
+        [
+          -223.603078669,
+          -162.792077108
+        ],
+        [
+          -187.813401155,
+          -129.852435647
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-27791393",
+      "address": "Боровское шоссе, 40",
+      "osmWayId": 27791393,
+      "floors": 22,
+      "tagTimestamp": "2024-04-05T09:31:45Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 63.45,
+      "actualWallHeightWorld": 57.164113814,
+      "actualWallHeightMeters": 63.45,
+      "worldFootprint": [
+        [
+          -111.800352983,
+          -167.590348197
+        ],
+        [
+          -142.864009278,
+          -133.48152526
+        ],
+        [
+          -151.183588895,
+          -141.054222647
+        ],
+        [
+          -149.632935586,
+          -142.754640252
+        ],
+        [
+          -150.513157124,
+          -143.553861868
+        ],
+        [
+          -147.389279295,
+          -146.974835292
+        ],
+        [
+          -148.360388731,
+          -147.863998121
+        ],
+        [
+          -143.900142199,
+          -152.753959878
+        ],
+        [
+          -142.980154989,
+          -151.914762165
+        ],
+        [
+          -140.628826756,
+          -154.500580392
+        ],
+        [
+          -139.538491252,
+          -153.511547396
+        ],
+        [
+          -133.730625887,
+          -159.890595656
+        ],
+        [
+          -135.1503369,
+          -161.17933926
+        ],
+        [
+          -132.725669969,
+          -163.835621209
+        ],
+        [
+          -133.8273975,
+          -164.844672286
+        ],
+        [
+          -128.831492665,
+          -170.328250818
+        ],
+        [
+          -127.5537563,
+          -169.169384481
+        ],
+        [
+          -125.647872476,
+          -171.262196909
+        ],
+        [
+          -124.256535108,
+          -169.993411321
+        ],
+        [
+          -119.801949116,
+          -174.883353057
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41277477",
+      "address": "Боровское шоссе, 36",
+      "osmWayId": 41277477,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T09:29:07Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          70.820950633,
+          -340.798508579
+        ],
+        [
+          41.886761838,
+          -309.585623955
+        ],
+        [
+          -2.701559759,
+          -261.488391457
+        ],
+        [
+          -11.19771579,
+          -269.371369106
+        ],
+        [
+          -6.720274797,
+          -274.201216553
+        ],
+        [
+          -8.299083974,
+          -275.659893608
+        ],
+        [
+          -2.519024673,
+          -281.898434882
+        ],
+        [
+          -0.718709503,
+          -280.229928365
+        ],
+        [
+          5.630900392,
+          -287.082264671
+        ],
+        [
+          4.074768848,
+          -288.530992751
+        ],
+        [
+          12.781544885,
+          -297.919021991
+        ],
+        [
+          14.587520594,
+          -296.250535497
+        ],
+        [
+          20.717220817,
+          -302.861393445
+        ],
+        [
+          18.967992399,
+          -304.489963908
+        ],
+        [
+          27.640947094,
+          -313.837756767
+        ],
+        [
+          29.259486469,
+          -312.349132677
+        ],
+        [
+          35.225669573,
+          -318.778886863
+        ],
+        [
+          33.697947148,
+          -320.197627865
+        ],
+        [
+          42.382151975,
+          -329.565518892
+        ],
+        [
+          43.779256304,
+          -328.266666138
+        ],
+        [
+          49.892010382,
+          -334.867434958
+        ],
+        [
+          48.273435534,
+          -336.36608811
+        ],
+        [
+          56.624945583,
+          -345.371751591
+        ],
+        [
+          58.476347503,
+          -343.663309021
+        ],
+        [
+          62.750789495,
+          -348.271796303
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41277322",
+      "address": "улица Шолохова, 12",
+      "osmWayId": 41277322,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T09:29:07Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          -34.749710841,
+          -270.461478332
+        ],
+        [
+          -83.754493664,
+          -315.519781797
+        ],
+        [
+          -75.076197694,
+          -324.957856241
+        ],
+        [
+          -26.071414871,
+          -279.899552776
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41277248",
+      "address": "улица Шолохова, 14",
+      "osmWayId": 41277248,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T09:29:07Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          -60.222846236,
+          -340.986890683
+        ],
+        [
+          -69.487857651,
+          -350.191001642
+        ],
+        [
+          -38.179713735,
+          -385.594454621
+        ],
+        [
+          -39.492849415,
+          -433.569445789
+        ],
+        [
+          -34.48490369,
+          -434.048502051
+        ],
+        [
+          -34.864828909,
+          -437.437023794
+        ],
+        [
+          -33.102764372,
+          -440.181224745
+        ],
+        [
+          -36.21623357,
+          -443.419669035
+        ],
+        [
+          -3.632552665,
+          -478.286057559
+        ],
+        [
+          6.200747558,
+          -468.452117845
+        ],
+        [
+          -26.408342462,
+          -434.367916117
+        ],
+        [
+          -24.721114537,
+          -386.253839517
+        ],
+        [
+          -29.51378239,
+          -385.725398775
+        ],
+        [
+          -29.575343784,
+          -382.325286261
+        ],
+        [
+          -32.155683188,
+          -380.47078873
+        ],
+        [
+          -27.618190441,
+          -376.324725239
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41278780",
+      "address": "улица Шолохова, 8 к1",
+      "osmWayId": 41278780,
+      "floors": 14,
+      "tagTimestamp": "2024-04-05T10:01:03Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 40.650000000000006,
+      "actualWallHeightWorld": 36.622871971,
+      "actualWallHeightMeters": 40.65,
+      "worldFootprint": [
+        [
+          242.270110845,
+          -68.570908523
+        ],
+        [
+          233.490608571,
+          -76.543146641
+        ],
+        [
+          270.367471508,
+          -117.121299423
+        ],
+        [
+          279.146973782,
+          -109.149061306
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41278786",
+      "address": "улица Шолохова, 6",
+      "osmWayId": 41278786,
+      "floors": 14,
+      "tagTimestamp": "2024-04-05T10:01:03Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 40.650000000000006,
+      "actualWallHeightWorld": 36.622871971,
+      "actualWallHeightMeters": 40.65,
+      "worldFootprint": [
+        [
+          322.702667447,
+          24.516334609
+        ],
+        [
+          242.358896382,
+          -51.471456859
+        ],
+        [
+          249.972245758,
+          -59.521736522
+        ],
+        [
+          330.316016824,
+          16.466054945
+        ]
+      ]
+    },
+    {
+      "id": "osm-way-41277631",
+      "address": "Боровское шоссе, 44",
+      "osmWayId": 41277631,
+      "floors": 17,
+      "tagTimestamp": "2024-04-05T09:31:45Z",
+      "baseWorldY": -0.65,
+      "estimatedWallHeightMeters": 49.2,
+      "actualWallHeightWorld": 44.325837662,
+      "actualWallHeightMeters": 49.2,
+      "worldFootprint": [
+        [
+          -233.696449678,
+          -54.11018117
+        ],
+        [
+          -280.19496641,
+          -96.359147695
+        ],
+        [
+          -272.898536302,
+          -104.388248006
+        ],
+        [
+          -226.40001957,
+          -62.139281481
+        ]
+      ]
+    }
+  ],
+  "solarSamples": [
+    {
+      "day": "2026-10-11",
+      "minutesMoscow": 432,
+      "utc": "2026-10-11T04:12:00.000Z",
+      "azimuth": 105.017839797,
+      "elevation": 2.179040577,
+      "direction": [
+        0.966056609,
+        0.038022265,
+        0.255516995
+      ],
+      "freeShadowOf94WorldUnits": 2470.447968874,
+      "freeShadowOf94WorldUnitsInMeters": 2742.103623532,
+      "locationVariation": [
+        {
+          "label": "model-origin",
+          "deltaAzimuth": 0,
+          "deltaElevation": 0
+        },
+        {
+          "label": "user-shademap",
+          "deltaAzimuth": -0.000680573,
+          "deltaElevation": -0.000476838
+        },
+        {
+          "label": "user-suncalc",
+          "deltaAzimuth": -0.000346688,
+          "deltaElevation": -0.000269137
+        }
+      ]
+    },
+    {
+      "day": "2026-10-11",
+      "minutesMoscow": 720,
+      "utc": "2026-10-11T09:00:00.000Z",
+      "azimuth": 175.189546421,
+      "elevation": 27.595774607,
+      "direction": [
+        0.077442774,
+        0.463230679,
+        0.88284764
+      ],
+      "freeShadowOf94WorldUnits": 179.837717301,
+      "freeShadowOf94WorldUnitsInMeters": 199.613050941,
+      "locationVariation": [
+        {
+          "label": "model-origin",
+          "deltaAzimuth": 0,
+          "deltaElevation": 0
+        },
+        {
+          "label": "user-shademap",
+          "deltaAzimuth": -0.000917384,
+          "deltaElevation": -0.000145883
+        },
+        {
+          "label": "user-suncalc",
+          "deltaAzimuth": -0.000467845,
+          "deltaElevation": -0.000166806
+        }
+      ]
+    },
+    {
+      "day": "2026-06-29",
+      "minutesMoscow": 750,
+      "utc": "2026-06-29T09:30:00.000Z",
+      "azimuth": 178.446796275,
+      "elevation": 57.648560333,
+      "direction": [
+        0.016396234,
+        0.844781756,
+        0.534859747
+      ],
+      "freeShadowOf94WorldUnits": 59.542519634,
+      "freeShadowOf94WorldUnitsInMeters": 66.089940327,
+      "locationVariation": [
+        {
+          "label": "model-origin",
+          "deltaAzimuth": 0,
+          "deltaElevation": 0
+        },
+        {
+          "label": "user-shademap",
+          "deltaAzimuth": -0.001409041,
+          "deltaElevation": -0.000119837
+        },
+        {
+          "label": "user-suncalc",
+          "deltaAzimuth": -0.000720838,
+          "deltaElevation": -0.000153699
+        }
+      ]
+    },
+    {
+      "day": "2026-12-21",
+      "minutesMoscow": 720,
+      "utc": "2026-12-21T09:00:00.000Z",
+      "azimuth": 173.380858405,
+      "elevation": 10.713847494,
+      "direction": [
+        0.116711178,
+        0.185904092,
+        0.97561169
+      ],
+      "freeShadowOf94WorldUnits": 496.822749271,
+      "freeShadowOf94WorldUnitsInMeters": 551.454423729,
+      "locationVariation": [
+        {
+          "label": "model-origin",
+          "deltaAzimuth": 0,
+          "deltaElevation": 0
+        },
+        {
+          "label": "user-shademap",
+          "deltaAzimuth": -0.000764969,
+          "deltaElevation": -0.000160148
+        },
+        {
+          "label": "user-suncalc",
+          "deltaAzimuth": -0.000391475,
+          "deltaElevation": -0.000173854
+        }
+      ]
+    },
+    {
+      "day": "2026-03-20",
+      "minutesMoscow": 720,
+      "utc": "2026-03-20T09:00:00.000Z",
+      "azimuth": 168.373691325,
+      "elevation": 33.298367245,
+      "direction": [
+        0.171336145,
+        0.548999,
+        0.818073361
+      ],
+      "freeShadowOf94WorldUnits": 143.110210833,
+      "freeShadowOf94WorldUnitsInMeters": 158.846910614,
+      "locationVariation": [
+        {
+          "label": "model-origin",
+          "deltaAzimuth": 0,
+          "deltaElevation": 0
+        },
+        {
+          "label": "user-shademap",
+          "deltaAzimuth": -0.000964842,
+          "deltaElevation": -0.000198766
+        },
+        {
+          "label": "user-suncalc",
+          "deltaAzimuth": -0.000484103,
+          "deltaElevation": -0.000192443
+        }
+      ]
+    },
+    {
+      "day": "2026-09-22",
+      "minutesMoscow": 720,
+      "utc": "2026-09-22T09:00:00.000Z",
+      "azimuth": 172.87797039,
+      "elevation": 34.844862595,
+      "direction": [
+        0.104632968,
+        0.571356352,
+        0.814004828
+      ],
+      "freeShadowOf94WorldUnits": 135.022558173,
+      "freeShadowOf94WorldUnitsInMeters": 149.869922658,
+      "locationVariation": [
+        {
+          "label": "model-origin",
+          "deltaAzimuth": 0,
+          "deltaElevation": 0
+        },
+        {
+          "label": "user-shademap",
+          "deltaAzimuth": -0.000991842,
+          "deltaElevation": -0.000164088
+        },
+        {
+          "label": "user-suncalc",
+          "deltaAzimuth": -0.000502233,
+          "deltaElevation": -0.000175784
+        }
+      ]
+    }
+  ],
+  "oldShadowFrusta": [
+    {
+      "day": "2026-10-11",
+      "minutesMoscow": 432,
+      "overview": {
+        "center": [
+          0,
+          40,
+          -5
+        ],
+        "radiusWorld": 190,
+        "widthMeters": 421.78559924,
+        "worldTexelAt4096": 0.092773438,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              49.682804898,
+              108.338442102,
+              -41.490489355,
+              39.412760629,
+              478.546849347,
+              506.847610437
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              36.33662676,
+              67.709841477,
+              -39.880775691,
+              55.241501703,
+              520.320004373,
+              555.175475298
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -1.082266771,
+              24.933787406,
+              -39.294642087,
+              56.040765681,
+              535.724393518,
+              576.181220861
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -47.861184971,
+              -15.689826765,
+              -39.823340854,
+              55.461483669,
+              521.829470102,
+              560.956900867
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -80.309820857,
+              -44.576162923,
+              -41.23614974,
+              53.802987749,
+              484.698929029,
+              517.369370034
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              -61.128356561,
+              -29.789096935,
+              -42.937313244,
+              52.176749772,
+              439.990035989,
+              474.629621875
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          }
+        ]
+      },
+      "promenadeWalk": {
+        "center": [
+          4.935538834,
+          22,
+          -88.815329213
+        ],
+        "radiusWorld": 66,
+        "widthMeters": 146.514997631,
+        "worldTexelAt4096": 0.032226563,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              -32.60816715,
+              26.047470054,
+              -24.136966813,
+              56.766283171,
+              461.214217424,
+              489.514978513
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -45.954345288,
+              -14.581130571,
+              -22.527253149,
+              72.595024245,
+              502.98737245,
+              537.842843375
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -83.373238819,
+              -57.357184642,
+              -21.941119545,
+              73.394288224,
+              518.391761594,
+              558.848588938
+            ],
+            "verticesOutside": 245,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -130.152157019,
+              -97.980798813,
+              -22.469818311,
+              72.815006211,
+              504.496838179,
+              543.624268943
+            ],
+            "verticesOutside": 294,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -162.600792905,
+              -126.867134971,
+              -23.882627197,
+              71.156510291,
+              467.366297105,
+              500.036738111
+            ],
+            "verticesOutside": 294,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              -143.419328609,
+              -112.080068983,
+              -25.583790701,
+              69.530272315,
+              422.657404066,
+              457.296989951
+            ],
+            "verticesOutside": 294,
+            "totalVertices": 294
+          }
+        ]
+      }
+    },
+    {
+      "day": "2026-10-11",
+      "minutesMoscow": 720,
+      "overview": {
+        "center": [
+          0,
+          40,
+          -5
+        ],
+        "radiusWorld": 190,
+        "widthMeters": 421.78559924,
+        "worldTexelAt4096": 0.092773438,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              38.062212541,
+              64.993803158,
+              -17.755284942,
+              78.691401782,
+              535.322783645,
+              621.2581971
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -14.07578816,
+              10.870136188,
+              -19.081122988,
+              80.101411719,
+              526.301004273,
+              600.218488043
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -51.010853474,
+              -13.957196107,
+              -29.676548968,
+              66.411625071,
+              506.030182753,
+              574.02763717
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -53.015296751,
+              -15.666762936,
+              -51.723564637,
+              43.555140436,
+              463.850555384,
+              530.299360322
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -16.988650019,
+              14.365313233,
+              -72.401561077,
+              27.329193851,
+              424.290090709,
+              499.256411428
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              29.23789427,
+              56.255093029,
+              -74.142232603,
+              24.255634505,
+              420.959895029,
+              493.376178483
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          }
+        ]
+      },
+      "promenadeWalk": {
+        "center": [
+          4.935538834,
+          22,
+          -88.815329213
+        ],
+        "radiusWorld": 66,
+        "widthMeters": 146.514997631,
+        "worldTexelAt4096": 0.032226563,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              25.821456058,
+              52.753046674,
+              -40.28053304,
+              56.166153684,
+              453.370687678,
+              539.306101133
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -26.316544644,
+              -1.370620295,
+              -41.606371085,
+              57.576163621,
+              444.348908305,
+              518.266392075
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -63.251609957,
+              -26.19795259,
+              -52.201797066,
+              43.886376973,
+              424.078086785,
+              492.075541202
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -65.256053235,
+              -27.907519419,
+              -74.248812735,
+              21.029892338,
+              381.898459417,
+              448.347264354
+            ],
+            "verticesOutside": 98,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -29.229406502,
+              2.124556749,
+              -94.926809174,
+              4.803945753,
+              342.337994742,
+              417.30431546
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              16.997137787,
+              44.014336546,
+              -96.667480701,
+              1.730386408,
+              339.007799061,
+              411.424082515
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          }
+        ]
+      }
+    },
+    {
+      "day": "2026-06-29",
+      "minutesMoscow": 750,
+      "overview": {
+        "center": [
+          0,
+          40,
+          -5
+        ],
+        "radiusWorld": 190,
+        "widthMeters": 421.78559924,
+        "worldTexelAt4096": 0.092773438,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              35.370549162,
+              61.208173331,
+              12.770772915,
+              103.027636232,
+              507.856371361,
+              605.493938032
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -17.457053415,
+              8.680251422,
+              8.84835411,
+              87.900044418,
+              493.544844881,
+              591.166268505
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -52.02370958,
+              -14.726948288,
+              -11.722275288,
+              60.852883189,
+              480.514769303,
+              574.033756506
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -51.175843554,
+              -13.860119046,
+              -52.077031435,
+              20.059811009,
+              454.952813352,
+              548.194157566
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -12.60548078,
+              17.630359467,
+              -89.417309477,
+              -8.919445042,
+              431.300321462,
+              529.837796696
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              32.461295006,
+              59.335090547,
+              -89.372025405,
+              -11.539714163,
+              431.3290058,
+              528.17803685
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          }
+        ]
+      },
+      "promenadeWalk": {
+        "center": [
+          4.935538834,
+          22,
+          -88.815329213
+        ],
+        "radiusWorld": 66,
+        "widthMeters": 146.514997631,
+        "worldTexelAt4096": 0.032226563,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              27.869158272,
+              53.706782441,
+              -48.241888507,
+              42.014974809,
+              447.901778247,
+              545.539344918
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -24.958444305,
+              1.178860532,
+              -52.164307312,
+              26.887382996,
+              433.590251767,
+              531.211675391
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -59.52510047,
+              -22.228339179,
+              -72.73493671,
+              -0.159778233,
+              420.560176189,
+              514.079163392
+            ],
+            "verticesOutside": 98,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -58.677234444,
+              -21.361509936,
+              -113.089692858,
+              -40.952850413,
+              394.998220238,
+              488.239564452
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -20.10687167,
+              10.128968577,
+              -150.4299709,
+              -69.932106464,
+              371.345728348,
+              469.883203582
+            ],
+            "verticesOutside": 294,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              24.959904116,
+              51.833699657,
+              -150.384686827,
+              -72.552375585,
+              371.374412686,
+              468.223443736
+            ],
+            "verticesOutside": 294,
+            "totalVertices": 294
+          }
+        ]
+      }
+    },
+    {
+      "day": "2026-12-21",
+      "minutesMoscow": 720,
+      "overview": {
+        "center": [
+          0,
+          40,
+          -5
+        ],
+        "radiusWorld": 190,
+        "widthMeters": 421.78559924,
+        "worldTexelAt4096": 0.092773438,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              39.414142901,
+              67.207032303,
+              -32.445188694,
+              56.295077048,
+              548.808256314,
+              617.246713025
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -12.180586196,
+              12.091529751,
+              -32.792139607,
+              65.957327454,
+              544.371842569,
+              595.610081611
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -50.381721933,
+              -13.509409634,
+              -36.889004198,
+              60.725185408,
+              522.71848586,
+              567.956388018
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -53.965221654,
+              -16.640870272,
+              -45.707550762,
+              51.456798738,
+              476.109394888,
+              518.969735361
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -19.412765989,
+              12.53382006,
+              -54.036020753,
+              44.879455227,
+              432.090529344,
+              484.20618336
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              27.402215472,
+              54.482095623,
+              -55.126983908,
+              43.283139513,
+              426.324408976,
+              475.769098655
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          }
+        ]
+      },
+      "promenadeWalk": {
+        "center": [
+          4.935538834,
+          22,
+          -88.815329213
+        ],
+        "radiusWorld": 66,
+        "widthMeters": 146.514997631,
+        "worldTexelAt4096": 0.032226563,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              24.557810569,
+              52.350699972,
+              -30.121280714,
+              58.618985028,
+              464.266800235,
+              532.705256946
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -27.036918527,
+              -2.76480258,
+              -30.468231627,
+              68.281235434,
+              459.83038649,
+              511.068625532
+            ],
+            "verticesOutside": 90,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -65.238054264,
+              -28.365741965,
+              -34.565096218,
+              63.049093388,
+              438.177029781,
+              483.414931939
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -68.821553986,
+              -31.497202603,
+              -43.383642782,
+              53.780706718,
+              391.567938809,
+              434.428279282
+            ],
+            "verticesOutside": 82,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -34.26909832,
+              -2.322512271,
+              -51.712112773,
+              47.203363207,
+              347.549073265,
+              399.664727281
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              12.545883141,
+              39.625763292,
+              -52.803075928,
+              45.607047493,
+              341.782952897,
+              391.227642575
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          }
+        ]
+      }
+    },
+    {
+      "day": "2026-03-20",
+      "minutesMoscow": 720,
+      "overview": {
+        "center": [
+          0,
+          40,
+          -5
+        ],
+        "radiusWorld": 190,
+        "widthMeters": 421.78559924,
+        "worldTexelAt4096": 0.092773438,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              42.865521176,
+              74.004185022,
+              -15.342659574,
+              80.406546594,
+              525.581540371,
+              613.47491299
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -6.893943347,
+              17.017640765,
+              -14.788274527,
+              82.697221661,
+              518.739577362,
+              599.147377866
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -48.392303406,
+              -12.189898414,
+              -25.574898944,
+              69.464218403,
+              502.317491251,
+              579.000804611
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -56.315674101,
+              -19.213552829,
+              -51.253758006,
+              41.455338486,
+              463.222736634,
+              536.358711952
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -26.052109231,
+              7.418616701,
+              -75.935638498,
+              21.595581448,
+              425.645831094,
+              506.123243691
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              22.172329892,
+              49.346210079,
+              -82.342787678,
+              13.952736542,
+              415.891272904,
+              494.487401714
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          }
+        ]
+      },
+      "promenadeWalk": {
+        "center": [
+          4.935538834,
+          22,
+          -88.815329213
+        ],
+        "radiusWorld": 66,
+        "widthMeters": 146.514997631,
+        "worldTexelAt4096": 0.032226563,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              20.853410844,
+              51.99207469,
+              -44.779762141,
+              50.969444027,
+              447.978106518,
+              535.871479137
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -28.906053678,
+              -4.994469566,
+              -44.225377094,
+              53.260119093,
+              441.136143509,
+              521.543944012
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -70.404413737,
+              -34.202008746,
+              -55.012001512,
+              40.027115836,
+              424.714057397,
+              501.397370757
+            ],
+            "verticesOutside": 90,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -78.327784433,
+              -41.22566316,
+              -80.690860573,
+              12.018235918,
+              385.619302781,
+              458.755278099
+            ],
+            "verticesOutside": 196,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -48.064219563,
+              -14.59349363,
+              -105.372741065,
+              -7.841521119,
+              348.042397241,
+              428.519809838
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              0.160219561,
+              27.334099747,
+              -111.779890245,
+              -15.484366026,
+              338.287839051,
+              416.883967861
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          }
+        ]
+      }
+    },
+    {
+      "day": "2026-09-22",
+      "minutesMoscow": 720,
+      "overview": {
+        "center": [
+          0,
+          40,
+          -5
+        ],
+        "radiusWorld": 190,
+        "widthMeters": 421.78559924,
+        "worldTexelAt4096": 0.092773438,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              39.779690806,
+              67.868762804,
+              -11.964216687,
+              84.734122346,
+              527.114816698,
+              617.412617078
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -11.652618417,
+              12.432205632,
+              -12.87251809,
+              83.917882328,
+              517.811134372,
+              599.736053739
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -50.198211131,
+              -13.382366795,
+              -25.329311913,
+              68.064800274,
+              499.918068739,
+              576.96452507
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -54.219824226,
+              -16.906979165,
+              -52.402296017,
+              39.502014639,
+              461.030158388,
+              535.936648613
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -20.084815437,
+              12.023360744,
+              -78.01898236,
+              19.235122137,
+              424.234088987,
+              506.825077621
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              26.886892798,
+              53.98152525,
+              -81.706711217,
+              14.020109583,
+              418.936997664,
+              499.334180426
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          }
+        ]
+      },
+      "promenadeWalk": {
+        "center": [
+          4.935538834,
+          22,
+          -88.815329213
+        ],
+        "radiusWorld": 66,
+        "widthMeters": 146.514997631,
+        "worldTexelAt4096": 0.032226563,
+        "buildings": [
+          {
+            "building": 0,
+            "lightSpaceBounds": [
+              24.198642239,
+              52.287714237,
+              -44.329689689,
+              52.368649344,
+              449.120739759,
+              539.418540139
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 924
+          },
+          {
+            "building": 1,
+            "lightSpaceBounds": [
+              -27.233666983,
+              -3.148842934,
+              -45.237991092,
+              51.552409326,
+              439.817057433,
+              521.7419768
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 2,
+            "lightSpaceBounds": [
+              -65.779259698,
+              -28.963415362,
+              -57.694784915,
+              35.699327272,
+              421.9239918,
+              498.970448132
+            ],
+            "verticesOutside": 0,
+            "totalVertices": 294
+          },
+          {
+            "building": 3,
+            "lightSpaceBounds": [
+              -69.800872792,
+              -32.488027731,
+              -84.767769019,
+              7.136541637,
+              383.036081449,
+              457.942571674
+            ],
+            "verticesOutside": 195,
+            "totalVertices": 294
+          },
+          {
+            "building": 4,
+            "lightSpaceBounds": [
+              -35.665864004,
+              -3.557687823,
+              -110.384455362,
+              -13.130350865,
+              346.240012048,
+              428.831000682
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          },
+          {
+            "building": 5,
+            "lightSpaceBounds": [
+              11.305844232,
+              38.400476684,
+              -114.072184219,
+              -18.345363419,
+              340.942920725,
+              421.340103487
+            ],
+            "verticesOutside": 147,
+            "totalVertices": 294
+          }
+        ]
+      }
+    }
+  ],
+  "notes": [
+    "This report distinguishes verified coordinate transforms from unverified geometry dimensions.",
+    "The 5 m figure is a prior visual registration tolerance, not a surveying accuracy certificate.",
+    "World XZ and correctly scaled neighbor Y share one isotropic 1.1099621 m/unit metric. Main model height inputs are historical estimates in scene units.",
+    "Ground mesh is locally level; no terrain DSM/DTM, absolute surveyed datum, or measured tree-height inventory is included.",
+    "Solar/shadow results must not silently stretch the light vector to compensate for uncertain model height.",
+    "Old-shadow-frustum vertex clipping is a diagnostic of map coverage, not proof that a particular visible pixel loses a shadow."
+  ]
+}

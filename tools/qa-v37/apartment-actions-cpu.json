@@ -1,0 +1,3892 @@
+{
+  "revision": 37,
+  "pass": true,
+  "checkCount": 445,
+  "checks": [
+    {
+      "name": "1-59 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "sofa",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 13
+          },
+          {
+            "type": "toilet",
+            "index": 16
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-sofa-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-4",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-13",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-16",
+            "room": 2,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1-59 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 2621,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "1-59 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "1-59 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "1-59 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "1-59 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-59 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "bed",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 11
+          },
+          {
+            "type": "chair",
+            "index": 12
+          },
+          {
+            "type": "chair",
+            "index": 13
+          },
+          {
+            "type": "chair",
+            "index": 14
+          },
+          {
+            "type": "lsofa",
+            "index": 15
+          },
+          {
+            "type": "bed",
+            "index": 18
+          },
+          {
+            "type": "bed",
+            "index": 23
+          },
+          {
+            "type": "chair",
+            "index": 28
+          },
+          {
+            "type": "toilet",
+            "index": 33
+          },
+          {
+            "type": "toilet",
+            "index": 36
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-bed-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-11",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-12",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-13",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-14",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-lsofa-15",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-18",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-23",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-28",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-33",
+            "room": 5,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-36",
+            "room": 6,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1-81 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 7317,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "1-81 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "1-81 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "The family bedroom television cannot be toggled through the solid kitchen partition",
+      "pass": true,
+      "details": {
+        "kitchen": [
+          -3.344169199394442,
+          2.158894040115399
+        ],
+        "tv": "apt-tv-5"
+      }
+    },
+    {
+      "name": "1-81 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 2,
+        "hookTVCount": 2
+      }
+    },
+    {
+      "name": "1-81 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "1-81 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-81 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "sofa",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 3
+          },
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "toilet",
+            "index": 14
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-sofa-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-3",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-4",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-14",
+            "room": 2,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-345 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 2274,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-345 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-345 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-345 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-345 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-345 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "chair",
+            "index": 7
+          },
+          {
+            "type": "sofa",
+            "index": 8
+          },
+          {
+            "type": "bed",
+            "index": 11
+          },
+          {
+            "type": "chair",
+            "index": 16
+          },
+          {
+            "type": "toilet",
+            "index": 20
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-chair-4",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-7",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-8",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-11",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-16",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-20",
+            "room": 3,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-588 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 4856,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-588 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-588 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-588 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-588 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-588 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "chair",
+            "index": 7
+          },
+          {
+            "type": "sofa",
+            "index": 8
+          },
+          {
+            "type": "bed",
+            "index": 11
+          },
+          {
+            "type": "chair",
+            "index": 15
+          },
+          {
+            "type": "toilet",
+            "index": 20
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-chair-4",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-7",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-8",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-11",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-15",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-20",
+            "room": 3,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-591 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 5118,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-591 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-591 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-591 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-591 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-591 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "sofa",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 3
+          },
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "bed",
+            "index": 6
+          },
+          {
+            "type": "toilet",
+            "index": 14
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-sofa-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-3",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-4",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-6",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-14",
+            "room": 2,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-592 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 2835,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-592 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-592 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-592 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-592 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-592 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "sofa",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 3
+          },
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "bed",
+            "index": 11
+          },
+          {
+            "type": "chair",
+            "index": 15
+          },
+          {
+            "type": "toilet",
+            "index": 20
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-sofa-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-3",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-4",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-11",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-15",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-20",
+            "room": 3,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-594 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 4858,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-594 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-594 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-594 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-594 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-594 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "sofa",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "bed",
+            "index": 10
+          },
+          {
+            "type": "chair",
+            "index": 14
+          },
+          {
+            "type": "toilet",
+            "index": 19
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-sofa-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-4",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-10",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-14",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-19",
+            "room": 3,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-595 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 4356,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-595 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-595 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-595 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-595 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-595 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "sofa",
+            "index": 7
+          },
+          {
+            "type": "bed",
+            "index": 10
+          },
+          {
+            "type": "toilet",
+            "index": 19
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-chair-4",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-7",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-10",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-19",
+            "room": 3,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-598 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 6370,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-598 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-598 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-598 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-598 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-598 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "sofa",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "toilet",
+            "index": 11
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-sofa-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-4",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-11",
+            "room": 2,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "4-1071 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 3061,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "4-1071 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "4-1071 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "4-1071 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "4-1071 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "4-1071 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "sofa",
+            "index": 7
+          },
+          {
+            "type": "bed",
+            "index": 11
+          },
+          {
+            "type": "bed",
+            "index": 15
+          },
+          {
+            "type": "chair",
+            "index": 18
+          },
+          {
+            "type": "toilet",
+            "index": 21
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-chair-4",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-7",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-11",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-15",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-18",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-21",
+            "room": 4,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-596 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 6919,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-596 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-596 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-596 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-596 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-596 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "bed",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "toilet",
+            "index": 10
+          },
+          {
+            "type": "chair",
+            "index": 15
+          },
+          {
+            "type": "chair",
+            "index": 16
+          },
+          {
+            "type": "sofa",
+            "index": 17
+          },
+          {
+            "type": "bed",
+            "index": 19
+          },
+          {
+            "type": "chair",
+            "index": 22
+          },
+          {
+            "type": "toilet",
+            "index": 25
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-bed-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-10",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-15",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-16",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-17",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-19",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-22",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-25",
+            "room": 5,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "2-590 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 6587,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "2-590 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "2-590 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "2-590 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "2-590 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "2-590 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "sofa",
+            "index": 7
+          },
+          {
+            "type": "bed",
+            "index": 10
+          },
+          {
+            "type": "chair",
+            "index": 15
+          },
+          {
+            "type": "chair",
+            "index": 17
+          },
+          {
+            "type": "chair",
+            "index": 18
+          },
+          {
+            "type": "chair",
+            "index": 19
+          },
+          {
+            "type": "bed",
+            "index": 22
+          },
+          {
+            "type": "toilet",
+            "index": 32
+          },
+          {
+            "type": "toilet",
+            "index": 36
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-chair-4",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-7",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-10",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-15",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-17",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-18",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-19",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-22",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-32",
+            "room": 7,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-36",
+            "room": 8,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1-324 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 10730,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "1-324 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "1-324 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "1-324 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "1-324 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-324 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "bed",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 9
+          },
+          {
+            "type": "chair",
+            "index": 10
+          },
+          {
+            "type": "chair",
+            "index": 11
+          },
+          {
+            "type": "sofa",
+            "index": 13
+          },
+          {
+            "type": "bed",
+            "index": 16
+          },
+          {
+            "type": "bed",
+            "index": 21
+          },
+          {
+            "type": "chair",
+            "index": 25
+          },
+          {
+            "type": "toilet",
+            "index": 30
+          },
+          {
+            "type": "toilet",
+            "index": 33
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-bed-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-9",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-10",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-11",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-13",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-16",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-21",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-25",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-30",
+            "room": 5,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-33",
+            "room": 6,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1-325 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 8776,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "1-325 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "1-325 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 2,
+        "hookTVCount": 2
+      }
+    },
+    {
+      "name": "1-325 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "1-325 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-325 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "bed",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "chair",
+            "index": 6
+          },
+          {
+            "type": "toilet",
+            "index": 10
+          },
+          {
+            "type": "chair",
+            "index": 15
+          },
+          {
+            "type": "chair",
+            "index": 16
+          },
+          {
+            "type": "chair",
+            "index": 17
+          },
+          {
+            "type": "sofa",
+            "index": 18
+          },
+          {
+            "type": "bed",
+            "index": 20
+          },
+          {
+            "type": "chair",
+            "index": 23
+          },
+          {
+            "type": "toilet",
+            "index": 26
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-bed-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-6",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-10",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-15",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-16",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-17",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-18",
+            "room": 3,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-20",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-23",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-26",
+            "room": 5,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1-326 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 7601,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "1-326 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "1-326 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 1,
+        "hookTVCount": 1
+      }
+    },
+    {
+      "name": "1-326 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "1-326 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-326 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "bed",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 5
+          },
+          {
+            "type": "bed",
+            "index": 7
+          },
+          {
+            "type": "chair",
+            "index": 11
+          },
+          {
+            "type": "sofa",
+            "index": 13
+          },
+          {
+            "type": "chair",
+            "index": 16
+          },
+          {
+            "type": "chair",
+            "index": 17
+          },
+          {
+            "type": "chair",
+            "index": 18
+          },
+          {
+            "type": "bed",
+            "index": 24
+          },
+          {
+            "type": "chair",
+            "index": 28
+          },
+          {
+            "type": "toilet",
+            "index": 32
+          },
+          {
+            "type": "toilet",
+            "index": 37
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-bed-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-5",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-7",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-11",
+            "room": 1,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-13",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-16",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-17",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-18",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-24",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-28",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-32",
+            "room": 5,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-37",
+            "room": 6,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1-328 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 9082,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "1-328 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "1-328 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 2,
+        "hookTVCount": 2
+      }
+    },
+    {
+      "name": "1-328 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "1-328 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-328 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 exposes every bed, sofa, chair and toilet individually",
+      "pass": true,
+      "details": {
+        "eligible": [
+          {
+            "type": "bed",
+            "index": 0
+          },
+          {
+            "type": "chair",
+            "index": 4
+          },
+          {
+            "type": "bed",
+            "index": 7
+          },
+          {
+            "type": "chair",
+            "index": 12
+          },
+          {
+            "type": "toilet",
+            "index": 15
+          },
+          {
+            "type": "toilet",
+            "index": 16
+          },
+          {
+            "type": "chair",
+            "index": 22
+          },
+          {
+            "type": "chair",
+            "index": 23
+          },
+          {
+            "type": "sofa",
+            "index": 24
+          },
+          {
+            "type": "bed",
+            "index": 27
+          },
+          {
+            "type": "toilet",
+            "index": 33
+          }
+        ],
+        "poses": [
+          {
+            "id": "apt-bed-0",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-4",
+            "room": 0,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-7",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-12",
+            "room": 2,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-15",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-16",
+            "room": 4,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-22",
+            "room": 6,
+            "enabled": true
+          },
+          {
+            "id": "apt-chair-23",
+            "room": 6,
+            "enabled": true
+          },
+          {
+            "id": "apt-sofa-24",
+            "room": 6,
+            "enabled": true
+          },
+          {
+            "id": "apt-bed-27",
+            "room": 7,
+            "enabled": true
+          },
+          {
+            "id": "apt-toilet-33",
+            "room": 8,
+            "enabled": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "1-330 uses explicit Russian action cards",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 all furniture and TV approaches are collision-free and reached from the entrance",
+      "pass": true,
+      "details": {
+        "visited": 10667,
+        "unreachable": []
+      }
+    },
+    {
+      "name": "1-330 each resting eye stays inside its actual room and clear of walls/glazing",
+      "pass": true,
+      "details": {
+        "bad": []
+      }
+    },
+    {
+      "name": "1-330 lying views stay above the cushions and seated views retain normal head height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 resting views use a brief fade rather than crossing partitions by camera interpolation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 nearby activation checks a real visible approach and rejects outside/unknown targets",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 changing furniture poses preserves and restores the exact initial walking pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 caller mutations cannot change a resting target or its saved recovery pose",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 rejects a blocked/outside standing pose and unsupported fixture",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 model hooks retain a real luminaire in every room",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 actual room lights stay inside their room and below the ceiling",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 light switch changes real room light output and actual fixture emission",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 light switch turns every fixture and room light off",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 preserves an independently controlled actual screen for every television",
+      "pass": true,
+      "details": {
+        "sourceTVCount": 2,
+        "hookTVCount": 2
+      }
+    },
+    {
+      "name": "1-330 actual TV screen fronts face their room instead of the wall or exterior",
+      "pass": true,
+      "details": {
+        "backward": []
+      }
+    },
+    {
+      "name": "1-330 one TV switch changes its actual emission without turning other screens on",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 live TV changes original illustrated pixel frames and keeps the embedded author signature",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 paused TV retains its exact frame and elapsed state",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 reduced-motion TV has no changing pixels or elapsed animation",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 each TV turns off without replacing or sharing its material",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 TV actions never recolor appliances, laptop screens or other materials",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 hidden furniture rejects sitting/lying actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 reduced-motion resting view applies instantly",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 owned TV textures dispose exactly once and original maps/material state return",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "1-330 disposal removes room lights, clears all activity and rejects further actions",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Catalogue covers beds, both sofa shapes, chairs and toilets",
+      "pass": true,
+      "details": {
+        "coverage": {
+          "sofa": 16,
+          "chair": 72,
+          "toilet": 25,
+          "bed": 26,
+          "lsofa": 1
+        }
+      }
+    },
+    {
+      "name": "Every catalogue apartment has at least one independently switched television",
+      "pass": true,
+      "details": {
+        "withoutTV": []
+      }
+    }
+  ],
+  "models": [
+    {
+      "id": "1-59",
+      "fixtures": 5,
+      "televisions": 1,
+      "roomLights": 4,
+      "diagnostics": []
+    },
+    {
+      "id": "1-81",
+      "fixtures": 11,
+      "televisions": 2,
+      "roomLights": 8,
+      "diagnostics": []
+    },
+    {
+      "id": "2-345",
+      "fixtures": 4,
+      "televisions": 1,
+      "roomLights": 4,
+      "diagnostics": []
+    },
+    {
+      "id": "2-588",
+      "fixtures": 8,
+      "televisions": 1,
+      "roomLights": 5,
+      "diagnostics": []
+    },
+    {
+      "id": "2-591",
+      "fixtures": 8,
+      "televisions": 1,
+      "roomLights": 5,
+      "diagnostics": []
+    },
+    {
+      "id": "2-592",
+      "fixtures": 5,
+      "televisions": 1,
+      "roomLights": 4,
+      "diagnostics": []
+    },
+    {
+      "id": "2-594",
+      "fixtures": 8,
+      "televisions": 1,
+      "roomLights": 5,
+      "diagnostics": []
+    },
+    {
+      "id": "2-595",
+      "fixtures": 7,
+      "televisions": 1,
+      "roomLights": 5,
+      "diagnostics": []
+    },
+    {
+      "id": "2-598",
+      "fixtures": 6,
+      "televisions": 1,
+      "roomLights": 6,
+      "diagnostics": []
+    },
+    {
+      "id": "4-1071",
+      "fixtures": 4,
+      "televisions": 1,
+      "roomLights": 4,
+      "diagnostics": []
+    },
+    {
+      "id": "2-596",
+      "fixtures": 8,
+      "televisions": 1,
+      "roomLights": 7,
+      "diagnostics": []
+    },
+    {
+      "id": "2-590",
+      "fixtures": 10,
+      "televisions": 1,
+      "roomLights": 8,
+      "diagnostics": []
+    },
+    {
+      "id": "1-324",
+      "fixtures": 12,
+      "televisions": 1,
+      "roomLights": 11,
+      "diagnostics": []
+    },
+    {
+      "id": "1-325",
+      "fixtures": 10,
+      "televisions": 2,
+      "roomLights": 8,
+      "diagnostics": []
+    },
+    {
+      "id": "1-326",
+      "fixtures": 11,
+      "televisions": 1,
+      "roomLights": 8,
+      "diagnostics": []
+    },
+    {
+      "id": "1-328",
+      "fixtures": 12,
+      "televisions": 2,
+      "roomLights": 10,
+      "diagnostics": []
+    },
+    {
+      "id": "1-330",
+      "fixtures": 11,
+      "televisions": 2,
+      "roomLights": 11,
+      "diagnostics": []
+    }
+  ],
+  "coverage": {
+    "sofa": 16,
+    "chair": 72,
+    "toilet": 25,
+    "bed": 26,
+    "lsofa": 1
+  },
+  "timestamp": "2026-10-12T08:34:29.988Z"
+}

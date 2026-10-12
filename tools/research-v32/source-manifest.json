@@ -1,0 +1,117 @@
+{
+  "capturedSources": {
+    "retrievedUTC": "2026-10-11T10:50:25.333093+00:00",
+    "records": [
+      {
+        "url": "https://peredelkino-offices.ru/",
+        "local": "source-0.html",
+        "sha256": "4bef1026be8934fe6a79b7a021fa48bdd05edbf3fb78d344f570e2d17ab6745f",
+        "bytes": 71016,
+        "floorSVG": [
+          "https://rodina-peredelkino.ru/project/web/img/logo.svg",
+          "/project/web/assets/favicon/favicon.svg"
+        ],
+        "iframes": []
+      },
+      {
+        "url": "https://rodina-peredelkino.ru/",
+        "local": "source-1.html",
+        "sha256": "9417824da801fba140baa465253fcdfc949e8ca8b2979d41e598d8069035db1e",
+        "bytes": 284080,
+        "floorSVG": [
+          "https://rodina-peredelkino.ru/project/web/img/logo.svg",
+          "/project/web/assets/favicon/favicon.svg",
+          "/project/web/assets/images/svg/Group.svg",
+          "/project/web/assets/images/svg/dog.svg"
+        ],
+        "iframes": [
+          "https://pano.life-fly.ru/rodina/peredelkino/2026-06-29/"
+        ]
+      },
+      {
+        "url": "https://rodina-peredelkino.ru/online/",
+        "local": "source-2.html",
+        "sha256": "70bf25ba47311dec1a69a6b6e421deea52ea00bda9606d2920b5283eea31b8b6",
+        "bytes": 42576,
+        "floorSVG": [
+          "https://rodina-peredelkino.ru/project/web/img/logo.svg",
+          "/project/web/assets/favicon/favicon.svg",
+          "/project/web/assets/images/svg/camera2-first.svg",
+          "/project/web/assets/images/svg/camera2-second.svg",
+          "/project/web/assets/images/arrow-online.svg"
+        ],
+        "iframes": [
+          "https://watcher.teslatel.ru/vsaas/embed/borovskoe1-336736c8dc",
+          "https://watcher.teslatel.ru/vsaas/embed/borovskoe2-7c69d9eacd",
+          "https://rutube.ru/play/embed/4c640c371c9b294c1e5dbf20e81b0bbb/",
+          "https://rutube.ru/play/embed/1a87b810a155d0e38b13b41defcdaeac/",
+          "https://rutube.ru/play/embed/f1a4be087ea6978a57a449863cabf195/",
+          "https://rutube.ru/play/embed/09ac41d6368f80b1a4fcc69c2a9e25ea/",
+          "https://rutube.ru/play/embed/91fe23a30005bc372a46bb18ef039f2a/",
+          "https://rutube.ru/play/embed/e030775d28d7b59a4ff7b6e99e11d048/",
+          "https://rutube.ru/play/embed/f7bdba86cd9d57c046ba8d83da122695/",
+          "https://rutube.ru/play/embed/b7777b7c8bd60ba8a22f6ba87b5c4016/",
+          "https://rutube.ru/play/embed/208ac55b41de7318b1b08d6b0b0db7be/",
+          "https://rutube.ru/play/embed/87a2a8f4ca89d9251f85d5913aaa41c4/",
+          "https://rutube.ru/play/embed/ba116a525709a6b0b92f24dee41bc173/",
+          "https://rutube.ru/play/embed/25771000cbc3d565a2eccffb506ee69c/",
+          "https://rutube.ru/play/embed/27239bd4892ad9caa0fe84392997e4d7/",
+          "https://rutube.ru/play/embed/c221043e051be4e471fa08c2fe6b6b27/",
+          "https://rutube.ru/play/embed/58bb6ef63324b0550b228654f5f17808/",
+          "https://rutube.ru/play/embed/58bb6ef63324b0550b228654f5f17808/",
+          "https://rutube.ru/play/embed/5922475e500c83cf7fc4002987ed702c/",
+          "https://rutube.ru/play/embed/5922475e500c83cf7fc4002987ed702c/"
+        ]
+      },
+      {
+        "url": "https://rodina-peredelkino.ru/genplan/1/8/",
+        "local": "source-3.html",
+        "sha256": "1614b23411999202300ab250f0efdd72b2ce5a4eb25c010ee8ce7d4c5619fd4c",
+        "bytes": 144377,
+        "floorSVG": [
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/df623989-dbb9-5a45-4d43-c5ca2fd89a50.svg",
+          "\\/!upload\\/t_floor\\/5b8f5d08-ddc6-70f6-68e2-176fb30fc75d.svg",
+          "\\/!upload\\/t_floor\\/287290ea-ea6d-3ba4-0276-6ee4b377d6cb.svg",
+          "\\/!upload\\/t_floor\\/b56098c9-de08-a815-85b0-93a56856a529.svg",
+          "\\/!upload\\/t_floor\\/d1918a38-9024-ed86-7a68-51230ef26fdf.svg",
+          "\\/!upload\\/t_floor\\/41dbfe56-2434-8d6f-59a4-d34d23418db3.svg",
+          "\\/!upload\\/t_floor\\/490e599f-8676-fa20-4802-c772c9c8a5a8.svg",
+          "\\/!upload\\/t_floor\\/600c6a88-f2dd-d9d8-8e05-3fb0a658506c.svg",
+          "/project/web/assets/images/genplan/compass.svg",
+          "/project/web/assets/images/svg/arrow-floor.svg"
+        ],
+        "iframes": []
+      },
+      {
+        "url": "https://rodina-peredelkino.ru/genplan/2/8/",
+        "local": "source-4.html",
+        "sha256": "852c82f15741291164397be5e21f7fb0450e4daa0ba2b016e215f3285ddb628d",
+        "bytes": 143967,
+        "floorSVG": [
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/5a26dd7e-80cf-e595-97da-efed23bf9625.svg",
+          "\\/!upload\\/t_floor\\/df623989-dbb9-5a45-4d43-c5ca2fd89a50.svg",
+          "\\/!upload\\/t_floor\\/5b8f5d08-ddc6-70f6-68e2-176fb30fc75d.svg",
+          "\\/!upload\\/t_floor\\/287290ea-ea6d-3ba4-0276-6ee4b377d6cb.svg",
+          "\\/!upload\\/t_floor\\/b56098c9-de08-a815-85b0-93a56856a529.svg",
+          "\\/!upload\\/t_floor\\/d1918a38-9024-ed86-7a68-51230ef26fdf.svg",
+          "\\/!upload\\/t_floor\\/41dbfe56-2434-8d6f-59a4-d34d23418db3.svg",
+          "\\/!upload\\/t_floor\\/490e599f-8676-fa20-4802-c772c9c8a5a8.svg",
+          "\\/!upload\\/t_floor\\/600c6a88-f2dd-d9d8-8e05-3fb0a658506c.svg",
+          "/project/web/assets/images/genplan/compass.svg",
+          "/project/web/assets/images/svg/arrow-floor.svg"
+        ],
+        "iframes": []
+      }
+    ]
+  },
+  "privacyNote": "Public embedded camera URL query strings omitted. Raw HTML SHA-256 remains the capture checksum."
+}

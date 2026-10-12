@@ -1,0 +1,467 @@
+{
+  "nodeArchitecture": "arm64",
+  "samples": [
+    {
+      "pair": 1,
+      "version": 34,
+      "base": "http://127.0.0.1:8080",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.07333333333334,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 8072451,
+      "trianglesMin": 8072451,
+      "trianglesMax": 8072451,
+      "callsMean": 341,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 1,
+      "version": 34,
+      "base": "http://127.0.0.1:8080",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.44333333333331,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50,
+      "trianglesMean": 9662878,
+      "trianglesMin": 9662878,
+      "trianglesMax": 9662878,
+      "callsMean": 384,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 1,
+      "version": 34,
+      "base": "http://127.0.0.1:8080",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 57.40555555555556,
+      "medianMS": 50.099999999998545,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 10711830,
+      "trianglesMin": 10711830,
+      "trianglesMax": 10711830,
+      "callsMean": 437,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    },
+    {
+      "pair": 1,
+      "version": 35,
+      "base": "http://127.0.0.1:8095",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.25666666666667,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.099999999999454,
+      "trianglesMean": 8152262,
+      "trianglesMin": 8152262,
+      "trianglesMax": 8152262,
+      "callsMean": 350,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 1,
+      "version": 35,
+      "base": "http://127.0.0.1:8095",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.998888888888885,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50,
+      "trianglesMean": 9759957,
+      "trianglesMin": 9759957,
+      "trianglesMax": 9759957,
+      "callsMean": 399,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 1,
+      "version": 35,
+      "base": "http://127.0.0.1:8095",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 59.44111111111112,
+      "medianMS": 66.59999999999854,
+      "p95MS": 83.29999999999927,
+      "trianglesMean": 10808909,
+      "trianglesMin": 10808909,
+      "trianglesMax": 10808909,
+      "callsMean": 452,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    },
+    {
+      "pair": 2,
+      "version": 34,
+      "base": "http://127.0.0.1:8080",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.25777777777777,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 8072451,
+      "trianglesMin": 8072451,
+      "trianglesMax": 8072451,
+      "callsMean": 341,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 2,
+      "version": 34,
+      "base": "http://127.0.0.1:8080",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.99888888888891,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.100000000000364,
+      "trianglesMean": 9662878,
+      "trianglesMin": 9662878,
+      "trianglesMax": 9662878,
+      "callsMean": 384,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 2,
+      "version": 34,
+      "base": "http://127.0.0.1:8080",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 57.58888888888889,
+      "medianMS": 50.099999999998545,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 10711830,
+      "trianglesMin": 10711830,
+      "trianglesMax": 10711830,
+      "callsMean": 437,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    },
+    {
+      "pair": 2,
+      "version": 35,
+      "base": "http://127.0.0.1:8095",
+      "action": "courtyard",
+      "building": null,
+      "frames": 90,
+      "meanMS": 38.70222222222221,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.099999999999454,
+      "trianglesMean": 8152262,
+      "trianglesMin": 8152262,
+      "trianglesMax": 8152262,
+      "callsMean": 350,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -59.999999999999986,
+          42,
+          -11.999999999999995
+        ],
+        "quaternion": [
+          -0.208702434457969,
+          -0.7414970705144575,
+          -0.2673011540129305,
+          0.5789434180756792
+        ],
+        "zoom": 3.1
+      }
+    },
+    {
+      "pair": 2,
+      "version": 35,
+      "base": "http://127.0.0.1:8095",
+      "action": "forecourt",
+      "building": null,
+      "frames": 90,
+      "meanMS": 39.62777777777778,
+      "medianMS": 33.399999999999636,
+      "p95MS": 50.099999999998545,
+      "trianglesMean": 9759957,
+      "trianglesMin": 9759957,
+      "trianglesMax": 9759957,
+      "callsMean": 399,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          -88.38121209999998,
+          54.055899600000004,
+          -74.43182229999998
+        ],
+        "quaternion": [
+          -0.22660838399169494,
+          -0.6042660585401325,
+          -0.18474267704283415,
+          0.7412026133791575
+        ],
+        "zoom": 2.25
+      }
+    },
+    {
+      "pair": 2,
+      "version": 35,
+      "base": "http://127.0.0.1:8095",
+      "action": "facade",
+      "building": 0,
+      "frames": 90,
+      "meanMS": 57.58999999999998,
+      "medianMS": 50.099999999998545,
+      "p95MS": 66.70000000000073,
+      "trianglesMean": 10808909,
+      "trianglesMin": 10808909,
+      "trianglesMax": 10808909,
+      "callsMean": 452,
+      "glError": 0,
+      "gpu": "ANGLE (Apple, ANGLE Metal Renderer: Apple M2, Unspecified Version)",
+      "quality": "full",
+      "camera": {
+        "position": [
+          69.29551514918548,
+          23.999999999999996,
+          -113.98654342161173
+        ],
+        "quaternion": [
+          -0.017480156917969916,
+          0.9609114416377919,
+          0.06240383418518669,
+          0.26916427497476597
+        ],
+        "zoom": 4
+      }
+    }
+  ],
+  "errors": [],
+  "resources": [],
+  "method": {
+    "viewport": [
+      1500,
+      1000
+    ],
+    "dpr": 1,
+    "date": "2026-07-15",
+    "minutes": 720,
+    "quality": "full",
+    "pairedRepeats": 2,
+    "framesPerView": 90,
+    "order": [
+      34,
+      35,
+      34,
+      35
+    ],
+    "measurement": "requestAnimationFrame intervals; controlled comparison, no FPS guarantee"
+  },
+  "cameraPairs": [
+    {
+      "pair": 1,
+      "action": "courtyard",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 3.1,
+      "afterZoom": 3.1
+    },
+    {
+      "pair": 1,
+      "action": "forecourt",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 2.25,
+      "afterZoom": 2.25
+    },
+    {
+      "pair": 1,
+      "action": "facade",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 4,
+      "afterZoom": 4
+    },
+    {
+      "pair": 2,
+      "action": "courtyard",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 3.1,
+      "afterZoom": 3.1
+    },
+    {
+      "pair": 2,
+      "action": "forecourt",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 2.25,
+      "afterZoom": 2.25
+    },
+    {
+      "pair": 2,
+      "action": "facade",
+      "pass": true,
+      "positionError": 0,
+      "rotationError": 0,
+      "beforeZoom": 4,
+      "afterZoom": 4
+    }
+  ],
+  "pass": true
+}

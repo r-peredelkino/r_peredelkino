@@ -1,0 +1,769 @@
+{
+  "status": "PASS",
+  "createdAt": "2026-10-11T09:27:50.048Z",
+  "checks": [
+    {
+      "name": "overview/summer-noon",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 1937.101475599608,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/winter-noon",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 3739.4156578780185,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/near-horizon-east",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 3328.5669505434307,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/near-horizon-west",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 3328.566950543431,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/near-horizon-north",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 3428.211668569939,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/near-horizon-south",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 3428.2116685699393,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/morning",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 4076.3800613088515,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/zenith",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 129.1000000000002,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "overview/below-horizon",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 516.5804236600987,
+      "height": 516.5804236600987,
+      "near": 0.1,
+      "far": 3424.6173276035547,
+      "texelWorld": [
+        0.1261182674951413,
+        0.1261182674951413
+      ]
+    },
+    {
+      "name": "top/summer-noon",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 365.59801462145424,
+      "height": 365.59801462145424,
+      "near": 0.1,
+      "far": 1937.101475599608,
+      "texelWorld": [
+        0.08925732778844098,
+        0.08925732778844098
+      ]
+    },
+    {
+      "name": "top/winter-noon",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 393.7090744644569,
+      "height": 393.7090744644569,
+      "near": 0.1,
+      "far": 3739.4156578780185,
+      "texelWorld": [
+        0.09612037950792404,
+        0.09612037950792404
+      ]
+    },
+    {
+      "name": "top/near-horizon-east",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 258.74365766345096,
+      "height": 258.74365766345096,
+      "near": 0.1,
+      "far": 3328.5669505434307,
+      "texelWorld": [
+        0.06316983829674096,
+        0.06316983829674096
+      ]
+    },
+    {
+      "name": "top/near-horizon-west",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 258.74365766345096,
+      "height": 258.74365766345096,
+      "near": 0.1,
+      "far": 3328.566950543431,
+      "texelWorld": [
+        0.06316983829674096,
+        0.06316983829674096
+      ]
+    },
+    {
+      "name": "top/near-horizon-north",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 365.59801462145424,
+      "height": 365.59801462145424,
+      "near": 0.1,
+      "far": 3428.211668569939,
+      "texelWorld": [
+        0.08925732778844098,
+        0.08925732778844098
+      ]
+    },
+    {
+      "name": "top/near-horizon-south",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 365.59801462145424,
+      "height": 365.59801462145424,
+      "near": 0.1,
+      "far": 3428.2116685699393,
+      "texelWorld": [
+        0.08925732778844098,
+        0.08925732778844098
+      ]
+    },
+    {
+      "name": "top/morning",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 365.59801462145424,
+      "height": 365.59801462145424,
+      "near": 0.1,
+      "far": 4076.3800613088515,
+      "texelWorld": [
+        0.08925732778844098,
+        0.08925732778844098
+      ]
+    },
+    {
+      "name": "top/zenith",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 365.59801462145424,
+      "height": 365.59801462145424,
+      "near": 0.1,
+      "far": 129.1000000000002,
+      "texelWorld": [
+        0.08925732778844098,
+        0.08925732778844098
+      ]
+    },
+    {
+      "name": "top/below-horizon",
+      "pass": true,
+      "receiverVertices": 8,
+      "width": 365.59801462145424,
+      "height": 365.59801462145424,
+      "near": 0.1,
+      "far": 3424.6173276035547,
+      "texelWorld": [
+        0.08925732778844098,
+        0.08925732778844098
+      ]
+    },
+    {
+      "name": "walk-north/summer-noon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 1937.101475599608,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-north/winter-noon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3739.4156578780185,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-north/near-horizon-east",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1387.0514151898983,
+      "height": 1387.0514151898983,
+      "near": 0.1,
+      "far": 3328.5669505434307,
+      "texelWorld": [
+        0.33863559941159627,
+        0.33863559941159627
+      ]
+    },
+    {
+      "name": "walk-north/near-horizon-west",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1387.0514151898983,
+      "height": 1387.0514151898983,
+      "near": 0.1,
+      "far": 3328.566950543431,
+      "texelWorld": [
+        0.33863559941159627,
+        0.33863559941159627
+      ]
+    },
+    {
+      "name": "walk-north/near-horizon-north",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3428.211668569939,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-north/near-horizon-south",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3428.2116685699393,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-north/morning",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1225.9513404504403,
+      "height": 1225.9513404504403,
+      "near": 0.1,
+      "far": 4076.3800613088515,
+      "texelWorld": [
+        0.2993045264771583,
+        0.2993045264771583
+      ]
+    },
+    {
+      "name": "walk-north/zenith",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 129.1000000000002,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-north/below-horizon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3424.6173276035547,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-south/summer-noon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 1937.101475599608,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-south/winter-noon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3739.4156578780185,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-south/near-horizon-east",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1387.0514151898983,
+      "height": 1387.0514151898983,
+      "near": 0.1,
+      "far": 3328.5669505434307,
+      "texelWorld": [
+        0.33863559941159627,
+        0.33863559941159627
+      ]
+    },
+    {
+      "name": "walk-south/near-horizon-west",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1387.0514151898983,
+      "height": 1387.0514151898983,
+      "near": 0.1,
+      "far": 3328.566950543431,
+      "texelWorld": [
+        0.33863559941159627,
+        0.33863559941159627
+      ]
+    },
+    {
+      "name": "walk-south/near-horizon-north",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3428.211668569939,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-south/near-horizon-south",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3428.2116685699393,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-south/morning",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1225.9513404504403,
+      "height": 1225.9513404504403,
+      "near": 0.1,
+      "far": 4076.3800613088515,
+      "texelWorld": [
+        0.2993045264771583,
+        0.2993045264771583
+      ]
+    },
+    {
+      "name": "walk-south/zenith",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 129.1000000000002,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-south/below-horizon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3424.6173276035547,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-up/summer-noon",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 1937.101475599608,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-up/winter-noon",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3739.4156578780185,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-up/near-horizon-east",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1569.3213628474145,
+      "height": 1569.3213628474145,
+      "near": 0.1,
+      "far": 3328.5669505434307,
+      "texelWorld": [
+        0.38313509835141957,
+        0.38313509835141957
+      ]
+    },
+    {
+      "name": "walk-up/near-horizon-west",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1569.3213628474145,
+      "height": 1569.3213628474145,
+      "near": 0.1,
+      "far": 3328.566950543431,
+      "texelWorld": [
+        0.38313509835141957,
+        0.38313509835141957
+      ]
+    },
+    {
+      "name": "walk-up/near-horizon-north",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3428.211668569939,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-up/near-horizon-south",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3428.2116685699393,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-up/morning",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1457.2708930838867,
+      "height": 1457.2708930838867,
+      "near": 0.1,
+      "far": 4076.3800613088515,
+      "texelWorld": [
+        0.35577902663180827,
+        0.35577902663180827
+      ]
+    },
+    {
+      "name": "walk-up/zenith",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 129.1000000000002,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "walk-up/below-horizon",
+      "pass": true,
+      "receiverVertices": 22,
+      "width": 1775.5430785902727,
+      "height": 1775.5430785902727,
+      "near": 0.1,
+      "far": 3424.6173276035547,
+      "texelWorld": [
+        0.4334821969214533,
+        0.4334821969214533
+      ]
+    },
+    {
+      "name": "apartment/summer-noon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1083.5623486577567,
+      "height": 1083.5623486577567,
+      "near": 0.1,
+      "far": 1937.101475599608,
+      "texelWorld": [
+        0.26454158902777264,
+        0.26454158902777264
+      ]
+    },
+    {
+      "name": "apartment/winter-noon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1083.5623486577567,
+      "height": 1083.5623486577567,
+      "near": 0.1,
+      "far": 3739.4156578780185,
+      "texelWorld": [
+        0.26454158902777264,
+        0.26454158902777264
+      ]
+    },
+    {
+      "name": "apartment/near-horizon-east",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1083.5623486577567,
+      "height": 1083.5623486577567,
+      "near": 0.1,
+      "far": 3328.5669505434307,
+      "texelWorld": [
+        0.26454158902777264,
+        0.26454158902777264
+      ]
+    },
+    {
+      "name": "apartment/near-horizon-west",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1083.5623486577567,
+      "height": 1083.5623486577567,
+      "near": 0.1,
+      "far": 3328.566950543431,
+      "texelWorld": [
+        0.26454158902777264,
+        0.26454158902777264
+      ]
+    },
+    {
+      "name": "apartment/near-horizon-north",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1083.5623486577567,
+      "height": 1083.5623486577567,
+      "near": 0.1,
+      "far": 3428.211668569939,
+      "texelWorld": [
+        0.26454158902777264,
+        0.26454158902777264
+      ]
+    },
+    {
+      "name": "apartment/near-horizon-south",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1083.5623486577567,
+      "height": 1083.5623486577567,
+      "near": 0.1,
+      "far": 3428.2116685699393,
+      "texelWorld": [
+        0.26454158902777264,
+        0.26454158902777264
+      ]
+    },
+    {
+      "name": "apartment/morning",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1166.8781348725192,
+      "height": 1166.8781348725192,
+      "near": 0.1,
+      "far": 4076.3800613088515,
+      "texelWorld": [
+        0.28488235714661114,
+        0.28488235714661114
+      ]
+    },
+    {
+      "name": "apartment/zenith",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1166.8781348725192,
+      "height": 1166.8781348725192,
+      "near": 0.1,
+      "far": 129.1000000000002,
+      "texelWorld": [
+        0.28488235714661114,
+        0.28488235714661114
+      ]
+    },
+    {
+      "name": "apartment/below-horizon",
+      "pass": true,
+      "receiverVertices": 20,
+      "width": 1166.8781348725192,
+      "height": 1166.8781348725192,
+      "near": 0.1,
+      "far": 3424.6173276035547,
+      "texelWorld": [
+        0.28488235714661114,
+        0.28488235714661114
+      ]
+    },
+    {
+      "name": "receiver-and-caster-frustum-invariants",
+      "pass": true,
+      "cases": 54,
+      "maxReceiverOutside": 0,
+      "maxDepthOutside": 0,
+      "maxRayXYError": 1.250381750272293e-13,
+      "maxDirectionError": 4.6334797477944807e-14
+    },
+    {
+      "name": "independent-visible-volume-sampling",
+      "pass": true,
+      "candidates": 60000,
+      "sampledVisible": 2699,
+      "maxSampleOutside": 0
+    },
+    {
+      "name": "sub-texel-camera-stability",
+      "pass": true,
+      "texelWorld": [
+        0.025968724025738632,
+        0.025968724025738632
+      ]
+    },
+    {
+      "name": "one-time-transformed-instance-bounds",
+      "pass": true,
+      "counts": {
+        "casterMeshes": 1,
+        "receiverMeshes": 1,
+        "emptyMeshes": 0,
+        "padding": 0,
+        "includeInvisible": true,
+        "computedOnce": true
+      }
+    },
+    {
+      "name": "invalid-input-rejection-and-bound-refresh",
+      "pass": true
+    }
+  ],
+  "metrics": {
+    "maxReceiverOutside": 0,
+    "maxDepthOutside": 0,
+    "maxRayXYError": 1.250381750272293e-13,
+    "maxDirectionError": 4.6334797477944807e-14,
+    "sampledVisible": 2699,
+    "maxSampleOutside": 0
+  },
+  "sourceCasterBounds": {
+    "min": [
+      -280.19496641048124,
+      -0.65,
+      -478.2860575594003
+    ],
+    "max": [
+      330.3160168237276,
+      95.84,
+      75.8012
+    ]
+  },
+  "scope": "Tests camera coverage and exact preservation of parallel solar direction; does not certify source heights, terrain, or sampled GPU shadow accuracy."
+}

@@ -1,0 +1,39 @@
+{
+  "source": "https://rodina-peredelkino.ru/genplan/1/8/",
+  "apartment": "1-81",
+  "slot": 3,
+  "svgTransform": [
+    -1,
+    0,
+    0,
+    -1,
+    500,
+    500
+  ],
+  "displayTriangleToWorld": [
+    "lower-left → north/office corner B",
+    "lower-right → west/corpus2 corner A",
+    "top → south/courtyard corner C"
+  ],
+  "previous": {
+    "x": 0.1188946049,
+    "z": -66.6222144549,
+    "y": 25.12,
+    "angle": 1.7517440088,
+    "building": 1,
+    "floor": 8,
+    "slot": 3
+  },
+  "corrected": {
+    "x": -11.474947308696937,
+    "z": -64.90029289273791,
+    "angle": -2.656204764522099
+  },
+  "streetWindowNormal": [
+    -0.466551480108918,
+    -0.8844940454339859
+  ],
+  "fitRMSModelUnits": 0.21062784377992386,
+  "fitMaxModelUnits": 0.5948056339880611,
+  "method": "Rigid facade fit on the orientation branch determined by SVG view labels. No area, furniture or wall changes. Reconstruction footprint is raster-based; this is not surveyed registration."
+}

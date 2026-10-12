@@ -1,0 +1,45 @@
+// Tests rendered pane buffers, finite openings, plan area, registration and lifetime.
+import * as T from '../../dist/vendor/three.module.js';
+import {apartmentPlans,apartmentMetrics} from '../../dist/apartment-plans.js';
+import {createApartment} from '../../dist/apartment-model.js';
+import {registerApartmentFacade} from '../../dist/apartment-facade-v37.js';
+import {resolveApartmentRegistration,svgSlotPoints} from '../../dist/apartment-registration-v37.js';
+import {apartmentApertures,apartmentApertureProfile,apertureContains,cutApartmentOpenings} from '../../dist/apartment-apertures.js';
+import {complexFootprints} from '../../dist/complex-footprints.js';
+import {towerLevel} from '../../dist/building-levels.js';
+import {residentialFacadeSection} from '../../dist/facade-detail.js';
+const checks=[],assert=(name,pass,details={})=>{checks.push({name,pass,...details});if(!pass)throw new Error(name+' '+JSON.stringify(details));},plans=[];
+const legacy={'1-59':[-1.3865794507,-50.8697617760,1.1961343558],'1-81':[-11.474947308697,-64.900292892738,-2.656204764522]};
+assert('All personally identified official layouts are available',Object.keys(apartmentPlans).length>=17);
+for(const [id,data]of Object.entries(apartmentPlans)){
+ const snapshot=JSON.stringify({outline:data.outline,walls:data.walls,windows:data.windows,furniture:data.furniture}),apt=createApartment(id),m=apt.metrics,p=m.placement,spec=complexFootprints.buildings.find(b=>b.id===p.building),level=towerLevel(spec,p.floor-1),profile=apt.facadeRegistration.profile;
+ const area=Math.abs(data.outline.reduce((sum,a,i)=>{const b=data.outline[(i+1)%data.outline.length],x=m.coord(...a),y=m.coord(...b);return sum+x[0]*y[1]-y[0]*x[1];},0)/2);
+ assert(id+' uses its source corpus, floor, slot and metric area',p.building===(data.building||1)&&p.floor===data.floor&&p.slot===data.slot&&Math.abs(area-data.area)<1e-8&&Math.abs(p.y-level.base-.12)<1e-8,{area,placement:p});
+ if(legacy[id])assert(id+' keeps the verified original rigid orientation',Math.max(...[p.x,p.z,p.angle].map((v,i)=>Math.abs(v-legacy[id][i])))<1e-10);
+ else {const fit=resolveApartmentRegistration(data,m);assert(id+' registers the identified official SVG slot without area distortion',fit.areaScalePreserved&&fit.sourceFloorSHA256===data.source.floorSHA256&&Number.isFinite(fit.fitRMS)&&fit.fitRMS<1.8&&svgSlotPoints(data.source.floorContour).length>=5,{fitRMS:fit.fitRMS,windowFacadeRMS:fit.windowFacadeRMS});}
+ const expectedSill=residentialFacadeSection.centerOffset+residentialFacadeSection.windowAllowance/2-.12,expectedHead=Math.min(data.ceilingHeight-.035,level.height+residentialFacadeSection.centerOffset-residentialFacadeSection.windowAllowance/2-.12);
+ assert(id+' glazing copies the unchanged tower section and dark framing',Math.abs(profile.sill-expectedSill)<1e-8&&Math.abs(profile.head-expectedHead)<1e-8&&profile.frame===.045&&profile.sash===.028&&profile.projection===.11&&apt.glazing.material.roughness===.31&&apt.glazing.material.metalness===.08,{profile});
+ let maxPaneGap=0,maxVerticalError=0;const vertices=apt.glazing.geometry.attributes.position;
+ for(let i=0;i<vertices.count;i++){const q=[vertices.getX(i),vertices.getZ(i)],near=apt.facadeRegistration.nearest(q);maxPaneGap=Math.max(maxPaneGap,near.distance);maxVerticalError=Math.max(maxVerticalError,Math.min(Math.abs(vertices.getY(i)-profile.sill),Math.abs(vertices.getY(i)-profile.head)));}
+ assert(id+' actual rendered curved glass is attached to the tower pane surface',vertices.count>0&&maxPaneGap<.003&&maxVerticalError<.00005,{maxPaneGap,maxVerticalError,renderedVertices:vertices.count,previousPaneGap:apt.facadeRegistration.metadata.maxOriginalPaneGap});
+ apt.root.position.set(p.x,p.y,p.z);apt.root.rotation.y=p.angle;apt.root.updateMatrixWorld(true);apt.upper.visible=true;
+ const testPane=apt.facadeRegistration.windows[0].panes[0],testPoint=testPane.points[3].map((v,i)=>v*.37+testPane.points[4][i]*.63),paneMid=new T.Vector3(testPoint[0],(profile.sill+profile.head)/2,testPoint[1]),referenceWorld=apt.root.localToWorld(paneMid.clone()),rayOrigin=apt.root.localToWorld(new T.Vector3(testPoint[0]-testPane.normal[0]*.6,paneMid.y,testPoint[1]-testPane.normal[1]*.6)),rayDirection=referenceWorld.clone().sub(rayOrigin).normalize(),ray=new T.Raycaster(rayOrigin,rayDirection),hit=ray.intersectObject(apt.glazing,false)[0];
+ assert(id+' actual world-space view ray meets the source-aligned glass',!!hit&&hit.point.distanceTo(referenceWorld)<.004&&Math.abs(hit.distance-.6)<.004,{worldDelta:hit?.point.distanceTo(referenceWorld),rayDistance:hit?.distance});
+ const apertures=apartmentApertures(data,m,apt.facadeRegistration),opening=apartmentApertureProfile(apt);
+ const allPanes=apt.facadeRegistration.windows.flatMap(w=>w.panes),mid=allPanes[0].points[4],y=(profile.sill+profile.head)/2;
+ assert(id+' finite aperture opens glass and retains adjacent storeys and sill',apertures.length<=48&&apertureContains(...[mid[0],y,mid[1]],apertures,opening)&&!apertureContains(mid[0],profile.sill-.10,mid[1],apertures,opening)&&!apertureContains(mid[0],profile.head+.10,mid[1],apertures,opening)&&!apertureContains(mid[0]+allPanes[0].normal[0]*.5,y,mid[1]+allPanes[0].normal[1]*.5,apertures,opening),{segments:apertures.length,opening});
+ const rooms=data.rooms.map((r,i)=>({name:r.name,point:apt.world.roomPoint(i)}));
+ assert(id+' provides safe walking points for all reconstructed rooms',rooms.every(r=>r.point&&apt.world.free(r.point.x,r.point.z)),{rooms});
+ assert(id+' retains actual dynamic fixtures and exact physical pixel marks',apt.interactionVisuals.televisions.length>=1&&apt.interactionVisuals.televisions.every(t=>t.mesh.parent===apt.furniture&&t.mesh.userData.dynamic)&&apt.interactionVisuals.lights.length===data.rooms.length&&apt.interactionVisuals.lights.every(t=>t.mesh.parent===apt.ceiling&&t.mesh.userData.dynamic)&&apt.voxelAuthorship.stats.carriers===3&&apt.voxelAuthorship.verify().every(r=>r.text==='@r_peredelkino'&&r.complete&&r.recoveredPixels===r.expectedPixels),{televisions:apt.interactionVisuals.televisions.length,lights:apt.interactionVisuals.lights.length,marks:apt.voxelAuthorship.verify().map(({carrierName,text,complete,expectedPixels,recoveredPixels})=>({carrierName,text,complete,expectedPixels,recoveredPixels}))});
+ assert(id+' source metric geometry and raster furniture stay unchanged',JSON.stringify({outline:data.outline,walls:data.walls,windows:data.windows,furniture:data.furniture})===snapshot);
+ const geos=new Set(),materials=new Set(),textures=new Set();apt.root.traverse(o=>{if(o.geometry)geos.add(o.geometry);for(const mat of Array.isArray(o.material)?o.material:o.material?[o.material]:[]){materials.add(mat);for(const key of ['map','bumpMap','normalMap','roughnessMap','emissiveMap','alphaMap'])if(mat[key])textures.add(mat[key]);}});
+ const events=new Map();for(const resource of [...geos,...materials,...textures]){events.set(resource,0);resource.addEventListener('dispose',()=>events.set(resource,events.get(resource)+1));}apt.dispose();apt.dispose();assert(id+' disposes each live geometry, material and texture once',Array.from(events.values()).every(n=>n===1),{resources:events.size,bad:Array.from(events.entries()).filter(([,n])=>n!==1).map(([r,n])=>({name:r.name,type:r.type,n}))});
+ plans.push({id,area,placement:p,profile,maxPaneGap,previousPaneGap:apt.facadeRegistration.metadata.maxOriginalPaneGap,apertureSegments:apertures.length});
+}
+// Material clones affect only this finite apartment presentation. Source matrices,
+// source material identities on another tower, and instance buffers remain intact.
+const apt=createApartment('1-81'),shared=new T.MeshStandardMaterial({color:0x8c9b91}),geometry=new T.PlaneGeometry(2,2),group=new T.Group(),glass=new T.Mesh(geometry,shared),other=new T.Mesh(geometry,shared),tower={group};group.add(glass);const buffer=geometry.attributes.position.array.slice(),originalShader=shared.onBeforeCompile,opening=cutApartmentOpenings(tower,apt);
+const shader={uniforms:{},vertexShader:'#include <common>\n#include <project_vertex>',fragmentShader:'#include <common>\n#include <clipping_planes_fragment>'};glass.material.onBeforeCompile(shader);
+assert('Facade aperture cloning isolates source material and compiles source-aligned heights',glass.material!==shared&&other.material===shared&&shared.onBeforeCompile===originalShader&&shader.uniforms.rpApertures.value===opening.apertures&&shader.fragmentShader.includes('rpDelta.y>0.79500')&&shader.fragmentShader.includes('abs(rpV)<0.28000'));
+let cloneDisposes=0;glass.material.addEventListener('dispose',()=>cloneDisposes++);opening.dispose();opening.dispose();assert('Closing a finite apartment opening restores source references and releases its clone once',glass.material===shared&&!tower.apartmentOpenings&&cloneDisposes===1&&buffer.every((v,i)=>v===geometry.attributes.position.array[i]));apt.dispose();geometry.dispose();shared.dispose();
+console.log(JSON.stringify({revision:37,pass:checks.every(c=>c.pass),checkCount:checks.length,checks,plans},null,2));

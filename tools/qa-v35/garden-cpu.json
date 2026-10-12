@@ -1,0 +1,285 @@
+{
+  "revision": 35,
+  "pass": true,
+  "checkCount": 27,
+  "checks": [
+    {
+      "name": "Garden defaults are calm, intensity .7 and filtered shade .55",
+      "pass": true,
+      "details": {
+        "state": {
+          "mode": "calm",
+          "intensity": 0.7,
+          "shade": 0.55
+        }
+      }
+    },
+    {
+      "name": "Source planted islands and garden paths retain every original coordinate",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Source courtyard colliders are unchanged",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Original five tables, fifteen chairs and three umbrellas remain",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Roof obstacles preserve their originals and add only four shared shade columns",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "All six previous authored courtyard objects still exist",
+      "pass": true,
+      "details": {
+        "ids": [
+          "cyber-seat-west",
+          "cyber-seat-garden",
+          "cyber-seat-office",
+          "cyber-table-court",
+          "cyber-table-north",
+          "cyber-reaction-arena"
+        ],
+        "skipped": []
+      }
+    },
+    {
+      "name": "Art and restaurant have all three interactions and no rejected placements",
+      "pass": true,
+      "details": {
+        "ids": [
+          "garden-breathing-art",
+          "restaurant-terrace-office",
+          "restaurant-dining-seat"
+        ]
+      }
+    },
+    {
+      "name": "Plant palettes are batched in four rooted formations",
+      "pass": true,
+      "details": {
+        "plantCount": 457,
+        "plantsByType": {
+          "grass": 182,
+          "understory": 83,
+          "lavender": 95,
+          "pale": 97
+        }
+      }
+    },
+    {
+      "name": "Every actual transformed ground-plant vertex stays inside its source island",
+      "pass": true,
+      "details": {
+        "vertices": 235014,
+        "outsideVertices": 0,
+        "outsideRoots": 0
+      }
+    },
+    {
+      "name": "Whole plant envelopes and maximum shader breeze fit their true source boundaries",
+      "pass": true,
+      "details": {
+        "outsideEnvelopes": 0,
+        "minEnvelopeMargin": 0.0029997498271898126,
+        "radiallyClampedClumps": 3
+      }
+    },
+    {
+      "name": "All 57 terrace perennials and their true geometry remain in the existing bed",
+      "pass": true,
+      "details": {
+        "clumps": 57,
+        "vertices": 45144,
+        "outsideVertices": 0
+      }
+    },
+    {
+      "name": "All new geometry has finite positions and normals",
+      "pass": true,
+      "details": {
+        "meshes": 15,
+        "errors": 0
+      }
+    },
+    {
+      "name": "Authored geometry and materials carry project provenance",
+      "pass": true,
+      "details": {
+        "unmarkedGeometry": 0,
+        "unmarkedMaterials": 0
+      }
+    },
+    {
+      "name": "New static work uses nine garden and six restaurant meshes",
+      "pass": true,
+      "details": {
+        "gardenMeshes": 9,
+        "restaurantMeshes": 6
+      }
+    },
+    {
+      "name": "Restaurant shade has twenty louvers and a compact retained-floor footprint",
+      "pass": true,
+      "details": {
+        "shade": {
+          "center": [
+            63,
+            -74
+          ],
+          "postPoints": [
+            [
+              61.5,
+              -75.5
+            ],
+            [
+              64.5,
+              -75.5
+            ],
+            [
+              64.5,
+              -72.5
+            ],
+            [
+              61.5,
+              -72.5
+            ]
+          ],
+          "louvers": 20,
+          "footprint": [
+            3.16,
+            3.16
+          ],
+          "authorial": true
+        }
+      }
+    },
+    {
+      "name": "All six previous approaches and the new art approach are free",
+      "pass": true,
+      "details": {
+        "free": [
+          {
+            "id": "cyber-seat-west",
+            "free": true
+          },
+          {
+            "id": "cyber-seat-garden",
+            "free": true
+          },
+          {
+            "id": "cyber-seat-office",
+            "free": true
+          },
+          {
+            "id": "cyber-table-court",
+            "free": true
+          },
+          {
+            "id": "cyber-table-north",
+            "free": true
+          },
+          {
+            "id": "cyber-reaction-arena",
+            "free": true
+          },
+          {
+            "id": "garden-breathing-art",
+            "free": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Physical pedestrian circulation reaches all seven ground approaches",
+      "pass": true,
+      "details": {
+        "origin": {
+          "x": 6,
+          "z": 8
+        },
+        "visited": 6104,
+        "reachable": {
+          "cyber-table-court": true,
+          "cyber-seat-garden": true,
+          "cyber-seat-west": true,
+          "garden-breathing-art": true,
+          "cyber-seat-office": true,
+          "cyber-table-north": true,
+          "cyber-reaction-arena": true
+        },
+        "all": true
+      }
+    },
+    {
+      "name": "Both restaurant approaches are clear in the actual elevated world",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "The office-terrace route reaches both restaurant approaches",
+      "pass": true,
+      "details": {
+        "origin": {
+          "x": 62,
+          "z": -83
+        },
+        "visited": 2415,
+        "reachable": {
+          "restaurant-dining-seat": true,
+          "restaurant-terrace-office": true
+        },
+        "all": true
+      }
+    },
+    {
+      "name": "Dining seat retains an original chair at the elevated seat height",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Changing art mode changes real instance matrices and light intensity",
+      "pass": true,
+      "details": {
+        "lowIntensity": 0.0993177537899798,
+        "highIntensity": 1.0299648648906201
+      }
+    },
+    {
+      "name": "Pulse mode animates the actual petals over time",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Shade opening and closing moves the twenty real louvers",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Disabling the authored layer hides it and releases only its new colliders",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Hidden layers stop their CPU matrix updates",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Re-enabling the authored layer restores its shared collider references",
+      "pass": true,
+      "details": {}
+    },
+    {
+      "name": "Rooted GPU breeze has guarded instancing and live time/wind uniforms",
+      "pass": true,
+      "details": {}
+    }
+  ]
+}
