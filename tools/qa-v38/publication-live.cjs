@@ -44,6 +44,6 @@ const puppeteer=require('/Users/n1estate/.npm/_npx/4b4c857f6efdfb61/node_modules
   check('Historic walk link redirects to full canonical project',{pass:page.url()===base+'/index.html',url:page.url()});
   check('No script, shader or local resource errors',{pass:errors.length===0&&bad.length===0,errors,bad});
  }catch(e){errors.push(e.stack);await page.screenshot({path:out+'/publication-failure.png'}).catch(()=>{});}finally{
-  const result={revision:37,publication:'37.1.0',base,checks,errors,bad,actualChecks:checks.length,minimumChecks:25,pass:checks.length>=25&&checks.every(c=>c.pass)&&errors.length===0&&bad.length===0};fs.writeFileSync(out+'/publication.json',JSON.stringify(result,null,2));await browser.close();if(!result.pass)process.exitCode=1;
+  const result={revision:38,publication:'38.0.0',base,checks,errors,bad,actualChecks:checks.length,minimumChecks:25,pass:checks.length>=25&&checks.every(c=>c.pass)&&errors.length===0&&bad.length===0};fs.writeFileSync(out+'/publication.json',JSON.stringify(result,null,2));await browser.close();if(!result.pass)process.exitCode=1;
  }
 })().catch(e=>{console.error(e);process.exitCode=1;});

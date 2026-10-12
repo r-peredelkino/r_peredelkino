@@ -11765,7 +11765,7 @@
     {
       "path": "tools/qa-v38/publication-live.cjs",
       "bytes": 9319,
-      "sha256": "105dce69b9637d43d4128df28fa19266af769d87ade8556b09c2d9102fb6c5aa"
+      "sha256": "1d97ed6886bb3aae8294c1736e38f7418c0c66ddc041f2533816b4a4b76153f5"
     },
     {
       "path": "tools/qa-v38/quality-cpu.json",
